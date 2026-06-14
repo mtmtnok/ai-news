@@ -353,7 +353,7 @@ footer a{color:var(--ink-soft)}
 
 <footer>
   <span>AI CatchUP Daily — ai-news スキルにより自動生成</span>
-  <span><a href="https://www.notion.so/775c45708e7f4b70b120ce90f10e4d8b" target="_blank" rel="noopener">Notionデータベースを開く ↗</a></span>
+  <span>AIニュースを毎日自動収集してお届け</span>
 </footer>
 
 <div class="modal-bg" id="modal-bg">
@@ -366,7 +366,6 @@ const CAT_COLOR = {"新モデル":"var(--c-model)","資金調達":"var(--c-fund)
 const CAT_KANJI = {"新モデル":"新","資金調達":"資","規制":"規","研究":"研","ツール":"具","その他":"報"};
 const DATA = (window.NEWS_DATA || []).slice().sort((a,b)=> b.date.localeCompare(a.date));
 const ARCHIVE = (window.NEWS_ARCHIVE || []).slice().sort((a,b)=> b.d.localeCompare(a.d));
-const notionUrl = id => "https://www.notion.so/" + id;
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const stars = n => "★★★".slice(0, n) || "★";
 const jpDate = iso => { const [y,m,d] = iso.split("-"); return `${y}年${+m}月${+d}日`; };
@@ -456,7 +455,7 @@ function renderArchive(){
   // リッチ記事もアーカイブ一覧に含める（一覧性確保・モーダルで開く）
   const rows = [
     ...DATA.map(e => ({t:e.title, d:e.date, c:e.category, imp:e.importance, rich:true, id:e.id, extra:e.summary})),
-    ...ARCHIVE.map(a => ({t:a.t, d:a.d, c:a.c, imp:0, rich:false, n:a.n}))
+    ...ARCHIVE.map(a => ({t:a.title||a.t, d:a.date||a.d, c:a.category||a.c, imp:a.importance||0, rich:!!a.content, id:a.id||a.n, extra:a.summary}))
   ].filter(r => matches(r.t, r.c, r.imp || (fStar ? -1 : 0), r.extra))
    .sort((a,b)=> b.d.localeCompare(a.d));
 
@@ -467,14 +466,20 @@ function renderArchive(){
   document.getElementById("archive-slot").innerHTML = months.length ? months.map((m,i) => {
     const [y,mo] = m.split("-");
     const list = byMonth[m].map(r => {
-      const href = r.rich ? `javascript:openModal('${r.id}')` : notionUrl(r.n);
-      const target = r.rich ? "" : ' target="_blank" rel="noopener"';
-      return `<a class="arc-row ${r.rich?"is-rich":""}" href="${href}"${target}>
+      if(r.rich){
+        return `<a class="arc-row is-rich" href="javascript:openModal('${r.id}')">
+          <span class="d">${+r.d.slice(8,10)}日</span>
+          <span class="tag" style="background:${CAT_COLOR[r.c]||"var(--c-etc)"}">${esc(r.c)}</span>
+          <span class="t">${esc(r.t)}</span>
+          <span class="ext">記事 ↗</span>
+        </a>`;
+      }
+      return `<div class="arc-row is-plain">
         <span class="d">${+r.d.slice(8,10)}日</span>
         <span class="tag" style="background:${CAT_COLOR[r.c]||"var(--c-etc)"}">${esc(r.c)}</span>
         <span class="t">${esc(r.t)}</span>
-        <span class="ext">${r.rich ? "本誌記事" : "Notion ↗"}</span>
-      </a>`;
+        <span class="ext">—</span>
+      </div>`;
     }).join("");
     return `<details class="month" ${i===0?"open":""}>
       <summary>
@@ -513,7 +518,7 @@ function mdToHtml(md){
   return html;
 }
 function openModal(id){
-  const e = DATA.find(x => x.id === id);
+  const e = DATA.find(x => x.id === id) || ARCHIVE.find(x => x.id === id);
   if(!e) return;
   const m = document.getElementById("modal");
   m.innerHTML = `
@@ -526,7 +531,6 @@ function openModal(id){
       <div class="content">${e.content ? mdToHtml(e.content) : mdToHtml((e.points||[]).map(p=>"- "+p).join("\n"))}</div>
       <div class="actions">
         ${e.url ? `<a class="btn primary" href="${esc(e.url)}" target="_blank" rel="noopener">元記事を読む ↗</a>` : ""}
-        <a class="btn ghost" href="${notionUrl(e.id)}" target="_blank" rel="noopener">Notionで開く ↗</a>
       </div>
     </div>`;
   document.getElementById("modal-bg").classList.add("show");
