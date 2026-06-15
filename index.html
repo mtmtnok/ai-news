@@ -364,8 +364,8 @@ footer a{color:var(--ink-soft)}
 <script>
 const CAT_COLOR = {"新モデル":"var(--c-model)","資金調達":"var(--c-fund)","規制":"var(--c-reg)","研究":"var(--c-res)","ツール":"var(--c-tool)","その他":"var(--c-etc)"};
 const CAT_KANJI = {"新モデル":"新","資金調達":"資","規制":"規","研究":"研","ツール":"具","その他":"報"};
-const DATA = (window.NEWS_DATA || []).slice().sort((a,b)=> b.date.localeCompare(a.date));
-const ARCHIVE = (window.NEWS_ARCHIVE || []).slice().sort((a,b)=> b.d.localeCompare(a.d));
+const DATA = (window.NEWS_DATA || []).slice().sort((a,b)=> (b.date||b.d||"").localeCompare(a.date||a.d||""));
+const ARCHIVE = (window.NEWS_ARCHIVE || []).slice().sort((a,b)=> (b.date||b.d||"").localeCompare(a.date||a.d||""));
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const stars = n => "★★★".slice(0, n) || "★";
 const jpDate = iso => { const [y,m,d] = iso.split("-"); return `${y}年${+m}月${+d}日`; };
