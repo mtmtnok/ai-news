@@ -102,7 +102,7 @@ AIチップの高度化は、それを動かすメモリの進化と不可分だ
     "中国スタートアップ史上最大規模の調達となる可能性"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal",
-  image: "https://images.pexels.com/photos/5980801/pexels-photo-5980801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  image: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i5kedBPc42us/v1/1200x800.jpg",
   content: `## 概要
 中国の量子ヘッジファンド「高頻集団（High-Flyer Quant）」の傘下で成長し、V3やR1モデルで世界に衝撃を与えたDeepSeekが、同社初の外部資金調達に動いていることがブルームバーグの取材で明らかになった。テンセント・CATL（寧徳時代）などが主要投資家としてタームシートへの署名を開始しており、調達額約74億ドル（500億元）は中国のスタートアップ史上最大規模となりうる。
 
