@@ -1,0 +1,49 @@
+name: Backfill real images
+
+# クラウドの定期ルーティンが ai_news_data.js を push（image=loremflickr）した後、
+# ネットワークの使える GitHub Actions 上で記事固有の og:image / Pexels 画像に差し替える。
+# Action からの push は GITHUB_TOKEN なので、このワークフローを再帰起動しない（無限ループ防止）。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ai_news_data.js'
+  workflow_dispatch: {}   # 手動実行も可能
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backfill-images
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 実画像へバックフィル
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: node tools/backfill-images.mjs
+
+      - name: 構文チェック
+        run: node --check ai_news_data.js
+
+      - name: 変更があればコミット＆push
+        run: |
+          if [ -n "$(git status --porcelain ai_news_data.js)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add ai_news_data.js
+            git commit -m "実画像を後追い補完（GitHub Actions）"
+            git push
+          else
+            echo "差し替えなし（変更なし）"
+          fi

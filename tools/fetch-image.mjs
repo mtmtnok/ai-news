@@ -24,6 +24,7 @@
 import { readFileSync } from "node:fs";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { pathToFileURL } from "node:url";
 
 const pExecFile = promisify(execFile);
 
@@ -126,7 +127,7 @@ async function getPexelsImage(keywords) {
   return null;
 }
 
-async function resolveOne(item) {
+export async function resolveOne(item) {
   const url = item.url;
   const keywords = item.keywords || "";
 
@@ -149,7 +150,10 @@ async function main() {
   process.stdout.write(JSON.stringify(results, null, 2) + "\n");
 }
 
-main().catch((e) => {
-  process.stderr.write("fetch-image.mjs エラー: " + (e && e.message) + "\n");
-  process.exit(1);
-});
+// CLIとして直接実行されたときのみ main() を走らせる（他スクリプトからの import 時は走らせない）
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((e) => {
+    process.stderr.write("fetch-image.mjs エラー: " + (e && e.message) + "\n");
+    process.exit(1);
+  });
+}
