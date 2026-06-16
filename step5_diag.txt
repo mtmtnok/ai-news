@@ -1,0 +1,2 @@
+A nvidia    => source=loremflickr image=https://loremflickr.com/1200/630/semiconductor,chip [webfetch: HTTP 403 Forbidden]
+B bloomberg => source=loremflickr image=https://loremflickr.com/1200/630/startup,funding,investment [webfetch: HTTP 403 Forbidden]

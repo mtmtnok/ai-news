@@ -1,2 +1,0 @@
-URL1 nvidia => HTTP 403 Forbidden（ページ本文取得不可。認証またはボット対策によるブロック）
-URL2 bloomberg => HTTP 403 Forbidden（ページ本文取得不可。認証またはボット対策によるブロック）
