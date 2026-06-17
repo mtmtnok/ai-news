@@ -521,6 +521,7 @@ function openModal(id){
   const e = DATA.find(x => x.id === id) || ARCHIVE.find(x => x.id === id);
   if(!e) return;
   const m = document.getElementById("modal");
+  const bg = document.getElementById("modal-bg");
   m.innerHTML = `
     <button class="m-close" onclick="closeModal()" aria-label="閉じる">✕</button>
     ${e.image ? `<div class="m-img"><img src="${esc(e.image)}" alt="" onerror="this.parentElement.style.display='none'"></div>` : ""}
@@ -533,7 +534,13 @@ function openModal(id){
         ${e.url ? `<a class="btn primary" href="${esc(e.url)}" target="_blank" rel="noopener">元記事を読む ↗</a>` : ""}
       </div>
     </div>`;
-  document.getElementById("modal-bg").classList.add("show");
+  bg.scrollTop = 0;
+  m.scrollTop = 0;
+  bg.classList.add("show");
+  requestAnimationFrame(() => {
+    bg.scrollTop = 0;
+    m.scrollTop = 0;
+  });
   document.body.style.overflow = "hidden";
 }
 function closeModal(){
