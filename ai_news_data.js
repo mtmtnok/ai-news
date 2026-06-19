@@ -12,6 +12,79 @@
 window.NEWS_DATA = [
 // ⬇ NEW_ENTRIES_HERE ⬇（この行の直後に新しいエントリを追加）
 {
+  id: "20260620-01",
+  title: "Anthropic、ソウルオフィスを開設──韓国6社と大型提携、Fable 5禁止令の最中に「数日内に解決」と表明",
+  date: "2026-06-17",
+  added: "2026-06-20",
+  category: "ツール",
+  importance: 3,
+  summary: "Anthropicは2026年6月17日、東京・バンガロールに続くアジア太平洋3番目の拠点としてソウルオフィスを正式開設し、NAVER・Samsung SDS・LG CNS・Nexon・Hanwha Solutions・Channel Corpの6社との大型提携を同時発表した。韓国科学技術情報通信部とのMOUも締結し、KAIST等の大学研究者へのClaudeアクセス提供も発表。Fable 5・Mythos 5輸出禁止令の最中での開設となり、アジア太平洋担当Managing DirectorのChris Ciauriが「数日以内にモデルが再び利用可能になると非常に確信している」と表明した。",
+  points: [
+    "韓国6社と同時提携──NAVER（全エンジニア組織）・Samsung SDS（Samsung Electronics全体）・LG CNS（LGグループ全体）・Nexon・Hanwha Solutions・Channel Corp（23万社以上）",
+    "韓国科学技術情報通信部とMOUを締結──公共機関へのAI普及・モデル安全性評価・AIサイバーセキュリティで協力",
+    "KAIST・韓国大学・延世大学・POSTECHなど最大60名の研究者にClaudeアクセスを提供",
+    "Fable 5輸出禁止令の最中での開設──Chris Ciauri「数日以内にモデルが戻ってくると非常に確信」と楽観シグナル"
+  ],
+  url: "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+  image: "https://loremflickr.com/1200/630/seoul,anthropic,artificial,intelligence",
+  content: `## 概要
+Anthropicは2026年6月17日、東京（2024年開設）・バンガロール（2025年開設）に続くアジア太平洋地域3番目の拠点として、韓国・ソウルオフィスを正式開設した。開設と同時に韓国の主要テック企業・大手コングロマリット6社との大型提携を一挙発表し、韓国科学技術情報通信部との政府間MOUも締結した。この発表はFable 5・Mythos 5の輸出禁止令（6月12日発動）からわずか5日後という異例の状況の中で行われた。
+
+## 詳細
+ソウルオフィスを率いるのはSnowflake Korea元ゼネラルマネージャーのKiYoung Choi（チェ・キヨン）氏で、代表取締役として着任する。同オフィスはAnthropicのアジア太平洋担当マネージングディレクターChris Ciauri氏が管轄し、Anthropicにとって最も重要なアジア市場の一つとして位置付けられる。
+
+6社の企業提携の内訳は次の通りだ。韓国最大のインターネット企業NAVERは全エンジニアリング組織でClaude Codeを採用する。Samsung SDSはSamsung Electronics全体向けにClaude CoworkとClaude Codeを展開する。LGグループのIT子会社LG CNSはLGグループ全体にClaudeを展開し、ゲーム大手のNexonはライブサービスゲームの開発にClaude Codeを採用する。再生可能エネルギーのHanwha SolutionsはAWS Bedrock経由でインリージョンのデータ居住要件を満たしながらClaudeを導入する。Channel Corpはカスタマーサポートプラットフォーム「Channel Talk」（23万社以上が利用）にClaudeを統合する。
+
+研究・教育面では、KAIST・韓国大学・延世大学・POSTECHを含む国内AI研究コンソーシアムNAIRCの研究者最大60名にClaudeへのアクセスを提供する。韓国科学技術情報通信部とのMOUでは、公共機関へのAI普及、モデル安全性評価、AIに起因するサイバーセキュリティ脅威への対応で協力することが盛り込まれている。
+
+発表会見でCiauri氏は「われわれは数日以内にモデルが再び利用可能になることを非常に確信している」と述べ、同社にとって商業的に最も重要なアジア太平洋進出の日に楽観的なシグナルを発した。Fable 5への6月20日の払い戻し期限（禁止令の影響を受けたサブスクライバー向け）も重なり、Anthropicは規制当局との交渉を加速させている状況だ。
+
+## ポイント
+- 韓国6社（NAVER・Samsung SDS・LG CNS・Nexon・Hanwha Solutions・Channel Corp）との大型提携を一挙発表
+- 韓国科学技術情報通信部とMOU締結──公共機関AI普及・安全性評価・サイバーセキュリティ協力
+- KAIST・韓国大学・延世大学・POSTECH等の研究者最大60名にClaudeアクセス提供
+- Chris Ciauri「数日以内に解決と非常に確信」──Fable 5禁止令8日目での楽観シグナル
+- KiYoung Choi（Snowflake Korea元GM）が代表取締役に就任
+
+## 業界への影響・考察
+AnthropicのソウルオフィスとFable 5禁止令を同時に抱えるという状況は、AIグローバル展開において規制リスクと事業拡大が交差する困難さを如実に示している。一方でSamsung・LG・NAVERという韓国を代表する企業群へのClaude導入は、現在使用可能なOpus 4.8等の既存モデルで十分に事業展開できることを証明しており、Anthropicの事業柔軟性を示す。日本においても、Anthropicは東京法人を通じたエンタープライズ展開を加速しており、韓国の大型提携モデルが日本市場の参考事例となることが予想される。Korean AIエコシステムへのAnthropicの大規模参入は、従来のGoogleやMicrosoftが主導してきたアジア企業向けAIインフラ市場に新たな競争軸をもたらす。`
+},
+{
+  id: "20260620-02",
+  title: "Fable 5禁止令の翌日、Zhipu AI「GLM-5.2」を電撃リリース──Zhipu株33%高騰、OSSがFable代替の主役へ",
+  date: "2026-06-13",
+  added: "2026-06-20",
+  category: "新モデル",
+  importance: 2,
+  summary: "米政府がFable 5・Mythos 5への外国人アクセスを禁止した6月12日の翌日、中国Zhipu AI（智谱AI）は新モデル「GLM-5.2」の展開を開始した。744BパラメータのMoEアーキテクチャと1Mトークンのコンテキストウィンドウを持ち、MITライセンスでオープンウェイトを公開。Zhipu AI株は33%急騰し、OpenRouterがコンパウンドモデルAPI「Fusion」を立ち上げるなど、Fable 5の空白を埋めるオープンウェイト・中国AIモデルへの需要が急増した。",
+  points: [
+    "GLM-5.2：744B MoEパラメータ（アクティブ40B）・1Mトークンコンテキスト・MITライセンスでオープンウェイト公開",
+    "Zhipu AI株が33%急騰──Fable 5禁止が中国AIラボとOSSモデルへの商機を即座に拡大",
+    "OpenRouter Fusionがコンパウンドモデルで「Fableレベルの知性を半額で」と代替APIを提供開始",
+    "Llama・Mistral・GLM系OSSモデルがFable 5の空白を補完、エンタープライズの代替移行が急加速"
+  ],
+  url: "https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026",
+  image: "https://loremflickr.com/1200/630/china,opensource,artificial,intelligence",
+  content: `## 概要
+米政府が2026年6月12日にAnthropicのFable 5・Mythos 5への外国籍者アクセスを禁じる輸出管理令を発動した翌日、中国のZhipu AI（智谱AI）は次世代モデル「GLM-5.2」を静かにリリースした。禁令の直接の受益者となった同社の株価は一時33%急騰し、全世界でFable 5の代替を探す企業・開発者の需要が中国AIラボとオープンウェイトモデルへ集中する現象が起きた。
+
+## 詳細
+GLM-5.2はZhipu AIのMoE（Mixture-of-Experts）アーキテクチャを採用した総パラメータ744Bのモデルで、推論時にはそのうち約40Bのパラメータのみをアクティブ化する設計だ。最大の特徴はコンテキストウィンドウ100万トークン対応で、長大なコードベースや企業ドキュメントを丸ごと処理する能力を実現している。Zhipu AIはリリース時にSWE-benchなどの標準ベンチマーク結果を公開しなかったが、APIアクセスを全GLM Codingプランのすべてのティアで提供開始した。MITライセンスでのオープンウェイト公開（APIの翌週を予定）は、企業が自社環境でモデルをホスティングできることを意味し、Fable 5禁令で「外国籍者向けクローズドAPIへの依存リスク」を痛感した企業に訴求した。
+
+市場はこれを即座に歓迎した。Zhipu AIの株価は情報が広まるにつれて33%高騰し、Fable 5の禁止令が中国AIラボの競争力を高めるという構図を投資家が評価した。同時期にOpenRouterは「Fusion」というコンパウンドモデルAPIを開始し、複数のオープンウェイトモデルを組み合わせて「Fableレベルの知性を半額の価格で」と打ち出した。これは単一のプロプライエタリモデルへの依存を避けながらフロンティア級の性能を目指す企業エンジニアリングチームの需要に応えるものだ。
+
+Fable 5禁令が引き起こしたオープンウェイト需要の急増は構造的な変化を示している。禁令発動から数日で、Llama 3・Mistral・GLM-5.1・Kimi K2.6など複数のOSSモデルが代替候補として浮上し、エンタープライズの移行検討が急加速した。あるレポートでは、Fable 5禁令の8日間で西側クローズドモデルから東アジアのオープンウェイトモデルへの試行が有意に増加したと報告されている。
+
+## ポイント
+- GLM-5.2：744B MoE（アクティブ40B）・1Mトークンコンテキスト・MITライセンスOSS公開
+- Zhipu AI株33%急騰──Fable 5禁令が中国AIラボの競争優位を瞬時に引き上げた
+- OpenRouter Fusion APIがコンパウンドモデルで「Fable代替」を提供──半額の価格を訴求
+- OSSモデルへの需要急増が「クローズドAPIへの依存リスク」の議論を加速
+
+## 業界への影響・考察
+Fable 5禁令が引き起こしたOSSモデルへの需要シフトは、「フロンティアAIモデルは一夜にして利用不能になりうる」というリスクを企業に強く意識させた。中国AIラボとOSSエコシステムがこの空白を即座に埋めたことは、AIモデルの地政学的分断が「バックアップとしてのOSS」という新たな調達戦略を企業に促す契機となった。日本においても、クローズドなAPIへの依存度を下げるために社内でホスト可能なOSSモデルを組み合わせたマルチモデル戦略を検討する必要性が高まっている。GLM-5.2のMITライセンスと1Mトークンコンテキストは、データ主権と長大ドキュメント処理の両方を求める日本の金融・製造・公共機関に適合しうる選択肢だ。`
+},
+{
   id: "20260619-01",
   title: "Google「AI Mode」が月間10億ユーザー突破──Chromeに自律操作エージェント「Auto Browse」を6月末展開へ",
   date: "2026-06-19",
