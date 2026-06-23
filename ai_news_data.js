@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "推論バジェットのダイナミック制御とFrontierMath Tier 4水準の数学推論改善──エージェント型コーディング能力も強化"
   ],
   url: "https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm",
-  image: "https://loremflickr.com/1200/630/openai,artificial,intelligence",
+  image: "https://d.techtimes.com/en/full/466817/gpt-56.png",
   content: `## 概要
 OpenAIのチーフサイエンティストJakub Pachockiが6月11日に社内スタッフへ送ったメモで、次世代モデルGPT-5.6を「GPT-5.5を大きく超える改善」と表現したことが伝えられ、AI業界に広く知れ渡った。予測市場Polymarketでは6月22〜28日のリリース確率が90%超となっており、複数のリーク情報や開発者ログから6月25日（木）リリースが有力視されている。
 
@@ -61,7 +61,7 @@ GPT-5.6のリリースは、6月に業界地図を塗り替えうる複数のカ
     "GDPRと欧州AI法に完全準拠し、公共機関・学術・企業へ無償公開する設計──EU主権AI戦略の実行への大きな一歩"
   ],
   url: "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grand-challenge-project-build-european-open",
-  image: "https://loremflickr.com/1200/630/europe,artificial,intelligence",
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 欧州委員会は2026年6月19日、2026年2月に開始した「フロンティアAIグランドチャレンジ（Frontier AI Grand Challenge）」の勝者として、イタリア企業Domynが率いるEUROPAコンソーシアムを選出した。EUROPAはEUの公式24言語すべてに対応した400億パラメータ超のオープンソースフロンティアAIモデルを、欧州の公共スーパーコンピュータ基盤のみを用いて構築する。
 
@@ -97,7 +97,7 @@ EUROPAプロジェクトは、欧州が米国AI主要プレイヤーへの依存
     "GoogleはA24のコンテンツライブラリへのデータアクセスは取得しない──A24の独立性とクリエイターの権利を保持"
   ],
   url: "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-  image: "https://loremflickr.com/1200/630/filmmaking,artificial,intelligence",
+  image: "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2252299302.jpg?w=1024",
   content: `## 概要
 Google DeepMindとインディーズ映画スタジオA24は2026年6月22日、AI映像制作ツールの共同開発に関するパートナーシップを締結した。Googleはこの提携に伴いA24に約7,500万ドルを出資しており、A24の過去の資金調達（Thrive Capitalが同額を投資）に匹敵する規模となる。DeepMindの研究リソースとインフラがA24のクリエイターたちと直接協働する業界初の取り組みだ。
 
@@ -133,7 +133,7 @@ DeepMindはすでにダーレン・アロノフスキー監督など個別のフ
     "中学生は教師監督下のみ使用可・高校生は自律的活用を推奨──2024年のスマートフォン禁止に続く方針"
   ],
   url: "https://thenextweb.com/news/norway-bans-generative-ai-elementary-school-children",
-  image: "https://loremflickr.com/1200/630/school,children,technology",
+  image: "https://media.thenextweb.com/2026/06/norway-bans-generative-ai-elementary-school-children.avif",
   content: `## 概要
 ノルウェー政府は2026年6月22日、小学校（1〜7年生、6〜13歳）での生成AIツール利用を全面禁止する方針を正式に発表した。PISAの数学テストスコアが観測史上最低を記録するなど、学力低下が深刻な政策課題となる中での決断だ。首相Jonas Gahr Storeは「AIは子どもたちが読み・書き・数学を習得する上で不可欠なステップを飛び越えさせてしまう」と述べ、基礎学力形成の観点からの必要性を強調した。
 
@@ -167,7 +167,7 @@ DeepMindはすでにダーレン・アロノフスキー監督など個別のフ
     "チーフサイエンティストPachockiはRSI到達まで6か月以内の可能性を示唆──GPT-5.6リリース直前の異例の開示"
   ],
   url: "https://www.kucoin.com/news/flash/openai-delays-ipo-as-gpt-5-6-launches-sparks-rsi-speculation",
-  image: "https://loremflickr.com/1200/630/startup,investment,technology",
+  image: "https://assets.staticimg.com/@kudos/runtime/0.5.7/assets/og-ea52b6f9440e857c.jpg",
   content: `## 概要
 OpenAI CEOのSam Altmanが社内スタッフへ向けて「IPOは1年以内に計画している」と伝えたことが複数のメディアで報じられた。しかしAltmanは同時に、AIが自分自身を改善し続ける「再帰的自己改善（RSI：Recursive Self-Improvement）」に達した場合は「世界もテクノロジーも大きく変わりうるため、民間企業のままでいることに利点がある時期が訪れるかもしれない」と付け加えた。
 
