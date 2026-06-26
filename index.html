@@ -9,11 +9,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#faf6ef;
-  --paper-deep:#f3ede2;
-  --ink:#1d1a16;
-  --ink-soft:#5c564d;
-  --ink-faint:#968e80;
+  --paper:#fbf8f2;
+  --paper-deep:#f1ebe0;
+  --ink:#1a1712;
+  --ink-soft:#473f35;
+  --ink-faint:#736a5d;
   --vermilion:#cf3b25;
   --vermilion-deep:#a82d1a;
   --rule:#d8d0c2;
@@ -35,8 +35,8 @@ body{
   line-height:1.75;
   /* 和紙の質感 */
   background-image:
-    radial-gradient(circle at 15% 20%, rgba(207,59,37,.025), transparent 40%),
-    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(29,26,22,.012) 3px);
+    radial-gradient(circle at 15% 20%, rgba(207,59,37,.018), transparent 42%),
+    repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(29,26,22,.008) 4px);
 }
 ::selection{background:var(--vermilion);color:#fff}
 
@@ -101,7 +101,7 @@ header{
 .searchbox svg{flex:none;opacity:.45}
 .count-line{
   max-width:1140px;margin:0 auto;padding:2px 24px 0;
-  font-size:11.5px;color:var(--ink-faint);letter-spacing:.06em;
+  font-size:12.5px;color:var(--ink-faint);letter-spacing:.06em;
 }
 
 /* ============ セクション ============ */
@@ -114,7 +114,7 @@ main{max-width:1140px;margin:0 auto;padding:10px 24px 80px}
 }
 .section-title .bar{height:1px;background:var(--rule);flex:1;position:relative}
 .section-title .bar::before{content:"";position:absolute;left:0;top:-1px;width:64px;height:3px;background:var(--vermilion)}
-.section-title .sub{font-size:11.5px;color:var(--ink-faint);letter-spacing:.1em;white-space:nowrap}
+.section-title .sub{font-size:12.5px;color:var(--ink-faint);letter-spacing:.1em;white-space:nowrap}
 
 /* ============ ヒーロー ============ */
 .hero{
@@ -159,8 +159,8 @@ main{max-width:1140px;margin:0 auto;padding:10px 24px 80px}
 .card .img img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
 .card:hover .img img{transform:scale(1.05)}
 .card .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
-.card .headline{font-family:var(--serif);font-weight:700;font-size:14.5px;line-height:1.55}
-.card .summary{font-size:12px;color:var(--ink-soft);line-height:1.7;
+.card .headline{font-family:var(--serif);font-weight:700;font-size:15px;line-height:1.6}
+.card .summary{font-size:12.5px;color:var(--ink-soft);line-height:1.75;
   display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 
 /* プレースホルダー画像 */
@@ -179,10 +179,10 @@ main{max-width:1140px;margin:0 auto;padding:10px 24px 80px}
 }
 
 /* メタ行 */
-.meta{display:flex;align-items:center;gap:8px;font-size:11px;flex-wrap:wrap}
+.meta{display:flex;align-items:center;gap:8px;font-size:11.5px;flex-wrap:wrap}
 .tag{
-  font-weight:700;font-size:10.5px;letter-spacing:.08em;color:#fff;
-  padding:2px 9px;border-radius:3px;white-space:nowrap;
+  font-weight:700;font-size:11px;letter-spacing:.06em;color:#fff;
+  padding:2.5px 10px;border-radius:3px;white-space:nowrap;
 }
 .stars{color:var(--vermilion);font-size:11.5px;letter-spacing:.12em}
 .date-label{color:var(--ink-faint);font-family:var(--serif);letter-spacing:.04em}
@@ -196,20 +196,21 @@ main{max-width:1140px;margin:0 auto;padding:10px 24px 80px}
 .month summary::-webkit-details-marker{display:none}
 .month summary:hover{background:var(--paper-deep)}
 .month summary .m-title{font-family:var(--serif);font-weight:700;font-size:16.5px;letter-spacing:.06em}
-.month summary .m-count{font-size:11px;color:var(--ink-faint);letter-spacing:.08em}
+.month summary .m-count{font-size:12px;color:var(--ink-faint);letter-spacing:.08em}
 .month summary .tri{margin-left:auto;color:var(--ink-faint);transition:transform .25s ease;font-size:11px}
 .month[open] summary .tri{transform:rotate(90deg)}
 .month[open] summary{border-bottom:1px dashed var(--rule)}
-.arc-list{padding:6px 0}
+.arc-list{padding:4px 0}
 .arc-row{
-  display:flex;align-items:baseline;gap:12px;
-  padding:7px 20px;text-decoration:none;color:inherit;
-  transition:background .12s;
+  display:flex;align-items:baseline;gap:13px;
+  padding:9px 20px;text-decoration:none;color:inherit;
+  transition:background .12s;border-bottom:1px solid rgba(216,208,194,.5);
 }
+.arc-row:last-child{border-bottom:none}
 .arc-row:hover{background:var(--paper-deep)}
-.arc-row .d{font-family:var(--serif);font-size:11.5px;color:var(--ink-faint);flex:none;width:52px;letter-spacing:.03em}
+.arc-row .d{font-family:var(--serif);font-size:12.5px;color:var(--ink-soft);flex:none;width:54px;letter-spacing:.03em}
 .arc-row .tag{flex:none;transform:translateY(-1px)}
-.arc-row .t{font-size:13px;line-height:1.6}
+.arc-row .t{font-size:14px;line-height:1.65}
 .arc-row.is-rich .t{font-weight:700}
 .arc-row .ext{margin-left:auto;flex:none;font-size:10px;color:var(--ink-faint);opacity:0;transition:opacity .15s}
 .arc-row:hover .ext{opacity:1}
@@ -332,15 +333,6 @@ footer a{color:var(--ink-soft)}
     <div class="grid" id="latest-grid"></div>
   </section>
 
-  <section id="back-section" style="display:none">
-    <div class="section-title">
-      <h2>バックナンバー</h2>
-      <div class="bar"></div>
-      <span class="sub">過去の特集記事</span>
-    </div>
-    <div class="grid" id="back-grid"></div>
-  </section>
-
   <section id="archive-section">
     <div class="section-title">
       <h2>アーカイブ</h2>
@@ -401,10 +393,9 @@ function matches(title, cat, imp, extra){
   return true;
 }
 
-/* ---------- 最新号・バックナンバー ---------- */
+/* ---------- 最新号 ---------- */
 function render(){
   const latest = DATA.filter(e => e.added === latestAdded && matches(e.title, e.category, e.importance, e.summary));
-  const back   = DATA.filter(e => e.added !== latestAdded && matches(e.title, e.category, e.importance, e.summary));
 
   // ヒーロー: 最新号のうち最重要(★順→日付順)の1本
   const heroSlot = document.getElementById("hero-slot");
@@ -432,12 +423,8 @@ function render(){
   grid.innerHTML = rest.map(e => cardHtml(e)).join("");
   document.getElementById("latest-section").style.display = latest.length ? "" : "none";
 
-  const backSec = document.getElementById("back-section");
-  backSec.style.display = back.length ? "" : "none";
-  document.getElementById("back-grid").innerHTML = back.map(e => cardHtml(e)).join("");
-
   renderArchive();
-  updateCount(latest.length + back.length);
+  updateCount(latest.length);
 }
 function cardHtml(e){
   return `<article class="card" onclick="openModal('${e.id}')">
