@@ -372,9 +372,10 @@ document.getElementById("issue-no").textContent = `収録 ${DATA.length + ARCHIV
 
 /* ---------- 描画部品 ---------- */
 function imgHtml(e, cls){
+  const klass = cls ? `img ${cls}` : "img";
   const ph = `<div class="ph" style="background:linear-gradient(135deg, ${CAT_COLOR[e.category]||"var(--c-etc)"}, #2b2823)"><span>${esc(e.category||"ニュース")}</span></div>`;
-  if(!e.image) return `<div class="img ${cls||""}">${ph}</div>`;
-  return `<div class="img ${cls||""}"><img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.outerHTML='${ph.replace(/'/g,"&#39;").replace(/"/g,"&quot;")}'">${cls==="hero-img"?"":""}</div>`;
+  if(!e.image) return `<div class="${klass}">${ph}</div>`;
+  return `<div class="${klass}"><img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.outerHTML='${ph.replace(/'/g,"&#39;").replace(/"/g,"&quot;")}'"></div>`;
 }
 function metaHtml(e){
   return `<div class="meta">
@@ -407,8 +408,7 @@ function render(){
   document.getElementById("latest-sub").textContent = latestAdded ? `${jpDate(latestAdded)} 更新・${latest.length}本` : "";
   heroSlot.innerHTML = hero ? `
     <article class="hero" onclick="openModal('${hero.id}')">
-      ${imgHtml(hero).replace('class="img "', 'class="img"').replace('<div class="img',
-        `<div class="img`)}
+      ${imgHtml(hero)}
       <div class="body">
         ${metaHtml(hero)}
         <div class="headline">${esc(hero.title)}</div>
