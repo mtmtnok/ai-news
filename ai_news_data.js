@@ -12,6 +12,148 @@
 window.NEWS_DATA = [
 // ⬇ NEW_ENTRIES_HERE ⬇（この行の直後に新しいエントリを追加）
 {
+  id: "20260628-01",
+  title: "Gemini 2.5 Pro「Deep Think」が科学・推論ベンチマークでFable 5・GPT-5.5を超え首位──GPQA Diamond 82.4%・MMLU-Pro 89.8%",
+  date: "2026-06-22",
+  added: "2026-06-28",
+  category: "新モデル",
+  importance: 3,
+  summary: "GoogleはGemini 2.5 Proに「Deep Think」拡張推論モードを2026年6月22日に正式導入し、大学院水準の科学問題を評価するGPQA Diamondで82.4%（Fable 5の79.1%・GPT-5.5の76.3%を超える）、MMLU-Proで89.8%という業界最高スコアを達成した。Humanity's Last ExamとLiveCodeBench V6でも最高水準を記録。Deep Thinkは並列推論を活用する拡張推論モードで、現在はGoogle AI Ultraサブスクライバー向けに提供中、近くAPI経由で開発者にも展開予定。200万トークンのコンテキストウィンドウと組み合わせ、複雑な科学・数学・コーディング問題に特に強みを発揮する。",
+  points: [
+    "GPQA Diamond 82.4%・MMLU-Pro 89.8%でFable 5（79.1%）・GPT-5.5（76.3%）を超え科学推論ベンチマーク首位──Humanity's Last Exam・LiveCodeBench V6でも最高スコア",
+    "Deep Thinkは並列推論を活用した拡張推論モード──現在はGoogle AI Ultraサブスクライバー向けに提供中、近くAPIでも展開予定",
+    "200万トークンのコンテキストウィンドウと組み合わせ、大規模コードベース・長大文書・複数科学文献の一括処理でも最高水準を実現"
+  ],
+  url: "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-deep-think/",
+  image: "https://loremflickr.com/1200/630/google,gemini,artificial,intelligence",
+  content: `## 概要
+Googleは2026年6月22日、Gemini 2.5 Proに「Deep Think」という拡張推論モードを正式導入し、科学・推論系ベンチマークで業界最高水準を達成したと発表した。大学院水準の物理学・化学・生物学問題から構成されるGPQA Diamondで82.4%を記録し、Claude Fable 5の79.1%とOpenAI GPT-5.5の76.3%をいずれも上回った。MMLU-Pro（大学院水準の多分野知識）では89.8%を達成するなど、複数の難関ベンチマークでフロンティアモデルの首位に立った。
+
+## 詳細
+Deep Thinkはこれまでのシングルパス生成とは異なり、複数の推論経路を並列に探索して最も信頼性の高い結論を選択する設計を採る。OpenAIの拡張思考（Extended Thinking）やAnthropicのシンキングモードと同等の概念だが、Googleは「並列推論」という独自アーキテクチャを採用している。ユーザーは通常の生成モードとDeep Thinkモードを明示的に切り替えられる設計で、深い思考が必要な場面での出力品質を大幅に向上させる。
+
+ベンチマーク成績の注目点は、単にGPQA Diamondだけでなく複数の難関ベンチマークで首位に立ったことだ。AIの総合的な知性を測るとされるHumanity's Last Exam（現存する最難関のマルチ分野ベンチマーク）でも最高水準の成績を収め、継続的にデータ汚染を防ぐよう問題を更新するLiveCodeBench V6（競技プログラミング）でもリーダーボードトップを獲得した。これにより、Deep ThinkがGeminiの単なる宣伝ではなく実質的な性能向上であることが示された。
+
+提供形態については、現時点（6月22日時点）でGoogle AI Ultraサブスクライバーのみが利用可能で、Gemini Advancedユーザー向けの拡張および開発者向けAPIアクセスは数週間以内に展開予定とされている。2百万トークンというGemini 2.5 Proのコンテキストウィンドウは現役フロンティアモデル中最長水準であり、Deep Thinkとの組み合わせで長大な文書や複雑なマルチステップタスクにも対応する。
+
+Gemini 2.5 Proは2026年初頭にリリースされたモデルだが、Deep Thinkの追加により推論能力が大幅に強化された。Googleはこれを別モデルではなく既存モデルの能力拡張として展開しており、APIバージョン体系もgemini-2.5-proのまま維持される。
+
+## ポイント
+- Gemini 2.5 Pro Deep ThinkがGPQA Diamond 82.4%でFable 5（79.1%）・GPT-5.5（76.3%）を上回り首位
+- MMLU-Pro 89.8%・LiveCodeBench V6・Humanity's Last Examでも最高スコアを達成
+- 現在はGoogle AI Ultraサブスクライバー向け、近くAPI展開予定
+- 並列推論アーキテクチャが核心──200万トークンコンテキストと組み合わせ大規模推論を実現
+
+## 業界への影響・考察
+Gemini 2.5 Pro Deep ThinkがFable 5（輸出規制で現在停止中）とGPT-5.5の双方をベンチマークで上回ったことは、現時点で商業利用可能な推論モデルとして最強水準に位置することを意味する。特にFable 5が停止している状況下では、高度な科学・数学推論を必要とする研究者や企業が移行先としてGemini 2.5 Pro Deep Thinkを選ぶ可能性がある。日本においても、創薬・材料科学・金融リスク分析など高度な科学推論が要求される分野でのGemini活用が一段と加速すると期待される。Googleがサブスクリプション経由で先行展開し、APIは後から追従するという順序は、エンタープライズより個人パワーユーザーを優先する珍しい戦略で、Google AI Ultraという新たな消費者向け上位サービスへの誘導の意図も見て取れる。`
+},
+{
+  id: "20260628-02",
+  title: "東京発のSakana AI、複数フロンティアモデルを束ねる「Sakana Fugu」を正式公開──SWE-Bench Pro 73.7%でFable 5と並ぶ評価",
+  date: "2026-06-22",
+  added: "2026-06-28",
+  category: "新モデル",
+  importance: 2,
+  summary: "東京を拠点とするAIスタートアップSakana AIは2026年6月22日、複数のフロンティアAIモデルを自動でオーケストレーションするマルチエージェントシステム「Sakana Fugu」の一般提供を開始した。単一APIエンドポイントを呼ぶだけで、軽量なコーディネータが複数の大規模モデルを「思考役（Thinker）」「作業役（Worker）」「検証役（Verifier）」に動的に割り当てて協調させる。上位版Fugu UltraはSWE-Bench Proで73.7%を達成し、Opus 4.8・GPT-5.5・Gemini 3.1 Proを超えてClaude Fable 5と肩を並べる性能を示した。ICLR 2026で採択されたTRINITY・Conductor論文を技術基盤とする。",
+  points: [
+    "Sakana Fuguが一般提供開始（6月22日）──複数フロンティアモデルが「思考役・作業役・検証役」として協調する日本発マルチエージェント基盤",
+    "Fugu UltraはSWE-Bench Proで73.7%を達成──Opus 4.8・GPT-5.5・Gemini 3.1 Proを超えClaude Fable 5と同等水準と評価",
+    "ICLR 2026採択論文TRINITY・Conductorが技術基盤──API料金はFugu Ultra 入力$5/出力$30（per 1Mトークン）、サブスクは$20〜$200/月"
+  ],
+  url: "https://sakana.ai/fugu/",
+  image: "https://loremflickr.com/1200/630/sakana,multiagent,artificial,intelligence",
+  content: `## 概要
+東京を拠点とするAIスタートアップSakana AIは2026年6月22日、複数のフロンティアAIモデルを自動でオーケストレーションするマルチエージェントシステム「Sakana Fugu」の一般提供を開始した。2026年4月25日に始まったベータ期間を経て、正式提供に移行した。Fugu（フグ）という名前はSakana AI（魚AI）のブランドに由来する。
+
+## 詳細
+Sakana Fuguの核心は「マルチエージェントシステムをひとつの基盤モデルのように見せる」設計にある。ユーザーは単一のAPIエンドポイントを呼ぶだけでよく、内部では軽量なコーディネータが入力を解析し、複数のフロンティアモデルに「思考役（Thinker）」「作業役（Worker）」「検証役（Verifier）」という役割を動的に割り当て、複数ターンにわたって協調させる。技術的な基盤はICLR 2026に採択されたTRINITY論文（マルチエージェントオーケストレーションを学習する手法）とConductor論文（エージェント間の役割分担を動的に制御する手法）の2本の研究論文だ。
+
+サービスは2つのバリアントで提供される。Sakana Fugu（バランス型）は日常的なコーディング・チャット・レビューワークフローを対象とし、Fugu Ultraは数十時間に及ぶリサーチラン・Kaggleコンペ・セキュリティ評価など高要求タスク向けの上位版だ。Fugu Ultraの性能ベンチマークとして最も注目されたのはSWE-Bench Pro（実際のGitHubリポジトリのバグ修正タスク）での73.7%スコアで、Opus 4.8・GPT-5.5・Gemini 3.1 Proを上回り、最高水準とされるClaude Fable 5と肩を並べる評価を受けた。
+
+料金体系はサブスクリプションとAPIの2本立てだ。サブスクはStandard（20ドル/月）・Pro（100ドル/月）・Max（200ドル/月）の3段階で、API料金はFugu Ultraで入力100万トークンあたり5ドル・出力30ドルとなっている。Fugu Ultraの料金はClaude Opus 4.8（入力15ドル/出力75ドル）やGPT-5.5 Pro（入力15ドル/出力60ドル）より安価であり、複数モデルを協調させながらも単独のフロンティアモデルよりコスト効率を実現するとSakana AIは説明する。
+
+## ポイント
+- Sakana FuguとFugu Ultraが2026年6月22日に一般提供開始（4月25日ベータ後）
+- Fugu Ultraが複数のフロンティアモデルを「思考役・作業役・検証役」として協調──単一APIで呼び出せる
+- SWE-Bench Proで73.7%──Opus 4.8・GPT-5.5・Gemini 3.1 Proを超えFable 5と同等水準
+- ICLR 2026採択のTRINITY・Conductor論文が技術基盤──API料金は入力$5/出力$30（per 1Mトークン）
+
+## 業界への影響・考察
+Sakana FuguはGoogleやOpenAIなどが単一の大規模モデルを訓練して能力を高める「スケーリングアプローチ」とは対照的な「集合知アプローチ」を採用し、複数のモデルを組み合わせることでフロンティアモデルに匹敵する性能を達成した。日本発AIスタートアップとして、自社でフロンティアモデルを一から訓練するのではなく既存フロンティアモデルを活用して独自の価値を生む戦略は、資本力で劣る日本の企業・研究機関が国際競争に加わるひとつのモデルケースとして注目に値する。日本語への対応状況が実用上の鍵となるが、SWE-Bench ProはコーディングタスクであるためGeminiやClaude・GPT-5.5の多言語能力がそのまま活用されるため、日本語開発者への恩恵は比較的速く届く可能性がある。マルチエージェント市場はまだ黎明期であり、Sakana AIがこの分野でのデファクトスタンダードを狙えるか、業界の注目が集まる。`
+},
+{
+  id: "20260628-03",
+  title: "Google・Microsoft・GitHubら12社、AIエージェント向けツール自律発見の「ARD」オープン仕様を発表──Apache 2.0で業界標準化へ",
+  date: "2026-06-17",
+  added: "2026-06-28",
+  category: "ツール",
+  importance: 2,
+  summary: "Google・Microsoft・GitHub・NVIDIA・Hugging Face・Salesforce・Snowflakeら12社は2026年6月17日、AIエージェントが実行時にツール・API・MCPサーバーを自律的に発見・接続できる「Agentic Resource Discovery（ARD）」オープン仕様を共同発表した。ドメインに`ai-catalog.json`を設置するだけで参加でき、Apache 2.0ライセンスで公開。同時にGitHub CopilotはARD準拠の「Agent Finder」機能を、Hugging FaceはSpaces・MCPサーバー向け「Discover Tool」をリリースした。AIエージェントが世界中のツールを自律的に検索・利用できる基盤の業界標準化が始まった。",
+  points: [
+    "Google・Microsoft・GitHub・NVIDIAら12社がARDオープン仕様を共同発表（6月17日）──AIエージェントが実行時にツール・API・MCPサーバーを自律発見できる業界標準",
+    "ドメインに`ai-catalog.json`を設置するだけで参加可能──Apache 2.0ライセンスで公開、レジストリAPIで自然言語クエリによるランク付き検索も実現",
+    "GitHub CopilotがARD対応「Agent Finder」を同時リリース、Hugging FaceもスペースとMCPサーバーの発見に対応──AIエージェントのツールエコシステムが急速に整備"
+  ],
+  url: "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/",
+  image: "https://loremflickr.com/1200/630/agent,api,technology,software",
+  content: `## 概要
+Google・Microsoft・GitHub・NVIDIA・Hugging Face・Salesforce・Snowflake・Cisco・Databricks・GoDaddy・ServiceNowを含む12社は2026年6月17日、「Agentic Resource Discovery（ARD）」オープン仕様を共同発表した。ARDはAIエージェントが実行時に世界中のツール・API・MCP（Model Context Protocol）サーバーを自律的に発見・検証・接続できるための標準フレームワークで、Apache 2.0ライセンスで公開されている。
+
+## 詳細
+ARDはシンプルな2つのプリミティブで構成される。第一に、各組織が自社ドメインの固定パス（たとえばexample.com/.well-known/ai-catalog.json）に静的なJSONマニフェストファイルを設置する仕組みだ。このマニフェストには、組織が提供するAIエージェント向けツール・API・MCPサーバーの情報が機械読み取り可能な形式で記述される。第二に、レジストリAPIがインターネット上の各組織のカタログをクロール・インデックス化し、自然言語クエリに対してランク付けしたマッチ結果を返す機能だ。
+
+最も注目される実装はGitHub Copilotの「Agent Finder」だ。GitHub Copilotが自然言語でクエリを受け取り、ARD準拠リソースをインデックスから検索・ランク付けし、開発者が承認するまで自動インストールしないアーキテクチャを採る。Hugging Faceも「Discover Tool」を立ち上げ、Hub上のスペース・スキル・MCPサーバーをARDの形式でラップして検索可能にした。
+
+ARDが解決しようとする問題は「AIエージェントのツール発見の断片化」だ。現状、AIエージェントが使えるツールはあらかじめ手動で登録・設定する必要があり、エージェントが未知のAPIを自律的に見つけて活用する仕組みが存在しない。ARDはウェブがURLを通じてリソースを発見するのと同様に、AIエージェントの世界でのリソース発見の標準化を目指す。
+
+ARDはAnthropic主導で策定されMCPに参加する多くの企業が採用するMCPプロトコルを補完する位置づけで、ツールの「通信プロトコル」（MCP）に対して「発見の仕組み」（ARD）を加えることで、エージェントのツールエコシステムを一段と整備する狙いだ。
+
+## ポイント
+- Google・Microsoftら12社がARDオープン仕様を共同発表──AIエージェントが実行時に自律的にツールを発見できる業界標準
+- ai-catalog.jsonを自社ドメインに設置するだけで参加可能──Apache 2.0で公開
+- GitHub Copilotが「Agent Finder」、Hugging FaceがARD準拠の「Discover Tool」を同時リリース
+- MCPの「通信プロトコル」を補完する「発見の仕組み」として設計──AIエージェントのエコシステム基盤が急速に整備
+
+## 業界への影響・考察
+ARDはAIエージェントが「人間が事前に設定したツールしか使えない」状態から、「インターネット上の任意のARD準拠ツールを自律的に発見・活用できる」状態へ移行するための基盤となる可能性を持つ。MicrosoftとGoogleという通常は競合する2社が共同でオープン仕様を策定したことは、エージェントエコシステムの拡大という目標で利害が一致したことを示す。日本のソフトウェア企業・SaaS提供企業にとっては、自社のAPIやサービスにARD対応のai-catalog.jsonを追加するだけでGitHub CopilotやHugging Faceのエージェントに自動で発見されるようになる可能性があり、国際市場へのツール公開コストが大幅に下がるチャンスでもある。また、日本の行政・公共機関がAPIをARD対応で整備すれば、AIエージェントを活用した行政DXとの相乗効果も期待できる。`
+},
+{
+  id: "20260628-04",
+  title: "世界モデルAIスタートアップOdysseyが3.1億ドルのシリーズB──Amazon参加で評価額14.5億ドル、AWSが優先クラウドに",
+  date: "2026-06-17",
+  added: "2026-06-28",
+  category: "資金調達",
+  importance: 2,
+  summary: "世界モデル（World Model）AIを開発するOdysseyが2026年6月17日、Natural Capital主導でAmazon・AMD Ventures・GV・EQT・IQTが参加する3億1,000万ドルのシリーズBを発表した。評価額は14億5,000万ドルとなり、AWSが同社の優先クラウドプロバイダーに。自動運転車出身のOliver Cameron（CEO）とJeff Hawke（CTO）が率い、人・物体・環境の相互作用を予測・シミュレートするAI世界モデルを開発。ロボティクス・自律システム・科学・ゲームへの応用を想定しており、2026年上半期の主要AIファンディングラウンドの一つとなった。",
+  points: [
+    "OdysseyがAmazon参加の3.1億ドルシリーズB（評価額14.5億ドル）を発表（2026年6月17日）──Natural Capital主導、AMD Ventures・GV・EQT・IQTも参加",
+    "AWSをOdysseyの優先クラウドプロバイダーに採用──Amazonが戦略的出資と併せクラウドパートナーとしても連携を強化",
+    "自動運転出身のOliver Cameron・Jeff Hawke両名が創業──人・物体・環境の相互作用を予測するAI世界モデルをロボティクス・科学・ゲームに応用"
+  ],
+  url: "https://odyssey.ml/our-series-b",
+  image: "https://loremflickr.com/1200/630/robot,autonomous,simulation,world",
+  content: `## 概要
+AI世界モデル（World Model）スタートアップOdysseyは2026年6月17日、Natural Capitalが主導し、Amazon・AMD Ventures・GV（Google Ventures）・EQT・IQTが参加する3億1,000万ドルのシリーズBラウンドを発表した。評価額は14億5,000万ドルとなり、AWSがOdysseyの優先クラウドプロバイダーとなることも同時に発表された。
+
+## 詳細
+Odysseyは自動運転車業界の出身者であるOliver Cameron（CEO）とJeff Hawke（CTO）によって設立された。同社の核心技術は「世界モデル（World Model）」と呼ばれるAIシステムで、人・物体・環境が現実世界においてどのように相互作用するかを予測・シミュレートする能力を持つ。テキストや静止画を生成する従来の生成AIとは根本的に異なり、時間軸を持つ物理的なシナリオを高精度でモデル化することを目的とする。
+
+想定される応用領域は幅広い。ロボティクス（ロボットが複雑な物理タスクを実行する前にシミュレーションで訓練）、自律走行（自動運転車が希少な危険シナリオをシミュレーション内で経験）、科学研究（分子・細胞・生態系の動態シミュレーション）、ゲーム（現実感のある物理シミュレーションによるゲーム世界の生成）が挙げられている。
+
+今回の出資者として注目されるのはAmazonだ。AWSがOdysseyの優先クラウドプロバイダーになることは、OdysseyがAWSの膨大なコンピューティングリソース上で世界モデルを訓練・推論することを意味し、両社の深い技術的連携を示す。AMDのベンチャー部門の参加も半導体エコシステムとの協力関係を示唆する。既存の著名エンジェル投資家には、GoogleチーフサイエンティストのJeff Dean、著名VCのElad Gil、Y CombinatorのGarry Tan、VercelのGuillermo Rauch、CruiseのKyle Vogtらが名を連ねる。
+
+Odysseyはすでに独自の世界モデルAPIをリリースしており、企業顧客向けのパイロット利用が始まっている。シリーズBの資金は世界モデルの訓練規模拡大とロボティクス・自律システム向けの製品開発加速に使用される予定だ。
+
+## ポイント
+- OdysseyがAmazon参加の3.1億ドルシリーズB──評価額14.5億ドル（2026年6月17日）
+- AWSが優先クラウドプロバイダーに採用──Amazonが出資と併せてインフラ面でも戦略的連携
+- 創業者はOliver Cameron（CEO）・Jeff Hawke（CTO）の自動運転車出身チーム
+- 人・物体・環境の相互作用を予測する世界モデルをロボティクス・科学・ゲームに応用
+
+## 業界への影響・考察
+「世界モデル」はAI業界で2026年に最も注目されるサブ分野の一つに急浮上している。言語モデルが「テキストの世界」を理解するように、世界モデルは「物理的な世界」を理解・予測するAIを目指す。Odysseyへの3.1億ドル調達は、この概念に世界最大のクラウド事業者Amazonが本格的に賭けたことを示す重要なシグナルだ。ロボティクス企業（Spot・Atlas開発のBoston Dynamicsなど）や自動運転企業（Waymo・Cruise）が世界モデルを採用すれば、AI能力が現実世界で物理的に機能する段階への移行が加速する。日本においては、製造業ロボット（ファナック・安川電機など）や自動運転の研究開発においてOdysseyのような世界モデルAPIを活用する将来が具体的に見えてきており、産業界のAI導入がソフトウェアからハードウェア・物理空間へと拡張するフェーズの象徴的な資金調達だ。`
+},
+{
   id: "20260627-01",
   title: "OpenAI、GPT-5.6「Sol・Terra・Luna」を限定プレビュー公開──米政府の要請で約20社のみ先行アクセス、数週間以内に一般公開予定",
   date: "2026-06-26",
