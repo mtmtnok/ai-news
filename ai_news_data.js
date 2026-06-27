@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "200万トークンのコンテキストウィンドウと組み合わせ、大規模コードベース・長大文書・複数科学文献の一括処理でも最高水準を実現"
   ],
   url: "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-deep-think/",
-  image: "https://loremflickr.com/1200/630/google,gemini,artificial,intelligence",
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/2-5_deep-think_blog_social_share.width-1300.png",
   content: `## 概要
 Googleは2026年6月22日、Gemini 2.5 Proに「Deep Think」という拡張推論モードを正式導入し、科学・推論系ベンチマークで業界最高水準を達成したと発表した。大学院水準の物理学・化学・生物学問題から構成されるGPQA Diamondで82.4%を記録し、Claude Fable 5の79.1%とOpenAI GPT-5.5の76.3%をいずれも上回った。MMLU-Pro（大学院水準の多分野知識）では89.8%を達成するなど、複数の難関ベンチマークでフロンティアモデルの首位に立った。
 
@@ -61,7 +61,7 @@ Gemini 2.5 Pro Deep ThinkがFable 5（輸出規制で現在停止中）とGPT-5.
     "ICLR 2026採択論文TRINITY・Conductorが技術基盤──API料金はFugu Ultra 入力$5/出力$30（per 1Mトークン）、サブスクは$20〜$200/月"
   ],
   url: "https://sakana.ai/fugu/",
-  image: "https://loremflickr.com/1200/630/sakana,multiagent,artificial,intelligence",
+  image: "https://sakana.ai/assets/fugu_lp/ogp.png",
   content: `## 概要
 東京を拠点とするAIスタートアップSakana AIは2026年6月22日、複数のフロンティアAIモデルを自動でオーケストレーションするマルチエージェントシステム「Sakana Fugu」の一般提供を開始した。2026年4月25日に始まったベータ期間を経て、正式提供に移行した。Fugu（フグ）という名前はSakana AI（魚AI）のブランドに由来する。
 
@@ -95,7 +95,7 @@ Sakana FuguはGoogleやOpenAIなどが単一の大規模モデルを訓練して
     "GitHub CopilotがARD対応「Agent Finder」を同時リリース、Hugging FaceもスペースとMCPサーバーの発見に対応──AIエージェントのツールエコシステムが急速に整備"
   ],
   url: "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/",
-  image: "https://loremflickr.com/1200/630/agent,api,technology,software",
+  image: "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxw.2e16d0ba.fill-1200x600.jpg",
   content: `## 概要
 Google・Microsoft・GitHub・NVIDIA・Hugging Face・Salesforce・Snowflake・Cisco・Databricks・GoDaddy・ServiceNowを含む12社は2026年6月17日、「Agentic Resource Discovery（ARD）」オープン仕様を共同発表した。ARDはAIエージェントが実行時に世界中のツール・API・MCP（Model Context Protocol）サーバーを自律的に発見・検証・接続できるための標準フレームワークで、Apache 2.0ライセンスで公開されている。
 
@@ -131,7 +131,7 @@ ARDはAIエージェントが「人間が事前に設定したツールしか使
     "自動運転出身のOliver Cameron・Jeff Hawke両名が創業──人・物体・環境の相互作用を予測するAI世界モデルをロボティクス・科学・ゲームに応用"
   ],
   url: "https://odyssey.ml/our-series-b",
-  image: "https://loremflickr.com/1200/630/robot,autonomous,simulation,world",
+  image: "https://framerusercontent.com/assets/HlXmZBLStuo10b5dZ4gJ1NfPpz4.jpg",
   content: `## 概要
 AI世界モデル（World Model）スタートアップOdysseyは2026年6月17日、Natural Capitalが主導し、Amazon・AMD Ventures・GV（Google Ventures）・EQT・IQTが参加する3億1,000万ドルのシリーズBラウンドを発表した。評価額は14億5,000万ドルとなり、AWSがOdysseyの優先クラウドプロバイダーとなることも同時に発表された。
 
