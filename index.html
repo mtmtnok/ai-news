@@ -381,7 +381,7 @@ footer a{color:var(--ink-soft)}
 <main>
   <section id="latest-section">
     <div class="section-title">
-      <h2>最新号</h2>
+      <h2>最近の記事</h2>
       <div class="bar"></div>
       <span class="sub" id="latest-sub"></span>
     </div>
@@ -423,6 +423,9 @@ let fCat = "", fStar = false, fQuery = "";
 
 /* ---------- ヘッダー ---------- */
 const latestAdded = DATA.length ? DATA.reduce((m,e)=> e.added > m ? e.added : m, DATA[0].added) : null;
+// サムネ付きで大きく見せる「最近の記事」= 直近 RECENT_DAYS 日分（追記日ベース）
+const RECENT_DAYS = 4;
+const recentAdded = new Set([...new Set(DATA.map(e => e.added))].sort().reverse().slice(0, RECENT_DAYS));
 document.getElementById("issue-date").textContent = latestAdded ? `${jpDate(latestAdded)}（${wd(latestAdded)}）号` : "";
 document.getElementById("issue-no").textContent = `収録 ${DATA.length + ARCHIVE.length} 記事`;
 
@@ -450,18 +453,18 @@ function matches(title, cat, imp, extra){
   return true;
 }
 
-/* ---------- 最新号 ---------- */
+/* ---------- 最近の記事（直近数日分・サムネ付き） ---------- */
 function render(){
-  const latest = DATA.filter(e => e.added === latestAdded && matches(e.title, e.category, e.importance, e.summary));
+  const latest = DATA.filter(e => recentAdded.has(e.added) && matches(e.title, e.category, e.importance, e.summary));
 
-  // ヒーロー: 最新号のうち最重要(★順→日付順)の1本
+  // ヒーロー: 最新追記日の最重要1本（新しい日→★→日付の順で先頭）
   const heroSlot = document.getElementById("hero-slot");
   const grid = document.getElementById("latest-grid");
-  const sorted = latest.slice().sort((a,b)=> b.importance - a.importance || b.date.localeCompare(a.date));
+  const sorted = latest.slice().sort((a,b)=> b.added.localeCompare(a.added) || b.importance - a.importance || b.date.localeCompare(a.date));
   const hero = sorted[0];
   const rest = sorted.slice(1);
 
-  document.getElementById("latest-sub").textContent = latestAdded ? `${jpDate(latestAdded)} 更新・${latest.length}本` : "";
+  document.getElementById("latest-sub").textContent = latest.length ? `直近${recentAdded.size}日分・${latest.length}本` : "";
   heroSlot.innerHTML = hero ? `
     <article class="hero" onclick="openModal('${hero.id}')">
       ${imgHtml(hero)}
