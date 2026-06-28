@@ -27,18 +27,21 @@
   --sans:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{
   font-family:var(--sans);
   background:var(--paper);
   color:var(--ink);
   line-height:1.75;
+  -webkit-tap-highlight-color:rgba(207,59,37,.12);
   /* 和紙の質感 */
   background-image:
     radial-gradient(circle at 15% 20%, rgba(207,59,37,.018), transparent 42%),
     repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(29,26,22,.008) 4px);
 }
 ::selection{background:var(--vermilion);color:#fff}
+/* 長い無分割文字列の溢れ防止（保険） */
+.hero .headline,.card .headline,.modal .headline,.arc-row .t{overflow-wrap:anywhere}
 
 /* ============ マストヘッド ============ */
 header{
@@ -280,12 +283,65 @@ footer a{color:var(--ink-soft)}
 @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 
+/* ============ レスポンシブ ============ */
+/* タッチ端末：ホバーの貼り付き/カクつきを抑え、アフォーダンスを可視化 */
+@media(hover:none){
+  .chip:hover,.card:hover,.hero:hover,.month summary:hover,.arc-row:hover{transform:none}
+  .hero:hover .img img,.card:hover .img img{transform:none}
+  .arc-row .ext{opacity:.65}
+}
+
+/* タブレット〜大型phone */
 @media(max-width:760px){
+  header,.controls,.count-line,main{padding-left:16px;padding-right:16px}
   .hero{grid-template-columns:1fr}
   .hero .img{min-height:200px}
+  .hero .body{padding:22px 20px}
+  .section-title{gap:10px}
+  .section-title .sub{display:none}
   .searchbox{flex:1 1 100%;margin-left:0}
   .modal .inner{padding:26px 22px 34px}
   .arc-row .d{width:46px}
+}
+
+/* スマホ：最新号をサムネ左の横長リストに（一覧性確保） */
+@media(max-width:560px){
+  #latest-grid{display:block}
+  #hero-slot{margin:0}
+  .hero,.card{
+    display:flex;flex-direction:row;align-items:center;gap:12px;
+    border:none;border-bottom:1px solid var(--rule);box-shadow:none;margin:0;
+    padding:12px 4px;animation:none;
+  }
+  .hero{border-top:1px solid var(--rule);border-left:3px solid var(--vermilion);padding-left:9px}
+  .hero .img,.card .img{flex:none;width:92px;height:92px;min-height:0;border-radius:5px;overflow:hidden}
+  .hero .body,.card .body{padding:0;gap:5px;justify-content:center;min-width:0}
+  .hero .headline,.card .headline{
+    font-size:15px;line-height:1.5;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  .hero .summary,.card .summary{display:none}
+  .meta{font-size:11px}
+  .hero .img .ribbon{top:0;left:0;font-size:9px;padding:2px 5px;letter-spacing:.08em;box-shadow:none}
+}
+
+/* 小型phone：コントロールバー横スクロール・タップ拡大・余白調整 */
+@media(max-width:480px){
+  header{padding-top:22px}
+  .hanko{width:46px;height:46px;font-size:17px}
+  .brand h1 small{letter-spacing:.18em}
+  .issue{text-align:left;flex-basis:100%}
+  .controls{padding:12px 14px 6px;gap:8px}
+  .chips{flex:1 1 100%;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:none;padding:9px 15px;font-size:13.5px}
+  .searchbox{flex:1 1 100%;margin-left:0;padding:8px 16px}
+  .m-close{width:40px;height:40px;font-size:17px}
+  .month summary{padding:14px 16px}
+  .arc-row{padding:11px 16px}
+  .modal-bg{padding:3vh 10px}
+  .modal .inner{padding:24px 18px 32px}
+  .modal .headline{font-size:20px}
 }
 </style>
 </head>
