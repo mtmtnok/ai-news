@@ -148,6 +148,13 @@ main{max-width:1140px;margin:0 auto;padding:10px 24px 80px}
 
 /* ============ カード ============ */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:18px;margin-top:18px}
+
+/* ============ 追記日グループ（日付見出し） ============ */
+.day-head{grid-column:1/-1;display:flex;align-items:baseline;gap:12px;padding-top:16px;border-top:1px solid var(--rule)}
+.day-head:first-child{padding-top:0;border-top:none}
+.day-label{font-family:var(--serif);font-weight:700;font-size:16px;letter-spacing:.08em;padding-left:11px;border-left:3px solid var(--vermilion)}
+.day-count{font-size:12px;color:var(--ink-faint);letter-spacing:.06em}
+#latest-grid > .hero{grid-column:1/-1}
 .card{
   background:#fffdf9;border:1px solid var(--rule);overflow:hidden;cursor:pointer;
   display:flex;flex-direction:column;
@@ -307,13 +314,13 @@ footer a{color:var(--ink-soft)}
 /* スマホ：最新号をサムネ左の横長リストに（一覧性確保） */
 @media(max-width:560px){
   #latest-grid{display:block}
-  #hero-slot{margin:0}
+  .day-head{border-top:none;padding-top:14px}
   .hero,.card{
     display:flex;flex-direction:row;align-items:center;gap:12px;
     border:none;border-bottom:1px solid var(--rule);box-shadow:none;margin:0;
     padding:12px 4px;animation:none;
   }
-  .hero{border-top:1px solid var(--rule);border-left:3px solid var(--vermilion);padding-left:9px}
+  .hero{border-left:3px solid var(--vermilion);padding-left:9px}
   .hero .img,.card .img{flex:none;width:92px;height:92px;min-height:0;border-radius:5px;overflow:hidden}
   .hero .body,.card .body{padding:0;gap:5px;justify-content:center;min-width:0}
   .hero .headline,.card .headline{
@@ -385,7 +392,6 @@ footer a{color:var(--ink-soft)}
       <div class="bar"></div>
       <span class="sub" id="latest-sub"></span>
     </div>
-    <div id="hero-slot"></div>
     <div class="grid" id="latest-grid"></div>
   </section>
 
@@ -453,40 +459,49 @@ function matches(title, cat, imp, extra){
   return true;
 }
 
-/* ---------- 最近の記事（直近数日分・サムネ付き） ---------- */
+/* ---------- 最近の記事（直近数日分・追記日ごと・サムネ付き） ---------- */
 function render(){
   const latest = DATA.filter(e => recentAdded.has(e.added) && matches(e.title, e.category, e.importance, e.summary));
-
-  // ヒーロー: 最新追記日の最重要1本（新しい日→★→日付の順で先頭）
-  const heroSlot = document.getElementById("hero-slot");
   const grid = document.getElementById("latest-grid");
-  const sorted = latest.slice().sort((a,b)=> b.added.localeCompare(a.added) || b.importance - a.importance || b.date.localeCompare(a.date));
-  const hero = sorted[0];
-  const rest = sorted.slice(1);
+
+  // 追記日ごとにグループ化（新しい日が先）
+  const byAdded = {};
+  latest.forEach(e => { (byAdded[e.added] = byAdded[e.added] || []).push(e); });
+  const days = Object.keys(byAdded).sort().reverse();
+
+  // 全体のヒーロー＝最新追記日の最重要1本
+  const heroId = days.length
+    ? byAdded[days[0]].slice().sort((a,b)=> b.importance - a.importance || b.date.localeCompare(a.date))[0].id
+    : null;
 
   document.getElementById("latest-sub").textContent = latest.length ? `直近${recentAdded.size}日分・${latest.length}本` : "";
-  heroSlot.innerHTML = hero ? `
-    <article class="hero" onclick="openModal('${hero.id}')">
-      ${imgHtml(hero)}
-      <div class="body">
-        ${metaHtml(hero)}
-        <div class="headline">${esc(hero.title)}</div>
-        <div class="summary">${esc(hero.summary)}</div>
-      </div>
-    </article>` : "";
-  if(hero){
-    // リボンを画像部に挿入
-    const imgDiv = heroSlot.querySelector(".img");
-    if(imgDiv) imgDiv.insertAdjacentHTML("afterbegin", '<span class="ribbon">本日の一面</span>');
-  }
-  grid.innerHTML = rest.map(e => cardHtml(e)).join("");
-  document.getElementById("latest-section").style.display = latest.length ? "" : "none";
 
+  grid.innerHTML = days.map(day => {
+    const items = byAdded[day].slice().sort((a,b)=> b.importance - a.importance || b.date.localeCompare(a.date));
+    const cards = items.map(e => e.id === heroId ? heroHtml(e) : cardHtml(e)).join("");
+    return `<div class="day-head"><span class="day-label">${jpDate(day)}（${wd(day)}）</span><span class="day-count">${items.length}本</span></div>${cards}`;
+  }).join("");
+
+  // ヒーロー画像にリボンを挿入
+  const heroImg = grid.querySelector(".hero .img");
+  if(heroImg) heroImg.insertAdjacentHTML("afterbegin", '<span class="ribbon">本日の一面</span>');
+
+  document.getElementById("latest-section").style.display = latest.length ? "" : "none";
   renderArchive();
   updateCount(latest.length);
 }
 function cardHtml(e){
   return `<article class="card" onclick="openModal('${e.id}')">
+    ${imgHtml(e)}
+    <div class="body">
+      ${metaHtml(e)}
+      <div class="headline">${esc(e.title)}</div>
+      <div class="summary">${esc(e.summary)}</div>
+    </div>
+  </article>`;
+}
+function heroHtml(e){
+  return `<article class="hero" onclick="openModal('${e.id}')">
     ${imgHtml(e)}
     <div class="body">
       ${metaHtml(e)}
