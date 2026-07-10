@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "Anthropic Claude Coworkへの直接対抗製品：Pro・Enterprise・Eduから順次展開──AIによる知識労働自動化市場を巡る「フロンティア企業間対決」が本格化"
   ],
   url: "https://news.cgtn.com/news/2026-07-10/OpenAI-unveils-super-app-as-rivalry-with-Anthropic-intensifies-1OF7nrvaglG/p.html",
-  image: "https://loremflickr.com/1200/630/openai,productivity,superapp",
+  image: "https://news.cgtn.com/news/2026-07-10/OpenAI-unveils-super-app-as-rivalry-with-Anthropic-intensifies-1OF7nrvaglG/img/f607e6583d8c47a2aaa80b4b3bf8831e/f607e6583d8c47a2aaa80b4b3bf8831e-750.jpeg",
   content: `## 概要
 OpenAIは2026年7月9日、AIチャットボット「ChatGPT」とコーディングエージェント「Codex」を統合した「ChatGPT Work」を提供開始した。GPT-5.6 Sol（同日一般公開）を搭載し、文書・プレゼンテーション・Webサイトなど多様なビジネス成果物を自然言語のプロンプトだけで作成できる汎用プロダクティビティエージェントとして設計されている。当初はPro・Enterprise・Edu各プラン向けにWebとモバイルで展開を開始し、数日以内にPlus・Businessユーザーにも拡大する予定だ。
 
@@ -58,7 +58,7 @@ ChatGPT WorkのリリースはAIアシスタントが「チャットボット」
     "ザッカーバーグが3年ぶりにXへ投稿してリリースを告知──GPT-5.6・Grok 4.5と同週リリースで「多社同時フロンティア投入週」が続く"
   ],
   url: "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
-  image: "https://loremflickr.com/1200/630/meta,artificial,intelligence",
+  image: "https://images.pexels.com/photos/18799047/pexels-photo-18799047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Metaは2026年7月9日、Meta Superintelligence Labs（MSL）が開発したコーディング特化エージェントモデル「Muse Spark 1.1」を発表した。入力1.25ドル・出力4.25ドル（百万トークン）という低価格と100万トークンのコンテキストウィンドウを武器に、OpenAIのGPT-5.6やAnthropicのClaude Fable 5に対抗する製品として投入された。マーク・ザッカーバーグCEOが3年ぶりにX（旧Twitter）へ投稿してリリースを告知したことで業界内外から大きな注目を集めた。
 
@@ -93,7 +93,7 @@ Muse Spark 1.1のリリースは、AI競争が「OpenAI vs Anthropic」という
     "120万Coworkセッションの用途内訳：業務プロセス作業33.4%・コンテンツ制作16.4%・コーディング8.7%──当初想定を超えてホワイトカラー業務全般での活用が主流に"
   ],
   url: "https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/",
-  image: "https://loremflickr.com/1200/630/anthropic,mobile,agent",
+  image: "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/claude.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
   content: `## 概要
 Anthropicは2026年7月7日、1月のリリース以来デスクトップPC専用で提供してきたAIエージェントプラットフォーム「Claude Cowork」のiOS・Android・Webへの展開を発表した。ユーザーはスマートフォン上の最新Claudeアプリを更新し、サイドバーに新たに追加された「Coworkタブ」からセッションを監視・指示できる。ラップトップを閉じた後もセッションがAnthropicのクラウド上で継続し、人間の判断が必要な場合のみCoworkからユーザーに確認を求める設計となっている。
 
