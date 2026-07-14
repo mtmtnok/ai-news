@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "2027年末までに中国のスマート端末の70%へのAIエージェント組み込みを政府目標として設定──規制と振興の両立を掲げる中国式AI政策の典型"
   ],
   url: "https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai",
-  image: "https://loremflickr.com/1200/630/china,regulation,artificial",
+  image: "https://images.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt62614b55762ed3f5/6a4e5123d6695239eebcafaf/illuminated-skyscrapers-chang-sha-shi-hu-nan-sheng-china-apac-0044.jpg",
   content: `## 概要
 中国政府のサイバースペース管理局（CAC）・国家発展改革委員会（NDRC）・工業情報化部（MIIT）が共同公布した「知能体の規範的応用と革新的発展に関する実施意見」（通称：AI知能体発展意見）が2026年7月15日に施行された。同日施行の「AI擬人化インタラクションサービス管理暫定規則」（コンパニオンAI・感情的依存が対象）とは別に独立した規制として制定されており、自律的に行動するAIエージェントを独自の規制カテゴリとして定義する世界初の専門的政策枠組みとして注目されている。
 
@@ -60,7 +60,7 @@ AIエージェントを独立した規制対象として定義した中国の新
     "Samsung Foundryの2nm先端プロセスとTesla・Groq等の受注実績が基盤──TSMCへの一極集中という地政学リスクの分散にも貢献"
   ],
   url: "https://www.koreaherald.com/article/10797311",
-  image: "https://loremflickr.com/1200/630/semiconductor,chip,anthropic",
+  image: "https://wimg.heraldcorp.com/news/cms/2026/07/03/news-p.v1.20260703.f77acdcd016f4eb1a339f4d2abe678c2_T1.png",
   content: `## 概要
 韓国メディア（Korea Heraldなど）は2026年7月14日、AnthropicがSamsung Electronicsのファウンドリ部門（Samsung Foundry）と独自AIアクセラレータチップの製造契約を締結したと報じた。同チップはSamsung Foundryの最先端2nmプロセスノード（SF2）と先進パッケージング技術を用いて製造される計画で、Claude系AIモデルの推論ワークロードへの最適化が目的だ。2026年6月に独自推論チップ「Jalapeño」（Broadcom設計・TSMC製造）を発表したOpenAIに続き、Anthropicも独自シリコン開発に踏み出したことで、フロンティアAIラボがNvidiaの汎用GPUへの依存を脱却する動きが業界全体のトレンドとなった。
 
@@ -95,7 +95,7 @@ Samsung Foundryは近年、Tesla（Dojo AIトレーニングチップ）やAIス
     "2026年6月のSpaceX契約（月1.5億ドル・2029年期限）に続く第2の大型コンピュート確保──新興AIスタートアップによる計算資源の長期囲い込みが新たな業界トレンドに"
   ],
   url: "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
-  image: "https://loremflickr.com/1200/630/nvidia,computing,startup",
+  image: "https://techcrunch.com/wp-content/uploads/2023/03/cash-in-mattress-e1685738668559.jpg?resize=1200,701",
   content: `## 概要
 元Google DeepMind研究者が2024年に設立したReflection AIが2026年7月14日、EUを拠点とするAIクラウドインフラプロバイダーNebius Group（旧ヤンデックスの国際クラウド部門が独立した企業）と10億ドル超のコンピュート供給契約を締結した。2029年まで続く長期契約によりNvidiaの最新GPUアーキテクチャ「GB300」（Blackwellの後継世代）へのアクセスが確保される。今年6月のSpaceXとのコンピュート契約（月1億5,000万ドル・2029年期限）に次ぐ第2の大型インフラ確保で、新興AIスタートアップが計算資源を長期にわたって囲い込む動きが業界トレンドとして定着しつつある。
 
