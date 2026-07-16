@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "WAIC 2026上海開幕と重なる歴史的リリース日──GPT-5.6（7月9日）・Grok 4.5（7月9日）と合わせ1週間で主要フロンティアモデルが出揃うAI業界史上類を見ない「フロンティア週」を形成"
   ],
   url: "https://coursiv.io/blog/gemini-3-5-pro",
-  image: "https://loremflickr.com/1200/630/google,gemini,artificial,intelligence",
+  image: "https://images.pexels.com/photos/30869081/pexels-photo-30869081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Googleは2026年7月17日、Gemini 3.5 Proを全世界に向けて一般公開（GA）した。元のベースモデルでツール呼び出しの再帰処理とSVG生成に構造的な欠陥が発見されたため、Google DeepMindのチームはベースモデルを破棄し、完全な新規プレトレーニングからやり直すという異例の決断を下した。これにより当初の予定から6週間の遅延となったが、技術的に再設計されたモデルとしてリリースとなった。
 
@@ -60,7 +60,7 @@ Gemini 3.5 Proのリリースは、フロンティアモデル競争が「単純
     "WAIC Academic（チューリング賞受賞者・国際学術院主導）が初設置──具体化知能・インテリジェントコンピューティングの2大トラックで国際AI研究コミュニティとの連携を強化"
   ],
   url: "https://news.cgtn.com/news/2026-07-07/Shanghai-to-host-record-breaking-World-AI-Conference-July-17-to-20-1OAHU3xSEog/p.html",
-  image: "https://loremflickr.com/1200/630/shanghai,conference,artificial,intelligence",
+  image: "https://news.cgtn.com/news/2026-07-07/Shanghai-to-host-record-breaking-World-AI-Conference-July-17-to-20-1OAHU3xSEog/img/99c38d6f141c40fea52e34b66152148b/99c38d6f141c40fea52e34b66152148b-250.png",
   content: `## 概要
 世界人工知能会議（World Artificial Intelligence Conference：WAIC）2026が2026年7月17日から20日まで、中国・上海で開幕した。2018年の設立以来最大規模となる今回のWAICは、1,100社以上の企業・研究機関が参加し、総展示面積は10万平方メートルを初めて超えた。習近平国家主席が2018年の第1回大会以来8年ぶりに自ら直接出席し、AI開発を国家戦略の中核に位置づけるメッセージを世界に発信した。
 
@@ -95,7 +95,7 @@ WAIC 2026の規模と習近平主席の出席は、中国がAIを単なる産業
     "2026年通期設備投資を600〜640億ドルへ引き上げ（前回520〜560億ドル）、通期売上高成長率は40%超へ上方修正──Q3ガイダンス446〜458億ドル・営業利益率56〜58%"
   ],
   url: "https://finance.yahoo.com/markets/stocks/articles/tsmc-q2-2026-earnings-record-112109987.html",
-  image: "https://loremflickr.com/1200/630/semiconductor,chip,manufacturing,taiwan",
+  image: "https://s.yimg.com/lo/mysterio/api/B837665D1C863543A7E29FD4D89A0B3ED83F2329E0C42B60CEDFD60DBC49603B/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fquartz_855%2F398309c25ffd253ca2c5c403999b4d74",
   content: `## 概要
 TSMCは2026年7月17日に開催した決算説明会で、2026年第2四半期（4〜6月）の完全決算を発表した。売上高はNT$1兆2,700億（約402億ドル）で前年同期比36%増、純利益はNT$7,065億（約220億ドル）で前年同期比77.4%増となり、5四半期連続で最高益を更新した。AIチップ向け高性能コンピューティング（HPC）セクターが売上高の66%を占め、AIブームがTSMCの収益構造を根本から変えつつある現状が鮮明になった。
 
