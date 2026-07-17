@@ -11,7 +11,7 @@
 //   person: type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source: 出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-07-17",
+  updated: "2026-07-18",
   nodes: [
     // AIラボ
     { id: "openai",      label: "OpenAI",      sector: "lab" },
@@ -21,6 +21,7 @@ window.RELATIONS = {
     { id: "mistral",     label: "Mistral AI",  sector: "lab" },
     { id: "ami",         label: "AMI Labs",    sector: "lab" },
     { id: "sakana",      label: "Sakana AI",   sector: "lab", jp: true },
+    { id: "reflectionai", label: "Reflection AI", sector: "lab" },
     // ビッグテック・クラウド
     { id: "microsoft",   label: "Microsoft",   sector: "cloud" },
     { id: "google",      label: "Google",      sector: "cloud" },
@@ -30,6 +31,7 @@ window.RELATIONS = {
     { id: "ibm",         label: "IBM",         sector: "cloud" },
     { id: "tencent",     label: "Tencent",     sector: "cloud" },
     { id: "oracle",      label: "Oracle",      sector: "cloud" },
+    { id: "nebius",      label: "Nebius",      sector: "cloud" },
     // 半導体
     { id: "nvidia",      label: "NVIDIA",      sector: "semi", sub: "design" },
     { id: "amd",         label: "AMD",         sector: "semi", sub: "design" },
@@ -39,6 +41,7 @@ window.RELATIONS = {
     { id: "tenstorrent", label: "Tenstorrent", sector: "semi", sub: "design" },
     { id: "intel",       label: "Intel",       sector: "semi", sub: "fab" },
     { id: "tsmc",        label: "TSMC",        sector: "semi", sub: "fab" },
+    { id: "samsung",     label: "Samsung",     sector: "semi", sub: "fab" },
     { id: "rapidus",     label: "Rapidus",     sector: "semi", sub: "fab", jp: true },
     { id: "skhynix",     label: "SK hynix",    sector: "semi", sub: "memdev" },
     { id: "asml",        label: "ASML",        sector: "semi", sub: "memdev" },
@@ -52,6 +55,7 @@ window.RELATIONS = {
     { id: "io",          label: "io Products",     sector: "app" },
     { id: "kpmg",        label: "KPMG",            sector: "app" },
     { id: "novo",        label: "Novo Nordisk",    sector: "app" },
+    { id: "noetra",      label: "Noetra",          sector: "app", jp: true },
     // 投資家・ファンド
     { id: "mgx",         label: "MGX",             sector: "invest" },
     { id: "softbank",    label: "ソフトバンクG",    sector: "invest", jp: true },
@@ -110,6 +114,9 @@ window.RELATIONS = {
     { from: "meta", to: "scaleai", type: "invest", amount: 143,
       label: "143億ドルで49%取得", date: "2025-06",
       source: "https://www.cnbc.com/2025/06/12/scale-ai-founder-wang-announces-exit-for-meta-part-of-14-billion-deal.html" },
+    { from: "softbank", to: "noetra", type: "invest", amount: null,
+      label: "44社連合の中核出資者として国産AI基盤会社Noetraを設立主導（経産省が5年で最大1兆円支援）", date: "2026-07",
+      source: "https://response.jp/article/2026/07/17/414143.html" },
 
     // ── 提携・供給契約 (partner) ──
     { from: "openai", to: "microsoft", type: "partner",
@@ -166,6 +173,15 @@ window.RELATIONS = {
     { from: "asml", to: "mistral", type: "partner",
       label: "リソグラフィ製品群へのAIモデル適用で長期協業", date: "2025-09",
       source: "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership" },
+    { from: "anthropic", to: "samsung", type: "partner",
+      label: "Samsung Foundry 2nm（SF2）プロセスでカスタムAI推論チップの製造委託契約", date: "2026-07",
+      source: "https://www.koreaherald.com/article/10797311" },
+    { from: "meta", to: "nebius", type: "partner",
+      label: "5年270億ドルのAIインフラ契約（うち120億ドルはNvidia Vera Rubin GPU展開）", date: "2026-07",
+      source: "https://dentro.de/ai/news/" },
+    { from: "reflectionai", to: "nebius", type: "partner",
+      label: "10億ドル超・2029年までのコンピュート契約でNvidia GB300 GPUを確保", date: "2026-07",
+      source: "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/" },
 
     // ── 買収・合併 (ma) ──
     { from: "spacex", to: "xai", type: "ma",
