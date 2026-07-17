@@ -112,6 +112,22 @@ svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
 .trow2 a{font-size:11.5px;color:var(--vermilion);text-decoration:none;border-bottom:1px dotted var(--vermilion)}
 .hino{display:inline-block;width:13px;height:13px;border-radius:50%;background:#fff;position:relative;flex:none;border:1px solid rgba(0,0,0,.12)}
 .hino::after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--vermilion)}
+/* 半導体シェア（工程別） */
+.sstage{margin:4px 0 20px;border:1px solid var(--rule);border-radius:12px;background:#fff;overflow:hidden}
+.sstage > h3{padding:9px 16px;color:#fff;font-family:var(--serif);font-size:15px;font-weight:700;letter-spacing:2.5px;background:#3d7a80}
+.sseg{padding:13px 18px 15px;border-top:1px solid var(--rule)}
+.sseg:first-of-type{border-top:none}
+.sseg .shead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.sseg .shead b{font-size:14.5px}
+.sseg .shead .asof{font-size:11px;color:var(--ink-faint)}
+.sseg .shead a{margin-left:auto;font-size:11.5px;color:var(--vermilion);text-decoration:none;border-bottom:1px dotted var(--vermilion);white-space:nowrap}
+.sbar{display:flex;height:38px;border-radius:7px;overflow:hidden;margin:9px 0 8px;border:1px solid var(--rule)}
+.sbar > div{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;min-width:2px}
+.slegend{display:flex;gap:5px 15px;flex-wrap:wrap;font-size:12px;color:var(--ink-soft);align-items:center}
+.slegend .li{display:inline-flex;align-items:center;gap:5px}
+.slegend i{width:10px;height:10px;border-radius:3px;display:inline-block;flex:none}
+.snote{font-size:11.5px;color:var(--ink-faint);line-height:1.65;margin-top:7px}
+.sstagenote{padding:10px 18px;font-size:11.5px;color:var(--ink-faint);line-height:1.6;border-top:1px solid var(--rule);background:#faf7f0}
 footer{max-width:1120px;margin:0 auto;padding:12px 24px 40px;
   font-size:11.5px;color:var(--ink-faint);display:flex;gap:14px;flex-wrap:wrap}
 @media (max-width:720px){
@@ -145,6 +161,7 @@ footer{max-width:1120px;margin:0 auto;padding:12px 24px 40px;
 </footer>
 
 <script src="relations_data.js"></script>
+<script src="semi_share_data.js"></script>
 <script>
 const R = window.RELATIONS;
 document.getElementById("updated").textContent = R.updated;
@@ -416,17 +433,48 @@ function renderTalent(el){
       </div>`).join("") + `</div>`;
 }
 
+// ═══════════ タブ5: 半導体シェア（工程別） ═══════════
+const BARCOLS = ["#2d5d8e","#3d7a80","#c8762a","#3a7a4e","#6b4f9e","#c0392b","#8a6d3b"];
+function renderSemiShare(el){
+  const S = window.SEMI_SHARE;
+  if (!S) { el.innerHTML = "<p>シェアデータ（semi_share_data.js）を読み込めませんでした。</p>"; return; }
+  el.innerHTML = `
+    <div class="caption"><b>半導体 工程別シェア</b><span>設計→装置→素材→製造→メモリ→後工程の順</span><span>数値は調査会社・決算ベースの概算（${esc(S.updated)}時点の調査）</span></div>`
+    + S.stages.map(stage => `
+    <div class="sstage">
+      <h3>${esc(stage.name)}</h3>
+      ${stage.segments.map(seg => {
+        let ci = 0;
+        const cols = seg.items.map(it => it.company === "その他" ? "#b6ad9c" : BARCOLS[ci++ % BARCOLS.length]);
+        return `
+        <div class="sseg">
+          <div class="shead"><b>${esc(seg.name)}</b><span class="asof">${esc(seg.asOf)}</span>
+            <a href="${esc(seg.sourceUrl)}" target="_blank" rel="noopener">出典: ${esc(seg.sourceName)} ↗</a></div>
+          <div class="sbar">${seg.items.map((it,i) =>
+            `<div style="width:${it.share}%;background:${cols[i]}" title="${esc(it.company)} ${it.share}%">${it.share >= 13 ? esc(it.company) + " " + it.share + "%" : (it.share >= 6 ? it.share + "%" : "")}</div>`).join("")}</div>
+          <div class="slegend">${seg.items.map((it,i) =>
+            `<span class="li"><i style="background:${cols[i]}"></i>${it.jp ? '<span class="hino"></span>' : ""}${esc(it.company)} ${it.share}%</span>`).join("")}</div>
+          ${seg.note ? `<div class="snote">※ ${esc(seg.note)}</div>` : ""}
+        </div>`;
+      }).join("")}
+      ${stage.note ? `<div class="sstagenote">※ ${esc(stage.note)}</div>` : ""}
+    </div>`).join("");
+}
+
 // ═══════════ タブ制御 ═══════════
 const TABS = [
   { key:"partner", name:"提携・供給", note:"業界マップ", render: renderPartner },
   { key:"invest",  name:"出資・調達", note:"資金フロー", render: renderInvest },
   { key:"ma",      name:"買収・合併", note:"買収マップ", render: renderMA },
-  { key:"talent",  name:"人材移籍",   note:"移籍リスト", render: renderTalent }
+  { key:"talent",  name:"人材移籍",   note:"移籍リスト", render: renderTalent },
+  { key:"share",   name:"半導体シェア", note:"工程別", render: renderSemiShare }
 ];
 const tabsEl = document.getElementById("tabs");
 const viewsEl = document.getElementById("views");
 TABS.forEach(t => {
-  t.count = R.edges.filter(e => e.type === t.key).length;
+  t.count = t.key === "share"
+    ? (window.SEMI_SHARE ? window.SEMI_SHARE.stages.reduce((s,x) => s + x.segments.length, 0) : 0)
+    : R.edges.filter(e => e.type === t.key).length;
   t.btn = document.createElement("div");
   t.btn.className = "tab";
   t.btn.innerHTML = `${t.name}<small>${t.note}・${t.count}</small>`;
