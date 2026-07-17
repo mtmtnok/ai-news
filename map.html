@@ -149,10 +149,10 @@ const R = window.RELATIONS;
 document.getElementById("updated").textContent = R.updated;
 
 const TYPES = {
-  invest:  { name:"出資・調達", color:"#3a7a4e", dashes:false,  width:2.6, arrow:true,  stroke:"solid"  },
-  partner: { name:"提携・供給", color:"#2d5d8e", dashes:[8,5],  width:2.0, arrow:false, stroke:"dashed" },
-  ma:      { name:"買収・合併", color:"#c0392b", dashes:false,  width:3.8, arrow:true,  stroke:"solid"  },
-  talent:  { name:"人材移籍",   color:"#6b4f9e", dashes:[2,7],  width:2.2, arrow:true,  stroke:"dotted" }
+  invest:  { name:"出資・調達", color:"#3a7a4e", dashes:false,   width:3.5, arrow:true,  stroke:"solid"  },
+  partner: { name:"提携・供給", color:"#2d5d8e", dashes:[10,6],  width:2.8, arrow:false, stroke:"dashed" },
+  ma:      { name:"買収・合併", color:"#c0392b", dashes:false,   width:5.0, arrow:true,  stroke:"solid"  },
+  talent:  { name:"人材移籍",   color:"#6b4f9e", dashes:[3,8],   width:3.0, arrow:true,  stroke:"dotted" }
 };
 const GROUPS = {
   ai_lab:  { name:"AIラボ",       color:"#cf3b25" },
@@ -180,10 +180,10 @@ const degree = {};
 R.edges.forEach(e => { degree[e.from] = (degree[e.from]||0)+1; degree[e.to] = (degree[e.to]||0)+1; });
 const nodes = new vis.DataSet(R.nodes.map(n => ({
   id: n.id, label: n.label, group: n.group,
-  shape: "box", margin: 9, borderWidth: 0,
+  shape: "box", margin: 12, borderWidth: 0,
   color: { background: GROUPS[n.group].color, highlight: { background:"#1a1712" }, hover:{ background: GROUPS[n.group].color } },
-  font: { color:"#fff", face:"'Zen Kaku Gothic New', sans-serif", size: 13 + Math.min(degree[n.id]||0, 8) },
-  shapeProperties: { borderRadius: 5 }
+  font: { color:"#fff", face:"'Zen Kaku Gothic New', sans-serif", size: 24 + Math.min((degree[n.id]||0) * 2, 18), bold: true },
+  shapeProperties: { borderRadius: 6 }
 })));
 
 // ── エッジ ──
@@ -201,7 +201,7 @@ const edges = new vis.DataSet(R.edges.map((e, i) => {
 
 const network = new vis.Network(document.getElementById("graph"), { nodes, edges }, {
   physics: {
-    barnesHut: { gravitationalConstant: -12000, springLength: 200, springConstant: .028, avoidOverlap: .35, damping: .3 },
+    barnesHut: { gravitationalConstant: -9000, springLength: 150, springConstant: .04, avoidOverlap: .5, damping: .3 },
     stabilization: { iterations: 260, fit: true }
   },
   interaction: { hover: true, tooltipDelay: 120 },
