@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B-001 | AIニュースサイト拡張仕様 — 4案の確定</title>
+<style>
+:root{
+  --ink:#1c2530; --sub:#5b6774; --paper:#f7f6f3; --card:#ffffff; --line:#e3e1db;
+  --red:#c94f4f; --red-bg:#fdf3f2; --red-line:#eecdcd;
+  --amber:#c98a2d; --amber-bg:#fdf8ee;
+  --green:#3d8f5f; --green-bg:#f0f8f3;
+  --blue:#3d6fb4; --blue-bg:#eff4fb;
+  --accent:#4f5db4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Segoe UI","Yu Gothic UI","Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;
+  line-height:1.8;font-size:15.5px;}
+.wrap{max-width:920px;margin:0 auto;padding:36px 30px 90px;}
+h1{font-size:25px;line-height:1.45;margin:10px 0 14px;}
+h2{font-size:19px;border-left:5px solid var(--accent);padding-left:12px;margin:0 0 16px;}
+h3{font-size:16px;margin:0 0 8px;}
+p{margin:8px 0;}
+.sub{color:var(--sub);font-size:14px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 30px;margin:24px 0;}
+.chip{display:inline-block;background:#eceae5;color:var(--sub);border-radius:999px;
+  padding:2px 13px;font-size:12.5px;font-weight:600;margin-right:8px;}
+.chip.red{background:var(--red-bg);color:var(--red);border:1px solid var(--red-line);}
+.chip.green{background:var(--green-bg);color:var(--green);border:1px solid #cfe6d8;}
+.chip.blue{background:var(--blue-bg);color:var(--blue);border:1px solid #cfdcf0;}
+.chip.amber{background:var(--amber-bg);color:var(--amber);border:1px solid #ecdcc0;}
+.brief-id{font-family:Consolas,monospace;font-size:14px;font-weight:700;color:var(--accent);
+  letter-spacing:.06em;}
+.note{font-size:13px;color:var(--sub);background:#efede8;border-radius:8px;padding:8px 14px;
+  display:inline-block;}
+ul{margin:8px 0;padding-left:22px;}
+li{margin:5px 0;}
+table{width:100%;border-collapse:collapse;font-size:14.5px;margin:10px 0;}
+th{text-align:left;color:var(--sub);font-size:13px;border-bottom:2px solid var(--line);
+  padding:6px 10px;white-space:nowrap;}
+td{border-bottom:1px solid var(--line);padding:9px 10px;vertical-align:top;}
+tr.rec td{background:var(--green-bg);}
+.badge{display:inline-block;font-size:11.5px;padding:1px 9px;border-radius:999px;font-weight:700;
+  white-space:nowrap;}
+.badge.rec{background:var(--green);color:#fff;}
+.opt{font-family:Consolas,monospace;font-weight:700;}
+.decision{border:2px solid var(--red);background:var(--red-bg);}
+.decision h2{border-left-color:var(--red);}
+.q{background:#fff;border:1px solid var(--red-line);border-radius:10px;padding:16px 20px;margin:16px 0;}
+.swatch{display:inline-block;width:13px;height:13px;border-radius:3px;margin-right:7px;
+  vertical-align:-1px;}
+details{margin:14px 0;}
+summary{cursor:pointer;font-weight:700;color:var(--accent);}
+details .card{margin-top:12px;}
+.reply{background:#232833;color:#e8eaf0;border-radius:10px;padding:18px 22px;
+  font-family:Consolas,"BIZ UDGothic",monospace;font-size:14px;line-height:2.0;}
+.reply .cm{color:#8d97a8;}
+figure{margin:14px 0;}
+figcaption{font-size:13px;color:var(--sub);text-align:center;margin-top:4px;}
+svg text{font-family:"Segoe UI","Yu Gothic UI",Meiryo,sans-serif;}
+.cols{display:flex;gap:16px;flex-wrap:wrap;}
+.cols > div{flex:1;min-width:280px;}
+.cols img{max-width:100%;border:1px solid var(--line);border-radius:8px;}
+code{font-family:Consolas,monospace;font-size:13.5px;background:#efede8;border-radius:4px;padding:1px 6px;}
+pre{background:#232833;color:#e8eaf0;border-radius:10px;padding:14px 18px;overflow-x:auto;
+  font-family:Consolas,monospace;font-size:13px;line-height:1.7;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- ═══ ① ヘッダ ═══ -->
+<header>
+  <span class="brief-id">BRIEF B-001</span>
+  <h1>AIニュースサイト拡張仕様 — グリリングで確定した4案の詳細と実装計画</h1>
+  <div>
+    <span class="chip green">✓ 判断済 2026-07-17 — 1A（土曜更新） 2A（実装開始）</span>
+    <span class="chip">2026-07-17</span>
+    <span class="chip">読了目安 3分</span>
+  </div>
+</header>
+
+<!-- ═══ ② 30秒サマリ ═══ -->
+<section class="card">
+  <h2>30秒サマリ</h2>
+  <ul>
+    <li>要望4案（半導体・研究/プロダクト・相関図・Xバズ）を13問のグリリングで仕様確定した。<b>①②④は既存の毎朝ルーチンの収集拡張</b>（カテゴリ「半導体」追加＋検索クエリ6系統化＋内訳ガイド）、<b>③は新ページ map.html ＋ relations_data.js</b> の週次更新で実現する。</li>
+    <li>実装は2フェーズ: <b>Phase 1（収集拡張）は即日</b>、<b>Phase 2（相関図）は初期データ構築込みで2〜3日</b>の見込み。X APIなど追加コストはゼロ。</li>
+    <li>残る判断は2つ: <b>相関図の週次更新の曜日</b>（推奨: 土曜）と、<b>この仕様での実装開始の承認</b>。</li>
+  </ul>
+  <figure>
+    <svg viewBox="0 0 860 330" role="img" aria-label="拡張後の全体パイプライン">
+      <defs>
+        <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#8a93a3"/>
+        </marker>
+      </defs>
+      <!-- 毎朝ルーチン -->
+      <rect x="10" y="20" width="200" height="120" rx="10" fill="var(--blue-bg)" stroke="var(--blue)" stroke-width="1.5"/>
+      <text x="110" y="44" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">毎朝 5:00 収集</text>
+      <text x="110" y="66" text-anchor="middle" font-size="12" fill="var(--sub)">WebSearch 6系統</text>
+      <text x="110" y="86" text-anchor="middle" font-size="12" fill="var(--sub)">総合 / 研究 / プロダクト</text>
+      <text x="110" y="106" text-anchor="middle" font-size="12" fill="var(--sub)">国内 / 半導体 / SNSバズ</text>
+      <text x="110" y="128" text-anchor="middle" font-size="12" fill="var(--blue)" font-weight="700">→ 8件前後に選定</text>
+      <!-- 曜日分岐 -->
+      <rect x="10" y="160" width="200" height="52" rx="10" fill="var(--amber-bg)" stroke="var(--amber)" stroke-width="1.5"/>
+      <text x="110" y="182" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ink)">金曜: 注目論文 +1本</text>
+      <text x="110" y="202" text-anchor="middle" font-size="12" fill="var(--sub)">Hugging Face Papers から</text>
+      <rect x="10" y="228" width="200" height="52" rx="10" fill="var(--amber-bg)" stroke="var(--amber)" stroke-width="1.5"/>
+      <text x="110" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ink)">週1: 相関図の更新</text>
+      <text x="110" y="270" text-anchor="middle" font-size="12" fill="var(--sub)">今週分から関係を抽出（Q1）</text>
+      <!-- データファイル -->
+      <rect x="300" y="45" width="220" height="70" rx="10" fill="#fff" stroke="var(--accent)" stroke-width="1.5"/>
+      <text x="410" y="73" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">ai_news_data.js</text>
+      <text x="410" y="96" text-anchor="middle" font-size="12" fill="var(--sub)">記事データ（カテゴリ7種に）</text>
+      <rect x="300" y="228" width="220" height="70" rx="10" fill="#fff" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6 3"/>
+      <text x="410" y="256" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">relations_data.js（新規）</text>
+      <text x="410" y="279" text-anchor="middle" font-size="12" fill="var(--sub)">企業ノード＋関係エッジ</text>
+      <!-- サイト -->
+      <rect x="610" y="45" width="240" height="70" rx="10" fill="var(--green-bg)" stroke="var(--green)" stroke-width="1.5"/>
+      <text x="730" y="73" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">index.html</text>
+      <text x="730" y="96" text-anchor="middle" font-size="12" fill="var(--sub)">ニュースフィード（現行UI）</text>
+      <rect x="610" y="228" width="240" height="70" rx="10" fill="var(--green-bg)" stroke="var(--green)" stroke-width="1.5" stroke-dasharray="6 3"/>
+      <text x="730" y="256" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">map.html（新規）</text>
+      <text x="730" y="279" text-anchor="middle" font-size="12" fill="var(--sub)">相関図（vis-network＋種別トグル）</text>
+      <!-- 矢印 -->
+      <line x1="210" y1="80" x2="296" y2="80" stroke="#8a93a3" stroke-width="1.8" marker-end="url(#ar)"/>
+      <line x1="210" y1="186" x2="330" y2="118" stroke="#8a93a3" stroke-width="1.8" marker-end="url(#ar)"/>
+      <line x1="210" y1="254" x2="296" y2="260" stroke="#8a93a3" stroke-width="1.8" marker-end="url(#ar)"/>
+      <line x1="520" y1="80" x2="606" y2="80" stroke="#8a93a3" stroke-width="1.8" marker-end="url(#ar)"/>
+      <line x1="520" y1="263" x2="606" y2="263" stroke="#8a93a3" stroke-width="1.8" marker-end="url(#ar)"/>
+      <line x1="730" y1="115" x2="730" y2="224" stroke="#8a93a3" stroke-width="1.4" stroke-dasharray="4 4" marker-end="url(#ar)" marker-start="url(#ar)"/>
+      <text x="745" y="175" font-size="11.5" fill="var(--sub)">相互リンク</text>
+    </svg>
+    <figcaption>図0: 拡張後の全体像。点線枠がPhase 2の新規要素。既存の毎朝5:00ルーチンを軸に、曜日条件で論文枠と相関図更新をぶら下げる。</figcaption>
+  </figure>
+</section>
+
+<!-- ═══ ③ 判断ボックス ═══ -->
+<section class="card decision">
+  <h2>🔴 要判断 — 2問（まとめて1行で返信可）</h2>
+
+  <div class="q">
+    <h3>Q1. 相関図の週次更新はどの曜日に走らせるか</h3>
+    <table>
+      <tr><th></th><th>選択肢</th><th>選んだ場合どうなるか</th></tr>
+      <tr class="rec"><td><span class="opt">A</span> <span class="badge rec">推奨</span></td>
+        <td>土曜の朝ルーチンに組込み</td>
+        <td>金曜（論文枠）と負荷が分散し、月〜金の1週間分のニュースをちょうど締めて反映できる。図の鮮度は最大6日遅れ。</td></tr>
+      <tr><td><span class="opt">B</span></td>
+        <td>金曜に論文枠と同時</td>
+        <td>「金曜＝週次まとめの日」に一本化できて覚えやすいが、金曜の実行が重くなり、金曜夜のニュースが翌週回しになる。</td></tr>
+    </table>
+  </div>
+
+  <div class="q">
+    <h3>Q2. この仕様で実装を開始してよいか</h3>
+    <table>
+      <tr><th></th><th>選択肢</th><th>選んだ場合どうなるか</th></tr>
+      <tr class="rec"><td><span class="opt">A</span> <span class="badge rec">推奨</span></td>
+        <td>Phase 1 から順次開始</td>
+        <td>本日中にPhase 1（収集拡張）を実装・push。明朝の定期実行から新しい収集が効く。Phase 2は続けて着手。</td></tr>
+      <tr><td><span class="opt">B</span></td>
+        <td>修正あり（返信で指示）</td>
+        <td>指摘部分を仕様に反映してから着手。</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ═══ ④ 視覚本文 ═══ -->
+<section class="card">
+  <h2>§1. 収集の拡張 — ①半導体・②研究/プロダクト・④Xバズ（Phase 1）</h2>
+  <p>3案とも「毎朝の検索クエリと選定基準の拡張」で実現する。検索は現行2系統→<b>6系統</b>に増やす。</p>
+
+  <h3>検索クエリ 6系統</h3>
+  <table>
+    <tr><th>系統</th><th>クエリ例</th><th>狙い</th><th>現行</th></tr>
+    <tr><td>総合（英）</td><td><code>AI news [日付]</code></td><td>大手発表・業界ニュース</td><td>あり</td></tr>
+    <tr><td>総合（日）</td><td><code>AIニュース [日付]</code></td><td>国内報道</td><td>あり</td></tr>
+    <tr><td>研究</td><td><code>AI research breakthrough [月]</code> / <code>AI 研究 成果</code></td><td>新手法・ベンチマーク・安全性研究のトレンド解説</td><td><b>新規</b></td></tr>
+    <tr><td>プロダクト</td><td><code>AI product launch update [日付]</code> / <code>ChatGPT Gemini Claude 新機能</code></td><td>大手の機能アップデート＋話題の新ツール</td><td><b>新規</b></td></tr>
+    <tr><td>国内プロダクト</td><td><code>国産AI サービス リリース</code> / <code>日本企業 AI 導入</code></td><td>国内AIプロダクト・導入事例</td><td><b>新規</b></td></tr>
+    <tr><td>半導体</td><td><code>AI chip semiconductor news [日付]</code> / <code>半導体 AI ニュース</code></td><td>下記の守備範囲</td><td><b>新規</b></td></tr>
+  </table>
+  <p class="sub">※ SNSバズは専用系統を常設せず、<code>AI 話題 SNS</code> 系クエリを日次で1本混ぜ、メディアが記事化したバズネタを拾う（X APIは使わない＝追加コスト0円。速報性は半日〜1日遅れを許容）。</p>
+
+  <h3>1日の内訳ガイド（8件前後）</h3>
+  <table>
+    <tr><th>枠</th><th>目安件数</th><th>備考</th></tr>
+    <tr><td>AI業界・企業ニュース</td><td>2〜3件</td><td>従来どおり重要度優先</td></tr>
+    <tr><td>半導体</td><td>1〜2件</td><td>AI波及範囲＋日本勢は広め（下記）</td></tr>
+    <tr><td>研究</td><td>1〜2件</td><td>トレンド解説レベル。<b>金曜のみ＋1本「今週の注目論文」</b>（Hugging Face Papers 週間上位から選定、カテゴリ「研究」）</td></tr>
+    <tr><td>プロダクト</td><td>2〜3件</td><td>うち国内1件を努力目標</td></tr>
+    <tr><td>SNSバズ</td><td>週2〜3件（内数）</td><td>該当する日だけ。無理に毎日入れない</td></tr>
+  </table>
+  <p class="sub">該当記事がない枠は無理に埋めない。合計は現行の5〜10件と同規模を維持。</p>
+
+  <h3>カテゴリ「半導体」の追加</h3>
+  <ul>
+    <li>カテゴリは現行6種＋<b><span class="swatch" style="background:#7a8c5a"></span>半導体</b> の7種に。<code>index.html</code> の <code>CAT_COLOR</code> に1色追加（色は実装時に既存パレットと調整）。タブは作らない（同一フィード。過疎化と実装コストの理由で不採用）。</li>
+    <li><b>守備範囲</b>: AIチップ（NVIDIA/AMD/自社チップ）、ファウンドリ（TSMC/Samsung/Rapidus）、HBM・メモリ、製造装置（ASML等）、輸出規制・地政学、データセンター投資・電力。<b>日本勢（Rapidus・キオクシア・東京エレクトロン等）はAI接点が薄くても拾う</b>。車載・スマホSoC等のAI無関係トピックは対象外。</li>
+  </ul>
+
+  <h3>SNSバズの扱い</h3>
+  <ul>
+    <li>カテゴリは新設せず<b>内容で分類</b>（新モデル/ツール等）。要約の冒頭に「SNSで話題」と明記。</li>
+    <li>未検証情報を含む場合は本文に「公式発表は未確認」と注記し、importance は 2 を上限とする。</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>§2. 企業相関図 — map.html（Phase 2）</h2>
+  <p>別ページ <code>map.html</code> に vis-network（CDN読込み）でインタラクティブな網図を描く。データは <code>relations_data.js</code> に分離し、週次更新で育てる。</p>
+
+  <h3>データモデル</h3>
+  <pre>window.RELATIONS = {
+  nodes: [
+    { id:"openai", label:"OpenAI", group:"ai_lab" },        // group: ai_lab / bigtech / chip / cloud / jp / vc
+    { id:"nvidia", label:"NVIDIA", group:"chip" }, ...
+  ],
+  edges: [
+    { from:"microsoft", to:"openai", type:"invest",         // type: invest / partner / talent / ma
+      label:"累計約130億ドル出資", date:"2023-01",
+      source:"https://..." }, ...                            // 全エッジにソースURL必須
+  ]
+};</pre>
+  <table>
+    <tr><th>エッジ種別</th><th>線の表現</th><th>トグル</th><th>例</th></tr>
+    <tr><td><b>invest</b> 出資・資金調達</td><td>実線・太さ=金額規模</td><td rowspan="4">画面上部のチェックボックスで種別ごとに表示ON/OFF。<br>「複雑なら図を分ける」要望は<b>種別トグルで実現</b>（実質4枚の図）。</td><td>Microsoft→OpenAI</td></tr>
+    <tr><td><b>partner</b> 提携・供給契約</td><td>破線</td><td>NVIDIA→各社チップ供給、クラウド契約</td></tr>
+    <tr><td><b>talent</b> 人材移籍・創業系譜</td><td>点線</td><td>大きな移籍・スピンアウトのみに限定（検証コストが高いため）</td></tr>
+    <tr><td><b>ma</b> 買収・合併</td><td>二重線相当（太実線）</td><td>買収履歴</td></tr>
+  </table>
+  <ul>
+    <li><b>操作</b>: ノードドラッグ・ズーム・クリックで関係の詳細（日付・金額・ソースURL）をパネル表示。スマホはピンチズーム対応。</li>
+    <li><b>導線</b>: index.html ヘッダーに「🕸 相関図」リンク、map.html から戻るリンク。</li>
+    <li><b>初期構築</b>: 主要20〜30社（米フロンティアラボ・ビッグテック・半導体＋日本勢: SB/NTT/トヨタ/Rapidus等）、直近2年の主要ディール50〜80本をWeb検索で一括構築。全エッジに金額・時期・ソース付き。</li>
+    <li><b>週次更新</b>: 週1回、その週に追記したニュース（資金調達・提携・買収・大型移籍）から関係を抽出して relations_data.js に追記（Q1で曜日決定）。古いエッジは消さず履歴として残す。</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>§3. 実装計画と注意点</h2>
+  <table>
+    <tr><th>フェーズ</th><th>内容</th><th>変更対象</th><th>所要</th></tr>
+    <tr><td><b>Phase 1</b><br>収集拡張</td><td>クエリ6系統化・内訳ガイド・カテゴリ「半導体」・金曜論文枠・バズの扱いをスキルに反映。CAT_COLORに1色追加。</td><td><code>ai-news SKILL.md</code>、<code>index.html</code>（数行）、クラウド定期実行の指示文</td><td>即日</td></tr>
+    <tr><td><b>Phase 2</b><br>相関図</td><td>relations_data.js 設計・map.html 実装・初期データ構築（50〜80エッジ）・週次更新をスキル／ルーチンに追加。</td><td>新規2ファイル、<code>index.html</code>（リンク）、SKILL.md・ルーチン</td><td>2〜3日</td></tr>
+  </table>
+  <ul>
+    <li><span class="chip amber">注意</span> 毎朝5:00のクラウド定期実行はローカルの SKILL.md と別に指示文を持っている可能性が高い。<b>Phase 1 実装時にルーチン定義を確認し、両方を同期する</b>（ここがズレると朝の自動実行だけ旧仕様で動き続ける）。</li>
+    <li><span class="chip amber">注意</span> このリポジトリは GitHub Pages で全ファイル公開されるため、<b>本ブリーフも公開URLに載る</b>（briefs/ 配下）。内容はサイト運用計画のみで問題ないと判断しているが、気になるなら非公開化の指示を。</li>
+    <li><span class="chip blue">情報</span> vis-network はCDN読込みのためオフラインでは相関図が描画されない（ニュースフィードは影響なし）。問題になるようなら後からライブラリ同梱に切替可能。</li>
+  </ul>
+</section>
+
+<!-- ═══ ⑤ 折りたたみ詳細 ═══ -->
+<details>
+  <summary>▸ グリリングでの決定ログ（13問）</summary>
+  <div class="card">
+    <table>
+      <tr><th>#</th><th>論点</th><th>決定</th></tr>
+      <tr><td>1</td><td>スコープ</td><td>4案すべて仕様確定し、軽い順に順次実装</td></tr>
+      <tr><td>2</td><td>研究の深さ</td><td>トレンド解説（日次）＋個別論文（週1枠）の両方</td></tr>
+      <tr><td>3</td><td>論文枠の運用</td><td>金曜の朝ルーチンに組込み。Hugging Face Papers 起点</td></tr>
+      <tr><td>4</td><td>プロダクトの範囲</td><td>大手アップデート＋話題の新ツール＋国内プロダクトの3つとも</td></tr>
+      <tr><td>5</td><td>件数配分</td><td>1日8件前後・内訳ガイド制。該当なしの枠は埋めない</td></tr>
+      <tr><td>6</td><td>半導体のUI</td><td>別タブにせず同一フィードにカテゴリ「半導体」追加</td></tr>
+      <tr><td>7</td><td>半導体の範囲</td><td>AI波及範囲に限定、ただし日本勢は広めに拾う</td></tr>
+      <tr><td>8</td><td>Xの取得手段</td><td>WebSearchで間接取得（メディアが記事化したバズ）。X API・スクレイピングは不採用</td></tr>
+      <tr><td>9</td><td>バズの扱い</td><td>既存カテゴリに混ぜ「SNSで話題」の印。未検証情報は注記。週2〜3件目安</td></tr>
+      <tr><td>10</td><td>相関図の関係種別</td><td>出資・提携/供給・人材（大型のみ）・M&Aの4種。複雑なら図を分ける→種別トグルで対応</td></tr>
+      <tr><td>11</td><td>相関図の表示</td><td>map.html＋vis-network のインタラクティブ網図＋種別トグル</td></tr>
+      <tr><td>12</td><td>相関図の更新</td><td>週次でまとめて更新（曜日はQ1）</td></tr>
+      <tr><td>13</td><td>初期構築の規模</td><td>主要20〜30社・直近2年の主要ディール50〜80本</td></tr>
+    </table>
+  </div>
+</details>
+
+<!-- ═══ ⑥ 返信プロトコル ═══ -->
+<section class="reply">
+  <div class="cm"># 返信例（1行でOK）</div>
+  <div>B-001: 1A 2A　　<span class="cm">← まとめて指定（土曜更新で実装開始）</span></div>
+  <div>B-001: 1B 2A、ただし〜　　<span class="cm">← 条件つき・自然文でもOK</span></div>
+  <div>保留　　<span class="cm">← 今は決めない</span></div>
+  <div>深掘り: §2　　<span class="cm">← 判断前に詳細ブリーフを要求</span></div>
+</section>
+
+</div>
+</body>
+</html>

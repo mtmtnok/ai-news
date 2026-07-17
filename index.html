@@ -22,6 +22,7 @@
   --c-reg:#c0392b;     /* 朱 — 規制 */
   --c-res:#6b4f9e;     /* 菫 — 研究 */
   --c-tool:#c8762a;    /* 柿 — ツール */
+  --c-semi:#3d7a80;    /* 青碧 — 半導体 */
   --c-etc:#6e6a61;     /* 鼠 — その他 */
   --serif:"Shippori Mincho","Yu Mincho","Hiragino Mincho ProN",serif;
   --sans:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
@@ -75,6 +76,11 @@ header{
   text-align:right;font-family:var(--serif);color:var(--ink-soft);font-size:13px;line-height:1.5;
 }
 .issue strong{display:block;font-size:17px;color:var(--ink);font-weight:700}
+.issue .map-link{
+  display:inline-block;margin-top:5px;font-family:var(--sans);font-size:12.5px;font-weight:700;
+  color:var(--vermilion);text-decoration:none;border-bottom:1px dotted var(--vermilion);
+}
+.issue .map-link:hover{border-bottom-style:solid}
 
 /* ============ コントロールバー ============ */
 .controls{
@@ -363,6 +369,7 @@ footer a{color:var(--ink-soft)}
     <div class="issue">
       <strong id="issue-date"></strong>
       <span id="issue-no"></span>
+      <a class="map-link" href="map.html">⇢ AI業界相関図</a>
     </div>
   </div>
 </header>
@@ -375,6 +382,7 @@ footer a{color:var(--ink-soft)}
     <span class="chip" data-cat="規制">規制</span>
     <span class="chip" data-cat="研究">研究</span>
     <span class="chip" data-cat="ツール">ツール</span>
+    <span class="chip" data-cat="半導体">半導体</span>
     <span class="chip" data-cat="その他">その他</span>
     <span class="chip star" id="star-chip">★★★のみ</span>
   </div>
@@ -416,7 +424,7 @@ footer a{color:var(--ink-soft)}
 
 <script src="ai_news_data.js"></script>
 <script>
-const CAT_COLOR = {"新モデル":"var(--c-model)","資金調達":"var(--c-fund)","規制":"var(--c-reg)","研究":"var(--c-res)","ツール":"var(--c-tool)","その他":"var(--c-etc)"};
+const CAT_COLOR = {"新モデル":"var(--c-model)","資金調達":"var(--c-fund)","規制":"var(--c-reg)","研究":"var(--c-res)","ツール":"var(--c-tool)","半導体":"var(--c-semi)","その他":"var(--c-etc)"};
 const CAT_KANJI = {"新モデル":"新","資金調達":"資","規制":"規","研究":"研","ツール":"具","その他":"報"};
 const DATA = (window.NEWS_DATA || []).slice().sort((a,b)=> (b.date||b.d||"").localeCompare(a.date||a.d||""));
 const ARCHIVE = (window.NEWS_ARCHIVE || []).slice().sort((a,b)=> (b.date||b.d||"").localeCompare(a.date||a.d||""));
