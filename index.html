@@ -285,6 +285,36 @@ main{max-width:1140px;margin:0 auto;padding:10px 24px 80px}
 .empty{
   text-align:center;padding:60px 0;color:var(--ink-faint);font-family:var(--serif);letter-spacing:.1em;
 }
+
+/* ============ 業界ストーリー（今週の動き） ============ */
+.threads-box{
+  border:1px solid var(--rule);background:#fffdf9;margin-top:18px;
+  box-shadow:0 14px 30px -22px rgba(29,26,22,.25);
+}
+.threads-box .trow{
+  display:flex;gap:12px;align-items:baseline;padding:11px 18px;text-decoration:none;color:inherit;
+  border-bottom:1px solid rgba(216,208,194,.55);transition:background .12s;
+}
+.threads-box .trow:last-child{border-bottom:none}
+.threads-box .trow:hover{background:var(--paper-deep)}
+.threads-box .tdot{width:9px;height:9px;border-radius:50%;flex:none;transform:translateY(-1px)}
+.threads-box .tname{font-family:var(--serif);font-weight:700;font-size:13.5px;flex:none;width:180px;letter-spacing:.02em}
+.threads-box .tline{font-size:12.5px;color:var(--ink-soft);line-height:1.6;
+  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.threads-box .tgo{margin-left:auto;flex:none;font-size:10px;color:var(--ink-faint)}
+@media(max-width:760px){
+  .threads-box .tname{width:auto;min-width:0}
+  .threads-box .trow{flex-wrap:wrap;row-gap:2px}
+  .threads-box .tline{flex-basis:100%;-webkit-line-clamp:2}
+}
+
+/* 記事のストーリーチップ */
+.thchip{
+  font-size:10.5px;font-weight:700;letter-spacing:.03em;text-decoration:none;
+  color:var(--tc);border:1px solid var(--tc);border-radius:999px;padding:1px 9px;
+  white-space:nowrap;background:#fffdf9;transition:all .15s;
+}
+.thchip:hover{background:var(--tc);color:#fff}
 footer{
   max-width:1140px;margin:0 auto;padding:26px 24px 50px;
   border-top:1px solid var(--rule);
@@ -369,7 +399,7 @@ footer a{color:var(--ink-soft)}
     <div class="issue">
       <strong id="issue-date"></strong>
       <span id="issue-no"></span>
-      <a class="map-link" href="map.html">⇢ AI業界相関図</a>
+      <a class="map-link" href="threads.html">⇢ AI業界ストーリー</a>
     </div>
   </div>
 </header>
@@ -394,6 +424,15 @@ footer a{color:var(--ink-soft)}
 <div class="count-line" id="count-line"></div>
 
 <main>
+  <section id="threads-section">
+    <div class="section-title">
+      <h2>業界ストーリー</h2>
+      <div class="bar"></div>
+      <span class="sub">6本の物語で業界を追う ─ クリックで現在地・相関図へ</span>
+    </div>
+    <div class="threads-box" id="threads-box"></div>
+  </section>
+
   <section id="latest-section">
     <div class="section-title">
       <h2>最近の記事</h2>
@@ -423,6 +462,7 @@ footer a{color:var(--ink-soft)}
 </div>
 
 <script src="ai_news_data.js"></script>
+<script src="threads_data.js"></script>
 <script>
 const CAT_COLOR = {"新モデル":"var(--c-model)","資金調達":"var(--c-fund)","規制":"var(--c-reg)","研究":"var(--c-res)","ツール":"var(--c-tool)","半導体":"var(--c-semi)","その他":"var(--c-etc)"};
 const CAT_KANJI = {"新モデル":"新","資金調達":"資","規制":"規","研究":"研","ツール":"具","その他":"報"};
@@ -455,7 +495,16 @@ function metaHtml(e){
     <span class="tag" style="background:${CAT_COLOR[e.category]||"var(--c-etc)"}">${esc(e.category)}</span>
     <span class="stars">${stars(e.importance)}</span>
     <span class="date-label">${jpDate(e.date)}</span>
+    ${threadChips(e)}
   </div>`;
+}
+const THREADS_BY_ID = {};
+(window.THREADS?.threads || []).forEach(t => THREADS_BY_ID[t.id] = t);
+function threadChips(e){
+  return (e.threads||[]).map(id => {
+    const t = THREADS_BY_ID[id];
+    return t ? `<a class="thchip" style="--tc:${t.color}" href="threads.html#${id}" onclick="event.stopPropagation()">${esc(t.title)}</a>` : "";
+  }).join("");
 }
 function matches(title, cat, imp, extra){
   if(fCat && cat !== fCat) return false;
@@ -638,7 +687,24 @@ document.getElementById("search").addEventListener("input", e => {
   debounce = setTimeout(()=>{ fQuery = e.target.value.trim().toLowerCase(); render(); }, 180);
 });
 
+/* ---------- 業界ストーリー（今週の動き） ---------- */
+(function renderThreadsBox(){
+  const ths = (window.THREADS && window.THREADS.threads) || [];
+  if(!ths.length){ document.getElementById("threads-section").style.display = "none"; return; }
+  document.getElementById("threads-box").innerHTML = ths.map(t => `
+    <a class="trow" href="threads.html#${t.id}">
+      <span class="tdot" style="background:${t.color}"></span>
+      <span class="tname">${esc(t.title)}</span>
+      <span class="tline">${esc(t.week || (t.status && t.status[0]) || "")}</span>
+      <span class="tgo">現在地 →</span>
+    </a>`).join("");
+})();
+
 render();
+
+/* ---------- ディープリンク（threads.html のタイムラインから記事を開く） ---------- */
+const __artId = new URLSearchParams(location.search).get("article");
+if(__artId) openModal(__artId);
 </script>
 </body>
 </html>

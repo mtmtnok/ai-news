@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI業界ストーリー — AI CatchUP Daily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#fbf8f2;
+  --ink:#1a1712;
+  --ink-soft:#473f35;
+  --ink-faint:#736a5d;
+  --vermilion:#cf3b25;
+  --rule:#d8d0c2;
+  --serif:"Shippori Mincho","Yu Mincho","Hiragino Mincho ProN",serif;
+  --sans:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.7;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(207,59,37,.018), transparent 42%),
+    repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(29,26,22,.008) 4px);
+}
+header{max-width:1120px;margin:0 auto;padding:22px 24px 12px;border-bottom:2px solid var(--ink);
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.hanko{
+  width:46px;height:46px;flex:none;background:var(--vermilion);color:#fff;
+  font-family:var(--serif);font-weight:800;font-size:16px;line-height:1.15;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  border-radius:6px;box-shadow:2px 3px 0 rgba(29,26,22,.18);
+}
+header h1{font-family:var(--serif);font-weight:800;font-size:clamp(20px,3.4vw,27px);letter-spacing:.04em}
+header h1 small{display:block;font-size:10.5px;font-weight:600;color:var(--ink-soft);letter-spacing:.3em;margin-top:2px}
+.back{
+  margin-left:auto;font-size:13px;font-weight:700;color:var(--vermilion);
+  text-decoration:none;border:1px solid var(--rule);background:#fffdf9;
+  border-radius:999px;padding:6px 16px;white-space:nowrap;
+}
+.back:hover{border-color:var(--vermilion)}
+.intro{max-width:1120px;margin:0 auto;padding:12px 24px 0;font-size:12.5px;color:var(--ink-faint);line-height:1.7}
+/* タブ */
+.tabs{max-width:1120px;margin:0 auto;padding:14px 24px 0;display:flex;gap:8px;flex-wrap:wrap}
+.tab{
+  font-family:var(--sans);font-size:14px;font-weight:700;cursor:pointer;user-select:none;
+  padding:9px 18px;border:1px solid var(--rule);border-bottom:none;background:#f3efe6;color:var(--ink-faint);
+  border-radius:10px 10px 0 0;transition:all .15s ease;
+  display:flex;align-items:center;gap:7px;
+}
+.tab .dot{width:9px;height:9px;border-radius:50%;flex:none;opacity:.55}
+.tab.on{background:#fffdf9;color:var(--ink);border-color:var(--ink)}
+.tab.on .dot{opacity:1}
+.tab:hover:not(.on){color:var(--ink-soft)}
+main{max-width:1120px;margin:0 auto;padding:0 24px 60px}
+.view{display:none;border:1px solid var(--rule);border-radius:0 10px 10px 10px;background:#fffdf9;
+  padding:20px 20px 26px;position:relative}
+.view.on{display:block}
+/* 現在地 */
+.now{border-left:4px solid;border-radius:0 10px 10px 0;background:#faf7f0;padding:16px 20px 14px;margin-bottom:20px}
+.now .q{font-size:12px;font-weight:700;letter-spacing:.12em;margin-bottom:8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.now .q .upd{font-weight:500;color:var(--ink-faint);letter-spacing:.04em;margin-left:auto}
+.now h2{font-family:var(--serif);font-size:19px;font-weight:800;margin-bottom:10px}
+.now p{font-size:13.5px;color:var(--ink-soft);line-height:1.85;margin-bottom:8px;padding-left:1.1em;text-indent:-1.1em}
+.now p::before{content:"◆";font-size:10px;margin-right:.45em;opacity:.7}
+/* セクション見出し */
+.sec{display:flex;align-items:baseline;gap:12px;margin:26px 0 12px}
+.sec h3{font-family:var(--serif);font-size:16px;font-weight:700;letter-spacing:.1em}
+.sec .bar{height:1px;background:var(--rule);flex:1}
+.sec .cnt{font-size:11.5px;color:var(--ink-faint);white-space:nowrap}
+/* 図 */
+.caption{font-size:12.5px;color:var(--ink-faint);margin:0 4px 10px;display:flex;gap:14px;flex-wrap:wrap}
+.caption b{color:var(--ink-soft)}
+.svgwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.svgwrap svg{display:block;min-width:820px;width:100%;height:auto}
+svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
+.nbox{cursor:pointer}
+.pedge{cursor:pointer;transition:all .12s ease}
+.pedge:hover{stroke-opacity:.95;stroke-width:4}
+.legend{display:flex;gap:6px 16px;flex-wrap:wrap;font-size:12px;color:var(--ink-soft);margin:8px 4px 0;align-items:center}
+.legend .li{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:18px;height:3px;border-radius:2px;display:inline-block;flex:none}
+.legend i.dash{background:repeating-linear-gradient(90deg,currentColor 0 4px,transparent 4px 8px);color:#8a8377;height:2px}
+/* タイムライン */
+.tl{border-left:2px solid var(--rule);margin:4px 0 0 7px;padding-left:0}
+.tl a{display:flex;gap:12px;align-items:baseline;padding:8px 6px 8px 18px;text-decoration:none;color:inherit;position:relative;
+  border-radius:0 8px 8px 0;transition:background .12s}
+.tl a:hover{background:#f3efe6}
+.tl a::before{content:"";position:absolute;left:-6px;top:15px;width:10px;height:10px;border-radius:50%;
+  background:var(--paper);border:2.5px solid var(--tlc,#8a8377)}
+.tl .d{font-family:var(--serif);font-size:12px;color:var(--ink-soft);flex:none;width:82px;letter-spacing:.02em}
+.tl .stars{color:var(--vermilion);font-size:11px;letter-spacing:.1em;flex:none;width:38px}
+.tl .t{font-size:13.5px;line-height:1.65}
+.tl a.imp3 .t{font-weight:700}
+.tl .more{font-size:12px;color:var(--ink-faint);padding:8px 6px 0 18px}
+.tl-empty{font-size:12.5px;color:var(--ink-faint);padding:6px 4px}
+/* 詳細パネル */
+#panel{
+  position:fixed;top:84px;right:18px;z-index:30;width:350px;max-width:calc(100vw - 32px);
+  max-height:calc(100vh - 110px);overflow-y:auto;
+  background:#fffdf9;border:1px solid var(--rule);border-radius:10px;
+  box-shadow:0 18px 40px -18px rgba(29,26,22,.4);
+  padding:18px 20px;display:none;
+}
+#panel.show{display:block}
+#panel h2{font-family:var(--serif);font-size:17.5px;font-weight:800;margin-bottom:2px;padding-right:26px}
+#panel .gname{font-size:11.5px;color:var(--ink-faint);letter-spacing:.1em;margin-bottom:8px}
+#panel .close{position:absolute;top:10px;right:12px;border:none;background:none;cursor:pointer;
+  font-size:18px;color:var(--ink-faint);line-height:1;padding:4px}
+.rel{border-top:1px solid var(--rule);padding:10px 0}
+.rel .head{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:4px}
+.rel .tchip{font-size:10.5px;font-weight:700;color:#fff;border-radius:999px;padding:1px 9px;white-space:nowrap}
+.rel .peer{font-size:13px;font-weight:700}
+.rel .dt{font-size:11px;color:var(--ink-faint);margin-left:auto;white-space:nowrap}
+.rel .desc{font-size:12.5px;line-height:1.65;color:var(--ink-soft)}
+.rel a{font-size:11.5px;color:var(--vermilion);text-decoration:none;border-bottom:1px dotted var(--vermilion)}
+.status{display:inline-flex;align-items:center;border:1px solid var(--rule);border-radius:999px;padding:1px 7px;font-size:10px;font-weight:700;color:var(--ink-soft);background:#faf7f0}
+.hino{display:inline-block;width:13px;height:13px;border-radius:50%;background:#fff;position:relative;flex:none;border:1px solid rgba(0,0,0,.12)}
+.hino::after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--vermilion)}
+/* 半導体シェア（⑤に統合） */
+.sstage{margin:4px 0 20px;border:1px solid var(--rule);border-radius:12px;background:#fff;overflow:hidden}
+.sstage > h3{padding:9px 16px;color:#fff;font-family:var(--serif);font-size:15px;font-weight:700;letter-spacing:2.5px;background:#3d7a80}
+.sseg{padding:13px 18px 15px;border-top:1px solid var(--rule)}
+.sseg:first-of-type{border-top:none}
+.sseg .shead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.sseg .shead b{font-size:14.5px}
+.sseg .shead .asof{font-size:11px;color:var(--ink-faint)}
+.sseg .shead a{margin-left:auto;font-size:11.5px;color:var(--vermilion);text-decoration:none;border-bottom:1px dotted var(--vermilion);white-space:nowrap}
+.sbar{display:flex;height:38px;border-radius:7px;overflow:hidden;margin:9px 0 8px;border:1px solid var(--rule)}
+.sbar > div{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;min-width:2px}
+.slegend{display:flex;gap:5px 15px;flex-wrap:wrap;font-size:12px;color:var(--ink-soft);align-items:center}
+.slegend .li{display:inline-flex;align-items:center;gap:5px}
+.slegend i{width:10px;height:10px;border-radius:3px;display:inline-block;flex:none}
+.snote{font-size:11.5px;color:var(--ink-faint);line-height:1.65;margin-top:7px}
+.sstagenote{padding:10px 18px;font-size:11.5px;color:var(--ink-faint);line-height:1.6;border-top:1px solid var(--rule);background:#faf7f0}
+footer{max-width:1120px;margin:0 auto;padding:12px 24px 40px;
+  font-size:11.5px;color:var(--ink-faint);display:flex;gap:14px;flex-wrap:wrap}
+@media (max-width:720px){
+  header{padding:14px 14px 10px}
+  .tabs,main,.intro{padding-left:12px;padding-right:12px}
+  .tab{padding:8px 11px;font-size:12.5px}
+  #panel{top:auto;bottom:0;left:0;right:0;width:100%;max-width:100%;max-height:46vh;border-radius:14px 14px 0 0}
+  .tl .d{width:68px}
+  .tl .stars{display:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hanko">物<br>語</div>
+  <h1>AI業界ストーリー<small>6本の物語で業界を追う</small></h1>
+  <a class="back" href="index.html">⇠ ニュースへ戻る</a>
+</header>
+
+<div class="intro">業界のすべては追いません。いまAI業界を動かしている6本のストーリーを選び、その「現在地」を毎週更新します。各図はそのストーリーに関わる企業だけを描いたものです。</div>
+
+<div class="tabs" id="tabs"></div>
+<main id="views"></main>
+
+<aside id="panel">
+  <button class="close" onclick="closePanel()" aria-label="閉じる">✕</button>
+  <div id="panel-body"></div>
+</aside>
+
+<footer>
+  <span>最終更新: <span id="updated"></span>（毎週土曜に「現在地」を更新）</span>
+  <span>各関係に出典リンク付き。公式発表を優先し、報道・交渉中の案件は明示します。</span>
+  <span><span class="hino" style="vertical-align:-2px"></span> ＝ 日本企業</span>
+</footer>
+
+<script src="threads_data.js"></script>
+<script src="relations_data.js"></script>
+<script src="semi_share_data.js"></script>
+<script src="ai_news_data.js"></script>
+<script>
+const R = window.RELATIONS, TH = window.THREADS;
+document.getElementById("updated").textContent = TH.updated;
+
+const SECTOR = {
+  lab:    { name:"AIラボ",             color:"#cf3b25" },
+  cloud:  { name:"ビッグテック・クラウド", color:"#2d5d8e" },
+  semi:   { name:"半導体",             color:"#3d7a80" },
+  app:    { name:"応用・スタートアップ",  color:"#c8762a" },
+  invest: { name:"投資家・ファンド",     color:"#6b4f9e" }
+};
+const SUBNAME = { design:"設計", fab:"製造", memdev:"メモリ・装置" };
+const TYPES = {
+  invest:  { name:"出資・調達", color:"#3a7a4e" },
+  partner: { name:"提携・供給", color:"#2d5d8e" },
+  ma:      { name:"買収・合併", color:"#c0392b" },
+  talent:  { name:"人材移籍",   color:"#6b4f9e" }
+};
+// 線の色 = 何が流れる関係か（partnerはflow、他はtypeで決まる）
+const FLOWCOL = { "計算資源":"#2d5d8e", "資金":"#3a7a4e", "モデル":"#8a5fb0", "販売":"#c8762a", "技術":"#3d7a80" };
+const STATUS_LABEL = { reported:"報道・未確定", negotiating:"交渉中・未確定", ended:"終了した関係" };
+const edgeCol = e => e.type === "partner" ? (FLOWCOL[e.flow] || TYPES.partner.color) : TYPES[e.type].color;
+const edgeName = e => e.type === "partner" && e.flow ? `提携（${e.flow}）` : TYPES[e.type].name;
+
+const N = {}; R.nodes.forEach(n => N[n.id] = n);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nm = id => (N[id] || {label:id}).label;
+const scol = id => SECTOR[(N[id]||{}).sector]?.color || "#6e6a61";
+const amtText = v => v == null ? "金額非公表" : `約${v.toLocaleString()}億ドル`;
+const stars = n => "★★★".slice(0, n) || "★";
+const jpDate = iso => { const p = (iso||"").split("-"); return p.length === 3 ? `${p[0].slice(2)}年${+p[1]}月${+p[2]}日` : iso; };
+
+// ニュース（タイムライン用）: NEWS_DATA + NEWS_ARCHIVE を統合
+const NEWS = [...(window.NEWS_DATA || []), ...(window.NEWS_ARCHIVE || [])];
+
+// SVG部品: 日の丸マーク
+const hinoSvg = (x, y) =>
+  `<circle cx="${x}" cy="${y}" r="6.5" fill="#fff" stroke="rgba(0,0,0,.15)"/><circle cx="${x}" cy="${y}" r="3.2" fill="#cf3b25"/>`;
+
+// ═══════════ 詳細パネル ═══════════
+const panel = document.getElementById("panel");
+const pbody = document.getElementById("panel-body");
+function closePanel(){ panel.classList.remove("show"); }
+function relHtml(e){
+  const dir = e.type === "partner" ? "×" : "→";
+  const st = STATUS_LABEL[e.status];
+  return `<div class="rel">
+    <div class="head">
+      <span class="tchip" style="background:${edgeCol(e)}">${esc(edgeName(e))}</span>
+      <span class="peer">${esc(nm(e.from))} ${dir} ${esc(nm(e.to))}</span>
+      <span class="dt">${esc(e.date)}</span>${st ? `<span class="status">${st}</span>` : ""}
+    </div>
+    ${e.person ? `<div class="desc"><b>${esc(e.person)}</b></div>` : ""}
+    ${e.type === "invest" ? `<div class="desc"><b>${amtText(e.amount)}</b></div>` : ""}
+    <div class="desc">${esc(e.label)}</div>
+    <a href="${esc(e.source)}" target="_blank" rel="noopener">出典を読む ↗</a>
+  </div>`;
+}
+function showEdges(title, sub, edges){
+  pbody.innerHTML = `<h2>${esc(title)}</h2><div class="gname">${esc(sub)}</div>` + edges.map(relHtml).join("");
+  panel.classList.add("show");
+}
+window.closePanel = closePanel;
+window.__showNode = (tid, id) => {
+  const es = R.edges.filter(e => (e.threads||[]).includes(tid) && (e.from === id || e.to === id))
+    .sort((a,b) => a.date < b.date ? 1 : -1);
+  showEdges(nm(id), `このストーリーでの関係 ${es.length}件`, es);
+};
+window.__showEdge = i => showEdges(`${nm(R.edges[i].from)} と ${nm(R.edges[i].to)}`, edgeName(R.edges[i]), [R.edges[i]]);
+
+// ═══════════ ミニ相関図（レイヤー配置・スレッドのエッジのみ） ═══════════
+function miniMapSvg(tid){
+  const es = R.edges.map((e,i)=>({...e, _i:i})).filter(e => (e.threads||[]).includes(tid));
+  if (!es.length) return "";
+  const used = new Set(); es.forEach(e => { used.add(e.from); used.add(e.to); });
+  const idsOf = (sector, sub) => R.nodes
+    .filter(n => used.has(n.id) && n.sector === sector && (sub ? n.sub === sub : true))
+    .map(n => n.id);
+
+  const semiRows = [
+    { sub:"design", ids: idsOf("semi","design") },
+    { sub:"fab",    ids: idsOf("semi","fab") },
+    { sub:"memdev", ids: idsOf("semi","memdev") }
+  ].filter(r => r.ids.length);
+  // 半導体ノードが少なければ1行にまとめる（ミニ図では行を増やしすぎない）
+  const semiZoneRows = semiRows.reduce((s,r) => s + r.ids.length, 0) <= 4
+    ? (idsOf("semi").length ? [{ ids: idsOf("semi") }] : [])
+    : semiRows;
+
+  const zones = [
+    { sector:"app",  rows:[{ ids: idsOf("app") }] },
+    { sector:"lab",  rows:[{ ids: idsOf("lab") }] },
+    { sector:"cloud",rows:[{ ids: idsOf("cloud") }] },
+    { sector:"semi", rows: semiZoneRows },
+    { sector:"invest", rows:[{ ids: idsOf("invest") }] }
+  ].filter(z => z.rows.some(r => r.ids.length));
+
+  const W = 1040, XL = 96, XR = 1020, NH = 44, ROWH = 84, ZPAD = 34, ZGAP = 22;
+  let y = 14;
+  const rows = [];
+  zones.forEach(z => {
+    z.y0 = y; y += ZPAD;
+    z.rows.forEach(r => { r.y = y + (ROWH - NH)/2; r.zone = z; rows.push(r); y += ROWH; });
+    z.y1 = y + 4; y = z.y1 + ZGAP;
+  });
+  const H = y;
+
+  const wOf = id => 30 + [...nm(id)].reduce((s,ch) => s + (ch.charCodeAt(0) > 255 ? 15.5 : 9.5), 0) + (N[id].jp ? 16 : 0);
+  const placeRow = r => {
+    const tw = r.ids.reduce((s,id) => s + wOf(id), 0);
+    const gap = Math.max(14, (XR - XL - tw) / (r.ids.length + 1));
+    let x = XL + gap;
+    r.pos = {};
+    r.ids.forEach(id => { r.pos[id] = { x, w: wOf(id), cx: x + wOf(id)/2, y: r.y }; x += wOf(id) + gap; });
+  };
+  rows.forEach(placeRow);
+  const posOf = id => { for (const r of rows) if (r.pos[id]) return r.pos[id]; return null; };
+
+  for (let it = 0; it < 4; it++) rows.forEach(r => {
+    const bary = id => {
+      const ps = es.filter(e => e.from === id || e.to === id)
+        .map(e => posOf(e.from === id ? e.to : e.from)).filter(Boolean);
+      return ps.length ? ps.reduce((s,p) => s + p.cx, 0) / ps.length : posOf(id).cx;
+    };
+    r.ids.sort((a,b) => bary(a) - bary(b));
+    placeRow(r);
+  });
+
+  // 同一ペアの複数エッジ（人材など）をずらして描く
+  const pairSeen = {};
+  const edges = es.map(e => {
+    let a = posOf(e.from), b = posOf(e.to);
+    if (!a || !b) return "";
+    const pk = [e.from, e.to].sort().join("|");
+    const off = (pairSeen[pk] = (pairSeen[pk] ?? -1) + 1) * 9;
+    let d;
+    if (Math.abs(a.y - b.y) < 2) {
+      const y0 = a.y, top = y0 - 40 - off;
+      d = `M ${a.cx + off} ${y0} C ${a.cx + off} ${top}, ${b.cx + off} ${top}, ${b.cx + off} ${y0}`;
+    } else {
+      if (a.y > b.y) [a, b] = [b, a];
+      const y1 = a.y + NH, y2 = b.y, dy = (y2 - y1) * .5;
+      d = `M ${a.cx + off} ${y1} C ${a.cx + off} ${y1 + dy}, ${b.cx + off} ${y2 - dy}, ${b.cx + off} ${y2}`;
+    }
+    const faded = e.status === "ended";
+    const dash = (e.status && e.status !== "official") ? 'stroke-dasharray="6 5"' : "";
+    return `<path class="pedge" onclick="__showEdge(${e._i})" d="${d}" fill="none"
+      stroke="${faded ? "#8a8377" : edgeCol(e)}" stroke-opacity="${faded ? .38 : .55}" stroke-width="2.6" ${dash}>
+      <title>${esc(nm(e.from))} ${e.type === "partner" ? "×" : "→"} ${esc(nm(e.to))}: ${esc(edgeName(e))}</title></path>`;
+  }).join("");
+
+  const zoneBg = zones.map(z => {
+    const c = SECTOR[z.sector].color;
+    const subs = z.rows.length > 1 ? z.rows.map(r =>
+      `<text x="30" y="${r.y + NH/2 + 4}" font-size="11.5" font-weight="700" fill="${c}" opacity=".8">${SUBNAME[r.sub] || ""}</text>` +
+      (r !== z.rows[z.rows.length-1] ? `<line x1="24" y1="${r.y + ROWH - 6}" x2="${W-24}" y2="${r.y + ROWH - 6}" stroke="${c}" stroke-opacity=".18" stroke-dasharray="4 5"/>` : "")
+    ).join("") : "";
+    return `<rect x="10" y="${z.y0}" width="${W-20}" height="${z.y1 - z.y0}" rx="12" fill="${c}" fill-opacity=".055" stroke="${c}" stroke-opacity=".22"/>
+      <text x="26" y="${z.y0 + 22}" font-size="13" font-weight="800" fill="${c}" letter-spacing="2.5">${SECTOR[z.sector].name}</text>${subs}`;
+  }).join("");
+
+  const nodesSvg = rows.map(r => r.ids.map(id => {
+    const p = r.pos[id], n = N[id];
+    return `<g class="nbox" onclick="__showNode('${tid}','${id}')">
+      <rect x="${p.x}" y="${p.y}" width="${p.w}" height="${NH}" rx="8" fill="${scol(id)}"/>
+      <text x="${p.x + (n.jp ? 24 : 14)}" y="${p.y + NH/2 + 5.5}" font-size="15" font-weight="700" fill="#fff">${esc(n.label)}</text>
+      ${n.jp ? hinoSvg(p.x + 14, p.y + NH/2) : ""}
+    </g>`;
+  }).join("")).join("");
+
+  // 凡例: この図に実際に出てくる線の種類だけ
+  const kinds = new Map();
+  es.forEach(e => { const k = edgeName(e); if (!kinds.has(k)) kinds.set(k, edgeCol(e)); });
+  const hasUnofficial = es.some(e => e.status && e.status !== "official");
+  const legend = `<div class="legend">` +
+    [...kinds.entries()].map(([k,c]) => `<span class="li"><i style="background:${c}"></i>${esc(k)}</span>`).join("") +
+    (hasUnofficial ? `<span class="li"><i class="dash"></i>報道・交渉中・終了</span>` : "") +
+    `</div>`;
+
+  return `
+    <div class="caption"><b>このストーリーの相関図</b><span>関わる企業だけを表示</span><span>クリックで詳細・出典</span></div>
+    <div class="svgwrap"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="ストーリーの相関図">
+      ${zoneBg}${edges}${nodesSvg}
+    </svg></div>${legend}`;
+}
+
+// ═══════════ タイムライン ═══════════
+const TL_LIMIT = 25;
+function timelineHtml(t){
+  const items = NEWS.filter(e => (e.threads||[]).includes(t.id))
+    .sort((a,b) => (b.date||"").localeCompare(a.date||""));
+  if (!items.length)
+    return `<div class="tl-empty">紐付いた記事はまだありません。今後のニュースから自動的に積み上がります。</div>`;
+  const shown = items.slice(0, TL_LIMIT);
+  return `<div class="tl" style="--tlc:${t.color}">` + shown.map(e => `
+    <a href="index.html?article=${encodeURIComponent(e.id)}" class="${e.importance === 3 ? "imp3" : ""}">
+      <span class="d">${jpDate(e.date)}</span>
+      <span class="stars">${stars(e.importance)}</span>
+      <span class="t">${esc(e.title)}</span>
+    </a>`).join("") +
+    (items.length > TL_LIMIT ? `<div class="more">ほか${items.length - TL_LIMIT}件（ニュース面のアーカイブ参照）</div>` : "") +
+  `</div>`;
+}
+
+// ═══════════ 半導体シェア（⑤に統合） ═══════════
+const BARCOLS = ["#2d5d8e","#3d7a80","#c8762a","#3a7a4e","#6b4f9e","#c0392b","#8a6d3b"];
+function semiShareHtml(){
+  const S = window.SEMI_SHARE;
+  if (!S) return "";
+  return `<div class="sec"><h3>参考: 半導体 工程別シェア</h3><div class="bar"></div><span class="cnt">${esc(S.updated)}時点の調査</span></div>`
+    + S.stages.map(stage => `
+    <div class="sstage">
+      <h3>${esc(stage.name)}</h3>
+      ${stage.segments.map(seg => {
+        let ci = 0;
+        const cols = seg.items.map(it => it.company === "その他" ? "#b6ad9c" : BARCOLS[ci++ % BARCOLS.length]);
+        return `
+        <div class="sseg">
+          <div class="shead"><b>${esc(seg.name)}</b><span class="asof">${esc(seg.asOf)}</span>
+            <a href="${esc(seg.sourceUrl)}" target="_blank" rel="noopener">出典: ${esc(seg.sourceName)} ↗</a></div>
+          <div class="sbar">${seg.items.map((it,i) =>
+            `<div style="width:${it.share}%;background:${cols[i]}" title="${esc(it.company)} ${it.share}%">${it.share >= 13 ? esc(it.company) + " " + it.share + "%" : (it.share >= 6 ? it.share + "%" : "")}</div>`).join("")}</div>
+          <div class="slegend">${seg.items.map((it,i) =>
+            `<span class="li"><i style="background:${cols[i]}"></i>${it.jp ? '<span class="hino"></span>' : ""}${esc(it.company)} ${it.share}%</span>`).join("")}</div>
+          ${seg.note ? `<div class="snote">※ ${esc(seg.note)}</div>` : ""}
+        </div>`;
+      }).join("")}
+      ${stage.note ? `<div class="sstagenote">※ ${esc(stage.note)}</div>` : ""}
+    </div>`).join("");
+}
+
+// ═══════════ ビュー描画 ═══════════
+function renderThread(el, t){
+  const newsCount = NEWS.filter(e => (e.threads||[]).includes(t.id)).length;
+  const edgeCount = R.edges.filter(e => (e.threads||[]).includes(t.id)).length;
+  el.innerHTML = `
+    <div class="now" style="border-color:${t.color}">
+      <div class="q" style="color:${t.color}">この物語の問い: ${esc(t.question)}<span class="upd">現在地 ${esc(t.updated)} 更新</span></div>
+      <h2>いま、どうなっているか</h2>
+      ${t.status.map(s => `<p>${esc(s)}</p>`).join("")}
+    </div>
+    ${miniMapSvg(t.id)}
+    <div class="sec"><h3>タイムライン</h3><div class="bar"></div><span class="cnt">紐付いた記事 ${newsCount}件・関係 ${edgeCount}件</span></div>
+    ${timelineHtml(t)}
+    ${t.id === "semi" ? semiShareHtml() : ""}`;
+}
+
+// ═══════════ タブ制御 ═══════════
+const tabsEl = document.getElementById("tabs");
+const viewsEl = document.getElementById("views");
+const TABS = TH.threads.map(t => {
+  const tab = { key: t.id, t };
+  tab.btn = document.createElement("div");
+  tab.btn.className = "tab";
+  tab.btn.innerHTML = `<span class="dot" style="background:${t.color}"></span>${esc(t.title)}`;
+  tab.btn.onclick = () => activate(t.id, true);
+  tabsEl.appendChild(tab.btn);
+  tab.view = document.createElement("div");
+  tab.view.className = "view";
+  viewsEl.appendChild(tab.view);
+  return tab;
+});
+function activate(key, push){
+  closePanel();
+  TABS.forEach(tb => {
+    const on = tb.key === key;
+    tb.btn.classList.toggle("on", on);
+    tb.view.classList.toggle("on", on);
+    if (on && !tb.rendered) { renderThread(tb.view, tb.t); tb.rendered = true; }
+  });
+  if (push) history.replaceState(null, "", "#" + key);
+}
+activate(TABS.some(tb => tb.key === location.hash.slice(1)) ? location.hash.slice(1) : TABS[0].key, false);
+</script>
+</body>
+</html>

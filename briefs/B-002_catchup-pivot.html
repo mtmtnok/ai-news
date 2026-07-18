@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B-002 | 相関図の「網羅」をやめ、ストーリー追跡型サイトへ転換する案</title>
+<style>
+:root{
+  --ink:#1c2530; --sub:#5b6774; --paper:#f7f6f3; --card:#ffffff; --line:#e3e1db;
+  --red:#c94f4f; --red-bg:#fdf3f2; --red-line:#eecdcd;
+  --amber:#c98a2d; --amber-bg:#fdf8ee;
+  --green:#3d8f5f; --green-bg:#f0f8f3;
+  --blue:#3d6fb4; --blue-bg:#eff4fb;
+  --accent:#4f5db4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Segoe UI","Yu Gothic UI","Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;
+  line-height:1.8;font-size:15.5px;}
+.wrap{max-width:920px;margin:0 auto;padding:36px 30px 90px;}
+h1{font-size:25px;line-height:1.45;margin:10px 0 14px;}
+h2{font-size:19px;border-left:5px solid var(--accent);padding-left:12px;margin:0 0 16px;}
+h3{font-size:16px;margin:0 0 8px;}
+p{margin:8px 0;}
+.sub{color:var(--sub);font-size:14px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 30px;margin:24px 0;}
+.chip{display:inline-block;background:#eceae5;color:var(--sub);border-radius:999px;
+  padding:2px 13px;font-size:12.5px;font-weight:600;margin-right:8px;}
+.chip.red{background:var(--red-bg);color:var(--red);border:1px solid var(--red-line);}
+.chip.green{background:var(--green-bg);color:var(--green);border:1px solid #cfe6d8;}
+.chip.blue{background:var(--blue-bg);color:var(--blue);border:1px solid #cfdcf0;}
+.brief-id{font-family:Consolas,monospace;font-size:14px;font-weight:700;color:var(--accent);
+  letter-spacing:.06em;}
+.note{font-size:13px;color:var(--sub);background:#efede8;border-radius:8px;padding:8px 14px;
+  display:inline-block;}
+ul{margin:8px 0;padding-left:22px;}
+li{margin:5px 0;}
+table{width:100%;border-collapse:collapse;font-size:14.5px;margin:10px 0;}
+th{text-align:left;color:var(--sub);font-size:13px;border-bottom:2px solid var(--line);
+  padding:6px 10px;white-space:nowrap;}
+td{border-bottom:1px solid var(--line);padding:9px 10px;vertical-align:top;}
+tr.rec td{background:var(--green-bg);}
+.badge{display:inline-block;font-size:11.5px;padding:1px 9px;border-radius:999px;font-weight:700;
+  white-space:nowrap;}
+.badge.rec{background:var(--green);color:#fff;}
+.opt{font-family:Consolas,monospace;font-weight:700;}
+.decision{border:2px solid var(--red);background:var(--red-bg);}
+.decision h2{border-left-color:var(--red);}
+.q{background:#fff;border:1px solid var(--red-line);border-radius:10px;padding:16px 20px;margin:16px 0;}
+.swatch{display:inline-block;width:13px;height:13px;border-radius:3px;margin-right:7px;
+  vertical-align:-1px;}
+details{margin:14px 0;}
+summary{cursor:pointer;font-weight:700;color:var(--accent);}
+details .card{margin-top:12px;}
+.reply{background:#232833;color:#e8eaf0;border-radius:10px;padding:18px 22px;
+  font-family:Consolas,"BIZ UDGothic",monospace;font-size:14px;line-height:2.0;}
+.reply .cm{color:#8d97a8;}
+figure{margin:14px 0;}
+figcaption{font-size:13px;color:var(--sub);text-align:center;margin-top:4px;}
+svg text{font-family:"Segoe UI","Yu Gothic UI",Meiryo,sans-serif;}
+.cols{display:flex;gap:16px;flex-wrap:wrap;}
+.cols > div{flex:1;min-width:280px;}
+.cols img{max-width:100%;border:1px solid var(--line);border-radius:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- ═══ ① ヘッダ ═══ -->
+<header>
+  <span class="brief-id">BRIEF B-002</span>
+  <h1>相関図の「網羅」をやめ、ストーリー追跡型サイトへ転換する案</h1>
+  <div>
+    <span class="chip green">✓ 判断済 2026-07-18 — 1A 2A 3A（ストーリー追跡型・ミニ図分解・即実装）</span>
+    <span class="chip">2026-07-18</span>
+    <span class="chip">読了目安 3分</span>
+    <span class="chip blue">v2 — Codexセカンドオピニオンを§4で取込</span>
+  </div>
+</header>
+
+<!-- ═══ ② 30秒サマリ ═══ -->
+<section class="card">
+  <h2>30秒サマリ</h2>
+  <ul>
+    <li>相関図が中途半端なのは実装の失敗ではなく<b>目標設定の問題</b>。業界の関係は毎週増える無限集合で、個人運営サイトが「網羅」を目指すと必ず「Crunchbaseの劣化版」に着地する。</li>
+    <li>キャッチアップの認知単位は「関係の一覧」ではなく<b>「続きもののストーリー」</b>。人は「MicrosoftとOpenAIの間にエッジがある」ではなく「コンピュート軍拡競争が今どこまで進んだか」で業界を理解する。</li>
+    <li>提案は、業界を動かす<b>6本のストーリースレッド</b>を編集部として追跡する型への転換（案A・推奨）。既存の相関図データ60本のエッジは捨てず、スレッド別ミニ図に再利用できる。</li>
+  </ul>
+  <figure>
+    <svg viewBox="0 0 860 235" role="img" aria-label="網羅型からストーリー追跡型への転換図">
+      <defs>
+        <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#8a93a3"/>
+        </marker>
+      </defs>
+      <!-- 現状 -->
+      <rect x="10" y="30" width="270" height="170" rx="12" fill="var(--red-bg)" stroke="var(--red)" stroke-width="1.5"/>
+      <text x="145" y="55" text-anchor="middle" font-size="14.5" font-weight="700" fill="var(--red)">現状: 網羅型データベース</text>
+      <text x="145" y="82" text-anchor="middle" font-size="12.5" fill="var(--ink)">45ノード・60エッジで力尽きる</text>
+      <text x="145" y="104" text-anchor="middle" font-size="12.5" fill="var(--ink)">追いつくほど価値が薄まる</text>
+      <text x="145" y="126" text-anchor="middle" font-size="12.5" fill="var(--ink)">「全部あるはず」の期待を裏切る</text>
+      <text x="145" y="158" text-anchor="middle" font-size="12" fill="var(--sub)">読者の問い「で、何が起きてるの?」</text>
+      <text x="145" y="178" text-anchor="middle" font-size="12" fill="var(--sub)">に答えられない</text>
+      <!-- 矢印 -->
+      <line x1="285" y1="115" x2="330" y2="115" stroke="#8a93a3" stroke-width="2.2" marker-end="url(#ar)"/>
+      <text x="307" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="var(--sub)">転換</text>
+      <!-- 提案 -->
+      <rect x="335" y="30" width="510" height="170" rx="12" fill="var(--green-bg)" stroke="var(--green)" stroke-width="1.5"/>
+      <text x="590" y="55" text-anchor="middle" font-size="14.5" font-weight="700" fill="var(--green)">提案: 6本のストーリースレッドを追跡する編集部</text>
+      <!-- スレッド帯 -->
+      <rect x="352" y="70" width="230" height="30" rx="6" fill="#fff" stroke="var(--line)"/>
+      <text x="467" y="90" text-anchor="middle" font-size="12" fill="var(--ink)">① コンピュート軍拡（Stargate等）</text>
+      <rect x="598" y="70" width="230" height="30" rx="6" fill="#fff" stroke="var(--line)"/>
+      <text x="713" y="90" text-anchor="middle" font-size="12" fill="var(--ink)">② フロンティアラボの資金・勢力図</text>
+      <rect x="352" y="108" width="230" height="30" rx="6" fill="#fff" stroke="var(--line)"/>
+      <text x="467" y="128" text-anchor="middle" font-size="12" fill="var(--ink)">③ 中国オープンウェイト勢の追撃</text>
+      <rect x="598" y="108" width="230" height="30" rx="6" fill="#fff" stroke="var(--line)"/>
+      <text x="713" y="128" text-anchor="middle" font-size="12" fill="var(--ink)">④ 日本の国産AI（Noetra・Rapidus）</text>
+      <rect x="352" y="146" width="230" height="30" rx="6" fill="#fff" stroke="var(--line)"/>
+      <text x="467" y="166" text-anchor="middle" font-size="12" fill="var(--ink)">⑤ 半導体サプライチェーン再編</text>
+      <rect x="598" y="146" width="230" height="30" rx="6" fill="#fff" stroke="var(--line)"/>
+      <text x="713" y="166" text-anchor="middle" font-size="12" fill="var(--ink)">⑥ 人材とラボの興亡（移籍・M&amp;A）</text>
+      <text x="590" y="192" text-anchor="middle" font-size="11.5" fill="var(--sub)">各スレッド = 現在地3行 ＋ タイムライン ＋ そのスレッド限定のミニ相関図</text>
+    </svg>
+    <figcaption>図0: 「全部を薄く」から「6本を深く」への転換。日刊ニュース面はそのまま、各記事がスレッドに紐付く。</figcaption>
+  </figure>
+</section>
+
+<!-- ═══ ③ 判断ボックス ═══ -->
+<section class="card decision">
+  <h2>🔴 要判断 — 3問（まとめて1行で返信可）</h2>
+
+  <div class="q">
+    <h3>Q1. サイトの方向性をどれにするか</h3>
+    <table>
+      <tr><th></th><th>選択肢</th><th>選んだ場合どうなるか</th></tr>
+      <tr class="rec"><td><span class="opt">A</span> <span class="badge rec">推奨</span></td>
+        <td><b>ストーリー追跡型</b> — 6スレッドの「現在地＋タイムライン＋ミニ図」。週次で現在地を書き換え</td>
+        <td>初期実装 半日。週次コストは今と同等（土曜ルーチンに載る）。相関図データは全量再利用。網羅の義務から解放される</td></tr>
+      <tr><td><span class="opt">B</span></td>
+        <td><b>週次差分型</b> — 「今週動いた関係」だけをハイライトする週報ページに縮小</td>
+        <td>初期実装 2時間で最軽量。ただし文脈の蓄積がなく、初見の読者には不親切。Aの部分集合なので後からAに拡張可</td></tr>
+      <tr><td><span class="opt">C</span></td>
+        <td><b>企業ページ型</b> — 主要15社のカード（各社視点の関係・ニュース履歴）</td>
+        <td>初期実装 1日。1社視点なら網羅が現実的だが、社数×更新の維持コストが最大。ストーリー横断の見通しは弱い</td></tr>
+      <tr><td><span class="opt">D</span></td>
+        <td><b>現状維持＋看板の掛け替え</b> — 相関図を「主要ディールTop30」と明示して網羅を放棄</td>
+        <td>実装 30分。中途半端さの言い訳にはなるが「使い物にならない」という根本課題は解決しない</td></tr>
+    </table>
+  </div>
+
+  <div class="q">
+    <h3>Q2. 既存の相関図（map.html・4タブ）の扱い</h3>
+    <table>
+      <tr><th></th><th>選択肢</th><th>選んだ場合どうなるか</th></tr>
+      <tr class="rec"><td><span class="opt">A</span> <span class="badge rec">推奨</span></td>
+        <td><b>スレッド別ミニ図に分解</b> — relations_data.js にスレッドタグを付け、各スレッドページで該当エッジのみ描画</td>
+        <td>全体図は廃止（リンクは残さない）。1図あたり5〜10ノードになり「引きで読める」。データ・描画コードは流用。可逆（タグを外せば戻せる）</td></tr>
+      <tr><td><span class="opt">B</span></td>
+        <td><b>併存</b> — 全体版map.htmlも「参考資料」として残す</td>
+        <td>維持コスト2倍。中途半端な全体図が残り続け、同じ不満が再発するリスク</td></tr>
+      <tr><td><span class="opt">C</span></td>
+        <td><b>完全廃止</b> — 図はやめてテキストのタイムラインだけにする</td>
+        <td>最軽量だが、金額規模の比較など図が効く場面（出資マップ）まで失う</td></tr>
+    </table>
+  </div>
+
+  <div class="q">
+    <h3>Q3. 着手タイミング</h3>
+    <table>
+      <tr><th></th><th>選択肢</th><th>選んだ場合どうなるか</th></tr>
+      <tr class="rec"><td><span class="opt">A</span> <span class="badge rec">推奨</span></td>
+        <td><b>このまま着手</b> — 判断が出たらこのセッションで実装まで進める</td>
+        <td>半日でスレッドページ公開＋ai-newsスキル・土曜ルーチンの追記仕様を同期（両方同期が必須なのはB-001の教訓どおり）</td></tr>
+      <tr><td><span class="opt">B</span></td>
+        <td><b>仕様だけ固める</b> — 詳細設計ブリーフを先に出し、実装は別セッション</td>
+        <td>今日は+30分で設計書のみ。石橋を叩けるが、鮮度のあるデータ（今日の60エッジ）で試す機会を1回逃す</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ═══ ④ 視覚本文 ═══ -->
+<section class="card">
+  <h2>§1. なぜ「網羅」は構造的に破綻するか</h2>
+  <p>がんばりが足りないのではなく、ゴールの性質が個人サイトと噛み合っていない。3つの構造要因がある。</p>
+  <figure>
+    <svg viewBox="0 0 860 210" role="img" aria-label="網羅が破綻する3つの構造要因">
+      <rect x="10" y="20" width="265" height="170" rx="10" fill="var(--amber-bg)" stroke="var(--amber)" stroke-width="1.2"/>
+      <text x="142" y="48" text-anchor="middle" font-size="13.5" font-weight="700" fill="var(--amber)">① 母集合が無限に増える</text>
+      <text x="142" y="78" text-anchor="middle" font-size="12" fill="var(--ink)">出資・提携・M&amp;A・人材は</text>
+      <text x="142" y="98" text-anchor="middle" font-size="12" fill="var(--ink)">週に数十件発生する</text>
+      <text x="142" y="126" text-anchor="middle" font-size="12" fill="var(--sub)">現在60エッジ ≒ 業界全体の1%未満</text>
+      <text x="142" y="146" text-anchor="middle" font-size="12" fill="var(--sub)">追記しても網羅率は上がらない</text>
+      <rect x="297" y="20" width="265" height="170" rx="10" fill="var(--amber-bg)" stroke="var(--amber)" stroke-width="1.2"/>
+      <text x="429" y="48" text-anchor="middle" font-size="13.5" font-weight="700" fill="var(--amber)">② 網羅は競合が強すぎる</text>
+      <text x="429" y="78" text-anchor="middle" font-size="12" fill="var(--ink)">Crunchbase・PitchBook・</text>
+      <text x="429" y="98" text-anchor="middle" font-size="12" fill="var(--ink)">The Information が本業でやる領域</text>
+      <text x="429" y="126" text-anchor="middle" font-size="12" fill="var(--sub)">個人サイトの勝ち筋は網羅ではなく</text>
+      <text x="429" y="146" text-anchor="middle" font-size="12" fill="var(--sub)">「編集の視点」にしかない</text>
+      <rect x="584" y="20" width="265" height="170" rx="10" fill="var(--amber-bg)" stroke="var(--amber)" stroke-width="1.2"/>
+      <text x="716" y="48" text-anchor="middle" font-size="13.5" font-weight="700" fill="var(--amber)">③ 網羅は読む側にも重い</text>
+      <text x="716" y="78" text-anchor="middle" font-size="12" fill="var(--ink)">全体図はノードが増えるほど</text>
+      <text x="716" y="98" text-anchor="middle" font-size="12" fill="var(--ink)">読解コストが上がる</text>
+      <text x="716" y="126" text-anchor="middle" font-size="12" fill="var(--sub)">キャッチアップに必要なのは</text>
+      <text x="716" y="146" text-anchor="middle" font-size="12" fill="var(--sub)">「全部」ではなく「筋のいい要約」</text>
+    </svg>
+    <figcaption>図1: 力学網図→意味論レイアウトの改善（B-001）は正しかったが、「網羅」というゴール自体は残っていた。今回はそこを畳む。</figcaption>
+  </figure>
+  <p class="sub">裏返すと、キャッチアップ用途で本当に求められる保証は「すべてがある」ではなく<b>「重要なものが漏れていない」</b>。これは編集（重要度で選ぶ）で満たせる基準であり、すでに日刊ニュース面の importance ★ でやっていることの延長線上にある。</p>
+</section>
+
+<section class="card">
+  <h2>§2. 案A: ストーリースレッドの構造と更新フロー</h2>
+  <p>1スレッド = 「現在地」（3〜5行、随時上書き）＋「タイムライン」（紐付いたニュース、追記のみ）＋「ミニ相関図」（そのスレッドの企業だけ、5〜10ノード）。</p>
+  <figure>
+    <svg viewBox="0 0 860 300" role="img" aria-label="スレッドページの構造と更新フロー">
+      <defs>
+        <marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#8a93a3"/>
+        </marker>
+      </defs>
+      <!-- スレッドページのモック -->
+      <rect x="10" y="16" width="390" height="268" rx="12" fill="#fff" stroke="var(--ink)" stroke-width="1.5"/>
+      <text x="205" y="42" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">スレッド①「コンピュート軍拡」ページ</text>
+      <rect x="28" y="56" width="354" height="62" rx="8" fill="var(--blue-bg)" stroke="var(--blue)"/>
+      <text x="40" y="78" font-size="12" font-weight="700" fill="var(--blue)">現在地（今どうなってる？に3行で答える）</text>
+      <text x="40" y="98" font-size="11.5" fill="var(--ink)">例:「OpenAIは調達1,220億ドルの大半を計算資源に投下。</text>
+      <text x="40" y="112" font-size="11.5" fill="var(--ink)">Oracle/AMD/Broadcom/Cerebras/AWSに分散発注…」</text>
+      <rect x="28" y="128" width="170" height="140" rx="8" fill="var(--paper)" stroke="var(--line)"/>
+      <text x="113" y="150" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">タイムライン</text>
+      <text x="40" y="172" font-size="11" fill="var(--sub)">07-16 Noetra発足 ★★★</text>
+      <text x="40" y="192" font-size="11" fill="var(--sub)">07-14 Reflection×Nebius</text>
+      <text x="40" y="212" font-size="11" fill="var(--sub)">06-xx Stargate 4.5GW</text>
+      <text x="40" y="232" font-size="11" fill="var(--sub)">…（日刊記事に直リンク）</text>
+      <rect x="212" y="128" width="170" height="140" rx="8" fill="var(--paper)" stroke="var(--line)"/>
+      <text x="297" y="150" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">ミニ相関図</text>
+      <circle cx="297" cy="185" r="16" fill="var(--blue-bg)" stroke="var(--blue)"/>
+      <text x="297" y="189" text-anchor="middle" font-size="9" fill="var(--ink)">OpenAI</text>
+      <circle cx="245" cy="225" r="13" fill="#fff" stroke="var(--line)"/>
+      <text x="245" y="229" text-anchor="middle" font-size="8" fill="var(--ink)">Oracle</text>
+      <circle cx="297" cy="240" r="13" fill="#fff" stroke="var(--line)"/>
+      <text x="297" y="244" text-anchor="middle" font-size="8" fill="var(--ink)">AMD</text>
+      <circle cx="349" cy="225" r="13" fill="#fff" stroke="var(--line)"/>
+      <text x="349" y="229" text-anchor="middle" font-size="8" fill="var(--ink)">AWS</text>
+      <line x1="288" y1="198" x2="252" y2="215" stroke="#8a93a3" stroke-width="1.2"/>
+      <line x1="297" y1="201" x2="297" y2="227" stroke="#8a93a3" stroke-width="1.2"/>
+      <line x1="306" y1="198" x2="342" y2="215" stroke="#8a93a3" stroke-width="1.2"/>
+      <!-- 更新フロー -->
+      <text x="630" y="42" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">更新フロー（既存ルーチンに載せる）</text>
+      <rect x="440" y="60" width="380" height="56" rx="8" fill="var(--blue-bg)" stroke="var(--blue)"/>
+      <text x="630" y="83" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink)">毎日: ai-news スキル</text>
+      <text x="630" y="103" text-anchor="middle" font-size="11.5" fill="var(--sub)">記事追記時に threads: ["compute"] タグを1個付けるだけ</text>
+      <line x1="630" y1="118" x2="630" y2="140" stroke="#8a93a3" stroke-width="1.8" marker-end="url(#ar2)"/>
+      <rect x="440" y="144" width="380" height="56" rx="8" fill="var(--blue-bg)" stroke="var(--blue)"/>
+      <text x="630" y="167" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink)">毎週土曜: 相関図ルーチン（既存）を転用</text>
+      <text x="630" y="187" text-anchor="middle" font-size="11.5" fill="var(--sub)">各スレッドの「現在地」3行を書き直し＋エッジ追記</text>
+      <line x1="630" y1="202" x2="630" y2="224" stroke="#8a93a3" stroke-width="1.8" marker-end="url(#ar2)"/>
+      <rect x="440" y="228" width="380" height="56" rx="8" fill="var(--green-bg)" stroke="var(--green)"/>
+      <text x="630" y="251" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink)">読者体験: 週1回スレッドを流し読み</text>
+      <text x="630" y="271" text-anchor="middle" font-size="11.5" fill="var(--sub)">「現在地」6本×3行 ≒ 2分で業界の現況が頭に入る</text>
+    </svg>
+    <figcaption>図2: 左=スレッドページの構造、右=更新の流れ。日次の追加作業はタグ1個。重い編集は週1回に集約。</figcaption>
+  </figure>
+  <ul>
+    <li><b>スレッドは固定6本から開始</b>（図0の①〜⑥）。増やすのは「既存スレッドに入らない★★★ニュースが3件溜まったとき」だけ、というルールで無限増殖を防ぐ。</li>
+    <li><b>網羅の義務が消える</b>: スレッドに関係ないディールは堂々と無視してよい。「このサイトは6つの物語を追う」という編集方針自体が価値になる。</li>
+    <li><b>初見の読者にも効く</b>: タイムラインを遡れば経緯が分かる。「途中から読めない」という続きものの弱点は「現在地」の常時上書きでカバーする。</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>§3. 4案の比較</h2>
+  <table>
+    <tr><th></th><th>案</th><th>初期実装</th><th>週次コスト</th><th>キャッチアップ価値</th><th>破綻リスク</th></tr>
+    <tr class="rec"><td><span class="opt">A</span> <span class="badge rec">推奨</span></td>
+      <td>ストーリー追跡型</td><td>半日</td><td>今と同等（土曜ルーチン転用）</td>
+      <td><b>高</b> — 「今どうなってる?」に直接答える</td><td>低 — スレッド数を固定すれば発散しない</td></tr>
+    <tr><td><span class="opt">B</span></td>
+      <td>週次差分型</td><td>2時間</td><td>最小</td>
+      <td>中 — 変化は分かるが文脈が積もらない</td><td>低（ただし価値も頭打ち）</td></tr>
+    <tr><td><span class="opt">C</span></td>
+      <td>企業ページ型</td><td>1日</td><td>15社分で最大</td>
+      <td>中 — 調べ物には強いが通読に向かない</td><td>中 — 更新が滞ると網羅型と同じ道</td></tr>
+    <tr><td><span class="opt">D</span></td>
+      <td>Top30に縮小</td><td>30分</td><td>今と同じ</td>
+      <td>低 — 課題が言い訳に変わるだけ</td><td>高 — 同じ不満が再発する</td></tr>
+  </table>
+  <p class="sub">A採用時もBの「今週の差分」はスレッド更新の副産物としてトップページに1行×6本で置ける（実質A⊃B）。</p>
+</section>
+
+<section class="card">
+  <h2>§4. Codexセカンドオピニオンの取り込み判定</h2>
+  <p>Codexの提案は「探索ツール化（企業フォーカス・目的別ビュー）」が軸で、本ブリーフの案Cに近い。骨格はストーリー追跡型（案A）のまま、部品として効くものだけ取り込む。</p>
+  <table>
+    <tr><th>判定</th><th>Codexの提案</th><th>理由と取り込み方</th></tr>
+    <tr><td><span class="badge rec">採用</span></td>
+      <td><b>「提携」の細分化</b> — 資金/計算資源/モデル/販売のどれが流れているか</td>
+      <td>partner型に意味が混在しているのは事実（クラウド購入契約とHBM共同開発が同じ色）。エッジに <code>flow</code>（資金/計算資源/モデル/販売/技術）を追加。対象は約30本で1回きりの作業。ミニ図の線の意味が明確になる</td></tr>
+    <tr><td><span class="badge rec">採用</span></td>
+      <td><b>信頼度・状態ラベル</b> — 公式/報道/交渉中/終了</td>
+      <td>既に <code>status: "reported"</code> が1本ある（Qualcomm×Tenstorrent）のを正式スキーマ化。特に「終了」は重要（OpenAI×Microsoft独占提携の終了など、関係の解消こそニュース）。バッジ表示は既存UIの流用で安価</td></tr>
+    <tr><td><span class="badge rec">採用</span></td>
+      <td><b>ニュース→地図の接続</b> — 記事に「業界地図がどう変わったか」を表示</td>
+      <td>案Aの threads タグがまさにこの接続。加えて日刊記事側にスレッドチップ（→③中国勢 など）を表示し、記事からスレッドページへ飛べるようにする。「業界への意味」の1行は既存記事の「業界への影響・考察」節が既にあるため新規作業なし</td></tr>
+    <tr><td><span class="badge rec">採用</span></td>
+      <td><b>トップに「今週の業界変化トップ5」</b></td>
+      <td>§3で予定済みの「今週の動き6行」と同じもの。スレッド更新の副産物として自動で書ける</td></tr>
+    <tr><td><span class="chip">後回し</span></td>
+      <td><b>企業フォーカス表示</b>（NVIDIAを選ぶと関係先だけ表示）</td>
+      <td>有用だが本ブリーフの案C相当で、維持コストが上がる主因。スレッド別ミニ図（5〜10ノード）が「巨大な線の塊」問題を先に解消するため、v2でノードクリック→該当エッジ絞り込みとして安価に足せる。今は作らない</td></tr>
+    <tr><td><span class="chip">後回し</span></td>
+      <td><b>発表日と最終確認日の分離</b></td>
+      <td>正しいが、全エッジの「最終確認」を回す週次コストが網羅の義務の再来になる。まずは status（終了/交渉中）で代替し、必要になったら導入</td></tr>
+    <tr><td><span class="chip">不採用</span></td>
+      <td><b>目的別ビュー6種</b>（誰がどのモデルを提供/どのクラウドを使う…の切替）＋注目企業ランキング等のトップ8部品</td>
+      <td>ビュー6種の維持は網羅型と同じ破綻経路（全ビューを最新に保つ義務が発生）。flow細分化＋スレッド別ミニ図で同じ問いの大半に答えられる。トップ部品の多くは「毎週正確に更新し続ける」前提が重い</td></tr>
+  </table>
+  <p class="sub">要するに: Codex案から「エッジの意味を濃くする」改善（flow・status・記事⇔地図リンク）を吸収し、「ビューを増やす」方向（目的別6ビュー・企業ページ・ランキング）は網羅義務が再発するため見送る。</p>
+</section>
+
+<!-- ═══ ⑤ 折りたたみ詳細 ═══ -->
+<details>
+  <summary>▸ 既存データ資産の再利用マッピング（60エッジ→6スレッドの割当て例）</summary>
+  <div class="card">
+    <table>
+      <tr><th>スレッド</th><th>吸収する既存エッジ（例）</th><th>概算本数</th></tr>
+      <tr><td>① コンピュート軍拡</td><td>OpenAI×Oracle/AMD/Broadcom/Cerebras/Amazon/SB Energy、Anthropic×Microsoft/Google/Broadcom、Meta×Nebius、Reflection×Nebius、NVIDIA×クラウド4社/Nebius</td><td>約18</td></tr>
+      <tr><td>② フロンティアラボの資金・勢力図</td><td>Microsoft/NVIDIA/Amazon/SoftBank/MGX→OpenAI、Google/Microsoft/NVIDIA/Amazon/MGX→Anthropic、xAI調達、SpaceX×xAI合併</td><td>約14</td></tr>
+      <tr><td>③ 中国オープンウェイト勢</td><td>Tencent→DeepSeek（Kimi K3などはニュース記事から紐付け）</td><td>約2＋記事</td></tr>
+      <tr><td>④ 日本の国産AI</td><td>SoftBank→Noetra、NVIDIA/MUFG→Sakana、Rapidus×IBM、Sakana×Google</td><td>約5</td></tr>
+      <tr><td>⑤ 半導体サプライチェーン</td><td>NVIDIA×TSMC/SK hynix、Google×Intel、Anthropic×Samsung、ASML×Mistral、Qualcomm×Tenstorrent、半導体シェアタブ</td><td>約7</td></tr>
+      <tr><td>⑥ 人材とラボの興亡</td><td>talent全5件、Anthropic/OpenAIの買収5件、Meta×Scale AI、AMI Labs創業</td><td>約12</td></tr>
+    </table>
+    <p class="sub">未割当てが数本残る見込み（Apple×Google Siri、OpenAI×Novo/KPMG/Snowflakeなどの応用系）。「⑦ 企業への浸透」を7本目にする案もあるが、まずは6本で始めて上記の増設ルールに委ねるのが安全。1エッジが複数スレッドに属するのは可（タグを配列にする）。</p>
+  </div>
+</details>
+
+<details>
+  <summary>▸ 実装スケッチ（A採用時にこのセッションでやること）</summary>
+  <div class="card">
+    <ul>
+      <li><b>threads_data.js（新規）</b>: <code>{ id, title, status: "現在地の3〜5行", updated }</code> の6件。ニュース側は <code>ai_news_data.js</code> の各エントリに <code>threads: ["compute"]</code> を追加（既存分は今日まとめて付与）。</li>
+      <li><b>relations_data.js</b>: 各エッジに <code>threads: [...]</code> を追加。§4採用分として、partner型エッジに <code>flow</code>（資金/計算資源/モデル/販売/技術）、全エッジに <code>status</code>（official/reported/negotiating/ended、省略時official）を追加。ノード・エッジの既存フィールドは不変（可逆）。</li>
+      <li><b>threads.html（新規、map.htmlを改造）</b>: タブ=スレッド。各タブに現在地／タイムライン／ミニ図。既存の意味論レイアウト描画コードをフィルタ付きで流用。ミニ図の線には flow の種別を凡例つきで表示し、status=negotiating/ended はバッジで区別（§4採用分）。</li>
+      <li><b>index.html</b>: ヘッダのリンクを「相関図」→「業界ストーリー」に差し替え。トップに「今週の動き」6行サマリ枠。各記事カード・モーダルにスレッドチップ（記事→スレッドページへのリンク、§4採用分）。</li>
+      <li><b>ai-news スキル（SKILL.md）と土曜クラウドルーチンの両方を同期更新</b>。B-001の教訓: 片方だけ直すと空回りする。ルーチンupdate後はgetで検証（events消失の再発防止）。</li>
+    </ul>
+  </div>
+</details>
+
+<!-- ═══ ⑥ 返信プロトコル ═══ -->
+<section class="reply">
+  <div class="cm"># 返信例（1行でOK）</div>
+  <div>B-002: 1A 2A 3A　　<span class="cm">← まとめて指定（全部推奨案ならこれ）</span></div>
+  <div>B-002: 1A、スレッドは⑦企業浸透も足して7本で　　<span class="cm">← 条件つき・自然文でもOK</span></div>
+  <div>保留　　<span class="cm">← 今は決めない</span></div>
+  <div>深掘り: §2　　<span class="cm">← 判断前に詳細ブリーフを要求</span></div>
+</section>
+
+</div>
+</body>
+</html>
