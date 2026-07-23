@@ -418,7 +418,7 @@ footer a{color:var(--ink-soft)}
   </div>
   <label class="searchbox">
     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-    <input type="text" id="search" placeholder="キーワード検索…">
+    <input type="text" id="search" placeholder="キーワード検索（スペースでAND）…">
   </label>
 </div>
 <div class="count-line" id="count-line"></div>
@@ -468,12 +468,21 @@ const CAT_COLOR = {"新モデル":"var(--c-model)","資金調達":"var(--c-fund)
 const CAT_KANJI = {"新モデル":"新","資金調達":"資","規制":"規","研究":"研","ツール":"具","その他":"報"};
 const DATA = (window.NEWS_DATA || []).slice().sort((a,b)=> (b.date||b.d||"").localeCompare(a.date||a.d||""));
 const ARCHIVE = (window.NEWS_ARCHIVE || []).slice().sort((a,b)=> (b.date||b.d||"").localeCompare(a.date||a.d||""));
+
+/* ---------- 検索用正規化・事前索引 ---------- */
+// NFKC（全角英数→半角・半角カナ→全角カナ・全角スペース→半角）+ 小文字化 + ひらがな→カタカナ
+const norm = s => (s||"").normalize("NFKC").toLowerCase().replace(/[ぁ-ゔ]/g, c => String.fromCharCode(c.charCodeAt(0) + 0x60));
+// 検索対象: タイトル・カテゴリ・要約・ポイント・本文を連結して正規化（ロード時に1回だけ構築）
+const haystack = e => norm([e.title||e.t, e.category||e.c, e.summary, (e.points||[]).join(" "), e.content].filter(Boolean).join(" "));
+DATA.forEach(e => e.__hay = haystack(e));
+ARCHIVE.forEach(a => a.__hay = haystack(a));
+
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const stars = n => "★★★".slice(0, n) || "★";
 const jpDate = iso => { const [y,m,d] = iso.split("-"); return `${y}年${+m}月${+d}日`; };
 const wd = iso => "日月火水木金土"[new Date(iso+"T00:00:00").getDay()];
 
-let fCat = "", fStar = false, fQuery = "";
+let fCat = "", fStar = false, fQuery = [];  // fQuery: 正規化済みトークンの配列（スペース区切りAND）
 
 /* ---------- ヘッダー ---------- */
 const latestAdded = DATA.length ? DATA.reduce((m,e)=> e.added > m ? e.added : m, DATA[0].added) : null;
@@ -506,19 +515,16 @@ function threadChips(e){
     return t ? `<a class="thchip" style="--tc:${t.color}" href="threads.html#${id}" onclick="event.stopPropagation()">${esc(t.title)}</a>` : "";
   }).join("");
 }
-function matches(title, cat, imp, extra){
+function matches(hay, cat, imp){
   if(fCat && cat !== fCat) return false;
   if(fStar && imp !== 3) return false;
-  if(fQuery){
-    const hay = (title + " " + (extra||"") + " " + cat).toLowerCase();
-    if(!hay.includes(fQuery)) return false;
-  }
+  if(fQuery.length && !fQuery.every(q => hay.includes(q))) return false;
   return true;
 }
 
 /* ---------- 最近の記事（直近数日分・追記日ごと・サムネ付き） ---------- */
 function render(){
-  const latest = DATA.filter(e => recentAdded.has(e.added) && matches(e.title, e.category, e.importance, e.summary));
+  const latest = DATA.filter(e => recentAdded.has(e.added) && matches(e.__hay, e.category, e.importance));
   const grid = document.getElementById("latest-grid");
 
   // 追記日ごとにグループ化（新しい日が先）
@@ -572,9 +578,9 @@ function heroHtml(e){
 function renderArchive(){
   // リッチ記事もアーカイブ一覧に含める（一覧性確保・モーダルで開く）
   const rows = [
-    ...DATA.map(e => ({t:e.title, d:e.date, c:e.category, imp:e.importance, rich:true, id:e.id, extra:e.summary})),
-    ...ARCHIVE.map(a => ({t:a.title||a.t, d:a.date||a.d, c:a.category||a.c, imp:a.importance||0, rich:!!a.content, id:a.id||a.n, extra:a.summary}))
-  ].filter(r => matches(r.t, r.c, r.imp || (fStar ? -1 : 0), r.extra))
+    ...DATA.map(e => ({t:e.title, d:e.date, c:e.category, imp:e.importance, rich:true, id:e.id, hay:e.__hay})),
+    ...ARCHIVE.map(a => ({t:a.title||a.t, d:a.date||a.d, c:a.category||a.c, imp:a.importance||0, rich:!!a.content, id:a.id||a.n, hay:a.__hay}))
+  ].filter(r => matches(r.hay, r.c, r.imp || (fStar ? -1 : 0)))
    .sort((a,b)=> b.d.localeCompare(a.d));
 
   const byMonth = {};
@@ -612,7 +618,7 @@ function renderArchive(){
 
 function updateCount(richShown){
   const total = DATA.length + ARCHIVE.length;
-  const active = fCat || fStar || fQuery;
+  const active = fCat || fStar || fQuery.length;
   document.getElementById("count-line").textContent = active
     ? `絞り込み中 — 条件に一致する記事を表示しています（全${total}件中）`
     : `全${total}件のニュースを収録（特集 ${DATA.length} 件・アーカイブ ${ARCHIVE.length} 件）`;
@@ -684,7 +690,7 @@ document.getElementById("chips").addEventListener("click", e => {
 let debounce;
 document.getElementById("search").addEventListener("input", e => {
   clearTimeout(debounce);
-  debounce = setTimeout(()=>{ fQuery = e.target.value.trim().toLowerCase(); render(); }, 180);
+  debounce = setTimeout(()=>{ fQuery = norm(e.target.value).split(/\s+/).filter(Boolean); render(); }, 180);
 });
 
 /* ---------- 業界ストーリー（今週の動き） ---------- */
