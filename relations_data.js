@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-07-20",
+  updated: "2026-07-25",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -57,6 +57,8 @@ window.RELATIONS = {
     { id: "skhynix",      label: "SK hynix",     sector: "semi", sub: "memdev" },
     { id: "asml",         label: "ASML",         sector: "semi", sub: "memdev" },
     { id: "micron",       label: "Micron",       sector: "semi", sub: "memdev" },
+    { id: "etched",       label: "Etched",       sector: "semi", sub: "design" },
+    { id: "amkor",        label: "Amkor",        sector: "semi", sub: "fab" },
     // 応用・スタートアップ
     { id: "spacex",       label: "SpaceX",           sector: "app" },
     { id: "scaleai",      label: "Scale AI",         sector: "app" },
@@ -73,12 +75,15 @@ window.RELATIONS = {
     { id: "sony",         label: "ソニーG",           sector: "app", jp: true },
     { id: "nec",          label: "NEC",              sector: "app", jp: true },
     { id: "honda",        label: "ホンダ",            sector: "app", jp: true },
+    { id: "psibot",       label: "PsiBot",           sector: "app" },
     // 投資家・ファンド
     { id: "mgx",          label: "MGX",              sector: "invest" },
     { id: "softbank",     label: "ソフトバンクG",     sector: "invest", jp: true },
     { id: "mufg",         label: "MUFG",             sector: "invest", jp: true },
     { id: "catl",         label: "CATL",             sector: "invest" },
-    { id: "meti",         label: "経産省",            sector: "invest", jp: true }
+    { id: "meti",         label: "経産省",            sector: "invest", jp: true },
+    { id: "chery",        label: "Chery Automobile", sector: "invest" },
+    { id: "lens",         label: "Lens Technology",  sector: "invest" }
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -149,9 +154,21 @@ window.RELATIONS = {
     { from: "meta", to: "scaleai", type: "invest", threads: ["talent"], amount: 143,
       label: "143億ドルで49%取得", date: "2025-06",
       source: "https://www.cnbc.com/2025/06/12/scale-ai-founder-wang-announces-exit-for-meta-part-of-14-billion-deal.html" },
-    { from: "nvidia", to: "nebius", type: "invest", threads: ["compute", "labs"], amount: 20,
-      label: "20億ドル出資。Nebiusは2030年末までにNVIDIAシステム5GW超の展開を目指す", date: "2026-03",
-      source: "https://nvidianews.nvidia.com/news/nvidia-and-nebius-partner-to-scale-full-stack-ai-cloud" },
+    { from: "nvidia", to: "nebius", type: "invest", threads: ["compute", "labs"], amount: 50,
+      label: "出資比率を9.3%（約2,230万株）に拡大、評価額約50億ドル相当。ワラント行使分を追加取得", date: "2026-07",
+      source: "https://www.gurufocus.com/news/8969570/nvidia-increases-stake-in-nebius-nbis-to-93-valued-at-nearly-5-billion" },
+    { from: "amd", to: "anthropic", type: "invest", threads: ["compute", "labs"], amount: 50,
+      label: "導入マイルストーン達成に応じて最大50億ドルを段階投資するAIチップ調達契約", date: "2026-07",
+      source: "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html" },
+    { from: "skhynix", to: "etched", type: "invest", threads: ["semi"], amount: null,
+      label: "Sequoia主導のシリーズC（3億ドル・評価額103億ドル）に参加（金額非公表）", date: "2026-07",
+      source: "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/" },
+    { from: "chery", to: "psibot", type: "invest", threads: ["china"], amount: null,
+      label: "Lens Technologyと共同主導で約1億ドルを出資、評価額14.8億ドルの「ワールドモデル」ロボットAI企業に", date: "2026-07",
+      source: "https://www.techtimes.com/articles/321342/20260723/chery-bets-psibots-vla-platform-china-births-another-embodied-ai-unicorn.htm" },
+    { from: "lens", to: "psibot", type: "invest", threads: ["china"], amount: null,
+      label: "Cheryと共同主導で約1億ドルを出資、評価額14.8億ドルの「ワールドモデル」ロボットAI企業に", date: "2026-07",
+      source: "https://www.techtimes.com/articles/321342/20260723/chery-bets-psibots-vla-platform-china-births-another-embodied-ai-unicorn.htm" },
     { from: "softbank", to: "noetra", type: "invest", threads: ["japan"], amount: null,
       label: "44社連合の中核出資者として国産AI基盤会社Noetraを設立主導", date: "2026-07",
       source: "https://response.jp/article/2026/07/17/414143.html" },
@@ -185,6 +202,15 @@ window.RELATIONS = {
     { from: "openai", to: "amd", type: "partner", threads: ["compute", "semi"], flow: "計算資源",
       label: "Instinct GPU 6GW供給契約＋最大1.6億株のワラント付与", date: "2025-10",
       source: "https://openai.com/index/openai-amd-strategic-partnership/" },
+    { from: "anthropic", to: "amd", type: "partner", threads: ["compute", "semi"], flow: "計算資源",
+      label: "Instinct MI450システムを2027年前半から最大2GW導入。ROCmをClaude向けに最適化する技術協業も締結", date: "2026-07",
+      source: "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html" },
+    { from: "microsoft", to: "mistral", type: "partner", threads: ["compute", "labs"], flow: "計算資源",
+      label: "戦略提携を拡大、欧州にNVIDIA Vera Rubin GPUを数千基規模で新設し規制業界向け「主権AI」を強化", date: "2026-07",
+      source: "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/" },
+    { from: "nvidia", to: "amkor", type: "partner", threads: ["semi"], flow: "資金",
+      label: "米国内(アリゾナ含む)の先端パッケージング能力拡張へ前払いで15億ドル、異種チップ統合パッケージング技術を共同開発", date: "2026-07",
+      source: "https://finance.yahoo.com/technology/ai/articles/nvidia-amkor-strike-1-5-214417511.html" },
     { from: "openai", to: "broadcom", type: "partner", threads: ["compute", "semi"], flow: "技術",
       label: "独自推論チップ「Jalapeño」を共同開発（10GW規模）。初期展開2026年後半、完了目標2029年末", date: "2026-06",
       source: "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/" },
