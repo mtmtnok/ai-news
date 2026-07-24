@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "通常の約2.5倍速い高速モードも用意(コストは2倍)、Claude Maxの標準モデルに採用"
   ],
   url: "https://www.anthropic.com/news/claude-opus-5",
-  image: null,
+  image: "https://cdn.sanity.io/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png",
   content: `## 概要
 Anthropicは2026年7月24日、Claude 5ファミリーの4番目のモデルとなる「Claude Opus 5」を発表した。同社最上位モデル「Fable 5」の半額という価格設定でありながら、複数のベンチマークでFable 5に匹敵、あるいは上回る性能を示している点が最大の特徴で、Claude MaxおよびClaude Proの標準モデルとして即日展開が始まった。
 
@@ -63,7 +63,7 @@ Opus 5の投入は、フロンティアモデル同士の性能競争が「絶�
     "AnthropicのNvidia依存脱却と、AMDのNvidia対抗戦略の双方にとって重要な一手"
   ],
   url: "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108302226-1778012523679-108302226-1777987369883-gettyimages-2254260597-CES_2026.jpeg?v=1778013248&w=1920&h=1080",
   content: `## 概要
 AMDとAnthropicは2026年7月22日、AIチップの大規模調達契約と、それに連動したAMDによる戦略的出資契約を同時に発表した。AMDはAnthropicの導入進捗(デプロイメント・マイルストーン)達成に応じて最大50億ドルを段階的に投資し、Anthropicは2027年前半からAMDの最新AIアクセラレータ「Instinct MI450」を最大2ギガワット規模で導入する。
 
@@ -99,7 +99,7 @@ AMDとAnthropicは2026年7月22日、AIチップの大規模調達契約と、�
     "GPU逼迫による新規契約停止と並行してのオープンウェイト化で、需要吸収の狙いも指摘される"
   ],
   url: "https://www.techtimes.com/articles/321499/20260724/kimi-k3-open-weights-drop-july-27-near-frontier-coding-undisclosed-hallucination-risk.htm",
-  image: null,
+  image: "https://d.techtimes.com/en/full/469759/kimi-k3-open-weights-drop-july-27-near-frontier-coding-undisclosed-hallucination-risk.jpg",
   content: `## 概要
 中国Moonshot AIが2026年7月16日に上海の世界人工知能大会(WAIC)で発表した大規模言語モデル「Kimi K3」について、完全なモデルウェイトを7月27日にHugging Face上で公開すると明らかにした。これまでAPIとkimi.comのコンシューマー向けプラットフォーム経由でのみ利用可能だったが、企業が自前のインフラでダウンロード・検証・ファインチューニング・自己ホストできるようになる。
 
@@ -135,7 +135,7 @@ DeepSeek V4の一般提供開始とKimi K3のウェイト公開が同じ7月末�
     "2022年創業のハーバード大学中退者2名が設立、生産拡大へ新設備も稼働"
   ],
   url: "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/07/Etched-co-founder-COO-Robert-Wachen.jpg?resize=1200,1200",
   content: `## 概要
 Transformerモデルの推論処理に特化した専用チップ「Sohu」を開発するAIチップスタートアップEtchedは、2026年7月23日、Sequoia主導の3億ドルのシリーズC資金調達を発表した。評価額は103億ドルに達し、2025年12月の50億ドルからわずか7ヶ月で倍増した。
 
@@ -171,7 +171,7 @@ NvidiaのGPUが圧倒的シェアを握るAIチップ市場において、推論
     "発表を受けAmkor株は時間外取引で一時17%超上昇"
   ],
   url: "https://finance.yahoo.com/technology/ai/articles/nvidia-amkor-strike-1-5-214417511.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/2E55DDED24B1889F1E9F50F4CDDE50A355A68B128BD6EB6B1D8C0792F2452D54/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters-finance.com%2F6736d7d03e84a2e312dcff601c26b8e5",
   content: `## 概要
 Nvidiaは2026年7月23日、半導体パッケージング・テスト大手のAmkor Technologyと、米国内における先端パッケージング能力の拡張に向けた15億ドル規模の複数年契約を締結したと発表した。AIインフラ構築競争が激化する中、チップ製造の「後工程」にあたるパッケージングでも米国内での供給網強化が進む。
 
@@ -207,7 +207,7 @@ AI半導体のボトルネックは先端プロセスの前工程だけでなく
     "Nebiusは2030年までに5GW超のハイパースケールAIクラウド展開を目標に掲げる"
   ],
   url: "https://www.gurufocus.com/news/8969570/nvidia-increases-stake-in-nebius-nbis-to-93-valued-at-nearly-5-billion",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Nvidiaは米証券取引委員会(SEC)への提出書類で、ネオクラウド(新興クラウドインフラ企業)のNebiusに対する出資比率が9.3%に達したことを開示した。既存の20億ドル出資に加え、保有していたワラントの行使分を含む合計約2,230万株のクラスA株式を保有しており、評価額は現在の株価水準で約50億ドル相当となる。
 
@@ -242,7 +242,7 @@ Nvidiaが自ら出資したネオクラウド企業に自社GPUを大量供給�
     "OpenAIによれば健康関連の質問は週2億3,000万件から3億件に増加"
   ],
   url: "https://openai.com/index/introducing-chatgpt-health/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年7月23日、ChatGPT内で健康情報を管理・相談できる新機能「ChatGPT Health」を、米国の18歳以上の全ユーザーを対象にWebおよびiOSで提供開始した。Apple Healthのデータや対応する医療記録を連携させることで、健康関連の情報を1か所にまとめて確認できるようにする。
 
@@ -278,7 +278,7 @@ OpenAIは、ユーザーが健康関連の質問をChatGPTに投げかける頻�
     "中国の身体性AI分野は2026年上半期だけで約155億ドルを調達、前年比約5倍に拡大"
   ],
   url: "https://www.techtimes.com/articles/321342/20260723/chery-bets-psibots-vla-platform-china-births-another-embodied-ai-unicorn.htm",
-  image: null,
+  image: "https://d.techtimes.com/en/full/469597/psibot-psi-r1-vol-2.png",
   content: `## 概要
 上海を拠点とするロボットAI企業PsiBot(凌初智能/Lingchu Intelligence)が、中国自動車大手Chery Automobileなどを引受先とする約1億ドル規模の資金調達を実施し、評価額が14.8億ドルに到達したことが2026年7月23日までに明らかになった。中国では身体性AI(エンボディドAI)スタートアップへの投資が急拡大しており、評価額10億ドル超の「ユニコーン」がこの分野だけで急増している。
 
