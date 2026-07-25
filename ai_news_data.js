@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "米国の対中半導体輸出規制を背景に、中国AI企業がNvidia依存脱却の実装段階に入ったことを示す象徴的事例"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国のAIスタートアップZ.AI（旧Zhipu、智譜）が、Nvidia製半導体を一切使わず中国製チップのみで構成する大規模データセンターの建設を完了し、一部稼働を開始したことがBloombergの報道（2026年7月20日）で明らかになった。総電力容量は約1ギガワット規模とされ、中国が目指す「脱Nvidia」のAI計算基盤が実際に稼働段階に入ったことを示す事例として注目されている。
 
@@ -65,7 +65,7 @@ Z.AIの1GW級・全国産チップデータセンターの稼働は、中国AI�
     "トランプ政権が中国製AIモデルの禁止論議を再燃させたと報じられたわずか4日後の公表"
   ],
   url: "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-24-other-companies-sign-open-weights-letter-as-washington-weighs-chinese-ai-model-ban",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/Hdv8mZ6kFHJcQnFcDeqwqR-1920-80.jpg",
   content: `## 概要
 NVIDIAのジェンスン・フアンCEOは2026年7月24日、自身にとって初めてとなるX（旧Twitter）への投稿で、オープンウェイトAIモデルの重要性を訴える書簡への署名を公表した。Microsoft・Meta・IBM・Palantirなど25社が名を連ねる一方、OpenAI・Anthropic・Googleは署名リストに含まれておらず、米政権内で中国製AIモデルの規制論議が再燃したとされる直後のタイミングでの公表となった。
 
@@ -101,7 +101,7 @@ NVIDIAのジェンスン・フアンCEOは2026年7月24日、自身にとって�
     "Trainium2はほぼ完売、2026年初めから出荷開始のTrainium3もほぼ予約で埋まっている状態"
   ],
   url: "https://www.fool.com/investing/2026/07/19/andy-jassy-amazon-invest-billion-trainium/",
-  image: null,
+  image: "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F878993%2Fandy-jassy_amazon_amzn_ceo_imagesource_amazoncom-inc.jpg&w=1200&op=resize",
   content: `## 概要
 Amazon CEOのアンディ・ジャシー氏は、自社開発のAIアクセラレータ「Trainium」を中心とするカスタムシリコン事業について、年間換算(run rate)で200億ドルを超えるペースの売上規模に達したと明らかにした。前年同期比で3桁の成長率を維持しており、AmazonがAIインフラへの巨額投資を「勘」ではなく実需に基づいて行っていることを裏付ける数字として注目されている。
 
@@ -137,7 +137,7 @@ Amazonの自社シリコン事業の急拡大は、フロンティアAIラボが
     "背景には中間選挙前のAI規制論議の激化と、両社が見据えるIPOに向けた政界対策がある"
   ],
   url: "https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108291328-1776192386665-gettyimages-2270583434-raa-anthropi260412_np7gH.jpeg?v=1776192426&w=1920&h=1080",
   content: `## 概要
 OpenAIとAnthropicは2026年第2四半期、米連邦政府向けのロビー活動費を過去最高水準まで引き上げたことがCNBCの報道(2026年7月21日)で明らかになった。AI業界全体が中間選挙とそれに絡む規制論議、そして両社が控えるIPOを見据え、ワシントンへの影響力拡大に巨額の資金を投じ始めている実態が浮き彫りになった。
 
@@ -171,7 +171,7 @@ AIフロンティアラボが半導体大手Nvidiaに匹敵する規模のロビ
     "大半の措置はAndroid 18で2027年8月1日までに、同時起動ウェイクワード対応は2028年8月1日までに実施予定"
   ],
   url: "https://www.techi.com/eu-google-ai-interoperability-android-dma/",
-  image: null,
+  image: "https://www.techi.com/api/media/file/eu-android-ai-access-1784259402498-c471b3c0-bdfe6c52.webp",
   content: `## 概要
 欧州委員会は2026年7月16日、デジタル市場法(DMA)に基づきGoogleに対する2つの拘束的措置を発出したと発表した。一つはAndroid上でGoogle自身のAIアシスタント「Gemini」に与えている機能アクセスを、ChatGPTやClaudeなど競合のAIアシスタントにも同等に開放することを義務付ける内容で、もう一つは匿名化した検索データを競合検索エンジンと共有することを求めるものだ。
 
@@ -207,7 +207,7 @@ EUのこの決定は、スマートフォンのOSレベルでAIアシスタン�
     "今後はソフトバンク本体・ワイモバイル・グループ会社への展開を検討"
   ],
   url: "https://www.softbank.jp/corp/news/press/sbkk/2026/20260714_01/",
-  image: null,
+  image: "https://www.softbank.jp/site/set/common/shared/img/icon_softbank.gif",
   content: `## 概要
 ソフトバンクは2026年7月13日、米AIスタートアップSierra(シエラ)と戦略的パートナーシップ契約を締結したと発表した。Sierraが開発する対話型AIエージェントプラットフォームについて、ソフトバンクが日本市場における独占販売代理店として翌14日から提供を開始した。オンライン専用ブランド「LINEMO」のカスタマーサポートへの先行導入では、問い合わせの解決率や顧客満足度が大幅に改善したという具体的な成果も公表されている。
 
@@ -243,7 +243,7 @@ LINEMOでの解決率・満足度双方の大幅改善という具体的な数�
     "長編AI生成映画の完成・公開は現時点で未確認、技術的な実現可能性や公開時期は不透明"
   ],
   url: "https://www.cnn.com/2026/07/22/tech/musk-grok-odyssey-adaptation-scli-intl",
-  image: null,
+  image: "https://media.cnn.com/api/v1/images/stellar/prod/ap25086523365631-20260721174439590.jpg?c=16x9&q=w_800,c_fill",
   content: `## 概要
 イーロン・マスク氏は2026年7月22日、自身のAI動画生成プラットフォーム「Grok Imagine」を用いて、ホメロスの叙事詩「オデュッセイア」を題材とした長編AI映画を年内に制作すると自身のXアカウントで発表した。マスク氏は「史実に忠実」な作品になると主張しているが、完成作品や具体的な公開計画は現時点で明らかになっておらず、公式発表は未確認の要素を含む点に留意が必要だ。
 
