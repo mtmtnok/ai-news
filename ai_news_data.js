@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "資金調達自体が撤回されたわけではなく一時停止で、DeepSeekは今後の対応を検討中"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-07-25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国のAIスタートアップDeepSeekが、進行中だった第2ラウンドの資金調達を一時停止したと投資家に口頭で伝えたことがBloombergの報道(2026年7月25日)で明らかになった。背景には、創業者梁文峰(リャン・ウェンフォン)氏が非公開の投資家説明会で語った発言内容がインターネット上で拡散し、社内外に動揺が広がったことがあるとされる。
 
@@ -65,7 +65,7 @@ DeepSeekは2025年のモデル公開以来、中国発オープンウェイトAI
     "大半の企業は当面、自前でのホスティングよりも推論プロバイダー経由での利用が現実的とみられる"
   ],
   url: "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国Moonshot AI(月之暗面)は、2026年7月16日に発表した大規模言語モデル「Kimi K3」の完全なモデルウェイトを、予告通り2026年7月27日午前0時(協定世界時、米国時間では26日夜)にHugging Face上で公開した。2.8兆パラメータのMixture-of-Experts(MoE)モデルとしては史上最大規模のオープンウェイト公開となり、これまでAPIとコンシューマー向けサービスkimi.com経由でしか利用できなかったKimi K3を、企業が自前のインフラでダウンロード・検証・ファインチューニング・自己ホストできるようになった。
 
@@ -103,7 +103,7 @@ Kimi K3のフルウェイト公開は、中国AI企業がオープンウェイ�
     "Anthropicは署名リストに加わらず、クローズドAPIによる統制されたモデル提供を重視する立場を維持、業界内で数少ない不参加の大手ラボとして際立つ"
   ],
   url: "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/",
-  image: null,
+  image: "https://imageio.forbes.com/specials-images/imageserve/663e8bdf75af2b8e0b5b3b07/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
   content: `## 概要
 NVIDIA・Microsoft・Metaが主導し2026年7月23日に25社の署名で公表されたオープンウェイトAI擁護の書簡が、わずか1〜2日のうちに署名企業50社規模へと倍増したことが明らかになった。OpenAI・Googleが新たに加わったほか、イーロン・マスク氏も個人としてジェンスン・フアンCEOの主張に賛同を表明し、クローズドモデル路線を貫くAnthropicが数少ない不参加の大手ラボとして際立つ結果となった。
 
@@ -141,7 +141,7 @@ NVIDIA・Microsoft・Metaが主導し2026年7月23日に25社の署名で公表�
     "同時にT-Head「SAIL」ソフトウェアスタックやQwen搭載イヤホン「Qwen Clip」なども披露、Alibabaのエージェント関連製品群を一挙に拡充"
   ],
   url: "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-agent-native-innovations-at-waic-2026_603377",
-  image: null,
+  image: "https://yqintl.alicdn.com/396f59020021167f731d71a257014d7d3ba3ec96.jpeg",
   content: `## 概要
 Alibaba Cloudは2026年7月18日、上海で開催された世界人工知能大会(WAIC)2026において、企業向けAIエージェントの開発・展開を支える新たなクラウド基盤「Agent Native Cloud」を発表した。同社のクラウドネイティブアプリケーションプラットフォーム責任者Qi Zhou氏が発表を行い、複数のAIエージェントを協調させる新製品群とあわせて披露された。
 
@@ -177,7 +177,7 @@ Agent Native Cloudの発表は、クラウド事業者間の競争軸が単な�
     "韓国に4000万ドルを投資しAIパッケージング向け生産能力を拡張、グループ全体で15拠点の工場が同時に建設中、年間設備投資額は当初計画の85億ドルを上回る可能性も"
   ],
   url: "https://www.digitimes.com/news/a20260710PD249/revenue-ase-packaging-capacity-2026.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20260710pd249_files/1_b.jpg",
   content: `## 概要
 世界最大級の半導体パッケージング・テスト受託企業である台湾ASE Holdingsは、2026年第2四半期の連結売上高が四半期として過去最高を更新したと発表した。AI向け先端パッケージング需要の急拡大が業績を牽引しており、同社は韓国にも4000万ドルを投資して生産能力を拡張する計画を明らかにした。
 
@@ -213,7 +213,7 @@ ASE Holdingsの記録的な決算は、AI半導体の供給ボトルネックが
     "高性能AIハードウェアの需要が飽和知らずに拡大する中、メモリ最大手としての供給体制強化を印象付ける動き"
   ],
   url: "https://news.skhynix.com/sk-hynix-ships-12-high-hbm4-samples-to-customers/",
-  image: null,
+  image: "https://news.skhynix.com/en/wp-content/themes/skhynix/assets/images/ogimage.jpg",
   content: `## 概要
 韓国の半導体大手SK Hynixは、2026年7月14日前後の業界報道によれば、次世代高帯域幅メモリ「HBM4」の12層品について量産出荷を開始したことを明らかにした。サンプル出荷段階から一歩進み、Nvidiaの品質認証プロセスを全てクリアした最終仕様での供給は今回が初めてで、Nvidiaの次世代AIアクセラレータプラットフォーム「Vera Rubin」向けメモリとして提供される。
 
@@ -249,7 +249,7 @@ SK HynixによるHBM4量産出荷の本格化は、Nvidiaの次世代AIプラッ
     "国産LLM「LLM-jp-4」に続き画像対応版を公開することで、日本のAI基盤モデルの選択肢拡大・国産化を後押し"
   ],
   url: "https://www.nikkei.com/article/DGXZQOSG2047C0Q6A420C2000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO2919037020042026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=13702711130a5b9cde1224486d2cd1ca",
   content: `## 概要
 国立情報学研究所(NII)の大規模言語モデル研究開発センター(LLMC)は、画像に対応した国産AIモデルの一般提供を2026年7月にも始める。日本語に強みを持つ既存の基盤モデルに画像データを追加学習させた視覚言語モデル(VLM)で、商用目的での利用も可能とすることで、国産AI基盤モデルの選択肢拡大と普及を後押しする狙いがある。
 
@@ -285,7 +285,7 @@ NIIによる画像対応国産AIモデルの一般提供は、日本が海外製
     "Fable 5がドアだと誤認した壁に自信満々のまま突っ込む場面も確認され、AIの空間認識能力の限界を浮き彫りに"
   ],
   url: "https://www.anthropic.com/research/project-pilot",
-  image: null,
+  image: "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
   content: `## 概要
 Anthropicの安全性評価チーム「Frontier Red Team」は、ロボティクス企業Andon Labsと共同で、AIモデルが自律的にドローンを操縦できるかを検証する実験「Project Pilot」の結果を公開した。屋内オフィスで四輪ドローンを飛ばし、特定の人物を発見・追跡させるという、空中監視を模したタスクで複数のAIモデルの実力を比較した結果、最高性能を示したClaude Fable 5でさえ、空間認識の誤差の蓄積により部屋間の自律移動に失敗する場面が確認された。
 
