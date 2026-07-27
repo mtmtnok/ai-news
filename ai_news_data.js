@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "DRAM世界シェアは7.6%で4位、Samsung・SK hynix・Micronが上位3社（合計89.7%）を占める"
   ],
   url: "https://technode.com/2026/07/27/cxmt-becomes-chinas-most-valuable-a-share-company-after-8-6-billion-ipo/",
-  image: null,
+  image: "https://technode.com/wp-content/uploads/2026/07/20230129061325525.jpg",
   content: `## 概要
 中国の主要DRAMメーカーCXMT（長鑫存儲技術、ChangXin Memory Technologies）が7月27日、上海証券取引所の科創板（STARマーケット）に上場した。IPOで579.2億元（約86億ドル）を調達し、科創板創設以来最大の資金調達案件となった。初日の株価は公開価格から一時471.6%急騰し、時価総額は3.66兆元（約5,000億ドル超）に達し、中国本土上場企業として時価総額トップに躍り出た。
 
@@ -62,7 +62,7 @@ CXMTの上場成功は、AI向けメモリ需要の急拡大が中国国内の�
     "OpenAIが投資適格格付けを持たないため、NVIDIAの信用保証が実質的な資金調達の生命線に"
   ],
   url: "https://www.tomshardware.com/tech-industry/data-centers/nvidia-weighs-250-billion-guarantee-so-openai-can-lease-softbanks-10-gigawatt-ohio-campus",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/ibEpXbFzhNegj42rkqPzgZ-1920-80.jpg",
   content: `## 概要
 NVIDIAが、OpenAIがSoftBankのエネルギー子会社SB Energyがオハイオ州南部に建設中の10ギガワット級データセンターをリースできるよう、約2,500億ドル規模の融資保証を検討していると報じられた。関係者によれば、施設全体（GPU含む）の総投資額は5,000億ドルを超える可能性があり、これまでに発表されたデータセンター計画としては最大級となる。
 
@@ -96,7 +96,7 @@ NVIDIAが検討している約2,500億ドルの保証は、施設のリース・
     "50Hz・60Hzの周波数境界を越えて電力会社間でGPUを一体運用する日本初の試み"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000593.000093942.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/93942/593/93942-593-49edbf9fb7f20f8fad4df71ee5b21333-590x582.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 富士通、インターネットイニシアティブ（IIJ）、ノーチラス・テクノロジーズ、東京電力パワーグリッド、中部電力パワーグリッド、1FINITYの6社は7月27日、NEDOの「次世代インフラにおける低遅延分散処理技術の有効性検証に関する調査」の一環として、「ワット・ビット構想」実現に向けた次世代分散型AI処理インフラの実証実験を開始したと発表した。
 
@@ -130,7 +130,7 @@ AIデータセンターの電力需要は国内でも逼迫が懸念されてお
     "アジア太平洋地域のAI基盤アクセス強化と韓国のAIハブ化を目指す"
   ],
   url: "https://nvidianews.nvidia.com/news/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory",
-  image: null,
+  image: "https://iprsoftwaremedia.com/219/files/202607/e5bed52ab6ab2d0b526ce8fc0d495c37/6a63f6713d6332dc622a2636_sk-nvidia-logos/sk-nvidia-logos_63978d76-b4d8-4c57-bb65-18cb2415ad6b-prv.jpg?v=63978d76-b4d8-4c57-bb65-18cb2415ad6b",
   content: `## 概要
 SKグループとNVIDIAは7月24日、AIファクトリーの建設から次世代AIメモリの供給までを包括する戦略提携の拡大を発表した。総額5,000億ドルを超える規模の提携で、両社はレターオブインテント（LOI）に署名し、詳細を詰めていく。
 
@@ -164,7 +164,7 @@ NVIDIAにとって、GPU供給網と表裏一体のメモリ調達網を主要�
     "教え子はAnthropicのClaude Fable 5を用いてヤコビアン予想の反例を発見しており師弟でAI陣営が分かれる形に"
   ],
   url: "https://www.remio.ai/post/openai-hires-fields-medalist-jacob-tsimerman-exposing-maths-ai-safety-divide",
-  image: null,
+  image: "https://static.wixstatic.com/media/8fc0e9_7f4a4fffcb1748b08c725d1a06587cb9~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/8fc0e9_7f4a4fffcb1748b08c725d1a06587cb9~mv2.png",
   content: `## 概要
 2026年フィールズ賞を受賞したカナダの数学者ジェイコブ・ツィマーマン氏（38歳）が、フィラデルフィアで開催された国際数学者会議（ICM）での受賞講演後、OpenAIのAI安全部門に参画すると発表した。AIが人類にとって存亡リスクになりうると公に警告してきた同氏の方針転換として注目を集めている。
 
@@ -199,7 +199,7 @@ OpenAI側では、共同創業者のGreg Brockman氏や研究者のSebastien Bub
     "音声でCodex・ChatGPT Work上の複数エージェントの起動・進捗確認・指示出しができる"
   ],
   url: "https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは7月23日、ChatGPTのデスクトップアプリに音声機能「ChatGPT Voice」を追加したと発表した。macOS・Windows向けにグローバルで展開が始まっており、Plus・Pro・Business・Edu・Enterpriseの各プランで利用できる。
 
@@ -232,7 +232,7 @@ OpenAIは7月23日、ChatGPTのデスクトップアプリに音声機能「Chat
     "AI利用への機関的な資金支援はわずか11%、多くは無料ツールか自費で利用"
   ],
   url: "https://group.springernature.com/de/group/media/press-releases/early-career-researchers-lead-shift-towards-ai-first-discovery/52988132",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Springer Natureは、Nature Research Intelligence・復旦大学・上海AI for Scienceアカデミーと共同で実施した「研究者のAI利用実態」に関する調査結果を発表した。2026年3月に実施され、117の国・地域、12の研究分野から1万480件の有効回答を得た大規模調査で、若手研究者を中心にAIを起点とした研究発見への移行が進んでいる実態が明らかになった。
 
