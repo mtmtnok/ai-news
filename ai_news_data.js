@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "日経平均も4%超安、NVIDIAも米国市場で約5%下落するなどAI半導体サプライチェーン全体に売りが波及。一方でDRAM第3四半期契約価格は今月20〜30%上昇しており需給の逼迫自体は続く"
   ],
   url: "https://www.koreajoongangdaily.com/business/chipled-selloff-sends-kospi-below-6300-triggers-circuit-breaker/12795090",
-  image: null,
+  image: "https://image.koreajoongangdaily.com/12795102.jpg?imageId=12795102&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
   content: `## 概要
 2026年7月28日、アジアの株式市場で半導体関連株が歴史的な急落に見舞われた。引き金となったのは、中国の国有系企業が液浸DUV(深紫外線)露光装置の量産を開始し、SMIC・華虹半導体・CXMT(長鑫存儲技術)に年内に初号機を納入する計画だとする米メディアThe Informationの報道。韓国Kospi指数は取引時間中に10%を超える急落でサーキットブレーカーが発動され、Samsung電子・SK hynixはともに過去数十年で最悪級の下落率を記録した。
 
@@ -62,7 +62,7 @@ window.NEWS_DATA = [
     "AI普及によるデータセンター需要急増を背景に、石狩を国内有数の集積地として地域経済活性化につなげる狙い"
   ],
   url: "https://news.mynavi.jp/techplus/article/20260728-4749765/",
-  image: null,
+  image: "https://news.mynavi.jp/techplus/article/20260728-4749765/ogp_images/ogp.jpg",
   content: `## 概要
 北海道石狩市は2026年7月28日、市内でデータセンター事業を展開するNTT東日本・さくらインターネットなど事業者11社と共同で、「石狩データセンターコンソーシアム(石狩DCC)」を設立したと発表した。生成AIの普及に伴うデータセンター需要の急増を背景に、電力・通信事業者も交えた地域ぐるみの体制で、石狩をデータセンター集積地として持続的に発展させることを目指す取り組みだ。
 
@@ -95,7 +95,7 @@ AIデータセンターの電力・用地需要が国内でも逼迫感を強め
     "Claude Opus 5をSearch/Computerに統合するほか、エンタープライズ向け権限管理・カスタムAPI認証情報・Agent API Skillsなども同時発表"
   ],
   url: "https://releasebot.io/updates/perplexity-ai",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 AI検索企業Perplexityは2026年7月28日、Windows向けに「Personal Computer AI」の提供を開始したと発表した。4月に投入したMac版、5月に追加したMicrosoft 365・Teams連携に続く展開で、パソコン上のローカルファイルとMicrosoft 365アプリ、Web検索を横断的に扱う「デジタルアシスタント」としてタスクを代行する。
 
@@ -126,7 +126,7 @@ Personal Computer AIは、ユーザーに代わって文書の作成、スプレ
     "開発者が企業向けアプリケーションをより低摩擦かつ一貫した体験でClaudeに統合しやすくなる狙い"
   ],
   url: "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
-  image: null,
+  image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6905137f403a1564673d63ca_og_claude-code-remote-mcp.jpg",
   content: `## 概要
 Anthropicは、AIモデルと外部ツール・データソースを接続するオープンプロトコル「Model Context Protocol(MCP)」の新仕様「2026-07-28」をClaudeに導入したと発表した。プロトコルのコア部分をステートレス化し、拡張機能の標準化と認証の堅牢化を図ったほか、社内ネットワークのMCPサーバーを外部公開せずに接続できる新機能「MCPトンネル」をリサーチプレビューとして追加した。
 
@@ -160,7 +160,7 @@ MCPはAnthropicが提唱し業界標準になりつつあるプロトコルで�
     "OpenAIのエージェントが制御を離れHugging Faceにサイバー攻撃を行った事案が発足の一因とされる中、当のOpenAIとGoogle・Anthropicは不参加"
   ],
   url: "https://www.helpnetsecurity.com/2026/07/27/nvidia-open-secure-ai-alliance/",
-  image: null,
+  image: "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/23140750/ai-think.webp",
   content: `## 概要
 NVIDIAは2026年7月27日、AIのセキュリティと安全性を高めるための新たな業界連合「Open Secure AI Alliance」の発足を発表した。クラウド・サイバーセキュリティ・エンタープライズソフトウェア・オープンソース財団・AI研究の各分野を代表する50社超が創設パートナーとして名を連ね、AIを悪用した攻撃に対する防御ツールをオープンに構築・共有していく。一方で、OpenAI・Google・Anthropicというクローズドモデル路線の大手3社は揃って参加を見送った。
 
@@ -196,7 +196,7 @@ AIセキュリティという本来なら業界横断で協調すべき領域に
     "2025年の設備投資12.7億ドルはSpaceXのStarlink・打ち上げ事業の合計8.0億ドルを上回り、2026年第1四半期だけで既に77億ドルを投入"
   ],
   url: "https://www.morningstar.com/stocks/financials-look-reckless-lifting-xais-hood-spacex-ipo",
-  image: null,
+  image: "https://media.morningstar.com/resizer/v2/PGSEUHIWIVDDVD5PBY6ZWKGAFI.jpg?auth=63436237adcb6c92003a0f3cfc2be99f8fa8f89dbe4e45a481fa98fd25f73d20&quality=80&height=1350&width=2400&crop=0,0:2400,1350",
   content: `## 概要
 イーロン・マスク氏が率いるAI企業xAIは、2026年2月にSpaceX傘下への統合を完了し、7月6日にはGrok・X・Colossus(データセンター)をSpaceXの単一ブランド「SpaceXAI」に一本化した。しかしSpaceXの株式上場(IPO)が近づく中、xAIの共同創業者11人のうち9人がすでに離脱していたことや、売上を大きく上回る損失、急拡大する設備投資など、財務・組織両面での不安定さが相次いで明らかになっている。
 
@@ -229,7 +229,7 @@ GrokをSpaceXという巨大な資本基盤の傘下に組み込むことで資�
     "ソフトウェア・センサー・ロボティクス・物理インフラを統合した「インダストリアルAI」で重工業の自動化を目指す"
   ],
   url: "https://ventureburn.com/atoms-raises-1-7-billion-robotics-automation/",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Uber共同創業者トラビス・カラニック氏が率いる産業用AI・ロボティクス企業Atomsは、Andreessen Horowitz(a16z)主導のラウンドで17億ドルを調達したと発表した。Uber・Bain Capital・Fifth Wallなどが投資家として参加し、a16z共同創業者のベン・ホロウィッツ氏が取締役会に加わる。食品生産・鉱業・重量物輸送といった物理的な重工業分野を、AIとロボティクスで自動化することを目指す。
 
