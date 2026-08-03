@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "全10件の証明にLean 4形式の機械検証可能な証明(sorryゼロ、未証明ステップなし)を付与しGitHubでApache 2.0ライセンス公開。計算コストは現行API料金で約2,000ドルのみ"
   ],
   url: "https://openai.com/index/ten-advances-in-mathematics/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年8月1日、次期主力モデルとされる「Astra」の内部版が、数学および理論計算機科学の分野で少なくとも10年間未解決だった問題10件について新たな結果を出したと発表した。すべての結果には形式証明支援系Lean 4による機械検証可能な証明が付されており、GitHub上で誰でも検証できる形で公開された。
 
@@ -60,7 +60,7 @@ OpenAIはこれら10件の結果をまとめた249ページの論文集と、モ
     "5月7日に政治合意、7月27日発効の「AIオムニバス」により、生体認証・重要インフラ・教育・雇用等の附属書IIIハイリスクAI規制は2027年12月2日に延期。非同意ディープフェイク・CSAM生成AIの新規禁止事項も2026年12月2日に延期"
   ],
   url: "https://www.gamingtechlaw.com/2026/08/eu-ai-act-from-2-august-2026/",
-  image: null,
+  image: "https://www.gamingtechlaw.com/wp-content/uploads/2026/08/eu-ai-act-featured-image.png",
   content: `## 概要
 EUのAI法(AI Act)は2026年8月2日、当初のスケジュール通り新たな義務の一部を発効させた。ただし7月27日に発効した簡素化パッケージ「AIオムニバス」により、当初同日に施行されるはずだった最も重い部分である附属書IIIのハイリスクAIシステム規制は2027年12月2日へと大幅に延期されており、8月2日は「一部が予定通り、一部が延期」という複雑な形での節目となった。
 
@@ -95,7 +95,7 @@ EUがAI規制の「本丸」であるハイリスクAI規制の適用を1年以�
     "Responses APIのネイティブサポートを追加しCodex向けにも最適化。価格は入力0.14ドル・出力0.28ドル(100万トークンあたり)に据え置いたまま性能のみ引き上げ"
   ],
   url: "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-  image: null,
+  image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4-Flash-0731.png",
   content: `## 概要
 中国DeepSeekは2026年7月31日、これまでプレビュー版として提供してきた軽量モデル「DeepSeek-V4-Flash」の正式版「DeepSeek-V4-Flash-0731」を公開した。総パラメータ2,840億・活性化パラメータ130億という比較的小さな構成でありながら、同社が公開する9つのエージェント系ベンチマークすべてで、活性化パラメータが3倍以上大きい旧世代の「V4-Pro」プレビュー版を上回る結果を示した。
 
@@ -128,7 +128,7 @@ DeepSeek-V4-Flash-0731は、4月に公開されたプレビュー版を土台に
     "専用モデルMAI-Cyber-1-FlashはCyberGymで96%を記録。既存のMDASH構成と比べ約50%のコスト削減を実現しつつ性能を維持"
   ],
   url: "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-  image: null,
+  image: "https://blogs.microsoft.com/wp-content/uploads/2026/07/OMB-Project-Perception-Final-Hero-7_27-1024x576.png",
   content: `## 概要
 Microsoftは2026年7月27日、セキュリティシグナル・組織固有のコンテキスト・AIモデル・複数の専用エージェントを組み合わせ、継続的に学習しながら防御を強化していく新しいエージェント型セキュリティシステム「Project Perception」を発表した。同システムは2026年8月3日に公開プレビューへ移行し、あわせてサイバーセキュリティに特化した同社初の専用AIモデル「MAI-Cyber-1-Flash」も投入された。
 
@@ -162,7 +162,7 @@ AIエージェントによるサイバー攻撃の高度化が現実の脅威と
     "データはデフォルトでOpenAIのモデル学習に利用しないビジネスグレードのプライバシー・セキュリティ保護を適用。2027年までに外部の科学研究支援に2億5,000万ドル超を投じる計画の一環"
   ],
   url: "https://openai.com/index/chatgpt-for-academic-researchers/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年7月29日、学術研究者に最先端AIモデルへの無償アクセスを提供する新プログラム「ChatGPT for Academic Researchers」を発表した。数学・工学・自然科学分野の研究者を対象に、助成金申請書の作成から仮説検証まで幅広い研究活動を支援することを狙い、最終的に10万人規模への提供拡大を目指す。
 
@@ -196,7 +196,7 @@ OpenAIは2026年7月29日、学術研究者に最先端AIモデルへの無償�
     "Artificial Analysisの音声対話品質指標で82.9%を記録し、GPT-Realtime-2.1(79.1%)・Gemini 3.1 Flash(69.5%)を上回る。価格は音声1分あたり0.08ドルで、8月5日から「grok-voice-latest」指定時の既定モデルに切り替え"
   ],
   url: "https://x.ai/news/grok-voice-think-fast-2",
-  image: null,
+  image: "https://x.ai/images/news/grok-voice-think-fast-2.webp",
   content: `## 概要
 xAIは2026年7月29日、音声対話モデルの最新版「Grok Voice Think Fast 2.0」を発表した。4月に公開された初代「Think Fast 1.0」からわずか3カ月足らずでの投入となり、応答速度・文字起こし精度・会話能力のいずれにおいても大幅な改善を打ち出している。
 
@@ -231,7 +231,7 @@ OpenAI・Google・xAIの3社が音声対話モデルで数カ月単位の短い�
     "半導体株はサムスンのストライキ懸念やTSMCの株式売却報道で調整局面にあったが、今回の報道で反発する場面が見られた"
   ],
   url: "https://finance.yahoo.com/technology/ai/articles/tsmcs-next-ai-chip-move-195343067.html",
-  image: null,
+  image: "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
   content: `## 概要
 2026年8月3日前後の報道により、台湾のファウンドリ最大手TSMCが、競合Intelの手法に類似した先端チップパッケージング技術を開発していることが明らかになった。この報道を受けてIntel株は一時12%超急伸、TSMC株も7%近く上昇するなど、AIチップの供給網再編を巡る思惑から半導体株全体が押し上げられる展開となった。
 
