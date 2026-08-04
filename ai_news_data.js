@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "小型版「Qwen3.8-27B」を含むオープンウェイト版が来週公開予定。発表を受けAlibabaの米国ADR(NYSE: BABA)は取引前に4.2〜4.46%上昇"
   ],
   url: "https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 AlibabaのQwenチームは2026年8月3日、2.4兆パラメータのMixture-of-Experts(MoE)モデル「Qwen3.8-Max」を正式発表した。7月19日に公開されていたプレビュー版と異なり、今回は初めて具体的なベンチマークスコア表を公開し、推論時の活性化パラメータ約950億、コンテキスト窓最大100万トークンという技術仕様も明らかにした。SWE-bench ProやOSWorld-Verifiedなど複数のコーディング・エージェント系ベンチマークで、AnthropicのClaude Fable 5やOpenAIのGPT-5.6 Solに匹敵する性能を主張しており、発表を受けてAlibabaの米国上場ADR(NYSE: BABA)は取引前に4%超上昇した。
 
@@ -66,7 +66,7 @@ Qwen3.8-Maxはテキスト・画像・動画・文書を統合処理できるマ
     "社内ではコーディングエージェント「Codex」が週間出力トークンの99.8%を占め、非開発者による組織単位の利用は2025年8月比で189倍に急増"
   ],
   url: "https://openai.com/index/building-abundant-intelligence/",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米OpenAIのCFO(最高財務責任者)サラ・フライアー氏は、2026年7月31日(現地時間)に公開した公式ブログ「Building abundant intelligence(豊かな知能を築く)」で、ChatGPTをはじめとする同社のAIモデルのアクティブユーザーが10億人を突破し、導入企業も200万社を超えたと明らかにした。日本国内でもITmediaやImpress Watchなど複数のメディアが8月2日ごろに追随して報じている。フライアー氏はブログの中で、AIの性能向上が利用の広がりを生み、それが研究開発やインフラへの投資をさらに後押しするという好循環をOpenAIの成長戦略の核に据えていると説明した。
 
@@ -104,7 +104,7 @@ Qwen3.8-Maxはテキスト・画像・動画・文書を統合処理できるマ
     "匿名の「大手AI開発企業」(報道ではAnthropic)と6年・100億ドルのクラウド計算契約を締結し、ノルウェーに総容量133メガワットのデータセンターを構築、2026年12月末と2027年3月末の2フェーズで稼働開始予定"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-04/nvidia-dell-back-ai-cloud-startup-volta-at-2-4-billion-value",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 AIインフラ新興企業のVolta(正式名称Volta Infra Holdings)は2026年8月4日、a16z(Andreessen Horowitz)とAltimeter Capital Managementが主導し、NVIDIAとDell創業者のMichael Dell氏も参加する3億ドルの資金調達を発表した。今回の調達により同社の評価額は24億ドルに達し、今年設立されたばかりの企業がステルスを脱して一気に大型ネオクラウド事業者の一角に躍り出た形だ。同時に、中小AI企業向けの50億ドル規模の金融プログラムと、匿名の「大手AI開発企業」との6年・100億ドルのクラウド計算契約という2つの大型発表も行っている。
 
@@ -144,7 +144,7 @@ Voltaの急浮上は、AIインフラを巡る「コンピュート軍拡競争�
     "CXL対応メモリ拡張モジュール「KIOXIA XL1シリーズ」もXL-FLASHを搭載して参考出展され、DRAMとSSDの性能・コストギャップを埋める用途で2026年8月中に業界パートナーへ評価用サンプルを出荷する計画"
   ],
   url: "https://www.techpowerup.com/351318/kioxia-announces-gp1-series-super-high-iops-ssds-for-ai-applications",
-  image: null,
+  image: "https://www.techpowerup.com/img/EFsnkzIpKt3Ru36Y.jpg",
   content: `## 概要
 キオクシアは2026年8月4日、米カリフォルニア州サンタクララで開幕した業界イベント「FMS: Future of Memory and Storage 2026」(会期8月4〜6日)において、AIアプリケーション向けの超高性能SSD「KIOXIA GP1シリーズ」を発表した。あわせてCXL(Compute Express Link)対応のメモリ拡張モジュール「KIOXIA XL1シリーズ」も展示し、生成AI・大規模言語モデルの学習・推論で急増するメモリおよびストレージ需要に対応する製品群を相次いで打ち出した。同社はAI基盤におけるメモリ階層の再構築を狙う戦略製品として両シリーズを位置づけている。
 
@@ -184,7 +184,7 @@ GP1シリーズはGPUによるダイレクトアクセスに最適化されて�
     "年間売上高約2000万ドル未満の組織に商用利用を無償で許可する一方、米国・EU・英国・韓国では対象外。ディズニー・ユニバーサル・ワーナーブラザース ディスカバリーによる著作権訴訟が理由の一つとされる"
   ],
   url: "https://www.techtimes.com/articles/322904/20260804/minimax-h3-open-weights-exclude-us-eu-uk-korea-local-deployment.htm",
-  image: null,
+  image: "https://d.techtimes.com/en/full/471232/minimax.jpg",
   content: `## 概要
 中国のAI企業MiniMaxは2026年8月3日、同社の動画生成シリーズ「Hailuo」の基盤モデルであるオムニモーダル動画生成モデル「H3」の重みをHugging Faceで公開した。Hailuo 01、Hailuo 02に続く第3世代モデルであり、MiniMaxが重みを一般公開する初めての動画生成モデルとなる。テキスト・画像・動画・音声を統合的な入力として扱えるオムニモーダル設計が特徴で、公開と同時にComfyUIやvLLMなど主要な推論・生成環境への対応も完了している。
 
@@ -223,7 +223,7 @@ H3の公開は、中国オープンウェイト勢がテキスト・コード領
     "批判の多くは、子供のカレンダーや興味関心データをAIに渡すプライバシー懸念と、登校中の会話という数少ない親子の対話時間をAIに代替させることへの違和感に集中"
   ],
   url: "https://fortune.com/2026/08/03/sam-altman-use-case-for-chatgpt-daily-ai-podcast-about-your-kids-backlash/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2287521404-e1785757226751.jpg?resize=1200,600",
   content: `## 概要
 OpenAIのサム・アルトマンCEOが2026年7月31日〜8月1日ごろ、X(旧Twitter)上で「ChatGPT Workのクールな使い方」として、家族のカレンダーを連携し子供の興味関心を登録しておくと、登校中の車内で聞く「その日のポッドキャスト」を毎朝自動生成できるというアイデアを紹介した。内容は「一人の子のサッカーの試合、もう一人の子の誕生日、ニュースなどを話す」というものだったが、この投稿はX上で猛烈な反発を招いた。特に「Gravity Falls」の制作者として知られるアレックス・ハーシュ氏の皮肉交じりの返信が、アルトマン氏本人の投稿を大きく上回る拡散を見せたことが話題となっている。なお本件はアルトマン氏個人のX投稿とそれへの反応であり、OpenAIとしての公式発表・製品告知ではない点には注意が必要で、現時点で公式発表は未確認である。
 
@@ -261,7 +261,7 @@ OpenAIのサム・アルトマンCEOが2026年7月31日〜8月1日ごろ、X(旧
     "当初2026年1月1日発効予定だったが、2025年10月13日成立のAB853改正でEU AI Act第50条の執行開始日(同じく2026年8月2日)に合わせて延期。大規模プラットフォーム等への追加義務は2027〜2028年に段階的に発効"
   ],
   url: "https://www.morganlewis.com/pubs/2026/08/new-california-ai-disclosure-rules-become-operative",
-  image: null,
+  image: "https://www.morganlewis.com/-/media/images/tiles/technology/222104_sv_ai_bootcamp_tile_largetile.jpg?rev=5e52d015db4d45df926eb2cd72bc2e1b&hash=1F57C6B297EE1F5E32FEC5C8CCC95AC6",
   content: `## 概要
 カリフォルニア州のAI透明性法「California AI Transparency Act」(CAITA、SB942をAB853が改正)が2026年8月2日に発効した。生成AIコンテンツの真正性を担保するため、対象事業者に無料のAI検出ツール提供と、画像・動画・音声への来歴表示を義務付ける全米でも先駆的な規制である。当初は2026年1月1日に発効する予定だったが、欧州連合(EU)のAI Act第50条の執行開始タイミングに合わせる形で約7カ月延期され、結果として米欧の主要なAI透明性規制が同日に発効するという事態となった。
 
@@ -301,7 +301,7 @@ CAITAの発効日がEU AI Act第50条の執行開始日と同じ2026年8月2日�
     "AlphaFoldのデータベース(2億件超の構造予測)、AlphaFold Server、学術向けAlphaFold 3の提供自体は継続するが、開発は酵素設計・核融合・ゲノミクス・創薬などを横断する広範な科学プログラムに統合される"
   ],
   url: "https://www.engadget.com/2225849/google-shuts-down-alphafold/",
-  image: null,
+  image: "https://www.engadget.com/img/gallery/google-shuts-down-alphafold/l-intro-1785406463.jpg",
   content: `## 概要
 ノーベル化学賞を受賞したタンパク質構造予測AI「AlphaFold」を生んだGoogle DeepMindの専属研究チームが、実質的に解体されていたことが2026年7月29日前後の報道で明らかになった。Financial Times(FT)の報道を発端に、Engadgetなど複数の海外メディアが後追いし、AlphaFoldの中核研究者の多くがGeminiや他の科学研究プロジェクトへ再配置されていたこと、そして共同ノーベル賞受賞者John Jumper氏を含む主要メンバーが競合のAnthropicへ移籍していたことが伝えられた。AlphaFoldのサービス自体は継続するものの、専門特化型の「グランドチャレンジ」モデルから汎用AIプラットフォームへ資源を集約するDeepMindの戦略転換を象徴する出来事として受け止められている。
 
