@@ -1,0 +1,5 @@
+# このリポジトリは PUBLIC で、GitHub Pages が main の / をそのまま配信している。
+# briefs/ に置いたファイルは https://mtmtnok.github.io/ai-news/briefs/... で誰でも読める状態になる。
+# 事業戦略・収益化の検討を含むブリーフは公開対象ではないため、リポジトリ外
+# （../ai-news-briefs/）に置き、ここでは万一の再作成に備えて無視する。
+/briefs/
