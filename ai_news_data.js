@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "衛星計算プログラム「Starmind」ではNVIDIAの次世代GPU「Rubin」とCPU「Vera」を搭載した衛星群を打ち上げる構想。AMDとの両にらみだったこれまでの調達方針からの転換"
   ],
   url: "https://wccftech.com/elon-musk-commits-spacex-exclusively-to-nvidia-gpus-citing-theyre-the-best/",
-  image: null,
+  image: "https://cdn.wccftech.com/wp-content/uploads/2026/05/NVIDIA-Space-1-Vera-Rubin-Module-2-1920x1080.jpg",
   content: `## 概要
 イーロン・マスク氏は2026年8月上旬に開催されたSpaceXの決算説明会で、同社が今後AI向け計算インフラをNVIDIA製GPUに全面的に一本化する方針を明らかにした。マスク氏は「Vera Rubinアーキテクチャこそ最高の設計であり、最高のAIコンピュータだ」と述べ、これまでAMD・NVIDIA双方のチップを検討対象としてきた調達方針からの転換を鮮明にした。
 
@@ -59,7 +59,7 @@ SpaceXの今回の表明は、AI計算資源をめぐる「軍拡競争」が地
     "商標権侵害など州法上の請求は審理継続。Amazonの完全敗訴ではないが、AI エージェントによる自律的なウェブ操作を法的に大きく制約する可能性は後退した"
   ],
   url: "https://www.tftc.io/ninth-circuit-cfaa-amazon-perplexity-comet-browser-ruling",
-  image: null,
+  image: "https://storage.ghost.io/c/77/f7/77f78434-a11f-4803-9c04-b15aaa2a8e69/content/images/2026/08/ninth-circuit-cfaa-amazon-perplexity-comet-browser-ruling.png",
   content: `## 概要
 米第9巡回区控訴裁判所は2026年8月4日、PerplexityのAIブラウザ「Comet」に搭載された自律ショッピング機能に対しAmazonが求めていた差止命令を破棄する判断を下した。争点は、AIエージェントがユーザーに代わってウェブサービスを操作する行為が、連邦法のコンピュータ詐欺・濫用防止法(CFAA)における「不正アクセス」に該当するかどうかという、AIエージェント時代の根幹に関わる法解釈だった。
 
@@ -93,7 +93,7 @@ SpaceXの今回の表明は、AI計算資源をめぐる「軍拡競争」が地
     "年内の香港取引所上場が有力視される。DeepSeekも別途、上海証券取引所科創板への2027年第2四半期を目標としたIPOを検討中"
   ],
   url: "https://technode.com/2026/08/05/moonshot-ai-reportedly-opens-pre-ipo-round-at-50-billion-valuation-as-kimi-k3-drives-demand/",
-  image: null,
+  image: "https://technode.com/wp-content/uploads/2025/10/moonshot-ai.png",
   content: `## 概要
 中国のAIスタートアップMoonshot AI(月之暗面)が、株式上場を前にした最終の資金調達ラウンドを2026年8月に開始し、評価額500億ドルを目指していると報じられた。看板モデル「Kimi K3」の好調な立ち上がりを追い風に、直前ラウンドから約6割高い評価額での調達を狙う。
 
@@ -126,7 +126,7 @@ Moonshot AIの評価額急伸は、中国のオープンウェイトAI企業が�
     "具体的な完成形のデモや確定した投入日はまだ示されておらず、2026年夏の終わりが目標時期とされる"
   ],
   url: "https://windowsforum.com/threads/microsoft-copilot-super-app-targets-end-of-summer-2026-launch.437860/",
-  image: null,
+  image: "https://windowsforum.com/attachments/windowsforum-microsoft-copilot-super-app-targets-end-of-summer-2026-launch-webp.171622/",
   content: `## 概要
 Microsoftのサティア・ナデラCEOは2026年7月29日の決算説明会で、同社が展開してきた複数のCopilot関連プロダクトを1つの統合アプリへとまとめる「スーパーアプリ」構想を、今四半期中に実現すると明言した。コンシューマー向け・法人向けの両方をカバーする野心的な計画で、2026年夏の終わりまでの投入が目標とされている。
 
@@ -196,7 +196,7 @@ MCPサーバーの73%に脆弱性が見つかったという数字は、AIエー
     "シリコンフォトニクスは電気信号でなく光を用いて高帯域・低消費電力のデータ伝送を実現する技術で、AIデータセンターの近接パッケージ光学(NPO)・共同パッケージ光学(CPO)実装に不可欠。2024年にニューヨーク州マルタ・バーモント州バーリントンの製造拡張向けに受けた15億ドルのCHIPS法支援に続く追加投資"
   ],
   url: "https://www.globenewswire.com/news-release/2026/07/29/3335058/0/en/GlobalFoundries-signs-letter-of-intent-with-the-U-S-Department-of-Commerce-for-a-300-million-award-to-accelerate-U-S-silicon-photonics-leadership.html",
-  image: null,
+  image: "https://ml.globenewswire.com/Resource/Download/8d508fc4-5eca-472a-bcd1-34f5750681d1",
   content: `## 概要
 半導体ファウンドリ大手GlobalFoundriesは2026年7月29日、米商務省との間でシリコンフォトニクス(光半導体)分野の研究開発を支援する3億ドル規模の契約について、レターオブインテント(基本合意書)に署名したと発表した。AIデータセンターの高速・低消費電力な光データ伝送技術の国内開発力強化を目的とした支援策で、対価として米政府はGlobalFoundriesの株式約1%を取得する。
 
@@ -230,7 +230,7 @@ MCPサーバーの73%に脆弱性が見つかったという数字は、AIエー
     "AIが自律的にロボット・機械を判断・制御する「フィジカルAI」の実装が本格化する中、政策の縦割りを解消し一体的に推進する狙い"
   ],
   url: "https://www.projectdesign.jp/articles/news/cf53764e-dda0-4b83-a0f8-5edd590b86b1",
-  image: null,
+  image: "https://cdn.projectdesign.jp/uploads/2026/06/03/2NFL4njIaW1YkwDrG5Kdbrli71sePbBFpiaVHSau.png",
   content: `## 概要
 経済産業省は2026年8月5日、AI政策とロボット政策を一元的に担う新組織を発足させる政令を公布・施行した。これまで製造産業局が担当してきたロボット関連業務を商務情報政策局へ移管し、新設される「情報処理システム開発・ロボット課」(通称「AI産業課」)がAIとロボットの両分野を同じ課で一体的に推進する体制を整える。
 
