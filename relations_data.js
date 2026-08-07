@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-07-25",
+  updated: "2026-08-08",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -29,6 +29,8 @@ window.RELATIONS = {
     { id: "sakana",       label: "Sakana AI",    sector: "lab", jp: true },
     { id: "reflectionai", label: "Reflection AI", sector: "lab" },
     { id: "moonshot",     label: "Moonshot AI",  sector: "lab" },
+    { id: "ssi",          label: "Safe Superintelligence", sector: "lab" },
+    { id: "discoveryloop", label: "Discovery Loop", sector: "lab" },
     // ビッグテック・クラウド
     { id: "microsoft",    label: "Microsoft",    sector: "cloud" },
     { id: "google",       label: "Google",       sector: "cloud" },
@@ -42,6 +44,8 @@ window.RELATIONS = {
     { id: "alibaba",      label: "Alibaba",      sector: "cloud" },
     { id: "bytedance",    label: "ByteDance",    sector: "cloud" },
     { id: "terawulf",     label: "TeraWulf",     sector: "cloud" },
+    { id: "volta",        label: "Volta",        sector: "cloud" },
+    { id: "sktelecom",    label: "SKテレコム",    sector: "cloud" },
     // 半導体
     { id: "nvidia",       label: "NVIDIA",       sector: "semi", sub: "design" },
     { id: "amd",          label: "AMD",          sector: "semi", sub: "design" },
@@ -187,6 +191,12 @@ window.RELATIONS = {
     { from: "meti", to: "micron", type: "invest", threads: ["japan", "semi"], amount: 35,
       label: "広島工場拡張に最大5,360億円（約35億ドル相当）を助成（生産能力5,000億＋R&D 360億）", date: "2026-07",
       source: "https://jp.micron.com/about/press/news/micron-breaks-ground-on-hiroshima-cleanroom-to-support-advanced-memory-for-ai" },
+    { from: "nvidia", to: "ssi", type: "invest", threads: ["labs", "compute"], amount: 50,
+      label: "イリヤ・サツケバー氏率いるSSIと長期戦略提携。次世代GPU「Vera Rubin」基盤へのアクセスを付与し計算資源を12カ月で約10倍に拡大", date: "2026-07",
+      source: "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership" },
+    { from: "nvidia", to: "volta", type: "invest", threads: ["compute"], amount: null,
+      label: "a16z・Altimeter Capital主導の3億ドル調達ラウンドに参加（評価額24億ドル、Michael Dell氏も参加）", date: "2026-08",
+      source: "https://www.bloomberg.com/news/articles/2026-08-04/nvidia-dell-back-ai-cloud-startup-volta-at-2-4-billion-value" },
 
     // ── 提携・供給契約 (partner) ──
     // OpenAI コンピュート網
@@ -230,7 +240,7 @@ window.RELATIONS = {
       label: "Stargateの一環。SB Energyがデータセンター／電力インフラを担い、OpenAIは米国Milam Countyの1.2GWデータセンターをリース", date: "2026-01",
       source: "https://openai.com/index/stargate-sb-energy-partnership/" },
     { from: "apple", to: "openai", type: "partner", threads: ["labs", "talent"], flow: "モデル", status: "reported",
-      label: "2024年ChatGPT×iOS統合提携。io Products買収後に関係悪化、26/7にAppleが営業秘密訴訟", date: "2024-06",
+      label: "2024年ChatGPT×iOS統合提携。io Products買収後に関係悪化、26/7にAppleが営業秘密訴訟。OpenAIは26/8に却下を申し立て「根拠のない訴訟」と反論、審理は10月1日に予定", date: "2026-08",
       source: "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/" },
     // Anthropic コンピュート網
     { from: "anthropic", to: "microsoft", type: "partner", threads: ["compute"], flow: "計算資源",
@@ -251,6 +261,9 @@ window.RELATIONS = {
     { from: "anthropic", to: "terawulf", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "20年・190億ドルのデータセンターリース（ケンタッキー州401MW、2027年後半稼働）", date: "2026-07",
       source: "https://siliconangle.com/2026/07/06/anthropic-inks-19b-ai-data-center-lease-terawulf/" },
+    { from: "anthropic", to: "volta", type: "partner", threads: ["compute", "labs"], flow: "計算資源", status: "reported",
+      label: "匿名の「大手AI開発企業」との契約と報道される6年・100億ドルのクラウド計算契約。ノルウェーに133MWデータセンターを構築し2026年12月・2027年3月の2段階稼働", date: "2026-08",
+      source: "https://www.bloomberg.com/news/articles/2026-08-04/nvidia-dell-back-ai-cloud-startup-volta-at-2-4-billion-value" },
     { from: "anthropic", to: "spacex", type: "partner", threads: ["compute"], flow: "計算資源", status: "reported",
       label: "SpaceX IPO目論見書で、2029年5月まで月額12.5億ドル（総額約450億ドル）のGPUコンピュート契約が開示", date: "2026-06",
       source: "https://mlq.ai/news/anthropic-signs-12-letters-of-intent-for-direct-data-center-leases-totaling-over-1-gw/" },
@@ -282,6 +295,9 @@ window.RELATIONS = {
     { from: "bytedance", to: "alibaba", type: "partner", threads: ["china"], flow: "モデル", status: "reported",
       label: "CAC擬人化AI規制（26/7/15施行）に伴いDoubao・Qwenがコンパニオン機能を同時停止", date: "2026-07",
       source: "https://qz.com/bytedance-alibaba-ai-companion-chatbot-china-rules-070626" },
+    { from: "moonshot", to: "sakana", type: "partner", threads: ["japan", "china"], flow: "モデル", status: "reported",
+      label: "オープンウェイトモデル「Kimi K2.6」をベースに、Sakana AIが日本語特化API「Sakana Namazu」を追加学習・提供", date: "2026-08",
+      source: "https://pc.watch.impress.co.jp/docs/news/2130476.html" },
     // 半導体サプライチェーン
     { from: "nvidia", to: "skhynix", type: "partner", threads: ["semi"], flow: "技術",
       label: "次世代HBM共同開発の複数年技術提携（AI Factory向け）", date: "2026-06",
@@ -329,6 +345,12 @@ window.RELATIONS = {
     { from: "reflectionai", to: "spacex", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "2026年6月に月額1.5億ドル規模のコンピュート契約を締結（Nebius契約に先行）", date: "2026-06",
       source: "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/" },
+    { from: "nvidia", to: "spacex", type: "partner", threads: ["compute"], flow: "計算資源",
+      label: "マスク氏がSpaceXの計算インフラをNVIDIA製GPUへ全面一本化すると表明。2027年末までに10GW確保目標、衛星計算プログラム「Starmind」も始動", date: "2026-08",
+      source: "https://wccftech.com/elon-musk-commits-spacex-exclusively-to-nvidia-gpus-citing-theyre-the-best/" },
+    { from: "nvidia", to: "sktelecom", type: "partner", threads: ["compute", "semi"], flow: "計算資源",
+      label: "韓国国内に2GW級「AIクラウド」を構築。SK hynix製HBM4搭載のVera Rubinを2027年稼働へ、提携規模5,000億ドル超", date: "2026-07",
+      source: "https://nvidianews.nvidia.com/news/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory" },
     { from: "nvidia", to: "noetra", type: "partner", threads: ["japan", "compute"], flow: "計算資源",
       label: "次世代GPU「Rubin」約2.75万基・CPU「Vera」約1.375万基を独占供給（2028年6月稼働・大阪堺市）", date: "2026-07",
       source: "https://response.jp/article/2026/07/17/414143.html" },
@@ -367,7 +389,7 @@ window.RELATIONS = {
 
     // ── 人材移籍 (talent) ── 人物単位で1エッジ
     { from: "google", to: "anthropic", type: "talent", threads: ["talent"], person: "John Jumper",
-      label: "2024年ノーベル化学賞受賞者（AlphaFold2開発主導）。9年弱在籍したDeepMindからAnthropicへ", date: "2026-06",
+      label: "2024年ノーベル化学賞受賞者（AlphaFold2開発主導）。9年弱在籍したDeepMindからAnthropicへ。同氏の移籍後、AlphaFold専属チームは解体され著者の4分の1が退職(26/8)", date: "2026-08",
       source: "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/" },
     { from: "google", to: "anthropic", type: "talent", threads: ["talent"], person: "Jonas Adler・Alexander Pritzel",
       label: "Gemini開発の中核を担った研究者2名がAnthropicへ移籍", date: "2026-06",
@@ -389,6 +411,12 @@ window.RELATIONS = {
       source: "https://www.koreaherald.com/article/10797311" },
     { from: "google", to: "reflectionai", type: "talent", threads: ["talent", "labs"], person: "DeepMind卒業生創業チーム",
       label: "元Google DeepMind研究者が2024年にReflection AIを創業（評価額80億ドル・累計調達26億ドル）", date: "2024",
-      source: "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/" }
+      source: "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/" },
+    { from: "google", to: "discoveryloop", type: "talent", threads: ["talent", "labs"], person: "Jeff Dean",
+      label: "Google Brain共同創業者・27年在籍のシニアフェロー。独立系公益法人「Discovery Loop」を設立、Googleは投資家・クラウド提供者として関与", date: "2026-08",
+      source: "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/" },
+    { from: "google", to: "discoveryloop", type: "talent", threads: ["talent", "labs"], person: "Sanjay Ghemawat・Oriol Vinyals・Quoc Le",
+      label: "Googleシニアフェロー、DeepMind副社長、Google Brain共同創業者の3氏がJeff Dean氏とともにDiscovery Loopへ参加", date: "2026-08",
+      source: "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/" }
   ]
 };
