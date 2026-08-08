@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "強化されたセキュリティ要件を満たさないAstraの活動を一時停止するとともに、学習・評価を含むあらゆるエージェント型用途でリスクの高い行動や整合性(アライメント)の逸脱を監視する体制を導入"
   ],
   url: "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
   content: `## 概要
 OpenAIは2026年8月7日、開発中の次期主力モデル「Astra」に関する内部評価の結果、同社が定める安全性フレームワーク「Preparedness Framework」における最高位のリスク区分「Critical(重大)」のサイバーセキュリティ能力水準に到達した可能性を否定できないと発表した。同フレームワークの運用開始からおよそ3年の歴史の中で、開発段階の「Critical」要件に達したモデルは今回が初めてで、OpenAIはAstraの一部の社内作業を一時停止し、監視体制を強化する対応に踏み切った。
 
@@ -59,7 +59,7 @@ OpenAIによる今回の発表は、フロンティアAIモデルの能力が「
     "役割分担はNAVERが運営、NVIDIAが計算基盤技術を提供、Brookfieldが長期資本と電力・インフラ投資の知見を提供。李在明大統領のサンフランシスコAIサミット訪問に合わせて発表"
   ],
   url: "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
-  image: null,
+  image: "https://iprsoftwaremedia.com/219/files/202607/6f17a6451c306392c3376747f022b895/6a63f3113d6332dc5d2a252d_naver-nvidia-brookfield-logos/naver-nvidia-brookfield-logos_23c4d337-017e-4cbe-9f64-6a602ab1abc6-prv.jpg?v=23c4d337-017e-4cbe-9f64-6a602ab1abc6",
   content: `## 概要
 韓国のインターネット大手NAVERは2026年7月下旬、NVIDIAおよびBrookfieldとの提携により最大100億ドル規模の投資・資金調達枠を確保し、セジョンのハイパースケールデータセンター「GAK Sejong」内に構築するAIファクトリーを2028年までに200メガワット規模へ拡張すると発表した。李在明大統領によるサンフランシスコでのAIサミット訪問に合わせた発表で、韓国政府が主導するAIインフラ増強路線の一環として位置づけられる。
 
@@ -93,7 +93,7 @@ NAVERとSK Group双方がNVIDIA・海外資本と組んで大型AIインフラ�
     "自然な対話が可能になった点は達成と評価される一方、他社のAIアシスタントが既に高い完成度に達している中での投入となり、業界の反応は「有能だが革新的とは言えない」と分かれている"
   ],
   url: "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/06/Screenshot-2026-06-08-at-1.42.13-PM.png?w=808",
   content: `## 概要
 Appleは2026年7月、次期モバイルOS「iOS 27」の一般提供開始に合わせ、大幅に刷新した音声アシスタント「Siri AI」を投入した。パーソナルな文脈理解や幅広い世界知識、画面上の情報を認識する「オンスクリーン認識」などを備えた対話型アシスタントとして生まれ変わったが、その中核を支えるAIモデルには自社開発ではなく競合GoogleのGemini AIが採用されていることが明らかになった。
 
@@ -127,7 +127,7 @@ AppleがSiriの中核モデルとしてGoogleのGeminiを採用したことは�
     "NVIDIAとの提携でユタ州に30メガワット級の原子力AI電源施設を計画。無水冷却の量産型「AI電力ファクトリー」構想を掲げ、データセンター向け電力需要の取り込みを狙う"
   ],
   url: "https://techstartups.com/2026/08/03/valar-atomics-raises-1-billion-series-b-led-by-sequoia-to-mass-produce-nuclear-reactors-for-ai-data-centers/",
-  image: null,
+  image: "https://techstartups.com/wp-content/uploads/2026/08/Valar-Atomics-Funding-960x603.jpg",
   content: `## 概要
 AIデータセンター向けの電力インフラを手がける原子力スタートアップValar Atomicsは2026年8月3日、Sequoia Capitalが主導するシリーズB(10億ドル)の調達を完了したと発表した。評価額は2026年4月の前回ラウンドから3倍となる60億ドルに達し、同社が開発した高温ガス冷却小型炉「Ward 250」が同年7月に米国の原子炉として初めてNVIDIA製AIチップへの給電に成功したことが、投資家の関心を大きく押し上げた。
 
@@ -161,7 +161,7 @@ AIデータセンターの電力需要が急拡大する中、原子力を電源
     "Samsungは対抗技術としてFMS2026で次世代3DメモリアーキテクチャzHBMを披露、HBM5の最大8倍の性能を謳うが現時点ではコンセプト段階で、製品化・顧客・量産スケジュールは未確定"
   ],
   url: "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-08-03-Sandisk-and-sk-hynix-advance-global-standardization-of-hbf",
-  image: null,
+  image: "https://www.sandisk.com/content/dam/sandisk/en-us/assets/company/newsroom/press-release/hbf-3.png",
   content: `## 概要
 SK hynixとSandiskは2026年8月3日、AI推論向けの新しいメモリ規格「High Bandwidth Flash(HBF)」の業界初の標準仕様を、Open Compute Project(OCP)を通じて公開したと発表した。HBM(広帯域メモリ)と従来型SSDストレージの中間に位置する新たなメモリ階層を提供することで、AI推論処理における深刻化するメモリボトルネックの緩和を狙う。ほぼ同時期には、SamsungもFMS2026で対抗する次世代3Dメモリアーキテクチャ「zHBM」を披露しており、AI向け次世代メモリを巡る規格・技術競争が一気に激しさを増している。
 
@@ -194,7 +194,7 @@ AI半導体を巡る競争軸は、これまでのGPU性能そのものから、
     "Chrome統合機能はまず米国から展開、日本を含む国際展開は今後段階的に進む見通し"
   ],
   url: "https://www.itmedia.co.jp/news/article/2608/02/2000000347/",
-  image: null,
+  image: "https://www.itmedia.co.jp/news/article/ogp/2608/02/2000000347/10001717/2048",
   content: `## 概要
 Googleは2026年7月29日、24時間365日バックグラウンドで稼働し続けるパーソナルAIエージェント「Gemini Spark」の提供対象を、日本を含む160以上の国・地域へ拡大すると発表した。「Google AI Ultra」および「Google AI Pro」の加入者が対象で、日本のProプラン利用者は月額2,900円で数週間以内に利用できるようになる見通しだ。
 
@@ -228,7 +228,7 @@ Googleが「常時稼働するパーソナルAIエージェント」を主要市
     "2026年8月上旬から標準搭載を開始し、既存導入企業にも順次適用。AI活用の「試行」から「組織への実装」段階への移行が進む中、ガバナンス統制の必要性の高まりに対応"
   ],
   url: "https://ai.watch.impress.co.jp/docs/news/2131486.html",
-  image: null,
+  image: "https://ai.watch.impress.co.jp/img/aiw/list/2131/486/0301.jpg",
   content: `## 概要
 ソフトバンクは2026年8月7日、法人向けAIエージェントプラットフォーム「AGENTIC STAR」のSaaS版に、複数のLLM(大規模言語モデル)サービスを統合的に管理できる新機能「LLM Gateway」を標準搭載すると発表した。エンジニアが日常的に使うAIコーディングツールの利用状況を、企業のガバナンス管理下に置けるようにする狙いだ。
 
