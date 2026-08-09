@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "Nature論文の公開と同時に、モデルのコードと学習済み重みをオープンソースで公開。学術研究・現業予報・独自モデル開発のいずれの用途にも無償で利用可能に"
   ],
   url: "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Google DeepMindは2026年8月6日、台風(熱帯低気圧・サイクロン)の予測に特化したAIモデル「WeatherNext」の最新の研究成果を、査読付き学術誌Natureに論文として発表した。従来は進路・強度・風の構造といった予測要素をそれぞれ別のモデルで扱うのが一般的だったところを、単一のAIモデルで統合的に予測できる点が特徴で、丸1日分の予報リードタイム延長という具体的な精度向上を実証したという。論文の公開に合わせ、モデルのコードと学習済みの重みもオープンソースとして公開された。
 
@@ -60,7 +60,7 @@ DeepMindは論文の公開と同時に、モデルのソースコードと学習
     "PCIe 6.0世代の製品が第2四半期の総売上の5割超を占め、第1四半期の約3分の1から急拡大。第3四半期の売上高見通しは5.4億〜5.6億ドル(中央値で前四半期比40%増)"
   ],
   url: "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results",
-  image: null,
+  image: "https://images.pexels.com/photos/6755078/pexels-photo-6755078.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 AIデータセンター向けの接続(コネクティビティ)半導体を手がける米Astera Labsは2026年8月4日、2026年第2四半期の決算を発表した。売上高は前年同期比104%増・前四半期比27%増の3億9,240万ドルと四半期として過去最高を記録し、市場予想の3億6,081万ドルを8.76%上回った。非GAAPベースの希薄化後EPSも0.80ドルとなり、市場予想0.69ドルを15.61%上回るなど、8四半期連続で市場予想を上回る決算が続いている。
 
@@ -94,7 +94,7 @@ Astera Labsのようなインターコネクト半導体企業の高成長は、
     "買収の財務条件は非公表で、取引完了は2026年第4四半期を見込む。AI推論がAI市場で最も急成長する領域の一つとなる中、AMDのInstinct・EPYCロードマップに差別化技術と専門人材を組み込む狙い"
   ],
   url: "https://newsroom.amd.com/news/amd-acquires-taalas-ai-inference/",
-  image: null,
+  image: "https://newsroom.amd.com/images/2026/08/902b3811-ef65-4bc0-8f82-ebf62ebb82df.jpg",
   content: `## 概要
 AMDは2026年8月6日、AI推論向けの特殊なシリコン設計技術を保有するカナダ・トロント拠点のスタートアップ、Taalasを買収する最終契約を締結したと発表した。Taalasはモデルの重み(パラメータ)をチップ上に直接実装する独自のアプローチにより、AI推論の効率を大幅に高める技術を持つ。買収の財務条件は明らかにされていないが、取引は2026年第4四半期に完了する見通しだ。
 
@@ -127,7 +127,7 @@ AI業界の関心が大規模言語モデルの「学習」から日々の実利
     "背景には法律AI市場における収益の急拡大があるとされ、大手法律事務所・企業法務部門への導入拡大が評価額上昇を後押ししている"
   ],
   url: "https://techstartups.com/2026/08/07/legal-ai-startup-harvey-in-talks-to-raise-500-million-at-15-5-billion-valuation-after-revenue-surge/",
-  image: null,
+  image: "https://techstartups.com/wp-content/uploads/2026/03/Harvey-co-founders-Winston-Weinberg-and-Gabe-Pereyra.jpg",
   content: `## 概要
 法律業務に特化したAIスタートアップHarveyが、評価額155億ドルで5億ドル以上の資金調達に向けて交渉を進めていることが、2026年8月7日付のThe Information報道で明らかになった。実現すれば、2026年3月に付いた評価額110億ドルからわずか半年足らずで4割超の上昇となり、法律AI分野への投資家の期待の高さを改めて示す事例となる。
 
@@ -160,7 +160,7 @@ Harveyの評価額急上昇は、生成AIの中でも「業務特化型・垂直
     "タスク内容に応じてChromium比でCPU使用量を3.1〜3.8分の1、メモリ使用量を4.7〜7分の1に削減。開発着手からわずか12週間で実現し、「Browser Rendering」機能の一部としてベータ版を無料提供"
   ],
   url: "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/08/kitesurf.webp?resize=1200,640",
   content: `## 概要
 Cloudflareは2026年8月6日、AIエージェント専用に一から設計されたクラウドホスト型のブラウザ「Kitesurf」を発表した。対話型のチャットボットから、実際にタスクをこなす自律型エージェントへとAIの利用形態が移行する中、Webサイトの閲覧・操作を担う「ブラウザ」もまた、人間向けの汎用ブラウザとは異なる専用設計が必要だという発想に基づく製品だ。開発着手からわずか12週間というスピードで実現したという。
 
@@ -193,7 +193,7 @@ Cloudflareは、AIエージェントがWebサイトを巡回してタスクを�
     "コスト削減のためコーディング補助ツール「Copilot」の社内標準モデルを、比較的安価とされるOpenAIのGPT-5.6に切り替え"
   ],
   url: "https://www.techradar.com/pro/tokenmaxxing-is-not-what-we-are-optimizing-for-microsoft-tells-engineer-to-calm-down-on-ai-usage",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/ckn7d3d5BqnrKjcXenmBzk-970-80.jpg",
   content: `## 概要
 マイクロソフトのエンジニアリング担当上級副社長(EVP)Jay Parikh氏が社内エンジニア向けに送付したメールの内容が明らかになり、2026年7月から同社の各事業部門に「AIトークン予算目標」が設定され、エンジニア個人も自身のAI利用量を追跡できるようになったことが2026年8月4日までに報じられた。「トークン最大化(Tokenmaxxing)を目指しているのではない」という率直な表現が話題を呼んでいる。
 
@@ -225,7 +225,7 @@ Parikh氏は「私たちはトークンを減らすことを最適化してい�
     "うまくいっていない要因としては「AIを活用する業務範囲が不明確」「解決したい業務課題が不明確」「導入後の効果測定・改善ができていない」が上位に"
   ],
   url: "https://aismiley.co.jp/ai_news/ai-adoption-survey-2026/",
-  image: null,
+  image: "https://aismiley.co.jp/wp-content/uploads/2026/08/ai-adoption-survey_00.png",
   content: `## 概要
 AI製品比較サイトを運営するアイスマイリーは、MMD研究所と共同で実施した「2026年企業のAI導入・活用に関する調査」の結果を2026年8月7日に発表した。全国の会社員15,161人を対象とした予備調査によれば、勤務先でAIが組織として導入できている割合は26.8%にとどまる一方、実際に導入している企業に絞ると約7割が「うまくいっている」と回答しており、導入の裾野の狭さと、導入できた企業における一定の手応えという二つの側面が同時に浮かび上がった。
 
