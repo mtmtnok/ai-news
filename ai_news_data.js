@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "JPモルガンは、N3・CoWoSに生産が集中する各社のプロジェクトで2027年まで供給逼迫が続くと指摘、Microsoftの増産計画にも制約要因に"
   ],
   url: "https://www.globalbankingandfinance.com/microsoft-plans-unveil-new-maia-300-ai-chip-fall-information/",
-  image: null,
+  image: "https://www.globalbankingandfinance.com/i/cloud-897b7626-4e0d-4052-bceb-f5eb404ade85/width=1200,height=630,quality=80,format=auto,fit=cover/",
   content: `## 概要
 Microsoftが自社開発のAIアクセラレーターチップ「Maia 300」の量産体制を大幅に強化する方針であることが、2026年8月10日までの報道で明らかになった。台湾積体電路製造(TSMC)との間で30万個を超えるチップの生産委託について交渉を進めており、2027年の納入を目標にしている。最終的には100万個超の生産を視野に入れているとされ、NVIDIA製GPUへの依存を下げる狙いがある。
 
@@ -62,7 +62,7 @@ Microsoftが視野に入れている最終的な生産規模はさらに大き�
     "2026年の設備投資計画を600億〜640億ドルへ引き上げ。AI・HPC向け需要の強さを反映"
   ],
   url: "https://www.digitimes.com/news/a20260810VL209/tsmc-revenue-growth-2026-forecast.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20260810vl209_files/2_2b.jpg",
   content: `## 概要
 半導体ファウンドリ世界最大手の台湾積体電路製造(TSMC)は2026年8月10日、2026年7月の月次売上高を発表した。連結売上高は前年同月比44.7%増の467.58億台湾ドル(約145億ドル)となり、単月として過去最高を更新した。AI半導体・高性能コンピューティング(HPC)向け需要の強さが牽引役となっている。
 
@@ -96,7 +96,7 @@ TSMCの月次売上高が単月として過去最高を更新し続けている�
     "2026年1月からAnthropicのLong-Term Benefit Trust(長期利益信託)の受託者を務めており、その職を退いて新ポストに就任。Anthropic社長ダニエラ・アモデイ氏の直属となる"
   ],
   url: "https://www.edtechinnovationhub.com/news/anthropic-names-tino-cullar-its-first-chief-global-affairs-officer",
-  image: null,
+  image: "http://static1.squarespace.com/static/65a69e0c110a6977ead9741c/65a69e418ed92652df4c3413/6a7492bd7a43180905ade848/1786061753615/anthropic-ai-global-affairs.png.png?format=1500w",
   content: `## 概要
 AI開発企業Anthropicは2026年8月4日、AI政策・国際渉外を統括する新設の最高責任者ポスト「Chief Global Affairs Officer(最高渉外責任者)」に、マリアーノ=フロレンティーノ(ティノ)・クエヤール氏を起用すると発表した。クエヤール氏はカーネギー国際平和基金の前会長であり、カリフォルニア州最高裁判所の判事も務めた法律家。各国の首脳や政策責任者との関係構築を主導する。
 
@@ -130,7 +130,7 @@ Anthropicはこれまで米国防総省との訴訟や商務省による輸出�
     "NTTドコモビジネス・みずほ銀行・日清食品など大手企業への導入が進行中。新規投資家の各業界リーディングカンパニーとの戦略的パートナーシップも推進する方針"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000148.000063428.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/63428/148/63428-148-6f0f6fbf30ccf7f710dd15e220646090-2400x1256.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 国内スタートアップの株式会社ナレッジワークは2026年8月4日、営業業務に特化したAI基盤「セールスAIエージェントOS」の提供を開始したと発表した。これに合わせてシリーズCラウンドの1stクローズとして第三者割当増資による35億円の資金調達を実施し、リコージャパンやNTTドコモ・ベンチャーズ、三井住友銀行など10社の事業会社を新規投資家として迎えた。
 
@@ -163,7 +163,7 @@ Anthropicはこれまで米国防総省との訴訟や商務省による輸出�
     "Plus・Proユーザー向けには、リサーチ・文章作成・計画立案など迅速なタスクに適した上位モデル「GPT-5.6 Sol」へのアップグレードと推論深度調整スライダーを提供。2026年8月30日にDALL·E GPTを終了予定"
   ],
   url: "https://www.axios.com/2026/08/06/openai-chatgpt-upgrades-luna-free-paid",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年8月6日、ChatGPTの無料プラン(Free・Go)ユーザーに対して、テキストベースのチャットの利用回数制限を撤廃したと発表した。週間アクティブユーザー数が10億人を突破したことを受けた措置で、無料版の既定モデルを新たに開発した「GPT-5.6 Luna」に切り替える。有料プランのユーザー向けにも、上位モデルへのアップグレードなど複数の機能強化を同時に発表した。
 
@@ -196,7 +196,7 @@ OpenAIは2026年8月6日、ChatGPTの無料プラン(Free・Go)ユーザーに�
     "独立評価機関Trajectory Labsによる720件の間接プロンプトインジェクション攻撃テストでは、オートモード動作中のClaude Fable 5・Opus 5・Sonnet 5いずれも突破されず。分類器の追加トークン課金も廃止"
   ],
   url: "https://www.theregister.com/ai-and-ml/2026/08/10/claude-code-puts-auto-mode-in-the-drivers-seat/5285326",
-  image: null,
+  image: "https://image.theregister.com/5285396.jpg?imageId=5285396&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
   content: `## 概要
 Anthropicは2026年8月7日、AIコーディングエージェント「Claude Code」の「オートモード」機能について、Pro・Max・Teamプランの既定設定として2026年8月14日から適用すると発表した。従来は操作のたびに人手による承認確認を求める設計だったが、AIによる自律実行の安全性を検証したデータを公表し、デフォルト化に踏み切る根拠とした。
 
@@ -232,7 +232,7 @@ AIコーディングエージェントの「自律性」を巡っては、生産
     "日本語・日本のビジネス文脈への特化を打ち出し、OpenAI互換のインターフェースで利用可能。Sakana AIは同時期に大和証券グループとの資産コンサルティングAI基盤の共同開発を検証フェーズから本番開発フェーズへ移行させたことも明らかにしている"
   ],
   url: "https://pc.watch.impress.co.jp/docs/news/2130476.html",
-  image: null,
+  image: "https://pc.watch.impress.co.jp/img/pcw/list/2130/476/001.jpg",
   content: `## 概要
 国内AIスタートアップのSakana AIは2026年8月3日、日本語および日本のビジネス文脈に特化した大規模言語モデルAPI「Sakana Namazu」の提供を開始した。従来「Sakana Chat」に組み込まれていたモデル「Namazu」を刷新し、独立したAPIサービスとして切り出したもので、上位モデルに比べ大幅に低価格な料金設定が特徴だ。
 
@@ -268,7 +268,7 @@ Sakana AIが中国発のオープンウェイトモデルを土台に日本語�
     "情報技術利用促進課は廃止され、情報処理技術者試験制度・IT人材育成に関する事務は情報経済課へ移管"
   ],
   url: "https://www.projectdesign.jp/articles/news/cf53764e-dda0-4b83-a0f8-5edd590b86b1",
-  image: null,
+  image: "https://cdn.projectdesign.jp/uploads/2026/06/03/2NFL4njIaW1YkwDrG5Kdbrli71sePbBFpiaVHSau.png",
   content: `## 概要
 経済産業省は2026年7月31日、AI政策とロボット政策を一つの部局に集約する「経済産業省組織令の一部を改正する政令」を閣議決定した。公布・施行はともに2026年8月5日で、製造産業局が担ってきたロボット関連の事務を商務情報政策局へ移管し、新たに「情報処理システム開発・ロボット課」(通称：AI産業課)を設置した。
 
