@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "OpenAI向けに数千億ドル規模のデータセンター建設資金を保証する交渉が報じられた直後の発表。ジェンスン・フアンCEOは自社チップを「投資可能な資産」と表現"
   ],
   url: "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
-  image: null,
+  image: "https://iprsoftwaremedia.com/219/files/20224/6296531eb3aed3741918b6b5_DH1L4415-HDR-20220527-r5/DH1L4415-HDR-20220527-r5_dba29dde-5a9b-4ac8-bf58-a0b78da89547-prv.jpg?v=dba29dde-5a9b-4ac8-bf58-a0b78da89547",
   content: `## 概要
 NVIDIAは2026年8月10日、資産運用大手のApollo Global・BlackRock・Blackstone・Brookfield・Goldman Sachs・KKRの6社との提携を発表した。AIコンピュート基盤の構築を支援するための独立系ファイナンス・プラットフォームを共同で立ち上げ、時間をかけて5,000億ドル超の第三者資本を動員することを目指す。NVIDIA自らが投じる資金ではなく、外部資本をAI業界に呼び込むための「導管」を用意する形だ。
 
@@ -62,7 +62,7 @@ AIインフラ投資の資金源が、テック大手の自己資金・クラウ
     "長期的には自動運転・産業用ロボット・AI画像認識など「Physical AI」向け需要も視野。日本政府(赤沢経産相)は財政支援を検討する方針"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-10/sony-tsmc-to-invest-6-4-billion-in-joint-chip-plant-in-japan",
-  image: null,
+  image: "https://images.pexels.com/photos/6755078/pexels-photo-6755078.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Sonyグループと台湾積体電路製造(TSMC)は、2026年8月10日までの一連の報道で、次世代イメージセンサー用の半導体チップを共同生産するため、約1兆円(63億〜64億ドル)規模の投資を行う方針であることが明らかになった。両社は2026年5月の時点で日本国内に合弁会社を設立する計画を表明していたが、今回投資規模と生産拠点の詳細が具体化した。
 
@@ -96,7 +96,7 @@ Sonyグループと台湾積体電路製造(TSMC)は、2026年8月10日までの
     "背景には防衛省の委員会が4月にまとめた「国防AIの主権性」に関する提言。年末改定予定の国家安全保障戦略への反映を目指す。Sakana AIの他製品が海外基盤モデルを活用している点への異論も"
   ],
   url: "https://aisokuho.com/2026/08/06/us-ai-to-be-adopted-for-self-defense-forces-command-and-control/",
-  image: null,
+  image: "https://aisokuho.com/wp-content/uploads/2026/08/ab4abc3c-e99a-404b-878e-288245c1e59e-1.jpg",
   content: `## 概要
 複数の報道によれば、日本政府は自衛隊の部隊運用の中核を担う指揮統制システムに国産AIを導入する方針を固めた。自衛隊のシステムにAIが本格導入されるのはこれが初めてとされ、外国製・特に中国製のAIモデルを排除し「AIの主権性」を確保する姿勢を鮮明にしている。
 
@@ -133,7 +133,7 @@ Sonyグループと台湾積体電路製造(TSMC)は、2026年8月10日までの
     "AnthropicはGoogle Cloudとの契約で最大100万個のTPU・複数ギガワット規模の次世代容量を確保済みで、カスタムデータセンターに500億ドルを既にコミット、Googleが保証する350億ドルの融資枠も確保"
   ],
   url: "https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.html",
-  image: null,
+  image: "https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.thumb.800.480.png?ck=1786332039",
   content: `## 概要
 Anthropicは2026年8月10日、資産運用大手のMacquarie Asset Managementおよびシンガポール政府系ファンドGICとの戦略的提携を発表した。両社との提携により、AIデータセンター施設の開発・運営・リースを専門に手掛ける新たなプラットフォーム「Theseus Infrastructure」を立ち上げる。
 
@@ -169,7 +169,7 @@ AIラボが自ら電力価格上昇リスクを引き受けるという条項は
     "Intel株は年初来でほぼ3倍に上昇し約101.65ドルに到達。一方で増資発表当日は希薄化懸念から株価が3%超下落。増資は8月12日に完了予定"
   ],
   url: "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108136026-1745498530408-gettyimages-2211018309-INTEL_EARNS.jpeg?v=1758219071&w=1920&h=1080",
   content: `## 概要
 米半導体大手Intelは2026年8月10日、普通株式150億ドル規模の公募増資を発表した。AIコンピューティング需要の高まりを受けた株価上昇を追い風に、その後同日中に増資規模を1株95ドル・総額200億ドルへ拡大した。
 
@@ -203,7 +203,7 @@ Intelにとって今回の増資は、巨額の先行投資を要するファウ
     "李在明大統領が6月に打ち出した半導体メガプロジェクト構想の一環。サムスン・SKハイニックスとサプライヤー・地方自治体を合わせた投資総額は5,760億ドル超に達する見通し"
   ],
   url: "https://finance.yahoo.com/news/south-koreas-lee-wants-military-061609709.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/5348E18AADF82EB46EB7DA67660D766AA3BF3296E49439AF844FAB8ECC25CD38/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F38f0e768c459e2c0ce5b80bd80e83bcc",
   content: `## 概要
 韓国大統領府は2026年8月10日(月)、姜勲植大統領室長を通じて、半導体材料・部品・製造装置・ファブレス(設計専業)企業を支援するための5兆ウォン(約35億2,000万ドル、日本円で約3,500億円)規模の新基金を創設すると発表した。
 
@@ -236,7 +236,7 @@ Intelにとって今回の増資は、巨額の先行投資を要するファウ
     "1年以上クローズドモデル路線を重視してきたMetaが、企業がデータを手元に置き自社インフラを制御したいというニーズを受けオープンウェイトへ回帰"
   ],
   url: "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-2173579243.jpg?resize=1200,799",
   content: `## 概要
 Metaは2026年8月10日、同社のフラッグシップモデル「Muse Spark 1.2」を蒸留した300億パラメータの軽量モデル「Muse Glimmer」を発表した。Apache 2.0ライセンスの下で重みを公開し、開発者が自由にダウンロード・改変できるオープンウェイトモデルとして提供する。
 
@@ -269,7 +269,7 @@ Muse Glimmerの最大の特徴は、コンシューマー向けハードウェ�
     "悪用リスク低減のため、9月1日から個人のDaybreakアカウント全てにハードウェアセキュリティキーを必須化"
   ],
   url: "https://cybersecuritynews.com/openai-expands-daybreak-cyber/",
-  image: null,
+  image: "http://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Expands-Daybreak-Cyber.webp",
   content: `## 概要
 OpenAIは2026年8月10日、フロンティアAIをサイバー防御者に提供するプログラム「Daybreak」を拡張すると発表した。ブログ記事「Expanding Daybreak as the Cyber Defense Window Narrows(サイバー防御の猶予が狭まる中でのDaybreak拡張)」の中で、プログラムを2つのアクセス階層に再編するとともに、サイバーセキュリティに特化した新モデル「GPT-5.6-Cyber」を投入した。
 
