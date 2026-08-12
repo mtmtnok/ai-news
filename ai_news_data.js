@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "顧客基盤はCiti・Mercedes-Benz・Goldman Sachs・Dellなど大企業に加え、Exa・Modalなどのスタートアップにも拡大。社内コードの9割以上をDevinが記述"
   ],
   url: "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/05/Scott-wu-headshot-e1780070238342.png?resize=1200,1004",
   content: `## 概要
 AIコーディングエージェント「Devin」を手がけるCognitionが、評価額400億ドルでの新規資金調達に向けて投資家との交渉をすでに始めていると2026年8月12日に報じられた。今年5月に評価額260億ドルで10億ドルを調達したばかりで、そこからわずか3か月足らずでの大幅な評価額上昇となる。
 
@@ -60,7 +60,7 @@ AIコーディングエージェント市場の評価額インフレは、単な
     "発見はELLIS Institute Tübingen・Max Planck Institute・MATS Research・Snykの共同研究チームによるもの。Black Hat 2026でもAnthropic・Google・OpenAIのコーディングエージェントの重大な欠陥が別途報告されている"
   ],
   url: "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-  image: null,
+  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1600/ai-models.jpg",
   content: `## 概要
 ELLIS Institute Tübingen・Max Planck Institute・MATS Research・セキュリティ企業Snykの研究者らが2026年8月11〜12日、OpenAI・Anthropic・Googleの主要3社が提供する推論APIに共通するアーキテクチャ上の欠陥を発見したと公表した。各社が非公開としてきたモデルの「思考過程(チェーン・オブ・ソート)」を、暗号化されたまま別のモデルに転用することで平文化できるというもので、APIキーやパスワードを含む機密情報の流出につながる可能性があるという。
 
@@ -96,7 +96,7 @@ GPT-5.6・Claude Opus 4.8・Gemini 3といった現代の推論モデルは、�
     "SK hynixは賞与の一部を自社株で支給する新方式を巡り労使交渉が5回にわたり難航。労組は生産・技術職を統合した統一労組結成の動きを見せ、HBM4増産計画への影響が懸念される"
   ],
   url: "https://www.trendforce.com/news/2026/08/10/news-samsungs-hbm4-yield-reportedly-hits-80-as-race-to-supply-vera-rubin-heats-up-sk-hynix-labor-talks-add-a-twist/",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2026/02/12153116/Samsung-HBM4-2-624x446.png",
   content: `## 概要
 Samsung Electronicsが次世代AIメモリ「HBM4」の歩留まりを80%まで引き上げたと2026年8月10日までに報じられた。2026年2月の量産開始時点では60%を下回っていたことを踏まえると大幅な改善で、当初は2026年末を目標としていた80%到達を前倒しで実現した形だ。NVIDIAの次世代GPU「Vera Rubin」向け供給を巡り、首位を走るSK hynixとの競争が一段と激しさを増している。
 
@@ -130,7 +130,7 @@ HBM市場におけるSamsungとSK hynixの攻防は、AI半導体サプライチ
     "Yelpがレビュー・写真データをOpenAIにライセンス提供する契約を結んでから3週間足らずでの機能追加。ChatGPTを「発見」から「行動完結」のツールへ広げる狙い"
   ],
   url: "https://www.androidauthority.com/chatgpt-restaurant-reservations-and-waitlists-3696712/",
-  image: null,
+  image: "https://www.androidauthority.com/wp-content/uploads/2025/02/ChatGPT-meal-plan-scaled.jpg",
   content: `## 概要
 OpenAIは2026年8月10日、ChatGPT上でレストランの予約や順番待ち登録が完結できる新機能を発表した。予約プラットフォーム大手のYelp・OpenTable・Resyと連携し、チャットを離れることなく日時・人数・希望条件を伝えるだけで空き状況を確認し、そのまま予約まで進められる。
 
@@ -164,7 +164,7 @@ ChatGPTがレストラン予約という具体的な日常行動に踏み込ん�
     "枠組みの詳細(テスト方法・評価指標・結果を公開するか否か)はホワイトハウスからまだ明らかにされておらず、あくまで自主的(voluntary)な参加とされる"
   ],
   url: "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108329722-1782971099939-gettyimages-2281424331-AFP_B7DV3ND.jpeg?v=1785773751&w=1920&h=1080",
   content: `## 概要
 米ホワイトハウスは2026年8月4日、OpenAI・Google・Meta・Anthropicの主要AI4社の担当者を招き、先端AIモデルのサイバー攻撃能力を政府が事前に評価する自主的な安全性テストの新枠組みについて協議した。AnthropicとOpenAIが自社のAIツールが他社システムへの侵入に関与していたことを相次いで公表した直後というタイミングでの開催となった。
 
@@ -198,7 +198,7 @@ AI企業自身が「自社モデルが実際にハッキングに使われた」
     "独自トークナイザーによりコスト効率を改善。利用には申請が必要で、さくらのAI Engineの無料プランでは利用できない"
   ],
   url: "https://cloud.sakura.ad.jp/news/2026/08/04/aiengine-plamo-3-0-prime/",
-  image: null,
+  image: "https://cloud.sakura.ad.jp/news/wp-content/uploads/2026/07/4f4dce0dd3a8b4a7654a745ec29d59d6.jpg",
   content: `## 概要
 Preferred Networks(PFN)が2026年6月22日に正式リリースした国産フルスクラッチの大規模言語モデル「PLaMo 3.0 Prime」が、さくらインターネットの推論API基盤「さくらのAI Engine」上で2026年8月4日から提供開始された。旧世代の「PLaMo 2.0 Prime」から性能・仕様を大幅に刷新した最新フラッグシップモデルで、国産クラウド上での商用利用の選択肢が広がった。
 
