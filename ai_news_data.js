@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "Optalysysとの光コンピューティング統合は2024年10月から進行中で、演算速度を最大4桁(理論上1万倍程度)高速化できる可能性が示されている"
   ],
   url: "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Untitled_design_10_p3wN1dg.width-1300.png",
   content: `## 概要
 Googleは2026年8月15日、完全準同型暗号(Fully Homomorphic Encryption、FHE)向けの汎用オープンソースコンパイラ・ツールチェーン「HEIR」(Homomorphic Encryption Intermediate Representation)を発表した。HEIRはコンパイラ基盤MLIRをベースに構築されており、既存の学習済みAIモデルを、サーバー側が入力内容を一切見ることなく暗号化されたデータのまま推論を実行できる形式に自動変換できる点が特徴だ。GoogleはブログとGoogle Developers Blogの2本の記事で発表し、公式サイトheir.devとGitHubリポジトリgoogle/heirでコードを公開している。
 
@@ -68,7 +68,7 @@ FHEは長年「理論的には強力だが実用には遅すぎる」とされ�
     "先行導入顧客はCoreWeave、Lambda、Oracle(Oracle Cloud Infrastructure)の3社。次世代GPU基盤「Vera Rubin」の量産出荷時期と歩調を揃える"
   ],
   url: "https://www.storagereview.com/news/nvidia-spectrum-x-ethernet-photonics-enters-full-production-with-4x-fewer-lasers-and-a-five-vendor-cpo-supply-chain",
-  image: null,
+  image: "https://www.storagereview.com/wp-content/uploads/2026/08/StorageReview-NVIDIA-Spectrum-X-Photonics-racked-switches-fiber.jpg",
   content: `## 概要
 NVIDIAは2026年8月14日から15日にかけて、共同パッケージ光学(co-packaged optics、CPO)技術を採用した初のEthernetスイッチ「Spectrum-X Ethernet Photonics」を完全量産段階へ移行させたと明らかにした。これまでCoreWeave、Lambda、Oracleといった限定顧客への先行提供にとどまっていた同製品は、今回の発表により本格的な商用出荷フェーズに入る。従来の光トランシーバー方式のネットワークと比較して、レーザー数を4分の1、消費電力を5分の1に削減しつつ、信頼性を10倍に高めたとされ、GPUクラスタを数百万台規模までスケールさせることを目指す。
 
@@ -109,7 +109,7 @@ CoreWeave、Lambda、Oracleといったクラウド・GPUレンタル事業者�
     "安全性審査を理由に重み公開を発表から約2週間先送り、GLMシリーズで初めて安全性審査が公開スケジュールに影響したモデルとなった"
   ],
   url: "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国の北京発AIスタートアップZ.ai(智譜、旧Zhipu AI)は2026年8月14日、大規模言語モデルの最新版「GLM-5.3」を発表した。最大の特徴は、ベースモデルを前作「GLM-5.2」から一切変更せず、後段学習(post-training)のみを強化することでコーディング性能とサイバーセキュリティ関連の能力を大幅に引き上げた点にある。Z.aiは自社ブログで「GLM-5.3のために行ったのはpost-trainingのスケーリングだけだ」と説明しており、事前学習(pretraining)は一切やり直していないという。重みは安全性評価と対策(safety hardening)を経たうえで、発表から2週間以内をめどにHugging Faceで公開される予定だ。
 
@@ -152,7 +152,7 @@ GLM-5.3の最大の意義は、ベースモデルの再学習なしにpost-train
     "Gemini 3.6 Flashからわずか3週間というスピードリリース。モデル規模拡大でなくアルゴリズム改良による性能向上とされる"
   ],
   url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-1300.png",
   content: `## 概要
 Googleは2026年8月13日、コーディングとAIエージェント向けに最適化した新モデル「Gemini 3.7 Flash」を発表した。7月21日にリリースされたばかりのGemini 3.6 Flashからわずか3週間という異例の速さでの後継投入となる。長期タスク型のソフトウェア工学ベンチマーク「DeepSWE v1.1」でスコアが49.0%から65.3%へ急伸し、Anthropicの「Claude Sonnet 5」(54.0%)を上回ると主張している点が最大の焦点だ。価格面でも入力100万トークン0.75ドル、出力3.75ドルという導入価格を設定し、前世代のほぼ半額という積極的な価格戦略を打ち出した。
 
@@ -193,7 +193,7 @@ Gemini 3.7 Flashの投入は、Googleが低コストモデル層においても�
     "大規模GPU基盤の逼迫や内モンゴルでの新データセンター建設などインフラ投資負担が値上げの背景"
   ],
   url: "https://fortune.com/2026/08/13/deepseek-increases-prices-for-ai-services-by-multiple-times/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2285600075-e1786632328360.jpg?resize=1200,600",
   content: `## 概要
 中国の生成AI企業DeepSeekは2026年8月13日、開発者向けAPI「V4-Flash」「V4-Pro」の利用料金を大幅に改定すると発表した。新料金は8月16日16時(UTC、日本時間8月17日午前1時)から適用され、モデル・トークン種別・利用時間帯の組み合わせによって値上げ幅は50%から1100%超に達する。同時にピーク/オフピークの2段階料金制を導入し、需要の平準化を図る。
 
@@ -236,7 +236,7 @@ DeepSeekはこれまで極端な低価格を武器に欧米の大手AI企業か�
     "EUの「AI生成コンテンツの透明性に関する行動規範」には約190団体、提供者向けセクションには82団体が署名しており、Anthropicもその一員"
   ],
   url: "https://www.itmedia.co.jp/news/article/2608/12/2000000497/",
-  image: null,
+  image: "https://www.itmedia.co.jp/news/article/ogp/2608/12/2000000497/10002373/2048",
   content: `## 概要
 Anthropicは2026年8月11日前後、AIアシスタント「Claude」が生成するテキストに人間には知覚できない電子透かしを組み込み、画像などのファイル出力にはC2PA準拠の署名付き来歴メタデータを付与すると発表した。これはEUのAI法(AI Act)第50条に基づく透明性規約(Code of Practice)への署名を受けた対応で、2026年8月2日以降にリリースされる新モデルはローンチ時点から適用され、適用範囲は日本を含む全世界に及ぶ。既存モデルについても今後順次対応していく方針という。
 
@@ -280,7 +280,7 @@ Anthropicは2026年8月11日前後、AIアシスタント「Claude」が生成�
     "本発表はGoogle独自の『月間アクティブユーザー』の数値であり、OpenAIが2026年7月31日に発表した『ChatGPTの週間アクティブユーザー10億人突破』とは指標・発表主体が異なる別のマイルストーン(本サイト既報)"
   ],
   url: "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
   content: `## 概要
 Google CEO(最高経営責任者)のサンダー・ピチャイ氏は2026年8月11日、自身のX(旧Twitter)アカウントで、AIアシスタントアプリ「Gemini」の月間アクティブユーザー(MAU)数が10億人を突破したと発表した。2024年2月にチャットボット「Bard」から改名されて以降、約2.5年というスピードでの到達となり、ピチャイ氏はこれを「Google史上最速の成長を遂げた製品」であり、Googleとして14番目に10億ユーザーを突破した製品になったと述べた。なお、この数値はGoogleが独自に集計・発表した「Geminiアプリの月間アクティブユーザー数」であり、OpenAIが2026年7月31日にCFO(最高財務責任者)のサラ・フライアー氏を通じて発表した「ChatGPTの週間アクティブユーザー10億人突破」(本サイト既報)とは、算出基準(月間か週間か)も発表主体も異なる別個のマイルストーンである。
 
@@ -321,7 +321,7 @@ GeminiアプリのMAUが10億人を突破したことは、生成AIチャット�
     "業務執行はAIが担う一方、最終評価・意思決定・品質ガバナンスの統制権限は人間が保持し、「AI統合管理コックピット」でAIの稼働状況をリアルタイムに可視化"
   ],
   url: "https://jpn.nec.com/press/202608/20260810_01.html",
-  image: null,
+  image: "https://jpn.nec.com/press/202608/images/1001_ogp.jpg",
   content: `## 概要
 NECは2026年8月10日、部門長から一般スタッフまで全ての役職をAIエージェントが担う社内組織「コーポレートAI・Workforce部門」を、8月1日付で新設したと発表した。同社はこの取り組みを「AIネイティブカンパニーへの変革に向け、国内の大手企業では初めて」の試みと位置づけている。4階層・17体の名前付きAIエージェントが実際の業務を自律的に遂行する一方、最終的な意思決定とガバナンスの統制権限はあくまで人間が保持する構成になっている。
 
