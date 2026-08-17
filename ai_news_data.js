@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "StripeはOpenRouterと2024年10月から決済・税務・不正検知で提携関係にあり、AIエージェント経済の「決済・計測・課金レイヤー」を掌握する狙い"
   ],
   url: "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
   content: `## 概要
 Stripeは2026年8月16日までに、AIモデルの切り替え・ルーティングサービスを手がけるOpenRouterを70億ドル超で買収することで合意したと、Bloombergなど複数メディアが報じた。OpenRouterが2026年5月のシリーズBラウンドで付けた評価額13億ドルから5.4倍のプレミアムでの買収となり、決済大手StripeがAIインフラの中核レイヤーへ本格進出する動きとして注目されている。
 
@@ -61,7 +61,7 @@ AIモデルの多様化が進むほど、開発者は複数モデルを併用し
     "発表を受けMicron株は4%超上昇。自社製品ロードマップへの早期インサイト獲得と有望スタートアップとの長期関係構築が狙い"
   ],
   url: "https://www.globenewswire.com/news-release/2026/08/13/3344886/14450/en/micron-ventures-launches-250-million-fund-to-invest-in-the-next-generation-of-ai.html",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 半導体大手Micron Technologyのベンチャー投資部門Micron Venturesは2026年8月13日、AI技術スタック全体に投資する2.5億ドル規模の新ファンド「Paradigm Fund」の設立を発表した。Micron Venturesにとって3本目、かつ過去最大規模のファンドとなり、これにより同部門の累計運用資金は5.5億ドルに達する。
 
@@ -93,7 +93,7 @@ Paradigm Fundは、AIモデルアーキテクチャ、計算インフラ、企�
     "対象はウェブ版のPlus・Pro・Business・Enterprise・Edu・Healthcareユーザー。「マイドライブ」と共有ファイルが対象で、共有ドライブは未対応。モバイル対応は今後"
   ],
   url: "https://9to5mac.com/2026/08/14/chatgpt-subscribers-can-now-open-and-edit-google-drive-files-from-inside-the-chat/",
-  image: null,
+  image: "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/08/chatgpt-googledive.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
   content: `## 概要
 OpenAIは2026年8月13日から、ChatGPT上でGoogle DriveのGoogleドキュメント・スプレッドシート・スライドをチャットと並べて開き、その場で編集できる機能の展開を開始した。ファイルを一度ダウンロードして編集し、再度アップロードするという従来の往復作業を省き、ChatGPTとGoogle Driveのファイルをシームレスに行き来できるようにする。
 
@@ -126,7 +126,7 @@ OpenAIは2026年8月13日から、ChatGPT上でGoogle DriveのGoogleドキュメ
     "5月のIPOで62億ドルを調達済み、現金等の手元流動性は86億ドル、通期売上ガイダンスは8.8億〜8.9億ドル"
   ],
   url: "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108326243-1782316769380-gettyimages-2275658222-CEREBRAS_IPO.jpeg?v=1782316834&w=1920&h=1080",
   content: `## 概要
 AI専用チップメーカーのCerebras Systemsは2026年8月12日、2026年第2四半期の決算を発表した。高速推論を提供するクラウド事業の売上が前年同期比281%増と急伸し、2026年5月のIPO後初となる本格的な四半期決算で、生成AI推論需要の強さを改めて裏付ける内容となった。
 
@@ -159,7 +159,7 @@ NVIDIA一強とされてきたAI向けチップ市場において、Cerebrasの�
     "年内に改定する安全保障関連3文書に方針を明記する見通し"
   ],
   url: "https://www.jiji.com/jc/article?k=2026081000706&g=pol",
-  image: null,
+  image: "https://www.jiji.com/news2/kiji_photos/202608/20260810at75S_o.jpg",
   content: `## 概要
 日本政府は自衛隊の指揮統制システムに国産AIを導入する検討に入ったと、2026年8月10日に時事通信が報じた。各国が「新しい戦い方」への対応を急ぐなか、日本としても「AI主権」を確保しつつ、自衛隊指揮官の判断の迅速化・精密化につなげる狙いがあるとされる。
 
@@ -192,7 +192,7 @@ NVIDIA一強とされてきたAI向けチップ市場において、Cerebrasの�
     "第3四半期の売上高見通しは127億〜133億ドル(前年比約41%増)と市場予想を上回るガイダンス"
   ],
   url: "https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108302225-1777987368584-gettyimages-2254257193-AFP_89QD2TJ.jpeg?v=1777987486&w=1920&h=1080",
   content: `## 概要
 AMDは2026年8月4日、2026年第2四半期決算を発表した。売上高は前年同期比50%増の115億ドルで四半期として過去最高を更新し、旺盛なAIインフラ需要を追い風にデータセンター事業が牽引する形となった。
 
@@ -227,7 +227,7 @@ AMDのデータセンター事業が全社売上の6割近くを占めるまで�
     "AI処理におけるメモリ帯域のボトルネック解消が両社共通のテーマで、Open Compute Projectとしての規格化も視野"
   ],
   url: "https://www.techtimes.com/articles/323062/20260804/samsungs-zhbm-places-memory-top-ai-chips-bv-nand-shatters-400-layer-barrier.htm",
-  image: null,
+  image: "https://d.techtimes.com/en/full/471380/samsungs-zhbm-places-memory-top-ai-chips-bv-nand-shatters-400-layer-barrier.jpg",
   content: `## 概要
 Samsung ElectronicsとSK hynixは、2026年8月4日から6日にかけて開催されたメモリ・ストレージ業界のカンファレンス「FMS 2026」で、AI処理におけるメモリのボトルネック解消に向けた新たなアーキテクチャをそれぞれ発表した。Samsungは次世代HBM技術「zHBM」を、SK hynixはSanDiskと共同開発した新規格「HBF」を披露し、両社の技術的な方向性の違いが浮き彫りになった。
 
@@ -261,7 +261,7 @@ HBM市場でSK hynix・Samsung・Micronの3社による争奪戦が続くなか�
     "10件全ての解決に要したトークンコストはGPT-5.6 Sol API料金換算で約2,000ドル。Astra自体の公開時期・価格は未定"
   ],
   url: "https://siliconangle.com/2026/08/02/openais-astra-solves-10-long-open-math-problems-publishes-proofs/",
-  image: null,
+  image: "https://images.siliconangle.com/blogs.dir/1/files/2026/08/openaiatramaths.png",
   content: `## 概要
 OpenAIは2026年8月2日、開発中の次世代モデルファミリー「Astra」の内部版が、数学および理論計算機科学の分野で少なくとも10年以上、多くはそれ以上にわたって未解決だった問題10件を解いたと発表した。すべての証明はLean 4で機械検証されており、GitHub上にApache 2.0ライセンスで公開されている。
 
