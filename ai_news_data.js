@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "発表直後にRiot株は20%超急伸も、その後上昇幅の大半を返す展開に"
   ],
   url: "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108347847-1786455062599-gettyimages-2227552730-img_1125.jpeg?v=1786455079&w=1920&h=1080",
   content: `## 概要
 Anthropicとビットコインマイニング大手Riot Platformsが2026年8月11日、20年間で91億ドル規模のコンピュート供給契約を締結したと発表した。契約延長も含めれば最大161億ドル規模に達する可能性があり、AI企業が電力と土地を持つ仮想通貨マイニング企業へ接近する新たな動きとして注目されている。
 
@@ -63,7 +63,7 @@ Anthropicにとっては、Claudeの需要拡大に対応するための計算�
     "2026年3月の122億ドル増資と同一評価額での取引となり、非上場企業として高評価額を連続確認"
   ],
   url: "https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108341852-1785344982031-108341852-17853449352026-07-29t170337z_1106617197_rc2tnmac1dmv_rtrmadp_0_usa-congress-openai.jpg?v=1785344994&w=1920&h=1080",
   content: `## 概要
 OpenAIは2026年8月10日までに、現従業員・元従業員が保有する自社株式を対象とした約73億ドル規模のテンダーオファー(株式買い取り)を完了したと報じられた。買い取り価格は2026年3月の増資ラウンドと同じ評価額8,520億ドルを基準としており、外部投資家からの新規調達ではなく自己資金による買い戻しという点が注目されている。
 
@@ -98,7 +98,7 @@ OpenAIは2026年8月10日までに、現従業員・元従業員が保有する�
     "SamsungとSK hynixは合計2兆ドル超の設備投資を表明、中長期的な供給拡大でMicronの価格交渉力に影響も"
   ],
   url: "https://www.fool.com/investing/2026/08/09/sk-hynix-and-samsung-just-sent-a-major-warning-to/",
-  image: null,
+  image: "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F882387%2Fmicron-technology-building-with-micon-logo-on-sign-and-building_micron.jpg&w=1200&op=resize",
   content: `## 概要
 SK hynixとSamsung Electronicsの2026年第2四半期決算で明らかになったDRAM値上げ幅が、アナリストの事前予想を下回ったことが分かった。両社の実績は、来月決算を控えるMicronの価格動向にとっても「警告シグナル」になるとの見方が市場で広がっている。
 
@@ -133,7 +133,7 @@ SK hynixは前四半期比で約30%のDRAM値上げを実施したが、Goldman 
     "5月末には中国資本が関与する国外企業への出荷差し止め措置も講じられ、規制範囲は段階的に拡大"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米商務省産業安全保障局(BIS)が、中国のAI企業が海外(オフショア)のクラウド計算資源をレンタルする形でNvidia製AIチップへアクセスしている実態の精査を始めたと報じられた。中国勢による相次ぐAI技術面での進展を受け、既存の対中輸出規制に「抜け穴」がないか改めて検証する動きとみられる。
 
@@ -167,7 +167,7 @@ Nvidia製チップを巡る対中輸出規制は2026年に入ってからも二�
     "移行後はAssistantに戻す選択肢はなく、Geminiの利用が事実上前提に"
   ],
   url: "https://www.businesstoday.in/technology/news/story/google-assistant-to-be-replaced-by-gemini-starting-september-on-android-and-wearos-547570-2026-08-06",
-  image: null,
+  image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202608/6a742206c198f-google-assistant-to-be-replaced-by-gemini-065617126-16x9.jpg",
   content: `## 概要
 Googleは、Android端末上のGoogle Assistantを2026年9月4日付で正式に終了し、AIアシスタント機能をGeminiへ一本化すると発表した。数週間かけて世界の全ユーザー・全端末へ順次展開される見通しで、対話型AIへの移行が音声アシスタントの分野でも本格化する。
 
@@ -202,7 +202,7 @@ Google Assistantは2016年の登場以来、Androidエコシステムの音声�
     "価格は500万円(税別)から、2026年度内に100台量産・累計1万時間の現場稼働を目標"
   ],
   url: "https://www.itmedia.co.jp/aiplus/article/2608/05/2000000401/",
-  image: null,
+  image: "https://www.itmedia.co.jp/aiplus/article/ogp/2608/05/2000000401/10001963/2048",
   content: `## 概要
 AIエージェント開発のZEALSは2026年8月5日、日本の屋内環境向けに開発したコンパクトヒューマノイドロボット「D1」を発表した。身長約129.3cm・本体価格500万円からで、医療・介護、製造・物流、ホテルなどの現場での稼働を想定しており、2026年度内に100台の量産を目指す。
 
@@ -236,7 +236,7 @@ D1の登場は、人手不足が深刻な日本の医療・介護・サービス
     "「AIだと信じられた」判断には内容の質にかかわらず同意率が系統的に低下する反AIバイアスを確認"
   ],
   url: "https://deepmind.google/research/publications/118955/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Google DeepMindは2026年7月28日、人間とAIそれぞれが下した道徳的判断への評価を比較する「モラル・チューリングテスト」研究の結果を公表した。回答の出所(人間かAIか)を伏せた場合、被験者はAI由来の判断を人間由来のものと見分けることに一定の精度で成功する一方、AI由来だと分かった判断には系統的に同意しにくくなる「反AIバイアス」が確認されたという。
 
