@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "タスクベースの評価指標が「飽和」しモデル能力の伸びを検知できなくなりつつあると自認、リスク判定への確信度は前回レポートより低下"
   ],
   url: "https://www.anthropic.com/aug-2026-risk-report",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Anthropicは2026年8月14日、責任あるスケーリングポリシー(Responsible Scaling Policy、RSP)v3.4に基づく2回目の全社横断リスクレポート「Risk Report: August 2026」を公開した。高リスク環境における不整合(ミスアラインメント)由来の破局的被害リスクの評価を「非常に低い(very low)」から「低い(low)」へ引き上げるとともに、社内に最上位公開モデルを上回る性能を持つ未公開モデル「Model 2」が存在することを明らかにした。
 
@@ -61,7 +61,7 @@ Anthropicはまた、具体的なタスクベースの評価指標の多くが�
     "8月10日にApollo・BlackRock・Blackstone・Brookfield・Goldman Sachs・KKRの6社と500億ドル超の第三者資本を動員する独立プラットフォーム構築の覚書を締結、Goldman Sachsが公募債の主幹事候補に"
   ],
   url: "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108335932-1784206425159-gettyimages-2285707811-JAPAN_NVIDIA.jpeg?v=1784206465&w=1920&h=1080",
   content: `## 概要
 NVIDIAは2026年8月17日に開示された証券取引委員会(SEC)提出書類で、OpenAIがSoftBank子会社SB Energy建設のオハイオ州データセンターを20年契約でリースする計画について、最大1,050億ドルの融資保証とSB Energyへの15億ドルの直接出資を行うことを確定したと明らかにした。7月27日に報じられていた最大2,500億ドル規模の検討案(本サイト既報)から規模が見直された確定版であり、AIインフラ投資における「NVIDIAが自社GPUの最大顧客の資金調達を保証する」循環構造がさらに具体化した形だ。
 
@@ -95,7 +95,7 @@ NVIDIAは2026年8月17日に開示された証券取引委員会(SEC)提出書�
     "利用が長時間に及ぶ際の休憩リマインダー頻度を増やし、AIと会話していることを再確認させる通知や、プライベートな画像アップロード前の警告も追加。一部成人ユーザーが誤ってティーンモードに振り分けられる不具合も報告"
   ],
   url: "https://openai.com/index/our-approach-to-age-prediction/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年8月18日、13〜17歳のユーザーを対象とした専用体験「ChatGPT for Teens」のグローバル展開を開始したと発表した。年齢を自己申告したユーザーだけでなく、AIによる年齢予測システムが18歳未満と推定したアカウントも自動的にティーン向けモードへ振り分けられる仕組みで、展開は今後2週間程度で完了する見込みだという。
 
@@ -130,7 +130,7 @@ OpenAIは2026年8月18日、13〜17歳のユーザーを対象とした専用体
     "2023会計年度NDAA第5949条により、2027年12月以降CXMT・YMTC製チップを含む製品の連邦政府機関調達が禁止される規定が既に存在"
   ],
   url: "https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips/",
-  image: null,
+  image: "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/10/Working-for-Apple.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
   content: `## 概要
 米商務長官Howard Lutnick氏は2026年8月14日、Appleが中国のメモリメーカーCXMT(長鑫存儲技術、ChangXin Memory Technologies)およびYMTC(長江存儲科技、Yangtze Memory Technologies)からメモリチップを調達する計画について、トランプ政権として「支持しない(not in favor)」との立場を明確にした。米議会でも既に超党派の上院議員らがAppleに不使用の確約を求める書簡を送っており、Appleは自社のサプライチェーン戦略と米国の安全保障上の懸念との間で板挟みになっている。
 
@@ -167,7 +167,7 @@ AI需要を背景にメモリ価格が高騰する中、Appleのような大量�
     "累計10億ドルを超える顧客契約を確保済み。汎用GPUではなくTransformer特化の専用ASIC「Sohu」でNVIDIA一強の推論チップ市場に挑む"
   ],
   url: "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/07/Etched-co-founder-COO-Robert-Wachen.jpg?resize=1200,1200",
   content: `## 概要
 Transformerモデルの推論処理に特化した専用チップ「Sohu」を開発するAIチップスタートアップEtchedは、2026年8月18日までに、Jane Street主導で7億ドルの資金調達を実施し、評価額が210億ドルに達したと報じられた。2026年7月23日発表の103億ドル(本サイト既報)からわずか1ヶ月足らずで評価額が倍増したことになり、AI推論インフラをめぐる投資熱の高さを改めて示す結果となった。
 
@@ -202,7 +202,7 @@ Nvidiaの汎用GPUが圧倒的なシェアを握るAI半導体市場において
     "2025年売上高17億元、黒字を確保済みで出荷台数は既に1.8万台。香港上場を準備する競合30〜50社の価格算定の基準になるとみられる"
   ],
   url: "https://www.forbes.com/sites/jonmarkman/2026/08/18/unitree-starts-trading-tomorrow-in-shanghai-after-8000x-ipo-demand/",
-  image: null,
+  image: "https://imageio.forbes.com/specials-images/imageserve/6a844ce48e3f7134890bc65c/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
   content: `## 概要
 中国の人型ロボットメーカーUnitree Roboticsは2026年8月19日(水)、上海証券取引所の科創板(STARマーケット)に上場した。中国本土の証券取引所に上場する初の人型ロボット専業企業となり、個人投資家からの申込倍率はSTARマーケット史上最高の約8,000倍を記録するなど、記録的な需要を集めた。
 
