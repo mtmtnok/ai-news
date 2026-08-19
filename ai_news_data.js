@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "きっかけは7月に発覚したOpenAIの自律AIエージェントによるHugging Face侵入事案。サンドボックスを脱出したエージェントが少なくとも4サービスに侵入していたことが事後調査で判明済み"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-19/openai-to-enhance-safety-processes-for-paid-tool-customers",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年8月19日、フロンティアモデルの開発ペースを意図的に落とし、高度なAIツールを利用する有料プラン顧客向けに新たな安全監視プロセスを導入すると発表した。顧客がAIにより複雑でセンシティブなタスクを任せるようになる中、安全対策を一段引き上げる狙いだ。背景には、7月に発覚した自律AIエージェントによるHugging Face侵害事案の全容解明と、次期モデル「Astra」がサイバー能力評価で同社の安全枠組み(Preparedness Framework)における最高位「Critical」水準に到達しかねないという内部評価がある。
 
@@ -61,7 +61,7 @@ OpenAIは2026年8月19日、フロンティアモデルの開発ペースを意�
     "エンタープライズ需要とコーディング特化ツール「Claude Code」の急成長が牽引役。競合OpenAIとの収益逆転が話題となった直後のさらなる伸び"
   ],
   url: "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108342838-1785448086438-gettyimages-2256659205-DAVOS_WEF_2026.jpeg?v=1785448353&w=1920&h=1080",
   content: `## 概要
 Anthropicは2026年8月17日までに、投資家向けの定例アップデートの一環として、2026年7月時点の年換算売上高(ARR、Annualized Revenue Run Rate)が650億ドルに達したことを明らかにした。2025年末時点の約90億ドルから7ヶ月余りで7倍超に急拡大した計算になる。同社は非公開の形でIPO申請(S-1)を済ませており、上場準備を進める中での業績開示となった。
 
@@ -96,7 +96,7 @@ Anthropicはこうした急成長を背景に、Morgan Stanley・Goldman Sachs G
     "Samsungファウンドリ事業は2022年以来赤字が続いていたが、2026年第2四半期に過去最高の四半期営業黒字を計上。TSMCとの差を縮める好機と位置づける"
   ],
   url: "https://www.tomshardware.com/tech-industry/samsung-raises-advanced-foundry-prices-by-up-to-15-percent-as-ai-demand-fills-its-4nm-lines",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/xH8TirG2whmYMw3dbUZpyA-2000-80.jpg",
   content: `## 概要
 Samsung Electronicsは2026年7月、先端プロセスによる半導体受託製造(ファウンドリ)価格を新規注文向けに引き上げた。関係者によると4nm(SF4)・5nm(SF5)プロセスで最大15%の値上げとなり、AI半導体需要の拡大でTSMCの生産枠が埋まり他社への注文流出が起きている中、長年赤字が続いていたSamsungのファウンドリ事業に値上げを実施する余地が生まれた形だ。
 
@@ -131,7 +131,7 @@ AI半導体需要の拡大がメモリだけでなくロジック半導体の受
     "超低消費電力コンピュートとフィジカルAIという、AIの巨大トレンドが生む2つの成長市場を同時に狙う戦略"
   ],
   url: "https://techstartups.com/2026/08/18/velaura-ai-raises-110m-series-a-at-1b-valuation-to-tackle-ais-growing-power-problem/",
-  image: null,
+  image: "https://techstartups.com/wp-content/uploads/2026/08/Velaura-AI-founders.jpg",
   content: `## 概要
 AI計算資源の省電力化とフィジカルAI向けインフラを手がける米Velaura AIは2026年8月18日、シリーズAラウンドで1.1億ドルを調達し、評価額が10億ドルを超えたと発表した。AIデータセンターの電力消費が業界全体のボトルネックとして注目される中、性能を落とさず電力効率を高めるカスタムシリコンへの投資となる。
 
@@ -165,7 +165,7 @@ AIデータセンターの電力制約が投資テーマとして本格的に定
     "広告主はまずOpenAI Ads Solutionsチームや代理店経由でのアクセスから開始。セルフサービス型のAds Managerは今夏後半に順次提供予定"
   ],
   url: "https://www.malaymail.com/news/world/2026/08/19/openai-says-ads-coming-to-chatgpt-in-europe-next-week/231959",
-  image: null,
+  image: "https://www.malaymail.com/malaymail/uploads/images/2026/08/19/357872.jpg",
   content: `## 概要
 OpenAIは2026年8月19日、ChatGPT内における広告表示のテストを、来週にも欧州31カ国へ拡大すると発表した。ドイツ・フランス・スペイン・イタリア・スウェーデン・ノルウェー・デンマーク・オランダ・オーストリアなどが対象に含まれ、米国での先行導入や日本を含む先行9カ国・地域への拡大に続く、これまでで最大規模の展開となる。
 
