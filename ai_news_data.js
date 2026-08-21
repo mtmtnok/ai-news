@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "AnthropicはNVIDIA・Google TPUに続きBroadcom製カスタムチップの供給網も強化中。IPOを控えた計算資源の先行確保が狙い"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Broadcomは2026年8月20日までに、AIチップの供給拡大に向けた資金を賄うため、金融機関団と600億ドル超の負債調達について協議していると複数メディアが報じた。調達資金の主な用途はAnthropic向けカスタムAIチップの生産能力拡大とされ、構造次第では総額1000億ドル規模にまで膨らむ可能性がある。AI企業がGPU・ASICの調達コストを賄うために巨額の負債を活用する動きが、半導体サプライチェーンのより川上にまで波及している格好だ。
 
@@ -61,7 +61,7 @@ GPUメーカーではなくチップ供給企業自身が巨額の負債を積�
     "専用の機械学習インフラチームを持たない企業でも、カスタムのオープンウェイトAIモデルを訓練・微調整・展開できる基盤の構築を目指す"
   ],
   url: "https://www.businesswire.com/news/home/20260811845258/en/River-AI-Raises-$1.1B-Led-by-General-Catalyst-and-AMP-PBC-to-Build-Open-AI-Stack",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 xAIの共同創業者だったイゴール・バブシュキン氏が立ち上げた新興AI企業River AIが、General CatalystとAMP PBCが主導する11億ドルのシード/シリーズAラウンドを完了したと2026年8月11日に発表された。設立からわずか2ヶ月というタイミングでの巨額調達であり、フロンティアラボ出身の著名研究者が興す新興ラボに資金が殺到する構図が改めて浮き彫りになった。
 
@@ -96,7 +96,7 @@ xAIの共同創業者だったイゴール・バブシュキン氏が立ち上�
     "GoogleのTPU設計はこれまでBroadcomがほぼ独占、近年MediaTekも参入。Marvell・AMDの参入観測も強まり「脱Broadcom」の分散が加速"
   ],
   url: "https://www.gurufocus.com/news/9043421/marvell-technology-mrvl-and-google-expand-chip-development-partnership",
-  image: null,
+  image: "https://images.pexels.com/photos/6755078/pexels-photo-6755078.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 半導体大手Marvell Technologyは2026年8月19日、Googleの自社設計AIチップ「TPU」のエコシステム向けにカスタムチップ開発の提携を拡大すると発表した。対価としてGoogleはMarvell株を有利な条件で取得できるワラント(新株予約権)を得ており、両社の関係がこれまでの単発の受託開発から、より深い資本関係を伴うパートナーシップへと進化したことを示す取引となった。
 
@@ -130,7 +130,7 @@ GoogleがTPUの供給網を意図的に複数社へ分散させている動き�
     "少なくとも6標的で高親和性バインダーを取得、4標的以上で既報のベスト値と同等以上の親和性を達成"
   ],
   url: "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-  image: null,
+  image: "https://cdn.sanity.io/images/4zrzovbb/website/e3758f1bc27af0786f4249cc1ab194fc2c6cce63-3840x2160.png",
   content: `## 概要
 Anthropicは2026年8月19日、自社モデルClaudeを使った自律的なタンパク質設計実験の結果を公表した。Claude Opus 4.8とMythos Previewの2モデルに、バイオテック企業Adaptyv Bio・Twist Bioscienceと協力して15種類の生体標的向けの新規タンパク質バインダーを設計させたところ、14件で実際に機能するバインダーの取得に成功したという。創薬プロセスの初期段階を担う「バインダー設計」をAIがどこまで自律的にこなせるかを検証する試みだ。
 
@@ -164,7 +164,7 @@ AI企業がソフトウェアの外側、すなわち創薬・バイオテック
     "複数エージェントを組み合わせた手法でも一致率は42%が上限。研究アイデアの創出におけるAIの限界を浮き彫りに"
   ],
   url: "https://arxiv.org/abs/2608.16645",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 研究アイデアの創出能力を測る新たなベンチマーク「Reconstruction」が2026年8月に発表された。論文本体を一切見せず、出版前の参考文献リストだけを手がかりにAIモデルへ研究アイデアを推測させるという厳密な「盲検」設計で、フロンティアモデルでも研究論文の核心的なアイデアをゼロから再構築する能力は極めて限定的であることが明らかになった。
 
@@ -198,7 +198,7 @@ OpenAIの「Astra」による数学未解決問題の解決など、AIが特定�
     "非エンジニアが自然言語でアプリを記述するだけで自動生成・デプロイできる「バイブコーディング」製品。ARRは6億ドルに迫る"
   ],
   url: "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2025/08/picnew-copy.png?resize=1200,801",
   content: `## 概要
 スウェーデン発のAIコーディングスタートアップLovableは2026年8月12日、シリーズCラウンドで4億ドルを調達し、評価額が133億ドルに達したと発表した。創業からわずか2年、前回調達からは8ヶ月というスピードで評価額を倍増させており、「バイブコーディング(vibe coding)」と呼ばれる自然言語ベースの開発ツール市場の過熱ぶりを象徴する調達となった。
 
@@ -232,7 +232,7 @@ AIコーディング市場では、Cursorの600億ドル買収やAnthropic・Ope
     "オンデバイスAIがスペルミスをリアルタイムで自動修正。CES 2026で発表した技術の実装版"
   ],
   url: "https://www.uploadvr.com/neural-band-handwriting-recognition-start/",
-  image: null,
+  image: "https://storage.ghost.io/c/2a/2f/2a2f38f0-4b71-407a-9c7e-18a9e2541980/content/images/size/w1200/2026/01/handwriting-1.jpg",
   content: `## 概要
 Metaはスマートグラス「Ray-Ban Display」向けに、新機能「ニューラル手書き入力(Neural Handwriting)」のアーリーアクセス提供を開始した。手首に装着する「Neural Band」が読み取る筋電位信号を使い、声を出さずキーボードにも触れずに、任意の平面上へ指で文字を書くだけでAIへの指示やメッセージ送信ができる機能だ。CES 2026で発表されていた技術の実装版にあたる。
 
