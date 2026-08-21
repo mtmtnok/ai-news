@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-08-08",
+  updated: "2026-08-22",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -31,6 +31,7 @@ window.RELATIONS = {
     { id: "moonshot",     label: "Moonshot AI",  sector: "lab" },
     { id: "ssi",          label: "Safe Superintelligence", sector: "lab" },
     { id: "discoveryloop", label: "Discovery Loop", sector: "lab" },
+    { id: "riverai",      label: "River AI",     sector: "lab" },
     // ビッグテック・クラウド
     { id: "microsoft",    label: "Microsoft",    sector: "cloud" },
     { id: "google",       label: "Google",       sector: "cloud" },
@@ -46,6 +47,7 @@ window.RELATIONS = {
     { id: "terawulf",     label: "TeraWulf",     sector: "cloud" },
     { id: "volta",        label: "Volta",        sector: "cloud" },
     { id: "sktelecom",    label: "SKテレコム",    sector: "cloud" },
+    { id: "riotplatforms", label: "Riot Platforms", sector: "cloud" },
     // 半導体
     { id: "nvidia",       label: "NVIDIA",       sector: "semi", sub: "design" },
     { id: "amd",          label: "AMD",          sector: "semi", sub: "design" },
@@ -54,6 +56,7 @@ window.RELATIONS = {
     { id: "cerebras",     label: "Cerebras",     sector: "semi", sub: "design" },
     { id: "tenstorrent",  label: "Tenstorrent",  sector: "semi", sub: "design" },
     { id: "huawei",       label: "Huawei",       sector: "semi", sub: "design" },
+    { id: "marvell",      label: "Marvell",      sector: "semi", sub: "design" },
     { id: "intel",        label: "Intel",        sector: "semi", sub: "fab" },
     { id: "tsmc",         label: "TSMC",         sector: "semi", sub: "fab" },
     { id: "samsung",      label: "Samsung",      sector: "semi", sub: "fab" },
@@ -87,7 +90,10 @@ window.RELATIONS = {
     { id: "catl",         label: "CATL",             sector: "invest" },
     { id: "meti",         label: "経産省",            sector: "invest", jp: true },
     { id: "chery",        label: "Chery Automobile", sector: "invest" },
-    { id: "lens",         label: "Lens Technology",  sector: "invest" }
+    { id: "lens",         label: "Lens Technology",  sector: "invest" },
+    { id: "generalcatalyst", label: "General Catalyst", sector: "invest" },
+    { id: "amppbc",       label: "AMP PBC",          sector: "invest" },
+    { id: "janestreet",   label: "Jane Street",      sector: "invest" }
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -197,6 +203,24 @@ window.RELATIONS = {
     { from: "nvidia", to: "volta", type: "invest", threads: ["compute"], amount: null,
       label: "a16z・Altimeter Capital主導の3億ドル調達ラウンドに参加（評価額24億ドル、Michael Dell氏も参加）", date: "2026-08",
       source: "https://www.bloomberg.com/news/articles/2026-08-04/nvidia-dell-back-ai-cloud-startup-volta-at-2-4-billion-value" },
+    { from: "generalcatalyst", to: "riverai", type: "invest", threads: ["talent"], amount: 11,
+      label: "AMP PBCと共同主導した11億ドルのシード/シリーズAラウンド。設立からわずか2ヶ月での調達", date: "2026-08",
+      source: "https://www.businesswire.com/news/home/20260811845258/en/River-AI-Raises-$1.1B-Led-by-General-Catalyst-and-AMP-PBC-to-Build-Open-AI-Stack" },
+    { from: "amppbc", to: "riverai", type: "invest", threads: ["talent"], amount: null,
+      label: "General Catalystと共同で11億ドルラウンドを主導（金額内訳非公表）", date: "2026-08",
+      source: "https://www.businesswire.com/news/home/20260811845258/en/River-AI-Raises-$1.1B-Led-by-General-Catalyst-and-AMP-PBC-to-Build-Open-AI-Stack" },
+    { from: "nvidia", to: "riverai", type: "invest", threads: ["talent"], amount: null,
+      label: "AMD Ventures・Y Combinator・Temasekらとともに11億ドルラウンドに参加（金額非公表）", date: "2026-08",
+      source: "https://www.businesswire.com/news/home/20260811845258/en/River-AI-Raises-$1.1B-Led-by-General-Catalyst-and-AMP-PBC-to-Build-Open-AI-Stack" },
+    { from: "amd", to: "riverai", type: "invest", threads: ["talent"], amount: null,
+      label: "NVIDIAとともに11億ドルラウンドに参加（金額非公表）。競合半導体2社が同時出資", date: "2026-08",
+      source: "https://www.businesswire.com/news/home/20260811845258/en/River-AI-Raises-$1.1B-Led-by-General-Catalyst-and-AMP-PBC-to-Build-Open-AI-Stack" },
+    { from: "nvidia", to: "sbenergy", type: "invest", threads: ["compute"], amount: 15,
+      label: "オハイオ州「PORTS-Pike」データセンター向けにSB Energyへ15億ドルを直接出資", date: "2026-08",
+      source: "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html" },
+    { from: "janestreet", to: "etched", type: "invest", threads: ["semi"], amount: 7,
+      label: "自社データセンターでEtched製推論クラスターを稼働させた実績を踏まえ7億ドルのラウンドを主導。評価額210億ドルに（7月の103億ドルから1ヶ月足らずで倍増）", date: "2026-08",
+      source: "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/" },
 
     // ── 提携・供給契約 (partner) ──
     // OpenAI コンピュート網
@@ -239,6 +263,9 @@ window.RELATIONS = {
     { from: "openai", to: "sbenergy", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "Stargateの一環。SB Energyがデータセンター／電力インフラを担い、OpenAIは米国Milam Countyの1.2GWデータセンターをリース", date: "2026-01",
       source: "https://openai.com/index/stargate-sb-energy-partnership/" },
+    { from: "nvidia", to: "openai", type: "partner", threads: ["compute"], flow: "資金",
+      label: "SB Energyのオハイオ州「PORTS-Pike」データセンター向けリース・電力支払い義務に最大1,050億ドルを保証(SEC提出書類で確定)", date: "2026-08",
+      source: "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html" },
     { from: "apple", to: "openai", type: "partner", threads: ["labs", "talent"], flow: "モデル", status: "reported",
       label: "2024年ChatGPT×iOS統合提携。io Products買収後に関係悪化、26/7にAppleが営業秘密訴訟。OpenAIは26/8に却下を申し立て「根拠のない訴訟」と反論、審理は10月1日に予定", date: "2026-08",
       source: "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/" },
@@ -252,9 +279,9 @@ window.RELATIONS = {
     { from: "anthropic", to: "google", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "次世代TPU容量を複数GW規模で確保。2027年から順次稼働予定（Google CloudのTPU利用を拡張）", date: "2026-04",
       source: "https://www.anthropic.com/news/google-broadcom-partnership-compute" },
-    { from: "anthropic", to: "broadcom", type: "partner", threads: ["compute", "semi"], flow: "技術",
-      label: "カスタムAIアクセラレータの共同開発を含む大型コンピュート提携", date: "2026-05",
-      source: "https://www.anthropic.com/news/google-broadcom-partnership-compute" },
+    { from: "anthropic", to: "broadcom", type: "partner", threads: ["compute", "semi"], flow: "資金", status: "reported",
+      label: "カスタムAIアクセラレータの共同開発(26/5)に続き、Broadcomが供給拡大の原資としてBlackstone・Apollo Global Managementと600億〜1000億ドル規模の負債による資金調達を協議中(26/8)", date: "2026-08",
+      source: "https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal" },
     { from: "anthropic", to: "amazon", type: "partner", threads: ["compute", "semi"], flow: "計算資源",
       label: "AWS Trainium最大5GWの容量確保を含む超大型コンピュート契約（Trainium3出荷開始と同時期）", date: "2026-04",
       source: "https://convergedigest.com/amazon-q1-2026-aws-surges-28-as-custom-ai-chips-top-20b-run-rate/" },
@@ -267,6 +294,9 @@ window.RELATIONS = {
     { from: "anthropic", to: "spacex", type: "partner", threads: ["compute"], flow: "計算資源", status: "reported",
       label: "SpaceX IPO目論見書で、2029年5月まで月額12.5億ドル（総額約450億ドル）のGPUコンピュート契約が開示", date: "2026-06",
       source: "https://mlq.ai/news/anthropic-signs-12-letters-of-intent-for-direct-data-center-leases-totaling-over-1-gw/" },
+    { from: "anthropic", to: "riotplatforms", type: "partner", threads: ["compute"], flow: "計算資源",
+      label: "テキサスRockdale拠点で191MWを20年契約、想定収益91億ドル(延長で最大161億ドル)。ビットコインマイナーのAI転換を象徴", date: "2026-08",
+      source: "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html" },
     { from: "anthropic", to: "samsung", type: "partner", threads: ["semi"], flow: "技術",
       label: "Samsung Foundry 2nm（SF2）でカスタムAI推論チップの製造委託契約", date: "2026-07",
       source: "https://www.koreaherald.com/article/10797311" },
@@ -317,6 +347,9 @@ window.RELATIONS = {
     { from: "nvidia", to: "nebius", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "フルスタックAIクラウドを共同開発。Nebiusは2030年末までにNVIDIAシステム5GW超を目指す", date: "2026-03",
       source: "https://nvidianews.nvidia.com/news/nvidia-and-nebius-partner-to-scale-full-stack-ai-cloud" },
+    { from: "google", to: "marvell", type: "partner", threads: ["semi"], flow: "技術",
+      label: "TPUエコシステム向けカスタムチップ(AI推論アクセラレータ・ストレージコントローラ・NIC・近メモリ演算)開発で提携拡大。対価としてGoogleに1株206.58ドルで最大122億ドル相当のワラント付与", date: "2026-08",
+      source: "https://www.gurufocus.com/news/9043421/marvell-technology-mrvl-and-google-expand-chip-development-partnership" },
     { from: "google", to: "intel", type: "partner", threads: ["semi"], flow: "技術", status: "reported",
       label: "Intel FoundryにTPU 300万個超を発注（2028年納入目標・報道）", date: "2026-06",
       source: "https://www.techtimes.com/articles/318143/20260610/chip-supply-shifts-tsmc-googles-reported-intel-tpu-order-lifts-foundry-doubts-remain.htm" },
@@ -417,6 +450,9 @@ window.RELATIONS = {
       source: "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/" },
     { from: "google", to: "discoveryloop", type: "talent", threads: ["talent", "labs"], person: "Sanjay Ghemawat・Oriol Vinyals・Quoc Le",
       label: "Googleシニアフェロー、DeepMind副社長、Google Brain共同創業者の3氏がJeff Dean氏とともにDiscovery Loopへ参加", date: "2026-08",
-      source: "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/" }
+      source: "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/" },
+    { from: "xai", to: "riverai", type: "talent", threads: ["talent"], person: "Igor Babuschkin",
+      label: "xAI共同創業者(元DeepMind・OpenAI)が退社し独立。2026年6月にステルス解除したRiver AIを創業、設立2ヶ月で11億ドルを調達", date: "2026-08",
+      source: "https://www.businesswire.com/news/home/20260811845258/en/River-AI-Raises-$1.1B-Led-by-General-Catalyst-and-AMP-PBC-to-Build-Open-AI-Stack" }
   ]
 };
