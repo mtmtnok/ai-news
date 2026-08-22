@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "OpenAIは従来、SB53自体には明確に反対しないものの、州ごとに規制が分裂することを避けるため連邦レベルでの一元的な規制(連邦優先)を重視する立場を取ってきたが、今回は法の中身そのものの強化を求める姿勢に転じた"
   ],
   url: "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
   content: `## 概要
 OpenAIは2026年8月22日、カリフォルニア州で2025年10月に成立したフロンティアAI安全法「SB53」について、さらなる安全策の追加を求める提言を公表した。訓練・評価段階にあるフロンティアモデルの監視義務化や、モデル開発ライフサイクル全体を通じたサイバーセキュリティ対策の強化などを求めており、これまで同法に対し明確な賛否を示さず連邦レベルでの一元規制を優先してきたOpenAIが、州法そのものの中身を積極的に補強しようとする姿勢へと転じた点が注目される。
 
@@ -60,7 +60,7 @@ OpenAIが自らカリフォルニア州法の強化を求める姿勢に転じ�
     "長期的には最大100万基規模のAI衛星群による、地球規模の分散型AIスーパーコンピュータ構築を構想。プロトタイプ試験は2027年初頭、量産は2027年後半を予定"
   ],
   url: "https://techstartups.com/2026/08/04/nvidia-partners-with-spacex-to-build-starmind-ai-orbital-data-centers-in-space/",
-  image: null,
+  image: "https://techstartups.com/wp-content/uploads/2026/08/Nvidia-partners-with-SpaceX-on-orbital-data-centers-960x605.jpg",
   content: `## 概要
 SpaceXとNVIDIAは2026年8月4日、軌道上にAI向けの計算拠点を構築する新プロジェクト「Starmind」を発表した。第1弾となる衛星「Starmind AI1」にはNVIDIAのRubin世代GPUとVeraCPUが搭載され、太陽光発電を電源とする「宇宙データセンター」構想の本格始動を告げるものとなった。地上のデータセンター建設が電力・土地の制約に直面する中、計算資源そのものを軌道上に展開するという大胆な発想が、AI業界の計算資源争奪戦の新たな局面として注目を集めている。
 
@@ -95,7 +95,7 @@ Starmind AI1は、NVIDIAの次世代GPUアーキテクチャ「Vera Rubin」のN
     "調達資金は衛星の量産体制構築、NVIDIAとの共同エンジニアリング、将来の打ち上げ枠の確保に充当。2025年11月には初のNVIDIA H100搭載衛星を軌道投入済み"
   ],
   url: "https://www.businesswire.com/news/home/20260821884035/en/Starcloud-Raises-$250-Million-at-$2.3-Billion-Valuation-to-Scale-AI-with-Orbital-Data-Centers",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 軌道上にAIデータセンターを構築する米ワシントン州レドモンド拠点の新興企業Starcloudは2026年8月21日、シリーズAの拡張ラウンドとして2.5億ドルを調達し、評価額が23億ドルに達したと発表した。2026年3月に付けた評価額11億ドルからわずか5ヶ月で倍増した形で、SpaceXとNVIDIAが主導する「Starmind」計画(本サイト既報)と並び、軌道上コンピューティングをめぐる競争が資金調達の面でも本格化していることを示す動きとなった。
 
@@ -130,7 +130,7 @@ NVIDIAがSpaceXの「Starmind」とStarcloudという、軌道上コンピュー
     "提携によりCloverleaf顧客はNVIDIAのアクセラレーテッドコンピューティング・高性能ネットワーキング・インフラソフトウェア全体にアクセス可能に。着工前にインフラ制約を洗い出せる設計手法を狙う"
   ],
   url: "https://www.prnewswire.com/news-releases/cloverleaf-infrastructure-forms-strategic-partnership-with-nvidia-to-accelerate-data-center-infrastructure-development-302857329.html",
-  image: null,
+  image: "https://mmx.prnewswire.com/media/MS1973417/Cloverleaf.jpg?id=OA2901162&p=facebook",
   content: `## 概要
 NVIDIAは2026年8月21日、電力インフラとデータセンター用地の開発を手がける新興企業Cloverleaf Infrastructureとの戦略的提携を発表した。同社への少数株出資を伴う提携で、金額は非公表ながら数億ドル規模になるとみられている。AIデータセンターの建設が電力供給網の逼迫という物理的な壁に直面する中、NVIDIAがチップの提供にとどまらず、電力・用地の確保という川上工程にまで関与を広げる動きとして注目される。
 
@@ -165,7 +165,7 @@ NVIDIAが電力・用地開発企業への出資にまで踏み込んだこと�
     "2026年8月4〜6日開催の「FMS 2026」で発表。AIデータセンター・クラウドストレージ向けの大容量・高効率ストレージ需要の高まりを受けた技術投入"
   ],
   url: "https://www.kioxia.com/en-jp/about/news/2026/20260812-1.html",
-  image: null,
+  image: "https://www.kioxia.com/etc.clientlibs/kioxia-libs/clientlibs/kioxia/resources/component/shared_og.png",
   content: `## 概要
 KioxiaとSanDiskは2026年8月12日、AI・データ集約型アプリケーション向けに設計した第10世代の高性能QLC(Quad-Level-Cell)3Dフラッシュメモリ技術を発表した。生成AIの学習・推論データやクラウド基盤の急増するストレージ需要に対応する狙いで、前世代比でビット密度を最大60%向上させた点が最大の特徴となる。AI業界の関心がGPU・HBMに集中しがちな中、大容量ストレージの進化もAIインフラを支える重要な要素として位置づけられる。
 
@@ -200,7 +200,7 @@ AI業界の半導体競争はGPUやHBMに注目が集まりがちだが、学習
     "設計図面・技術文書・契約情報・顧客情報といった機微データを外部に持ち出さずに活用できるため、情報漏えいリスクを懸念して生成AI導入に慎重だった企業層の取り込みを狙う"
   ],
   url: "https://www.ntt.com/about-us/press-releases/news/article/2026/0817.html",
-  image: null,
+  image: "https://www.ntt.com/content/dam/nttcom/hq/cmn/img/logo-ogp-1200-630_release-2022.png",
   content: `## 概要
 NTTドコモビジネスとエクサウィザーズは2026年8月17日、企業の専用環境において重要データを安全に活用できる「クローズドAIエージェント」を共同開発し、同日から提供を開始したと発表した。生成AIエージェントの企業導入が進む一方で、機密性の高いデータを外部のクラウド環境に預けることへの抵抗感から導入をためらう企業も多く、そうした層の取り込みを狙った国内発の取り組みとして位置づけられる。
 
