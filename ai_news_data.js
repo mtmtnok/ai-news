@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "機関投資家の需要は募集株数の約3倍に達した一方、発表翌営業日に株価は8.5%急落"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Alibaba Group Holdingは2026年8月23日、香港市場で普通株を新規発行し、香港市場史上最大となる80億香港ドル(約102億ドル)を調達すると発表した。調達資金の全額をAI関連の「フルスタック」投資――半導体、インフラ、モデルの開発・展開――に充てるとしており、中国のAI大手がハードウェアからモデルまで自前で賄う体制構築を加速させる動きとして注目されている。
 
@@ -65,7 +65,7 @@ Alibabaは調達資金の使途について、AI半導体の開発・調達、�
     "PerplexityはNVIDIA主導の「Nemotron連合」に参加済みで、オープンウェイトAI推進で既に協力関係"
   ],
   url: "https://www.digitimes.com/news/a20260824VL208/nvidia-investment-chips-software-startup.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20260824vl208_files/1_2b.jpg",
   content: `## 概要
 NVIDIAが、AI検索スタートアップPerplexityへの出資を協議していると報じられた。The Informationが2026年8月23日に報じたところによれば、出資が実現すればPerplexityの評価額は300億ドルを超え、前回調達時から50%超の上昇となる見通しだ。NVIDIAが自社GPUの主要顧客企業に相次いで出資する「エコシステム投資」戦略の一環とみられる。
 
@@ -101,7 +101,7 @@ NVIDIAが自社GPUの主要顧客への出資を通じて需要と投資リタ�
     "資金はヒューマノイドロボット「IRON」の研究開発・量産体制構築に充当、2026年末までの量産移行を目指す"
   ],
   url: "https://www.roboticstomorrow.com/news/2026/08/24/xpeng-robotics-business-raises-over-us900-million-at-a-post-money-valuation-of-over-us63-billion-accelerating-physical-ai-deployment/26985/",
-  image: null,
+  image: "https://www.roboticstomorrow.com/images/facebooknews.jpg",
   content: `## 概要
 中国の電気自動車メーカーXPengは2026年8月24日、傘下のヒューマノイドロボット事業が第三者からの初の資金調達で9億ドル超を調達し、調達後評価額が63億ドルを超えたと発表した。IDG Capitalが主導し、Gaorong Venturesが参加、さらにTencentとAlibabaも戦略的投資家として名を連ねた。同社はこれを「中国の身体性AI(embodied AI)産業における単独ラウンドとして過去最大」の資金調達と位置付けている。
 
@@ -137,7 +137,7 @@ NVIDIAが自社GPUの主要顧客への出資を通じて需要と投資リタ�
     "3nm・2nmとも生産枠がApple・NVIDIA・AMDなど主要顧客で予約済み、AI/HPC向け需要は全体の30%超に拡大見通し"
   ],
   url: "https://finance.biggo.com/news/fba9ca2f-3ee5-46f8-9eb9-12384f662ae9",
-  image: null,
+  image: "https://img.biggo.com/Mxb8ojPqLvdOWQ2xqSwy7DlxsmCKMTApJSvoS861oO0/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTA4L2ZiYTljYTJmLTNlZTUtNDZmOC05ZWI5LTEyMzg0ZjY2MmFlOV8xNzg3MTgxMjEyX2RlZmF1bHQuanBn.jpg",
   content: `## 概要
 Bank of America(BofA)は2026年8月20日付リサーチノートで、TSMCの2027年設備投資(capex)が最大850億ドルに達する可能性があるとの見通しを示した。市場コンセンサスの750億ドルを上回る水準で、AI・HPC(高性能コンピューティング)向け需要の急拡大が牽引役だとしている。BofAはTSMC株について「買い」推奨とNT$3,100の目標株価を維持した。
 
@@ -173,7 +173,7 @@ TSMCの設備投資拡大は、AI半導体需要の逼迫がファウンドリ�
     "Claude Opus 4.8・GPT-5.5との比較について第三者による独立検証はまだ公表されていない"
   ],
   url: "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/08/inherent-labs-cofounders-credit-Anna-Gordon.jpeg?resize=1200,800",
   content: `## 概要
 DeepMind出身者が創業したロンドン拠点のAIラボInherentは2026年8月22日、自社開発のAIエージェント「Faraday」が、研究論文の結果を独立に再現するタスクにおいて、AnthropicのClaude Opus 4.8やOpenAIのGPT-5.5といった大型フロンティアモデルを上回る成績を収めたと発表した。Faradayはわずか270億パラメータの小型モデル(Qwen 3.6ベース)であり、規模で大きく劣る中での結果として注目されている。
 
