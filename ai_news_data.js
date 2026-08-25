@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "2026年7月に発覚した自律型AIエージェントによる侵害事件の対応が続く中でのタイミング"
   ],
   url: "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/07/hugging-face-logo-smartphone.jpg?resize=1200,800",
   content: `## 概要
 オープンソースAIのハブとして知られるHugging Faceが、2026年8月23日までに130億ドル以上の評価額での身売りを検討していることが、複数の関係者の話として米メディアで報じられた。同社は投資銀行を起用し買収希望者の感触を探る初期段階にあり、具体的な買い手も合意も存在しないという。実現すれば2023年のシリーズDで付けた評価額45億ドルから約3倍の水準となる。
 
@@ -64,7 +64,7 @@ Hugging Faceは、オープンウェイトモデルやデータセットの流�
     "SKハイニックス側は「決定したことはない」としつつ、「必要なインフラを備えた場所であればどこでも候補地になり得る」とコメント"
   ],
   url: "https://www.bloomberg.com/jp/news/articles/2026-08-20/TK3B80T96OSQ00",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 韓国の半導体大手SKハイニックスが、宮城県に半導体メモリー工場を建設する計画を検討していることが、韓国紙ハンギョレの報道をもとに2026年8月20日から21日にかけて複数の日韓メディアで報じられた。投資額は数十兆ウォン(数兆円)規模とみられ、実現すれば韓国の半導体企業による日本国内での大型生産拠点投資としては初めてのケースとなる。
 
@@ -99,7 +99,7 @@ AI向けメモリー需要の逼迫は、SK hynix・Samsung・Micronの既存大
     "A2Aは既に150組織が本番環境で採用し、実際のタスクをエージェント間でルーティングしているという"
   ],
   url: "https://www.forbes.com/sites/janakirammsv/2026/08/19/agent2agent-joins-the-agentic-ai-foundation-alongside-mcp/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Linux Foundationが2025年12月に設立した非営利組織「Agentic AI Foundation(AAIF)」は、2026年8月19日から20日にかけて、GoogleのエージェントAI連携プロトコル「A2A(Agent2Agent)」が正式に加盟したと発表した。AAIF設立時にAnthropicが寄贈した「MCP(Model Context Protocol)」と並び、AIエージェントの相互運用を支える主要な標準規格が、特定企業に依存しない中立組織のもとに集約される形となった。
 
@@ -133,7 +133,7 @@ AIエージェントの相互運用性は、複数のベンダーのエージェ
     "現時点ではAPIで一部顧客への限定プレビューとして提供開始、価格は未公表で今後拡大予定"
   ],
   url: "https://openai.com/index/previewing-ultrafast/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年8月13日、主力モデル「GPT-5.6 Sol」を標準版と比べて最大14倍高速に動作させる新サービス階層「Ultrafast」のプレビューを発表した。AI半導体スタートアップCerebrasのウエハースケールチップを活用しており、出力速度は毎秒最大750トークンに達する。まずはAPIを通じて一部顧客に限定提供し、順次対象を拡大する計画だ。
 
