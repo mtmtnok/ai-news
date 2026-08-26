@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "DeepSeek R1 670B・Kimi K2.5 1Tなど複数モデルでSemiAnalysisの公開ベンチマークにより検証"
   ],
   url: "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108316430-17805267702026-06-03t224450z_1708536359_rc2mmla7s69c_rtrmadp_0_usa-congress-openai.jpeg?v=1785179838&w=1920&h=1080",
   content: `## 概要
 OpenAIが2026年8月26日までに、自社設計の初の推論特化型チップ「Jalapeño」の性能データを公開した。第三者検証機関SemiAnalysisが運営する公開ベンチマーク「InferenceX」を用いた測定で、NVIDIAの現行フラッグシップであるBlackwell世代(GB200 NVL72)をワット当たりの処理性能で最大1.9倍上回ったとしている。自社チップでNVIDIA依存からの脱却を図る動きが、具体的な数値をもって裏付けられた形だ。
 
@@ -66,7 +66,7 @@ OpenAIが自社チップで具体的な性能優位性を数値付きで示し�
     "中国製AIチップ上で動作しているとされ、脱NVIDIA・自給体制の一端を示す"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 コーディング・エージェント関連のベンチマークで急浮上し「何者が作ったのか」と話題になっていた匿名モデル「Ox Alpha」について、中国・北京のAI企業Z.AI(旧Zhipu)が2026年8月26日までに、自社の主力モデル群「GLM」シリーズの新版「GLM-5.3-Flash」であると正式に確認した。同社は同日中に重み(ウェイト)を公開する方針も明らかにした。
 
@@ -105,7 +105,7 @@ Z.AI(Zhipu)はDeepSeek、Moonshot(Kimi)、Alibaba(Qwen)と並ぶ中国オープ�
     "米機関投資家向けの144A形式での発行も検討、実現すれば同社最大の海外債に"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-26/softbank-mulls-up-to-20-billion-bond-sale-for-openai-financing",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 ソフトバンクグループが、OpenAIへの巨額投資を賄うために組成した最大400億ドルのブリッジローンを借り換える目的で、100億〜200億ドル規模の社債発行を複数の投資銀行と協議していることが2026年8月26日までに関係者の話として報じられた。実現すれば早ければ9月にも発行される可能性があり、同社にとって過去最大級の海外での資金調達となる。
 
@@ -144,7 +144,7 @@ Z.AI(Zhipu)はDeepSeek、Moonshot(Kimi)、Alibaba(Qwen)と並ぶ中国オープ�
     "早ければ9月または10月初旬の上場を視野に、目論見書を近く公表する見通し"
   ],
   url: "https://www.investing.com/news/stock-market-news/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-wsj-reports-4875772",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Claudeを開発するAnthropicが、新規株式公開(IPO)に向けて投資家向けに示す資料の中で、自社が対象とする総アドレス可能市場(TAM)を30兆ドル超と見積もる方針であることが、2026年8月26日までにウォール・ストリート・ジャーナル(WSJ)の報道で明らかになった。今年上場したSpaceXが自社IPOで示した28.5兆ドルの推計を上回る規模となる。
 
@@ -183,7 +183,7 @@ AnthropicのIPOが実現すれば、フロンティアラボの資金・勢力�
     "8月26日から段階的展開開始(表示まで最大15日)、10月1日まで上限緩和を提供"
   ],
   url: "https://workspaceupdates.googleblog.com/2026/08/ask-gemini-in-chat.html",
-  image: null,
+  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhn5xh-yQtM-Ykg1SmId2iDBAFyde5GY4WhmMBFiOmf8oOTPGbxk7pcsPcUDn-2kBOYG_3SGLDe0MtVEeHR-J_Q0snWKY0aXWBulTqiW43_-P25Zref6NTAFHmspDUZt56LITOeZO9fSaF-MQIiavGccPteA_FDOdVbd8WUKdsfLw4miq9CsE0wPNdwWXWd/w1200-h630-p-k-no-nu/Ask%20Gemini%20in%20Chat.gif",
   content: `## 概要
 Googleは2026年8月26日、Google Chatに新機能「Ask Gemini」を統合すると発表した。Workspace Intelligenceを活用したこの機能により、Gmail・Drive・カレンダーなど社内データを横断的に検索したり、チャットのやり取りを離れずに文書作成やタスク管理が行えるようになる。展開は同日から段階的に始まっている。
 
@@ -220,7 +220,7 @@ Ask Gemini in Chatの投入は、GoogleがGeminiを単体のチャットボッ�
     "Free・Pro・Maxの各プランで既定有効、統合はAnthropicのCowork展開を後押し"
   ],
   url: "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?resize=1200,842",
   content: `## 概要
 Anthropicは2026年8月25日、対話型AI「Claude」の通常のチャットと、クラウド上でタスクを自律実行するエージェント機能「Claude Cowork」との間で記憶(メモリー)機能を統合すると発表した。これにより、チャットで説明したプロジェクトの背景や好みを、Coworkでの作業時に改めて説明し直す必要がなくなる。
 
@@ -257,7 +257,7 @@ Claude CoworkはAnthropicが「汎用コンピューティング向けのClaude 
     "SK hynixはSanDiskと共同でHBF(高帯域幅フラッシュ)規格を策定、最大512GB容量を実現"
   ],
   url: "https://www.trendforce.com/news/2026/08/24/news-hot-chips-2026-samsungs-zhbm-claims-70-power-efficiency-gain-sk-hynix-evaluates-intel-emib/",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2026/08/24103037/Samsung-zHBM-624x533.png",
   content: `## 概要
 半導体業界のイベント「Hot Chips 2026」で、韓国メモリ大手のSamsungとSK hynixが、AIチップにおけるメモリのボトルネック解消に向けてそれぞれ異なるアプローチを打ち出したことが2026年8月24日までに明らかになった。Samsungは新型3D積層アーキテクチャ「zHBM」による性能訴求を、SK hynixは先進パッケージング技術による実装面での対抗を軸に据えている。
 
@@ -294,7 +294,7 @@ AIチップの性能向上がメモリ帯域幅によって制約される「メ
     "国家プロジェクトとして日本の先端半導体製造能力の確保を狙う"
   ],
   url: "https://www.bloomberg.com/jp/news/articles/2026-08-21/TK42LAT96OSG00",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 経済産業省が、次世代半導体の国産化を目指すラピダスに対し、1500億円規模の追加出資を2027年度予算の概算要求に計上する方向で検討していることが、2026年8月21日までに関係者の話として明らかになった。2027年度後半に予定される2nm世代の量産開始に向け、政府による継続的な資金支援の姿勢が改めて示された形だ。
 
