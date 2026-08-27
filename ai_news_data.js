@@ -28,7 +28,7 @@ window.NEWS_DATA = [
     "決算発表翌日に株価8%急伸、半導体株全体の上昇を牽引"
   ],
   url: "https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108353993-1787677585886-108353993-1787675816989-gettyimages-2266718431-NVIDIA_GTC.jpg?v=1787832050&w=1920&h=1080",
   content: `## 概要
 NVIDIAは2026年8月26日、2027会計年度第2四半期(2026年5〜7月期)の決算を発表した。売上高は962億ドルと前年同期の2倍近くに達し、市場予想を上回った。データセンター事業が全体を牽引し、第3四半期の売上高ガイダンスも1080億ドルと強気の水準を示したことで、決算発表翌日の株価は8%急伸し、TSMCなど関連半導体株の上昇も誘発した。
 
@@ -67,7 +67,7 @@ NVIDIAの決算は、AIインフラ投資が「期待先行」から「実需に
     "Anthropicは直近8か月でVolta・AMD・SpaceX・Amazon・Google・Broadcomとも計算資源契約を拡大中"
   ],
   url: "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/06/Claude-photo.jpg?w=1024",
   content: `## 概要
 Anthropicは2026年8月26日までに、英国のAIインフラ企業Nscaleとの間で、6年間にわたり約450億ドル規模のクラウド計算資源をリースする契約を結んだと複数メディアが報じた。米West Virginia州で開発が進むNscaleのデータセンターから約460メガワットの計算能力を確保するもので、IPOを控えるAnthropicが事業拡大に向けた計算基盤を先行して押さえる動きの一環となる。
 
@@ -104,7 +104,7 @@ Anthropicが短期間に複数のインフラ企業と巨額契約を積み重�
     "OpenAI・Anthropicや新興ラボが欧州の研究人材獲得で存在感を強めている"
   ],
   url: "https://fortune.com/2026/08/27/google-deepmind-losing-talent-to-rival-ai-labs-startups-new-data-show/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2276578034-e1787759543733.jpg?resize=1200,600",
   content: `## 概要
 英国のデータインテリジェンス企業Zekiが独自に集計しFortuneに提供したデータによると、Google DeepMindの欧州・中東・アフリカ(EMEA)地域における研究職・上級エンジニア職の採用シェアは、2022〜23年の49%から2025〜26年には18.6%まで急落した。大手AIラボの地域別シェア下落としては過去最大の落ち込み幅とされ、8月上旬に発表された指導部刷新の余波が数値の上でも裏付けられた形となった。
 
@@ -142,7 +142,7 @@ Zekiの創業者Tom Hurd氏は「彼らは長らく欧州で王座に君臨し�
     "政府には脅威情報共有の枠組み強化・多国間での防衛連携・サイバー防衛への資金拠出を要請"
   ],
   url: "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/03/claude-app-centered-in-ai-apps-GettyImages-2167861906.jpg?resize=1200,801",
   content: `## 概要
 OpenAI、Anthropic、Google、Microsoft、AMDをはじめとする116の企業・団体は2026年8月27日、AIモデルの能力向上に伴いサイバー攻撃がより広範かつ高度になるとして、企業や各国政府に防衛態勢の強化を求める公開書簡に署名した。「防衛を強化できる猶予は限られている」との強い表現で、産業界と政府双方に具体的な行動を促す内容となっている。
 
@@ -180,7 +180,7 @@ OpenAI、Anthropic、Google、Microsoft、AMDをはじめとする116の企業�
     "Pro・Max・Team・Enterprise各プランへ順次展開、安全管理機能とログイン情報インポート機能を搭載"
   ],
   url: "https://claude.com/blog/cowork-built-in-browser",
-  image: null,
+  image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69027547e3e5c830cb5d0a37_og_claude-is-now-available-in-microsoft-365-copilot.jpg",
   content: `## 概要
 Anthropicは2026年8月26日、デスクトップアプリ版の「Claude Cowork」に、Chromiumベースの内蔵ブラウザ機能を追加したと発表した。タスクの実行にWebサイトへのアクセスが必要な場合、拡張機能などを一切インストールすることなく、サイドパネル内でClaudeが自らブラウザを操作して作業を進められるようになる。
 
@@ -217,7 +217,7 @@ AIエージェントが専用API連携のないWebサービスをどう操作す
     "背景に防衛省委員会がまとめた「国防AIの主権性」提言、国産AIによる自給体制強化の流れ"
   ],
   url: "https://sakana.ai/defense-integrated-analysis/",
-  image: null,
+  image: "https://sakana.ai/assets/home/sakana_ogp.png",
   content: `## 概要
 国産AIスタートアップのSakana AIは2026年8月24日、防衛省から「総合分析業務に必要なAI機能の調査・実証」を約9.7億円で受注したと発表した。自衛隊の指揮統制(C2)システム高度化に向けた委託研究に続く形で、防衛省の情報本部が担う情報分析業務にもAIエージェント技術の適用が検討されることになる。
 
@@ -254,7 +254,7 @@ Sakana AIが指揮統制に続き情報分析分野でも防衛省との契約�
     "利用規約がユーザーデータをAIモデル訓練に広範に利用できる内容になっている点や、アクセス権限を取り消した後もメール要約が続いた事例などプライバシー面の懸念が浮上"
   ],
   url: "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2255991416.jpg?resize=1200,795",
   content: `## 概要
 招待制のAIパーソナルアシスタント「Instinct」を提供するSpear Street Technologyは、Index VenturesとBenchmarkが共同主導するシリーズBで2.5億ドルを調達し、評価額25億ドルに達したと2026年8月26日までに報じられた。数か月前には評価額5,000万ドルだったとされ、急激な評価額上昇がAIエージェント分野への投資熱の高さを象徴する一方、アプリの権限の広さやデータ取り扱いを巡るプライバシー面の懸念も同時に浮上している。
 
