@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "判決はDoDにAnthropic製品採用を義務付けるものではなく、政権は控訴する見通し"
   ],
   url: "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108338734-1784745509530-gettyimages-2280291449-ANTHROPIC_CIRCUIT.jpeg?v=1787672726&w=1920&h=1080",
   content: `## 概要
 米連邦地裁は2026年8月28日、国防総省(DoD)がAnthropicを「サプライチェーンリスク」に指定した措置について、同社の政府批判的な言動に対する報復であり違憲だとする判決を下した。北カリフォルニア地区連邦地裁のリタ・リン判事は59ページに及ぶ判決文で、DoDの措置が言論の自由を保障する憲法修正第1条とデュープロセス条項を定める修正第5条の双方に違反すると認定した。
 
@@ -62,7 +62,7 @@ Anthropicは機密システムの構築を巡りDoDと協議を進めていた�
     "NVIDIAがAIエコシステムへの資金還流を強める中、「循環取引」への投資家の懸念が高まっている"
   ],
   url: "https://finance.yahoo.com/news/nvidia-pauses-revenue-sharing-deals-223140237.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/026663c840daee7cbff4c837783281b02d4240139e60076dc3b17b4eed4fa4fa/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F2a89fceeb1a40d33611732b220557bf7.jpg",
   content: `## 概要
 NVIDIAは2026年8月下旬、中小規模のAIクラウドプロバイダー向けに与信支援を提供する見返りに一定基準を超える収益の半分を受け取る新プログラム「AI Compute Partnership」の一部案件を一時停止したと、Wall Street Journalが報じた。中小のAIクラウド企業がNVIDIA製チップやデータセンター基盤に数十億ドル規模を先行投資しながら、それに見合う顧客契約を確保できずにいるという資金調達上の課題に対応する枠組みだったが、プログラム開始からわずか数週間で足踏みする形となった。
 
@@ -98,7 +98,7 @@ NVIDIAは自社GPUの主要顧客であるOpenAIのデータセンター向け�
     "SK hynixも自社株買いを積み増すなど、韓国半導体大手がAI特需による潤沢な資金を株主還元に振り向ける動き"
   ],
   url: "https://asia.nikkei.com/business/tech/semiconductors/samsung-electronics-poised-for-72bn-shareholder-return-program",
-  image: null,
+  image: "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F4%2F9%2F6%2F12996942-1-eng-GB%2F42250210735a-2026-05-20T045521Z_1843472435_RC2SCLAJVNYJ_RTRMADP_3_SAMSUNG-DISPUTE.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&width=1260&height=630",
   content: `## 概要
 Samsung Electronicsは2026年8月21日の取締役会で、総額100兆ウォン(約720億ドル)超規模となる過去最大級の株主還元プログラムを承認する見通しだと複数のメディアが報じた。AI向け半導体需要の急拡大によって記録的な収益を上げていることが背景にあり、フリーキャッシュフローの50%を還元原資に充てるほか、特別配当の実施も検討されている。
 
@@ -134,7 +134,7 @@ AI向け半導体需要が韓国メモリ大手にもたらしている恩恵の
     "背景にはPoolsideが目指した20億ドル規模の資金調達が不調に終わり、4万基のGB300クラスター稼働に必要な計算資源を確保できなかった経緯がある"
   ],
   url: "https://www.forbes.com/sites/jonmarkman/2026/08/24/nvidia-pays-poolside-6b-to-license-its-model-factory-and-109-workers/",
-  image: null,
+  image: "https://imageio.forbes.com/specials-images/imageserve/6a8c6b36352b91edc49dc11d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
   content: `## 概要
 NVIDIAは2026年8月、コーディング特化型AIスタートアップのPoolsideと非独占的ライセンス契約を締結したと報じられた。契約の柱は、Poolsideがオープンウェイトのコーディングモデル群「Laguna」を開発するために用いている社内基盤「Model Factory」のライセンス供与で、対価は60億ドル。これに加えてNVIDIAは、評価額120億ドル(プレマネー)でPoolsideに10億ドルを出資する。
 
@@ -169,7 +169,7 @@ NVIDIAは2026年8月、コーディング特化型AIスタートアップのPool
     "HHMI Janelia Research Campusとの共同開発を経て研究プレビュー段階に到達、将来的にはオープンソース化を計画"
   ],
   url: "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-  image: null,
+  image: "https://cdn.sanity.io/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
   content: `## 概要
 Anthropicは2026年8月27日、AIエージェントが顕微鏡やロボットアーム、液体分注装置といった物理機器を安全に操作するための共通仕様「Model Hardware Standard(MHS)」の研究プレビューを、科学研究機関や先進製造業者の第一陣向けに公開した。同社にとって物理AI領域への初の本格的な参入となる取り組みで、創薬実験から量子コンピュータのレーザー較正まで幅広い用途を想定している。
 
@@ -204,7 +204,7 @@ MHSは、AIエージェントの活動範囲をソフトウェア上のタスク
     "背景に紙アンケート運用の業務負荷やスクールカウンセラー不足という学校現場の課題"
   ],
   url: "https://www.softbank.jp/sbnews/entry/2026/08/27/110000",
-  image: null,
+  image: "https://cdn.image.st-hatena.com/image/scale/4004936e861c664a0a27dc59999405c96b902940/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fsbn_02%2F20260828%2F20260828114329.jpg",
   content: `## 概要
 ソフトバンクは2026年8月27日、AIを活用して児童・生徒の心のケアに取り組む教師を支援するサービス「メンタリ」の提供を開始したと発表した。学校で行われるいじめ防止アンケートの実施から分析までを一元化し、支援が必要な子どもを迅速に把握できるようにするとともに、教師への対応アドバイスもAIチャットを通じて提示する。
 
@@ -239,7 +239,7 @@ MHSは、AIエージェントの活動範囲をソフトウェア上のタスク
     "有害な変異の影響予測やがん関連変異の評価、合成プロモーター設計への応用が期待される"
   ],
   url: "https://scitechdaily.com/ai-decodes-a-hidden-dna-signal-linked-to-disease-causing-mutations/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米カリフォルニア大学サンディエゴ校(UCSD)の分子生物学部門の研究チームは、遺伝子がいつ・どこで活性化されるかを制御する基本的な調節エレメント「イニシエーター」――いわば遺伝子の「隠れたオンスイッチ」――のDNA配列パターンを、機械学習を用いて解読したと発表した。研究を主導したのはJames T. Kadonaga教授と大学院研究者のTorrey Rhyne-Carrigg氏。
 
@@ -274,7 +274,7 @@ AI・機械学習が創薬や材料科学だけでなく、遺伝子発現制御
     "Gemini for Education版は生徒データをAI学習に利用せず人間のレビュアーも閲覧しない方針"
   ],
   url: "https://workspaceupdates.googleblog.com/2026/08/gemini-in-google-classroom-is-expanding-to-users-of-all-ages-with-contextualized-Gemini-starter-prompts-for-students.html",
-  image: null,
+  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiLXJJJJaauHljpNQSk6_jdjsZPjJOp-mvHHVgYLvkT7wSvXWaVcfgPeVykN3lZNjfX4M-6LIlJLDD9knSOdcEzP8psdIrX_fsQGw9RPIQe7XYv2TqfMAFPWQMRYhb9330SdVJpclScey-Sq2bVf7wto-71tK_nm1Psr-3Mm068qiGHgWP87j3zJZ0oxM/w1200-h630-p-k-no-nu/Gemini%20in%20Google%20Classroom%20is%20expanding%20to%20users%20of%20all%20ages,%20with%20contextualized%20Gemini%20starter%20prompts%20for%20students%20-%201.png",
   content: `## 概要
 Googleは2026年8月26日、教育向けサービス「Google Classroom」に組み込まれたGemini機能を、これまで年齢制限のあった生徒も含む全年齢のユーザーへ拡大展開すると発表した。管理者が許可した学校であれば、K-12(幼稚園から高校まで)から高等教育まで幅広い年代の生徒がGeminiを活用した学習支援機能を利用できるようになる。
 
