@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-08-22",
+  updated: "2026-08-29",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -32,6 +32,7 @@ window.RELATIONS = {
     { id: "ssi",          label: "Safe Superintelligence", sector: "lab" },
     { id: "discoveryloop", label: "Discovery Loop", sector: "lab" },
     { id: "riverai",      label: "River AI",     sector: "lab" },
+    { id: "poolside",     label: "Poolside",     sector: "lab" },
     // ビッグテック・クラウド
     { id: "microsoft",    label: "Microsoft",    sector: "cloud" },
     { id: "google",       label: "Google",       sector: "cloud" },
@@ -48,6 +49,7 @@ window.RELATIONS = {
     { id: "volta",        label: "Volta",        sector: "cloud" },
     { id: "sktelecom",    label: "SKテレコム",    sector: "cloud" },
     { id: "riotplatforms", label: "Riot Platforms", sector: "cloud" },
+    { id: "nscale",        label: "Nscale",        sector: "cloud" },
     // 半導体
     { id: "nvidia",       label: "NVIDIA",       sector: "semi", sub: "design" },
     { id: "amd",          label: "AMD",          sector: "semi", sub: "design" },
@@ -83,12 +85,16 @@ window.RELATIONS = {
     { id: "nec",          label: "NEC",              sector: "app", jp: true },
     { id: "honda",        label: "ホンダ",            sector: "app", jp: true },
     { id: "psibot",       label: "PsiBot",           sector: "app" },
+    { id: "perplexity",   label: "Perplexity",       sector: "app" },
+    { id: "starcloud",    label: "Starcloud",        sector: "app" },
+    { id: "cloverleaf",   label: "Cloverleaf Infrastructure", sector: "app" },
     // 投資家・ファンド
     { id: "mgx",          label: "MGX",              sector: "invest" },
     { id: "softbank",     label: "ソフトバンクG",     sector: "invest", jp: true },
     { id: "mufg",         label: "MUFG",             sector: "invest", jp: true },
     { id: "catl",         label: "CATL",             sector: "invest" },
     { id: "meti",         label: "経産省",            sector: "invest", jp: true },
+    { id: "boueisho",     label: "防衛省",            sector: "invest", jp: true },
     { id: "chery",        label: "Chery Automobile", sector: "invest" },
     { id: "lens",         label: "Lens Technology",  sector: "invest" },
     { id: "generalcatalyst", label: "General Catalyst", sector: "invest" },
@@ -221,6 +227,21 @@ window.RELATIONS = {
     { from: "janestreet", to: "etched", type: "invest", threads: ["semi"], amount: 7,
       label: "自社データセンターでEtched製推論クラスターを稼働させた実績を踏まえ7億ドルのラウンドを主導。評価額210億ドルに（7月の103億ドルから1ヶ月足らずで倍増）", date: "2026-08",
       source: "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/" },
+    { from: "nvidia", to: "poolside", type: "invest", threads: ["talent"], amount: 10,
+      label: "評価額120億ドル(プレマネー)でPoolsideに10億ドルを出資。同時にModel Factoryを60億ドルでライセンス取得し開発者109人に移籍オファー", date: "2026-08",
+      source: "https://www.forbes.com/sites/jonmarkman/2026/08/24/nvidia-pays-poolside-6b-to-license-its-model-factory-and-109-workers/" },
+    { from: "nvidia", to: "perplexity", type: "invest", threads: ["labs", "compute"], amount: null, status: "negotiating",
+      label: "評価額300億ドル超で出資を協議中。Nemotron連合での関係を株式出資に格上げへ", date: "2026-08",
+      source: "https://www.digitimes.com/news/a20260824VL208/nvidia-investment-chips-software-startup.html" },
+    { from: "nvidia", to: "starcloud", type: "invest", threads: ["compute"], amount: null,
+      label: "シリーズA拡張(2.5億ドル)に新規投資家として参加。評価額23億ドルに倍増", date: "2026-08",
+      source: "https://www.businesswire.com/news/home/20260821884035/en/Starcloud-Raises-$250-Million-at-$2.3-Billion-Valuation-to-Scale-AI-with-Orbital-Data-Centers" },
+    { from: "nvidia", to: "cloverleaf", type: "invest", threads: ["compute"], amount: null,
+      label: "7GW超の用地を持つ電力・データセンター開発企業に出資し、AI工場建設に向けた戦略的提携を締結", date: "2026-08",
+      source: "https://www.prnewswire.com/news-releases/cloverleaf-infrastructure-forms-strategic-partnership-with-nvidia-to-accelerate-data-center-infrastructure-development-302857329.html" },
+    { from: "meti", to: "rapidus", type: "invest", threads: ["japan", "semi"], amount: 10, status: "reported",
+      label: "2027年度概算要求に1,500億円の追加出資を計上する方向で検討。2nm量産へ支援継続", date: "2026-08",
+      source: "https://www.bloomberg.com/jp/news/articles/2026-08-21/TK42LAT96OSG00" },
 
     // ── 提携・供給契約 (partner) ──
     // OpenAI コンピュート網
@@ -297,6 +318,15 @@ window.RELATIONS = {
     { from: "anthropic", to: "riotplatforms", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "テキサスRockdale拠点で191MWを20年契約、想定収益91億ドル(延長で最大161億ドル)。ビットコインマイナーのAI転換を象徴", date: "2026-08",
       source: "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html" },
+    { from: "anthropic", to: "nscale", type: "partner", threads: ["compute", "labs"], flow: "計算資源",
+      label: "6年450億ドルのコンピュート契約。West Virginiaで460MWを確保しVera Rubin世代チップを活用", date: "2026-08",
+      source: "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/" },
+    { from: "nvidia", to: "poolside", type: "partner", threads: ["talent"], flow: "技術",
+      label: "モデル開発基盤「Model Factory」を60億ドルで非独占ライセンス取得。Poolsideは共同創業者含め独立運営を継続", date: "2026-08",
+      source: "https://www.forbes.com/sites/jonmarkman/2026/08/24/nvidia-pays-poolside-6b-to-license-its-model-factory-and-109-workers/" },
+    { from: "sakana", to: "boueisho", type: "partner", threads: ["japan"], flow: "販売",
+      label: "「総合分析業務」AI活用調査・実証を約9.7億円で受注。指揮統制システムに続き情報分析領域にも進出", date: "2026-08",
+      source: "https://sakana.ai/defense-integrated-analysis/" },
     { from: "anthropic", to: "samsung", type: "partner", threads: ["semi"], flow: "技術",
       label: "Samsung Foundry 2nm（SF2）でカスタムAI推論チップの製造委託契約", date: "2026-07",
       source: "https://www.koreaherald.com/article/10797311" },
