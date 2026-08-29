@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "Jensen Huang CEOは同日の決算会見で「OpenAI・Anthropicへの投資はもっと早く増やすべきだった」と発言。NVIDIA株は決算好感で急伸"
   ],
   url: "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/107291118-1692832899082-gettyimages-1608151041-HUGGING_FACE_AI.jpeg?v=1701200698&w=1920&h=1080",
   content: `## 概要
 NVIDIAが、開発者向けにAIモデル・データセットを共有するプラットフォーム「Hugging Face」を約129億ドル(約1.9兆円)で買収する交渉に入ったと、2026年8月27日に複数の米メディアが一斉に報じた。正式契約の締結はまだ発表されておらず、関係者によれば交渉が破談する可能性も残っているという。本サイトでは8月24日に、Hugging Faceが130億ドル規模での身売りを検討していると既報していたが、今回の報道でその相手がNVIDIAであることが具体的に明らかになった形だ。
 
@@ -63,7 +63,7 @@ Hugging Faceはオープンウェイトモデル・データセットの流通�
     "太田裕雄社長は新棟稼働の「年単位での前倒し」にも言及するほどメモリー需要が想定を超えて拡大。投資額の3分の1程度の政府支援を期待する考えを示した"
   ],
   url: "https://news.yahoo.co.jp/articles/e7911b35ad9d98cdfedf8664e6821e2ff1a0c449",
-  image: null,
+  image: "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260827-00000194-kyodonews-000-3-view.jpg?exp=10800",
   content: `## 概要
 半導体メモリー大手のキオクシアホールディングスは2026年8月27日、岩手県北上市の北上工場に新たな製造棟「K3」を建設すると発表した。投資額は約1.8兆円で、2029年度中の稼働開始を目指す。三重県四日市工場への投資も合わせ、今後6年間で計約5兆円規模の投資を国内半導体拠点に振り向ける計画だ。
 
@@ -97,7 +97,7 @@ AI半導体を巡る競争軸は、これまでのGPU性能そのものから、
     "API向けDALL-Eモデルは既に2026年5月12日に提供終了済み。ユーザーは廃止前に過去の生成画像を保存するよう案内されていた"
   ],
   url: "https://www.notebookcheck.net/DALL-E-leaves-ChatGPT-on-August-30-download-your-images-first.1360522.0.html",
-  image: null,
+  image: "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/dall-e-abschaltung-chatgpt-smartphone.jpg",
   content: `## 概要
 OpenAIは2026年8月30日、ChatGPT内でカスタムGPTとして提供してきた公式の画像生成ツール「DALL-E」の提供を終了した。同社の看板技術として長年親しまれてきたDALL-Eブランドが、ChatGPT上から事実上姿を消す最後の節目となる。画像生成機能そのものがなくなるわけではなく、後継の「ChatGPT Images」への一本化が完了した形だ。
 
