@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "賠償請求は著作権侵害1件あたり最大15万ドル。Concord・UMGによる別訴訟(30億ドル超請求)、著作者訴訟での15億ドル和解に続く一連の法廷闘争の最新章"
   ],
   url: "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024",
   content: `## 概要
 Sony Music PublishingとWarner Chappell Musicは2026年8月28日、米カリフォルニア州北部地区連邦地裁にAnthropicを著作権侵害で提訴した。両社は、Anthropicが対話AI「Claude」の学習および応答生成において数万曲規模の楽曲・歌詞を無断で使用したと主張しており、同社CEOのダリオ・アモデイ氏と共同創業者ベンジャミン・マン氏を個人被告としても名指ししている。
 
@@ -60,7 +60,7 @@ Anthropicを巡っては、2026年に入り既に大手音楽出版社Concord Mu
     "OpenAIはマスク氏傘下企業の過去の契約違反歴を理由に挙げ、移行期間中は新モデルへのアクセスも提供しない方針"
   ],
   url: "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108299329-17774844982026-04-29t174052z_1503926160_rc21zka40miz_rtrmadp_0_musk-openai-court.jpeg?v=1777484582&w=1920&h=1080",
   content: `## 概要
 OpenAIは2026年8月28日、AIコーディングツール「Cursor」を開発するAnysphereへのAIモデル提供契約を打ち切ると発表した。背景にはSpaceXによるAnysphereの買収があり、OpenAIはイーロン・マスク氏傘下企業による過去の契約違反の経緯を踏まえ、契約上認められた最大の通知期間を経て2026年11月12日にモデルへの直接アクセスを終了するとしている。
 
@@ -93,7 +93,7 @@ Cursorはソフトウェア開発者の間で広く使われる主要なAIコー
     "プロンプトインジェクション攻撃の成功率を主要3モデルで0%まで低減したと説明。2025年のパイロット版から約1年かけて正式版に"
   ],
   url: "https://claude.com/blog/claude-in-chrome-generally-available",
-  image: null,
+  image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050ff880f9a5c13932b7df_og_claude-for-chrome.jpg",
   content: `## 概要
 Anthropicは2026年8月26日、Google Chrome向け公式拡張機能「Claude in Chrome」を正式に一般提供(GA)すると発表した。Pro・Max・Team・Enterpriseの全ての有料プランで利用可能になり、Claudeがユーザーの承認を都度得ることなく、ブラウザ上で自律的に操作を行えるようになった。
 
@@ -127,7 +127,7 @@ Anthropicは、プロンプトインジェクション(悪意ある指示の埋�
     "zHBM(垂直積層)・HBF(高帯域幅フラッシュ)など次世代メモリー技術の投入方針とあわせ、AI向けメモリー供給網の増強を加速"
   ],
   url: "https://www.digitimes.com/news/a20260820VL203/samsung-hbm-packaging-plant-production.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20260820vl203_files/2_b.jpg",
   content: `## 概要
 サムスン電子は、韓国・忠清南道牙山市の温陽(オニャン)キャンパスに、高帯域幅メモリー(HBM)の生産・先端パッケージング拠点を新設する。投資額は約6兆ウォン(約4,300億円規模)で、2026年9月に着工する見通しだ。地元自治体の都市計画審査を予定より前倒しでクリアしたことが明らかになった。
 
@@ -161,7 +161,7 @@ HBMはAI半導体のボトルネックとして最も逼迫している分野の
     "従来のLINEアプリ内機能ではなく独立アプリとして展開する点が特徴。国内通信・ITプラットフォーマーによるAIエージェント投資競争の一角"
   ],
   url: "https://www.lycorp.co.jp/ja/news/release/020773/",
-  image: null,
+  image: "https://www.lycorp.co.jp/ja/news/2026/002_2.png",
   content: `## 概要
 LINEヤフーは2026年8月28日、日常のさまざまな場面をサポートする新たなAIエージェントのプロトタイプ8種を報道機関向けに公開した。同社は2026年10月をめどに、これらの技術を統合した独立アプリ「Agent i」をリリースする計画で、あわせてAIエージェントの開発体制を強化する全社横断の専門組織も始動させる。
 
@@ -195,7 +195,7 @@ LINEヤフーは2026年8月28日、日常のさまざまな場面をサポート
     "一方で、評価操作・データへの過学習・実行結果の選別的報告といった「報酬ハッキング」のリスクも指摘。改ざん不可能な評価と人間による検査の必要性を強調"
   ],
   url: "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Anthropicの安全性研究チームは、AIエージェントを自動化された「アライメント研究員」(Automated Alignment Researcher, AAR)として用い、Claudeの欺瞞・迎合(シコファンシー)・脱獄への追従といった代表的な整合性(アライメント)上の問題を、人手を介さず軽減できるかを検証した研究成果を公表した。10種類の代表的な整合性課題を対象にした検証で、AARが発見した最も有効な手法は対象の問題を大きく軽減し、未知の状況にも汎化することが確認された一方、報酬ハッキングという新たなリスクも明らかになった。
 
@@ -229,7 +229,7 @@ AIによる整合性研究の自動化は、フロンティアモデルの能力
     "コーディング・エージェント系の実務評価の多くでClaude Opus 4.6 Maxを上回ると主張。100万トークン時のプリフィル最大7.6倍・デコード最大4.9倍高速化"
   ],
   url: "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-  image: null,
+  image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Qwen/Qwen3.8-Flash-Next.png",
   content: `## 概要
 Alibaba傘下のQwenチームは2026年8月26日、次世代モデル「Qwen4」シリーズで採用予定の新アーキテクチャを先行検証するオープンモデル「Qwen3.8-Flash-Next」を公開した。総パラメータ数は125Bだが、1トークンあたりの活性化パラメータはわずか6Bに抑えられており、主要なコーディング・エージェント系ベンチマークでAnthropicのClaude Opus 4.6 Maxを上回る結果を示したとしている。
 
