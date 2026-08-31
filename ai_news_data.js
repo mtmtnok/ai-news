@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "資金使途はGPUクラスター拡充など計算資源投資が中心。2027年の上海STAR市場上場を視野に"
   ],
   url: "https://www.chinamoneynetwork.com/2026/08/29/deepseek-nears-7-4-billion-funding-round-at-74-billion-valuation-ahead-of-2027-ipo",
-  image: null,
+  image: "https://www.chinamoneynetwork.com/wp-content/uploads/chinamoneynetwork-logo-square-1000x1000.jpg",
   content: `## 概要
 中国DeepSeekが、テンセントとCATL(寧徳時代)などが主導する約74億ドル(500億元)規模の資金調達を月内にも完了させる見通しであることが2026年8月29日までに報じられた。調達後の評価額(プレマネー)は740億ドル(5,000億元)規模に達するとみられ、2027年の上海証券取引所科創板(STAR市場)への上場を見据えた布石となる。
 
@@ -60,7 +60,7 @@ DeepSeekが初の本格的な外部調達を完了させれば、中国オープ
     "9月9日の新製品発表イベントで、初の折りたたみ式iPhoneと新生Siriが披露される見通し"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-08-30/apple-s-new-ceo-john-ternus-takes-reins-from-tim-cook-focusing-on-ai",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Appleは2026年9月1日付で、ハードウェアエンジニアリング担当上級副社長を務めてきたジョン・ターナス氏を最高経営責任者(CEO)に昇格させた。前CEOのティム・クック氏は同日付で取締役会エグゼクティブチェアに退き、15年間に及んだクック体制が幕を閉じた。新CEOが直面する最優先課題は、遅れが指摘されてきたAI戦略・Siri刷新の立て直しだ。
 
@@ -93,7 +93,7 @@ Apple自身のAI基盤モデルではなく競合Googleの「Gemini」を採用�
     "Anthropicは対象ユーザーを強制ログアウトし、決済情報削除・不正請求の返金で対応。原因はClaude自体ではなく端末側の感染と説明"
   ],
   url: "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-  image: null,
+  image: "https://www.bleepstatic.com/content/hl-images/2026/02/13/Claude_chats.jpg",
   content: `## 概要
 Anthropicは2026年8月30日、ユーザーのPCに感染した情報窃取型マルウェア(インフォスティーラー)がClaudeのログインセッションを窃取し、アカウントの不正利用に使われていたことを明らかにした。影響を受けたユーザーを強制的にログアウトさせ、保存済みの支払い方法を削除、不正な請求分は返金する対応を取った。
 
@@ -127,7 +127,7 @@ Anthropicは声明で、このマルウェアがClaude自体に起因するも�
     "「Wildcat Lake」: 最大17TOPSのNPU搭載エッジSoC、Intel初のUCIeマルチチップパッケージ採用、既に製品化済み"
   ],
   url: "https://newsroom.intel.com/client-computing/intel-outlines-architectures-for-agentic-ai-at-hot-chips-2026",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Intelは半導体イベント「Hot Chips 2026」で、エージェント型AIワークロードに向けた3つの新アーキテクチャ「Diamond Rapids」「Crescent Island」「Wildcat Lake」を公開した。データセンター向けCPU・推論用GPU・エッジ端末向けSoCの3層構成で、いずれも自社の先端プロセス・パッケージング技術を投入している。
 
@@ -161,7 +161,7 @@ Intelはこれら3アーキテクチャを、データセンターでの大規�
     "LGPD(ブラジル個人情報保護法)と中国の情報法制との整合性を巡る論点も浮上"
   ],
   url: "https://www.datacenterdynamics.com/en/news/alibaba-brazil/",
-  image: null,
+  image: "https://media.datacenterdynamics.com/media/images/alibaba_cloud.2e16d0ba.fill-1200x630.jpg",
   content: `## 概要
 Alibaba Cloudは2026年8月28日、ブラジルに南米初となるクラウドリージョンを開設したと発表した。2拠点のデータセンターで構成され、コンピューティング・ストレージ・ネットワーキング・データベースなど一通りのクラウドサービスを現地提供する。今後はエージェント型AIサービスの投入も計画している。
 
@@ -194,7 +194,7 @@ Alibaba Cloudのブラジル進出は、AWS・Microsoft Azure・Google Cloudが�
     "SpaceXによるAnysphere買収・OpenAIのCursor向けモデル提供打ち切りが背景にあり、xAI系エージェントのCursor内での存在感拡大にもつながる"
   ],
   url: "https://x.ai/news/grok-bot-more-plans",
-  image: null,
+  image: "https://x.ai/images/news/grok-bot-more-plans-og.webp",
   content: `## 概要
 xAI(SpaceXAI)は2026年8月30日、AIエージェント「Grok Bot」をベータ版から正式展開へ移行したと発表した。SuperGrok Plus・SuperGrok Heavy・Cursor Pro+・Cursor Ultra・Cursor Teamsの各プランに提供範囲を拡大し、常時稼働する「デジタル同僚」として実務をこなすエージェントの普及を目指す。
 
@@ -228,7 +228,7 @@ Grok Botの正式展開は、単発の応答生成にとどまらない「常時
     "実証で得た知見を自社の価値創造モデル「BluStellar」を通じて他企業にも展開する方針"
   ],
   url: "https://jpn.nec.com/press/202608/20260810_01.html",
-  image: null,
+  image: "https://jpn.nec.com/press/202608/images/1001_ogp.jpg",
   content: `## 概要
 NECは2026年8月1日付で、部門長から一般社員に至るまで全ての役割をAIエージェントが担う社内組織「コーポレートAI・Workforce部門」を新設した。国内大手企業として初とされる取り組みで、AIが業務執行を担い、人は最終的な評価・意思決定やガバナンスの統制に専念する体制を検証する。
 
@@ -261,7 +261,7 @@ NECはこの取り組みを、組織としての「AIキャピタル」活用を
     "物理ベースの分子動力学シミュレーションとAIの「co-folding」モデルを組み合わせたハイブリッド手法が奏功"
   ],
   url: "https://www.hpcwire.com/2026/08/17/deep-origin-claims-breakthrough-in-ai-drug-discovery-platform/",
-  image: null,
+  image: "https://www.hpcwire.com/wp-content/uploads/2026/08/Deep-Origin_1.png",
   content: `## 概要
 創薬プラットフォームを手がける米Deep Originは2026年8月17日、がん免疫治療の標的となる酵素に対する化合物スクリーニングで約31%の的中率(ヒットレート)を達成したと発表した。一般的な機械学習ベースの手法に比べ約100倍高い水準だとしており、物理ベースのシミュレーションとAIベースの新しい「co-folding(共フォールディング)」モデルを組み合わせた手法が奏功したとしている。
 
