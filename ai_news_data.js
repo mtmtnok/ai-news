@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "現状は手続き関連の問い合わせが対象。投資相談等への拡充は今後検討"
   ],
   url: "https://www.watch.impress.co.jp/docs/news/2136250.html",
-  image: null,
+  image: "https://www.watch.impress.co.jp/img/ipw/list/2136/250/raku00.jpg",
   content: `## 概要
 楽天証券は2026年9月2日、生成AIを活用したAIエージェント型チャットサービス「楽天証券のAIチャットサポート」の提供を開始した。同社ウェブサイトの「お客様サポート」内から利用でき、電話で話すような口語表現で質問すると、生成AIがその意図をくみ取って回答を返す仕組みだ。
 
@@ -60,7 +60,7 @@ window.NEWS_DATA = [
     "発音確認機能やパーソナライズされたステッカー機能も追加"
   ],
   url: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年9月1日、ChatGPTに複数の新機能をまとめて追加したことを公式リリースノートで明らかにした。個人向け機能とエンタープライズ向け機能の両方に手を加えており、日常利用の利便性向上と法人利用時の使い勝手改善を同時に進める内容となっている。
 
@@ -94,7 +94,7 @@ OpenAIは2026年9月1日、ChatGPTに複数の新機能をまとめて追加し�
     "OpenAI・xAIはIL5認証取得等で要件対応、Anthropicは安全機能の解除を拒否し係争中"
   ],
   url: "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
   content: `## 概要
 米国防総省(DoW/Pentagon)は2026年8月31日、生成AIサービスを一元提供する内部ポータル「GenAI.mil」に、OpenAIの「ChatGPT Mil」とxAI(SpaceXAI)の「Grok for Government」を新たに追加したと発表した。同ポータルは前年に提供が始まったGoogleの「Gemini」に続き、主要な商用生成AIモデル3種を揃える体制となった。機密指定はされていないが取り扱いに注意を要する情報(sensitive but unclassified)を扱える設計で、国防総省に所属する300万人超の職員のうち、すでに170万人超がユニークユーザーとして登録済みだという。
 
@@ -129,7 +129,7 @@ GenAI.milは、各軍・各部局がバラバラに生成AIを試験導入する
     "シリコンフォトニクス活用の光インターコネクト(コパッケージド・オプティクス)が焦点、専用パビリオンも新設"
   ],
   url: "https://www.techtimes.com/articles/326056/20260831/semicon-taiwan-2026-kicks-off-ai-chips-bottleneck-wires-connecting-them.htm",
-  image: null,
+  image: "https://d.techtimes.com/en/full/474190/man-holds-prop-wafer-semicon-taiwan-logo.jpg",
   content: `## 概要
 台湾で開催される半導体業界最大級の展示会「SEMICON Taiwan 2026」が2026年8月31日にフォーラムを開幕し、9月2日から4日にかけて本展示が行われる。今年の主要テーマの一つが、AIチップの性能を左右する新たなボトルネックとして浮上した「チップ間の配線(インターコネクト)」問題だ。
 
@@ -164,7 +164,7 @@ GPU単体の性能競争から、チップ・メモリ・光配線を含むシ�
     "一部パイロット顧客向けに提供開始済み、9月に公開ベータへ移行予定"
   ],
   url: "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
-  image: null,
+  image: "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/08/Anthropic-Partnership3.png",
   content: `## 概要
 SalesforceとAnthropicは2026年8月26日、両社の戦略的提携を拡大する新たな枠組み「Claudeforce」を発表した。SalesforceのMarc Benioff CEOは、生成AIによって既存SaaS企業の存在意義が失われかねないとする、いわゆる「SaaSpocalypse」論への一つの回答として今回の提携を位置づけている。
 
@@ -198,7 +198,7 @@ CRM最大手のSalesforceが、自社開発のAIではなくAnthropicのClaude�
     "自己改善型メモリ機能「Brain」を活用し過去のやり取りを踏まえて対応"
   ],
   url: "https://www.perplexity.ai/changelog/computer-in-email-gpt-5-6-terra-luna-and-grok-4-6",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 AI検索企業Perplexityは2026年8月20日、同社のAIエージェント「Computer」をメールだけで操作できる新機能「Computer in Email」を発表した。専用のメールアドレスにメールを送るだけで、ブラウザやアプリを開かずにタスクを依頼できるようになる。
 
@@ -233,7 +233,7 @@ Computer in Emailは、Perplexityが提供する自己改善型メモリ機能�
     "Sakana AI「The AI Scientist」が2026年3月にNatureで発表した査読通過の成果とは対照的な結果"
   ],
   url: "https://www.nature.com/articles/d41586-026-02494-5",
-  image: null,
+  image: "https://media.nature.com/lw1200/magazine-assets/d41586-026-02494-5/d41586-026-02494-5_53111824.jpg",
   content: `## 概要
 プリンストン大学のSayash Kapoor氏らの研究チームは、AIエージェントが自律的に科学研究を遂行できるかを検証する新たな評価手法「シャドー評価(shadow evaluation)」を考案し、その結果を発表した。AIによる研究の全自動化に対する過度な期待に、データに基づく再考を迫る内容として、科学誌Natureでも取り上げられた。
 
