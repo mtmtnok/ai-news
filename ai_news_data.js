@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "社内検証ツール「Jetski」上ではAnthropicのOpus系モデルよりも選好されたとの報道も"
   ],
   url: "https://www.itechpost.com/articles/237205/20260902/google-reportedly-nears-launch-gemini-38-flash-new-coding-focused-deepmind-ai-model.htm",
-  image: null,
+  image: "https://d.itechpost.com/en/full/222893/google-gemini.jpg",
   content: `## 概要
 Googleは2026年9月2日、コーディング能力の強化に重点を置いた新モデル「Gemini 3.8 Flash」（社内コードネーム「Skimaki」）を公開した。8月を通じて社内のコーディング基盤「Jetski」で検証が進められてきたモデルで、前モデル「Gemini 3.7 Flash」からわずか3週間というハイペースでの投入となる。
 
@@ -57,7 +57,7 @@ Google社内のエンジニアは、コーディング支援ツール「Jetski�
     "AISLEは30以上のOSSプロジェクトで225件超の脆弱性を報告してきた実績を持つ"
   ],
   url: "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported",
-  image: null,
+  image: "https://aisle.com/api/media/file/Blog%20thumbnail%20curl-1200x630.png",
   content: `## 概要
 自律型AIによる脆弱性発見を手がけるセキュリティ企業AISLEは、オープンソースのHTTP通信ライブラリ「curl」において、自社のAIエージェントが新たに6件のCVE（共通脆弱性識別子）を発見・報告したと明らかにした。同じcurlのコードベースに対し、OpenAIの「Codex Security」やAnthropicの「Mythos」による検証では公表されている限りゼロ件だったとされ、比較が注目を集めている。
 
@@ -89,7 +89,7 @@ AISLEはこれまでにOpenSSLやcurl、FreeBSD、OpenEMRなど30以上の主要
     "高度なサイバー機能は防御目的の連合「Daybreak」参加組織に限定提供。一般提供自体は継続予定"
   ],
   url: "https://openai.com/index/path-to-astra/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年9月1日、開発中の次期モデル「Astra」が、自社のリスク管理指針「Preparedness Framework」においてサイバーセキュリティ分野で史上初めて「Critical（重大）」レベルの脅威度に達したと発表した。同社はこれを受け、Astraの提供自体は予定通り進める一方、高度なサイバーセキュリティ関連機能へのアクセスを限定する方針を示した。
 
@@ -123,7 +123,7 @@ AIモデルの能力が「攻撃者と同等以上の自動化されたサイバ
     "基本料金（入力100万トークン10ドル/出力同50ドル）は据え置き。コード内の脆弱性特定支援機能も追加"
   ],
   url: "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-  image: null,
+  image: "https://cdn.sanity.io/images/4zrzovbb/website/932ca7d6f414ca22fd5a26dcc131410575b9b3e5-1200x630.jpg",
   content: `## 概要
 Anthropicは2026年9月1日（現地時間）、最新のフラグシップモデル「Claude Fable 5.1」と、より制限的な公開形態を取る「Claude Mythos 5.1」を発表した。両モデルは同一のベースモデルに異なる水準の安全対策（セーフガード）を組み合わせたもので、コーディングや複数ステップにまたがる知的作業、さらに研究支援における性能向上とともに、AIエージェントの運用コストを大幅に引き下げる価格改定が同時に行われた。
 
@@ -157,7 +157,7 @@ Fable 5.1は6月に公開された前モデル「Claude Fable 5」からの正�
     "通期売上高見通しを250億ドル上方修正し1920億ドルに。AIサーバー売上は「倍増」から「3倍増」予想へ"
   ],
   url: "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108308588-1779133061777-gettyimages-2276430067-DELL_TECHNOLOGIES_CONVENTION.jpeg?v=1779133175&w=1920&h=1080",
   content: `## 概要
 Dell Technologiesは2026年9月1日発表の2027会計年度第2四半期決算で、AIサーバー事業の売上高が過去最高の164億ドルに達したと発表した。受注額も過去最高の609億ドルを記録し、受注残高（バックログ）は950億ドルに拡大。好調なAI関連需要を受け、通期売上高見通しを250億ドル上方修正した。
 
@@ -189,7 +189,7 @@ Dellの大幅な受注残拡大は、ハイパースケーラーだけでなく�
     "提携はデータセンターのみならずPC・車載AI（Dimensity Auto×DRIVE AGX）にも拡大"
   ],
   url: "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-pours-usd3-5-billion-into-mediatek-company-will-adopt-nvlink-fusion-for-its-custom-ai-accelerators",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/7XbSjSphvUtP8gceNGaUGZ-1920-80.png",
   content: `## 概要
 NVIDIAは2026年8月31日（米国時間）、台湾の半導体大手MediaTekに対し、転換社債を通じて35億ドルを出資すると発表した。同社にとって米国外への直接投資としては過去最大規模となる。両社はデータセンター向けAIインフラでの提携を拡大し、MediaTekがNVIDIAの相互接続規格「NVLink Fusion」と新開発のメモリー技術「NVHBM」を採用する。
 
@@ -221,7 +221,7 @@ NVIDIAは2026年8月31日（米国時間）、台湾の半導体大手MediaTek�
     "価格は年間1800万円（税別）から。「AI Platform Service」経由で提供、5年で100社への導入を目標"
   ],
   url: "https://jpn.nec.com/press/202608/20260828_01.html",
-  image: null,
+  image: "https://jpn.nec.com/press/202608/images/2801_ogp.jpg",
   content: `## 概要
 NECは2026年8月28日、需要予測や生産計画の最適化、調達交渉などサプライチェーンマネジメント（SCM）業務を横断的に自律実行するAIエージェント「NEC SCM AIエージェント」を発表した。9月から販売を開始し、今後5年間で100社への導入を目指す。
 
