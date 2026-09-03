@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "ソフトバンクはOpenAIへ2026年に総額300億ドルの追加出資を約束(4月・7月に計200億ドルを実行済み、10月に100億ドルを予定)。発表を受け同社株価は東京市場で一時5.3%下落"
   ],
   url: "https://www.japantimes.co.jp/business/2026/08/24/companies/softbank-plan-bond-sale/",
-  image: null,
+  image: "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/24/558986.jpg?v=3.1",
   content: `## 概要
 ソフトバンクグループは2026年9月4日、日本国内の個人投資家向けとしては過去最大となる約1兆円(63億ドル)規模の社債の発行条件を決定した。AI関連投資、とりわけOpenAIへの巨額出資を支える資金調達の一環で、同社のAI戦略における資金繰りの厳しさと積極性の両面を映し出す動きとなった。
 
@@ -59,7 +59,7 @@ window.NEWS_DATA = [
     "色の入れ替えを伴う「オブジェクト・プロパティの結合」課題では72問中0問正解という致命的な失敗も判明し、モデルの限界を実証的に提示"
   ],
   url: "https://huggingface.co/papers/2608.09888",
-  image: null,
+  image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2608.09888/gradient.png",
   content: `## 概要
 Pathway社の研究チームは2026年8月、150Mパラメータという小規模な推論モデル「BDH-CQ」が、抽象推論ベンチマーク「ARC-AGI-1」において既存のコスト・精度フロンティアを塗り替えたとする論文「BDH-CQ: In-Context Learning with Recurrent Latent Reasoning」を発表した。Hugging Face Papersで週間上位にランクインし、大きな注目を集めている。
 
@@ -95,7 +95,7 @@ BDH-CQの成果は、モデルの巨大化がAI性能向上の唯一の道では
     "Claude Code、Claude Enterprise、Claude Platform、Amazon Bedrock、Google Agent Platform、Microsoft Foundry等で対応予定。追加料金なしで2026年秋以降に段階展開"
   ],
   url: "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-  image: null,
+  image: "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20City&backgroundColor=sky",
   content: `## 概要
 Anthropicは2026年9月1日、企業顧客向けのデータ保持ポリシーを刷新する新機能「Enterprise Frontier Safeguards(EFS)」を発表した。これまでの一律のデータ保持方針が、特に金融・医療など規制の厳しい業界の顧客から不満を招いていた経緯を踏まえ、ゼロデータ保持というプライバシー水準を維持しながら、不正利用検知のための自動監視を両立させる仕組みへと転換する。
 
@@ -129,7 +129,7 @@ EFSはClaude Code、Claude Enterprise、Claude Platform、Amazon Bedrock、AWS�
     "実施期間は2026年10月1日〜2030年9月30日。産業横断的な製造ノウハウ・加工データの集約学習により、深刻化する熟練工不足への対応も狙う"
   ],
   url: "https://news.yahoo.co.jp/articles/589fdbd63ec3072f8fec27aac1f64b59772f5346",
-  image: null,
+  image: "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260902-00000007-it_monoist-000-1-view.jpg?exp=10800",
   content: `## 概要
 石川県金沢市の工作機械メーカー、アルムは2026年8月30日、京セラ・神戸製鋼所・ニデックマシンツール・日本マイクロソフトなど製造業を中心とした20社程度が参加する企業連合「製造AIXアベンジャーズ」の始動を発表した。国産フィジカルAIを搭載した大型切削加工マシンの共同開発を通じて、これまで熟練工の経験と勘に頼ってきた大型切削加工工程の完全自動化を目指す。
 
@@ -162,7 +162,7 @@ EFSはClaude Code、Claude Enterprise、Claude Platform、Amazon Bedrock、AWS�
     "累計ユーザー数600万人、API連携開発者9万人超、生成済み3Dアセットは1億点超。Sonyの空間再現ディスプレイとも3D技術で提携"
   ],
   url: "https://www.finsmes.com/2026/09/tripo-ai-raises-approx-446m-in-series-b-funding.html",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 北京拠点のAIスタートアップVASTが展開する3D生成AIプラットフォーム「Tripo AI」は2026年9月2日、シリーズBおよびシリーズB+ラウンドで約3億元(約445億円)を調達したと発表した。3D生成AIが単発ツールから基盤モデル規模の産業インフラへと発展しつつある局面での大型調達となる。
 
@@ -195,7 +195,7 @@ Tripo AIは、テキストプロンプト・単一画像・複数視点画像の
     "38回目となるIOI 2026(2026年8月、ウズベキスタン・タシケント開催、2日間・各日3課題)の形式に沿った検証で、トップクラスの人間競技者に匹敵するスコアを記録"
   ],
   url: "https://arxiv.org/abs/2609.02849",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 NVIDIAの研究チームは2026年9月、大規模言語モデルにコーディング競技で金メダル級の性能を持たせるための事後学習手法をまとめた論文「Post-Training Language Models for Gold-Medal Performance in Coding Competitions」を発表した。550Bパラメータのモデル「Nemotron-3-Ultra」を土台に、国際情報オリンピック(IOI)形式の課題に特化した性能強化を行っている。
 
@@ -229,7 +229,7 @@ NVIDIAの研究チームは2026年9月、大規模言語モデルにコーディ
     "データセンター向け需要が世界のメモリ生産の推定7割を占める構造に変化。SamsungとSK Hynixは供給逼迫が2027年以降も続く可能性を指摘"
   ],
   url: "https://www.bloomberg.com/news/newsletters/2026-09-02/micron-sk-hynix-provide-surprise-twist-to-us-chips-acts-debate",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Bloombergは2026年9月2日、AI向け需要の急拡大を背景に、メモリ半導体メーカーが米国のCHIPS法(半導体・科学法)を巡る政策議論において想定外の重要プレーヤーとして浮上していると報じた。制定当初、国内製造復権の優先順位ではロジック半導体に比べ低く見られていたメモリメーカーが、AIブームの中で存在感を急速に高めている。
 
