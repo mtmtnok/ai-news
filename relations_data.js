@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-08-29",
+  updated: "2026-09-05",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -68,6 +68,7 @@ window.RELATIONS = {
     { id: "micron",       label: "Micron",       sector: "semi", sub: "memdev" },
     { id: "etched",       label: "Etched",       sector: "semi", sub: "design" },
     { id: "amkor",        label: "Amkor",        sector: "semi", sub: "fab" },
+    { id: "mediatek",     label: "MediaTek",     sector: "semi", sub: "design" },
     // 応用・スタートアップ
     { id: "spacex",       label: "SpaceX",           sector: "app" },
     { id: "scaleai",      label: "Scale AI",         sector: "app" },
@@ -88,6 +89,9 @@ window.RELATIONS = {
     { id: "perplexity",   label: "Perplexity",       sector: "app" },
     { id: "starcloud",    label: "Starcloud",        sector: "app" },
     { id: "cloverleaf",   label: "Cloverleaf Infrastructure", sector: "app" },
+    { id: "huggingface",  label: "Hugging Face",     sector: "app" },
+    { id: "salesforce",   label: "Salesforce",       sector: "app" },
+    { id: "crusoe",       label: "Crusoe",           sector: "cloud" },
     // 投資家・ファンド
     { id: "mgx",          label: "MGX",              sector: "invest" },
     { id: "softbank",     label: "ソフトバンクG",     sector: "invest", jp: true },
@@ -151,12 +155,12 @@ window.RELATIONS = {
     { from: "mgx", to: "xai", type: "invest", threads: ["labs"], amount: null,
       label: "シリーズE 200億ドルに参加（金額非公表）", date: "2026-01",
       source: "https://techcrunch.com/2026/01/06/xai-says-it-raised-20b-in-series-e-funding/" },
-    { from: "tencent", to: "deepseek", type: "invest", threads: ["china", "labs"], amount: 74,
-      label: "初の外部調達74億ドルを主導（評価額最大590億ドル）", date: "2026-06",
-      source: "https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal" },
-    { from: "catl", to: "deepseek", type: "invest", threads: ["china", "labs"], amount: null,
-      label: "テンセント主導の初外部調達74億ドルに主要投資家として参加（金額非公表）", date: "2026-06",
-      source: "https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal" },
+    { from: "tencent", to: "deepseek", type: "invest", threads: ["china", "labs"], amount: 74, status: "reported",
+      label: "初の外部調達74億ドルを主導、評価額740億ドルで最終調整。2027年上海STAR市場上場を視野に", date: "2026-09",
+      source: "https://www.chinamoneynetwork.com/2026/08/29/deepseek-nears-7-4-billion-funding-round-at-74-billion-valuation-ahead-of-2027-ipo" },
+    { from: "catl", to: "deepseek", type: "invest", threads: ["china", "labs"], amount: null, status: "reported",
+      label: "テンセント主導の初外部調達74億ドル（評価額740億ドル）に主要投資家として参加（金額非公表）。2027年上海STAR市場上場を視野に", date: "2026-09",
+      source: "https://www.chinamoneynetwork.com/2026/08/29/deepseek-nears-7-4-billion-funding-round-at-74-billion-valuation-ahead-of-2027-ipo" },
     { from: "asml", to: "mistral", type: "invest", threads: ["labs", "semi"], amount: 14,
       label: "シリーズC 17億ユーロを主導（13億ユーロ・約11%取得、評価額117億ユーロ）", date: "2025-09",
       source: "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html" },
@@ -242,6 +246,9 @@ window.RELATIONS = {
     { from: "meti", to: "rapidus", type: "invest", threads: ["japan", "semi"], amount: 10, status: "reported",
       label: "2027年度概算要求に1,500億円の追加出資を計上する方向で検討。2nm量産へ支援継続", date: "2026-08",
       source: "https://www.bloomberg.com/jp/news/articles/2026-08-21/TK42LAT96OSG00" },
+    { from: "nvidia", to: "mediatek", type: "invest", threads: ["semi", "compute"], amount: 35,
+      label: "「NVLink Fusion」採用と引き換えに35億ドルを出資。米国外への直接投資として過去最大規模", date: "2026-09",
+      source: "https://www.servethehome.com/nvidia-mediatek-nvlink-fusion-investment" },
 
     // ── 提携・供給契約 (partner) ──
     // OpenAI コンピュート網
@@ -333,6 +340,15 @@ window.RELATIONS = {
     { from: "anthropic", to: "kpmg", type: "partner", threads: [], flow: "販売",
       label: "戦略提携: 従業員27.6万人規模でClaudeを全社統合", date: "2026-05",
       source: "https://www.anthropic.com/news" },
+    { from: "anthropic", to: "salesforce", type: "partner", threads: [], flow: "販売",
+      label: "提携拡大「Claudeforce」を発表。CRMにClaudeを統合し2026年9月に公開ベータへ", date: "2026-09",
+      source: "https://www.salesforce.com/news/press-releases/claudeforce" },
+    { from: "crusoe", to: "janestreet", type: "partner", threads: ["compute"], flow: "計算資源",
+      label: "5年130億ドル規模のGPU・AIインフラ供給契約。Crusoeの評価額急伸(300億ドル)を牽引", date: "2026-08",
+      source: "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/" },
+    { from: "openai", to: "cursor", type: "partner", threads: ["talent"], flow: "モデル", status: "ended",
+      label: "モデル提供を2026年11月12日で打ち切り。CursorがSpaceX(xAIと合併済み)に買収され競合関係が生じたため", date: "2026-08",
+      source: "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html" },
     { from: "openai", to: "novo", type: "partner", threads: [], flow: "販売",
       label: "全社AI戦略提携（創薬〜製造〜営業）", date: "2026-04",
       source: "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html" },
@@ -449,6 +465,9 @@ window.RELATIONS = {
     { from: "qualcomm", to: "tenstorrent", type: "ma", threads: ["semi"], status: "negotiating",
       label: "80〜100億ドルで買収交渉中（26/6報道・未確定）", date: "2026-06",
       source: "https://www.theregister.com/systems/2026/06/16/qualcomm-said-to-be-circling-ai-chip-biz-tenstorrent-in-10b-risc-v-power-play/5256084" },
+    { from: "nvidia", to: "huggingface", type: "ma", threads: ["labs", "talent"],
+      label: "オープンソースAIハブを129億3000万ドルで買収。うち最大10億ドルは従業員向け引き留め株式。2027年上期クロージング予定", date: "2026-09",
+      source: "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/" },
 
     // ── 人材移籍 (talent) ── 人物単位で1エッジ
     { from: "google", to: "anthropic", type: "talent", threads: ["talent"], person: "John Jumper",
