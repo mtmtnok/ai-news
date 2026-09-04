@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "Hugging Faceは開発者1800万人以上が利用し、モデル300万件・データセット50万件・アプリケーション100万件が公開される「AI版GitHub」的インフラ。NVIDIAにとっては12月のGroq資産20億ドル買収に次ぐ史上2番目の規模の買収"
   ],
   url: "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.jpeg?resize=1200,675",
   content: `## 概要
 NVIDIAは2026年9月3日、オープンソースAIのハブ「Hugging Face」を約129億3000万ドル(約1.9兆円)で買収することで正式に合意したと発表した。8月下旬から交渉が報じられていたが、今回の発表により身売り検討段階から正式契約へと移行が確定した。
 
@@ -62,7 +62,7 @@ Hugging Faceは過去にNVIDIA単独からの7000万ドル出資(評価額70億�
     "アクセスは公開料金表に基づく一般提供ではなく、「Fairwind Program」の審査を経た政府・重要インフラ事業者・ソフトウェア保守担当者に限定"
   ],
   url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png",
   content: `## 概要
 Google DeepMindは2026年9月、ソフトウェアの脆弱性発見と自動パッチ生成に特化した新モデル「Gemini 3.8 Flash Cyber」を発表した。コーディング特化モデル「Gemini 3.8 Flash」と同じコアをベースに、防御的セキュリティ用途向けにセーフティフィルターを緩和した専用チューニングを施している。OpenAIの次期モデル「Astra」が史上初めてサイバー脅威の最高位「Critical」評価に達したと報じられるなど、フロンティアラボ各社がサイバー能力を競う流れの中での発表となった。
 
@@ -96,7 +96,7 @@ OpenAIの「Astra」がサイバー脅威評価で最高位「Critical」に達�
     "Micronは2026年末までにHBM生産能力を月産約10万枚規模へほぼ倍増させる計画。NVIDIAの次世代AIプラットフォーム「Vera Rubin」向け12層HBM4の増産が主眼"
   ],
   url: "https://en.sedaily.com/finance/2026/09/03/samsung-doubles-hbm-market-share-to-33-percent-narrowing",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/09/03/news-p.v1.20260903.708ab9ca1c8943a69b94689d837d1fd1_P1.png",
   content: `## 概要
 AI向け半導体の最重要部材であるHBM(広帯域幅メモリ)市場で、勢力図の変化が相次いで報じられた。市場調査会社Counterpoint Researchは2026年9月3日、Samsung Electronicsの市場シェアが急拡大したと発表し、翌9月4日にはMicronがHBM生産能力を大幅に引き上げる計画が明らかになった。
 
@@ -130,7 +130,7 @@ HBMはAIアクセラレータの性能を左右する最大のボトルネック
     "クオンツ運用大手Jane Streetとの5年130億ドル規模のGPU・AIインフラ供給契約が業績を牽引"
   ],
   url: "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2245923419.jpg?resize=1200,800",
   content: `## 概要
 AIデータセンター開発・クラウドコンピューティング企業のCrusoeは2026年9月3日、シリーズFラウンドで30億ドルを超える資金を調達し、評価額が約300億ドルに達したと報じられた。コンピュート軍拡が続くAIインフラ業界において、評価額が10カ月足らずで3倍化する急成長ぶりを見せつけた形だ。
 
@@ -164,7 +164,7 @@ Crusoeの急成長は、コンピュート軍拡の主戦場がフロンティ�
     "2026年9月末から金融機関・製造業・流通サービス業向けに提供開始。3年間で売上高300億円を目標"
   ],
   url: "https://jpn.nec.com/press/202609/20260902_01.html",
-  image: null,
+  image: "https://jpn.nec.com/press/202609/images/0201_ogp.jpg",
   content: `## 概要
 NECは2026年9月2日、フロンティアAIが検出した脆弱性情報を活用し、IT資産管理から脆弱性の検出・優先度付け・対処までを一気通貫で支援する自律型マネージドサービス「BluStellar Intelligent Managed Service」を発表した。国内でAIエージェントの本番運用が広がる中、セキュリティ運用の現場においてもAIによる自律的な対応支援を打ち出した形だ。
 
@@ -198,7 +198,7 @@ NECは2026年9月2日、フロンティアAIが検出した脆弱性情報を活
     "レベル2++とレベル4で自動運転の中核AIモデルを共通化することで、開発投資の重複を抑制。トヨタは同方式により現在の交通事故死傷者数の約6割を防止できると試算"
   ],
   url: "https://xtech.nikkei.com/atcl/nxt/column/18/03367/082900038/",
-  image: null,
+  image: "https://xtech.nikkei.com/atcl/nxt/column/18/03367/082900038/topm.png?20220512",
   content: `## 概要
 トヨタ自動車は、End-to-End(E2E、入力から出力までを単一のAIが一貫して処理する)型AIを中核に据えた次世代の自動運転技術について、運転者の監視・介入責任が残る「レベル2++」と、それが不要な「レベル4」で中核となるAIモデルを共通化する方針を明らかにした。日経クロステックなどの報道によれば、2028年の量産投入に向けて開発が進められている。
 
@@ -232,7 +232,7 @@ NECは2026年9月2日、フロンティアAIが検出した脆弱性情報を活
     "成果はドイツ・ミュンヘンで開催のESC Congress 2026で発表され、European Heart Journal誌に掲載"
   ],
   url: "https://www.escardio.org/news/press/press-releases/ai-based-diagnosis-of-hypertension-and-diabetes-from-a-single-facial-video/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 東京大学と東京科学大学の研究チームは、顔と手のひらを撮影した動画をAIで解析するだけで、自覚症状のない高血圧・糖尿病を検出できる手法を開発したと発表した。成果はドイツ・ミュンヘンで開催された欧州心臓病学会(ESC)Congress 2026で発表され、European Heart Journal誌に掲載された。
 
@@ -264,7 +264,7 @@ AIによる疾患スクリーニングは、血液検査や専用機器を要す
     "中国の厳しい経済環境下でもAIが投資家心理を下支えする構図が続くが、Baiduの既存事業の落ち込みをAI関連事業の伸びがどこまで補えるかが焦点に"
   ],
   url: "https://www.benzinga.com/markets/tech/26/09/61544241/chinas-ai-race-heats-up-baidu-says-its-ai-investments-could-pay-off-as-cfo-bets-on-cloud-growth",
-  image: null,
+  image: "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/09/01/China-And-Nuclear-Counter-Strike.jpg",
   content: `## 概要
 中国検索大手Baiduが発表した2026年4〜6月期(第2四半期)決算は、AI関連事業への投資が先行する一方で、祖業である検索事業を中心とした既存事業の落ち込みが響き、増収増益とはならなかった。同社CFOは、AI投資について中期的な投資回収に自信を示している。
 
