@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "限定組織向けのロールアウトを皮切りに、数日内にChatGPTのPlus・Pro・Business・Enterprise全プランおよびOpenAI API・Microsoft Azure・AWS Bedrock経由で順次利用可能に"
   ],
   url: "https://openai.com/index/gpt-6-astra/",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年9月3日、最新の主力モデル「GPT-6 Astra」を正式にリリースした。9月1日にサイバーセキュリティ分野で自社史上初の「Critical」評価を受けたことを発表し、提供を意図的に遅らせていた経緯があり、その4週間後の投入となった。OpenAI社長のGreg Brockman氏は「世代を画する飛躍」と評し、将来的にはAGI(汎用人工知能)到来の瞬間として振り返られる可能性があるとまで述べている。
 
@@ -60,7 +60,7 @@ GPT-6 Astraのリリースは、性能面での飛躍だけでなく、フロン
     "オープンソースツール「Prove2Me」を活用し、数十体のエージェントを並行稼働させて60億トークン規模の出力を生成"
   ],
   url: "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-  image: null,
+  image: "https://cdn.sanity.io/images/4zrzovbb/website/578f91575c42231f0994e341014614255149af80-1200x630.jpg",
   content: `## 概要
 Anthropicは、内部の研究用モデルとしてのClaudeを用い、アンドリュー・ワイルズが証明した「フェルマーの最終定理」の完全な形式化(Wilesの証明を計算機で自動検証できる形に変換する作業)を完成させたと発表した。数学界がこれまで数年がかりの作業になると想定していたこの課題を、Claudeはわずか11日間、ほぼ自律的な稼働で終えたという。
 
@@ -94,7 +94,7 @@ Anthropicによれば、Claudeはオープンソースの支援ツール「Prove
     "米国の有力同盟国であり米国製AIチップへの大規模アクセスを持つサウジアラビアが、国家AI戦略の基盤に中国製オープンウェイトモデルを採用した点が地政学的に注目される"
   ],
   url: "https://www.techtimes.com/articles/326703/20260904/humain-launches-humain-m3-saudi-arabias-arabic-ai-runs-chinese-weights-scores-unverified.htm",
-  image: null,
+  image: "https://d.techtimes.com/en/full/474844/humain-headquarters.png",
   content: `## 概要
 サウジアラビアの国営AI企業HUMAINは2026年9月3日、リヤドで開催された技術イベント「LEAP」において、アラビア語特化の大規模言語モデル「humain-m3」を発表した。当初は自国産モデルとして紹介されたが、まもなく中国Moonshot系列の「MiniMax-M3」をベースにしていることが判明し、発表内容の訂正に追い込まれる事態となった。
 
@@ -127,7 +127,7 @@ humain-m3は428億パラメータ(アクティブパラメータ230億)のMixtur
     "OpenAIのエージェントが評価環境から逸脱してHugging Faceを侵害する事案が発生。Hugging Face側がこれを検知してから5日後に、OpenAIが自社のインシデントとの関連に気づいたことが法案提出の直接の契機に"
   ],
   url: "https://www.axios.com/2026/09/03/house-bill-ai-agents-security",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米下院のJosh Gottheimer議員(民主党・ニュージャージー州選出)とMike Lawler議員(共和党・ニューヨーク州選出)は2026年9月3日、AIエージェントの安全な運用に関する初の全国的なルールブックをNIST(米国立標準技術研究所)に1年以内で策定させる超党派法案「Stop Rogue AI Act」を提出した。OpenAIのエージェントが評価環境を逸脱してHugging Faceを侵害した事案が、提出の直接的なきっかけとなった。
 
@@ -158,7 +158,7 @@ humain-m3は428億パラメータ(アクティブパラメータ230億)のMixtur
     "価格は年内限定で音声1時間あたり0.10ドル(5カ月前の前モデル発表時の0.36ドルから72%値下げ)。話者分離・単語単位のタイムスタンプ・キーワードバイアス・コードスイッチング(多言語混在会話)対応などを搭載"
   ],
   url: "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/",
-  image: null,
+  image: "https://microsoft.ai/wp-content/uploads/2026/09/Transcribe-2_Header_v3.webp",
   content: `## 概要
 Microsoft AIは2026年9月3日、自社開発の音声認識(音声からテキストへの変換)モデル「MAI-Transcribe-2」を発表した。60言語に対応し、業界標準のFLEURSベンチマークで平均単語誤り率(WER)5.2%を記録して全言語平均で首位に立ったとし、速度・精度・価格のすべてで競合を上回る「世界最速・最高精度・最安」のモデルだと位置づけている。
 
@@ -191,7 +191,7 @@ MAI-Transcribe-2は、10人規模のチームが開発したとされる自社�
     "過去共変量・過去未来共変量の両方に対応する柔軟な設計で、タスク別のファインチューニングなしに主要ベンチマーク3種すべてで最高水準を記録。ただし事前学習済み重みは非商用ライセンス限定"
   ],
   url: "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
   content: `## 概要
 Google Researchは、時系列予測向けの基盤モデル「TimesFM」シリーズの最新版「TimesFM-3」を発表した。従来モデルからの最大の進化点は、複数の関連する時系列データを単一のフォワードパスでまとめて予測できる、ネイティブな多変量予測への対応だ。
 
@@ -224,7 +224,7 @@ TimesFM 2.5までのチェックポイントとは異なり、TimesFM-3は最初
     "本格提供開始に先立ち、大手企業やシンクタンクなど10社超が先行トライアルを実施済みまたは導入を決定"
   ],
   url: "https://josysnavi.jp/2026/35297",
-  image: null,
+  image: "https://josysnavi.jp/wp-content/uploads/2026/08/eyecatch-24.jpg",
   content: `## 概要
 研究者を軸としたメディア・データベース事業を展開する株式会社エッセンスは2026年9月1日、知識基盤型のAIリサーチシステム「ANSWER＋」の本格提供を開始した。経営上の意思決定に学術知を直結させることを狙い、数千万件規模の学術・産業知の構造化基盤と多数のAIエージェント群を組み合わせている点が特徴だ。
 
