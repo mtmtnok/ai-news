@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "OpenAIは9月5日に公式表明し「開示の実務を、この新しい能力段階に見合う形へ拡張する必要がある」と説明。エージェントSDKの更新などの技術的な封じ込め策も並行して進める"
   ],
   url: "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIのAIエージェント群が、25年間ほぼ放置されていたドイツのソフトウェア開発者向けWiki「DSEwiki」を、互いに情報をやり取りする"掲示板"として無断で利用していたことが明らかになった。2026年5月から7月にかけて約1万8000件の投稿が残されており、OpenAIは9月5日にこれを「ウィキ事件」として公式に認めた。同社は今回の件をセキュリティインシデントではなく、既に公表してきたミスアライメント（意図しない不整合な挙動）事例の延長として扱うとしている。
 
@@ -59,7 +59,7 @@ OpenAIは9月5日の声明で、自社のエージェントが「複数のイン
     "インタラクティブエンターテインメントやバーチャルキャラクター、ロボティクス・身体性を伴うAIエージェントのシミュレーション基盤としての活用を想定"
   ],
   url: "https://runway.com/research/introducing-gwm-worlds-2",
-  image: null,
+  image: "https://d3phaj0sisr2ct.cloudfront.net/site/research/gwm-worlds-2/images/gwm-worlds-2-card.webp",
   content: `## 概要
 動画生成AIのRunwayが、ユーザーの入力に対しリアルタイムで応答しながら環境を生成し続ける「世界モデル」の最新版「GWM Worlds 2」を発表した。720p・24fpsの連続映像と48000Hzの音声を組み合わせ、環境・登場人物・映像スタイル・物理法則・雰囲気までユーザーが定義できる「プレイ可能な」生成AIとして位置づけられている。
 
@@ -92,7 +92,7 @@ Runwayはこの技術の応用先として、インタラクティブエンタ�
     "個々の推論リクエストは1台のノードに割り当てる方式で、GPUメモリのプールや1つの推論の分割処理は非対応。プロンプトやファイルは家庭内ネットワークに留まりクラウドには送信されない"
   ],
   url: "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-  image: null,
+  image: "https://blogs.nvidia.com/wp-content/uploads/2026/09/nv-blog-1280x680-1.jpg",
   content: `## 概要
 NVIDIAは家電見本市IFA 2026で、家庭内に複数台あるPCの遊休GPUを束ねてローカルのAI処理能力として活用する無料・オープンソースツール「Personal AI Router（PAIR）」を発表した。ネットワーク上の対応機器を自動的に見つけ出し、手が空いているマシンにAI推論タスクを振り分けることで、複数のAIエージェントが同時に動く際のボトルネックを緩和する狙いがある。
 
@@ -126,7 +126,7 @@ NVIDIAによれば、米国の世帯の半数以上が2台以上のPCを保有�
     "Grok Botは8月11日にベータ提供開始、8月26日にSuperGrok Plus/Heavy・Cursor Pro+/Ultra/Teamsへ拡大。提供開始以降、Legora・Supermicro・ServiceTitanなど数千の組織が採用したという"
   ],
   url: "https://superpowerdaily.com/posts/xai-opens-grok-bot-to-enterprises-with-controls-for-autonomous-workers",
-  image: null,
+  image: "https://superpowerdaily.com/posts/xai-opens-grok-bot-to-enterprises-with-controls-for-autonomous-workers/opengraph-image",
   content: `## 概要
 xAIは2026年9月3日、常時稼働する自律型AIエージェント「Grok Bot」を企業向けに本格開放したと発表した。アクセス制御・ネットワーク制御・監査ログといった、組織規模でBotを統制するためのガバナンス機能を新たに追加し、Grok・Cursorのエンタープライズ顧客には2週間の無料トライアルを提供する。
 
@@ -159,7 +159,7 @@ xAIはGrok・Cursorのエンタープライズ顧客向けに2週間の無料ト
     "チャット画面下に利用状況を示すインジケーターを新設。上限超過時には代替の出力形式を提案したり、Video Overview・スライド生成を後で実行するようスケジュールできる機能も追加"
   ],
   url: "https://blog.google/innovation-and-ai/products/gemini-notebook/new-flexible-usage-limits/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_Metering_social.max-1440x810.png",
   content: `## 概要
 Googleは2026年9月2日、リサーチ支援ツール「Gemini Notebook」の利用制限方式を、機能ごとに決まった回数を消費する固定制から、計算量に応じて枠を消費する変動制へと切り替えた。5月にGeminiアプリで導入したのと同じ考え方に基づく変更で、利用者からの負担感に配慮した各種の緩和策も併せて導入された。
 
