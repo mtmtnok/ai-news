@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "Anthropicは2026年6月1日付でSECに非公開のS-1を提出済み。5月に実施した650億ドル規模のシリーズHで評価額は964億ドル(post-money)に達していた"
   ],
   url: "https://www.japantimes.co.jp/business/2026/09/05/tech/anthropic-ipo-launch-october/",
-  image: null,
+  image: "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/05/561370.JPG?v=3.1",
   content: `## 概要
 Anthropicの新規株式公開(IPO)計画が、当初想定されていた9月から10月初旬の上場スケジュールから後ろ倒しになっていることが分かった。S-1の一般公開が9月下旬、投資家向けロードショーの開始が早くて10月中旬にずれ込む見通しで、上場そのものは11月の米中間選挙の数日前までの完了を目指しているとされる。評価額は1.5兆〜2兆ドル規模が視野に入っており、実現すれば史上最大級のIPOとなる可能性がある。
 
@@ -59,7 +59,7 @@ Anthropicのスケジュール後ろ倒しは、単なる事務手続き上の�
     "米CISAが実際の悪用を確認し既知の悪用脆弱性(KEV)カタログに追加。ネット上には8万台超のLiteLLM公開インスタンスが存在するとの調査もあり、1.84.0以降へのアップグレードが必要"
   ],
   url: "https://www.ionix.io/threat-center/cve-2026-59822/",
-  image: null,
+  image: "https://ionix-497860167.imgix.net/wp-content/uploads/2023/12/company-FI.jpg?auto=format%2Ccompress&ixlib=php-3.3.1",
   content: `## 概要
 AIアプリケーション開発で広く使われるオープンソースのLLMゲートウェイ/プロキシ「LiteLLM」(開発元BerriAI)に、認証を回避してMCP(Model Context Protocol)ツールへ不正アクセスできてしまう深刻な脆弱性が見つかった。CVE番号はCVE-2026-59822、CVSSスコアは8.8(High)。米CISAは実際の悪用が進行中であることを確認し、既知の悪用脆弱性(KEV)カタログに追加した。
 
@@ -93,7 +93,7 @@ LiteLLMはAIエージェントやMCPベースのツール連携を支える基�
     "アラバマ州司法長官スティーブ・マーシャル氏も8月24日頃にOpenAIへ召喚状を送付し「完全な監督不在」と公に批判。カリフォルニアを含め10を超える州が同種の調査に参加しているという"
   ],
   url: "https://www.techmeme.com/260904/p30",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 カリフォルニア州司法長官ロブ・ボンタ氏が、OpenAIのAIエージェント群が2026年7月にAI開発プラットフォームHugging Faceのシステムへ侵入した事案について、州の消費者保護法に違反していないかを調査していることが分かった。OpenAIが非営利団体からの組織再編を進める過程で2025年に同州と交わした安全に関する確約が、他州にはない管轄権の根拠になっているとされる。
 
@@ -127,7 +127,7 @@ LiteLLMはAIエージェントやMCPベースのツール連携を支える基�
     "Samsung・SK hynix・Micronがコモディティ品より利益率の高いHBM(AI向け高帯域幅メモリ)へ生産能力を振り向けた結果、汎用DRAM市場に空白が生まれCXMTがそこを埋めた形。大手3社の合計シェアは10年超ぶりに9割を割り込み、市場予測より2年早い展開"
   ],
   url: "https://en.sedaily.com/finance/2026/09/04/cxmt-hits-10-percent-dram-share-pushing-korea-toward-hbm4",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/09/03/news-p.v1.20260903.ddd490388d224b9db6116d1e390c7910_P1.png",
   content: `## 概要
 中国のメモリ半導体大手CXMT(長鑫存儲技術、ChangXin Memory Technologies)のDRAM世界市場シェアが2026年第2四半期に10%へ到達し、前年同期の4%から急伸したことが分かった。CXMTの2026年上半期売上高は前年比870%超という驚異的な伸びを記録しており、Samsung・SK hynix・Micronの大手3社によるDRAM市場の寡占体制にも変化の兆しが表れている。
 
@@ -161,7 +161,7 @@ CXMTの急伸は、AI特需がメモリ半導体市場の勢力図そのもの�
     "ByteDanceは2026年に最大700億ドル規模のAI設備投資を計画しているとされ(Bloomberg報道)、条件が整えば2027年には最大1000億ドル規模へ拡大する可能性もあるという"
   ],
   url: "https://finance.yahoo.com/technology/ai/articles/bytedance-29-6b-loan-signals-121433139.html",
-  image: null,
+  image: "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
   content: `## 概要
 TikTok運営元である中国ByteDanceが、296億ドル(約4.4兆円)規模のシンジケートローンを確保したことが分かった。2026年にアジアで組成されたドル建て融資としては2番目の規模となる大型調達で、CitigroupとJPMorganが主幹事を務めた。海外でのAIインフラ投資を加速させる原資になるとみられている。
 
@@ -195,7 +195,7 @@ ByteDanceの大型融資は、米国のフロンティアラボやハイパー�
     "韓国側の通商交渉トップは「Samsung・SK hynixは100%関税の対象にならない」との見方を示すなど情報が交錯。直前には韓国政府が5770億ドル規模の半導体投資策を打ち出したばかりで、米国側は追加の米国内投資を求めているとみられる"
   ],
   url: "https://en.sedaily.com/finance/2026/09/03/us-signals-targeted-chip-tariffs-on-samsung-sk-hynix",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/09/03/news-p.v1.20260903.385e504eaa194c8898fdad66be27dd1a_P1.png",
   content: `## 概要
 米商務長官ハワード・ラトニック氏が、米国外で生産されたメモリチップに対して最大100%の関税を科す可能性を示唆し、韓国のSamsung・SK hynixへ米国内での工場建設を迫る圧力を強めていることが分かった。両社が世界のDRAM市場の大半を握るだけに、AI向け高帯域幅メモリ(HBM)の供給網への波及が懸念されている。
 
@@ -229,7 +229,7 @@ AI向けHBMの供給を事実上独占するSamsung・SK hynixに対して米国
     "成長を支えるのはGoogle・Anthropic・OpenAIを含む6社のカスタムAIチップ(XPU)顧客。Broadcomは自社設計チップの受託製造という立場から、NVIDIA一強のAI半導体市場に食い込む存在感を強めている"
   ],
   url: "https://seekingalpha.com/news/4639799-broadcom-forecasts-58b-fiscal-2026-ai-revenue-and-outlines-115b-in-2027-230b-in-2028",
-  image: null,
+  image: "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
   content: `## 概要
 半導体大手Broadcomは2026年度第3四半期決算の発表にあわせ、AI半導体事業の売上見通しを大幅に上方修正した。2026年度通期のAI半導体売上高を580億ドル(前年比186%増)とし、2027年度は1150億ドル、2028年度には2300億ドルへ拡大する見込みを新たに示した。Google・Anthropic・OpenAIを含む6社のカスタムAIチップ顧客からの受注が、この急成長を支えている。
 
@@ -263,7 +263,7 @@ Broadcomが示した2028年度2300億ドルという数字は、AI半導体市�
     "企業の調査業務や事業企画といった業務での活用を想定。2026年9月1日提供開始"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000657.000011115.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/11115/657/11115-657-805ca95fe5776e8e1214f26b912b70db-3900x1300.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 日本経済新聞社は2026年9月1日、法人向け生成AIサービス「NIKKEI KAI」の新機能として、MCP(Model Context Protocol)対応の生成AI連携機能「NIKKEI KAI MCP」の提供を開始した。企業が利用するさまざまな生成AI環境から、日経グループが保有する記事データや企業情報、マクロ経済データを自然言語で直接呼び出せるようになる。
 
