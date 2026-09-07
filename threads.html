@@ -83,6 +83,38 @@ svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
 .legend .li{display:inline-flex;align-items:center;gap:6px}
 .legend i{width:18px;height:3px;border-radius:2px;display:inline-block;flex:none}
 .legend i.dash{background:repeating-linear-gradient(90deg,currentColor 0 4px,transparent 4px 8px);color:#8a8377;height:2px}
+/* 相関図: 横フロー（B-018 1A で現行の縦レイヤー配置から差し替え） */
+.faded{opacity:.13;transition:opacity .12s ease}
+.svgwrap svg.flow{margin:0 auto}
+/* 図の下に出る関係一覧（何をクリックすべきか分からない問題への対処） */
+.rlist{margin:12px 4px 0;border-top:1px solid var(--rule);padding-top:10px}
+.rlist h4{font-size:12px;letter-spacing:.1em;color:var(--ink-faint);margin-bottom:6px;font-weight:700}
+.ritem{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:6px;font-size:13px;
+  text-decoration:none;color:inherit}
+.ritem:hover{background:#f3efe6}
+.ritem .rchip{font-size:10px;font-weight:700;color:#fff;border-radius:999px;padding:1px 8px;white-space:nowrap;flex:none}
+.ritem .who{font-weight:700;white-space:nowrap}
+.ritem .amt{font-weight:700;color:var(--vermilion);white-space:nowrap}
+.ritem .desc{color:var(--ink-soft);font-size:12.5px;flex:1;min-width:120px}
+.ritem .dt{color:var(--ink-faint);font-size:11px;white-space:nowrap}
+.ritem .src{color:var(--vermilion);font-size:11px;white-space:nowrap;opacity:.75}
+/* 人材スレッド専用: 移籍リスト（B-018 2A） */
+.moves{margin:2px 0 4px}
+.mgroup{border:1px solid var(--rule);border-radius:10px;background:#fff;margin-bottom:10px;overflow:hidden}
+.mghead{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:9px 14px;background:#faf7f0;
+  border-bottom:1px solid var(--rule);font-size:13px;color:var(--ink-soft)}
+.mghead b{font-size:14px;color:var(--ink)}
+.corp{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:700;color:#fff;
+  border-radius:6px;padding:3px 10px;white-space:nowrap}
+.mrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:9px 14px;text-decoration:none;color:inherit;
+  border-top:1px solid #efeade}
+.mrow:first-of-type{border-top:none}
+.mrow:hover{background:#f7f4ec}
+.mrow .pname{font-family:var(--serif);font-size:15px;font-weight:700;min-width:180px}
+.mrow .to{font-size:15px;color:var(--ink-faint);flex:none}
+.mrow .mdesc{font-size:12.5px;color:var(--ink-soft);flex:1;min-width:180px;line-height:1.6}
+.mrow .mdate{font-size:11.5px;color:var(--ink-faint);white-space:nowrap;margin-left:auto}
+@media (max-width:720px){ .mrow .pname{min-width:0} }
 /* タイムライン */
 .tl{border-left:2px solid var(--rule);margin:4px 0 0 7px;padding-left:0}
 .tl a{display:flex;gap:12px;align-items:baseline;padding:8px 6px 8px 18px;text-decoration:none;color:inherit;position:relative;
@@ -205,7 +237,12 @@ const nm = id => (N[id] || {label:id}).label;
 const scol = id => SECTOR[(N[id]||{}).sector]?.color || "#6e6a61";
 const amtText = v => v == null ? "金額非公表" : `約${v.toLocaleString()}億ドル`;
 const stars = n => "★★★".slice(0, n) || "★";
-const jpDate = iso => { const p = (iso||"").split("-"); return p.length === 3 ? `${p[0].slice(2)}年${+p[1]}月${+p[2]}日` : iso; };
+const jpDate = iso => {
+  const p = (iso||"").split("-");
+  if (p.length === 3) return `${p[0].slice(2)}年${+p[1]}月${+p[2]}日`;
+  if (p.length === 2) return `${p[0].slice(2)}年${+p[1]}月`;
+  return /^\d{4}$/.test(iso||"") ? `${iso.slice(2)}年` : iso;
+};
 
 // ニュース（タイムライン用）: NEWS_DATA + NEWS_ARCHIVE を統合
 const NEWS = [...(window.NEWS_DATA || []), ...(window.NEWS_ARCHIVE || [])];
@@ -245,120 +282,234 @@ window.__showNode = (tid, id) => {
 };
 window.__showEdge = i => showEdges(`${nm(R.edges[i].from)} と ${nm(R.edges[i].to)}`, edgeName(R.edges[i]), [R.edges[i]]);
 
-// ═══════════ ミニ相関図（レイヤー配置・スレッドのエッジのみ） ═══════════
-function miniMapSvg(tid){
-  const es = R.edges.map((e,i)=>({...e, _i:i})).filter(e => (e.threads||[]).includes(tid));
+// ═══════════ 相関図（横フロー・スレッドのエッジのみ） ═══════════
+// B-018（2026-09-07 判断済: 1A 2A）で縦レイヤー配置から差し替えた。
+//   旧: セクターごとに1行へ横並べ → 行が7社を超えると幅1040の外に出て見切れる／線が縦に交差して追えない
+//   新: セクターを「列」にして左→右に読ませる。幅は列数で決まるので、企業が増えても縦に伸びるだけ。
+//       あわせて、向き（矢印）・出資額（線の太さ）・カーソルでの絞り込みを足した。
+const COLDEF = [
+  { key:"invest", test:n => n.sector === "invest" },
+  { key:"semi",   test:n => n.sector === "semi" },
+  { key:"cloud",  test:n => n.sector === "cloud" },
+  { key:"lab",    test:n => n.sector === "lab" },
+  { key:"app",    test:n => n.sector === "app" }
+];
+const COLNAME = { invest:"資金", semi:"半導体", cloud:"クラウド・ビッグテック", lab:"AIラボ", app:"応用・スタートアップ" };
+const SUBORDER = { design:0, fab:1, memdev:2 };
+
+function flowMapSvg(tid){
+  const es = R.edges.map((e,i) => ({...e, _i:i})).filter(e => (e.threads||[]).includes(tid));
   if (!es.length) return "";
   const used = new Set(); es.forEach(e => { used.add(e.from); used.add(e.to); });
-  const idsOf = (sector, sub) => R.nodes
-    .filter(n => used.has(n.id) && n.sector === sector && (sub ? n.sub === sub : true))
-    .map(n => n.id);
+  const cols = COLDEF
+    .map(c => ({ ...c, ids: R.nodes.filter(n => used.has(n.id) && c.test(n)).map(n => n.id) }))
+    .filter(c => c.ids.length);
+  // 半導体列だけは工程順（設計→製造→メモリ・装置）を固定する
+  cols.forEach(c => { if (c.key === "semi") c.ids.sort((a,b) => (SUBORDER[N[a].sub] ?? 9) - (SUBORDER[N[b].sub] ?? 9)); });
 
-  const semiRows = [
-    { sub:"design", ids: idsOf("semi","design") },
-    { sub:"fab",    ids: idsOf("semi","fab") },
-    { sub:"memdev", ids: idsOf("semi","memdev") }
-  ].filter(r => r.ids.length);
-  // 半導体ノードが少なければ1行にまとめる（ミニ図では行を増やしすぎない）
-  const semiZoneRows = semiRows.reduce((s,r) => s + r.ids.length, 0) <= 4
-    ? (idsOf("semi").length ? [{ ids: idsOf("semi") }] : [])
-    : semiRows;
+  const CW = 176, CGAP = 34, NH = 34, RGAP = 12, TOP = 46, PAD = 16;
+  const W = PAD*2 + cols.length*CW + (cols.length-1)*CGAP;
+  const maxRows = Math.max(...cols.map(c => c.ids.length));
+  const H = TOP + maxRows*(NH + RGAP) + 14;
+  cols.forEach((c,i) => { c.x = PAD + i*(CW + CGAP); });
 
-  const zones = [
-    { sector:"app",  rows:[{ ids: idsOf("app") }] },
-    { sector:"lab",  rows:[{ ids: idsOf("lab") }] },
-    { sector:"cloud",rows:[{ ids: idsOf("cloud") }] },
-    { sector:"semi", rows: semiZoneRows },
-    { sector:"invest", rows:[{ ids: idsOf("invest") }] }
-  ].filter(z => z.rows.some(r => r.ids.length));
-
-  const W = 1040, XL = 96, XR = 1020, NH = 44, ROWH = 84, ZPAD = 34, ZGAP = 22;
-  let y = 14;
-  const rows = [];
-  zones.forEach(z => {
-    z.y0 = y; y += ZPAD;
-    z.rows.forEach(r => { r.y = y + (ROWH - NH)/2; r.zone = z; rows.push(r); y += ROWH; });
-    z.y1 = y + 4; y = z.y1 + ZGAP;
+  const pos = {};
+  const layout = () => cols.forEach(c => {
+    const h = c.ids.length*(NH + RGAP) - RGAP;
+    let y = TOP + (H - TOP - 14 - h)/2;              // 列ごとに縦中央寄せ
+    c.ids.forEach(id => { pos[id] = { x:c.x, y, cx:c.x + CW/2, cy:y + NH/2, col:c }; y += NH + RGAP; });
   });
-  const H = y;
-
-  const wOf = id => 30 + [...nm(id)].reduce((s,ch) => s + (ch.charCodeAt(0) > 255 ? 15.5 : 9.5), 0) + (N[id].jp ? 16 : 0);
-  const placeRow = r => {
-    const tw = r.ids.reduce((s,id) => s + wOf(id), 0);
-    const gap = Math.max(14, (XR - XL - tw) / (r.ids.length + 1));
-    let x = XL + gap;
-    r.pos = {};
-    r.ids.forEach(id => { r.pos[id] = { x, w: wOf(id), cx: x + wOf(id)/2, y: r.y }; x += wOf(id) + gap; });
-  };
-  rows.forEach(placeRow);
-  const posOf = id => { for (const r of rows) if (r.pos[id]) return r.pos[id]; return null; };
-
-  for (let it = 0; it < 4; it++) rows.forEach(r => {
+  layout();
+  // 交差を減らす: 隣の列での平均位置に寄せる（半導体列は工程順を守るので動かさない）
+  for (let it = 0; it < 6; it++) cols.forEach(c => {
+    if (c.key === "semi") return;
     const bary = id => {
       const ps = es.filter(e => e.from === id || e.to === id)
-        .map(e => posOf(e.from === id ? e.to : e.from)).filter(Boolean);
-      return ps.length ? ps.reduce((s,p) => s + p.cx, 0) / ps.length : posOf(id).cx;
+        .map(e => pos[e.from === id ? e.to : e.from]).filter(Boolean);
+      return ps.length ? ps.reduce((s,p) => s + p.cy, 0) / ps.length : pos[id].cy;
     };
-    r.ids.sort((a,b) => bary(a) - bary(b));
-    placeRow(r);
+    const b = {}; c.ids.forEach(id => b[id] = bary(id));
+    c.ids.sort((x,y) => b[x] - b[y]);
+    layout();
   });
 
-  // 同一ペアの複数エッジ（人材など）をずらして描く
+  // 線の太さ = 出資額（金額のない関係は一定）
+  const amts = es.filter(e => e.type === "invest" && e.amount).map(e => e.amount);
+  const amax = amts.length ? Math.max(...amts) : 1;
+  const edgeW = e => e.type === "invest" && e.amount ? 1.8 + 4.6*Math.sqrt(e.amount/amax) : 2.2;
+
   const pairSeen = {};
   const edges = es.map(e => {
-    let a = posOf(e.from), b = posOf(e.to);
+    const a = pos[e.from], b = pos[e.to];
     if (!a || !b) return "";
     const pk = [e.from, e.to].sort().join("|");
-    const off = (pairSeen[pk] = (pairSeen[pk] ?? -1) + 1) * 9;
+    const off = (pairSeen[pk] = (pairSeen[pk] ?? -1) + 1) * 7;
     let d;
-    if (Math.abs(a.y - b.y) < 2) {
-      const y0 = a.y, top = y0 - 40 - off;
-      d = `M ${a.cx + off} ${y0} C ${a.cx + off} ${top}, ${b.cx + off} ${top}, ${b.cx + off} ${y0}`;
+    if (a.col === b.col) {                            // 同じ列どうしは右側に弧を描く
+      const x = a.x + CW, bulge = 44 + off*10;
+      d = `M ${x} ${a.cy} C ${x+bulge} ${a.cy}, ${x+bulge} ${b.cy}, ${x} ${b.cy}`;
     } else {
-      if (a.y > b.y) [a, b] = [b, a];
-      const y1 = a.y + NH, y2 = b.y, dy = (y2 - y1) * .5;
-      d = `M ${a.cx + off} ${y1} C ${a.cx + off} ${y1 + dy}, ${b.cx + off} ${y2 - dy}, ${b.cx + off} ${y2}`;
+      const l = a.col.x < b.col.x ? a : b, r = a.col.x < b.col.x ? b : a;
+      const x1 = l.x + CW, x2 = r.x - 5, y1 = l.cy + off, y2 = r.cy + off, dx = (x2 - x1)*.45;
+      d = `M ${x1} ${y1} C ${x1+dx} ${y1}, ${x2-dx} ${y2}, ${x2} ${y2}`;
     }
     const faded = e.status === "ended";
     const dash = (e.status && e.status !== "official") ? 'stroke-dasharray="6 5"' : "";
-    return `<path class="pedge" onclick="__showEdge(${e._i})" d="${d}" fill="none"
-      stroke="${faded ? "#8a8377" : edgeCol(e)}" stroke-opacity="${faded ? .38 : .55}" stroke-width="2.6" ${dash}>
+    return `<path class="pedge ed ed-${e.from} ed-${e.to}" onclick="__showEdge(${e._i})" d="${d}" fill="none"
+      stroke="${faded ? "#8a8377" : edgeCol(e)}" stroke-opacity="${faded ? .35 : .6}" stroke-width="${edgeW(e).toFixed(1)}" ${dash}
+      marker-end="url(#ar-${tid}-${e._i})">
       <title>${esc(nm(e.from))} ${e.type === "partner" ? "×" : "→"} ${esc(nm(e.to))}: ${esc(edgeName(e))}</title></path>`;
   }).join("");
 
-  const zoneBg = zones.map(z => {
-    const c = SECTOR[z.sector].color;
-    const subs = z.rows.length > 1 ? z.rows.map(r =>
-      `<text x="30" y="${r.y + NH/2 + 4}" font-size="11.5" font-weight="700" fill="${c}" opacity=".8">${SUBNAME[r.sub] || ""}</text>` +
-      (r !== z.rows[z.rows.length-1] ? `<line x1="24" y1="${r.y + ROWH - 6}" x2="${W-24}" y2="${r.y + ROWH - 6}" stroke="${c}" stroke-opacity=".18" stroke-dasharray="4 5"/>` : "")
-    ).join("") : "";
-    return `<rect x="10" y="${z.y0}" width="${W-20}" height="${z.y1 - z.y0}" rx="12" fill="${c}" fill-opacity=".055" stroke="${c}" stroke-opacity=".22"/>
-      <text x="26" y="${z.y0 + 22}" font-size="13" font-weight="800" fill="${c}" letter-spacing="2.5">${SECTOR[z.sector].name}</text>${subs}`;
+  // 矢印は向きのある関係（出資・買収・移籍）だけに付ける。提携は相互なので付けない
+  const markers = es.map(e => {
+    if (e.type === "partner") return `<marker id="ar-${tid}-${e._i}" markerWidth="0" markerHeight="0"></marker>`;
+    const c = e.status === "ended" ? "#8a8377" : edgeCol(e);
+    return `<marker id="ar-${tid}-${e._i}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5"
+      orient="auto-start-reverse"><path d="M0,0.5 L10,5 L0,9.5 z" fill="${c}"/></marker>`;
   }).join("");
 
-  const nodesSvg = rows.map(r => r.ids.map(id => {
-    const p = r.pos[id], n = N[id];
-    return `<g class="nbox" onclick="__showNode('${tid}','${id}')">
-      <rect x="${p.x}" y="${p.y}" width="${p.w}" height="${NH}" rx="8" fill="${scol(id)}"/>
-      <text x="${p.x + (n.jp ? 24 : 14)}" y="${p.y + NH/2 + 5.5}" font-size="15" font-weight="700" fill="#fff">${esc(n.label)}</text>
-      ${n.jp ? hinoSvg(p.x + 14, p.y + NH/2) : ""}
-    </g>`;
+  const heads = cols.map(c =>
+    `<text x="${c.x + CW/2}" y="26" text-anchor="middle" font-size="12" font-weight="800"
+      fill="${SECTOR[c.key].color}" letter-spacing="1.5">${COLNAME[c.key]}</text>
+     <line x1="${c.x}" y1="34" x2="${c.x + CW}" y2="34" stroke="${SECTOR[c.key].color}" stroke-opacity=".3"/>`).join("");
+
+  // 工程ラベルは、半導体列に2種類以上の工程が混ざるときだけ出す
+  const semiCol = cols.find(c => c.key === "semi");
+  const showSub = semiCol && new Set(semiCol.ids.map(id => N[id].sub)).size > 1;
+
+  const nodesSvg = cols.map(c => c.ids.map(id => {
+    const p = pos[id], n = N[id];
+    const sub = (c.key === "semi" && n.sub && showSub)
+      ? `<text x="${p.x + CW - 8}" y="${p.y + NH/2 + 4}" text-anchor="end" font-size="10" fill="#fff" fill-opacity=".72">${SUBNAME[n.sub]}</text>` : "";
+    const deg = es.filter(e => e.from === id || e.to === id).length;
+    return `<g class="nbox nd nd-${id}" data-id="${id}" onclick="__showNode('${tid}','${id}')">
+      <rect x="${p.x}" y="${p.y}" width="${CW}" height="${NH}" rx="7" fill="${scol(id)}"/>
+      <text x="${p.x + (n.jp ? 26 : 12)}" y="${p.y + NH/2 + 5}" font-size="13.5" font-weight="700" fill="#fff">${esc(n.label)}</text>
+      ${n.jp ? hinoSvg(p.x + 13, p.y + NH/2) : ""}${sub}
+      <title>${esc(n.label)}（このストーリーでの関係 ${deg}件）</title></g>`;
   }).join("")).join("");
 
   // 凡例: この図に実際に出てくる線の種類だけ
   const kinds = new Map();
   es.forEach(e => { const k = edgeName(e); if (!kinds.has(k)) kinds.set(k, edgeCol(e)); });
   const hasUnofficial = es.some(e => e.status && e.status !== "official");
+  const hasAmount = amts.length > 0;
   const legend = `<div class="legend">` +
     [...kinds.entries()].map(([k,c]) => `<span class="li"><i style="background:${c}"></i>${esc(k)}</span>`).join("") +
     (hasUnofficial ? `<span class="li"><i class="dash"></i>報道・交渉中・終了</span>` : "") +
-    `</div>`;
+    (hasAmount ? `<span class="li" style="color:var(--ink-faint)">線の太さ＝出資額</span>` : "") +
+    `<span class="li" style="color:var(--ink-faint)">矢印＝向き</span></div>`;
 
   return `
-    <div class="caption"><b>このストーリーの相関図</b><span>関わる企業だけを表示</span><span>クリックで詳細・出典</span></div>
-    <div class="svgwrap"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="ストーリーの相関図">
-      ${zoneBg}${edges}${nodesSvg}
-    </svg></div>${legend}`;
+    <div class="caption"><b>このストーリーの相関図</b><span>左から右へ読む</span>
+      <span>企業に触れるとその企業の関係だけが残ります</span><span>クリックで詳細・出典</span></div>
+    <div class="svgwrap"><svg class="flow" viewBox="0 0 ${W} ${H}" style="max-width:${W}px" role="img" aria-label="ストーリーの相関図">
+      <defs>${markers}</defs>${heads}${edges}${nodesSvg}
+    </svg></div>${legend}
+    <div class="rlist"><h4 data-role="rlh">関係の一覧（規模順・上位8件）</h4><div data-role="rlb">${relRowsHtml(tid, null)}</div></div>`;
+}
+
+// 図の下に出す関係一覧。図だけでは金額・日付・出典が見えないため常設する
+function relRowsHtml(tid, focusId){
+  let es = R.edges.map((e,i) => ({...e, _i:i})).filter(e => (e.threads||[]).includes(tid));
+  if (focusId) es = es.filter(e => e.from === focusId || e.to === focusId);
+  es.sort((a,b) => (b.amount||0) - (a.amount||0) || (b.date||"").localeCompare(a.date||""));
+  if (!focusId) es = es.slice(0, 8);
+  return es.map(e => `<a class="ritem" href="${esc(e.source)}" target="_blank" rel="noopener">
+    <span class="rchip" style="background:${edgeCol(e)}">${esc(edgeName(e))}</span>
+    <span class="who">${esc(nm(e.from))} ${e.type === "partner" ? "×" : "→"} ${esc(nm(e.to))}</span>
+    ${e.person ? `<span class="amt">${esc(e.person)}</span>` : ""}
+    ${e.amount != null ? `<span class="amt">${e.amount.toLocaleString()}億ドル</span>` : ""}
+    <span class="desc">${esc(e.label)}</span>
+    <span class="dt">${jpDate(e.date)}${e.status && e.status !== "official" ? "・" + STATUS_LABEL[e.status] : ""}</span>
+    <span class="src">出典↗</span></a>`).join("");
+}
+
+// ═══════════ 人材スレッド専用: 移籍リスト ═══════════
+// B-018 2A。人材の主役は企業ではなく人物なので、企業を結ぶ図ではなく
+// 「どこから誰が、どこへ動いたか」を流出元でまとめて出す。
+function talentMovesHtml(tid){
+  const es = R.edges.map((e,i) => ({...e, _i:i})).filter(e => (e.threads||[]).includes(tid));
+  if (!es.length) return "";
+  const moves = es.filter(e => e.type === "talent");
+  const buys  = es.filter(e => e.type === "ma" || e.type === "invest")
+    .sort((a,b) => (b.date||"").localeCompare(a.date||""));
+  const others = es.filter(e => e.type === "partner");
+  const corp = id => `<span class="corp" style="background:${scol(id)}">${N[id]?.jp ? '<span class="hino"></span>' : ""}${esc(nm(id))}</span>`;
+
+  // 流出元ごとにまとめる（多い順）
+  const byFrom = new Map();
+  moves.forEach(e => { if (!byFrom.has(e.from)) byFrom.set(e.from, []); byFrom.get(e.from).push(e); });
+  const groups = [...byFrom.entries()].sort((a,b) => b[1].length - a[1].length);
+
+  const movesHtml = groups.map(([from, list]) => `
+    <div class="mgroup">
+      <div class="mghead">${corp(from)} から <b>${list.length}件</b>の流出</div>
+      ${list.sort((a,b) => (b.date||"").localeCompare(a.date||"")).map(e => `
+        <a class="mrow" href="${esc(e.source)}" target="_blank" rel="noopener">
+          <span class="pname">${esc(e.person || "（氏名非公表）")}</span>
+          <span class="to">→</span>${corp(e.to)}
+          <span class="mdesc">${esc(e.label)}</span>
+          <span class="mdate">${jpDate(e.date)}${e.status && e.status !== "official" ? "・" + STATUS_LABEL[e.status] : ""} 出典↗</span>
+        </a>`).join("")}
+    </div>`).join("");
+
+  const buysHtml = buys.length ? `
+    <div class="sec"><h3>会社ごと取得した</h3><div class="bar"></div><span class="cnt">買収・大型出資 ${buys.length}件</span></div>
+    <div class="mgroup">
+      ${buys.map(e => `
+        <a class="mrow" href="${esc(e.source)}" target="_blank" rel="noopener">
+          <span class="pname" style="min-width:0">${corp(e.from)}</span>
+          <span class="to">${e.type === "ma" ? "が買収 →" : "が出資 →"}</span>${corp(e.to)}
+          ${e.amount != null ? `<span class="corp" style="background:${edgeCol(e)}">${e.amount.toLocaleString()}億ドル</span>` : ""}
+          <span class="mdesc">${esc(e.label)}</span>
+          <span class="mdate">${jpDate(e.date)}${e.status && e.status !== "official" ? "・" + STATUS_LABEL[e.status] : ""} 出典↗</span>
+        </a>`).join("")}
+    </div>` : "";
+
+  const othersHtml = others.length ? `
+    <div class="rlist"><h4>そのほかの関係</h4>${others.map(e => `
+      <a class="ritem" href="${esc(e.source)}" target="_blank" rel="noopener">
+        <span class="rchip" style="background:${edgeCol(e)}">${esc(edgeName(e))}</span>
+        <span class="who">${esc(nm(e.from))} × ${esc(nm(e.to))}</span>
+        <span class="desc">${esc(e.label)}</span>
+        <span class="dt">${jpDate(e.date)}${e.status && e.status !== "official" ? "・" + STATUS_LABEL[e.status] : ""}</span>
+        <span class="src">出典↗</span></a>`).join("")}</div>` : "";
+
+  return `
+    <div class="caption"><b>誰が、どこから、どこへ動いたか</b><span>移籍 ${moves.length}件・買収 ${buys.length}件</span>
+      <span>クリックで出典</span></div>
+    <div class="moves">${movesHtml}</div>${buysHtml}${othersHtml}`;
+}
+
+// スレッドごとに図の型を選ぶ（B-018 2A: 人材だけ移籍リスト、他は横フロー）
+const storyMapHtml = tid => tid === "talent" ? talentMovesHtml(tid) : flowMapSvg(tid);
+
+// 図の企業に触れると、その企業の関係だけを残して一覧も絞り込む
+function wireFocus(el, tid){
+  const svg = el.querySelector("svg.flow");
+  if (!svg) return;
+  const head = el.querySelector('[data-role="rlh"]'), body = el.querySelector('[data-role="rlb"]');
+  const apply = id => {
+    if (!id) {
+      svg.querySelectorAll(".ed,.nd").forEach(x => x.classList.remove("faded"));
+      if (head) head.textContent = "関係の一覧（規模順・上位8件）";
+      if (body) body.innerHTML = relRowsHtml(tid, null);
+      return;
+    }
+    const keep = new Set([id]);
+    R.edges.forEach(e => { if ((e.threads||[]).includes(tid) && (e.from === id || e.to === id)) keep.add(e.from === id ? e.to : e.from); });
+    svg.querySelectorAll(".ed").forEach(p => p.classList.toggle("faded", !p.classList.contains("ed-" + id)));
+    svg.querySelectorAll(".nd").forEach(g => g.classList.toggle("faded", !keep.has(g.dataset.id)));
+    const cnt = R.edges.filter(e => (e.threads||[]).includes(tid) && (e.from === id || e.to === id)).length;
+    if (head) head.textContent = `${nm(id)} の関係（${cnt}件）`;
+    if (body) body.innerHTML = relRowsHtml(tid, id);
+  };
+  svg.querySelectorAll(".nd").forEach(g => {
+    g.addEventListener("mouseenter", () => apply(g.dataset.id));
+    g.addEventListener("mouseleave", () => apply(null));
+  });
 }
 
 // ═══════════ タイムライン ═══════════
@@ -416,10 +567,11 @@ function renderThread(el, t){
       <h2>いま、どうなっているか</h2>
       ${t.status.map(s => `<p>${esc(s)}</p>`).join("")}
     </div>
-    ${miniMapSvg(t.id)}
+    ${storyMapHtml(t.id)}
     <div class="sec"><h3>タイムライン</h3><div class="bar"></div><span class="cnt">紐付いた記事 ${newsCount}件・関係 ${edgeCount}件</span></div>
     ${timelineHtml(t)}
     ${t.id === "semi" ? semiShareHtml() : ""}`;
+  wireFocus(el, t.id);
 }
 
 // ═══════════ タブ制御 ═══════════
