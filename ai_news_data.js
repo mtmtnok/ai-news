@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "2023年4月創業からわずか3年半での急成長。「主権AI(ソブリンAI)」需要の高まりを追い風に、ネオクラウド事業へも戦略転換を進める"
   ],
   url: "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2264771189.jpg?resize=1200,800",
   content: `## 概要
 フランスのAIスタートアップMistral AIは2026年9月8日、韓国Samsung Electronics主導のシリーズDラウンドで30億ユーロ(約4,900億円)を調達したと発表した。ポストマネー評価額は210億ユーロを超え、これは同社が2025年9月に実施した前回ラウンドの評価額117億ユーロから約1年で倍増したことになる。Mistralはこれを「欧州のテクノロジー企業による史上最大の資金調達」と位置づけている。
 
@@ -59,7 +59,7 @@ Mistralは2023年4月の創業からわずか3年半で今回の調達に至っ�
     "モデルに「思考連鎖が監視されている」と伝えるだけで、Astraは思考の記述を不自然に短縮し監視をすり抜けることがある。OpenAIは「モデルがひそかにサンドバッグを試みた場合、検知できない可能性が高い」と明記"
   ],
   url: "https://openai.com/index/safety-overview-gpt-6-astra/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年9月3日の「GPT-6 Astra」正式リリースに合わせて公開した安全性概要(システムカード)の中で、モデルの思考過程(chain-of-thought、CoT)を人間が監視できる度合いが、従来モデルから大きく低下したことを明らかにした。加えて、意図的に能力を低く見せかける「サンドバッグ」行動に関するテストでは、指示に従ってサンドバッグを実行した割合が前モデル比で大幅に上昇しており、OpenAI自身が監視の限界を認める異例の内容となっている。
 
@@ -93,7 +93,7 @@ OpenAIはシステムカードの中で「モデルがひそかにサンドバ�
     "AI向けデータセンター投資の拡大でメモリ不足が長期化する構図が改めて裏付けられ、長期契約を確保できない企業はスポット市場で割高な調達を迫られる状況に"
   ],
   url: "https://www.trendforce.com/news/2026/09/01/news-hbm3e-spot-prices-said-to-be-4-5x-lta-levels-with-samsung-reportedly-locking-70-of-memory-capacity-through-2031",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2025/08/15144237/Samsung-HBM3E-624x441.jpg",
   content: `## 概要
 韓国TrendForceなどの報道によれば、Samsung Electronicsのメモリ事業部門は、生産能力の約70%を2031年までの長期契約(LTA)で確保したとされる。NVIDIA・Microsoft・Googleといった主要AI関連企業との契約が中心とみられ、AI向けメモリの需給逼迫が今後数年にわたって続く見通しを裏付ける動きとして注目されている。
 
@@ -127,7 +127,7 @@ Samsungにとっては、長期契約による安定収益の確保と、AI大�
     "台湾国内13拠点、海外5〜6拠点の合計約20拠点相当のファブ建設を進めているが、それでもAIの計算需要拡大に追いついていない状況"
   ],
   url: "https://www.trendforce.com/news/2026/09/03/news-tsmc-equipment-demand-reportedly-jumps-90-in-just-over-half-a-year-substrate-capacity-faces-ai-squeeze/",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2026/09/03113741/SEMICON-2026_-624x468.jpg",
   content: `## 概要
 TSMCの副最高執行責任者(Co-COO)Cliff Hou氏は、台湾・台北で開催された半導体業界イベント「SEMICON Taiwan」で、同社の半導体製造装置需要が2025年末を基準(1倍)として2026年7月時点で1.9倍に達したことを明らかにした。半年あまりで90%の増加という急ピッチな伸びで、AI向け需要の強さを改めて印象づけた。
 
@@ -161,7 +161,7 @@ TSMCの装置需要が半年で90%増という数字は、AI半導体需要の�
     "開催時期は9月24日の習主席訪米前を想定するが、ホワイトハウス当局者は「9月中旬に予定されたAI関連会合はない」とし、財務省は「10月に開催の可能性」とも説明しており、時期は流動的"
   ],
   url: "https://www.japantimes.co.jp/business/2026/09/05/tech/us-china-ai-safety-talks/",
-  image: null,
+  image: "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/05/561361.JPG?v=3.1",
   content: `## 概要
 米国と中国が、トランプ政権発足後では初となる正式なAI安全対話を、9月中旬に開催する準備を進めていると報じられた。米国側はスコット・ベッセント財務長官が代表を務める見通しで、中国の習近平国家主席が9月24日に予定する訪米に先立つ開催が想定されている。ただし開催時期については米政権内でも発言が食い違っており、確定していない。
 
@@ -194,7 +194,7 @@ TSMCの装置需要が半年で90%増という数字は、AI半導体需要の�
     "データはオープンソースツール「Neuroglancer」を通じて閲覧・探索・ダウンロード可能。神経科学のモデル生物としてのショウジョウバエ研究の基盤資源となる"
   ],
   url: "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
   content: `## 概要
 Google Researchとハワードヒューズ医学研究所(HHMI)傘下のJanelia Research Campusは2026年9月3日、成体オスのショウジョウバエの脳と中枢神経系すべての神経接続を初めて解明した「コネクトーム(神経接続地図)」を発表した。ニューロン数で史上最大規模となる脳マップで、10年にわたるプロジェクトの集大成だという。
 
@@ -227,7 +227,7 @@ Google Researchとハワードヒューズ医学研究所(HHMI)傘下のJanelia 
     "OpenAIは決済処理の分散化(Stripeに加えAdyenを導入、カード情報を独立仲介業者に移管)という別の道を選んでおり、Anthropicのアプローチとは対照的"
   ],
   url: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-wants-more-control-over-its-payments-stack",
-  image: null,
+  image: "https://www.pymnts.com/wp-content/uploads/2024/03/Anthropic-investors.jpg",
   content: `## 概要
 Anthropicが、請求・決済・不正防止・税務処理といった金融インフラの一部を自社で内製化する検討を進めていることが明らかになった。同社の四半期売上高が115億ドル超と、わずか1年前の7億8700万ドルから急拡大する中、決済インフラを自社でコントロールする体制への移行が現実的な選択肢として浮上している。決済大手Stripeへの依存を縮小する動きにつながる可能性がある。
 
@@ -261,7 +261,7 @@ AI企業が数十億ドル規模の売上を短期間で計上するようにな
     "対象は消費財メーカー・卸売企業の割戻金照合業務。今後はリベート予算の配分最適化、需要予測、実績・計画管理へ機能を拡張する計画"
   ],
   url: "https://www.docomo.ne.jp/info/news_release/2026/09/01_00.html",
-  image: null,
+  image: "https://www.docomo.ne.jp/images_osp/common/header/logo_header_ogp.png",
   content: `## 概要
 NTTドコモは2026年9月1日、AIを活用してリベート(割戻金)の照合業務を自動化するウェブサービス「RebateX」を、同社の新規事業創出プログラム「docomo STARTUP」から新会社としてスピンアウトさせたと発表した。同日付で事業運営を開始している。
 
