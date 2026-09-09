@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "検知指標として「24時間365日の連続利用」「契約直後に上限利用へ跳躍」「複数IP・複数ユーザーエージェントでのアカウント共有」「サブスクリプション対API利用比率の異常」などを提示し、米AI事業者に注意喚起"
   ],
   url: "https://www.unite.ai/nsa-cisa-fbi-warn-china-based-ai-firms-distill-us-frontier-models/",
-  image: null,
+  image: "https://www.unite.ai/wp-content/uploads/2026/09/nsa-cisa-fbi-warn-china-based-ai-firms-distill-us-frontier-models.jpg",
   content: `## 概要
 米国家安全保障局(NSA)、サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)、連邦捜査局(FBI)は2026年9月8日、共同のサイバーセキュリティ勧告「AA26-251A」を公表した。DeepSeek・Alibaba・Moonshot AI・MiniMax・StepFun・Z.AIの中国AI企業6社が、2024年末から継続的に、米国のフロンティアAIモデルに対する「攻撃的かつ悪質、標的型」の組織的蒸留(ディスティレーション)キャンペーンを行ってきたと認定する内容で、米政府機関がこの規模で中国AI企業を名指しして技術窃取を告発するのは異例だ。
 
@@ -59,7 +59,7 @@ CISAの説明によれば、蒸留とは大規模で高性能なモデルの出�
     "Anthropicは自律型兵器や国内監視を禁止しない機密システム向けの追加契約締結を拒否。一方で過去にはCENTCOM(中央軍)がイラン空爆の「標的識別」にAnthropic技術を利用していたとの記録も判明"
   ],
   url: "https://theintercept.com/2026/09/08/pentagon-openai-military-contract/",
-  image: null,
+  image: "https://theintercept.com/wp-content/uploads/2026/09/AP26065716370444-e1788464092412.jpg?fit=7986%2C3993&#038;w=1200&#038;h=800",
   content: `## 概要
 調査報道メディアThe Interceptは2026年9月8日、情報公開請求(FOIA)訴訟を通じて入手した400ページを超える契約文書をもとに、米国防総省がOpenAI・Anthropic・Google・xAIの4社と2025年7月に締結した軍事AI契約の詳細を報じた。文書には国防総省がOpenAIに対し「拒否率を最小化した」AIモデルの提供を求めていた記述があったとされ、各社の公的な発言以上に緊密な軍との連携関係にあった実態が明らかになった。
 
@@ -92,7 +92,7 @@ The Interceptによれば、契約は2025年7月に締結され、各社最大2�
     "Buckmaster氏は、OpenAI研究者から「Alpöge氏の名前を外しAnthropic在籍を理由に共著から除けば先に発表させる」と持ちかけられ拒否したと告発。「キャリアを台無しにしたいのか」という圧力発言もあったと証言"
   ],
   url: "https://fortune.com/2026/09/08/openai-says-it-cracked-navier-stokes-math-grand-challenge-buckmaster-accusation-cheating-intimidation-tao-lament/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-115135450-e1788893955802.jpg?resize=1200,600",
   content: `## 概要
 OpenAIは2026年9月8日、クレイ数学研究所が100万ドルの懸賞金を懸けてきた「ミレニアム懸賞問題」の一つ、流体力学の基礎方程式「ナビエ・ストークス方程式」について、正式リリース版のGPT-6 Astraを上回る性能を持つ社内AIシステムが解を導いたと発表した。数学的な意義の大きさと同時に、成果発表を巡ってNYUの数学者とAnthropic所属の研究者との間で功績を巡る対立が表面化し、AI研究コミュニティに波紋が広がっている。
 
@@ -125,7 +125,7 @@ Buckmaster氏はこの提案を拒否し、もしOpenAIがそのような形で�
     "基盤モデルは同社の「Muse Spark 1.3」。米国のWeb・iOS/Android・WhatsAppで提供開始し、将来的にはMetaのAIグラスへの対応も予定"
   ],
   url: "https://www.axios.com/2026/09/08/meta-debuts-muse-personal-ai-agent",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Metaは2026年9月8日、ユーザーに代わって日常のタスクを自律的にこなす個人向けAIエージェント「Muse」を米国で一般提供開始した。マーク・ザッカーバーグCEOがかねて掲げてきた「一人ひとりがパーソナルAIアシスタントを持つ未来」の具体化であり、単なる対話型チャットボットではなく、長時間にわたり能動的にタスクを遂行する点を特徴とする製品として投入された。
 
@@ -159,7 +159,7 @@ OpenAIのChatGPTエージェント機能やGoogleのGeminiエージェント機�
     "北京時間9月10日頃に正式版「V4.1 Flash」をリリース予定。中国オープンウェイト勢の開発サイクルの速さを改めて示す事例に"
   ],
   url: "https://www.techflowpost.com/en-US/newsletter/135519",
-  image: null,
+  image: "https://www.techflowpost.com/favicon/twitter-image.png",
   content: `## 概要
 中国のAI企業DeepSeekは2026年9月8日、次期モデル「V4.1 Flash」の中間版(ベータ版)を、モデルID「deepseek-v4.1-flash-expires-on-0910」としてAPI経由で期間限定公開した。同社は社内・外部でのテストを経て、性能・コスト・速度・総所要時間の各指標で現行モデル「V4 Pro」を総合的に上回ったと説明しており、9月10日頃に正式版をリリースする計画を明らかにした。
 
@@ -191,7 +191,7 @@ DeepSeekは公開から限定的な期間だけ試験提供し、フィードバ
     "Sakana AI単独では全国の中小企業への個別営業が難しいとされる中、商社の販売網を通じた「国産AI」普及加速の布石に"
   ],
   url: "https://www.nikkei.com/article/DGXZQOUC077OF0X00C26A9000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3570341008092026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=f97b5047a1769168fc65948ec6f58e90",
   content: `## 概要
 東京拠点の国産AIスタートアップ、Sakana AIは2026年9月9日、住友商事およびSCSKと提携し、企業向けのAI導入支援事業を開始すると発表した。住友商事グループが持つ広範な顧客基盤と、SCSKが持つシステム導入・運用のノウハウを組み合わせることで、Sakana AIの技術を全国の企業に展開する狙いがある。
 
@@ -223,7 +223,7 @@ Sakana AIはこれまで防衛省との実証事業など公共分野での契�
     "資金使途は既存プロダクト(AI面接・AIロープレ・AI面談・AIセールス)のプロモーション、新規AI製品開発、営業網拡大"
   ],
   url: "https://www.nikkei.com/article/DGXZQOUC01BK40R00C26A9000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3539086002092026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.73&fp-y=0.08&h=630&w=1200&s=b6ad2eded24aea02d4e4f508ecfd68ad",
   content: `## 概要
 人事・営業領域向けのAI製品を開発・提供する株式会社PeopleXは2026年9月2日、シリーズAラウンドで総額54億5000万円の資金調達を実施したと発表した。同時に、人事領域に特化した大規模言語モデル(LLM)・AI OS基盤「Athena(アテナ)」を新たに発表し、採用から育成までを自動化するAIネイティブなHRプラットフォームとしての事業拡大を進める。
 
@@ -255,7 +255,7 @@ Athenaを土台とする新製品としては、社員個人の困りごとに�
     "価格急騰と品薄を受け、日本企業の間ではスポット市場での調達から長期契約への切り替えが広がっている"
   ],
   url: "https://www.nikkei.com/article/DGKKZO98595920U6A900C2QM8000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSKZZO9859610004092026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=ff47e26ae2e4ab3936bb12623e8df006",
   content: `## 概要
 半導体商社ネクスティエレクトロニクスの山田強社長は、AI向け需要の急拡大を受け、DRAMをはじめとする半導体メモリーの価格が2026年末にかけて最大5割上昇する可能性があるとの見通しを示した。需給の逼迫は今年に入り断続的に報じられてきたが、業界関係者による具体的な需給比率を伴う見通しとして改めて注目されている。
 
