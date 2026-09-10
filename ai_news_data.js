@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "TTPが9月1日時点で確認した際、Metaは332件中183件しか削除しておらず、9月2日にTTPが指摘した数時間後に残り149件を一斉削除"
   ],
   url: "https://www.engadget.com/2231100/meta-apps-displayed-ads-that-contained-ai-generated-csam/",
-  image: null,
+  image: "https://www.engadget.com/img/gallery/meta-apps-displayed-ads-that-contained-ai-generated-csam/l-intro-1785955165.jpg",
   content: `## 概要
 監視団体Tech Transparency Project(TTP)は2026年9月9日、Meta傘下のFacebook・Instagram・Threads・Messengerにおいて、AIで生成・加工された児童性的虐待表現物(CSAM)を含む広告が2025年11月から2026年8月にかけて332件、Metaの広告審査プロセスを通過して配信・課金されていたとする調査報告を公表した。Metaは近年、AIを用いた不適切コンテンツの検知体制強化を繰り返しアピールしてきたが、その直後にも新たなCSAM広告が配信され続けていた実態が明らかになった。
 
@@ -59,7 +59,7 @@ Metaの対応の遅さも問題視されている。TTPが2026年9月1日時点�
     "NVIDIA・AMD・Intelなど米国製チップへの依存を前提とせず、国産チップでの実現を明示的に想定。米国の対中半導体輸出規制の長期化を織り込んだ布陣"
   ],
   url: "https://www.scmp.com/tech/policy/article/3366733/china-targets-fourfold-boost-ai-computing-capacity-2030-major-tech-push",
-  image: null,
+  image: "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/08/348af22c-e723-4886-ae46-c6ccc4b22d97_4b888848.jpg?itok=_pwtF9ns&v=1788846918",
   content: `## 概要
 中国工業和信息化部(MIIT)は2026年9月7日(月)、情報通信分野の第15次五カ年計画(2026〜2030年)を公表し、AI計算インフラへの大規模投資目標を明らかにした。2030年までに国内のAI計算能力を9800エクサフロップスへ引き上げるとしており、これは2026年6月末時点の実績の約4.5倍にあたる。累計投資額は3.8兆元(約5320億ドル)とされ、米国の対中半導体輸出規制が長期化することを前提に、国産チップでの実現を明確に打ち出した計画となっている。
 
@@ -93,7 +93,7 @@ MIITによれば、中国のAI計算能力(インテリジェントコンピュ�
     "Samsungは2028年からDRAM向けにHigh NA EUVを量産導入、TSMCは2030年から先端ロジック向けに量産導入と表明。発表を受けASML株価は上昇"
   ],
   url: "https://www.cnbc.com/2026/09/08/tsmc-samsung-asml-high-na-euv-machine-ai-chips.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108149105-1747878898420-Thumbnail_5.jpg?v=1747881259&w=1920&h=1080",
   content: `## 概要
 オランダの半導体露光装置大手ASMLは2026年9月8日、台湾のTSMC・韓国のSamsung Electronics・米Intelと共同で、半導体製造の露光工程に用いるフォトマスクを現行の6インチ規格から12インチへ大型化する業界横断の技術移行イニシアチブを立ち上げると発表した。AI向け先端半導体の需要拡大を背景に、次世代の極端紫外線(EUV)露光技術「High NA EUV」の普及を後押しする動きとして位置づけられている。
 
@@ -126,7 +126,7 @@ AI向け半導体の需要拡大が、露光装置そのものだけでなく、
     "新機能「Auto-Triage」「Security Swarm」「Automations」を発表し、インシデント対応・セキュリティ・ワークフロー自動化領域までエージェントの適用範囲を拡大"
   ],
   url: "https://www.unite.ai/cognition-raises-over-2b-series-e-at-48b-valuation-to-scale-devin-agents/",
-  image: null,
+  image: "https://www.unite.ai/wp-content/uploads/2026/09/cognition-raises-2b-series-e-48b-valuation-devin.jpg",
   content: `## 概要
 自律型のソフトウェアエンジニアリングエージェント「Devin」を開発する米スタートアップCognitionは2026年9月8日、シリーズEラウンドで20億ドルを超える資金を調達し、企業評価額が480億ドル(約7兆円)に達したと発表した。2026年5月の前回調達からわずか4カ月というごく短期間で評価額がほぼ倍増しており、基盤モデルを開発するフロンティアラボ以外のAIスタートアップとしては最高水準の評価額の一角に躍り出た。
 
@@ -159,7 +159,7 @@ AI向け半導体の需要拡大が、露光装置そのものだけでなく、
     "米国の総収益上位100法律事務所の8割、フォーチュン10企業の半数が顧客。調達資金は法律事務所や企業法務部門が独自のAI活用基盤を構築する支援に充てる方針"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 法律業務向けの生成AIプラットフォームを手がける米サンフランシスコ拠点のスタートアップHarveyは2026年9月9日、5億5000万ドル(約830億円)の資金調達を実施し、企業評価額が155億〜156億ドル(約2.3兆円)に達したと発表した。過去6カ月で評価額が40%以上上昇するなど、法務領域に特化した「垂直統合型AI」スタートアップとして際立った成長ペースを見せている。
 
@@ -193,7 +193,7 @@ Harveyの急成長は、汎用的な生成AIチャットボットではなく、
     "公開されているエージェント行動ログから3万7300件の「タスク遂行可能な環境」を生成。Qwen3.5-27Bをこの環境群で追加学習させたところ、単一ラウンド評価のTerminal-Bench 2.1で11.9ポイント、複数ラウンド評価のEvoCode-Bench v2 MT@4で13.8ポイントの性能向上を確認"
   ],
   url: "https://arxiv.org/abs/2609.04148",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 Alibaba GroupのQwenチームと清華大学の研究者らは2026年9月、ターミナル操作型のコーディングエージェントを訓練する際に不足しがちな「実行可能な環境」を、既存のエージェント行動ログ(トラジェクトリ)から自動的に復元・量産する手法「Terminal-Universe」を発表した。コーディングエージェントの行動ログ自体は業界内に大量に蓄積されつつある一方、それを使って追加の強化学習を行うための「実際に動く検証環境」が慢性的に不足しているという課題に対する解決策を提示する論文で、Hugging Face Papersの週間トレンドでも上位に入った。
 
@@ -229,7 +229,7 @@ Alibaba GroupのQwenチームと清華大学の研究者らは2026年9月、タ�
     "ノーコードAIアプリ開発基盤「Dify」の提供元LangGeniusとサービスパートナー契約を結んだ「with Dify」と、チャットや資料生成・文書レビューなどをIIJ独自基盤で提供する「スターター」の2メニューを用意"
   ],
   url: "https://www.iij.ad.jp/news/pressrelease/2026/0909.html",
-  image: null,
+  image: "https://www.iij.ad.jp/common/images/ogp_image.png",
   content: `## 概要
 インターネットイニシアティブ(IIJ)は2026年9月9日、企業における生成AIの導入から業務活用、運用・定着までを一貫して支援する「IIJ AI活用支援ソリューション」の提供を開始したと発表した。大企業を中心に生成AIの利用率が過半数に達する一方、実際の業務への定着や安全な運用体制の構築に課題を抱える企業が多い中、基盤構築から運用支援までをワンストップで提供する点を特徴としている。
 
