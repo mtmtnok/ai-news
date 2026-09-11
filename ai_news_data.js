@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "ロシア国家系ハッカー集団Midnight Blizzard(APT29)がウクライナ・欧州を標的にフィッシング自動化・マルウェア検知回避・C2基盤構築にClaudeを悪用。6大陸にまたがる影響工作9件も摘発"
   ],
   url: "https://www.techtimes.com/articles/327308/20260911/anthropic-threat-report-ai-models-near-bioweapons-threshold-drone-kill-software-emerges.htm",
-  image: null,
+  image: "https://d.techtimes.com/en/full/473507/commercial-claude-has-gone-down-28-times-30-days-its-government-tier-has-never-gone-down-once.jpg",
   content: `## 概要
 Anthropicは2026年9月10日、「Detecting and Countering Misuse of AI: September 2026」と題する脅威インテリジェンスレポートを公表した。2025年12月から2026年8月までの約9カ月間に検知・妨害したClaudeの悪用事例を、サイバー攻撃・影響工作・監視・詐欺・生物兵器・通常兵器開発・蒸留の7つの被害領域に整理して報告している。中でも、最新世代のClaudeモデルについて「生物兵器開発への有意な後押しを提供しない水準にあるとはもはや言い切れない」と明記した点は、大手AI企業が自社モデルの危険性をこの水準で公に認めた初のケースとなる。
 
@@ -60,7 +60,7 @@ Anthropicはレポートの中で、AIがもたらす害の程度を「速度・
     "早期導入企業で成果──SafetyKitはコスト60%削減、Hyphaは失敗率86%減、Cirridaeはレイテンシ4倍高速化"
   ],
   url: "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
-  image: null,
+  image: "https://www.marktechpost.com/wp-content/uploads/2026/09/blog122-4.png",
   content: `## 概要
 OpenAIは2026年9月10日、コーディングエージェント「Codex」を内部で支えているハーネス(実行基盤)とインフラを、そのまま外部開発者向けのAPIとして開放する「Agents API」の公開ベータ提供を開始した。長時間稼働するエージェント型ワークフローを構築するチームがこれまで自前で用意する必要があった複雑な基盤機能を、API呼び出し一つに集約する狙いがある。
 
@@ -93,7 +93,7 @@ Agents APIは2026年9月10日から公開ベータとして提供が始まって
     "Morgan Stanley・Evercoreと共同設計。業務データはデフォルトでモデル学習に使用されず送受信・保存時に暗号化、SAML SSO・SCIMプロビジョニング・ロールベースアクセス制御を搭載"
   ],
   url: "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108361349-1789061236185-gettyimages-2221337331-kokovlis-notitle250625_npN2j.jpeg?v=1789061264&w=1920&h=1080",
   content: `## 概要
 OpenAIは2026年9月10日、金融機関に特化したChatGPTの新製品「ChatGPT for Financial Services」を発表した。最新モデル「GPT-6 Astra」を基盤に主要な金融データをあらかじめ組み込んだ製品で、当面は投資銀行・株式調査業務を主な対象としている。
 
@@ -127,7 +127,7 @@ GPT-6 Astraは、決算説明資料や財務諸表に含まれる数値・表・
     "NVIDIA・AMDなど主要顧客のAIチップ需要が旺盛な一方、TSMCが来年最大10%の値上げを検討しているとの観測も半導体株の重荷に"
   ],
   url: "https://www.digitimes.com/news/a20260910VL214/tsmc-revenue-growth-demand-2026.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20260910vl214_files/2_2b.jpg",
   content: `## 概要
 台湾積体電路製造(TSMC)は2026年9月10日、2026年8月の月次売上高を発表した。連結売上高は新台湾ドル5148億1000万元(約163億ドル)に達し、単月として初めて5000億台湾ドルの大台を突破。AI関連需要の拡大がファウンドリ最大手の業績を押し上げ続けている実態が改めて示された。
 
@@ -159,7 +159,7 @@ TSMCの月次売上高は、AI半導体サプライチェーン全体の需要�
     "独自ベンチマークでChartography48.3点(Claude Opus 5は27.3点)、DeepSWEで74.3点を記録したと主張。特定の単一フロンティアモデルに依存しないプール構成が特徴"
   ],
   url: "https://alphasignal.ai/news/sakana-ai-splits-fugu-into-max-and-ultra-v2-to-cut-costs-60",
-  image: null,
+  image: "https://api.alphasignal.ai/api/news/preview/sakana-ai-splits-fugu-into-max-and-ultra-v2-to-cut-costs-60/v2/card.jpg",
   content: `## 概要
 東京を拠点とするAIスタートアップSakana AIは2026年9月10日、複数のAIモデルを動的に協調させるマルチエージェント・オーケストレーション製品「Sakana Fugu」シリーズを刷新したと発表した。従来の単一だった上位モデル「Fugu Ultra」を、コストを抑えた「Fugu Max」と性能を追求した「Fugu Ultra v2」の2系統に分割する形で投入した。
 
@@ -193,7 +193,7 @@ Fugu Ultra v2は100万トークンのコンテキストウィンドウと最大1
     "調達資金は人材採用と製品開発に充て、「あらゆる業務コミュニケーションをAI化する」ことを掲げ国内での生成AI電話サービス普及を加速する方針"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000034.000076585.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/76585/34/76585-34-f89bdc3cb416baf6e515393767a87933-1920x1005.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 生成AIによる企業向け電話自動化サービス「nocall.ai」を提供するnocall株式会社(旧社名Passionate Genius)は2026年9月、シリーズAラウンドで約8億円の資金調達を実施したと発表した。JAFCOとArchetype Venturesが共同でリード投資家を務め、既存投資家のCoreline Venturesも参加した。
 
@@ -224,7 +224,7 @@ nocall.aiは、ChatGPTなどの生成AIを活用し、企業の電話業務を24
     "AI法第11条・附属書IVに基づき、高リスクシステムの提供事業者は市場投入前に最新の技術文書一式(システム構成図・データ処理パイプライン・モデルのバージョン管理記録等)の整備が義務付けられ、規制当局はこれらの提出・監査を進めている"
   ],
   url: "https://cloudsecurityalliance.org/blog/2026/09/03/eu-ai-act-compliance-for-high-risk-ai-systems-what-your-organization-needs-to-know",
-  image: null,
+  image: "https://cloudsecurityalliance.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTYyMjYsInB1ciI6ImJsb2JfaWQifX0=--93a2348907528d3299308003fba1ed039cd99c6c/Untitled%20(21).jpeg",
   content: `## 概要
 EUの人工知能規制「AI法」において、汎用の高リスクAIシステムに課される義務の移行期間が2026年8月2日に終了した。これを受け、2026年9月からブリュッセルの欧州AI庁(European AI Office)と加盟24カ国の市場監視当局が連携し、初めてとなる本格的な遵守状況の査察を開始した。
 
