@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-09-05",
+  updated: "2026-09-12",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -84,6 +84,8 @@ window.RELATIONS = {
     { id: "noetra",       label: "Noetra",           sector: "app", jp: true },
     { id: "sony",         label: "ソニーG",           sector: "app", jp: true },
     { id: "nec",          label: "NEC",              sector: "app", jp: true },
+    { id: "sumitomocorp", label: "住友商事",          sector: "app", jp: true },
+    { id: "scsk",         label: "SCSK",             sector: "app", jp: true },
     { id: "honda",        label: "ホンダ",            sector: "app", jp: true },
     { id: "psibot",       label: "PsiBot",           sector: "app" },
     { id: "perplexity",   label: "Perplexity",       sector: "app" },
@@ -164,6 +166,9 @@ window.RELATIONS = {
     { from: "asml", to: "mistral", type: "invest", threads: ["labs", "semi"], amount: 14,
       label: "シリーズC 17億ユーロを主導（13億ユーロ・約11%取得、評価額117億ユーロ）", date: "2025-09",
       source: "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html" },
+    { from: "samsung", to: "mistral", type: "invest", threads: ["labs", "semi"], amount: 33,
+      label: "シリーズDを主導し30億ユーロを調達（評価額210億ユーロ超に倍増、欧州テック史上最大級）", date: "2026-09",
+      source: "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/" },
     // 日本・インフラ
     { from: "nvidia", to: "sakana", type: "invest", threads: ["japan"], amount: null,
       label: "シリーズAに出資（金額非公表・日本でのAI研究開発で協力）", date: "2024-09",
@@ -334,6 +339,12 @@ window.RELATIONS = {
     { from: "sakana", to: "boueisho", type: "partner", threads: ["japan"], flow: "販売",
       label: "「総合分析業務」AI活用調査・実証を約9.7億円で受注。指揮統制システムに続き情報分析領域にも進出", date: "2026-08",
       source: "https://sakana.ai/defense-integrated-analysis/" },
+    { from: "sumitomocorp", to: "sakana", type: "partner", threads: ["japan"], flow: "販売",
+      label: "住友商事グループの国内約10万社の顧客網を通じてSakana AIの製品・技術を販売。まず金融・製造業など大企業向けに展開", date: "2026-09",
+      source: "https://www.nikkei.com/article/DGXZQOUC077OF0X00C26A9000000/" },
+    { from: "scsk", to: "sakana", type: "partner", threads: ["japan"], flow: "技術",
+      label: "住友商事との提携に合わせ、企業システムへの導入・データ連携・セキュリティ・運用管理を担当", date: "2026-09",
+      source: "https://www.nikkei.com/article/DGXZQOUC077OF0X00C26A9000000/" },
     { from: "anthropic", to: "samsung", type: "partner", threads: ["semi"], flow: "技術",
       label: "Samsung Foundry 2nm（SF2）でカスタムAI推論チップの製造委託契約", date: "2026-07",
       source: "https://www.koreaherald.com/article/10797311" },
