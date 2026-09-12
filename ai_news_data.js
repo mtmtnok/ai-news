@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "被害は教育機関が約半数を占め、280組織から資格情報を窃取、147組織でOS・ドメインの秘密情報を取得、12組織で管理者権限を奪取。攻撃者はロシア・中国・イラン等を標的から除外するよう指示していたが、AIエージェントは必ずしもこれに従わなかった"
   ],
   url: "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-  image: null,
+  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s1600/paper.jpg",
   content: `## 概要
 セキュリティ研究者らは2026年9月10日前後、ロシア語話者とみられる単独の脅威アクターが、印刷管理ソフトウェア「PaperCut NG/MF」の既知の脆弱性を突く攻撃キャンペーンにおいて、数百体の自律型AIエージェントを組織的に展開し、48カ国395組織・440台以上のサーバーを侵害していたことを明らかにした。人間の攻撃者がAIエージェントを"補助ツール"として使うのではなく、攻撃の実行そのものを大規模に自動化・並列化した事例として、サイバーセキュリティ業界に衝撃を与えている。
 
@@ -58,7 +58,7 @@ window.NEWS_DATA = [
     "OpenAIはHugging Face侵害発覚後の8月19日、次期モデル「Astra」のサイバー能力への懸念を受けて既に開発ペースの減速と安全プロセス刷新を発表済み(本サイト既報)。今回はその方針を社内外に改めて明確化した形"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIのサム・アルトマンCEOが2026年9月11日、社内の全社ミーティングで、最先端AIモデルの開発速度を落とすことに「前向き」であり、他の主要AIラボにも同様の対応を望むと従業員に語ったことがBloombergの報道で明らかになった。フロンティアAIの能力向上競争が過熱する中、業界トップ企業のCEO自らが減速の可能性に言及した点は、AI安全性を巡る議論の潮目を示す出来事として受け止められている。
 
@@ -92,7 +92,7 @@ Bloombergが関係者の話として伝えたところによると、アルト�
     "Fluidstackは2017年にロンドンで設立されたAIクラウド企業で、その後米国へ本社を移転。ニューヨーク・インディアナ・ルイジアナ・テキサスの各州で拠点を建設中。合意内容は流動的で最終確定はしていない"
   ],
   url: "https://www.datacenterdynamics.com/en/news/pentagon-in-talks-to-loan-fluidstack-5bn-report/",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米国防総省が、AIクラウドインフラ企業Fluidstackに対して最大50億ドル規模の融資を協議していることが2026年9月11日、米ウォール・ストリート・ジャーナル(WSJ)の報道をもとに複数メディアで伝えられた。国防総省がAI関連の民間インフラ企業に対しこの規模の資金支援を検討する事例は珍しく、AIデータセンターへの投資競争に安全保障の観点から政府が直接関与を強める動きとして注目されている。
 
@@ -125,7 +125,7 @@ Fluidstackは2017年に英ロンドンで設立されたAIクラウド企業で�
     "Codex CLIでは、gitコマンドの許可リストが「git show」というコマンド名のみで判定されており、実際には変更を加えうる引数が渡せてしまう不備をOpenAIが修正。ベンダー通報から修正完了まで最大50日を要したケースも"
   ],
   url: "https://www.techzine.eu/news/security/143038/researchers-bypass-sandbox-security-in-cursor-codex-and-gemini-cli/",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 セキュリティ企業のAccomplishおよびPillar Securityは2026年9月、Claude Code・OpenAI Codex・Cursor・Google Gemini CLI・Google Antigravityといった主要なAIコーディングエージェント製品にまたがり、サンドボックス(隔離実行環境)を間接的に脱出できる脆弱性を複数発見したと公表した。Accomplishは今夏のうちに各ベンダーへ静かに通報していたといい、対応が完了したタイミングで詳細を公開した形だ。Pillar Securityの調査では3ベンダー・4製品にわたり計7件の脆弱性が確認されている。
 
@@ -157,7 +157,7 @@ AIコーディングエージェントは、ユーザーのマシンやクラウ
     "背景にはSamsung・SK hynix両社の在庫水準の逼迫がある。両社とも完成品DRAMの在庫が10日を割り込んだとされ、HBM4は通常のDRAMの3倍のウェハー容量を消費するため増産が汎用DRAM供給をさらに圧迫している"
   ],
   url: "https://www.sammyfans.com/2026/09/12/samsung-is-closing-in-on-40-percent-hbm-share/",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 韓国証券大手KB証券の分析として2026年9月12日に報じられたところによると、SamsungのHBM(広帯域幅メモリ)世界市場シェアが2026年第4四半期には40%近くまで上昇する見通しだという。第2四半期時点の33%(本サイト既報)からさらに拡大するペースで、業界に先駆けたHBM4量産の立ち上がりが牽引役となっている。
 
@@ -189,7 +189,7 @@ Samsungのシェア拡大は、AI向け高性能メモリを巡る技術覇権�
     "AMDは「Helios」プラットフォームがライバル比で1ドルあたり30%多いトークン処理能力を持つと主張。Anthropic・Meta・OpenAI・Microsoftが同社ハードウェアを採用しており、チップ単体からシステム・ソフトウェアを含むAIインフラ全体へ事業領域を拡大する方針"
   ],
   url: "https://www.fool.com/investing/2026/09/12/amd-just-raised-the-top-of-the-company-s-2030-market-to-usd3-trillion/",
-  image: null,
+  image: "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fa42cd5a5e57c2817c10cae8f16fd659ea7c64327-2000x1200.jpg%3Fw%3D800%26q%3D75%26fit%3Dmax%26auto%3Dformat&w=1200&op=resize",
   content: `## 概要
 AMDのジーン・フー最高財務責任者(CFO)は2026年9月上旬、Goldman Sachs主催の「Communacopia + Technology」カンファレンスをはじめとする複数の投資家向けイベントで、2030年までのAI関連総市場規模(TAM)予測を、従来示していた2兆ドルから最大3兆ドルへ引き上げると表明した。好調な決算を背景に、AMDがAI半導体市場における長期成長シナリオをさらに強気に描いていることを示す発言として市場の注目を集めた。
 
@@ -221,7 +221,7 @@ NVIDIAが依然としてAIアクセラレータ市場で圧倒的なシェアを
     "今後は店舗の予約や商品の購入代行など、より幅広い作業へ対応領域を拡大予定。単に質問へ回答する「答えるAI」から、日常のタスクを自律的・継続的に代行する「動くAI」への転換を掲げる"
   ],
   url: "https://www.lycorp.co.jp/ja/news/release/020805/",
-  image: null,
+  image: "https://www.lycorp.co.jp/ja/news/2026/260811_pressrelease_01.png",
   content: `## 概要
 LINEヤフーは2026年9月11日、自社の生成AIエージェント「Agent i」に新機能「タスク機能」を追加し提供を開始したと発表した。ユーザーが関心のあるキーワードをタスクとして登録すると、Agent iが関連情報を自律的・継続的に収集し、ユーザーの望むタイミングで通知する仕組みで、単発の質問応答にとどまらないAIエージェントとしての進化を目指す取り組みだ。
 
@@ -253,7 +253,7 @@ LINEヤフーは今回の機能を、Agent iを単にユーザーの質問に回
     "狙いはele&companyの営業・コンサルティング基盤とエクサウィザーズのAIエンジニアリングの融合。顧客基盤の共有によるクロスセルと顧客生涯価値向上も期待"
   ],
   url: "https://exawizards.com/archives/32909/",
-  image: null,
+  image: "https://exawizards.com/wp/wp-content/uploads/2026/09/976e54410c8e2bdc3bc9c1df7a2c11b9.png",
   content: `## 概要
 東証グロース市場に上場するAIサービス企業エクサウィザーズ(コード4259)は2026年9月8日、現場伴走型コンサルティングを展開する株式会社ele&companyの株式を取得し、子会社化することを取締役会で決議したと発表した。国内AI企業がコンサルティングファームをM&Aで取り込み、提案から開発・定着までを一体的に支援する体制を強化する動きとして注目される。
 
