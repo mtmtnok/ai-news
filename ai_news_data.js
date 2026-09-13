@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "OpenAIのサム・アルトマンCEOは業界がペースを落とし追加の安全対策を講じる必要があるとの見解に同調。Elon Musk氏もX上で「ダリオは正しい」と投稿し賛意を表明"
   ],
   url: "https://darioamodei.com/post/we-must-pace-the-frontier",
-  image: null,
+  image: "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg",
   content: `## 概要
 Anthropicの共同創業者兼CEOであるダリオ・アモデイ氏は2026年9月12日(土)、自身の個人ウェブサイトに約3,800語に及ぶ長文エッセイ「We Must Pace the Frontier(私たちはフロンティアのペースを落とさなければならない)」を公開した。AI業界全体に対し、モデルの能力向上速度を意図的に緩めるよう訴える内容で、AI開発競争の当事者であるフロンティアラボのトップ自らが、自社の事業速度に直結しかねない「減速」を公に呼びかけた点で大きな反響を呼んでいる。
 
@@ -60,7 +60,7 @@ Anthropicの共同創業者兼CEOであるダリオ・アモデイ氏は2026年9
     "年換算売上高は650億ドルを超え、2025年末比7倍超のペースで成長中とされる。同じ週にOpenAIが2026年中のIPOを見送ると表明しており、対照的な動きが注目される"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-said-to-choose-nasdaq-for-much-anticipated-ipo-listing",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Anthropicが新規株式公開(IPO)の上場先としてNasdaqを選定したことが、2026年9月13日付のBloomberg報道で明らかになった。同社を巡っては、9月上旬の段階で上場スケジュールが10月中旬以降に後ろ倒しになったことが既に報じられていたが(本サイト既報)、今回は上場先の取引所そのものが確定した形だ。史上最大級のテクノロジー企業IPOになる可能性がある案件だけに、取引所選定のニュースにも市場の関心が集まっている。
 
@@ -94,7 +94,7 @@ Anthropicの上場先確定は、9月上旬に報じられたスケジュール�
     "同じ週にAnthropicがNasdaqを上場先に選定し10月上場を視野に動きを加速させており(本サイト既報)、両社の対照的な戦略判断が注目されている"
   ],
   url: "https://www.investing.com/news/stock-market-news/openais-altman-rules-out-2026-ipo-as-ai-safety-takes-priority--report-4898691",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIのサム・アルトマンCEOは、Fortune誌によるサンフランシスコの本社でのインタビューで、2026年中の新規株式公開(IPO)を見送る方針を明らかにした。AI安全性を巡る懸念が業界全体で高まる中、上場を急がない姿勢を明確にした形で、資金調達手段としてのIPOよりも当面は非公開のまま事業を継続する意向を示した。
 
@@ -128,7 +128,7 @@ OpenAIの今回の判断は、資金調達の必要性よりも安全性を巡�
     "同社は企業向けに自社データでAIモデルをカスタマイズするツールを販売するほか、オープンウェイトモデルも無償公開。年換算売上高は数億ドル規模に達しているとされる"
   ],
   url: "https://www.pymnts.com/news/artificial-intelligence/2026/thinking-machines-lab-seeks-40-billion-dollar-valuation",
-  image: null,
+  image: "https://www.pymnts.com/wp-content/uploads/2025/11/Thinking-machines-logo.jpg",
   content: `## 概要
 元OpenAIの最高技術責任者(CTO)であるミラ・ムラティ氏が2025年に創業したAIスタートアップ、Thinking Machines Labが、評価額少なくとも400億ドルで10億ドル規模の資金調達を協議していることが、2026年9月3日付のThe Informationの報道で明らかになった。フロンティアAIラボの一角として急成長を続ける同社の資金調達動向は、AI業界の投資熱が依然として高水準にあることを示す事例として注目されている。
 
@@ -160,7 +160,7 @@ Thinking Machines Labは2025年7月、20億ドルの資金調達を実施し、�
     "背景には米政権が半導体関税を巡り、台湾と同水準の投資を韓国勢にも求める姿勢を強めていることがある。AI向け高帯域幅メモリ(HBM)を巡る米国内サプライチェーン強化の一環として、韓国メモリ大手への圧力が一段と強まっている"
   ],
   url: "https://en.sedaily.com/finance/2026/09/03/samsung-sk-hynix-would-need-65-times-more-us-investment-to",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/09/03/rcv.YNA.20260903.PRU20260903152001009_P1.jpg",
   content: `## 概要
 韓国のSamsung ElectronicsとSK hynixが、半導体の対米投資規模でTSMCに肩を並べるには、これまでの投資実績の6.5倍にあたる追加投資が必要になるとの分析が、2026年9月3日前後に韓国メディアの報道で明らかになった。米政権が半導体の関税政策を巡り、台湾勢と同水準の対米投資を韓国メモリ大手にも求める姿勢を強めている中での試算であり、AI向け半導体サプライチェーンの再編を巡る米韓間の綱引きが一段と表面化した形だ。
 
@@ -191,7 +191,7 @@ AI向け高帯域幅メモリ(HBM)市場でSamsung・SK hynixが世界シェア�
     "AIエージェントが商品推薦から購入代行へと役割を広げる中、2030年までに世界の消費者向け商取引の3兆〜5兆ドル規模がAIエージェント経由になるとの予測を踏まえた取り組み。共通の信頼シグナルにより、新規エージェントサービスの重複審査を減らし迅速な立ち上げを可能にする"
   ],
   url: "https://www.businesswire.com/news/home/20260909003891/en/Ant-International-Mastercard-and-Visa-Initiate-Collaboration-on-Know-Your-Agent-Interoperability-to-Scale-Agentic-Commerce",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 決済大手のVisa・Mastercardと、Ant Group傘下で国際決済事業を手がけるAnt Internationalは2026年9月9日、AIエージェントによる商取引(エージェンティック・コマース)を安全に拡大するための相互運用フレームワーク「Know-Your-Agent(KYA)」の構築に向けて協業すると発表した。従来はカード会社ごとに個別に開発が進められてきたAIエージェントの認証・信頼確保の仕組みを、業界横断で相互運用可能にする狙いがある。
 
@@ -224,7 +224,7 @@ AI向け高帯域幅メモリ(HBM)市場でSamsung・SK hynixが世界シェア�
     "複数のAIエージェント基盤を併用する企業向けに、ガバナンス層「Trusted Enterprise AI Harness」も発表。Trusted Context・Trusted Agency・Trusted Action・Trusted Governance・Trusted Security・Trusted Modelsの6本柱で構成"
   ],
   url: "https://www.unite.ai/salesforce-debuts-job-ready-agentforce-agents-and-long-horizon-runtime/",
-  image: null,
+  image: "https://www.unite.ai/wp-content/uploads/2026/09/salesforce-debuts-job-ready-agentforce-agents-long-horizon-runtime.jpg",
   content: `## 概要
 Salesforceは2026年9月11日、営業・カスタマーサービス・コマース・IT/HR・サプライチェーンといった特定の業務機能に特化した7体の名前付きAIエージェントを発表した。同社のAIエージェント基盤「Agentforce」のポートフォリオを、汎用的なアシスタントから、企業がすぐに実務投入できる「即戦力(job-ready)」の専門エージェント群へと拡充する狙いがある。
 
@@ -256,7 +256,7 @@ Salesforceが個別の業務機能ごとに"人格"を持たせたエージェ�
     "個人の追跡・監視目的での活用は対象外とすることを明確化。企業のAI変革支援における利用範囲の線引きを示した上での協業拡大となる"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000606.000093942.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/93942/606/93942-606-4fef99081b9f1e583111666802c20bb2-879x531.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 富士通と米Palantir Technologiesは2026年9月10日、戦略的パートナーシップを拡大し、国内外の企業のAI変革を加速するための協業体制に合意したと発表した。富士通はPalantirの「Global FDE Partner」として体制を強化し、Palantirの主力製品である「AIP」「Foundry」の販売・提供から、顧客企業ごとのユースケース設計、実際の業務実装までを一気通貫で支援する役割を担う。
 
