@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "計算資源増強計画として、NVIDIA製システム10ギガワット、AMDとのGPU契約6ギガワット、Broadcomとのカスタムチップ配備10ギガワットが判明。OpenAIの需要そのものが電力・データセンター投資の規模を押し上げている構図が改めて浮き彫りに"
   ],
   url: "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
   content: `## 概要
 OpenAIは2026年9月10日、9月3日に投入した新フラッグシップモデル「GPT-6 Astra」への需要が「前例のない」水準に達し、システムへの負荷が最も大きい月額200ドルの「ChatGPT Pro」プランについて、新規登録とアップグレードを一時停止すると発表した。既存のPro契約者は従来通りサービスを利用できるが、新規受付の再開時期は明らかにされていない。
 
@@ -58,7 +58,7 @@ OpenAIは2026年9月10日、9月3日に投入した新フラッグシップモ�
     "中国外務省の郭嘉昆報道官は記者団に「あおり・対立・悪意ある競争は世界のAIガバナンスのプロセスを乱すだけで、誰の利益にもならない」とコメント。AnthropicのダリオCEOが訴えた「フロンティアのペースを落とすべき」との提言(本サイト既報)への直接的な反発"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-09-15/chinese-state-media-dismisses-self-serving-ai-slowdown-call",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国国営メディアが、AnthropicのダリオCEOらが提唱するAI業界の「減速論」を、米国のAI優位を温存するための「自己都合的」な主張だとして相次いで批判していることが、2026年9月15日付のBloomberg報道で明らかになった。9月12日にダリオCEOが公表した「We Must Pace the Frontier」と題するエッセイ(本サイト既報)に対する中国側の反応が、単なる論評にとどまらず、外交当局者の発言にまで及んでいる。
 
@@ -90,7 +90,7 @@ OpenAIは2026年9月10日、9月3日に投入した新フラッグシップモ�
     "AnthropicのダリオCEOが9月12日のエッセイ(本サイト既報)で示した「独立評価者・国際協調・世界的な安全合意」の3段階案が協議の軸の一つに。ただしAnthropicが政府との連携を志向する一方、OpenAIは自主的な業界基準を重視するなど立場の相違が残り、独禁法上の懸念も未解決のまま、9月14日時点で正式な憲章や発表はない"
   ],
   url: "https://en.sedaily.com/international/2026/09/14/rivals-unite-anthropic-openai-google-push-ai-standards-body",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/09/14/rcv.YNA.20260914.PAP20260914319801009_P1.jpg",
   content: `## 概要
 Anthropic・OpenAI・Google DeepMindの3社が、2026年7月以降、業界主導のAI安全基準団体の設立に向けた非公式な作業部会を重ねていることが、2026年9月14日付CNN報道等で明らかになった。ライバル関係にある3社が水面下で協議を続けてきたことが表面化した形で、AI業界の自主規制の枠組みづくりが、これまで報じられてきた個々の企業の行動規範公表よりも一歩踏み込んだ段階に入りつつあることを示している。
 
@@ -121,7 +121,7 @@ Anthropic・OpenAI・Google DeepMindの3社が、2026年7月以降、業界主�
     "新規のCloudflare顧客・既存顧客が新設するサイト・既存の無料プラン顧客全てに新デフォルトが適用。有料プランで既に個別設定を行っている顧客の設定は維持される"
   ],
   url: "https://www.aichatdaily.com/ai-business/cloudflare-block-mixed-use-ai-crawlers-default-september-2026",
-  image: null,
+  image: "https://www.aichatdaily.com/_next/image?url=https%3A%2F%2Fqswerazrpejkkgemjrfu.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Farticle-hero-images%2Flibrary%2Ff34ec1f7-c2ad-44ee-98a9-6a315b6ad6ba%2Fa167e207-752d-486d-8341-d62934b9cab7.png&w=1200&q=75",
   content: `## 概要
 Webインフラ大手のCloudflareは、2026年9月15日付で、検索インデックス用とAI学習・エージェント利用を兼ねる「兼用型(mixed-use)」クローラーについて、広告を掲載する全てのページでデフォルトでブロックする新方針を発効させた。7月に予告されていた措置(本サイト既報)が期限を迎えた形で、AI企業によるコンテンツ利用と発行者(パブリッシャー)の権利保護を巡る攻防が、新たな段階に入ったことを示している。
 
@@ -153,7 +153,7 @@ Webインフラ大手のCloudflareは、2026年9月15日付で、検索インデ
     "韓国警察庁によれば2025年中に確認された海外への技術流出事案は33件で、半導体が最も頻繁に狙われた分野。前年には元Samsung Electronics従業員5人が中国のメモリ大手CXMTにDRAM技術を渡したとして起訴された事件も発生"
   ],
   url: "https://www.usnews.com/news/world/articles/2026-09-12/south-koreas-expanded-espionage-law-takes-effect-amid-push-to-protect-chip-technology",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 韓国で2026年9月13日、スパイ行為の定義を「敵国」から全ての外国・組織に拡大する改正刑法が施行された。半導体をはじめとする先端技術の対外流出が相次いだことを受けた措置で、AI向け半導体・メモリを巡る国際競争が激化する中、技術保護を安全保障上の課題として法制度に明確に位置付けた動きといえる。
 
@@ -184,7 +184,7 @@ Webインフラ大手のCloudflareは、2026年9月15日付で、検索インデ
     "2026年5月時点で複数年の顧客受注額は3億ドル超。早期アクセス提供は2027年上半期、製造業・倉庫・物流事業者向けの一般提供は2027年末を予定"
   ],
   url: "https://www.geekwire.com/2026/agilitys-new-digit-5-robot-lifts-50-pounds-works-20-hours-a-day-and-operates-alongside-people/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米オレゴン州のロボティクス企業Agility Roboticsは2026年9月15日、汎用ヒューマノイドロボットの最新モデル「Digit 5」を発表した。同社が「協調的に安全な稼働のために設計された初のヒューマノイド」と位置付ける製品で、物理的な安全柵を必要とせず人と同じ空間で作業できる点を最大の特徴としている。
 
@@ -216,7 +216,7 @@ Digit 5の中核となるのが、独自のAIアルゴリズムと新たに追�
     "企画・配信から分析・改善までをワンストップで支援する体制を強化。過去の事例では飲料ブランドでの導入により配信コストを最大9割削減、売上を3.5倍に伸ばした実績があるという"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000678.000018392.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/18392/678/18392-678-0de32b7a2dd27d99750233771fcb247f-1200x675.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 AnyMind Group株式会社は2026年9月15日、多言語対応の生成AIライブコマースプラットフォーム「AnyLive」について、AIアバター生成機能とライブ配信分析機能を強化したと発表した。ライブコマース市場でのAI活用が広がる中、配信コストの削減と成果向上を両立させる機能拡充と位置付けられる。
 
