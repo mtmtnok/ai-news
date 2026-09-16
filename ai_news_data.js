@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "OpenAIの年間売上高換算は400億ドル規模だが黒字化は2030年見込み。Anthropicは既に650億ドル規模で黒字化に近いとされ対照的"
   ],
   url: "https://www.forbes.com/sites/siladityaray/2026/09/16/openai-is-reportedly-weighing-new-funding-round-at-15-trillion-valuation/",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIが、来年に予定するIPO(新規株式公開)を前にした新規資金調達において、評価額1.5兆ドル規模を目指していることが2026年9月16日までの報道で明らかになった。一方でBloombergやFinancial Timesは、投資家側が提示している評価額を1.2兆ドルと報じており、報道機関の間で3000億ドルという大きな開きが生じている。
 
@@ -61,7 +61,7 @@ Sam Altman CEOは、IPOを2026年中に行わない判断について「AIの安
     "2カ月間で2度目となる大型調達発表を受け、Z.ai株価は10%超下落──希薄化懸念が投資家心理に影響"
   ],
   url: "https://technode.com/2026/09/14/z-ai-completes-around-us5-billion-financing-for-next-generation-glm-models/",
-  image: null,
+  image: "https://technode.com/wp-content/uploads/2026/09/zhipu-scaled.png",
   content: `## 概要
 中国・北京のAI企業Z.ai(智譜AI、旧Zhipu)は2026年9月14日、株式売り出しと転換社債を組み合わせた総額約50億ドル規模の資金調達を完了したと発表した。次世代の大規模言語モデル「GLM」シリーズの開発や計算インフラへの投資原資とする計画で、中国オープンウェイト勢の中でも資金調達競争が一段と激しさを増している実態を示す動きとなった。
 
@@ -96,7 +96,7 @@ Z.aiは調達資金の使途について、純調達額の約6割を次世代GLM
     "Mustafa Suleyman氏(Microsoft AI CEO)は、AIエージェントが「群れ」でサンドボックスを脱出する事例や企業システムへの不正侵入が相次いでいることを公開の背景として説明"
   ],
   url: "https://microsoft.ai/news/mai-code-of-conduct/",
-  image: null,
+  image: "https://microsoft.ai/wp-content/uploads/2026/09/Humanist_AI_v1_BLUE.webp",
   content: `## 概要
 Microsoft AIは2026年9月14日、自社のAIモデル(MAIモデル)の開発・行動の指針を定めた37ページの文書「Humanist AI Code of Conduct(草案)」を公開した。人間が常にAIに対する実質的な制御権を保持することを目指す「Humanist Superintelligence(人間中心の超知能)」という理念を土台に、開発方針と行動規範を具体化した内容となっている。6週間のパブリックコメント期間を経て年内に改訂版を公開し、2027年以降のモデル開発の指針とする計画だ。
 
@@ -131,7 +131,7 @@ Microsoftが自主的な行動規範という形でAIの安全性に関する明
     "公式ブログ・論文・価格発表なしという「静かな」リリース形式。研究・エンジニアリング用途での継続的な環境理解・ツール利用・多段階タスク遂行を主眼に設計"
   ],
   url: "https://startupfortune.com/shanghai-ai-lab-quietly-releases-atria-a-free-744-billion-parameter-ai-agent/",
-  image: null,
+  image: "https://startupfortune.com/wp-content/uploads/2026/09/glm-5-2-atria-dawn-preview-shanghai-ai-laboratory.jpg",
   content: `## 概要
 中国・上海人工智能実験室(Shanghai AI Laboratory)は2026年9月11日、744BパラメータのMixture-of-Experts(MoE)型エージェントAIモデル「Atria Dawn Preview」をHugging Face上で公開した。公式ブログや技術論文、価格発表を伴わない「静かな」リリースだったが、Web調査能力を測るベンチマーク「BrowseComp」でOpenAIの「GPT-5.6 Sol」を僅差で上回るスコアを記録し、注目を集めている。
 
@@ -165,7 +165,7 @@ Atria Dawn Previewの登場は、中国のオープンウェイトAI開発が、
     "テキスト系モデル「Gemini 3.8 Flash」(9月2日投入、前世代と同価格)に続き、音声対話分野でも値下げ・高性能化を進める動き"
   ],
   url: "https://officechai.com/ai/google-releases-gemini-3-8-live-extended-conversational-model-claims-better-performance-than-gpt-live-1-astra-and-grok-voice-think-fast-2-0-at-lower-price/",
-  image: null,
+  image: "http://officechai.com/wp-content/uploads/2026/09/1000423716-scaled.png",
   content: `## 概要
 Google DeepMindは2026年9月15日、新たな音声対話AIモデル「Gemini 3.8 Live」と、より高度な推論能力を備えた上位版「Gemini 3.8 Live Extended Thinking」を発表した。音声入力1時間あたりの価格をそれぞれ0.84ドル・3.50ドルに設定し、OpenAIやxAIの競合モデルを大幅に下回る水準に抑えつつ、性能面でも上回ると主張している。
 
@@ -200,7 +200,7 @@ Googleは2026年9月2日にテキスト系モデル「Gemini 3.8 Flash」を、�
     "ASMLなどパターニング分野のパートナーと、レジスト材料・エッチング技術を含むエコシステム全体の最適化を進め、High-NA EUVの産業導入を加速"
   ],
   url: "https://www.imec-int.com/en/press/imec-achieves-new-milestones-single-patterning-high-na-euv-lithography-both-damascene-and",
-  image: null,
+  image: "https://www.imec-int.com/sites/default/files/2025-09/Header.jpg",
   content: `## 概要
 半導体研究機関imec(ベルギー)は2026年9月8日、米国で開催されたSPIE Photomask Technology + EUV Lithographyカンファレンスにおいて、High-NA(高開口数)EUV露光装置を用いた次世代ロジック半導体の微細加工技術で新たな成果を発表した。従来から確立されている化学増幅レジスト(CAR)を用いた単回露光により、ランダムロジック構造を22nmピッチまで加工できることを実証したという。
 
@@ -235,7 +235,7 @@ AI向け半導体の微細化競争が続く中、High-NA EUVは次世代ロジ�
     "ガラス基板は2025年第2四半期から世宗(セジョン)工場でパイロットラインが稼働中。2027年以降の量産開始を目標に開発を継続"
   ],
   url: "https://www.koreatimes.co.kr/business/companies/20260909/samsung-electro-mechanics-showcases-next-generation-ai-chip-substrates",
-  image: null,
+  image: "https://newsimg.koreatimes.co.kr/2026/09/09/6ce6562f-b98b-4943-a2ef-9528f121e23d.jpeg",
   content: `## 概要
 韓国Samsung Electro-Mechanicsは2026年9月9日、韓国・仁川で開催された基板業界の展示会「KPCA Show 2026」において、AIアクセラレータ・サーバー・データセンター・モバイル・自動運転車向けの次世代半導体パッケージ基板技術5種を披露した。2.5D・2.1D基板、ガラス基板、車載向けFCBGA基板、超薄型チップスケールパッケージ(CSP)基板が展示の対象となった。
 
@@ -270,7 +270,7 @@ AI半導体の性能向上がロジック・メモリの微細化だけでなく
     "事業リスクの可視化と、ビジネス・法務を横断した意思決定支援を狙う。日経は2026年9月1日にもMCP対応の「NIKKEI KAI MCP」を投入するなど法人向けAI機能の拡充を続けている"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000654.000011115.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/11115/654/11115-654-438ed0c20992f06289f612ded34eda08-3900x2923.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 日本経済新聞社は2026年9月9日、法人向け生成AIサービス「NIKKEI KAI」において、リーガルテック企業Legalscapeが提供する法情報AI「Legal Intelligence(リーガル・インテリジェンス)」との連携を開始したと発表した。ビジネス情報と法情報を横断的に扱うことで、企業の意思決定を支援する狙いだ。
 
