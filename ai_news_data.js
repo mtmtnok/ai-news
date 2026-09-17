@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "韓国は半導体製造技術を国家核心技術に指定しており、米国への生産移転には産業技術保護法に基づく審査が避けられない見通し"
   ],
   url: "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-reportedly-discussing-us-memory-chip-manufacturing-with-intel-options-include-leasing-ohio-plant-or-forming-joint-venture-with-other-ai-hyperscalers",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/MNAdzZLPoDR82bwxMK4iCk-1920-80.png",
   content: `## 概要
 韓国メモリー大手のSK hynixが、Intelが米オハイオ州ニューオールバニーに建設中の半導体工場の一部を賃借する形で、米国内で初めてメモリーチップを生産する案を検討していることが2026年9月17日までの複数の報道で明らかになった。AI向け高帯域幅メモリー(HBM)を含む深刻な品薄が続く中、韓国メモリー大手が生産拠点の米国展開に踏み出す可能性が浮上した形だ。
 
@@ -59,7 +59,7 @@ SK hynixが米国内生産を模索する背景には、AI向けメモリーの�
     "下流タスクの平均スコアはOLMo-3-7Bの46.59に対し49.04を記録。特にGSM8K(数学)で39.27→45.26と5.99ポイントの大幅な向上を示した"
   ],
   url: "https://huggingface.co/papers/2609.10715",
-  image: null,
+  image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10715/gradient.png",
   content: `## 概要
 中国・上海人工智能実験室(Shanghai AI Lab)と上海交通大学LUMIA Labの共同チーム「Intern-NCP Team」は2026年9月、通常のトークン単位の予測を超えて、複数トークンにまたがる潜在的な「概念」を予測する新しい言語モデルアーキテクチャの技術報告「NCP-ArchPreview」を発表した。Hugging Face Papersで今週最も注目を集めた論文となっており、学習効率を大幅に高めながら性能でも既存モデルを上回る結果を示している。
 
@@ -94,7 +94,7 @@ SK hynixが米国内生産を模索する背景には、AI向けメモリーの�
     "求職者の情報収集行動が検索エンジンから生成AI・AI検索へシフトする中、企業の採用ブランディングにおける新たな最適化ニーズに対応"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000283.000034654.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/34654/283/34654-283-0664b111619e4c04599536e8dffe8041-2172x724.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 東証プライムに上場するアウンコンサルティング株式会社は2026年9月17日、企業の採用情報・人的資本情報を生成AIやAI検索エンジンに理解されやすい形へ最適化する新サービス「AIO for HR」の提供を開始したと発表した。採用サイトや求人情報、社員の声といったコンテンツを、AIに参照されやすく求職者にも届きやすい形へ作り替える支援を行う。
 
@@ -129,7 +129,7 @@ SK hynixが米国内生産を模索する背景には、AI向けメモリーの�
     "同氏は、訓練によってAIが生み出す出力を、独立した\"内面の証拠\"であるかのように誤認する構造を「認識論のハウス・オブ・ミラーズ」と表現。AIが人間の制御への抵抗や独自の権利を主張する根拠を持ったと誤認する危険性を指摘"
   ],
   url: "https://www.axios.com/2026/09/16/microsoft-ai-chief-anthropic-consciousness",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Microsoft AIを率いるムスタファ・スレイマンCEOは2026年9月16日、Anthropicが自社のAIモデル「Claude」の訓練において意識・道徳的地位に関する思弁を織り込んでいることを痛烈に批判するエッセイ「A warning about 'model welfare'(モデル・ウェルフェアに関する警告)」を公表した。AI業界を代表する2つのフロンティアラボのトップが、AIの「意識」を巡って公然と対立する異例の展開となっている。
 
@@ -165,7 +165,7 @@ Microsoft AIを率いるムスタファ・スレイマンCEOは2026年9月16日�
     "「Claude Slides」はスライド資料の草案作成に対応し、アプリ内でのプレゼンテーションのほかPowerPoint・PDF形式でのダウンロードも可能。展開はPro・Maxプランのウェブ・デスクトップ・モバイルから開始し、Team・Freeプランへ順次拡大"
   ],
   url: "https://thenextweb.com/news/anthropic-claude-cowork-merge-docs-slides",
-  image: null,
+  image: "https://media.thenextweb.com/2026/09/Easel-with-scribble-illustration.jpg",
   content: `## 概要
 Anthropicは2026年9月16日、長時間の自律タスクを担うエージェント機能「Claude Cowork」を通常のチャット体験へと統合し、あわせて共同編集可能な文書作成ツール「Claude Docs」とスライド作成ツール「Claude Slides」を新たに投入したと発表した。ユーザーが「チャットで相談するか、タスクとして任せるか」をあらかじめ選ぶ必要がなくなり、Claudeが状況に応じて判断する設計へと刷新された。
 
@@ -201,7 +201,7 @@ Cowork・Chat・Docs・Slidesを1つのアプリへ統合する動きは、OpenA
     "開発者向けには別途「Home Developer MCP」を提供。Google Antigravityスイート(CLI・Antigravity 2.0・IDE)に加え、Claude Code・Cursor・GitHub Copilot(VS Code)とも連携可能"
   ],
   url: "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/06/Google-Home-Speaker-Multi.png?resize=1200,755",
   content: `## 概要
 Googleは2026年9月16日、Model Context Protocol(MCP)の仕組みを通じて、サードパーティのAIエージェントがGoogle Home上のNest・Matter対応スマートホームデバイスを操作できる「Home MCPサーバー」のアーリーアクセス提供を開始した。ClaudeやChatGPTといった競合のAIエージェントにも門戸を開く形となり、スマートホームの制御をめぐる競争が新たな局面に入った。
 
@@ -236,7 +236,7 @@ GoogleがNestデバイスというハードウェア資産を、自社のGemini�
     "カナダ国内で360人規模のフルタイム雇用創出、カナダ企業Hypertec・5Cと連携した自国製の計算インフラ整備を計画。政府主導で「安全な主権AI」への新たなアプローチを打ち出す狙い"
   ],
   url: "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-and-germany-invest-in-lawzero-to-build-a-new-approach-to-safe-sovereign-ai.html",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 カナダ政府とドイツ政府は2026年9月16日までに、チューリング賞受賞者で「AIのゴッドファーザー」の1人として知られるヨシュア・ベンジオ氏が率いる非営利団体LawZeroに対し、合わせて最大3億カナダドル規模の資金を投資すると発表した。強力なAIシステムが人間の制御から逸脱するリスクに危機感を抱いたベンジオ氏が設立した組織に、政府として初めて大型の資金支援を行う事例となる。
 
@@ -271,7 +271,7 @@ LawZeroは、モントリオール大学教授でチューリング賞受賞者�
     "調達資金は次世代「Trinity」モデル群の開発、米エネルギー省・国立研究所との連携拡大、オープンモデルのカスタマイズ・評価・運用のための製品開発に充当"
   ],
   url: "https://fortune.com/2026/09/16/arcee-ai-trained-four-models-for-20-million-now-its-worth-1-billion/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/09/Mark_HS_HR_Front_105f94-e1789413370814.jpg?resize=1200,600",
   content: `## 概要
 米サンフランシスコ拠点のAIスタートアップArcee AIは2026年9月16日、Vista Equity Partners・Cambium Capital・Emergence Capitalなどが主導する1億5000万ドル規模のシリーズB資金調達を完了し、企業評価額が10億ドルを超えたと発表した。オープンウェイト(重みを公開する)基盤モデルの開発企業として、比較的少額の学習コストで高い性能を実現してきた実績が評価された形だ。
 
