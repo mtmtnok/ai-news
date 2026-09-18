@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-09-12",
+  updated: "2026-09-19",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -33,6 +33,9 @@ window.RELATIONS = {
     { id: "discoveryloop", label: "Discovery Loop", sector: "lab" },
     { id: "riverai",      label: "River AI",     sector: "lab" },
     { id: "poolside",     label: "Poolside",     sector: "lab" },
+    { id: "pfn",          label: "Preferred Networks", sector: "lab", jp: true },
+    { id: "lawzero",      label: "LawZero",      sector: "lab" },
+    { id: "arcee",        label: "Arcee AI",     sector: "lab" },
     // ビッグテック・クラウド
     { id: "microsoft",    label: "Microsoft",    sector: "cloud" },
     { id: "google",       label: "Google",       sector: "cloud" },
@@ -50,6 +53,7 @@ window.RELATIONS = {
     { id: "sktelecom",    label: "SKテレコム",    sector: "cloud" },
     { id: "riotplatforms", label: "Riot Platforms", sector: "cloud" },
     { id: "nscale",        label: "Nscale",        sector: "cloud" },
+    { id: "fluidstack",    label: "Fluidstack",    sector: "cloud" },
     // 半導体
     { id: "nvidia",       label: "NVIDIA",       sector: "semi", sub: "design" },
     { id: "amd",          label: "AMD",          sector: "semi", sub: "design" },
@@ -94,6 +98,9 @@ window.RELATIONS = {
     { id: "huggingface",  label: "Hugging Face",     sector: "app" },
     { id: "salesforce",   label: "Salesforce",       sector: "app" },
     { id: "crusoe",       label: "Crusoe",           sector: "cloud" },
+    { id: "mitsubishiheavy", label: "三菱重工業",     sector: "app", jp: true },
+    { id: "palantir",     label: "Palantir",         sector: "app" },
+    { id: "fujitsu",      label: "富士通",            sector: "app", jp: true },
     // 投資家・ファンド
     { id: "mgx",          label: "MGX",              sector: "invest" },
     { id: "softbank",     label: "ソフトバンクG",     sector: "invest", jp: true },
@@ -105,7 +112,11 @@ window.RELATIONS = {
     { id: "lens",         label: "Lens Technology",  sector: "invest" },
     { id: "generalcatalyst", label: "General Catalyst", sector: "invest" },
     { id: "amppbc",       label: "AMP PBC",          sector: "invest" },
-    { id: "janestreet",   label: "Jane Street",      sector: "invest" }
+    { id: "janestreet",   label: "Jane Street",      sector: "invest" },
+    { id: "vistaequity",  label: "Vista Equity Partners", sector: "invest" },
+    { id: "canadagov",    label: "カナダ政府",        sector: "invest" },
+    { id: "germanygov",   label: "ドイツ政府",        sector: "invest" },
+    { id: "pentagon",     label: "米国防総省",        sector: "invest" }
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -254,6 +265,21 @@ window.RELATIONS = {
     { from: "nvidia", to: "mediatek", type: "invest", threads: ["semi", "compute"], amount: 35,
       label: "「NVLink Fusion」採用と引き換えに35億ドルを出資。米国外への直接投資として過去最大規模", date: "2026-09",
       source: "https://www.servethehome.com/nvidia-mediatek-nvlink-fusion-investment" },
+    { from: "mitsubishiheavy", to: "pfn", type: "invest", threads: ["japan"], amount: 1,
+      label: "第三者割当増資により100億円を出資。防衛・インフラ・宇宙向け国産AI技術の共同開発を本格化", date: "2026-09",
+      source: "https://www.itmedia.co.jp/aiplus/article/2609/17/2000001563/" },
+    { from: "canadagov", to: "lawzero", type: "invest", threads: ["labs"], amount: 1,
+      label: "「戦略対応基金」を通じ最大1.5億カナダドルを投資。「Scientist AI」開発を支援", date: "2026-09",
+      source: "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-and-germany-invest-in-lawzero-to-build-a-new-approach-to-safe-sovereign-ai.html" },
+    { from: "germanygov", to: "lawzero", type: "invest", threads: ["labs"], amount: 1,
+      label: "最大1億ユーロを投資。「Scientist AI」開発を支援", date: "2026-09",
+      source: "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-and-germany-invest-in-lawzero-to-build-a-new-approach-to-safe-sovereign-ai.html" },
+    { from: "vistaequity", to: "arcee", type: "invest", threads: ["labs"], amount: 1.5,
+      label: "Cambium Capital・Emergence Capitalと共同主導するシリーズBに参加(総額1.5億ドル)。評価額10億ドル超に", date: "2026-09",
+      source: "https://fortune.com/2026/09/16/arcee-ai-trained-four-models-for-20-million-now-its-worth-1-billion/" },
+    { from: "pentagon", to: "fluidstack", type: "invest", threads: ["compute"], amount: 50, status: "negotiating",
+      label: "データセンター部材の国内供給網強化を目的に50億ドルの融資を協議中", date: "2026-09",
+      source: "https://www.datacenterdynamics.com/en/news/pentagon-in-talks-to-loan-fluidstack-5bn-report/" },
 
     // ── 提携・供給契約 (partner) ──
     // OpenAI コンピュート網
@@ -453,6 +479,9 @@ window.RELATIONS = {
     { from: "micron", to: "meti", type: "partner", threads: ["japan", "semi"], flow: "技術",
       label: "広島工場に新クリーンルーム着工（総投資1.5兆円）。HBM・EUV次世代DRAM増産、2028年後半設備導入", date: "2026-07",
       source: "https://jp.micron.com/about/press/news/micron-breaks-ground-on-hiroshima-cleanroom-to-support-advanced-memory-for-ai" },
+    { from: "fujitsu", to: "palantir", type: "partner", threads: ["japan"], flow: "技術",
+      label: "Palantirの「Global FDE Partner」に就任。生成AI基盤の協業拡大、現場常駐型エンジニアで企業のAI実装を支援", date: "2026-09",
+      source: "https://prtimes.jp/main/html/rd/p/000000606.000093942.html" },
 
     // ── 買収・合併 (ma) ──
     { from: "spacex", to: "xai", type: "ma", threads: ["labs"],
