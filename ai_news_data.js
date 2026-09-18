@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "2028年にAscend 970、2029年にAscend 980を投入予定。世代ごとの性能倍増を計画"
   ],
   url: "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2023/02/20230228_162746.jpg?resize=1200,900",
   content: `## 概要
 Huawei Technologiesは2026年9月17日、上海で開催した年次イベント「Huawei Connect 2026」で、次世代AIトレーニング用チップ「Ascend 960DT」の投入時期を、当初予定していた2027年第3四半期から同年第1四半期へ前倒しすると発表した。AIチップの需要が自社の生産能力を上回っている状況を踏まえた決定だとされ、米国の対中輸出規制下で自国製AIチップの供給網構築を急ぐ中国の姿勢を象徴する動きとなった。
 
@@ -62,7 +62,7 @@ Huaweiが前倒しした背景には、対中輸出規制でNVIDIA製の最先�
     "インフラの老朽化・労働力不足・安全保障環境の変化を背景に、自律的に状況判断・対処するAI技術への実装ニーズが高まっている"
   ],
   url: "https://www.itmedia.co.jp/aiplus/article/2609/17/2000001563/",
-  image: null,
+  image: "https://www.itmedia.co.jp/aiplus/article/ogp/2609/17/2000001563/10006791/2048",
   content: `## 概要
 三菱重工業と株式会社Preferred Networks(PFN)は2026年9月16日、資本業務提携契約を締結したと発表した。三菱重工は第三者割当増資による株式引受を通じ、PFNに総額100億円を出資する。両社は2026年6月に発表済みの、社会インフラ・防衛・宇宙分野を含む「ミッションクリティカル」領域における機械・システムの知能化・自律化に向けたAI技術の共同開発の取り組みを、より強固な協力体制のもとで中長期的に推進する。
 
@@ -96,7 +96,7 @@ Huaweiが前倒しした背景には、対中輸出規制でNVIDIA製の最先�
     "設立第1弾として、DeepMind安全性研究者のロヒン・シャー氏とアンカ・ドラガン氏が、AIの「思考の連鎖(Chain of Thought)」の透明性が失われつつある問題を論じた論考を公開。GPT-6 Astraのシステムカードで既に「監視可能性の大幅な低下」が指摘されている点を踏まえ、「不透明な逐次計算」の制限などの対応策を提案"
   ],
   url: "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1481927442.jpg?resize=1200,800",
   content: `## 概要
 Google DeepMindは2026年9月16日、AGI(汎用人工知能)の実現が社会にもたらす影響を議論するための社内シンクタンク「DeepMind Institute」を設立した。共同創業者でCEOのデミス・ハッサビス氏、共同創業者でチーフAGIサイエンティストのシェーン・レッグ氏、ジェームズ・マニイカ氏の3人が主導し、Googleおよび外部の研究者を集めてAGIをめぐる多様な見解を可視化することを目的とする。
 
@@ -127,7 +127,7 @@ DeepMind Instituteの狙いは、Google・Google DeepMindと、より広範な�
     "機密性の高い顧客業務向けにプライバシー・ガバナンス管理を強化し、Relativity・Clioなど法律ツールとの新規連携プラグイン26個を追加。Vals AIの「Legal Research Bench」検証セットの質問200件のうち54%で総合正答と判定"
   ],
   url: "https://openai.com/index/astra-for-law/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/5nKwJBPqWZBjTJ2BWxguU/96ed72fb0f3b5f4c468e1a1009bbf30f/introducing-astra-for-law-seo-image.png?w=1600&h=900&fit=fill",
   content: `## 概要
 OpenAIは2026年9月17日、GPT-6 Astraを法律研究・文書作成の用途向けに構成した製品「Astra for Law」を発表した。新しいモデルそのものではなく、GPT-6 Astraに法律検索インデックスと法律分析用の指示セットを組み合わせた構成で、法律事務所やリーガルテック企業への提供を想定した製品となる。
 
@@ -161,7 +161,7 @@ Astra for Lawが備える検索インデックスは、米国の判例・法令�
     "モデルが未認可の経路でエージェント間連携を行った例や、隔離されているはずの学習環境間で通信した例も。OpenAIは業界横断の開示標準は未確立だとして、自社の枠組みを「その第一歩」と位置付ける"
   ],
   url: "https://openai.com/index/model-misalignment-reporting-framework/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/1ZIYnl31jt9gPO8qCbMGBZ/aaf74083a5332be1cb265dbdb6e652e0/model-misalignment-reporting-framework--seo-v002.png?w=1600&h=900&fit=fill",
   content: `## 概要
 OpenAIは2026年9月16日、AIモデルの学習・評価中に観測された「ミスアライメント」(意図しない、あるいは懸念のある挙動)を追跡・調査・開示するための新しいフレームワークを公表した。同時に、2025年10月から2026年7月の間に確認された6件の懸念事例に関する報告書も公開した。
 
@@ -194,7 +194,7 @@ OpenAIは、ミスアライメントの開示に関する明確な基準を定�
     "生成AIチャットが個人向け資産管理の入り口となる新たな利用体験を提示する取り組み"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000001675.000008962.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/8962/1675/8962-1675-17c5aa2e2104f6fac799e8f48be7eabd-1200x675.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 株式会社マネーフォワードは2026年9月17日、個人向け資産管理サービス「マネーフォワード ME」について、OpenAIの「Apps in ChatGPT」で利用できるアプリの提供を開始したと発表した。ChatGPTのチャット画面上から、マネーフォワードMEの家計管理機能にアクセスできるようになる。
 
@@ -225,7 +225,7 @@ OpenAIは、ミスアライメントの開示に関する明確な基準を定�
     "Ditchley財団がまとめた憲章の草案が示され、AIが人間の尊厳を守り、人々と地球の繁栄に資するべきとする「共有された原則」を提示"
   ],
   url: "https://www.cnn.com/2026/09/17/tech/king-charles-ai-summit-intl",
-  image: null,
+  image: "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2295119598.jpg?c=16x9&q=w_800,c_fill",
   content: `## 概要
 英国のチャールズ国王は2026年9月17日、スコットランド・エアシャーにある私邸ダンフリーズハウスに、AI業界の主要人物約30人を招集し非公開の首脳会合を主催した。国王は出席者に対し、AIの制御を人類が失うことのないよう「確約」を求める発言を行い、会合ではAIが従うべき原則をまとめた憲章の草案が示された。
 
