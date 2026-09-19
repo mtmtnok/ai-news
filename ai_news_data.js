@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "社内で最も利用されている開発プラットフォームでは、8月時点で常時約3万体のAIエージェントが稼働。数値は自己申告で外部検証はされていない"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-09-17/anthropic-says-claude-drives-26-of-its-research-and-development",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Anthropicは2026年9月17日、自社のAIモデル研究開発(R&D)業務のうち26%を、Claude自身が「主導」する形で遂行していると発表した。2026年2月時点ではこの割合が1%未満だったといい、わずか半年で急拡大したことになる。同社は今回、フロンティアラボ各社が共通して公表できる指標として、AIがAI研究をどれだけ担っているか・AIエージェントがどれだけ監視されているか・安全性にどれだけの計算資源を割いているか、という3つの尺度を提示した。
 
@@ -62,7 +62,7 @@ Anthropicの定義によれば、Claudeが研究開発業務を「主導」し�
     "Jensen Huang氏「この夏、Hugging Faceとオープンソースの世界全体が転換点にあり、より多くのリソース・規模・可視性が必要だと気づいた」"
   ],
   url: "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-  image: null,
+  image: "https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png",
   content: `## 概要
 NVIDIAは2026年9月3日、AIモデル・データセット共有プラットフォーム「Hugging Face」を129億ドルで買収すると正式発表した。買収の初報は8月27日に一部報道で伝えられており、約1週間後に両社が正式に確認した形だ。1800万人超の開発者・研究者・クリエイターが利用し、オープンソースAIの実質的な中核インフラとなっているHugging Faceを傘下に収めることで、NVIDIAはハードウェアだけでなくソフトウェア・エコシステム面でもAI業界への影響力を一段と強めることになる。
 
@@ -98,7 +98,7 @@ NVIDIAがオープンソースAIの中核インフラを直接掌握したこと
     "プロジェクト完了後、Anthropicが独自に関連する「強制オイラー方程式」問題を自社モデルで解決していたことが判明。功績の所在や第三者検証の枠組みを巡り数学コミュニティで議論が起きている"
   ],
   url: "https://openai.com/index/navier-stokes-solution/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/7hiHADoMhgN0iDcje9Xdei/2dae059c10a0dfa3e2814ebb522e9df2/navier-stokes-og.png?w=1600&h=900&fit=fill",
   content: `## 概要
 OpenAIは2026年9月上旬、数学における7つの「ミレニアム懸賞問題」の一つ「ナビエ–ストークス方程式の存在と滑らかさ」問題に対する解を発表した。約1万体のAIエージェント群を88時間稼働させることで反例を発見したとしており、AIによる純粋数学の未解決問題への挑戦として大きな注目を集めた。ほぼ同時期に、Anthropicも独自に関連する数学的難問を自社モデルで解決していたことが明らかになり、AIが生み出した数学的成果の功績と検証方法を巡る論争に発展している。
 
@@ -134,7 +134,7 @@ OpenAIのコンピュータ科学者ヴェン・チャンドラセカラン氏�
     "トランプ大統領はこの減速論に対し「AIで勝った者が勝つ」と述べ、米国が中国に後れを取ることは許されないとの立場を表明"
   ],
   url: "https://thehill.com/policy/technology/6099571-lawsuit-accuses-anthropic-openai-spacexai-google-of-ai-pacing-collusion/",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米カリフォルニア北部地区連邦地裁に2026年9月18日(金)、有料AIサービスの個人利用者4人が原告となり、Anthropic・OpenAI・xAI・Googleの4社を相手取った反トラスト法違反の集団訴訟が提起された。各社トップが表明した「AI開発ペースを抑えるべきだ」という趣旨の一連の発言が、競合企業間の違法な協調行為に当たると主張する内容で、AI業界の「減速論」を巡る議論が新たな局面を迎えている。
 
@@ -170,7 +170,7 @@ OpenAIのコンピュータ科学者ヴェン・チャンドラセカラン氏�
     "調達候補にはIDG Capital・Boyu Capital・電池大手CATL(寧徳時代)のほか既存投資家のTencent・HSG(セコイア・チャイナ系)・ZhenFundが名を連ねる。香港IPOに向けた再編も検討中とされる"
   ],
   url: "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2278374931.jpg?w=1024",
   content: `## 概要
 中国発の汎用AIエージェント企業Manusが、評価額40億ドルでの5億ドル規模の資金調達に向け交渉を進めていることが2026年9月18日までに明らかになった。従来の評価額約20億ドルからほぼ倍増する水準で、実現すれば中国のAIエージェント分野で最高評価額の企業となる。今回の調達は、中国当局がMetaによる買収案件を差し止めて以降、同社にとって初めてとなる資金調達で、独立企業としての再始動を印象付ける動きとなった。
 
@@ -201,7 +201,7 @@ NDRCによる買収差し止めからわずか5カ月足らずでの高評価額
     "移行先は再利用可能な指示・参照ファイル・外部アプリ連携をまとめて扱える新しい「プラグイン」の枠組み。2024年1月開始のGPT Storeは事実上の役割を終える"
   ],
   url: "https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年9月19日までに、ChatGPT上で個人ユーザーが指示文・参照ファイルを組み合わせて作成できる「カスタムGPT」機能について、段階的な廃止と後継機能「プラグイン」への移行を正式に発表した。2024年1月にスタートし、いわば「AI版アプリストア」として展開されてきたGPT Storeの仕組みは、事実上その役割を終えることになる。
 
@@ -237,7 +237,7 @@ OpenAIは2026年9月19日までに、ChatGPT上で個人ユーザーが指示文
     "AI向けメモリはSamsung・SK hynix・Micronを合わせても需要の6割程度しか満たせない状況が続く(本サイト既報)中、需給逼迫の長期化見通しが投資家心理を支えSK hynix・Samsung株が上昇"
   ],
   url: "https://www.benzinga.com/news/26/09/61800956/sk-hynix-16-layer-hbm4-nvidia-rubin-micron-samsung",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 SK hynixが、48ギガバイト・16層構成の次世代高帯域幅メモリ「HBM4」の量産を、NVIDIAの新プラットフォーム「Vera Rubin」向けに2026年第3四半期中に開始したことが明らかになった。AI向けメモリの需給逼迫が続く中、供給体制の前進を好感する形で、2026年9月18日にはSK hynix株が約5%、Samsung株も約3%上昇した。
 
