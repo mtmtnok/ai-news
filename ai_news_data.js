@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "発表は、AI開発ペースの減速を求める業界内外の声(Anthropic CEOダリオ・アモデイ氏のエッセイなど)や、AI規制強化を求める世論の高まりを背景に行われた"
   ],
   url: "https://www.aljazeera.com/news/2026/9/19/trump-says-he-will-create-ai-force-with-new-ai-czar",
-  image: null,
+  image: "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aaeda7f2fdf-1789844095.jpg?resize=1920%2C1440",
   content: `## 概要
 トランプ米大統領は2026年9月19日、AI政策を統括する新たな政府組織「AIフォース(AI Force)」を創設し、AI政策担当の「AI長官(AI czar)」を新たに任命する方針を明らかにした。自身の1期目に創設した宇宙軍(Space Force)を先例として挙げ、AIを「次の産業革命」と位置付けた。人選や組織の発足時期など具体的な詳細は明らかにされていない。
 
@@ -62,7 +62,7 @@ window.NEWS_DATA = [
     "SK hynixのCEOはメモリ不足が2030年まで続く可能性に言及。Microsoft・NVIDIA・Googleなど大手テック各社は、10年近く先を見据えた長期供給契約を相次いで締結しているとされる"
   ],
   url: "https://www.tweaktown.com/news/113004/memory-capacity-for-all-of-2027-has-reportedly-been-booked-and-sold-with-no-more-dram-or-hbm-available/index.html",
-  image: null,
+  image: "https://static.tweaktown.com/news/1/1/113004_2_memory-capacity-for-all-of-2027-has-reportedly-been-booked-and-sold-with-no-more-dram-or-hbm-available_full.jpg",
   content: `## 概要
 Samsung・SK hynix・Micronの大手メモリ3社について、2027年分のDRAM・HBM(広帯域メモリ)生産能力がすでに完売し、追加供給の余地がない状態にあることが2026年9月、業界筋の情報として明らかになった。生成AIのデータセンター向け需要が供給を大きく上回る状況が続いており、Samsungは生産能力の7割を2031年まで確保する長期契約をすでに締結しているという。
 
@@ -98,7 +98,7 @@ SK hynixも設備投資を加速させている。米インディアナ州では
     "CXMT幹部は「当社のプロセス能力は業界の最先端量産ノードと同水準」とコメント。2022年以降のEUV輸出規制下でも中国勢が先端メモリの量産に近づきつつある実態を示した"
   ],
   url: "https://www.globaltimes.cn/page/202609/1370944.shtml",
-  image: null,
+  image: "https://www.globaltimes.cn/Portals/0/attachment/2026/2026-08-28/0e6eb786-63d2-4879-a39e-e3bb834e07dd.jpeg",
   content: `## 概要
 中国メモリ半導体大手のChangXin Memory Technologies(CXMT、長鑫存儲)は2026年9月20日、安徽省合肥市で開催された「2026世界製造業大会」において、第5世代DRAM製造プラットフォーム「G5」が量産段階に入ったと発表した。米国などによるEUV(極端紫外線)露光装置の対中輸出規制が続く中、代替技術で先端ノードに近づいたとする内容で、SamsungやSK hynixなど韓国勢に対抗する動きとして注目されている。
 
@@ -132,7 +132,7 @@ CXMTのG5量産は、米国主導の輸出規制が中国の先端メモリ開�
     "発表は2026年9月17日。オーバーサブスクライブ(応募超過)となったラウンドで、既存投資家に加え新規投資家からの需要も強かったとされる"
   ],
   url: "https://mlq.ai/news/crusoe-announces-39-billion-series-f-at-309-billion-valuation/",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 AI向けデータセンターおよび計算インフラを手がける米Crusoeは2026年9月17日、39億ドル(約5800億円)規模のシリーズF資金調達を完了したと発表した。調達後の評価額は309億ドルに達し、カタール投資庁(QIA)やNVIDIAを含む新旧の投資家が名を連ねた。いわゆる「ネオクラウド」と呼ばれるAI特化型インフラ企業への資金流入が加速していることを改めて示す事例となった。
 
@@ -166,7 +166,7 @@ Crusoeの評価額309億ドルは、Nebiusなど他のネオクラウド企業�
     "初の大規模言語モデルは無料でダウンロード・カスタマイズ可能なオープンウェイト形式として、早ければ今月中に公開予定"
   ],
   url: "https://www.theinformation.com/articles/tsinghua-professors-stealth-llm-startup-hits-1-4-billion-valuation",
-  image: null,
+  image: "https://tii.imgix.net/production/articles/17841/4879bea1-4cc3-4d6e-8b41-6860e8988648.jpg?fm=jpg&auto=compress&w=1200&frame=0",
   content: `## 概要
 中国・北京を拠点とするAIスタートアップ「Naive AI」が、テンセントやIDG Capital、HSGなどから合計4億ドルを調達し、評価額14.2億ドルに達したことが2026年9月、明らかになった。清華大学准教授の戴劼(Dai Jifeng)氏が2026年2月に設立してからわずか7カ月というスピードでの評価額急伸となる。
 
@@ -199,7 +199,7 @@ Naive AIの急成長は、DeepSeek・Moonshot(Kimi)・Alibaba(Qwen)・Z.aiとい
     "Anthropicは「Claude Code」バージョン2.1.179で、OpenAIは「Codex」バージョン0.146.0で修正済み。Googleは「Gemini CLI」を非推奨とし修正せず後継の「Antigravity」への移行を推奨。Microsoftの「GitHub Copilot」は開示時点で未修正"
   ],
   url: "https://www.air.security/blog-posts/plugin4shell",
-  image: null,
+  image: "https://cdn.prod.website-files.com/6a282d66e4248a84e0259ed9/6aaa5395937ce8592114fb89_image%20(11).png",
   content: `## 概要
 セキュリティ研究者らは2026年9月、主要なAIコーディングエージェント4製品に共通して存在する重大な脆弱性「Plugin4Shell」を発見し、公表した。対象となったのはAnthropicの「Claude Code」、OpenAIの「Codex」、Microsoftの「GitHub Copilot」、Googleの「Gemini CLI」の4製品で、いずれもプラグイン機構に起因するゼロクリックのリモートコード実行(RCE)脆弱性が存在していたという。
 
@@ -232,7 +232,7 @@ Plugin4Shellは、AIモデル自体の安全性ではなく、AIコーディン�
     "コーディネーター役の「チャット」とワーカー役の「スレッド」それぞれについて、使用モデルと思考の深さ(thinking effort)を個別に設定可能。2026年9月17日にベータ版としてPro・Maxプランの一部ユーザー向けに提供開始"
   ],
   url: "https://claude.com/blog/projects-redesigned",
-  image: null,
+  image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aac1eaf2091cb214f764427_og_projects-redesigned.jpg",
   content: `## 概要
 Anthropicは2026年9月17日、コーディングエージェント「Claude Code」のプロジェクト管理機能「Projects」を全面的に刷新し、ベータ版として公開したと発表した。1つのプロジェクトの中で複数のクラウド上エージェントスレッドを並列に走らせ、「コーディネーター」役のClaudeがタスクの割り振りから成果物の統合までを担う設計に生まれ変わった。
 
@@ -268,7 +268,7 @@ Anthropicは2026年9月17日、コーディングエージェント「Claude Cod
     "ENEOSホールディングスはPFPとNVIDIA ALCHEMIを組み合わせ、酸素発生反応(OER)触媒の候補構造として約1億件を評価し、実験合成・検証に進める優先候補を選定したと発表"
   ],
   url: "https://www.globenewswire.com/news-release/2026/09/17/3364052/0/en/matlantis-accelerates-catalyst-discovery-to-advance-materials-innovation-with-nvidia-alchemi.html",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 日本発の汎用原子レベルシミュレーター「Matlantis」が、NVIDIAの化学・材料科学向け計算基盤「ALCHEMI」と連携し、触媒材料の探索を高速化する取り組みが2026年9月17日に発表された。石油元売り大手ENEOSホールディングスが、この組み合わせを用いて酸素発生反応(OER)触媒の候補構造として約1億件を評価し、実験による合成・検証に進める優先候補を絞り込んだという。
 
