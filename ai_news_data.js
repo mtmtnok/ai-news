@@ -66,7 +66,7 @@ Anthropicのダリオ・アモデイCEOが9月12日のエッセイで業界横�
     "9月3日のAstra投入からわずか3週間弱での追加モデル投入。9月29日開催のDevDayを前に開発ペースの速さを改めて誇示"
   ],
   url: "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?w=1600&h=900&fit=fill",
   content: `## 概要
 OpenAIは2026年9月22日、上位フラッグシップモデル「GPT-6 Astra」に続く新モデル「GPT-6 Sol」「GPT-6 Luna」を発表した。Astraが持つ強みを、より高速かつ低価格なモデルへと落とし込んだ位置づけで、キャッシュ・推論効率の改善を通じてAPI価格を大幅に引き下げた。
 
@@ -102,7 +102,7 @@ Astraの正式リリースからわずかな期間での追加モデル投入は
     "中国当局は、公安・軍事関連データや国民番号など機微情報がルーティングを通じ米国のAIシステムに渡っていなかったかを調査対象としているという"
   ],
   url: "https://www.analyticsinsight.net/news/china-probes-deepseek-moonshot-ai-over-claude-data-routing-claims",
-  image: null,
+  image: "https://media.assettype.com/analyticsinsight%2F2026-09-22%2F8x0t5ra3%2FChina-Probes-DeepSeek-Moonshot-AI-Over-Claude-Data-Routing-Claims?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
   content: `## 概要
 中国のインターネット規制当局である国家インターネット情報弁公室(CAC)が、中国のAI企業DeepSeekとMoonshot AIに対する調査に乗り出したことが、2026年9月22日に明らかになった。The Informationが関係者の話として報じたもので、Anthropicが9月10日に公表した脅威インテリジェンスレポートの指摘が調査のきっかけとなっている。
 
@@ -137,7 +137,7 @@ Anthropicはこの行為を、より高性能なAIモデルの出力を利用し
     "Muse(9月8日に米国で一般提供開始、本サイト既報)は、Sensor Tower調べで3日連続、米App Store無料アプリランキング首位を記録"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 2026年9月21日、米国株式市場でAMD・Intel・Armをはじめとする半導体関連株が軒並み急騰し、AMDは終値ベースの時価総額で初めて1兆ドルの大台を突破した。今回の急騰の火付け役となったのは、Metaが投入した個人向けAIエージェント「Muse」の急速な人気の高まりだ。
 
@@ -174,7 +174,7 @@ Anthropicはこの行為を、より高性能なAIモデルの出力を利用し
     "コーディング評価「CursorBench 4.0」で46.3%(Grok 4.6は40.4%)、「DeepSWE v1.1」高負荷設定で71.0%(同65.2%)を記録"
   ],
   url: "https://sqmagazine.co.uk/xai-launches-grok-4-7-coding-model/",
-  image: null,
+  image: "https://sqmagazine.co.uk/wp-content/uploads/2026/09/xai-launches-grok-4-7-coding-model.jpg",
   content: `## 概要
 イーロン・マスク氏率いるxAIは2026年9月21日、新モデル「Grok 4.7」を発表した。前モデルGrok 4.6から総パラメータ数を4割拡大したほか、傘下企業SpaceXが持つ衛星・製造関連データを学習に取り込むという、他のフロンティアラボにはないユニークなアプローチでハードウェア・物理システムへの推論力強化を図った。
 
@@ -213,7 +213,7 @@ Grok 4.7が示したSpaceXデータの活用は、xAIが他の主要フロンテ
     "77%の臨床医がAIの回答を必ず一次情報で裏取りしていると回答。画像診断・検査は許容範囲とする一方、文書作成・治療方針・患者対応など臨床判断に関わる用途には慎重な姿勢"
   ],
   url: "https://aiweekly.co/alerts/ft-clinicians-push-back-on-medical-ai-beyond-diagnostics",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Financial Timesは2026年9月20日、医療現場の医師・看護師が、AIの適用範囲を画像診断など従来の得意領域を超えて広げることに警戒感を強めていると報じた。背景には、医療従事者による日々のAI利用が急拡大する一方で、その効果を裏付ける臨床データが不十分だとの懸念がある。
 
@@ -287,7 +287,7 @@ Adaptyv Bioとの協業は、Anthropicが8月に発表したタンパク質バ�
     "取引は規制当局の最終承認待ちで、2026年内の完了を見込む"
   ],
   url: "https://betakit.com/cohere-reaches-terms-with-german-peer-aleph-alpha-to-take-on-ai-giants/",
-  image: null,
+  image: "https://cdn.betakit.com/wp-content/uploads/2026/09/Cohere-ALL-IN.webp",
   content: `## 概要
 カナダのAI企業CohereとドイツのAleph Alphaは2026年9月16日、正式な事業統合契約(definitive combination agreement)を締結したと発表した。両社は2026年4月の時点で統合方針を公表していたが、今回それを正式な法的合意へと落とし込んだ形となる。
 
