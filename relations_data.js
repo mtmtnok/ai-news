@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-09-19",
+  updated: "2026-09-26",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -101,6 +101,11 @@ window.RELATIONS = {
     { id: "mitsubishiheavy", label: "三菱重工業",     sector: "app", jp: true },
     { id: "palantir",     label: "Palantir",         sector: "app" },
     { id: "fujitsu",      label: "富士通",            sector: "app", jp: true },
+    { id: "accenture",    label: "Accenture",        sector: "app" },
+    { id: "adobe",        label: "Adobe",            sector: "app" },
+    { id: "snorkelai",    label: "Snorkel AI",       sector: "app" },
+    { id: "gaiax",        label: "ガイアックス",       sector: "app", jp: true },
+    { id: "omneky",       label: "Omneky",           sector: "app" },
     // 投資家・ファンド
     { id: "mgx",          label: "MGX",              sector: "invest" },
     { id: "softbank",     label: "ソフトバンクG",     sector: "invest", jp: true },
@@ -116,7 +121,9 @@ window.RELATIONS = {
     { id: "vistaequity",  label: "Vista Equity Partners", sector: "invest" },
     { id: "canadagov",    label: "カナダ政府",        sector: "invest" },
     { id: "germanygov",   label: "ドイツ政府",        sector: "invest" },
-    { id: "pentagon",     label: "米国防総省",        sector: "invest" }
+    { id: "pentagon",     label: "米国防総省",        sector: "invest" },
+    { id: "insightpartners", label: "Insight Partners", sector: "invest" },
+    { id: "s32",          label: "S32",              sector: "invest" }
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -280,6 +287,15 @@ window.RELATIONS = {
     { from: "pentagon", to: "fluidstack", type: "invest", threads: ["compute"], amount: 50, status: "negotiating",
       label: "データセンター部材の国内供給網強化を目的に50億ドルの融資を協議中", date: "2026-09",
       source: "https://www.datacenterdynamics.com/en/news/pentagon-in-talks-to-loan-fluidstack-5bn-report/" },
+    { from: "insightpartners", to: "snorkelai", type: "invest", threads: ["labs"], amount: null,
+      label: "S32と共同主導するシリーズE(総額3.5億ドル)に参加。評価額は前回の13億ドルから35億ドルに拡大", date: "2026-09",
+      source: "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/" },
+    { from: "s32", to: "snorkelai", type: "invest", threads: ["labs"], amount: null,
+      label: "Insight Partnersと共同主導するシリーズE(総額3.5億ドル)に参加。評価額は前回の13億ドルから35億ドルに拡大", date: "2026-09",
+      source: "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/" },
+    { from: "gaiax", to: "omneky", type: "invest", threads: ["japan"], amount: null,
+      label: "米サンフランシスコ発のAI広告プラットフォームに出資。生成AIによる広告制作・効果分析の自動化技術を自社マーケティング支援事業に活用", date: "2026-09",
+      source: "https://prtimes.jp/main/html/rd/p/000000853.000003955.html" },
 
     // ── 提携・供給契約 (partner) ──
     // OpenAI コンピュート網
@@ -380,6 +396,15 @@ window.RELATIONS = {
     { from: "anthropic", to: "salesforce", type: "partner", threads: [], flow: "販売",
       label: "提携拡大「Claudeforce」を発表。CRMにClaudeを統合し2026年9月に公開ベータへ", date: "2026-09",
       source: "https://www.salesforce.com/news/press-releases/claudeforce" },
+    { from: "anthropic", to: "accenture", type: "partner", threads: ["labs"], flow: "技術",
+      label: "モデルを社内から検証する「組み込み型評価者」創設で提携。両社が5年で各10億ドルを投資しレッドチーム演習・アラインメント評価を担う", date: "2026-09",
+      source: "https://www.anthropic.com/news/accenture-embedded-evaluation" },
+    { from: "adobe", to: "google", type: "partner", threads: [], flow: "技術",
+      label: "Photoshop・Lightroom・Adobe Express・FireflyのツールをGeminiに統合。全プランに世界同時展開", date: "2026-09",
+      source: "https://blog.adobe.com/en/publish/2026/09/24/adobe-comes-to-gemini-expands-what-you-can-do-in-claude" },
+    { from: "adobe", to: "anthropic", type: "partner", threads: [], flow: "技術",
+      label: "Claude・Claude Code向けプラグインにAcrobatを追加。80種類超のプロツールを横断利用可能に", date: "2026-09",
+      source: "https://blog.adobe.com/en/publish/2026/09/24/adobe-comes-to-gemini-expands-what-you-can-do-in-claude" },
     { from: "crusoe", to: "janestreet", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "5年130億ドル規模のGPU・AIインフラ供給契約。Crusoeの評価額急伸(300億ドル)を牽引", date: "2026-08",
       source: "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/" },
@@ -412,9 +437,9 @@ window.RELATIONS = {
       label: "オープンウェイトモデル「Kimi K2.6」をベースに、Sakana AIが日本語特化API「Sakana Namazu」を追加学習・提供", date: "2026-08",
       source: "https://pc.watch.impress.co.jp/docs/news/2130476.html" },
     // 半導体サプライチェーン
-    { from: "nvidia", to: "skhynix", type: "partner", threads: ["semi"], flow: "技術",
-      label: "次世代HBM共同開発の複数年技術提携（AI Factory向け）", date: "2026-06",
-      source: "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory" },
+    { from: "nvidia", to: "skhynix", type: "partner", threads: ["semi", "compute"], flow: "技術",
+      label: "次世代HBM共同開発の複数年技術提携。SK hynixは「Vera Rubin」向け16層HBM4(48GB)の量産出荷で業界に先行し、NVIDIAのHBM4調達の7割を確保", date: "2026-09",
+      source: "https://www.benzinga.com/news/26/09/61800956/sk-hynix-16-layer-hbm4-nvidia-rubin-micron-samsung" },
     { from: "nvidia", to: "microsoft", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "AzureへGrace Blackwell GB200、DGX Cloud／Microsoft Fabric連携、NVIDIA AIマイクロサービスを展開", date: "2024-03",
       source: "https://nvidianews.nvidia.com/news/microsoft-nvidia-generative-ai-enterprises" },
