@@ -64,7 +64,7 @@ Anthropicは2026年9月18日、コンサルティング大手Accentureと提携�
     "調査会社は今回の量産を「SK hynixの先行者優位を決定づけるもの」と評価"
   ],
   url: "https://www.benzinga.com/news/26/09/61800956/sk-hynix-16-layer-hbm4-nvidia-rubin-micron-samsung",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 SK hynixが、NVIDIAの次世代AIプラットフォーム「Vera Rubin」向けに、16層積層の次世代HBM4メモリを2026年第3四半期から量産出荷する体制に入ったことが明らかになった。容量48ギガバイトの16層品を業界で最初に量産段階へ移した形で、Micron・Samsungとの間でAIメモリの世代競争に明確な差がついている。
 
@@ -101,7 +101,7 @@ NVIDIAが調達先を事実上SK hynix優位で配分している構図は、次
     "年換算売上高(ARR)は3.75億ドルに到達、AIラボ各社の高品質学習データ需要を追い風に1年で18倍に成長"
   ],
   url: "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2259148891.jpg?resize=1200,686",
   content: `## 概要
 AI向け学習データを手がける米スタートアップSnorkel AIは2026年9月22日、シリーズEラウンドで3.5億ドルを調達し、企業評価額が35億ドルに達したと発表した。2025年5月の前回調達時点の評価額13億ドルからわずか1年余りでほぼ3倍に拡大しており、フロンティアAIラボの学習データ需要の急拡大を映す動きとなっている。
 
@@ -138,7 +138,7 @@ Snorkel AIの急成長は、フロンティアモデルの性能向上が「モ�
     "Google・Anthropicという主要AIチャット2社と同時に統合を進めることで、Adobeは創作ツールの「入口」としての地位を主要AIプラットフォーム上に確保"
   ],
   url: "https://blog.adobe.com/en/publish/2026/09/24/adobe-comes-to-gemini-expands-what-you-can-do-in-claude",
-  image: null,
+  image: "https://blog.adobe.com/en/publish/2026/09/24/media_150b784ac116ab0312114fc41e21dbf3cb1e204ef.jpg?width=1200&#x26;format=pjpg&#x26;optimize=medium",
   content: `## 概要
 Adobeは2026年9月24日、自社の創作ツールをAIチャットボットへ統合する取り組みを2方向で拡大すると発表した。Google Geminiには新たにPhotoshop・Lightroom・Adobe Express・Fireflyの機能を統合し、Anthropicの Claude・Claude Code向けプラグインにはAcrobatのツールを追加した。
 
@@ -175,7 +175,7 @@ GoogleとAnthropicの双方がAdobeという同じパートナーを取り込ん
     "個人向けAIエージェント競争において、OSレベルでの深い統合と急速なユーザー獲得の両立を狙う動き"
   ],
   url: "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-meta-connect.jpg?resize=1200,799",
   content: `## 概要
 Metaは2026年9月17日に米国で投入した個人向けAIエージェント「Muse」について、Mac向けのデスクトップアプリでネイティブなmacOSアプリを直接操作できる機能を提供している。9月23〜24日に開催されたMeta Connectでは、ビデオアバターや専用メールアドレスなど新機能も相次いで発表され、投入からわずか11日間で急速なユーザー獲得を実現していることも明らかになった。
 
@@ -212,7 +212,7 @@ OpenAIのChatGPTやGoogleのGemini、AnthropicのClaudeが主に業務・開発�
     "日常診療で既に収集されている比較的シンプルな臨床・血液データだけでも高い予測力を持つことが示された点が臨床実装の観点で重要"
   ],
   url: "https://www.nature.com/articles/s41591-026-04488-2",
-  image: null,
+  image: "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41591-026-04488-2/MediaObjects/41591_2026_4488_Fig1_HTML.png",
   content: `## 概要
 6カ国の医療機関が参加する国際共同研究「I3LUNG」が、進行非小細胞肺がん(NSCLC)患者を対象に、複数のデータ種を統合したマルチモーダルAIモデルによる免疫療法の効果予測システムを開発した。臨床現場で広く使われているバイオマーカー「PD-L1」単独よりも高い精度で治療効果を予測できることを示し、成果は医学誌Nature Medicineに掲載された。
 
@@ -249,7 +249,7 @@ I3LUNGは、進行度ステージIIIC〜IVBの非小細胞肺がん患者2,396�
     "AI面接ツールでエンジニア・医師・弁護士など各分野の専門家を発掘・審査し、AIモデルの訓練・評価に必要な高品質な人手データを供給する事業モデル"
   ],
   url: "https://www.forbes.com/sites/annatong/2026/09/22/this-25-year-old-raised-over-100-million-for-his-ai-data-startup-at-a-4-billion-valuation/",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 AIラボ向けに学習・評価データを供給する米スタートアップMicro1は2026年9月22日、シリーズBラウンドで1億ドルを超える資金を調達し、企業評価額が40億ドルに達したと発表した。25歳の創業者Ali Ansari氏が、わずか1年余りで小規模なAI採用ツール事業を数十億ドル規模のデータ供給企業へと成長させた。
 
@@ -286,7 +286,7 @@ Snorkel AI(本日記事)と同様、Micro1の急成長は、AIモデルの性能
     "汎用AIから特定領域に特化したドメイン特化AIへと生成AI活用の重心が移る中、広告領域での事業提携の一例"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000853.000003955.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/3955/853/3955-853-fac72ec3cd6f0e7e50dcc7731b34c85f-960x540.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 東京のガイアックスは2026年9月24日、米サンフランシスコを拠点とするAI広告プラットフォーム「Omneky」に出資したと発表した。生成AIによる広告制作・分析の自動化技術を、自社が手がけるSNSマーケティング・クリエイター支援事業に取り込む狙いがある。
 
