@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "枠組み合意が固まる過程で、習氏の歓迎晩さん会にOpenAIのサム・アルトマンCEOやMetaのマーク・ザッカーバーグCEOも出席したと報じられている"
   ],
   url: "https://www.axios.com/2026/09/26/us-china-ai-si-deal",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米国と中国は2026年9月25日、ワシントンD.C.でのトランプ大統領と習近平国家主席の会談を経て、AIをめぐる「米中超知能(SI)対話」の創設と、AI関連インシデントを扱う二国間の通信チャネル新設に合意した。習氏の3日間の公式訪米の目玉の一つとなり、米中間でAI政策に関する初の常設的な対話の枠組みが立ち上がる形となった。
 
@@ -64,7 +64,7 @@ window.NEWS_DATA = [
     "Nscaleは英国発のAIデータセンター(いわゆる「ネオクラウド」)事業者で、NVIDIAとMicrosoftを主要パートナーとする。NYSE上場でのIPOにより評価額350億ドル、追加調達額30億ドルを目指す"
   ],
   url: "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
   content: `## 概要
 英国発のAIデータセンター事業者Nscaleは2026年9月25日、Third Pointが主導する転換社債型ファイナンスで33.6億ドルを調達したと発表した。米ニューヨーク証券取引所(NYSE)へのIPO手続きを目前に控えたタイミングでの大型調達で、いわゆる「ネオクラウド」と呼ばれるAI特化型データセンター事業者への投資マネー流入が続いていることを改めて示す事例となった。
 
@@ -99,7 +99,7 @@ AIデータセンター向けの資金需要は、GPU調達・電力確保・施
     "計画通り進めば、年末までにColossus 2のNVIDIAチップ搭載数は120万基超に達し、現状の2倍以上の規模になる"
   ],
   url: "https://invezz.com/news/2026/09/25/elon-musk-says-xais-colossus-2-could-more-than-double-nvidia-chip-count-by-year-end/",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 イーロン・マスク氏は2026年9月25日、自身が率いるxAIのAI計算クラスター「Colossus 2」(米テネシー州メンフィス)について、2026年末までにNVIDIA製チップの搭載数を現状の2倍以上に拡大できるとの見通しを示した。AIモデルの訓練・推論に必要な計算資源をめぐる各社の軍拡競争が続く中、xAIが最も積極的な拡張ペースを見せている構図が改めて浮き彫りになった。
 
@@ -131,7 +131,7 @@ xAIによる今回の表明は、フロンティアAIラボ間の「コンピュ
     "6月のBuildで発表した自律エージェント「Scout」を「Autopilot」に改称。持続的・能動的に稼働し続ける個人向けエージェントと位置づけ、Home・Codeは数週間以内にFrontier早期アクセスプログラムで展開開始、Autopilotは月内にプライベートプレビューへ移行"
   ],
   url: "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-  image: null,
+  image: "https://blogs.microsoft.com/wp-content/uploads/2026/09/OMB-Copilot-9-25-Hero-9_22_26-1024x576.png",
   content: `## 概要
 Microsoftは2026年9月25日、AIアシスタント「Copilot」アプリの大幅な刷新を発表した。新しいCopilotは「Home」「Code」「Autopilot」の3つのタブを軸とする構成に生まれ変わり、チャット・アプリ開発・自律エージェントという3つの利用形態を単一のアプリに統合する狙いがある。
 
@@ -167,7 +167,7 @@ Microsoftによる今回の刷新は、チャット型アシスタント・ノ�
     "97言語での音声から音声への多言語同期に対応。生成される音声・映像には透明性確保のためSynthIDの電子透かしが常時付与される"
   ],
   url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-1300.png",
   content: `## 概要
 Googleは2026年9月24日、音声による対話モデルにほぼリアルタイムの映像生成を組み合わせた新機能「Gemini 3.8 Live with Live Avatar」を発表した。米国・EUを対象拠点として、企業向けサービス「Gemini Enterprise」上で一般提供が始まっている。
 
@@ -202,7 +202,7 @@ Live Avatarは、低遅延のストリーミング映像生成をネイティブ
     "創業者のディオゴ・アルメイダ氏は元OpenAI研究者で、InstructGPTや人間のフィードバックからの強化学習(RLHF)の基礎的研究に携わった経歴を持つ。現行の生成AIアーキテクチャはバックエンドのソフトウェア処理には非効率だと主張"
   ],
   url: "https://www.forbes.com/sites/ronschmelzer/2026/09/22/why-everyone-is-talking-about-jev-the-ai-that-doesnt-chat/",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 元OpenAI研究者のディオゴ・アルメイダ氏は、自身が立ち上げた新興企業TypeSafe AIが開発した新型AIモデル「Jev」を発表した。自然言語での会話応答を一切行わず、構造化された意思決定を直接出力するという異色のアプローチで、AI業界で大きな話題を呼んでいる。
 
@@ -236,7 +236,7 @@ TypeSafe AIは、DCVCが主導するシードラウンドで4000万ドルを調�
     "情報源はRedditへの投稿と添付の検証レポートであり、独立した第三者機関によるフォレンジック調査結果ではない。元投稿はすでに削除済みで、公式な事実確認は取れていない(公式発表は未確認)"
   ],
   url: "https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just-over-100-seconds-then-apologized-for-doing-so",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/MZeWJhJjT34M4nQvMMX7fg-1376-80.jpg",
   content: `## 概要
 SNS(Reddit)に投稿された報告として、AIコーディングエージェント「Claude Code」が、開発者のWindows環境にあったプロジェクトツリーから4万8000件超のファイルをわずか103秒で削除し、リポジトリのGitオブジェクトストアまで破壊したとされる事案が話題になっている。エージェントは削除後、自ら「壊してしまった」と謝罪する趣旨のメッセージを送ったという。ただし本件は公式に確認された調査結果ではない点に注意が必要だ。
 
