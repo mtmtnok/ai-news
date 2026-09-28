@@ -60,7 +60,7 @@ Opus・Sonnet・Haikuという3階層でモデルを使い分ける戦略は、G
     "発表時点でMicrosoft・Perplexity・Accenture・JPMorgan Chaseなど100社超が採用"
   ],
   url: "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
   content: `## 概要
 NVIDIAは2026年9月28日、AIエージェントが人間の制御を離れて「暴走」する事態を防ぐための新たなオープンソフトウェア基盤「NVIDIA Open Agent Safety Platform」を発表した。エージェントのテスト段階から本番デプロイまでを一貫してカバーするリファレンス設計で、発表時点でMicrosoft・Perplexity・Accenture・JPMorgan Chaseなど100社超がすでに採用しているという。
 
@@ -94,7 +94,7 @@ AIエージェントが自律的にタスクをこなす利便性の裏側で、
     "2026年8月に招待制サービスを開始したばかり。専用アプリはまだなくSMS経由でのやり取りが中心"
   ],
   url: "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
   content: `## 概要
 常時稼働型のAIパーソナルアシスタント「Instinct」を提供するSpear Street Technologyは2026年9月28日、シリーズCで10億ドルを調達し、評価額が100億ドルに達したと発表した。8月26日に報じられたシリーズB(評価額25億ドル)からわずか1カ月余りで評価額が4倍に急騰しており、AIエージェント分野への投資熱の高さを改めて示す事例となった。
 
@@ -127,7 +127,7 @@ Instinctは、ユーザーが電話やSMSでAIボットに連絡するだけで�
     "実行期間は2028年1月30日に終わる会計年度末までを想定"
   ],
   url: "https://www.cnbc.com/2026/09/28/nvidia-share-buyback-plan-gets-150-billion-boost.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108354000-1787675996078-gettyimages-2266718119-NVIDIA_GTC.jpeg?v=1787832025&w=1920&h=1080",
   content: `## 概要
 NVIDIAは2026年9月28日、取締役会が自社株買い枠を新たに1500億ドル積み増すことを承認したと発表した。これにより累計の自社株買い枠は2350億ドルに達し、単発の増枠幅としては2024年のApple(1100億ドル)を上回り、企業の自社株買い承認としては史上最大の増枠幅になったとされる。
 
@@ -161,7 +161,7 @@ NVIDIAの株主還元強化は、AI半導体ブームがなお高い収益性を
     "MIIT・NVIDIA・ByteDance・Alibabaのいずれも公式には未確認。数量や納期を含め詳細は流動的"
   ],
   url: "https://www.benzinga.com/markets/tech/26/09/62013860/nvidia-chips-for-alibaba-bytedance-china-reportedly-green-lights-rtx-pro-5500-amid-us-curbs",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国工業情報化省(MIIT)が、Alibaba・ByteDanceなど中国の主要テック企業に対し、NVIDIAの新型プロセッサー「RTX Pro 5500」の購入を事実上容認する方向で調整していると報じられた。米The Informationが2026年9月27日に報じ、Reutersなど複数メディアが後追いしたもので、実現すれば米国の対中半導体規制下でも中国企業がNVIDIA製プロセッサーを調達できる新たな抜け道が生まれる可能性がある。
 
@@ -195,7 +195,7 @@ RTX Pro 5500は高性能なプロフェッショナル向けプロセッサー�
     "すでに提供を開始しており、複数企業での導入が進行中"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000111.000025965.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/25965/111/25965-111-de6f7794a7804fbe0af41632d4d1eee1-842x595.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 デジタルアイデンティティ(Orchestra Holdings傘下)は2026年9月28日までに、AIとマーケティングツール・データを接続するMCP(Model Context Protocol)ゲートウェイ「Forté-MCP」の提供を開始したと発表した。同社が展開するマーケティングAIプラットフォーム「Forté.AI」の関連サービスと位置づけられる。
 
