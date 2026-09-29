@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "総額5180億ドルの8割が解約不能。Anthropicは「計算資源の確保がAI開発の主要な制約」と投資家に説明"
   ],
   url: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/",
-  image: null,
+  image: "https://www.pymnts.com/wp-content/uploads/2025/12/Anthropic-hq.jpg",
   content: `## 概要
 Anthropicは2026年9月29日までに提出した非公開のIPO目論見書で、今後10年間で少なくとも5180億ドル(約77兆円)をAIインフラ構築に投じる計画を明らかにした。Google、Amazon、Microsoft、Broadcom、xAI、AMDの6社と結んだ契約が対象で、その約8割は利用実績にかかわらず支払い義務が生じる「解約不能」契約だという。Reutersが目論見書を確認して報じた。
 
@@ -62,7 +62,7 @@ Google・Amazon・Microsoftという3大クラウド全てと大型契約を結�
     "2026年Q2にAnthropicに逆転されていた売上高で、OpenAIが勢いを取り戻す形に。費用構造の詳細は依然不明"
   ],
   url: "https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIの年換算売上高(ARR)が、2026年第3四半期に入ってから70%超のペースで増加し、700億ドル(約10.5兆円)に迫っていることが分かった。Axiosが2026年9月29日、関係者の話として報じた。B2B(法人向け)収益は同期間に2倍以上に拡大し、コンシューマー向け収益は第3四半期単独で2025年通年を上回ったという。
 
@@ -96,7 +96,7 @@ AnthropicのARRが7月時点で650億ドルと報じられる中、OpenAIも700�
     "AgentKit・ChatGPT Space・Pages・Ultrafastなど20以上の新機能を同時発表。新規資金調達ラウンドの協議も判明"
   ],
   url: "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
   content: `## 概要
 OpenAIは2026年9月29日(米国時間)、開発者向けイベント「DevDay 2026」を開催し、新モデル「GPT-6.1 Sol」、ChatGPT内で24時間稼働する自律エージェント「Dots」、エージェント開発ツール群「AgentKit」など20以上の新機能を一挙に発表した。同時に新規の資金調達ラウンドについても協議していることが明らかになった。
 
@@ -130,7 +130,7 @@ OpenAIは2026年9月29日(米国時間)、開発者向けイベント「DevDay 2
     "米中対立を背景に、米国が安全保障上重要な半導体の国内生産能力拡大を狙う。日本の対米投資は発電中心から技術・製造分野へ拡大"
   ],
   url: "https://asia.nikkei.com/economy/trade-war/trump-tariffs/japan-us-in-talks-to-build-chip-factory-as-part-of-tariff-deal2",
-  image: null,
+  image: "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F8%2F4%2F3%2F13123484-1-eng-GB%2F4d8d3cdebb13-photo_SXM2026091700006444.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
   content: `## 概要
 日本と米国は、関税に関する投資協定の一環として、米国内に半導体工場を新設する計画について協議していることが分かった。総投資額は120億〜193億ドル(約1兆8000億円〜2兆9000億円)規模とされ、運営は米半導体メーカーGlobalFoundriesが担う見通しだ。
 
@@ -163,7 +163,7 @@ OpenAIは2026年9月29日(米国時間)、開発者向けイベント「DevDay 2
     "ARRの55%以上がエンタープライズ向け収益。ボイスエージェント需要の高まりが成長を牽引"
   ],
   url: "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2025/01/ElevenLabs-feat.jpg?resize=1200,669",
   content: `## 概要
 音声AI企業ElevenLabsは2026年9月28日、新たな音声合成モデル「Eleven v4」と低遅延版「v4 Turbo」を発表した。感情表現の制御機能を強化し、対応言語を従来の70以上から90以上に拡大した。あわせて、評価額220億ドルでの新規資金調達ラウンドの観測も浮上している。
 
@@ -197,7 +197,7 @@ Eleven v4は同社史上「最も感情豊かな」音声合成モデルと位�
     "同工場はAIプロセッサー向け先端パッケージングの「インターポーザー」製造でもTSMCを支援"
   ],
   url: "https://www.taiwannews.com.tw/news/6448051",
-  image: null,
+  image: "https://image.taiwannews.com.tw/2026%2F09%2F28%2F5329c74ddde642b1bb4c5545c3c6a29d.jpg",
   content: `## 概要
 台湾積体電路製造(TSMC)の系列会社であるVIS(世界先進積体電路)は、シンガポールで稼働を始めたばかりの新工場に続き、第2工場の建設検討を加速させていることが分かった。AI需要の高まりによりパワー半導体・アナログ半導体への引き合いが想定を上回っており、既存工場の生産能力が早くも「完売」状態になったためだ。
 
@@ -228,7 +228,7 @@ AI半導体需要の逼迫が、GPUやHBMといった花形分野だけでなく
     "トランプ大統領は大統領令で各機関にAmerica.govへのサービス統合を指示。最終的には政府サービスの一元化を目指す"
   ],
   url: "https://www.cnbc.com/2026/09/29/trump-ai-gemini-grok.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108369398-1790691949621-gettyimages-2297173674-TRUMP_AMERICAGOV.jpeg?v=1790691976&w=1920&h=1080",
   content: `## 概要
 トランプ政権は2026年9月29日、米連邦政府のサービスをAIチャットで横断検索できるポータルサイト「America.gov」を立ち上げた。GoogleのGemini、イーロン・マスク氏率いるxAIのGrokという2つのAIモデルを活用しており、米国のチーフデザイン責任者ジョー・ゲビア氏が明らかにした。
 
@@ -262,7 +262,7 @@ AIモデルの選定について、ゲビア氏はGoogleのGeminiとxAIのGrok�
     "AIによる攻撃の高度化に対し、防御側もAI活用による診断精度向上と現場負担軽減を両立させる狙い"
   ],
   url: "https://ai.watch.impress.co.jp/docs/news/2144137.html",
-  image: null,
+  image: "https://ai.watch.impress.co.jp/img/aiw/list/2144/137/0300.jpg",
   content: `## 概要
 NTTアドバンステクノロジは2026年9月29日、AIによるサイバー攻撃の高度化に対応する新たなWebセキュリティ診断サービス「AIハイブリッドWeb診断サービス」を発表した。2026年10月1日から提供を開始する。
 
