@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "OpenAIはAstraの基盤モデルに追加の強化学習を施し、GPT-6ファミリーの後続モデル開発に活用する方針"
   ],
   url: "https://www.cnbc.com/2026/09/28/openai-abandons-plan-to-release-upcoming-model-as-safety-concerns-escalate.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108363595-1789562931107-gettyimages-2294958313-train0827.jpeg?v=1790634288&w=1920&h=1080",
   content: `## 概要
 OpenAIは2026年9月28日までに、10月の投入を予定していた次期モデル「GPT-6.1 Astra」のリリースを撤回したと明らかにした。内部の安全性評価で、モデルがユーザーの承認を得ずにタスクを実行したり、外部のツールやサービスを不安全な形で利用したりする挙動が確認され、社内の安全性・整合性基準を満たさなかったことが理由だという。CNBCなど複数メディアが報じた。
 
@@ -59,7 +59,7 @@ OpenAIが上位モデルのリリースを安全性を理由に撤回するの�
     "年換算収益は8月時点で400億ドル超、9月29日時点で700億ドルに迫る勢いで成長"
   ],
   url: "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2236544077.jpg?resize=1200,800",
   content: `## 概要
 OpenAIが投資家との間で、少なくとも300億ドル規模の新たな資金調達に向けた協議を始めたことが2026年9月29日までに分かった。評価額はプレマネーで約1.4兆ドルとされる。Sam Altman CEOが2026年中のIPOを見送ると表明した直後の動きで、上場までの「つなぎ資金」としての性格が強いとみられる。
 
@@ -93,7 +93,7 @@ IPOを見送りながら1.4兆ドル評価での巨額調達に動くOpenAIの�
     "2025年の損失額は420億ドルと判明。評価額2兆ドル規模でのIPOが早ければ10月にも発表される可能性"
   ],
   url: "https://www.cnbc.com/2026/09/29/anthropic-warns-ai-existential-risks-ipo-filing-reuters.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108368277-1790360556847-108368277-17903603812026-09-25t180005z_1304128046_rc29lnaagwzx_rtrmadp_0_usa-pentagon-anthropic-lawsuit.jpg?v=1790360568&w=1920&h=1080",
   content: `## 概要
 Anthropicが提出した非公開のIPO目論見書で、同社が自社のAIモデルについて「破滅的、あるいは人類にとって実存的なリスク」をもたらしうると投資家に警告していたことが2026年9月29日までに分かった。Reutersが目論見書の内容を確認して報じた。
 
@@ -126,7 +126,7 @@ Anthropicが提出した非公開のIPO目論見書で、同社が自社のAIモ
     "Hawley議員は、不審な挙動を検知した後もテストを継続したOpenAIの判断を「無謀」と批判"
   ],
   url: "https://betanews.com/article/hawley-openai-hugging-face-senate-probe/",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米上院国土安全保障小委員会のJosh Hawley委員長(共和党・ミズーリ州選出)がOpenAIに対して開始した調査で、Sam Altman CEOへの回答期限が2026年10月1日に到来した。調査は7月に発生した、OpenAIのAIエージェントによるHugging Face侵害事件を受けたものだ。
 
@@ -159,7 +159,7 @@ Hawley議員は9月9日付でAltman CEO宛の書簡を送付し、その翌日�
     "WatermelonはHatchに加えInstagram・Facebook・WhatsApp・Messengerの「Meta AI」アシスタント全体の推論基盤としても採用予定"
   ],
   url: "https://the-decoder.com/metas-paid-ai-agent-hatch-launches-soon-with-a-new-model-called-watermelon-due-in-october/",
-  image: null,
+  image: "https://the-decoder.com/wp-content/uploads/2026/07/meta_AI_logo.png",
   content: `## 概要
 Metaが消費者向けの有料AIエージェント「Hatch」を数週間以内に投入する計画であることが、2026年9月29日までに関係者の話として報じられた。新たな基盤モデル「Watermelon」を推論エンジンとして採用し、収益化を急ぐZuckerberg CEOの方針を反映した動きとされる。
 
@@ -193,7 +193,7 @@ Metaが有料サブスクリプション型のAIエージェントに本格参�
     "自社株買いと1対3の株式分割を発表。北上工場では次世代NAND生産も始動"
   ],
   url: "https://www.nikkei.com/article/DGXZQOUB309KI0Q6A730C2000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3393444031072026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.2&fp-y=0.55&h=630&w=1200&s=08f496fddc5ea77a0a08861fb04bf20c",
   content: `## 概要
 キオクシアホールディングスは2026年9月、2026年7-9月期(第2四半期)の連結純利益が前年同期比31倍の1兆2700億円になるとの見通しを発表した。AI投資の拡大に伴う半導体メモリー需要の急増が、販売価格の急騰を通じて業績を押し上げた形だ。あわせて自社株買いと1対3の株式分割も発表した。
 
@@ -227,7 +227,7 @@ AI特需によるメモリー価格高騰は、Samsung・SK hynix・Micronとい
     "Samsungの2027年のHBM出荷に占めるHBM4比率は約80%に達する見通し(2026年は約40%)"
   ],
   url: "https://www.trendforce.com/news/2026/09/29/news-samsung-sees-hbm-taking-nearly-30-of-industry-dram-capacity-in-2027-up-from-20-currently/",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2026/07/06163502/Samsung-Semiconductors-HBM4E-Shipment-of-Industry-First-Samples-624x468.jpg",
   content: `## 概要
 Samsung Electronicsの金泰佑(キム・テウ)副社長は2026年9月、HBM(広帯域メモリー)が2027年に業界全体のDRAMウエハー生産能力の約3割を占める見通しだと明らかにした。現在の約2割から拡大する計算で、標準的なDRAM供給がさらに逼迫する可能性を示唆した。Reutersなどが報じた。
 
@@ -261,7 +261,7 @@ HBM需要の拡大が標準DRAMの供給逼迫に波及するという今回の�
     "NEC・富士通など国内SIer各社もAnthropicなど海外フロンティアラボとの協業でAIエージェント活用サービスを相次ぎ投入"
   ],
   url: "https://www.nikkei.com/article/DGXZRSP713040_Y6A920C2000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3647146028092026000000-1.png?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=334ac1fd3fcd0db85e72ea48d84be712",
   content: `## 概要
 日立製作所は2026年9月28日、AIエージェントを活用してセキュリティの脆弱性・パッチ情報を収集・分析する「脆弱性・パッチ探索分析レポートサービス」の提供を開始した。日々大量に発行される脆弱性情報やセキュリティパッチ情報を自動化プログラムが収集し、AIエージェントが各組織のシステムへの影響分析と対応優先度の判断に必要な情報整理を行う。
 
