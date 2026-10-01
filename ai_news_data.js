@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "価格は導入時100万トークンあたり入力2ドル・出力10ドル、最大出力トークン数を6万4000から100万に拡張"
   ],
   url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
   content: `## 概要
 Googleは2026年10月1日、新フラッグシップモデル「Gemini 4 Argon」を発表した。ソフトウェアエンジニアリングや法務・金融などのエンタープライズ知識労働、サイバー防御に強みを持つモデルとして位置付けられ、特にサイバー能力については「検証済み防御者」に限定した先行提供という異例の展開方法を取った。
 
@@ -60,7 +60,7 @@ GPT-6.1 Astraの撤回(本サイト既報)やAnthropicの相次ぐモデル投�
     "2日前に報じられたNYTの「OpenAI幹部が従業員の安全性への懸念を軽視」との報道と合わせ、社内の安全文化への懸念が再燃"
   ],
   url: "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
   content: `## 概要
 OpenAIは、安全チームに所属していた研究者3人について、社内の機密情報を外部のAI安全団体に不正に共有したとして契約を解消したことが、2026年10月1日までにThe Wall Street Journalの報道で明らかになった。
 
@@ -125,7 +125,7 @@ Anthropicの直近のIPO目論見書では、実存的リスクへの言及と�
     "個別脆弱性を単独評価するのではなく、数万体規模のAIエージェント群が攻撃者のように振る舞い、軽微な問題を組み合わせて実際に成立する攻撃経路を検証"
   ],
   url: "https://siliconangle.com/2026/10/01/armadin-nabs-255-5m-to-detect-vulnerabilities-with-ai-agent-swarms/",
-  image: null,
+  image: "https://images.siliconangle.com/blogs.dir/1/files/2026/10/security-265130_1280.jpg",
   content: `## 概要
 サイバーセキュリティ企業Mandiantの創業者として知られるKevin Mandia氏が設立したAIネイティブ企業Armadinが、シリーズBラウンドで2億5550万ドルを調達し、評価額25億ドル超に達したことが2026年10月1日に明らかになった。
 
@@ -159,7 +159,7 @@ NVIDIAの「Open Agent Safety Platform」(本サイト既報)など「暴走す�
     "台湾AUOはデータセンター向け短距離光インターコネクト用Micro LED共パッケージ光学モジュールとガラスコア基板の両技術を推進"
   ],
   url: "https://www.digitimes.com/news/a20260930PD221/display-semiconductors-packaging-growth-technology.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20260930pd221_files/2_b.jpg",
   content: `## 概要
 AI半導体需要の急拡大を背景に、液晶パネルなどディスプレイ製造で蓄積した大判ガラス処理技術を持つ企業が、先端半導体パッケージングという新領域に参入する動きが広がっている。ガラスコア基板とMicro LED技術がその中核をなす。
 
@@ -190,7 +190,7 @@ AI向け先端パッケージングの需要急増は、従来の半導体製造
     "画像生成には新モデル「ChatGPT Images 2.5」を採用、自然な光や質感の再現・編集指示への追従性向上・生成の低遅延化を主張"
   ],
   url: "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/10/Virtual-Try-On.jpg?resize=1200,675",
   content: `## 概要
 OpenAIは2026年10月1日、ChatGPTのショッピング機能に「仮想試着」と「お気に入り」という2つの新機能を追加し、世界展開を始めたと発表した。
 
@@ -222,7 +222,7 @@ ChatGPTを起点とした購買体験の強化は、GoogleのGemini・AI Mode経
     "バックオフィス業務では、ビジネスチャット・Web会議・グループウェアに蓄積された情報の検索・集計・下書き作成を支援"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000171.000124536.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/124536/171/124536-171-476234dbcf59a08fd6de8c245ab5621a-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 企業向けAIプラットフォーム「JAPAN AI」を展開するJAPAN AI株式会社は、2026年9月末時点で外部SaaSツール40種・公的サービス7種、合計47種との連携を実現したと発表した。
 
@@ -253,7 +253,7 @@ JAPAN AIは2025年7月にシリーズBラウンドで19億円を調達するな�
     "意義: 共有リソース制約下でも、複数エージェントの合成によって個々のエージェント単体を超えたタスク対応範囲を実現できることを理論的に示し、長時間タスクで既存のエージェント基盤を上回る性能を報告"
   ],
   url: "https://arxiv.org/abs/2609.33439",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 Hugging Face Papersの週間トレンディングで495いいねを獲得し首位となった論文「Raven: The Harness of Harnesses for Composable Agentic Intelligence」は、AIエージェントの「行動制御の枠組み(ハーネス)」そのものを自動的に構築・進化させるマルチエージェント基盤を提案する。開発元は中国系AI企業EverMind AIで、2026年9月27日に技術報告書として公開された。
 
