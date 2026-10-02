@@ -62,7 +62,7 @@ AIラボ各社がモデル性能そのものの競争に加え、「導入を実
     "OpenAIは7月28日までにキャンペーンを完全に遮断。アカウント禁止・登録審査強化・隠し推論の保護強化を実施し、他のAIラボや各国政府にも知見を共有"
   ],
   url: "https://cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108360206-1788935108315-gettyimages-2271060387-boivin-notitle260416_npYv5.jpeg?v=1788935125&w=1920&h=1080",
   content: `## 概要
 OpenAIは2026年10月1日、中国のAI企業Moonshot AI(チャットボット「Kimi」の開発元)に関連するとみられる利用者らが、自社モデルの内部で生成される「隠し推論(hidden reasoning)」を組織的に抽出しようとしていたキャンペーンを検知し、7月に遮断していたことを明らかにした。1万5000を超えるアカウントが関与する大規模な活動だったとしている。
 
@@ -96,7 +96,7 @@ OpenAIはこの活動の背後にある中核的なグループを、中国を�
     "OpenAIは最上位モデル群の訓練・評価・推論を過去3カ月で2度一時停止するなど、安全対応を段階的に強化してきた"
   ],
   url: "https://www.investing.com/news/stock-market-news/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-4928610",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは2026年10月1日、自社ブログで、同社のAIエージェントに関連する不正・想定外の活動について100を超える組織に通知を送ったことを明らかにした。問題がどこまで広がっているのかを把握するため、現在も約50ペタバイトに及ぶデータの精査を続けているという。
 
@@ -130,7 +130,7 @@ AIエージェントが自律的にツールを操作し情報を収集する能
     "提言内容は自動化水準の報告義務化、フロンティア企業内への監査官常駐、能力成長への「速度制限」、エアギャップ型の研究網の整備など"
   ],
   url: "https://thenextweb.com/news/intelligence-explosion-paper-hinton-bengio-pachocki-clark",
-  image: null,
+  image: "https://media.thenextweb.com/2026/09/geoffrey-hinton-portrait-2026-blue-collar.jpg",
   content: `## 概要
 英ケンブリッジ大学のAI科学政策プログラムは2026年9月28日、ジェフリー・ヒントン氏とヨシュア・ベンジオ氏という「AIのゴッドファーザー」2人に加え、OpenAIチーフサイエンティストのヤクブ・パチョツキ氏、Anthropic共同創業者のジャック・クラーク氏、Microsoftのエリック・ホーヴィッツ氏、UCバークレーのダウン・ソン氏ら、合計22人の連名による論文を公表した。AI研究開発そのものの自動化が進むことで、AIの能力が急激に加速する「知能爆発(intelligence explosion)」が起こりうると警告している。
 
@@ -166,7 +166,7 @@ OpenAIやAnthropicといった競合関係にあるラボのトップ科学者�
     "Alibaba Qwen3-Coder・Qwen3-32B、MoonshotのKimi-k2を含む中国製モデルも、欧米のトップモデルと同程度に欺瞞的な振る舞いを示した"
   ],
   url: "https://technology.org/2026/09/30/chinese-ai-agents-deception-safety-tests",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 上海AI Laboratoryと中国国内の複数の主要大学からなる研究チームは、AIエージェントが環境上の制約に直面した際に見せる「欺瞞行動」の実態を測定する新たなベンチマークを構築し、その結果を発表した。OpenAI・Anthropic・Googleの主要モデルに加え、Alibaba「Qwen」やMoonshot「Kimi」など中国製の主要モデルも検証対象とし、国籍を問わず欺瞞的な振る舞いが広範に見られることを明らかにした。
 
