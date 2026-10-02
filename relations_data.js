@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-09-26",
+  updated: "2026-10-03",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -36,6 +36,12 @@ window.RELATIONS = {
     { id: "pfn",          label: "Preferred Networks", sector: "lab", jp: true },
     { id: "lawzero",      label: "LawZero",      sector: "lab" },
     { id: "arcee",        label: "Arcee AI",     sector: "lab" },
+    { id: "aire",         label: "Aire",         sector: "lab" },
+    { id: "naiveai",      label: "Naive AI",     sector: "lab" },
+    { id: "mirendil",     label: "Mirendil",     sector: "lab" },
+    { id: "typesafeai",   label: "TypeSafe AI",  sector: "lab" },
+    { id: "cohere",       label: "Cohere",       sector: "lab" },
+    { id: "alephalpha",   label: "Aleph Alpha",  sector: "lab" },
     // ビッグテック・クラウド
     { id: "microsoft",    label: "Microsoft",    sector: "cloud" },
     { id: "google",       label: "Google",       sector: "cloud" },
@@ -54,6 +60,8 @@ window.RELATIONS = {
     { id: "riotplatforms", label: "Riot Platforms", sector: "cloud" },
     { id: "nscale",        label: "Nscale",        sector: "cloud" },
     { id: "fluidstack",    label: "Fluidstack",    sector: "cloud" },
+    { id: "akamai",        label: "Akamai",        sector: "cloud" },
+    { id: "emerald",       label: "Emerald AI",    sector: "cloud" },
     // 半導体
     { id: "nvidia",       label: "NVIDIA",       sector: "semi", sub: "design" },
     { id: "amd",          label: "AMD",          sector: "semi", sub: "design" },
@@ -73,6 +81,8 @@ window.RELATIONS = {
     { id: "etched",       label: "Etched",       sector: "semi", sub: "design" },
     { id: "amkor",        label: "Amkor",        sector: "semi", sub: "fab" },
     { id: "mediatek",     label: "MediaTek",     sector: "semi", sub: "design" },
+    { id: "enflame",      label: "Enflame",      sector: "semi", sub: "design" },
+    { id: "globalfoundries", label: "GlobalFoundries", sector: "semi", sub: "fab" },
     // 応用・スタートアップ
     { id: "spacex",       label: "SpaceX",           sector: "app" },
     { id: "scaleai",      label: "Scale AI",         sector: "app" },
@@ -123,7 +133,10 @@ window.RELATIONS = {
     { id: "germanygov",   label: "ドイツ政府",        sector: "invest" },
     { id: "pentagon",     label: "米国防総省",        sector: "invest" },
     { id: "insightpartners", label: "Insight Partners", sector: "invest" },
-    { id: "s32",          label: "S32",              sector: "invest" }
+    { id: "s32",          label: "S32",              sector: "invest" },
+    { id: "qia",          label: "カタール投資庁",      sector: "invest" },
+    { id: "kleinerperkins", label: "Kleiner Perkins", sector: "invest" },
+    { id: "a16z",         label: "a16z",             sector: "invest" }
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -296,6 +309,30 @@ window.RELATIONS = {
     { from: "gaiax", to: "omneky", type: "invest", threads: ["japan"], amount: null,
       label: "米サンフランシスコ発のAI広告プラットフォームに出資。生成AIによる広告制作・効果分析の自動化技術を自社マーケティング支援事業に活用", date: "2026-09",
       source: "https://prtimes.jp/main/html/rd/p/000000853.000003955.html" },
+    { from: "nvidia", to: "crusoe", type: "invest", threads: ["compute"], amount: null,
+      label: "Atreides・Mubadala・Valor主導のシリーズF(39億ドル・評価額309億ドル)にFounders Fund・GIC・QIA等とともに参加（金額非公表）", date: "2026-09",
+      source: "https://mlq.ai/news/crusoe-announces-39-billion-series-f-at-309-billion-valuation/" },
+    { from: "qia", to: "crusoe", type: "invest", threads: ["compute"], amount: null,
+      label: "Crusoeのシリーズ F(39億ドル・評価額309億ドル)に参加（金額非公表）。中東政府系ファンドによるAIインフラ投資の一環", date: "2026-09",
+      source: "https://mlq.ai/news/crusoe-announces-39-billion-series-f-at-309-billion-valuation/" },
+    { from: "tencent", to: "naiveai", type: "invest", threads: ["china"], amount: 4,
+      label: "設立7カ月のステルスLLMスタートアップを主導して4億ドル出資、評価額14.2億ドルに", date: "2026-09",
+      source: "https://www.theinformation.com/articles/tsinghua-professors-stealth-llm-startup-hits-1-4-billion-valuation" },
+    { from: "tencent", to: "enflame", type: "invest", threads: ["china", "semi"], amount: 9,
+      label: "上海STAR市場上場時の主要出資者・最大顧客(売上の8割超)。調達額は約9億ドル、上場初日に株価は3倍近くに急騰", date: "2026-09",
+      source: "https://www.cnbc.com/2026/09/11/chinese-nvidia-rival-enflame-stock-market-debut-ai.html" },
+    { from: "kleinerperkins", to: "mirendil", type: "invest", threads: ["talent"], amount: null, status: "negotiating",
+      label: "元Anthropic研究者らが創業、設立3カ月で評価額5倍の新ラウンド(最大10億ドル・評価額50億ドル)をa16zと共同主導で協議中", date: "2026-09",
+      source: "https://www.bloomberg.com/news/articles/2026-09-22/ex-anthropic-staffers-ai-startup-in-talks-to-raise-at-5-billion-value" },
+    { from: "a16z", to: "mirendil", type: "invest", threads: ["talent"], amount: null, status: "negotiating",
+      label: "Kleiner Perkinsと共同主導で新ラウンド(最大10億ドル・評価額50億ドル)を協議中（金額内訳非公表）", date: "2026-09",
+      source: "https://www.bloomberg.com/news/articles/2026-09-22/ex-anthropic-staffers-ai-startup-in-talks-to-raise-at-5-billion-value" },
+    { from: "nvidia", to: "nscale", type: "invest", threads: ["compute"], amount: 10,
+      label: "NYSE上場(評価額350億ドル)を目指すIPO前の33.6億ドル調達ラウンドで10億ドルを追加出資", date: "2026-09",
+      source: "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/" },
+    { from: "meti", to: "globalfoundries", type: "invest", threads: ["japan", "semi"], amount: null, status: "negotiating",
+      label: "日米関税合意の一環として、GlobalFoundries運営の半導体工場に120億〜193億ドルの投資を日米両政府で協議中。対中半導体安全保障の強化が狙い", date: "2026-09",
+      source: "https://asia.nikkei.com/economy/trade-war/trump-tariffs/japan-us-in-talks-to-build-chip-factory-as-part-of-tariff-deal2" },
 
     // ── 提携・供給契約 (partner) ──
     // OpenAI コンピュート網
@@ -346,20 +383,26 @@ window.RELATIONS = {
       source: "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/" },
     // Anthropic コンピュート網
     { from: "anthropic", to: "microsoft", type: "partner", threads: ["compute"], flow: "計算資源",
-      label: "Azureのコンピュート300億ドル分を購入コミット", date: "2025-11",
-      source: "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/" },
+      label: "Azureのコンピュート300億ドル分を購入コミット。IPO目論見書では314億ドルの長期インフラ契約（解約不能）と判明", date: "2026-09",
+      source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
     { from: "anthropic", to: "microsoft", type: "partner", threads: ["semi", "compute"], flow: "技術", status: "negotiating",
       label: "Microsoft独自チップMaia 200でClaude推論を実行する契約を交渉中（報道）", date: "2026-05",
       source: "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html" },
     { from: "anthropic", to: "google", type: "partner", threads: ["compute"], flow: "計算資源",
-      label: "次世代TPU容量を複数GW規模で確保。2027年から順次稼働予定（Google CloudのTPU利用を拡張）", date: "2026-04",
-      source: "https://www.anthropic.com/news/google-broadcom-partnership-compute" },
-    { from: "anthropic", to: "broadcom", type: "partner", threads: ["compute", "semi"], flow: "資金", status: "reported",
-      label: "カスタムAIアクセラレータの共同開発(26/5)に続き、Broadcomが供給拡大の原資としてBlackstone・Apollo Global Managementと600億〜1000億ドル規模の負債による資金調達を協議中(26/8)", date: "2026-08",
-      source: "https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal" },
+      label: "次世代TPU容量を複数GW規模で確保。IPO目論見書で少なくとも1,111億ドルの長期インフラ契約（7〜10年、利用量にかかわらず支払う解約不能契約）と判明", date: "2026-09",
+      source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
+    { from: "anthropic", to: "broadcom", type: "partner", threads: ["compute", "semi"], flow: "資金",
+      label: "カスタムAIアクセラレータの共同開発(26/5)、Blackstone・Apollo Global Managementとの600億〜1000億ドル規模の負債調達協議(26/8)に続き、IPO目論見書で設備リース契約1,612億ドル(解約不能)が判明。Anthropicのインフラ契約先6社中最大規模", date: "2026-09",
+      source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
     { from: "anthropic", to: "amazon", type: "partner", threads: ["compute", "semi"], flow: "計算資源",
-      label: "AWS Trainium最大5GWの容量確保を含む超大型コンピュート契約（Trainium3出荷開始と同時期）", date: "2026-04",
-      source: "https://convergedigest.com/amazon-q1-2026-aws-surges-28-as-custom-ai-chips-top-20b-run-rate/" },
+      label: "AWS Trainium最大5GWの容量確保を含む超大型コンピュート契約。IPO目論見書で少なくとも1,100億ドルの長期インフラ契約（解約不能）と判明", date: "2026-09",
+      source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
+    { from: "anthropic", to: "xai", type: "partner", threads: ["compute", "labs"], flow: "計算資源", status: "reported",
+      label: "IPO目論見書で845億ドルの長期インフラ契約（解約不能）が判明。競合関係にあるラボ間でも計算資源の相互依存が生じている実態を示す", date: "2026-09",
+      source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
+    { from: "anthropic", to: "amd", type: "partner", threads: ["compute", "semi"], flow: "計算資源", status: "reported",
+      label: "IPO目論見書で200億ドルの長期インフラ契約（解約不能）が判明。AMDからの出資契約(26/7)とは別枠のコンピュート購入契約", date: "2026-09",
+      source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
     { from: "anthropic", to: "terawulf", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "20年・190億ドルのデータセンターリース（ケンタッキー州401MW、2027年後半稼働）", date: "2026-07",
       source: "https://siliconangle.com/2026/07/06/anthropic-inks-19b-ai-data-center-lease-terawulf/" },
@@ -507,6 +550,21 @@ window.RELATIONS = {
     { from: "fujitsu", to: "palantir", type: "partner", threads: ["japan"], flow: "技術",
       label: "Palantirの「Global FDE Partner」に就任。生成AI基盤の協業拡大、現場常駐型エンジニアで企業のAI実装を支援", date: "2026-09",
       source: "https://prtimes.jp/main/html/rd/p/000000606.000093942.html" },
+    { from: "nvidia", to: "google", type: "partner", threads: ["compute"], flow: "技術",
+      label: "Emerald AIと3社でデータセンター電力の柔軟制御連合「AEMA」を発足。電力網接続の迅速化と100GW確保を目標", date: "2026-09",
+      source: "https://blogs.nvidia.com/blog/ai-energy-management-alliance/" },
+    { from: "nvidia", to: "emerald", type: "partner", threads: ["compute"], flow: "技術",
+      label: "Google共々、電力柔軟制御連合「AEMA」の創設メンバーとして参加", date: "2026-09",
+      source: "https://blogs.nvidia.com/blog/ai-energy-management-alliance/" },
+    { from: "google", to: "emerald", type: "partner", threads: ["compute"], flow: "技術",
+      label: "NVIDIA共々、電力柔軟制御連合「AEMA」の創設メンバーとして参加", date: "2026-09",
+      source: "https://blogs.nvidia.com/blog/ai-energy-management-alliance/" },
+    { from: "anthropic", to: "akamai", type: "partner", threads: ["compute"], flow: "計算資源",
+      label: "7年116億ドルのクラウド計算契約。株式ワラントでAkamai株の最大5%相当を取得する権利を付与、発表後Akamai株価は15%急伸", date: "2026-09",
+      source: "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/" },
+    { from: "nvidia", to: "xai", type: "partner", threads: ["compute"], flow: "計算資源",
+      label: "Colossus 2向けNVIDIAチップ搭載数を年内に倍増(最大120万基)。直近では22万基のGB300を追加投入", date: "2026-09",
+      source: "https://invezz.com/news/2026/09/25/elon-musk-says-xais-colossus-2-could-more-than-double-nvidia-chip-count-by-year-end/" },
 
     // ── 買収・合併 (ma) ──
     { from: "spacex", to: "xai", type: "ma", threads: ["labs"],
@@ -533,6 +591,9 @@ window.RELATIONS = {
     { from: "nvidia", to: "huggingface", type: "ma", threads: ["labs", "talent"],
       label: "オープンソースAIハブを129億3000万ドルで買収。うち最大10億ドルは従業員向け引き留め株式。2027年上期クロージング予定", date: "2026-09",
       source: "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/" },
+    { from: "alephalpha", to: "cohere", type: "ma", threads: ["labs"], status: "reported",
+      label: "正式な合併契約を締結。評価額200億ドル規模、「大西洋横断の主権AI」を掲げベルリン・トロント両本社体制へ。規制当局の最終承認待ちで2026年内完了を見込む", date: "2026-09",
+      source: "https://betakit.com/cohere-reaches-terms-with-german-peer-aleph-alpha-to-take-on-ai-giants/" },
 
     // ── 人材移籍 (talent) ── 人物単位で1エッジ
     { from: "google", to: "anthropic", type: "talent", threads: ["talent"], person: "John Jumper",
@@ -567,6 +628,12 @@ window.RELATIONS = {
       source: "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/" },
     { from: "xai", to: "riverai", type: "talent", threads: ["talent"], person: "Igor Babuschkin",
       label: "xAI共同創業者(元DeepMind・OpenAI)が退社し独立。2026年6月にステルス解除したRiver AIを創業、設立2ヶ月で11億ドルを調達", date: "2026-08",
-      source: "https://www.businesswire.com/news/home/20260811845258/en/River-AI-Raises-$1.1B-Led-by-General-Catalyst-and-AMP-PBC-to-Build-Open-AI-Stack" }
+      source: "https://www.businesswire.com/news/home/20260811845258/en/River-AI-Raises-$1.1B-Led-by-General-Catalyst-and-AMP-PBC-to-Build-Open-AI-Stack" },
+    { from: "meta", to: "aire", type: "talent", threads: ["talent"], person: "Yossi Adi",
+      label: "元Meta研究者がイスラエルで独立しAIラボ「Aire」を設立。数百万ドル規模の資金調達済みで、数億ドル規模の追加調達を目指す「ネオラボ」の一つ", date: "2026-09",
+      source: "https://www.haaretz.com/israel-news/tech-news/2026-09-17/ty-article/.premium/israeli-ex-meta-researcher-launches-ai-neolab-in-race-for-hundreds-of-millions/000001a0-aaba-d5b2-a9ee-aaba0e220000" },
+    { from: "openai", to: "typesafeai", type: "talent", threads: ["talent"], person: "Diogo Almeida",
+      label: "InstructGPT・RLHFの基礎研究に携わった元OpenAI研究者が「会話しないAI」新興TypeSafe AIを創業。「Jev」発表時にシードで4000万ドルを調達", date: "2026-09",
+      source: "https://www.forbes.com/sites/ronschmelzer/2026/09/22/why-everyone-is-talking-about-jev-the-ai-that-doesnt-chat/" }
   ]
 };
