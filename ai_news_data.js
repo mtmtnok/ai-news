@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "法的拘束力のない自主誓約で、トランプ氏は「道義的に拘束力がある」と説明。議会は蚊帳の外に置かれているとの指摘も"
   ],
   url: "https://www.technology.org/2026/09/30/trump-tech-ceos-voluntary-ai-safety-accord/",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 2026年9月29日、米ホワイトハウスでトランプ大統領は、OpenAI・Google・Anthropic・Meta・xAI・NVIDIAという主要AI・半導体6社の首脳を招き、「フロンティア責任に関する共同誓約(Joint Commitment on Frontier Responsibilities)」と題する自主的な安全合意に署名した。正式名称は「超知能に関するホワイトハウス協定(White House Accord on Super Intelligence)」で、フロンティアAIの開発競争が激化する中、各社が自ら安全管理の枠組みを強化することを約束する内容となっている。
 
@@ -92,7 +92,7 @@ Microsoft Researchは、Quineを計算生物学と実験生物学の伝統的な
     "Micronは12層積層(12-Hi)のHBM4供給を軸に増産を加速し、月産能力を最大6万枚積み増して年内に約10万枚規模へ拡大する計画"
   ],
   url: "https://www.koreajoongangdaily.com/business/sk-hynix-has-won-two-thirds-of-nvidias-next-gen-high-bandwidth-memory-orders-industry-sources/12030483",
-  image: null,
+  image: "https://image.koreajoongangdaily.com/12031015.jpg?imageId=12031015&panox=0&panoy=0&panow=0&panoh=0&width=1200&height=683",
   content: `## 概要
 NVIDIAの次世代AIプラットフォーム「Vera Rubin」向けに供給される次世代広帯域メモリ「HBM4」をめぐり、SK hynixが受注の3分の2超を確保したことが業界関係者の話として伝えられた。Samsung・Micronを含む大手メモリー3社がシェア争奪を激化させている。
 
@@ -126,7 +126,7 @@ NVIDIAの次世代プラットフォーム向けHBM4の受注獲得競争は、A
     "Gartnerは2026年末までにメモリー価格が130%上昇し、2025年比でPC価格を17%、スマートフォン価格を13%押し上げると試算。高騰は2027年まで続く見通し"
   ],
   url: "https://atmarkit.itmedia.co.jp/ait/spv/2609/01/news021.html",
-  image: null,
+  image: "https://image.itmedia.co.jp/ait/articles/2609/01/cover_news021.jpg",
   content: `## 概要
 AIデータセンター向け需要の急拡大を受け、DRAM・NAND型フラッシュメモリの価格が歴史的な水準で高騰している。サーバー向けDRAMの契約価格は2025年下半期に累計64%上昇した後、2026年にはさらに約270%の上昇が見込まれており、調査会社各社が相次いで警鐘を鳴らしている。
 
@@ -160,7 +160,7 @@ AI向け計算資源への投資競争が、半導体サプライチェーンの
     "自社の利用統計によれば、Harnessユーザーの約6割がサードパーティ製プラグインを利用。「すべてがプラグイン」というオープンなエコシステムづくりを掲げる"
   ],
   url: "https://tech.ifeng.com/c/8wp3r9MQT2g",
-  image: null,
+  image: "https://x0.ifengimg.com/res/2026/7B69E4F9DE99B2F252862F7B3C1904E4B7E5A7A3_size79_w1000_h635.png",
   content: `## 概要
 中国のAI企業DeepSeekは2026年9月29日、自律型AIエージェント基盤「DeepSeek Harness」のバージョン0.2プレビューを公開した。macOS・Windows向けのデスクトップインストーラーが用意され、自社サイトからダウンロードして利用できるようになった。
 
@@ -191,7 +191,7 @@ OpenAIの「Dots」やAnthropicのエージェント機能など、米国勢が�
     "指名承認公聴会でクレイトン氏はAIについて「機会であると同時に脅威」と発言。情報機関トップとAI政策責任者の兼務という異例の人事案が実現するかが焦点"
   ],
   url: "https://www.axios.com/2026/09/29/ai-czar-white-house-trump-jay-clayton",
-  image: null,
+  image: "https://images.pexels.com/photos/8566470/pexels-photo-8566470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 トランプ大統領は2026年9月29日、国家情報長官(DNI)に指名したジェイ・クレイトン氏について、AI政策の司令塔とされる「AI皇帝(AI czar)」役への起用にも意欲を示していることが明らかになった。トランプ氏はAxiosの取材に対し、クレイトン氏が「良いAI皇帝になるだろう」と述べたという。
 
