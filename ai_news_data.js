@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "トランプ氏はかねて「人工知能(AI)」ではなく「超知能(Super Intelligence, SI)」という用語を連邦政府全体で用いるよう求めており、同部隊の名称もこの方針を反映。本サイト既報の「AI皇帝」人事検討の延長線上にある具体的な組織化"
   ],
   url: "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024",
   content: `## 概要
 トランプ大統領は2026年10月4日、AI(同政権の呼称では「超知能」)政策の監督・調整を担う新組織「超知能部隊(Super Intelligence Force)」の発足と、その指導部4名を発表した。本サイトで既報の通り、トランプ氏は9月下旬に国家情報長官(DNI)に指名したジェイ・クレイトン氏を「AI皇帝」に起用する案への意欲を示していたが、今回その構想が複数名からなる正式な政府組織として具体化した。
 
@@ -61,7 +61,7 @@ window.NEWS_DATA = [
     "新工場の生産能力立ち上げには稼働開始から数四半期を要するため、業界全体でDRAM・NAND供給量を年20%台で増やしても需給ギャップの解消は2028年以降になる見込み"
   ],
   url: "https://gigazine.net/news/20261002-micron-ceo-ram-supply",
-  image: null,
+  image: "https://i.gzn.jp/img/2026/10/02/micron-ceo-ram-supply/00_m.jpg",
   content: `## 概要
 半導体大手Micron Technologyの最高経営責任者(CEO)は2026年10月2日までに、AI需要主導のメモリ不足が2028年かそれ以降まで続く可能性があると警告した。2027年向けの広帯域メモリ「HBM」は既に生産能力の75%超が契約済みとなっており、顧客は2026年に支払った価格よりも「はるかに高い価格」を支払うことになるという。
 
@@ -97,7 +97,7 @@ Micronを含む業界全体では、2027〜2028年にかけてDRAMの生産能�
     "既存のGB200 NVL72・GB300 NVL72環境と同じ運用モデル・ツール群でVera Rubin NVL72を利用可能。CoreWeave側のパフォーマンスエンジニアリングチームが移行を支援"
   ],
   url: "https://coreweave.com/news/coreweave-delivers-nvidia-vera-rubin-nvl72-performance-at-production-scale-starting-with-cognition",
-  image: null,
+  image: "https://cdn.prod.website-files.com/62bc66d283fd9c34ffec780a/6abc4206e6e67da76263ffd9_META%20SHARE_NAME_1200x630_V2-1.jpg",
   content: `## 概要
 ネオクラウド大手CoreWeaveは2026年9月30日、NVIDIAの新世代GPUシステム「Vera Rubin NVL72」の商用提供(プロダクション提供)を開始したと発表した。開発者向け自律型AIコーディングエージェント「Devin」を手掛けるCognitionが、本番環境でVera Rubin NVL72を稼働させる世界初の顧客となった。
 
@@ -130,7 +130,7 @@ NVIDIAの最新世代GPU「Vera Rubin」をいち早く商用の本番ワーク�
     "遺伝子合成のスクリーニングなど、バイオセキュリティを強化する「出自証明(プロベナンス)」の基盤レイヤーとして位置付け。既存の画像・音声・映像向け電子透かし技術「SynthID」の生物学分野への拡張"
   ],
   url: "https://www.nature.com/articles/s41586-026-10965-y",
-  image: null,
+  image: "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10965-y/MediaObjects/41586_2026_10965_Fig1_HTML.png",
   content: `## 概要
 Google DeepMindは2026年9月30日、AIが設計したタンパク質の配列や予測立体構造に、目に見えない形で検証可能な電子透かしを埋め込む技術「SynthID Bio」を発表し、学術誌Natureに論文を掲載した。画像・音声・映像向けに展開してきた電子透かし技術「SynthID」を、生物学の領域へ拡張する試みとなる。
 
@@ -163,7 +163,7 @@ AIによるタンパク質・分子設計は、創薬や材料科学の分野で
     "2026年6月時点で年間経常収益(ARR)は2億ドルに達したとしており、住宅賃貸業務に加えヘルスケア分野向けのAIエージェント展開も加速"
   ],
   url: "https://www.fiercehealthcare.com/finance/eliseai-banks-350m-hits-4b-valuation-accelerated-new-product-development",
-  image: null,
+  image: "https://qtxasset.com/quartz/qcloud5/media/image/gettyimages-2257845461.jpg?VersionId=Cyao526ilg_XUpELEZVwSvhzXrENgSI6",
   content: `## 概要
 住宅賃貸・ヘルスケア業務向けのAIエージェントを開発する米EliseAIは2026年9月29日、Andreessen Horowitz(a16z)とBessemer Venture Partnersが主導する3.5億ドルの資金調達を完了し、企業評価額が40億ドルに達したと発表した。13カ月前の評価額22億ドルから実質的に倍増する急成長ぶりとなった。
 
