@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "NVIDIAが2025年10月の20億ドル・評価額80億ドルの資金調達ラウンドを主導。米国発オープンウェイト陣営の強化という位置づけ"
   ],
   url: "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669",
   content: `## 概要
 NVIDIAが出資する米AIスタートアップReflection AIは2026年10月5日、同社初のフロンティア級オープンウェイトモデル「Beam」を発表した。総パラメータ501億(アクティブ23億)のMoE(混合エキスパート)構成で、推論・コーディング・エージェント処理に強みを持つとし、中国Z.AIの最新オープンモデル「GLM-5.2」と同水準の推論ベンチマーク性能を、推論コストはその3〜4分の1で実現するとしている。
 
@@ -60,7 +60,7 @@ Reflection AIは2025年10月、NVIDIA主導で20億ドルを調達し評価額80
     "交渉は初期段階で、条件は今後変わる可能性がある"
   ],
   url: "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/07/Sequoia_Etched-Abhishek-Malani-Robert-Wachen-Sonya-Huang-Gavin-Uberti-copy.jpeg?resize=1200,846",
   content: `## 概要
 AI推論特化の専用チップを開発する米スタートアップEtchedが、評価額400億〜500億ドル規模の新規出資提案を複数の投資家から受けていることが2026年10月5日までに報じられた。わずか2カ月前の8月に210億ドルの評価額で7億ドルを調達したばかりで、評価額はこの間に倍増した計算になる。
 
@@ -94,7 +94,7 @@ Etchedが手掛けるのはTransformerアーキテクチャに特化した専用
     "Rapidusは北海道千歳で2027年の2nm量産開始を目標に工場建設中。日本政府から累計2.3兆円規模の支援を受けている"
   ],
   url: "https://news.mynavi.jp/techplus/article/20261005-5079239/",
-  image: null,
+  image: "https://news.mynavi.jp/techplus/article/20261005-5079239/ogp_images/ogp.jpg",
   content: `## 概要
 北海道千歳で2nm世代の先端半導体量産を目指すRapidusは2026年10月5日、国内外の企業と連携して次世代半導体の設計環境を構築するグローバルエコシステム「Rapidus CORE」の発足を発表した。EDA大手のCadence Design SystemsやSynopsys、大日本印刷(DNP)、TOPPANなど17社が「Design Solution Associate」として第1弾パートナーに名を連ねる。
 
@@ -127,7 +127,7 @@ Rapidusはこれまで、2027年の2nmロジック半導体量産を目指して
     "各論文は人間とAIの執筆箇所を明記し、先行研究への謝辞も付与。モデル自身は成果を自己検証しておらず、最終確認は人間の数学者が担う"
   ],
   url: "https://research.meta.ai/blog/solving-open-research-problems-together",
-  image: null,
+  image: "https://research.meta.ai/articles/math-papers/hero/math-papers-hero-light-v1.webp",
   content: `## 概要
 Metaは2026年10月2日、自社の推論モデル「Muse Spark」と数学者チームが協働して作成した6本の研究論文を公開したと発表した。うち5本は長年未解決だった数学の問題に解答を示す内容で、確率論・偏微分方程式・群論・最適化・数理物理・非結合代数という幅広い分野にわたる。
 
@@ -160,7 +160,7 @@ AIが科学研究を「加速させる」段階から「実際に数学の未解
     "Appleは「AIエージェントの自律性向上に伴うリスク増大」を理由に、ユーザーが明確な意図的操作でのみ権限を許可できるよう追加の制御を導入する方針を表明"
   ],
   url: "https://capital.com/en-gb/news/apple-says-it-will-flag-ai-requests-for-mac-data",
-  image: null,
+  image: "https://capital.com/img/sn/main.jpg",
   content: `## 概要
 Appleは2026年10月、AIエージェントの自律性向上に伴うリスクを踏まえ、macOSの「フルディスクアクセス」権限に関する制御を今後強化する方針を明らかにした。MetaのパーソナルAIエージェント「Muse」がユーザーの許可なくプライベートなメッセージ内容を把握していたとの報道が、きっかけとなった。
 
@@ -193,7 +193,7 @@ Appleは2026年10月、AIエージェントの自律性向上に伴うリスク�
     "サンドボックス化されておらず、Claude Codeと同じ権限でマシンにアクセス可能。信頼できる提供元のみ導入するよう注意喚起"
   ],
   url: "https://cryptobriefing.com/anthropic-claude-code-mods-customization/",
-  image: null,
+  image: "https://static.cryptobriefing.com/wp-content/uploads/2026/10/01175817/library-1119-005ac774-2a43-41b1-972a-a71d83ffd0b8-800x450.png",
   content: `## 概要
 Anthropicは2026年10月1日、開発者向けAIコーディングツール「Claude Code」に「Mods(モッズ)」と呼ぶ新機能を追加した。TypeScriptまたはJavaScriptで書かれた小さなイベント駆動型の関数で、Claude Codeの内部処理にフックしてエージェントの振る舞いやインターフェースを書き換えられる。
 
@@ -229,7 +229,7 @@ AIコーディングツールが単一の固定された挙動ではなく、ユ
     "2026年4月のパイロット版運用を経て正式版へ。既存の「クリッピングサービス」利用企業向けのオプション機能として提供"
   ],
   url: "https://kyodonewsprwire.jp/release/202609286759",
-  image: null,
+  image: "https://kyodonewsprwire.jp/prwfile/release/M101246/202609286759/_prw_PI3fl_RnM76ADr.png",
   content: `## 概要
 一般社団法人ELNETとNTTドコモビジネスは2026年10月1日、日々配信される新聞記事を横断的に活用する法人向け生成AIサービス「ELNET AI」の正式版提供を開始した。全国紙を含む47紙の協力を得て、著作権に配慮した形でニュースの整理・分類・レポート作成を自動化する。
 
