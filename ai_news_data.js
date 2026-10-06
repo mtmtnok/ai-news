@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "APIは10月6日提供開始、重みは10月27日公開予定。開発者・サイバー企業・政府機関には制限を緩めサイバー機能を強化した版を提供"
   ],
   url: "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108312961-1779950527402-gettyimages-2261818985-INDIA_AI_GOOGLE.jpeg?v=1779950533&w=1920&h=1080",
   content: `## 概要
 フランスのAIスタートアップMistral AIは2026年10月6日、新たなフラッグシップモデル「Mistral Large 4」(ML4、愛称「Le Chonk」)を発表した。総パラメータ約1兆のマルチモーダルMoE(混合エキスパート)モデルで、同社は集計ベンチマークにおいて「米国・欧州発のオープンウェイトモデルとして最強」だと主張している。これまで中国勢が上位を独占してきたオープンウェイトの勢力図に、欧州から正面から挑む形となる。
 
@@ -63,7 +63,7 @@ Mistralは9月にSamsung主導のシリーズDで30億ユーロを調達し評�
     "別途、画像生成時に表示するビジュアルディスプレイ広告を今月後半から米国で一部広告主と試験開始"
   ],
   url: "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
   content: `## 概要
 OpenAIは2026年10月5日、EU AI法(AI Act)の透明性義務に対応するため、EU域内でChatGPTおよびCodexが生成するテキストに、人間には知覚できない電子透かしを埋め込むと発表した。仕組みの名称は「textGrain」で、今後数週間かけて展開する。同時に、ChatGPTの画像生成時にビジュアル広告を表示する新たな広告フォーマットを、今月後半から米国で試験導入することも明らかにした。
 
@@ -97,7 +97,7 @@ textGrainは、モデルが出力する単語の選び方をごくわずかに�
     "メニン議長の法案は、市内でのAI販売・導入に第三者検証と人間が停止できるキルスイッチを義務付け、違反1件につき2万5000ドルの罰金"
   ],
   url: "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108372804-1791228644008-gettyimages-2298141611-NYC_AI.jpeg?v=1791228676&w=1920&h=1080",
   content: `## 概要
 ニューヨーク市議会は2026年10月5日、AIの潜在的な危険性と規制のあり方をテーマに、全51議員が参加する異例の「全体委員会(Committee of the Whole)」形式の公聴会を開催した。Anthropic、OpenAI、Google、Metaの幹部が出席し、主要AI企業が宣誓の上で公開証言を行うのは初めてとされる。イーロン・マスク氏率いるSpaceXAIは招請に応じず、市議会は召喚状を発出した。
 
@@ -132,7 +132,7 @@ textGrainは、モデルが出力する単語の選び方をごくわずかに�
     "RHAELMが開発・建設・運営・資金調達、Dellがラック規模のAIインフラを供給。Apolloが資金パートナー。5年で3〜4GWへ拡大する構想"
   ],
   url: "https://thenextweb.com/news/japan-140bn-ai-data-centre-dell-jera",
-  image: null,
+  image: "https://media.thenextweb.com/2026/08/Japan-flag.jpg",
   content: `## 概要
 国内最大の発電事業者JERAは10月1日、米Dell Technologies、英国のデータセンター開発会社RHAELMと、千葉火力発電所に隣接する土地に出力400MWのハイパースケールAIデータセンターを建設する覚書(MOU)を締結した。総投資額は全フェーズで150億ドル(約2.3兆円)を超え、2028年に段階的な稼働を始める計画だ。英フィナンシャル・タイムズ(FT)は、3社がこれを足がかりに日本国内で数GW規模のAI計算基盤を整備する構想を持ち、総額は最大1400億ドルに達し得ると報じた。
 
@@ -167,7 +167,7 @@ textGrainは、モデルが出力する単語の選び方をごくわずかに�
     "計画の視野を従来の1〜2年先から3〜5年先に延長。全ての能力が同時に立ち上がるよう業界各社に協力を呼びかけ"
   ],
   url: "https://focustaiwan.tw/business/202610060011",
-  image: null,
+  image: "https://imgcdn.cna.com.tw/Eng/WebEngPhotos/WebOg/600/2026/20261006/901x473_513151799786.jpg",
   content: `## 概要
 米AMDのリサ・スー会長兼CEOは2026年10月6日、台北で記者団に対し、AIの用途拡大を背景に半導体需要は今後数年にわたって「極めて高い」水準で推移するとの見方を示した。現在はチップ需要が供給を上回り、メモリーの不足も続いていると指摘。2027年に自社の供給を大幅に増やす方針を明らかにするとともに、5月に表明した100億ドル超の台湾サプライチェーン投資をさらに拡大するとした。
 
@@ -202,7 +202,7 @@ NVIDIAに次ぐAIアクセラレーターの供給者であるAMDのトップが
     "発表を受け株価は約7%高の290ドル前後。年初来160%超上昇し時価総額は約2000億ドルに"
   ],
   url: "https://www.gurufocus.com/news/9111956/marvell-technology-mrvl-shares-surge-7-on-revenue-outlook-boost",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 ハイパースケーラー向けカスタムAIチップ(ASIC)やデータセンター向け光通信半導体を手がける米Marvell Technologyは2026年10月6日、2025年から延期していた投資家説明会(インベスターデー)を開催し、長期の成長見通しを引き上げた。AIインフラ向けの需要拡大を背景に、売上成長率の見通しを年10〜15%から15〜20%へ上方修正。株価は約7%上昇した。
 
@@ -237,7 +237,7 @@ AnthropicのBroadcom向け大型契約やGoogle TPU、AWS Trainiumなど、ク�
     "氏名不詳者が2024年7月〜25年9月に津田さんの声質を模した動画188本を投稿し、月50万〜75万円の収益を得ていたと原告側は主張"
   ],
   url: "https://www.nippon.com/ja/news/yjj2026093000118/",
-  image: null,
+  image: "https://www.nippon.com/ja/ncommon/contents/news/3081473/3081473.jpg",
   content: `## 概要
 声優の津田健次郎さんが、生成AIによって自身の声を無断で模倣したナレーション動画の削除などを求めた訴訟で、東京地裁は2026年9月30日、対象の動画データがすでに削除されているとして請求を棄却した。ただし判決は、人の声は肖像と同様に個人の人格の象徴であり、顧客吸引力を持つ場合には「パブリシティ権」の保護対象になり得るとの判断を示した。声がパブリシティ権の対象となることを明示した司法判断は初めてとされる。
 
