@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "OpenAI自身も一部に誤りの可能性を認め、Scientific Americanは「全てが未解決問題の完全な証明ではない」と注意喚起"
   ],
   url: "https://www.mindstudio.ai/blog/openai-722-math-proofs-release",
-  image: null,
+  image: "https://i.mscdn.ai/o/iZl0kkZU2R9KXyy7/a/3V2ICO3oSq2QZPii/_published/generated-images/1ac94b5b-7b9b-4839-bd9a-6149c4b9f5d0.png?fm=auto&w=1200&h=630&fit=crop",
   content: `## 概要
 OpenAIは2026年10月6日、社内で開発中の未公開モデルが生成した数学の原稿722本を、GitHubリポジトリ「openai/math」で公開した。原稿は関連する成果ごとに372の「系統(ファミリー)」に整理され、Apache-2.0ライセンスで誰でも利用できる。AIが生み出した数学研究を、検証用の形式証明とともにこれほどの規模で一括公開するのは前例がない。
 
@@ -65,7 +65,7 @@ AIによる数学研究は「一問を解いた」段階から「大量の成果
     "Broadcomが保証する600億ドル規模の債務パッケージが銀行・年金基金向けにシンジケーション開始との報道も"
   ],
   url: "https://thenextweb.com/news/broadcom-anthropic-42bn-loan-tpu-lease-reuters",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/broadcom-red-logo-sign-office-campus-blue-sky.jpg",
   content: `## 概要
 Anthropicが提出したIPO目論見書の内容として、ロイターが2026年10月1日に報じたところによると、BroadcomはAnthropicに最大420億ドルを融資する。資金はAnthropicのGoogle TPU計算資源のリース費用に充てられる。チップの設計者が顧客であるAIラボに巨額の資金を貸し付ける構図は、AI業界で広がる「循環型投資」の最新事例として注目を集めている。
 
@@ -105,7 +105,7 @@ Broadcomは2027年にAnthropicにとって最大の計算資源供給者にな�
     "AlibabaとTencentが出資。7月発表の「Kimi K3」と、6月時点で約3億ドルの年換算売上高が評価を支える"
   ],
   url: "https://qz.com/moonshot-ai-hong-kong-ipo-2027-50-billion-valuation-100626",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Bloombergの報道によると、対話AI「Kimi」を手がける中国・北京のMoonshot AI(月之暗面)は、評価額約500億ドルで最終の私募ラウンドを完了し、香港での新規株式公開(IPO)の準備を進めている。今夏に設定された評価額から大きく跳ね上がり、中国のAIスタートアップとして最高水準の評価となる。
 
@@ -145,7 +145,7 @@ Zhipu(智譜)やMiniMaxに続き、中国オープンウェイト勢の主力が
     "ラウンドは未完了で、最終調達額や投資家構成は確定していない"
   ],
   url: "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-cloud-computing-firm-190754718.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/93870cb701b8a1e4d4a5d5af200c330fd8d065f67f33f57db0a10d00c640e75d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F6d23610ddd4eba48d61b21e817a8ef80.jpg",
   content: `## 概要
 ウォール・ストリート・ジャーナル(WSJ)が2026年10月6日に報じたところによると、NVIDIAが出資するAIクラウド企業Lambdaは、評価額145億ドルで最大40億ドルの資金調達を進めている。BlackstoneとCoatue Managementが主導し、2027年に計画する新規株式公開(IPO)前の最後の私募ラウンドになる見通しだ。
 
@@ -183,7 +183,7 @@ CoreWeave、Nebiusに続き、Lambdaもネオクラウドとして上場前の�
     "Intelは4月に参画し14Aプロセス採用が示されていたが、SpaceXのIPO書類はTesla・Intelに参加継続義務はないと記載"
   ],
   url: "https://www.androidheadlines.com/2026/10/musk-confirms-tsmc-talks-texas-terafab-chip-plant.html",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 イーロン・マスク氏は2026年10月3日、テキサス州で計画するAIチップ製造拠点「Terafab」をめぐり、台湾TSMCと協議していることをX(旧Twitter)上で認めた。TSMCがTerafabの工場運営支援を検討しているとするニュースレター「Culpium」(ティム・カルパン氏)の報道に対し、「単なる話し合いだが、何かが生まれるかもしれない」と返信した。
 
@@ -264,7 +264,7 @@ Anthropicが公表した評価では、多段階のサイバー作戦の計画�
     "今後は実証を進め、その結果をもとに事業化を検討"
   ],
   url: "https://prtimes.jp/main/html/rd/p/000000735.000046783.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/46783/735/46783-735-d834b2035468996db4522cfd5ef6f640-1920x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 NTTドコモビジネスと日本IBMは2026年10月7日、AIの開発・導入・利用を法令や倫理、社内規程などに沿って適切に管理・運用する「AIガバナンス」領域で協業する基本合意書を締結したと発表した。ドコモビジネスは同日、AIエージェントを安全に活用できる環境の実現に向けた「Trusted Data Fabric」構想も公表しており、今回の協業はその一環と位置づけられる。
 
