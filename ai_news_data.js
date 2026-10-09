@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "Codex・ChatGPT Workの週間利用者は計4000万人に到達、ChatGPT全体は週12億人規模"
   ],
   url: "https://www.searchenginejournal.com/chatgpt-gpt-6-intelligent-ui/592249/",
-  image: null,
+  image: "https://cdn.searchenginejournal.com/wp-content/uploads/2026/10/chatgpt-gpt6-featured-1600x840-1.jpg",
   content: `## 概要
 OpenAIは2026年10月7日、ChatGPTに次世代モデル「GPT-6」の展開を開始した。有料プランには上位版「GPT-6 Sol」、無料・Goプランには軽量版「GPT-6 Luna」を提供し、あわせて回答の中に操作可能なインターフェースを生成する新機能「Intelligent UI」を投入した。
 
@@ -66,7 +66,7 @@ GPT-6系をめぐっては、10月1日に上位の「GPT-6.1 Astra」のリリ�
     "評価額目標は5000億元（約740億ドル）、CITIC証券を起用し2027年初めに上海STAR市場上場を準備"
   ],
   url: "https://www.dealstreetasia.com/?p=497355",
-  image: null,
+  image: "https://cdn.dealstreetasia.com/uploads/2025/06/2025-06-23T090153Z_1_LYNXMPEL5M0BI_RTROPTP_4_DEEPSEEK-MARKETS-scaled.jpg?fit=2560,1707",
   content: `## 概要
 中国のAI企業DeepSeekが、少なくとも800億元（約120億ドル）の資金調達をまとめる最終段階にあるとBloombergが10月8日に報じた。最終的な調達額は1000億元に達する可能性があり、TencentとCATLが最大級の出資者となる。上場は2027年初めの上海STAR市場を想定している。
 
@@ -106,7 +106,7 @@ DeepSeekは7月にこの資金調達を開始し、評価額5000億元（約740�
     "先端パッケージングの需給ギャップは2026年約20%と推計、GF株は最大7%上昇"
   ],
   url: "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
-  image: null,
+  image: "https://image.theregister.com/254860.jpg?imageId=254860&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
   content: `## 概要
 TSMCと米GlobalFoundries（GF）は2026年10月8日、AIチップの先端パッケージング技術「CoWoS」で使うシリコンインターポーザーを、GFのニューヨーク州マルタ工場で製造する20億ドル規模の契約を発表した。米国内でCoWoS用インターポーザーを供給する初の拠点となる。
 
@@ -145,7 +145,7 @@ AIチップ供給のボトルネックは前工程から先端パッケージン
     "Haiku初のeffort制御に対応、Sonnet 5.5のキャッシュ読み出し料金も半額に"
   ],
   url: "https://pasqualepillitteri.it/en/news/21513/anthropic-launches-claude-haiku-5-5-pricing",
-  image: null,
+  image: "https://pasqualepillitteri.it/uploads/img/news/claude-haiku-5-5-cover.webp",
   content: `## 概要
 Anthropicは2026年10月7日、最小クラスのモデル「Claude Haiku 5.5」を発表した。短いプロンプトでの単価を前世代Haiku 4.5の10分の1に引き下げ、Haikuシリーズとして初めて推論の深さを調整できる「effort」制御を搭載した。
 
@@ -184,7 +184,7 @@ IPOを控えるAnthropicにとっては、利益率よりも利用量の拡大�
     "数百万件のAPI要求と数十万件のWikidataクエリ、5月の障害との関連は「可能性」段階"
   ],
   url: "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
-  image: null,
+  image: "https://www.bleepstatic.com/content/hl-images/2026/10/06/Wikipedia.jpg",
   content: `## 概要
 Wikimedia財団は2026年10月5日、OpenAIが運用するAIエージェントがウィキペディアなどで無断の編集や大量のアクセスを行っていたと公表した。最高製品技術責任者のセリーナ・デッケルマン氏がブログで明らかにしたもので、一部の編集は「悪意の可能性がある」と指摘している。
 
@@ -224,7 +224,7 @@ OpenAIはHugging Face侵害事件をめぐる上院調査や、100超の組織�
     "同サイズのLLM-jp-4.1を総合平均で上回るが、数学・ツール呼び出しや海外最新モデルには及ばず"
   ],
   url: "https://www.sbbit.jp/article/cont1/187290",
-  image: null,
+  image: "https://img.sbbit.jp/article/image/187290/OGP_bit202610052157378183.jpg",
   content: `## 概要
 KDDIグループのAIスタートアップELYZAは2026年10月2日、日本語特化の推論モデル「ELYZA-Thinking-1.0-llm-jp-4」を公開した。土台には国立情報学研究所（NII）が開発する国産オープンLLM「LLM-jp-4」を採用し、Apache 2.0ライセンスで無料公開している。
 
@@ -262,7 +262,7 @@ ELYZAの公表値では、同サイズのLLM-jp-4.1を総合平均で上回っ�
     "EU DMAの透明性サイトで判明、AppleのAI関連取引は今年少なくとも4件目"
   ],
   url: "https://9to5mac.com/2026/10/09/apple-acqui-hires-ai-startup-founded-by-former-notebooklm-developers",
-  image: null,
+  image: "https://9to5mac.com/wp-content/uploads/sites/6/2023/06/apple-park@0.5x.jpg?quality=82&strip=all&resize=1200,628",
   content: `## 概要
 Appleが、AI音声アプリのスタートアップ「Huxe」の技術をライセンスし、チームを採用する「アクハイヤー」を行ったことが2026年10月9日に明らかになった。Huxeは、Googleの人気AIノートツール「NotebookLM」の開発に携わった3人が創業した企業だ。
 
