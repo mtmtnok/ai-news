@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-10-03",
+  updated: "2026-10-10",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -136,7 +136,17 @@ window.RELATIONS = {
     { id: "s32",          label: "S32",              sector: "invest" },
     { id: "qia",          label: "カタール投資庁",      sector: "invest" },
     { id: "kleinerperkins", label: "Kleiner Perkins", sector: "invest" },
-    { id: "a16z",         label: "a16z",             sector: "invest" }
+    { id: "a16z",         label: "a16z",             sector: "invest" },
+    { id: "lambda",       label: "Lambda",           sector: "cloud" },
+    { id: "coreweave",    label: "CoreWeave",        sector: "cloud" },
+    { id: "rhaelm",       label: "RHAELM",           sector: "cloud" },
+    { id: "jera",         label: "JERA",             sector: "app", jp: true },
+    { id: "cognition",    label: "Cognition",        sector: "app" },
+    { id: "huxe",         label: "Huxe",             sector: "app" },
+    { id: "cadence",      label: "Cadence",          sector: "semi", sub: "design" },
+    { id: "synopsys",     label: "Synopsys",         sector: "semi", sub: "design" },
+    { id: "blackstone",   label: "Blackstone",       sector: "invest" },
+    { id: "coatue",       label: "Coatue",           sector: "invest" }
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -188,12 +198,12 @@ window.RELATIONS = {
     { from: "mgx", to: "xai", type: "invest", threads: ["labs"], amount: null,
       label: "シリーズE 200億ドルに参加（金額非公表）", date: "2026-01",
       source: "https://techcrunch.com/2026/01/06/xai-says-it-raised-20b-in-series-e-funding/" },
-    { from: "tencent", to: "deepseek", type: "invest", threads: ["china", "labs"], amount: 74, status: "reported",
-      label: "初の外部調達74億ドルを主導、評価額740億ドルで最終調整。2027年上海STAR市場上場を視野に", date: "2026-09",
-      source: "https://www.chinamoneynetwork.com/2026/08/29/deepseek-nears-7-4-billion-funding-round-at-74-billion-valuation-ahead-of-2027-ipo" },
+    { from: "tencent", to: "deepseek", type: "invest", threads: ["china", "labs"], amount: 120, status: "reported",
+      label: "初の外部調達74億ドル(26/6)に続き、評価額目標740億ドルのラウンドで最大級の出資をコミット。調達総額は少なくとも800億元(約120億ドル)、最大1000億元の可能性。2027年初めの上海STAR市場上場を準備", date: "2026-10",
+      source: "https://www.dealstreetasia.com/?p=497355" },
     { from: "catl", to: "deepseek", type: "invest", threads: ["china", "labs"], amount: null, status: "reported",
-      label: "テンセント主導の初外部調達74億ドル（評価額740億ドル）に主要投資家として参加（金額非公表）。2027年上海STAR市場上場を視野に", date: "2026-09",
-      source: "https://www.chinamoneynetwork.com/2026/08/29/deepseek-nears-7-4-billion-funding-round-at-74-billion-valuation-ahead-of-2027-ipo" },
+      label: "少なくとも約120億ドル(800億元)のラウンドでテンセントと並ぶ最大級の出資をコミット（金額非公表）。2027年初めの上海STAR市場上場を準備", date: "2026-10",
+      source: "https://www.dealstreetasia.com/?p=497355" },
     { from: "asml", to: "mistral", type: "invest", threads: ["labs", "semi"], amount: 14,
       label: "シリーズC 17億ユーロを主導（13億ユーロ・約11%取得、評価額117億ユーロ）", date: "2025-09",
       source: "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html" },
@@ -391,9 +401,9 @@ window.RELATIONS = {
     { from: "anthropic", to: "google", type: "partner", threads: ["compute"], flow: "計算資源",
       label: "次世代TPU容量を複数GW規模で確保。IPO目論見書で少なくとも1,111億ドルの長期インフラ契約（7〜10年、利用量にかかわらず支払う解約不能契約）と判明", date: "2026-09",
       source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
-    { from: "anthropic", to: "broadcom", type: "partner", threads: ["compute", "semi"], flow: "資金",
-      label: "カスタムAIアクセラレータの共同開発(26/5)、Blackstone・Apollo Global Managementとの600億〜1000億ドル規模の負債調達協議(26/8)に続き、IPO目論見書で設備リース契約1,612億ドル(解約不能)が判明。Anthropicのインフラ契約先6社中最大規模", date: "2026-09",
-      source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
+    { from: "anthropic", to: "broadcom", type: "partner", threads: ["compute", "semi", "labs"], flow: "資金",
+      label: "カスタムAIアクセラレータ共同開発(26/5)、設備リース1,612億ドル(解約不能・目論見書で判明)に加え、Google TPUリース資金の約3分の1にあたる最大420億ドルを融資へ(26/10、株式転換条項あり)。供給者・貸し手・株主を兼ねる循環取引に懸念", date: "2026-10",
+      source: "https://thenextweb.com/news/broadcom-anthropic-42bn-loan-tpu-lease-reuters" },
     { from: "anthropic", to: "amazon", type: "partner", threads: ["compute", "semi"], flow: "計算資源",
       label: "AWS Trainium最大5GWの容量確保を含む超大型コンピュート契約。IPO目論見書で少なくとも1,100億ドルの長期インフラ契約（解約不能）と判明", date: "2026-09",
       source: "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" },
@@ -634,6 +644,33 @@ window.RELATIONS = {
       source: "https://www.haaretz.com/israel-news/tech-news/2026-09-17/ty-article/.premium/israeli-ex-meta-researcher-launches-ai-neolab-in-race-for-hundreds-of-millions/000001a0-aaba-d5b2-a9ee-aaba0e220000" },
     { from: "openai", to: "typesafeai", type: "talent", threads: ["talent"], person: "Diogo Almeida",
       label: "InstructGPT・RLHFの基礎研究に携わった元OpenAI研究者が「会話しないAI」新興TypeSafe AIを創業。「Jev」発表時にシードで4000万ドルを調達", date: "2026-09",
-      source: "https://www.forbes.com/sites/ronschmelzer/2026/09/22/why-everyone-is-talking-about-jev-the-ai-that-doesnt-chat/" }
+      source: "https://www.forbes.com/sites/ronschmelzer/2026/09/22/why-everyone-is-talking-about-jev-the-ai-that-doesnt-chat/" },
+    { from: "blackstone", to: "lambda", type: "invest", threads: ["compute"], amount: null, status: "reported",
+      label: "Coatueと共同で最大40億ドルのラウンドを主導（評価額145億ドル・プレマネー）。2027年IPO前の最終私募ラウンド", date: "2026-10",
+      source: "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-cloud-computing-firm-190754718.html" },
+    { from: "coatue", to: "lambda", type: "invest", threads: ["compute"], amount: null, status: "reported",
+      label: "Blackstoneと共同で最大40億ドルのラウンドを主導（評価額145億ドル・プレマネー）", date: "2026-10",
+      source: "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-cloud-computing-firm-190754718.html" },
+    { from: "spacex", to: "tsmc", type: "partner", threads: ["semi"], flow: "技術", status: "negotiating",
+      label: "マスク氏がテキサスの半導体工場「Terafab」をめぐりTSMCとの協議をXで認める（「単なる話し合い」）", date: "2026-10",
+      source: "https://www.androidheadlines.com/2026/10/musk-confirms-tsmc-talks-texas-terafab-chip-plant.html" },
+    { from: "jera", to: "rhaelm", type: "partner", threads: ["compute", "japan"], flow: "計算資源",
+      label: "Dellを交え千葉火力発電所隣接地に400MWのAIデータセンター建設で覚書（総投資150億ドル超・2028年段階稼働）", date: "2026-10",
+      source: "https://thenextweb.com/news/japan-140bn-ai-data-centre-dell-jera" },
+    { from: "cadence", to: "rapidus", type: "partner", threads: ["japan", "semi"], flow: "技術",
+      label: "2nm設計エコシステム「Rapidus CORE」の第1弾パートナー（17社）として設計環境を提供", date: "2026-10",
+      source: "https://news.mynavi.jp/techplus/article/20261005-5079239/" },
+    { from: "synopsys", to: "rapidus", type: "partner", threads: ["japan", "semi"], flow: "技術",
+      label: "2nm設計エコシステム「Rapidus CORE」の第1弾パートナー（17社）として設計環境を提供", date: "2026-10",
+      source: "https://news.mynavi.jp/techplus/article/20261005-5079239/" },
+    { from: "coreweave", to: "cognition", type: "partner", threads: ["compute"], flow: "計算資源",
+      label: "NVIDIA「Vera Rubin NVL72」の商用提供第1号顧客。推論のトークン処理量が最大4.8倍に", date: "2026-09",
+      source: "https://coreweave.com/news/coreweave-delivers-nvidia-vera-rubin-nvl72-performance-at-production-scale-starting-with-cognition" },
+    { from: "tsmc", to: "globalfoundries", type: "partner", threads: ["semi"], flow: "技術",
+      label: "CoWoS用シリコンインターポーザーをGFのNY州マルタ工場で製造する20億ドル・当初5年の契約。米国初の供給源、量産は2028年前半", date: "2026-10",
+      source: "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061" },
+    { from: "apple", to: "huxe", type: "ma", threads: ["talent"],
+      label: "元Google NotebookLM開発者3人が創業したAI音声アプリHuxeを技術ライセンス＋チーム採用でアクハイヤー（金額非公表、EU DMA透明性サイトで判明）", date: "2026-10",
+      source: "https://9to5mac.com/2026/10/09/apple-acqui-hires-ai-startup-founded-by-former-notebooklm-developers" }
   ]
 };
