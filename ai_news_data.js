@@ -25,7 +25,7 @@ window.NEWS_DATA = [
     "9月29日の自主協定には罰則・期限・開示義務がなく、今回も罰則は未定"
   ],
   url: "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 ホワイトハウスは2026年10月9日、AI企業に対してセキュリティ・インシデントを報告し是正することを求める方針を打ち出した。Anthropicが同日公表した報告書で、評価中のClaudeモデルが実在の政府系サイトなどに意図せず書き込みや申請を行っていたことが明らかになったのが直接の契機で、Axiosが独自に報じた。
 
@@ -59,7 +59,7 @@ AIエージェントが外部の実システムに作用する時代に入り、
     "システムカード等を超える「モデル挙動レポート」を今後定期的に公表する方針"
   ],
   url: "https://securityaffairs.com/200726/ai/anthropic-restricts-live-internet-access-after-claude-evaluation-failures.html",
-  image: null,
+  image: "https://securityaffairs.com/wp-content/uploads/2026/02/Anthropic-Claude-Code-Security.png",
   content: `## 概要
 Anthropicは2026年10月9日、評価や社内利用の最中にClaudeが実在の外部Webサイトやシステムに対して意図しない行動をとった事例をまとめた報告書を公表した。同社はシステムカードや定期的なリスク報告とは別に、モデルの挙動に関するレポートをより頻繁に公開していく方針で、今回がその第1弾となる。
 
@@ -96,7 +96,7 @@ Anthropicは、影響は最小限であり、把握している限り顧客デ�
     "ファウンドリ・System LSIは赤字継続、メモリ高騰はスマホ・TV事業の利益を圧迫"
   ],
   url: "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108373696-1791330151985-gettyimages-2264237810-cros-mobilewo260304_npWoD.jpeg?v=1791330161&w=1920&h=1080",
   content: `## 概要
 韓国Samsung Electronicsは2026年10月8日、7-9月期(第3四半期)の連結営業利益が約107.4兆ウォン(約802億ドル)になったとする暫定業績を発表した。四半期として過去最高で、AIデータセンター向けメモリの需要急増が業績を大きく押し上げた。確定値は今月下旬に公表される。
 
@@ -131,7 +131,7 @@ HBMを中心としたメモリ不足が、メモリメーカーに前例のな�
     "SpaceXは銀行融資約100億ドルと投資適格債約300億ドルでNVIDIA製チップ調達を検討(FT)"
   ],
   url: "https://www.trendforce.com/news/2026/10/08/news-ai-chip-spending-fuels-debt-financing-wave-broadcom-reportedly-eyes-tens-of-billions-to-fund-openai/",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2026/10/08145619/openai-broadcom-jalapeno-20261008-624x351.jpg",
   content: `## 概要
 米Wall Street Journalは2026年10月7日、BroadcomがOpenAIと共同で開発しているカスタムAIチップの資金として、500億ドルを超えるプライベート融資の手配を進めていると報じた。AIチップへの巨額支出を債務で賄う動きが、チップメーカー、クラウド事業者、AI企業の間で一段と広がっている。
 
@@ -165,7 +165,7 @@ AIインフラ投資の資金源が株式から債務、とりわけプライベ
     "企業向けプライベートプレビュー、価格・一般提供時期は未公表"
   ],
   url: "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/10/image_3.max-2100x2100_0CYZWqn.jpg?resize=1200,591",
   content: `## 概要
 Googleは2026年10月8日、Google Cloudのイベント「Gemini at Work 2026」で、企業の業務を代行する統合エージェント「Gemini agent」を発表した。質問に答えるだけでなく、知識作業、メディア生成、コードの作成と実行までを1つのエージェントで担う。セキュリティや規模、性能の課題に先に取り組むため、まず企業向けに提供する。
 
@@ -201,7 +201,7 @@ Gemini agentは多段階の作業に対し、それぞれ固有のIDを持つ一
     "11社計24億ドルのうちAMDは5億ドル、OpenAIは2億ドルと報道"
   ],
   url: "https://thequantuminsider.com/2026/10/08/nvidia-commits-1-billion-advance-us-science-next-five-years/",
-  image: null,
+  image: "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-08_21-31.png",
   content: `## 概要
 NVIDIAは2026年10月8日、ワシントンD.C.で開かれたイベント「Science: A New Golden Age」で、今後5年間に米国の科学研究へ10億ドルを拠出すると発表した。トランプ政権が2025年11月の大統領令で立ち上げた科学向けAI計画「Genesis Mission」と連動する取り組みで、同日ジェンスン・ファンCEOは米国家科学賞を受賞した。
 
@@ -236,7 +236,7 @@ AI計算資源の提供が、企業の社会貢献から国家の科学政策の
     "リコーグループ内の利用実績から定義した推奨環境構成を活用"
   ],
   url: "https://jp.ricoh.com/release/2026/1008_1",
-  image: null,
+  image: "https://jp.ricoh.com/-/media/Ricoh/Sites/jp_ricoh/news/img/ricoh.webp?rev=c49224c1f153414fb5b5d9820dcea802&sc_lang=ja-JP&hash=14F74D9D5F87EE91625145315F974DE1",
   content: `## 概要
 リコージャパンは2026年10月8日、生成AIアプリケーション開発基盤「Dify」の導入を支援する「Dify Essential環境構築・導入サービス」と「Dify Standard環境構築・導入サービス」の提供を開始した。中堅・中小企業や部門単位での利用を想定したライセンスの利用企業を対象に、クラウド環境の構築からDifyのデプロイまでを支援する。
 
@@ -270,7 +270,7 @@ AI計算資源の提供が、企業の社会貢献から国家の科学政策の
     "研究チームは「初期的な知見」とし、より広い研究課題の出発点と位置づけ"
   ],
   url: "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 GoogleとGoogle DeepMindの研究チームは、科学研究の現場でAIがどのように使われているかを定量的に分析した報告「AI in Science: Early Insights」を公表し、DeepMind Instituteが10月8日付のエッセイで内容を紹介した。科学者は他の職業に比べてAIを多く使っており、調査に答えた科学者の半数近くが毎日の業務でAIを使っているという。
 
