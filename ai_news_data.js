@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "Reflectionは10月5日に初のモデル「Beam」を公開したばかり、両社ともコメントせず"
   ],
   url: "https://www.business-standard.com/world-news/nvidia-in-talks-to-deepen-investment-in-or-acquire-ai-startup-reflection-126101100061_1.html",
-  image: null,
+  image: "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/02/thumb/fitandfill/1200X628/1775116163-0785.JPG",
   content: `## 概要
 英フィナンシャル・タイムズ(FT)は2026年10月10日、NVIDIAがオープンウェイトの大規模言語モデルを開発する米スタートアップReflection AIについて、買収または出資の拡大を協議していると報じた。協議は初期段階で、合意に至らない可能性もある。NVIDIAは既に同社の主要株主であり、関係の一段の深化が焦点となる。
 
@@ -63,7 +63,7 @@ NVIDIAはNemotronシリーズで自らオープンモデルを手がけるほか
     "OpenAIは3月に1220億ドルを調達済みで、CFOは「資金は極めて潤沢」と説明"
   ],
   url: "https://qz.com/openai-annualized-revenue-50-billion-correction-ai-stocks-100826",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIが投資家に対し、2026年9月末時点の年換算売上高(ARR)を約500億ドルと説明していたことが明らかになった。英フィナンシャル・タイムズが最初に報じ、市場で広く出回っていた680億〜700億ドルという数字を大きく下回ったことから、10月8日の米国市場ではAIインフラ関連株が軒並み下落した。
 
@@ -102,7 +102,7 @@ OpenAIの数千億ドル規模の計算資源契約は、Oracle・CoreWeave・NV
     "NVIDIA Vera Rubinと直接液冷を採用、インドに事務所を開設し現地採用も"
   ],
   url: "https://www.coreweave.com/news/coreweave-enters-india-expanding-ai-cloud-platform-with-adaniconnex",
-  image: null,
+  image: "https://cdn.prod.website-files.com/62bc66d283fd9c34ffec780a/6ac633cd18aa577392c5423c_coreweave-adaniconnex_meta-share_1200x630.jpg",
   content: `## 概要
 米AIクラウド大手のCoreWeaveは2026年10月8日、インド市場への参入を発表した。インドのデータセンター事業者AdaniConneXと組み、ムンバイ近郊のナビ・ムンバイに合計240MWのAIデータセンター拠点を構える。同社にとって初のインド拠点となる。
 
@@ -141,7 +141,7 @@ CoreWeaveは先にインドネシアへの進出も発表しており、8月11�
     "1-9月累計は3兆8987億台湾ドルで前年比41.1%増、10月15日に決算発表"
   ],
   url: "https://technode.global/2026/10/09/tsmc-record-q3-revenue/",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 台湾積体電路製造(TSMC)は2026年10月8日、9月の月次売上高を発表した。9月は5118億6000万台湾ドルで前年同月比54.6%増となり、7-9月期の売上高は約1兆4940億台湾ドルと四半期ベースで過去最高を更新した。AI向け先端チップの需要が引き続き業績を押し上げている。
 
@@ -177,7 +177,7 @@ NVIDIAのVera RubinやBroadcom・Marvellのカスタムチップなど、AI向�
     "6カ月で2万9000件超の候補を検出し約6000件を人手で確認、報告は人手を介さず送付"
   ],
   url: "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks/",
-  image: null,
+  image: "https://www.engadget.com/img/gallery/anthropic-now-offers-a-free-vulnerability-finding-service-for-open-source-software/l-intro-1791544973.jpg",
   content: `## 概要
 Anthropicは2026年10月8日、オープンソースソフトウェア(OSS)向けの無料脆弱性スキャンサービス「OSS Scanner」を開始した。申込制のサービスで、Claude Mythosを含む同社の最も強力なモデルを使ってコードを解析し、発見した脆弱性を保守者に直接報告する。
 
@@ -215,7 +215,7 @@ AIによる脆弱性発見能力が急速に高まるなか、攻撃側に先ん
     "人間と同じ時間・ネット接続・提出回数の制約下で実施、ただし問題別内訳や計算量は非開示"
   ],
   url: "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-  image: null,
+  image: "https://cdn-uploads.huggingface.co/production/uploads/67b8b0096c3182e96bf6cea1/zB6BNaB-3tiCCsnOo7gik.png",
   content: `## 概要
 NVIDIAは2026年10月7日、同社のオープンモデル「Nemotron 3」ファミリーを微調整したモデルが、国際情報オリンピック(IOI)2026と国際数学オリンピック(IMO)2026でいずれも金メダル水準の成績を収めたと発表した。とりわけIOIでは、人間の参加者の最高得点を上回ったとしている。
 
@@ -251,7 +251,7 @@ IOIで使われたのは、競技プログラミング向けに調整した「Ne
     "数週間内の一般提供を予定、キャッシュ非対応などベータの制約あり"
   ],
   url: "https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one/",
-  image: null,
+  image: "https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-1.png",
   content: `## 概要
 OpenAIは2026年10月6日、分類や判定などの意思決定タスクに特化した「Decisions API」をパブリックベータとして公開した。9月末のDevDayで招待制プレビューとして披露されていたもので、数週間以内の一般提供(GA)を予定している。
 
@@ -288,7 +288,7 @@ AnthropicがHaiku 5.5で低価格帯を強化した直後でもあり、軽量�
     "PCIe 5.0・NVMe 2.0e・OCP仕様2.6準拠、読み出し中心のAIデータ用途を想定"
   ],
   url: "https://www.kioxia.com/en-jp/business/news/2026/20261009-1.html",
-  image: null,
+  image: "https://www.kioxia.com/etc.clientlibs/kioxia-libs/clientlibs/kioxia/resources/component/shared_og.png",
   content: `## 概要
 キオクシアは2026年10月9日、ハイパースケールデータセンター向けのSSD「LD4シリーズ」を発表した。同社として初めてE1.L形状を採用し、第8世代BiCS FLASHのQLC(1セル4ビット)フラッシュメモリを搭載する。AIワークロードで膨らむ大容量データの保存需要を狙った製品で、一部顧客へのサンプル出荷を開始した。
 
