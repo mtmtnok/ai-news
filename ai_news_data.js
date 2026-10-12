@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "DeepSeekは上場前のUnitreeに2.31%出資済み、初の外部調達直後に「身体性AI」へ布石"
   ],
   url: "https://qz.com/deepseek-winverse-ai-robotics-seed-round-101226",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国のAIラボDeepSeekが、ステルス状態のロボット向けAIスタートアップ「Winverse AI」のシードラウンドを主導する方向で動いていると、米Bloombergが10月12日に報じた。調達後の評価額はおよそ4億ドル。DeepSeekは自社が先ごろまとめた120億ドル超の大型調達の資金の一部をこの出資に充てるとされ、同社にとってロボット分野のスタートアップへの初の直接投資となる。
 
@@ -65,7 +65,7 @@ DeepSeekはこれまで外部資金に頼らず、親会社であるヘッジフ
     "契約済み900MW超に対し稼働は46MWにとどまる点に投資家の疑問、今後は私募で調達"
   ],
   url: "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108378997-1791505127429-gettyimages-2269840286-TFSPI_08042026-5142.jpeg?v=1791505141&w=1920&h=1080",
   content: `## 概要
 NVIDIAが出資するオーストラリアのAIデータセンター事業者Firmus Technologiesは10月9日、計画していた豪証券取引所（ASX）での新規株式公開（IPO）を撤回すると発表した。調達規模は約50億ドルと、豪州の上場案件として歴史的な規模になるはずだった。同社は「市場の変動」を理由に挙げ、今後は民間市場からの資金調達に切り替える。
 
@@ -106,7 +106,7 @@ CoreWeave、Nebius、Lambdaなど「ネオクラウド」各社は、上場や�
     "両社は10月14〜16日のSEDEX 2026で披露、SamsungのHBM4Eは来年量産開始予定"
   ],
   url: "https://www.trendforce.com/news/2026/10/12/news-ai-interposers-grow-larger-raising-hbm4e-cooling-challenges-how-samsung-sk-hynix-are-responding/",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2026/07/06163502/Samsung-Semiconductors-HBM4E-Shipment-of-Industry-First-Samples-624x468.jpg",
   content: `## 概要
 AIアクセラレーターの大型化に伴い、計算チップと広帯域メモリ（HBM）をつなぐ「インターポーザー」が急拡大し、次世代HBM4Eの発熱対策が大きな課題になっている。台湾の調査会社TrendForceは10月12日、韓国Chosun Bizの報道を引用し、Samsung電子とSK hynixがそれぞれ独自の冷却技術で対応を急いでいると伝えた。両社は10月14日に開幕する韓国最大の半導体展示会「SEDEX 2026」でこれらの技術を披露する。
 
@@ -145,7 +145,7 @@ HBMの競争軸は、容量と帯域の積み増しから「熱」と「実装�
     "TSMCとの協議は初期段階で契約は未締結、Intelの技術対価や生産分担は未開示"
   ],
   url: "https://www.digitimes.com/news/a20261007VL217/intel-spacex-tesla-tsmc-elon-musk.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20261007vl217_files/2_2b.jpg",
   content: `## 概要
 イーロン・マスク氏が率いるTesla・SpaceX陣営がテキサス州に建設を計画するAIチップ工場「Terafab」をめぐり、マスク氏はTSMCが工場運営を担うとの観測を否定した。同氏はX上で「工場はわれわれが建てて運営する」と述べ、TSMCの関与は施設の一部を転貸する程度にとどまるとの考えを示した。一方、開発パートナーのIntelは参画を続けると表明している。
 
@@ -185,7 +185,7 @@ Terafabは、AIチップを大量に使う事業者が自ら製造まで踏み�
     "CodexとChatGPT WorkではPro 500や従量課金Enterpriseなどに限定、米国・EUのデータレジデンシーにも対応"
   ],
   url: "https://community.openai.com/t/ultrafast-is-rolling-out-today-for-gpt-6-1-sol-in-the-api-codex-and-chatgpt-work/1404475",
-  image: null,
+  image: "https://us1.discourse-cdn.com/openai1/optimized/4X/1/0/f/10fae24328d2dac79ba851ee3adbb3aaa443b4b4_2_1024x576.jpeg",
   content: `## 概要
 OpenAIは10月8日、DevDayで発表した中位モデル「GPT-6.1 Sol」に高速推論モード「Ultrafast」を追加し、API、コーディングエージェント「Codex」、法人向け「ChatGPT Work」で提供を始めた。同社開発者向けアカウントは「Astraに近い知能を、Sol標準の最大8倍の速度で」と説明している。速度と引き換えに、価格は標準の約6倍に設定された。
 
@@ -223,7 +223,7 @@ AnthropicやGoogleも高速推論の提供を拡充しており、CerebrasやGro
     "AI Pro・Ultraは全モデルを維持しDeep ThinkもPro以上へ、APIと企業・教育向けアカウントは影響なし"
   ],
   url: "https://www.technology.org/2026/10/07/gemini-free-users-flash-lite-only-october-9/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Googleは、対話AIアプリ「Gemini」の無料ユーザーが10月9日から最軽量モデル「Flash-Lite」しか利用できなくなると、Geminiアプリのヘルプページで案内した。これまで無料でも一定回数使えた「Flash」と「Pro」はモデル選択から外れる。有料の下位プラン「AI Plus」でもProが使えなくなり、上位モデルは有料上位プランに集約される。
 
@@ -299,7 +299,7 @@ AIエージェントの暴走やインシデント報告の義務化など、AI�
     "化学反応予測をCBRN関連能力の代理タスクに検証、防御研究のためモデルを公開"
   ],
   url: "https://arxiv.org/abs/2610.13928",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 AIモデルが危険な能力を持っているかを確かめる「能力評価」は、隠れた能力があれば適切な手法で引き出せる、という前提に立っている。Andis Draguns氏、Sumeet Ramesh Motwani氏、Raymond Douglas氏、Christian Schroeder de Witt氏らによる論文「AI Models Can Provably Hide Arbitrary Capabilities」は、この前提が敵対的な状況では崩れることを理論と実装の両面で示した。論文は10月9日にarXivで公開され、NeurIPS 2026に採択されている。
 
