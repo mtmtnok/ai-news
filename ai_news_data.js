@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "2027年からマルチGW規模で展開し自社の主力推論基盤に、TSMCへ30万〜100万個超の発注報道も"
   ],
   url: "https://www.techzine.eu/news/infrastructure/144912/microsoft-unveils-maia-300-designed-for-multi-gigawatt-deployments/",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Microsoftは2026年10月12日、自社設計のAI推論向けアクセラレーター「Maia 300」を正式に発表した。2027年から本番環境への導入を開始し、マルチギガワット規模で展開して自社製品・サービスの主力推論システムに据える。同社は主要なGPUベースのシステムと比べ、1メガワット当たり40%多くのAIトークンを処理できると主張している。
 
@@ -68,7 +68,7 @@ Maia 300はチップレット構成を採り、演算用チップレットはTSM
     "性能はHuawei Ascend 910Cに劣るが、推論のプリフィル段階など比較的単純な処理に活用"
   ],
   url: "https://www.tomshardware.com/pc-components/gpus/chinese-ai-companies-buy-1-million-nvidia-gpus-in-a-single-year-report-claims-export-control-compliant-chips-flood-the-market-to-bridge-gap-in-compute-demand",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/U4acxp2Z82FdnqsZNYjLvX-1448-80.jpg",
   content: `## 概要
 英フィナンシャル・タイムズ(FT)は10月13日、中国のテック企業が2026年に入ってからNVIDIAのゲーム用およびワークステーション用GPUを100万個以上購入したと報じた。米国の輸出規制でデータセンター向けの高性能AIチップを入手しにくい中、規制対象外の製品でAI計算力の不足を補っている構図だ。
 
@@ -108,7 +108,7 @@ NVIDIAにとっての財務的な重みは限定的だ。同社の7月期のデ�
     "CXMTは仕様非公開で歩留まり・顧客認証も未検証、HBMでは依然後発との指摘"
   ],
   url: "https://en.sedaily.com/international/2026/10/13/chinese-memory-makers-tech-claim-sinks-samsung-sk-hynix",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/10/13/news-p.v1.20260920.bfe9e65dcc1d407c9d2822e501bc3fa9_P1.png",
   content: `## 概要
 中国最大のDRAMメーカーである長鑫存儲技術(CXMT)が、次世代DRAMの「4F²」構造で技術的な進展を遂げたと表明した。これを受けて10月13日の韓国市場では、Samsung電子とSK hynixの株価がそれぞれ7%を超えて下落した。CXMTは仕様を開示しておらず、業界には主張の実現性に対する慎重な見方が根強い。
 
@@ -147,7 +147,7 @@ AI特需でメモリー価格が歴史的に高騰し、韓国メモリー2社�
     "200万台超感染のボットネット「Kimwolf」規模なら約13万3000コピーを収容可能と試算、ただし理論上の上限値"
   ],
   url: "https://thenewstack.io/self-replicating-ai-worms/",
-  image: null,
+  image: "https://cdn.thenewstack.io/media/2026/10/05385b7f-steve-a-johnson-bjwdjszsqz4-unsplash.jpg",
   content: `## 概要
 AnthropicのFrontier Red Teamは2026年10月12日、小型のオープンウェイトAIモデルが、データセンターを使わずに安価な消費者向け機器へ自らを複製して広がる「AIワーム」の能力に、数カ月以内に到達しうるとする研究を公表した。執筆者はWilliam Zhou氏とDaniel Freeman氏。現時点で実際にそうしたワームが見つかったわけではなく、能力評価の結果である。
 
@@ -187,7 +187,7 @@ Anthropicは、評価では「サイバー攻撃(脆弱性悪用)の要素を自
     "コーディング系2ベンチでは低下、3役すべてで同じ誤りを見逃すとそれを「進歩」と誤認し強化するリスク"
   ],
   url: "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
-  image: null,
+  image: "https://the-decoder.com/wp-content/uploads/2026/10/mass-recursive-self-improvement-optimization-nano-banana-pro.jpg",
   content: `## 概要
 東京のAIスタートアップSakana AIは10月12日、UC Berkeleyと共同で、言語モデルが自らのマルチエージェント作業を通じて性能を高める自己改善手法「MASS(Multi-Agent Self-Supervision)」を発表した。1つのモデルが複数の役割を兼ね、うまくいった実行結果だけを使って自分自身を微調整する仕組みだ。
 
@@ -227,7 +227,7 @@ AI研究の自動化や「再帰的自己改善」が業界の最大のテーマ
     "品質向上のため利用データが活用される場合があり、業務データの検証には注意が必要"
   ],
   url: "https://ai.watch.impress.co.jp/docs/news/2147604.html",
-  image: null,
+  image: "https://ai.watch.impress.co.jp/img/aiw/list/2147/604/0200.jpg",
   content: `## 概要
 ソフトバンクの子会社でLLM開発を担うSB Intuitionsは2026年10月13日、国産生成AI「Sarashina」を利用できる「Sarashinaサービス」の無償ベータ版の提供を始めた。6つのモデルを呼び出せるAPI機能と、Webブラウザー上で対話や翻訳を試せるチャット機能を一般に公開した。
 
@@ -267,7 +267,7 @@ SB Intuitionsは2026年6月から、Oracleのクラウド基盤「Oracle Alloy�
     "中国国営メディアは減速の呼びかけを「中国のAI発展を抑え込む試み」と批判"
   ],
   url: "https://asia.nikkei.com/business/technology/artificial-intelligence/china-s-deepseek-peers-launch-16-ai-models-in-month-despite-anthropic-warning",
-  image: null,
+  image: "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F4%2F9%2F4%2F13284948-2-eng-GB%2Fea34de2d8207-photo_SXM2026093000006556.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
   content: `## 概要
 日経アジアは10月13日、中国のAI開発企業が2026年9月の1カ月間に計16のモデルを公開したと報じた。DeepSeekとXiaomiが牽引役となった。Anthropicのダリオ・アモデイCEOをはじめ米国の一部ラボが安全性を理由に開発ペースの減速を呼びかけるなか、中国勢はむしろリリースを加速させている。
 
@@ -308,7 +308,7 @@ DeepSeekが120億ドル規模の調達とIPOを控え、Moonshotも香港上場�
     "ホワイトハウスが米ラボ2社に最新モデルを英国の検証者に渡さないよう求めたとの報道も背景"
   ],
   url: "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2018/10/GettyImages-1039496404.jpg?w=1024",
   content: `## 概要
 Microsoftのブラッド・スミス社長は2026年10月12日、BBCのポッドキャストとITVのインタビューで、AIに対する拘束力のある国際的な安全ルールを早急に整備する必要があると訴えた。そのうえで、主要AIモデルへの事前アクセス権を持つ英国のAIセキュリティ研究所(AISI)の存在を挙げ、英国が国際ルール作りを主導するのに最も適した立場にあると述べた。
 
