@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "2028年の生産能力を従来計画の30%増からさらに引き上げる検討、四半期の自社株買いは約41億ユーロ"
   ],
   url: "https://www.cnbc.com/amp/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108291541-1776230822579-gettyimages-2250757897-NETHERLANDS_FOUQUET.jpeg?v=1783337282",
   content: `## 概要
 オランダの半導体露光装置大手ASMLは2026年10月14日、7-9月期(第3四半期)決算を発表した。純売上高は約117億ユーロ、純利益は約49.6億ユーロで、純利益はアナリスト予想の約41億ユーロを大きく上回った。AIデータセンター向け投資の拡大を背景に、顧客は装置需要の見通しを引き上げ続けており、ASMLは2027年と2028年の両年で供給が需要に追いつかないとの見方を示した。
 
@@ -65,7 +65,7 @@ window.NEWS_DATA = [
     "コンテキスト長は約100万トークン、思考トークンは出力として課金"
   ],
   url: "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Googleは2026年10月13日、新たなフラッグシップモデル「Gemini 4 Argon」の一般提供を開始した。これまでサイバー防御分野の検証済み利用者などに限って先行提供していたが、開発者と企業向けに広く開放した。11月末までは期間限定の導入価格を設定し、競合モデルからの乗り換えを促す。
 
@@ -104,7 +104,7 @@ Gemini 4 Argonは先行公開時、脆弱性修復ベンチマークでOpenAIの
     "「アクティブメモリー」を強調し、MemoryBenchでClaude OpusやGPT-6 Astraを上回ったと主張"
   ],
   url: "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-1.09.43-PM.jpg?resize=1200,676",
   content: `## 概要
 Metaは2026年10月12日、同社のスーパーインテリジェンス・ラボが開発した「Muse Wonder」と「Muse Wonder Full」を公開した。Metaはこれを同社で最も高性能なモデルと位置付けており、初めて本格的にフロンティアモデルの領域に挑む製品となる。社内コードネームは「Watermelon」だった。
 
@@ -142,7 +142,7 @@ Llamaシリーズでオープンウェイト路線を牽引してきたMetaが�
     "中国全体の出荷は200.8万個、GPUは26%減の一方でGPU以外のアクセラレーターは約80%増"
   ],
   url: "https://money.usnews.com/investing/news/articles/2026-10-12/nvidias-china-ai-chip-share-falls-as-huawei-closes-gap-report-finds",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 調査会社IDCのデータをReutersが10月13日に報じたところによると、中国のデータセンター向けAIチップ市場で、NVIDIAのシェアが2026年上半期に34%まで低下した。米国の輸出規制で製品供給が制限される中、Huaweiを筆頭とする中国勢が急速に存在感を高めている。
 
@@ -181,7 +181,7 @@ NVIDIAが2026年1〜6月に中国で出荷したAIアクセラレーターは67.
     "OpenAIは自社AIモデルが装置の解析と容疑者の特定に役立ったと説明"
   ],
   url: "https://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000",
-  image: null,
+  image: "https://image.theregister.com/5303006.jpg?imageId=5303006&x=38.39&y=32.34&cropw=52&croph=44.18&panox=38.39&panoy=32.34&panow=52&panoh=44.18&width=1200&height=683",
   content: `## 概要
 米連邦検察は、OpenAIの技術者だったサウジアラビア国籍のアブドゥルラフマン・アルフォザン容疑者(35)を、口頭の通信を傍受しようとした罪で訴追した。同社の経営陣が機密性の高い技術・事業・戦略を議論する会議室に録音装置を仕掛けた疑いが持たれている。FBIのカシュ・パテル長官は本件を「防諜上の優先事項」と位置付けた。
 
@@ -220,7 +220,7 @@ OpenAIは当該社員を解雇してFBIに通報したと説明し、モデル�
     "ジェンスン・フアンCEOは「AIの能力と安全性は共に進歩しなければならない」と強調"
   ],
   url: "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
-  image: null,
+  image: "https://iprsoftwaremedia.com/219/files/20224/6296531eb3aed3741918b6b5_DH1L4415-HDR-20220527-r5/DH1L4415-HDR-20220527-r5_dba29dde-5a9b-4ac8-bf58-a0b78da89547-prv.jpg?v=dba29dde-5a9b-4ac8-bf58-a0b78da89547",
   content: `## 概要
 NVIDIAは2026年10月14日、ロンドンで、英国のエージェント型AIの安全性・セキュリティ研究に対して今後5年間で総額2億5000万ドル相当の計算資源を提供すると発表した。現金ではなくGPU計算資源の形で、英国内の研究者が大規模な実験を行える環境を整える。
 
@@ -259,7 +259,7 @@ AIの安全性研究は、フロンティアモデルを扱える計算資源を
     "指定は報復的だと訴え、排除により数十億ドル規模の事業機会を失ったとしている"
   ],
   url: "https://www.mlex.com/mlex/artificial-intelligence/articles/2537583",
-  image: null,
+  image: "https://www.mlex.com/images/.png",
   content: `## 概要
 Anthropicは2026年10月13日、国防総省が同社を「サプライチェーン・リスク」に指定し調達から排除した問題を巡る訴訟で、米コロンビア特別区連邦控訴裁判所に対し、合議体による再審理または全裁判官による大法廷(en banc)での審理を求める申し立てを行った。9月25日に3人の判事による合議体が2対1で同社の請求を退けた判断の見直しを求めるものだ。
 
@@ -297,7 +297,7 @@ Anthropicは9月の判決直後から大法廷審理を検討するとしてい�
     "コンテナ型DCを設置し地下水を循環させる水冷方式、2027年末稼働・最大20MWを目指す"
   ],
   url: "https://news.mynavi.jp/techplus/article/20261006-5084930/",
-  image: null,
+  image: "https://news.mynavi.jp/techplus/article/20261006-5084930/ogp_images/ogp.jpg",
   content: `## 概要
 三井不動産は2026年10月6日、神戸市の遊休トンネルを活用した地中型データセンターの開発に着手すると発表した。熊谷組、データセンター運営のゲットワークスと共同で進め、2027年末の運用開始を予定する。神戸市によると、トンネルを使った商用データセンターは国内初とみられる。
 
