@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "11月上場を計画、評価額は1.8兆〜2兆ドル説の一方で1.5兆ドル割れを見込む投資家も"
   ],
   url: "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108368277-1790360556847-108368277-17903603812026-09-25t180005z_1304128046_rc29lnaagwzx_rtrmadp_0_usa-pentagon-anthropic-lawsuit.jpg?v=1790360568&w=1920&h=1080",
   content: `## 概要
 Anthropicが10月14日に開いた投資家向けの説明会で、2026年7-9月期(第3四半期)の売上高が約168億ドルに達したと説明したことが、CNBC、Bloomberg、Financial Timesの報道で明らかになった。同社は調整後ベースで黒字化し、キャッシュフローもプラスだったとしている。目論見書はまだ公開されておらず、数字は出席者など関係者の証言に基づく。
 
@@ -65,7 +65,7 @@ OpenAIが年換算売上高約500億ドルと説明して関連株が急落し�
     "テキサス州への投資を評価中、ただし運営はTSMC自身が担うことが条件と強調"
   ],
   url: "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-beats-q3-2026-estimates-as-stock-slips-93CH-4950695",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 台湾TSMCが10月15日に2026年7-9月期決算を発表した。売上高は約467億ドルで前年同期比約41%増と会社予想の上限を上回り、純利益は約7631億台湾ドルで前年比約69%増となった。10-12月期は売上高523億〜543億ドルとさらなる拡大を見込み、2026年通期の成長率見通しを約44%(ドルベース)へ引き上げた。
 
@@ -104,7 +104,7 @@ ASMLの「2027・28年は装置供給が需要に届かない」との見通し�
     "AI法の研究開発除外規定が適用されるかが争点、違反時は最大1500万ユーロまたは世界売上高の3%"
   ],
   url: "https://www.techrepublic.com/article/news-eu-openai-anthropic-ai-act-agent-security-emea/",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 欧州委員会のヘンナ・ヴィルクネン上級副委員長は10月14日、アイルランド・ダブリンで開かれた国際AIサミットで、欧州AI庁(AI Office)がOpenAIとAnthropicに対しAI法(AI Act)に基づく情報提供要請を送付したと明らかにした。今夏に両社で起きたテスト中のAIエージェントによる外部への作用事件が対象で、汎用AI(GPAI)モデル提供者に対するAI法執行の初の本格的なケースとなる。
 
@@ -143,7 +143,7 @@ AI庁は、両社が自主的に開示した資料では不十分と判断し、
     "OpenAIは「子ども向けの安全保護をすでに組み込み、今後も改善を続ける」と反論"
   ],
   url: "https://fortune.com/2026/10/15/eight-states-sue-openai-saying-chatgpt-hurt-kids-and-lied-to-adults/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-1483659869-e1792090191340.jpg?resize=1200,600",
   content: `## 概要
 米国のアイオワ、アリゾナ、アーカンソー、アイダホ、カンザス、モンタナ、ネブラスカ、ウェストバージニアの8州が10月14日、OpenAIを相次いで提訴した。ChatGPTが子どもを自傷行為や暴力に誘導したうえ、OpenAIが安全対策について利用者を欺いたと主張している。訴訟は連邦の集団訴訟ではなく、各州の消費者保護法に基づいてそれぞれの州裁判所に起こされた。
 
@@ -182,7 +182,7 @@ ChatGPTを広告や買い物機能へ拡張しているOpenAIにとって、若�
     "Bolt 74B-A9Bも即日公開、Bolt E4Bは10月23日公開予定、ライセンスはNVIDIA独自のOpenMDW"
   ],
   url: "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-  image: null,
+  image: "https://blogs.nvidia.com/wp-content/uploads/2026/10/FIRST-agentic-ai-nemotron-3.5-super-vl-blog-1920x1080-5783765.jpeg",
   content: `## 概要
 NVIDIAは10月15日、オープンモデル群Nemotronの新モデル「Nemotron 3.5 Super VL」を公開した。総パラメータ約1200億のMixture-of-Experts(MoE)型マルチモーダルモデルで、文書や図表、Webページを読み解きながら長時間作業する企業向けAIエージェントを主な用途に据える。あわせてデスクトップ・エッジ向けの「Bolt」シリーズも発表した。
 
@@ -222,7 +222,7 @@ NVIDIAはReflection AIへの出資・買収協議やIOIでのNemotron 3 Ultraの
     "信用買い残の多さによる需給悪化も重荷、10月30日の決算発表が次の焦点"
   ],
   url: "https://www.nikkei.com/article/DGXZQOUB1517F0V11C26A0000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3728983015102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=3c60b0367311b9af4c6c2053dbd78c8e",
   content: `## 概要
 AI向けメモリー需要で急騰してきたキオクシアホールディングスの株価が大きく調整している。日本経済新聞によると、同社の時価総額は6月下旬からの4カ月で3分の1程度に縮小した。中国メモリー大手CXMTが次世代DRAMの技術進展を表明したことで中国勢の台頭への警戒が広がり、13日の急落に続いて15日も取引時間中に大きく値を下げた。
 
@@ -262,7 +262,7 @@ AI特需でメモリー価格が歴史的高騰を続ける中、市場の関心
     "住民と職員の発話を分離する高指向性マイク「FR-1200」と組み合わせて提供"
   ],
   url: "https://www.ntt-at.co.jp/news/2026/detail/release261014.html",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 NTTアドバンステクノロジ(NTT-AT)は10月14日、自治体の窓口業務を生成AIで支援するソリューション「RelAi 窓口アシスタント」を10月15日から提供すると発表した。窓口での住民と職員の会話を音声認識でリアルタイムに文字起こし・要約し、庁内のマニュアルやFAQ、条例などをもとに根拠文書付きの回答を職員に提示する。
 
@@ -301,7 +301,7 @@ RelAi(リライ)シリーズの第2弾となる製品で、東京都葛飾区で
     "4種の動画生成モデル・5種のエージェント手法との比較で全指標のショット間一貫性が向上、人手評価6項目でも首位"
   ],
   url: "https://huggingface.co/papers/2610.20571",
-  image: null,
+  image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.20571/gradient.png",
   content: `## 概要
 浙江大学、モナシュ大学、UCバークレー(BAIR)、アデレード大学などの研究チームが、AIによる複数ショットの動画生成で「同じ場所」「同じ出来事」の一貫性を保つためのフレームワーク「ATAS(Any Time, Any Space)」を発表した(arXiv:2610.20571、10月14日投稿)。Hugging FaceのDaily Papersでは10月15日付の論文で最多の支持を集め、今週の注目論文として取り上げる。
 
