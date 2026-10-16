@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-10-10",
+  updated: "2026-10-17",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -146,7 +146,9 @@ window.RELATIONS = {
     { id: "cadence",      label: "Cadence",          sector: "semi", sub: "design" },
     { id: "synopsys",     label: "Synopsys",         sector: "semi", sub: "design" },
     { id: "blackstone",   label: "Blackstone",       sector: "invest" },
-    { id: "coatue",       label: "Coatue",           sector: "invest" }
+    { id: "coatue",       label: "Coatue",           sector: "invest" },
+    { id: "winverse",     label: "Winverse AI",  sector: "app" },
+    { id: "adaniconnex",  label: "AdaniConneX",  sector: "cloud" },
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -671,6 +673,18 @@ window.RELATIONS = {
       source: "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061" },
     { from: "apple", to: "huxe", type: "ma", threads: ["talent"],
       label: "元Google NotebookLM開発者3人が創業したAI音声アプリHuxeを技術ライセンス＋チーム採用でアクハイヤー（金額非公表、EU DMA透明性サイトで判明）", date: "2026-10",
-      source: "https://9to5mac.com/2026/10/09/apple-acqui-hires-ai-startup-founded-by-former-notebooklm-developers" }
+      source: "https://9to5mac.com/2026/10/09/apple-acqui-hires-ai-startup-founded-by-former-notebooklm-developers" },
+    { from: "deepseek", to: "winverse", type: "invest", threads: ["china", "talent"], amount: null, status: "reported",
+      label: "元Tencent研究者Hu Han氏が創業したロボットAI新興のシードを主導へ（評価額約4億ドル）。DeepSeek初のロボット分野への直接投資", date: "2026-10",
+      source: "https://qz.com/deepseek-winverse-ai-robotics-seed-round-101226" },
+    { from: "nvidia", to: "reflectionai", type: "ma", threads: ["labs", "talent"], status: "negotiating",
+      label: "出資先Reflection AI（評価額250億ドル）の買収または追加出資を協議。アクハイヤー案も", date: "2026-10",
+      source: "https://www.business-standard.com/world-news/nvidia-in-talks-to-deepen-investment-in-or-acquire-ai-startup-reflection-126101100061_1.html" },
+    { from: "coreweave", to: "adaniconnex", type: "partner", threads: ["compute"], flow: "計算資源",
+      label: "インド進出。ムンバイ近郊に240MWのAIデータセンターを共同展開し、NVIDIA「Vera Rubin」を導入", date: "2026-10",
+      source: "https://www.coreweave.com/news/coreweave-enters-india-expanding-ai-cloud-platform-with-adaniconnex" },
+    { from: "microsoft", to: "tsmc", type: "partner", threads: ["semi", "compute"], flow: "技術",
+      label: "自社AIチップ「Maia 300」をTSMC N2Pで製造（HBM4を8基搭載）。2027年に「マルチGW」規模で展開", date: "2026-10",
+      source: "https://www.techzine.eu/news/infrastructure/144912/microsoft-unveils-maia-300-designed-for-multi-gigawatt-deployments/" }
   ]
 };
