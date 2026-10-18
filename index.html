@@ -6,515 +6,291 @@
 <title>AI CatchUP Daily — AIニュースマガジン</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700;900&family=BIZ+UDPGothic:wght@400;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
 <style>
+/* 紙面組版（B-019 で採用）。カードの箱をやめ、段組と罫線で組む。見出しの大きさ＝重要度 */
 :root{
-  --paper:#fbf8f2;
-  --paper-deep:#f1ebe0;
-  --ink:#1a1712;
-  --ink-soft:#473f35;
-  --ink-faint:#736a5d;
-  --vermilion:#cf3b25;
-  --vermilion-deep:#a82d1a;
-  --rule:#d8d0c2;
-  --c-model:#2d5d8e;   /* 藍 — 新モデル */
-  --c-fund:#3a7a4e;    /* 松葉 — 資金調達 */
-  --c-reg:#c0392b;     /* 朱 — 規制 */
-  --c-res:#6b4f9e;     /* 菫 — 研究 */
-  --c-tool:#c8762a;    /* 柿 — ツール */
-  --c-semi:#3d7a80;    /* 青碧 — 半導体 */
-  --c-etc:#6e6a61;     /* 鼠 — その他 */
-  --serif:"Shippori Mincho","Yu Mincho","Hiragino Mincho ProN",serif;
-  --sans:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+  --paper:#f5f2ea; --paper-2:#ece7dc; --ink:#141210; --ink-2:#3e3a33; --ink-3:#6f695e;
+  --rule:#1d1a16; --hair:#cfc7b8; --accent:#b3321c;
+  --c-model:#2a5689; --c-fund:#2f6e44; --c-reg:#a63322; --c-res:#5e468f; --c-tool:#a8631f; --c-semi:#336c72; --c-etc:#5e5a52;
+  --serif:"Noto Serif JP","Yu Mincho",serif;
+  --sans:"BIZ UDPGothic","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  --title:"Libre Caslon Display","Noto Serif JP",serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{
-  font-family:var(--sans);
-  background:var(--paper);
-  color:var(--ink);
-  line-height:1.75;
-  -webkit-tap-highlight-color:rgba(207,59,37,.12);
-  /* 和紙の質感 */
-  background-image:
-    radial-gradient(circle at 15% 20%, rgba(207,59,37,.018), transparent 42%),
-    repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(29,26,22,.008) 4px);
-}
-::selection{background:var(--vermilion);color:#fff}
-/* 長い無分割文字列の溢れ防止（保険） */
-.hero .headline,.card .headline,.modal .headline,.arc-row .t{overflow-wrap:anywhere}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.7;-webkit-tap-highlight-color:rgba(179,50,28,.12)}
+::selection{background:var(--accent);color:#fff}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+h3,.art-h,.t{overflow-wrap:anywhere}
 
-/* ============ マストヘッド ============ */
-header{
-  max-width:1140px;margin:0 auto;padding:34px 24px 0;
-}
-.masthead{
-  display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;
-  padding-bottom:14px;
-  border-bottom:3px solid var(--ink);
-  position:relative;
-}
-.masthead::after{
-  content:"";position:absolute;left:0;right:0;bottom:-7px;height:1px;background:var(--ink);
-}
-.brand{display:flex;align-items:center;gap:14px}
-.hanko{
-  width:52px;height:52px;flex:none;
-  background:var(--vermilion);color:#fff;
-  font-family:var(--serif);font-weight:800;font-size:19px;line-height:1.15;
-  display:flex;align-items:center;justify-content:center;text-align:center;
-  border-radius:6px;
-  box-shadow:2px 3px 0 rgba(29,26,22,.18);
-  letter-spacing:.05em;
-}
-.brand h1{
-  font-family:var(--serif);font-weight:800;font-size:clamp(26px,4.5vw,40px);
-  letter-spacing:.02em;line-height:1.1;
-}
-.brand h1 small{display:block;font-size:11px;font-weight:600;color:var(--ink-soft);letter-spacing:.42em;margin-top:4px}
-.issue{
-  text-align:right;font-family:var(--serif);color:var(--ink-soft);font-size:13px;line-height:1.5;
-}
-.issue strong{display:block;font-size:17px;color:var(--ink);font-weight:700}
-.issue .map-link{
-  display:inline-block;margin-top:5px;font-family:var(--sans);font-size:12.5px;font-weight:700;
-  color:var(--vermilion);text-decoration:none;border-bottom:1px dotted var(--vermilion);
-}
-.issue .map-link:hover{border-bottom-style:solid}
+/* ============ 題字 ============ */
+.nameplate{padding:22px 0 0;text-align:center}
+.np-top{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-3);border-bottom:1px solid var(--hair);padding-bottom:8px}
+.np-title{font-family:var(--title);font-weight:400;font-size:clamp(40px,7.4vw,84px);line-height:1;letter-spacing:-.01em;padding:18px 0 14px;display:block}
+.folio{display:flex;justify-content:center;font-size:12.5px;color:var(--ink-2);border-top:3px double var(--rule);border-bottom:1px solid var(--rule);padding:7px 0}
+.folio span{padding:0 16px;border-left:1px solid var(--hair)}
+.folio span:first-child{border-left:none}
 
-/* ============ コントロールバー ============ */
-.controls{
-  max-width:1140px;margin:0 auto;padding:16px 24px 6px;
-  display:flex;gap:10px;align-items:center;flex-wrap:wrap;
-  position:sticky;top:0;z-index:40;
-  background:linear-gradient(var(--paper) 88%, transparent);
-}
-.chips{display:flex;gap:7px;flex-wrap:wrap}
-.chip{
-  font-family:var(--sans);font-size:13px;font-weight:500;
-  padding:5px 14px;border-radius:999px;cursor:pointer;
-  border:1px solid var(--rule);background:#fffdf9;color:var(--ink-soft);
-  transition:all .18s ease;user-select:none;
-}
-.chip:hover{border-color:var(--ink-faint);transform:translateY(-1px)}
-.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.chip.star.on{background:var(--vermilion);border-color:var(--vermilion)}
-.searchbox{
-  margin-left:auto;display:flex;align-items:center;gap:8px;
-  background:#fffdf9;border:1px solid var(--rule);border-radius:999px;padding:5px 16px;
-  min-width:200px;flex:0 1 250px;
-}
-.searchbox input{
-  border:none;outline:none;background:none;font-family:var(--sans);font-size:13.5px;width:100%;color:var(--ink);
-}
-.searchbox svg{flex:none;opacity:.45}
-.count-line{
-  max-width:1140px;margin:0 auto;padding:2px 24px 0;
-  font-size:12.5px;color:var(--ink-faint);letter-spacing:.06em;
-}
+/* ============ 欄の目次（カテゴリ）・検索 ============ */
+.bar{position:sticky;top:0;z-index:40;background:var(--paper);border-bottom:1px solid var(--hair)}
+.bar .wrap{display:flex;align-items:center;gap:16px;padding-top:8px;padding-bottom:8px}
+#filters{display:flex;flex-wrap:wrap}
+#filters span{font-size:13.5px;padding:4px 13px;cursor:pointer;color:var(--ink-2);border-left:1px solid var(--hair);user-select:none}
+#filters span:first-child{border-left:none;padding-left:0}
+#filters span:hover{color:var(--ink)}
+#filters span.on{color:var(--accent);font-weight:700}
+#filters [data-star]{margin-left:8px;border:1px solid var(--hair);border-radius:2px;padding:2px 10px}
+#filters [data-star].on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.search{margin-left:auto;display:flex;align-items:center;gap:6px;border-bottom:1px solid var(--ink-3);padding:2px 0;flex:0 1 220px}
+.search input{border:none;background:none;outline:none;font:inherit;font-size:13.5px;width:100%;color:var(--ink)}
 
-/* ============ セクション ============ */
-main{max-width:1140px;margin:0 auto;padding:10px 24px 80px}
-.section-title{
-  display:flex;align-items:center;gap:14px;margin:36px 0 20px;
-}
-.section-title h2{
-  font-family:var(--serif);font-size:21px;font-weight:700;letter-spacing:.1em;white-space:nowrap;
-}
-.section-title .bar{height:1px;background:var(--rule);flex:1;position:relative}
-.section-title .bar::before{content:"";position:absolute;left:0;top:-1px;width:64px;height:3px;background:var(--vermilion)}
-.section-title .sub{font-size:12.5px;color:var(--ink-faint);letter-spacing:.1em;white-space:nowrap}
+/* ============ 共通部品 ============ */
+.kicker{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:11.5px;color:var(--ink-3)}
+.cat{color:var(--cc);font-weight:700}
+.imp{color:var(--accent);font-weight:700}
+.imp::before{content:"■ "}
+.thchip{color:var(--tc);font-weight:700}
+.thchip::before{content:"連載｜"}
+.img{overflow:hidden;background:var(--paper-2)}
+.img img{width:100%;height:100%;object-fit:cover;display:block}
+.ph{width:100%;height:100%;background:repeating-linear-gradient(135deg,var(--paper-2) 0 6px,transparent 6px 12px);display:flex;align-items:center;justify-content:center}
+.ph span{font-family:var(--serif);font-weight:700;color:var(--cc);font-size:14px}
+h3{font-family:var(--serif);font-weight:700;line-height:1.45}
+article{cursor:pointer}
+article:hover h3{color:var(--accent)}
+.empty{padding:40px 0;text-align:center;color:var(--ink-3)}
 
-/* ============ ヒーロー ============ */
-.hero{
-  display:grid;grid-template-columns:1.6fr 1fr;gap:0;
-  background:#fffdf9;border:1px solid var(--rule);
-  box-shadow:0 18px 40px -22px rgba(29,26,22,.28);
-  cursor:pointer;overflow:hidden;
-  transition:transform .25s ease, box-shadow .25s ease;
-  animation:rise .6s ease both;
-}
-.hero:hover{transform:translateY(-3px);box-shadow:0 26px 50px -24px rgba(29,26,22,.4)}
-.hero .img{position:relative;min-height:300px;overflow:hidden}
-.hero .img img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:transform .6s ease}
-.hero:hover .img img{transform:scale(1.04)}
-.hero .body{padding:30px 32px;display:flex;flex-direction:column;gap:12px;justify-content:center}
-.hero .headline{
-  font-family:var(--serif);font-weight:800;font-size:clamp(19px,2.4vw,25px);line-height:1.45;
-}
-.hero .summary{font-size:13.5px;color:var(--ink-soft);line-height:1.85;
-  display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
-.hero .img .ribbon{
-  position:absolute;top:16px;left:-4px;z-index:2;
-  background:var(--vermilion);color:#fff;
-  font-family:var(--serif);font-weight:700;font-size:12.5px;letter-spacing:.18em;
-  padding:5px 16px 5px 18px;
-  box-shadow:2px 2px 0 rgba(29,26,22,.2);
-}
+/* ============ 一面 ============ */
+.front{display:grid;grid-template-columns:7fr 5fr;margin-top:22px;border-bottom:3px double var(--rule);padding-bottom:22px}
+.lead{padding-right:26px;border-right:1px solid var(--hair)}
+.lead .img{aspect-ratio:16/9}
+.lead h3{font-size:clamp(23px,2.9vw,33px);font-weight:900;line-height:1.38;margin:12px 0;letter-spacing:-.005em}
+.lead .sum{font-size:14.5px;line-height:1.95;color:var(--ink-2)}
+.lead .pts{margin-top:14px;columns:2;column-gap:22px;column-rule:1px solid var(--hair)}
+.lead .pts p{font-size:12.5px;line-height:1.75;color:var(--ink-2);break-inside:avoid;margin-bottom:8px}
+.lead .pts p b{font-family:var(--serif);color:var(--ink)}
+.side{padding-left:24px;display:flex;flex-direction:column}
+.side-h{font-family:var(--serif);font-weight:700;font-size:13px;border-bottom:1px solid var(--rule);padding-bottom:5px;margin-bottom:4px}
+.side article{display:grid;grid-template-columns:1fr 92px;gap:12px;padding:12px 0;border-bottom:1px solid var(--hair)}
+.side article:last-child{border-bottom:none}
+.side article.noimg{grid-template-columns:1fr}
+.side .img{aspect-ratio:1;align-self:start}
+.side h3{font-size:16px;margin:4px 0}
+.side .sum{font-size:12px;color:var(--ink-2);line-height:1.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
-/* ============ カード ============ */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:18px;margin-top:18px}
+/* ============ 連載（業界ストーリー） ============ */
+.sec{display:flex;align-items:baseline;gap:12px;margin:30px 0 0;border-bottom:1px solid var(--rule);padding-bottom:6px}
+.sec h2{font-family:var(--serif);font-weight:900;font-size:19px}
+.sec small{font-size:12px;color:var(--ink-3)}
+.sec .go{margin-left:auto;font-size:12.5px;color:var(--accent);font-weight:700}
+.serials{display:grid;grid-template-columns:repeat(6,1fr)}
+.serial{padding:14px 14px 16px;border-left:1px solid var(--hair);display:flex;flex-direction:column;gap:7px}
+.serial:first-child{border-left:none;padding-left:0}
+.serial .no{font-family:var(--title);font-size:26px;line-height:1;color:var(--tc)}
+.serial .nm{font-family:var(--serif);font-weight:700;font-size:14.5px;line-height:1.45;min-height:2.9em}
+.serial .ln{font-size:12px;color:var(--ink-2);line-height:1.7;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.serial .ft{margin-top:auto;display:flex;align-items:flex-end;justify-content:space-between;font-size:11px;color:var(--ink-3);padding-top:6px;border-top:1px dotted var(--hair)}
+.serial:hover .nm{color:var(--accent)}
 
-/* ============ 追記日グループ（日付見出し） ============ */
-.day-head{grid-column:1/-1;display:flex;align-items:baseline;gap:12px;padding-top:16px;border-top:1px solid var(--rule)}
-.day-head:first-child{padding-top:0;border-top:none}
-.day-label{font-family:var(--serif);font-weight:700;font-size:16px;letter-spacing:.08em;padding-left:11px;border-left:3px solid var(--vermilion)}
-.day-count{font-size:12px;color:var(--ink-faint);letter-spacing:.06em}
-#latest-grid > .hero{grid-column:1/-1}
-.card{
-  background:#fffdf9;border:1px solid var(--rule);overflow:hidden;cursor:pointer;
-  display:flex;flex-direction:column;
-  transition:transform .22s ease, box-shadow .22s ease;
-  animation:rise .6s ease both;
-}
-.card:nth-child(2){animation-delay:.05s}.card:nth-child(3){animation-delay:.1s}
-.card:nth-child(4){animation-delay:.15s}.card:nth-child(5){animation-delay:.2s}
-.card:nth-child(6){animation-delay:.25s}.card:nth-child(7){animation-delay:.3s}
-.card:hover{transform:translateY(-4px);box-shadow:0 18px 34px -20px rgba(29,26,22,.35)}
-.card .img{position:relative;height:148px;overflow:hidden;flex:none}
-.card .img img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
-.card:hover .img img{transform:scale(1.05)}
-.card .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
-.card .headline{font-family:var(--serif);font-weight:700;font-size:15px;line-height:1.6}
-.card .summary{font-size:12.5px;color:var(--ink-soft);line-height:1.75;
-  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+/* ============ 前日までの紙面：3段組。見出しサイズで重要度 ============ */
+.day{margin-top:8px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr)}
+.cols article{padding:14px 20px 16px;border-left:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.cols article:nth-of-type(3n+1){border-left:none;padding-left:0}
+.cols article:nth-of-type(3n){padding-right:0}
+.cols .img{aspect-ratio:3/2;margin-bottom:10px}
+.cols h3{margin:5px 0 6px}
+.cols .i3 h3{font-size:19px;font-weight:900}
+.cols .i2 h3{font-size:16px}
+.cols .i1 h3{font-size:14.5px;font-weight:500}
+.cols .sum{font-size:12.5px;color:var(--ink-2);line-height:1.75;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cols .i1 .sum{display:none}
+.cols .thumb{float:right;width:104px;height:78px;margin:2px 0 6px 14px}
 
-/* プレースホルダー画像 */
-.ph{
-  width:100%;height:100%;display:flex;align-items:center;justify-content:center;position:relative;
-}
-.ph span{
-  font-family:var(--serif);font-weight:800;color:rgba(255,253,249,.92);
-  font-size:30px;letter-spacing:.3em;text-indent:.3em;
-  writing-mode:vertical-rl;
-  border:1px solid rgba(255,253,249,.4);padding:14px 6px;
-}
-.ph::after{
-  content:"";position:absolute;inset:0;
-  background:repeating-linear-gradient(45deg,transparent,transparent 10px,rgba(255,255,255,.04) 10px,rgba(255,255,255,.04) 20px);
-}
-
-/* メタ行 */
-.meta{display:flex;align-items:center;gap:8px;font-size:11.5px;flex-wrap:wrap}
-.tag{
-  font-weight:700;font-size:11px;letter-spacing:.06em;color:#fff;
-  padding:2.5px 10px;border-radius:3px;white-space:nowrap;
-}
-.stars{color:var(--vermilion);font-size:11.5px;letter-spacing:.12em}
-.date-label{color:var(--ink-faint);font-family:var(--serif);letter-spacing:.04em}
-
-/* ============ アーカイブ ============ */
-.month{margin-bottom:10px;border:1px solid var(--rule);background:#fffdf9}
-.month summary{
-  list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;
-  padding:13px 20px;user-select:none;transition:background .15s;
-}
+/* ============ 索引（アーカイブ） ============ */
+.month{border-bottom:1px solid var(--hair)}
+.month summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:12px;padding:10px 0}
 .month summary::-webkit-details-marker{display:none}
-.month summary:hover{background:var(--paper-deep)}
-.month summary .m-title{font-family:var(--serif);font-weight:700;font-size:16.5px;letter-spacing:.06em}
-.month summary .m-count{font-size:12px;color:var(--ink-faint);letter-spacing:.08em}
-.month summary .tri{margin-left:auto;color:var(--ink-faint);transition:transform .25s ease;font-size:11px}
-.month[open] summary .tri{transform:rotate(90deg)}
-.month[open] summary{border-bottom:1px dashed var(--rule)}
-.arc-list{padding:4px 0}
-.arc-row{
-  display:flex;align-items:baseline;gap:13px;
-  padding:9px 20px;text-decoration:none;color:inherit;
-  transition:background .12s;border-bottom:1px solid rgba(216,208,194,.5);
-}
-.arc-row:last-child{border-bottom:none}
-.arc-row:hover{background:var(--paper-deep)}
-.arc-row .d{font-family:var(--serif);font-size:12.5px;color:var(--ink-soft);flex:none;width:54px;letter-spacing:.03em}
-.arc-row .tag{flex:none;transform:translateY(-1px)}
-.arc-row .t{font-size:14px;line-height:1.65}
-.arc-row.is-rich .t{font-weight:700}
-.arc-row .ext{margin-left:auto;flex:none;font-size:10px;color:var(--ink-faint);opacity:0;transition:opacity .15s}
-.arc-row:hover .ext{opacity:1}
+.m-title{font-family:var(--serif);font-weight:700;font-size:15.5px}
+.m-count{font-size:12px;color:var(--ink-3)}
+.tri{margin-left:auto;font-size:12px;color:var(--ink-3)}
+.tri::after{content:"開く"}
+.month[open] .tri::after{content:"閉じる"}
+.arc-list{columns:2;column-gap:32px;column-rule:1px solid var(--hair);padding-bottom:12px}
+.arc-row{display:grid;grid-template-columns:34px 1fr;gap:2px 8px;padding:6px 0;border-bottom:1px dotted var(--hair);break-inside:avoid;font-size:13px;line-height:1.6}
+.arc-row .d{grid-row:1/3;font-family:var(--serif);color:var(--ink-3);font-size:12px;padding-top:1px}
+.arc-row .cat{font-size:10.5px}
+.arc-row .t{grid-column:2}
+.arc-row.is-plain .t{color:var(--ink-3)}
+.arc-row.is-rich:hover .t{color:var(--accent)}
 
-/* ============ モーダル ============ */
-.modal-bg{
-  position:fixed;inset:0;background:rgba(29,26,22,.55);backdrop-filter:blur(3px);
-  z-index:100;display:none;align-items:flex-start;justify-content:center;
-  padding:5vh 18px;overflow-y:auto;
-}
-.modal-bg.show{display:flex;animation:fade .2s ease}
-.modal{
-  background:var(--paper);max-width:760px;width:100%;
-  border-top:5px solid var(--vermilion);
-  box-shadow:0 40px 90px -30px rgba(0,0,0,.5);
-  animation:rise .3s ease;
-  margin-bottom:5vh;
-}
-.modal .m-img{max-height:340px;overflow:hidden}
-.modal .m-img img{width:100%;display:block;object-fit:cover}
-.modal .inner{padding:34px 42px 42px}
-.modal .headline{font-family:var(--serif);font-weight:800;font-size:23px;line-height:1.5;margin:10px 0 18px}
-.modal .lead{
-  font-size:14px;color:var(--ink-soft);line-height:1.9;
-  border-left:3px solid var(--vermilion);padding:4px 0 4px 16px;margin-bottom:22px;
-}
-.modal .content h3{
-  font-family:var(--serif);font-size:16px;font-weight:700;letter-spacing:.08em;
-  margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--rule);
-  display:flex;align-items:center;gap:8px;
-}
-.modal .content h3::before{content:"◆";color:var(--vermilion);font-size:11px}
-.modal .content p{font-size:14px;margin-bottom:12px;line-height:1.95}
-.modal .content ul{padding-left:2px;list-style:none;margin-bottom:12px}
-.modal .content li{
-  font-size:13.5px;line-height:1.85;padding-left:20px;position:relative;margin-bottom:5px;
-}
-.modal .content li::before{content:"・";color:var(--vermilion);position:absolute;left:2px;font-weight:700}
-.modal .actions{display:flex;gap:10px;margin-top:30px;flex-wrap:wrap}
-.btn{
-  font-family:var(--sans);font-size:13px;font-weight:700;text-decoration:none;
-  padding:9px 22px;border-radius:3px;transition:all .18s;letter-spacing:.05em;
-}
-.btn.primary{background:var(--ink);color:var(--paper)}
-.btn.primary:hover{background:var(--vermilion)}
-.btn.ghost{border:1px solid var(--rule);color:var(--ink-soft)}
-.btn.ghost:hover{border-color:var(--ink);color:var(--ink)}
-.m-close{
-  position:sticky;top:10px;float:right;margin:10px 10px 0 0;
-  width:34px;height:34px;border-radius:50%;border:none;cursor:pointer;
-  background:var(--ink);color:var(--paper);font-size:15px;z-index:5;
-  transition:background .15s;
-}
-.m-close:hover{background:var(--vermilion)}
+footer{border-top:3px double var(--rule);margin-top:50px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;padding-top:14px;padding-bottom:40px;font-size:11.5px;color:var(--ink-3)}
+footer a{color:var(--ink-2);text-decoration:underline}
 
-.empty{
-  text-align:center;padding:60px 0;color:var(--ink-faint);font-family:var(--serif);letter-spacing:.1em;
-}
-
-/* ============ 業界ストーリー（今週の動き） ============ */
-.threads-box{
-  border:1px solid var(--rule);background:#fffdf9;margin-top:18px;
-  box-shadow:0 14px 30px -22px rgba(29,26,22,.25);
-}
-.threads-box .trow{
-  display:flex;gap:12px;align-items:baseline;padding:11px 18px;text-decoration:none;color:inherit;
-  border-bottom:1px solid rgba(216,208,194,.55);transition:background .12s;
-}
-.threads-box .trow:last-child{border-bottom:none}
-.threads-box .trow:hover{background:var(--paper-deep)}
-.threads-box .tdot{width:9px;height:9px;border-radius:50%;flex:none;transform:translateY(-1px)}
-.threads-box .tname{font-family:var(--serif);font-weight:700;font-size:13.5px;flex:none;width:180px;letter-spacing:.02em}
-.threads-box .tline{font-size:12.5px;color:var(--ink-soft);line-height:1.6;
-  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.threads-box .tgo{margin-left:auto;flex:none;font-size:10px;color:var(--ink-faint)}
-@media(max-width:760px){
-  .threads-box .tname{width:auto;min-width:0}
-  .threads-box .trow{flex-wrap:wrap;row-gap:2px}
-  .threads-box .tline{flex-basis:100%;-webkit-line-clamp:2}
-}
-
-/* 記事のストーリーチップ */
-.thchip{
-  font-size:10.5px;font-weight:700;letter-spacing:.03em;text-decoration:none;
-  color:var(--tc);border:1px solid var(--tc);border-radius:999px;padding:1px 9px;
-  white-space:nowrap;background:#fffdf9;transition:all .15s;
-}
-.thchip:hover{background:var(--tc);color:#fff}
-footer{
-  max-width:1140px;margin:0 auto;padding:26px 24px 50px;
-  border-top:1px solid var(--rule);
-  font-size:11px;color:var(--ink-faint);letter-spacing:.08em;
-  display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;
-}
-footer a{color:var(--ink-soft)}
-
-@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-@keyframes fade{from{opacity:0}to{opacity:1}}
+/* ============ 記事ページ（B-020 で採用：紙面と入れ替える） ============ */
+#page-view .crumb{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;font-size:12.5px;color:var(--ink-3);padding:14px 0 10px;border-bottom:1px solid var(--hair)}
+#page-view .crumb a{color:var(--accent);font-weight:700;cursor:pointer}
+#page-view .layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;padding-top:22px}
+#page-view .rail{border-left:1px solid var(--hair);padding-left:24px}
+#page-view .rail .art-story{margin-top:0}
+#page-view .rail .art-rel h4{margin-top:8px}
+.art-kicker{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;font-size:12px;color:var(--ink-3)}
+.art-h{font-family:var(--serif);font-weight:900;font-size:clamp(25px,3.2vw,38px);line-height:1.42;margin:10px 0 12px}
+.art-lead{font-size:15px;line-height:1.95;color:var(--ink-2);margin-bottom:14px}
+.art-photo{margin:0 0 16px}
+.art-photo img{width:100%;max-height:440px;object-fit:cover;display:block}
+.art-photo figcaption{font-size:11px;color:var(--ink-3);margin-top:4px;text-align:right}
+.art-points{border-top:2px solid var(--rule);border-bottom:1px solid var(--hair);padding:10px 0 4px;margin:0 0 18px;max-width:680px}
+.art-points b.lbl{font-family:var(--serif);font-size:13px;display:block;margin-bottom:4px}
+.art-points p{font-size:13.5px;line-height:1.8;color:var(--ink-2);margin-bottom:6px;padding-left:1.6em;text-indent:-1.6em}
+.art-points p i{font-style:normal;font-family:var(--serif);font-weight:700;color:var(--accent);display:inline-block;width:1.6em;text-indent:0}
+.art-body{max-width:680px}
+.art-body h3{font-family:var(--serif);font-size:16px;font-weight:900;margin:22px 0 6px}
+.art-body h3:first-child{margin-top:0}
+.art-body p{font-size:15px;line-height:2;margin-bottom:14px}
+.art-body ul{padding-left:1.2em;margin-bottom:14px}
+.art-body li{font-size:14.5px;line-height:1.85;margin-bottom:4px}
+.art-actions{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px}
+.art-actions a,.art-actions button{font:inherit;font-size:13px;font-weight:700;border:1px solid var(--rule);background:none;color:var(--ink);padding:8px 16px;cursor:pointer}
+.art-actions a.primary{background:var(--ink);color:var(--paper)}
+.art-actions a:hover,.art-actions button:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+/* 連載の中での位置 */
+.art-story{border:1px solid var(--hair);border-top:3px solid var(--tc);padding:12px 14px 10px;margin:20px 0}
+.art-story .hd{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.art-story .hd b{font-family:var(--serif);font-size:14px}
+.art-story .hd span{font-size:12px;color:var(--ink-3)}
+.art-story .hd a{margin-left:auto;font-size:12px;color:var(--accent);font-weight:700}
+.art-story ol{list-style:none;margin-top:8px;border-left:2px solid var(--hair)}
+.art-story li{position:relative;padding:5px 0 5px 16px;font-size:12.5px;line-height:1.55;cursor:pointer}
+.art-story li::before{content:"";position:absolute;left:-5px;top:11px;width:8px;height:8px;border-radius:50%;background:var(--paper);border:2px solid var(--hair)}
+.art-story li.now{font-weight:700;cursor:default}
+.art-story li.now::before{background:var(--tc);border-color:var(--tc)}
+.art-story li:not(.now):hover .t{color:var(--accent)}
+.art-story li .d{font-family:var(--serif);color:var(--ink-3);margin-right:8px;font-weight:400}
+.art-story li.more{color:var(--ink-3);cursor:default}
+.art-story li.more::before{display:none}
+/* 関連記事 */
+.art-rel h4{font-family:var(--serif);font-size:13.5px;border-bottom:1px solid var(--rule);padding-bottom:4px;margin:22px 0 2px}
+.art-rel .it{display:grid;grid-template-columns:1fr 76px;gap:10px;padding:9px 0;border-bottom:1px solid var(--hair);cursor:pointer}
+.art-rel .it .img{width:76px;height:56px}
+.art-rel .it .t{font-family:var(--serif);font-weight:700;font-size:13.5px;line-height:1.5}
+.art-rel .it .k{font-size:11px;color:var(--ink-3);margin-top:2px}
+.art-rel .it:hover .t{color:var(--accent)}
+/* 前後の記事 */
+.art-nav{display:grid;grid-template-columns:1fr 1fr;border-top:3px double var(--rule);margin-top:22px}
+.art-nav a{padding:10px 12px 12px 0;cursor:pointer;min-height:60px;min-width:0;overflow-wrap:anywhere}
+.art-nav a + a{border-left:1px solid var(--hair);padding:10px 0 12px 14px}
+.art-nav a + a small{text-align:right}
+.art-nav small{display:block;font-size:11px;color:var(--ink-3)}
+.art-nav a > span{font-family:var(--serif);font-weight:700;font-size:13px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.art-nav a:hover > span{color:var(--accent)}
+.art-nav .kbd{font-family:var(--sans);font-size:10px;border:1px solid var(--hair);padding:0 4px;margin:0 2px}
 
 /* ============ レスポンシブ ============ */
-/* タッチ端末：ホバーの貼り付き/カクつきを抑え、アフォーダンスを可視化 */
-@media(hover:none){
-  .chip:hover,.card:hover,.hero:hover,.month summary:hover,.arc-row:hover{transform:none}
-  .hero:hover .img img,.card:hover .img img{transform:none}
-  .arc-row .ext{opacity:.65}
+@media(hover:none){ article:hover h3{color:inherit} .art-nav .kbd{display:none} }
+@media(max-width:1000px){ .serials{grid-template-columns:repeat(3,1fr)} .serial:nth-child(4){border-left:none;padding-left:0} .serial{border-bottom:1px solid var(--hair)} }
+@media(max-width:820px){
+  .wrap{padding:0 16px}
+  .front{grid-template-columns:1fr}
+  .lead{padding-right:0;border-right:none;padding-bottom:14px;border-bottom:1px solid var(--rule)}
+  .side{padding-left:0}
+  .cols{grid-template-columns:1fr 1fr}
+  .cols article,.cols article:nth-of-type(n){padding:14px 0 16px 16px;border-left:1px solid var(--hair)}
+  .cols article:nth-of-type(2n+1){border-left:none;padding-left:0;padding-right:16px}
+  #page-view .layout{grid-template-columns:1fr;gap:10px}
+  #page-view .rail{border-left:none;padding-left:0;border-top:1px solid var(--rule);padding-top:10px}
 }
-
-/* タブレット〜大型phone */
-@media(max-width:760px){
-  header,.controls,.count-line,main{padding-left:16px;padding-right:16px}
-  .hero{grid-template-columns:1fr}
-  .hero .img{min-height:200px}
-  .hero .body{padding:22px 20px}
-  .section-title{gap:10px}
-  .section-title .sub{display:none}
-  .searchbox{flex:1 1 100%;margin-left:0}
-  .modal .inner{padding:26px 22px 34px}
-  .arc-row .d{width:46px}
-}
-
-/* スマホ：最新号をサムネ左の横長リストに（一覧性確保） */
 @media(max-width:560px){
-  #latest-grid{display:block}
-  .day-head{border-top:none;padding-top:14px}
-  .hero,.card{
-    display:flex;flex-direction:row;align-items:center;gap:12px;
-    border:none;border-bottom:1px solid var(--rule);box-shadow:none;margin:0;
-    padding:12px 4px;animation:none;
-  }
-  .hero{border-left:3px solid var(--vermilion);padding-left:9px}
-  .hero .img,.card .img{flex:none;width:92px;height:92px;min-height:0;border-radius:5px;overflow:hidden}
-  .hero .body,.card .body{padding:0;gap:5px;justify-content:center;min-width:0}
-  .hero .headline,.card .headline{
-    font-size:15px;line-height:1.5;
-    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
-  }
-  .hero .summary,.card .summary{display:none}
-  .meta{font-size:11px}
-  .hero .img .ribbon{top:0;left:0;font-size:9px;padding:2px 5px;letter-spacing:.08em;box-shadow:none}
-}
-
-/* 小型phone：コントロールバー横スクロール・タップ拡大・余白調整 */
-@media(max-width:480px){
-  header{padding-top:22px}
-  .hanko{width:46px;height:46px;font-size:17px}
-  .brand h1 small{letter-spacing:.18em}
-  .issue{text-align:left;flex-basis:100%}
-  .controls{padding:12px 14px 6px;gap:8px}
-  .chips{flex:1 1 100%;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
-  .chips::-webkit-scrollbar{display:none}
-  .chip{flex:none;padding:9px 15px;font-size:13.5px}
-  .searchbox{flex:1 1 100%;margin-left:0;padding:8px 16px}
-  .m-close{width:40px;height:40px;font-size:17px}
-  .month summary{padding:14px 16px}
-  .arc-row{padding:11px 16px}
-  .modal-bg{padding:3vh 10px}
-  .modal .inner{padding:24px 18px 32px}
-  .modal .headline{font-size:20px}
+  .np-top span:last-child{display:none}
+  .folio{flex-wrap:wrap;font-size:11.5px}
+  .folio span{padding:0 9px}
+  .bar .wrap{flex-wrap:wrap;gap:6px}
+  #filters{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;flex:1 1 100%}
+  #filters::-webkit-scrollbar{display:none}
+  #filters span{flex:none;padding:6px 13px}
+  .search{flex:1 1 100%;margin:0;padding:6px 0}
+  .lead .pts{columns:1}
+  .serials{grid-template-columns:1fr 1fr}
+  .serial,.serial:nth-child(n){border-left:1px solid var(--hair);padding:12px 0 12px 12px}
+  .serial:nth-child(2n+1){border-left:none;padding-left:0;padding-right:12px}
+  .serial .ln{-webkit-line-clamp:3}
+  .cols{grid-template-columns:1fr}
+  .cols article,.cols article:nth-of-type(n){border-left:none;padding:14px 0}
+  .cols .thumb{width:88px;height:66px}
+  .arc-list{columns:1}
+  .art-h{font-size:23px}
+  .art-body p{font-size:14.5px}
 }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="masthead">
-    <div class="brand">
-      <div class="hanko">AI<br>新聞</div>
-      <h1>AI CatchUP Daily<small>人工知能業界日報　— AI NEWS MAGAZINE —</small></h1>
-    </div>
-    <div class="issue">
-      <strong id="issue-date"></strong>
-      <span id="issue-no"></span>
-      <a class="map-link" href="threads.html">⇢ AI業界ストーリー</a>
-    </div>
-  </div>
+<header class="wrap nameplate">
+  <div class="np-top"><span>人工知能業界日報</span><span>毎朝更新・出典つき</span></div>
+  <a class="np-title" href="./">AI CatchUP Daily</a>
+  <div class="folio" id="folio"></div>
 </header>
 
-<div class="controls">
-  <div class="chips" id="chips">
-    <span class="chip on" data-cat="">すべて</span>
-    <span class="chip" data-cat="新モデル">新モデル</span>
-    <span class="chip" data-cat="資金調達">資金調達</span>
-    <span class="chip" data-cat="規制">規制</span>
-    <span class="chip" data-cat="研究">研究</span>
-    <span class="chip" data-cat="ツール">ツール</span>
-    <span class="chip" data-cat="半導体">半導体</span>
-    <span class="chip" data-cat="その他">その他</span>
-    <span class="chip star" id="star-chip">★★★のみ</span>
-  </div>
-  <label class="searchbox">
-    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-    <input type="text" id="search" placeholder="キーワード検索（スペースでAND）…">
-  </label>
-</div>
-<div class="count-line" id="count-line"></div>
+<div class="bar"><div class="wrap">
+  <div id="filters"><span class="on" data-cat="">総合</span><span data-cat="新モデル">新モデル</span><span data-cat="資金調達">資金調達</span><span data-cat="規制">規制</span><span data-cat="研究">研究</span><span data-cat="ツール">ツール</span><span data-cat="半導体">半導体</span><span data-cat="その他">その他</span><span data-star>重要記事</span></div>
+  <label class="search"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" opacity=".55"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input id="search" type="text" placeholder="紙面を検索（スペースでAND）"></label>
+</div></div>
 
-<main>
+<main class="wrap" id="paper">
+  <div id="front"></div>
   <section id="threads-section">
-    <div class="section-title">
-      <h2>業界ストーリー</h2>
-      <div class="bar"></div>
-      <span class="sub">6本の物語で業界を追う ─ クリックで現在地・相関図へ</span>
-    </div>
-    <div class="threads-box" id="threads-box"></div>
+    <div class="sec"><h2>連載　業界ストーリー</h2><small>6本の物語で業界を追う</small><a class="go" href="threads.html">現在地と相関図 →</a></div>
+    <div class="serials" id="serials"></div>
   </section>
-
-  <section id="latest-section">
-    <div class="section-title">
-      <h2>最近の記事</h2>
-      <div class="bar"></div>
-      <span class="sub" id="latest-sub"></span>
-    </div>
-    <div class="grid" id="latest-grid"></div>
-  </section>
-
-  <section id="archive-section">
-    <div class="section-title">
-      <h2>アーカイブ</h2>
-      <div class="bar"></div>
-      <span class="sub">全記事一覧 ─ クリックで詳細を表示</span>
-    </div>
+  <div id="days"></div>
+  <section>
+    <div class="sec"><h2>索引</h2><small id="arc-sub"></small></div>
     <div id="archive-slot"></div>
   </section>
 </main>
+<section id="page-view" class="wrap" hidden></section>
 
-<footer>
-  <span>AI CatchUP Daily — ai-news スキルにより自動生成</span>
-  <span>AIニュースを毎日自動収集してお届け</span>
-</footer>
-
-<div class="modal-bg" id="modal-bg">
-  <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
-</div>
+<footer><div class="wrap"><span>AI CatchUP Daily</span><span>各記事の出典は記事ページの元記事リンクから　<a href="threads.html">業界ストーリー</a></span></div></footer>
 
 <script src="ai_news_data.js"></script>
 <script src="threads_data.js"></script>
 <script>
+const SITE_TITLE = document.title;
 const CAT_COLOR = {"新モデル":"var(--c-model)","資金調達":"var(--c-fund)","規制":"var(--c-reg)","研究":"var(--c-res)","ツール":"var(--c-tool)","半導体":"var(--c-semi)","その他":"var(--c-etc)"};
-const CAT_KANJI = {"新モデル":"新","資金調達":"資","規制":"規","研究":"研","ツール":"具","その他":"報"};
-const DATA = (window.NEWS_DATA || []).slice().sort((a,b)=> (b.date||b.d||"").localeCompare(a.date||a.d||""));
+const DATA = (window.NEWS_DATA || []).slice().sort((a,b)=> (b.date||"").localeCompare(a.date||""));
 const ARCHIVE = (window.NEWS_ARCHIVE || []).slice().sort((a,b)=> (b.date||b.d||"").localeCompare(a.date||a.d||""));
 
 /* ---------- 検索用正規化・事前索引 ---------- */
 // NFKC（全角英数→半角・半角カナ→全角カナ・全角スペース→半角）+ 小文字化 + ひらがな→カタカナ
 const norm = s => (s||"").normalize("NFKC").toLowerCase().replace(/[ぁ-ゔ]/g, c => String.fromCharCode(c.charCodeAt(0) + 0x60));
-// 検索対象: タイトル・カテゴリ・要約・ポイント・本文を連結して正規化（ロード時に1回だけ構築）
 const haystack = e => norm([e.title||e.t, e.category||e.c, e.summary, (e.points||[]).join(" "), e.content].filter(Boolean).join(" "));
 DATA.forEach(e => e.__hay = haystack(e));
 ARCHIVE.forEach(a => a.__hay = haystack(a));
 
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const stars = n => "★★★".slice(0, n) || "★";
 const jpDate = iso => { const [y,m,d] = iso.split("-"); return `${y}年${+m}月${+d}日`; };
+const mdDate = iso => { const [,m,d] = iso.split("-"); return `${+m}月${+d}日`; };
 const wd = iso => "日月火水木金土"[new Date(iso+"T00:00:00").getDay()];
+const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./,""); } catch { return ""; } };
+const src = e => hostOf(e.url);                           // 出典ドメイン
+const imgCredit = u => hostOf(u).replace(/^(images?|cdn|static|media|s)\./,"");
+const readMin = e => Math.max(1, Math.round(((e.content||"") + (e.summary||"")).length / 500));  // 約500字/分
+const catColor = c => CAT_COLOR[c] || "var(--c-etc)";
+const byImp = (a,b)=> b.importance - a.importance || b.date.localeCompare(a.date);
 
-let fCat = "", fStar = false, fQuery = [];  // fQuery: 正規化済みトークンの配列（スペース区切りAND）
-
-/* ---------- ヘッダー ---------- */
-const latestAdded = DATA.length ? DATA.reduce((m,e)=> e.added > m ? e.added : m, DATA[0].added) : null;
-// サムネ付きで大きく見せる「最近の記事」= 直近 RECENT_DAYS 日分（追記日ベース）
-const RECENT_DAYS = 4;
-const recentAdded = new Set([...new Set(DATA.map(e => e.added))].sort().reverse().slice(0, RECENT_DAYS));
-document.getElementById("issue-date").textContent = latestAdded ? `${jpDate(latestAdded)}（${wd(latestAdded)}）号` : "";
-document.getElementById("issue-no").textContent = `収録 ${DATA.length + ARCHIVE.length} 記事`;
-
-/* ---------- 描画部品 ---------- */
-function imgHtml(e, cls){
-  const klass = cls ? `img ${cls}` : "img";
-  const ph = `<div class="ph" style="background:linear-gradient(135deg, ${CAT_COLOR[e.category]||"var(--c-etc)"}, #2b2823)"><span>${esc(e.category||"ニュース")}</span></div>`;
-  if(!e.image) return `<div class="${klass}">${ph}</div>`;
-  return `<div class="${klass}"><img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.outerHTML='${ph.replace(/'/g,"&#39;").replace(/"/g,"&quot;")}'"></div>`;
-}
-function metaHtml(e){
-  return `<div class="meta">
-    <span class="tag" style="background:${CAT_COLOR[e.category]||"var(--c-etc)"}">${esc(e.category)}</span>
-    <span class="stars">${stars(e.importance)}</span>
-    <span class="date-label">${jpDate(e.date)}</span>
-    ${threadChips(e)}
-  </div>`;
-}
-const THREADS_BY_ID = {};
-(window.THREADS?.threads || []).forEach(t => THREADS_BY_ID[t.id] = t);
+const THREADS = (window.THREADS && window.THREADS.threads) || [];
+const THREADS_BY_ID = {}; THREADS.forEach(t => THREADS_BY_ID[t.id] = t);
 function threadChips(e){
   return (e.threads||[]).map(id => {
     const t = THREADS_BY_ID[id];
     return t ? `<a class="thchip" style="--tc:${t.color}" href="threads.html#${id}" onclick="event.stopPropagation()">${esc(t.title)}</a>` : "";
   }).join("");
 }
+
+let fCat = "", fStar = false, fQuery = [];  // fQuery: 正規化済みトークンの配列（スペース区切りAND）
 function matches(hay, cat, imp){
   if(fCat && cat !== fCat) return false;
   if(fStar && imp !== 3) return false;
@@ -522,195 +298,275 @@ function matches(hay, cat, imp){
   return true;
 }
 
-/* ---------- 最近の記事（直近数日分・追記日ごと・サムネ付き） ---------- */
-function render(){
-  const latest = DATA.filter(e => recentAdded.has(e.added) && matches(e.__hay, e.category, e.importance));
-  const grid = document.getElementById("latest-grid");
+const latestAdded = DATA.length ? DATA.reduce((m,e)=> e.added > m ? e.added : m, DATA[0].added) : null;
+// 写真つきで大きく見せる範囲 = 直近 RECENT_DAYS 日分（追記日ベース）
+const RECENT_DAYS = 4;
+const recentAdded = new Set([...new Set(DATA.map(e => e.added))].sort().reverse().slice(0, RECENT_DAYS));
 
-  // 追記日ごとにグループ化（新しい日が先）
-  const byAdded = {};
-  latest.forEach(e => { (byAdded[e.added] = byAdded[e.added] || []).push(e); });
-  const days = Object.keys(byAdded).sort().reverse();
+/* ---------- 描画部品 ---------- */
+function imgHtml(e, cls = ""){
+  const ph = `<div class="ph" style="--cc:${catColor(e.category)}"><span>${esc(e.category||"ニュース")}</span></div>`;
+  const k = `img ${cls}`.trim();
+  if(!e.image) return `<div class="${k}">${ph}</div>`;
+  return `<div class="${k}"><img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.outerHTML='${ph.replace(/'/g,"&#39;").replace(/"/g,"&quot;")}'"></div>`;
+}
+const kicker = e => `<div class="kicker"><span class="cat" style="--cc:${catColor(e.category)}">${esc(e.category)}</span>${e.importance===3?'<span class="imp">重要</span>':""}<span>${mdDate(e.date)}</span><span>${esc(src(e))}</span>${threadChips(e)}</div>`;
 
-  // 全体のヒーロー＝最新追記日の最重要1本
-  const heroId = days.length
-    ? byAdded[days[0]].slice().sort((a,b)=> b.importance - a.importance || b.date.localeCompare(a.date))[0].id
-    : null;
+// スレッドごとの週次記事数（直近 weeks 週、latestAdded を終点）
+function threadWeekly(id, weeks = 10){
+  const end = new Date(latestAdded + "T00:00:00").getTime();
+  const counts = Array(weeks).fill(0);
+  [...DATA, ...ARCHIVE].forEach(e => {
+    if(!(e.threads||[]).includes(id)) return;
+    const w = Math.floor((end - new Date((e.date||e.d)+"T00:00:00").getTime()) / 864e5 / 7);
+    if(w >= 0 && w < weeks) counts[weeks - 1 - w]++;
+  });
+  return counts;
+}
+function sparkSvg(counts, color, w = 64, h = 20){
+  const max = Math.max(1, ...counts), bw = w / counts.length;
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">` +
+    counts.map((c,i) => { const bh = Math.max(1.5, c / max * (h - 2));
+      return `<rect x="${(i*bw+1).toFixed(1)}" y="${(h-bh).toFixed(1)}" width="${(bw-2).toFixed(1)}" height="${bh.toFixed(1)}" rx="1" fill="${color}" opacity="${i===counts.length-1?1:.45}"/>`; }).join("") + `</svg>`;
+}
 
-  document.getElementById("latest-sub").textContent = latest.length ? `直近${recentAdded.size}日分・${latest.length}本` : "";
+/* ---------- 題字下の号数 ---------- */
+(function renderFolio(){
+  if(!latestAdded) return;
+  const issueNo = new Set(DATA.map(e => e.added)).size;
+  const todayN = DATA.filter(e => e.added === latestAdded).length;
+  document.getElementById("folio").innerHTML = `<span>${jpDate(latestAdded)}　${wd(latestAdded)}曜日</span><span>第${issueNo}号</span><span>本日 ${todayN}本</span><span>収録 ${DATA.length + ARCHIVE.length}本</span>`;
+  document.getElementById("arc-sub").textContent = `全${DATA.length + ARCHIVE.length}本・月別`;
+})();
 
-  grid.innerHTML = days.map(day => {
-    const items = byAdded[day].slice().sort((a,b)=> b.importance - a.importance || b.date.localeCompare(a.date));
-    const cards = items.map(e => e.id === heroId ? heroHtml(e) : cardHtml(e)).join("");
-    return `<div class="day-head"><span class="day-label">${jpDate(day)}（${wd(day)}）</span><span class="day-count">${items.length}本</span></div>${cards}`;
+/* ---------- 連載（業界ストーリー） ---------- */
+(function renderSerials(){
+  if(!THREADS.length){ document.getElementById("threads-section").style.display = "none"; return; }
+  document.getElementById("serials").innerHTML = THREADS.map((t,i) => {
+    const w = threadWeekly(t.id), last4 = w.slice(-4).reduce((a,b)=>a+b,0);
+    return `<a class="serial" href="threads.html#${t.id}" style="--tc:${t.color}">
+      <span class="no">${String(i+1).padStart(2,"0")}</span>
+      <span class="nm">${esc(t.title)}</span>
+      <span class="ln">${esc(t.week || (t.status && t.status[0]) || "")}</span>
+      <span class="ft"><span>4週 ${last4}本<br>${mdDate(t.updated)}更新</span>${sparkSvg(w, t.color)}</span>
+    </a>`;
   }).join("");
+})();
 
-  // ヒーロー画像にリボンを挿入
-  const heroImg = grid.querySelector(".hero .img");
-  if(heroImg) heroImg.insertAdjacentHTML("afterbegin", '<span class="ribbon">本日の一面</span>');
-
-  document.getElementById("latest-section").style.display = latest.length ? "" : "none";
-  renderArchive();
-  updateCount(latest.length);
-}
-function cardHtml(e){
-  return `<article class="card" onclick="openModal('${e.id}')">
-    ${imgHtml(e)}
-    <div class="body">
-      ${metaHtml(e)}
-      <div class="headline">${esc(e.title)}</div>
-      <div class="summary">${esc(e.summary)}</div>
+/* ---------- 紙面（一面＋直近の日ごとの段組） ---------- */
+function renderPaper(){
+  const list = DATA.filter(e => recentAdded.has(e.added) && matches(e.__hay, e.category, e.importance));
+  const byAdded = {};
+  list.forEach(e => { (byAdded[e.added] = byAdded[e.added] || []).push(e); });
+  const days = Object.keys(byAdded).sort().reverse();
+  days.forEach(d => byAdded[d].sort(byImp));
+  const front = document.getElementById("front"), daysEl = document.getElementById("days");
+  if(!days.length){ front.innerHTML = '<div class="empty">直近の紙面に該当する記事はありません（索引を見てください）</div>'; daysEl.innerHTML = ""; return; }
+  // 一面 = 最新追記日の最重要1本
+  const hero = byAdded[days[0]][0], rest = byAdded[days[0]].slice(1);
+  front.innerHTML = `<div class="front">
+    <article class="lead" onclick="openArticle('${hero.id}')">
+      ${imgHtml(hero)}
+      <div style="margin-top:12px">${kicker(hero)}</div>
+      <h3>${esc(hero.title)}</h3>
+      <p class="sum">${esc(hero.summary)}</p>
+      <div class="pts">${(hero.points||[]).map((p,i)=>`<p><b>${"一二三四五"[i]||"・"}、</b>${esc(p)}</p>`).join("")}</div>
+    </article>
+    <div class="side">
+      <div class="side-h">${mdDate(days[0])}（${wd(days[0])}）のその他の記事</div>
+      ${rest.map(e => `<article class="${e.image?"":"noimg"}" onclick="openArticle('${e.id}')">
+        <div>${kicker(e)}<h3>${esc(e.title)}</h3><p class="sum">${esc(e.summary)}</p></div>
+        ${e.image ? imgHtml(e) : ""}
+      </article>`).join("")}
     </div>
-  </article>`;
-}
-function heroHtml(e){
-  return `<article class="hero" onclick="openModal('${e.id}')">
-    ${imgHtml(e)}
-    <div class="body">
-      ${metaHtml(e)}
-      <div class="headline">${esc(e.title)}</div>
-      <div class="summary">${esc(e.summary)}</div>
-    </div>
-  </article>`;
+  </div>`;
+  daysEl.innerHTML = days.slice(1).map(day => `
+    <section class="day">
+      <div class="sec"><h2>${mdDate(day)}（${wd(day)}）</h2><small>${byAdded[day].length}本</small></div>
+      <div class="cols">${byAdded[day].map(e => `<article class="i${e.importance}" onclick="openArticle('${e.id}')">
+        ${!e.image ? "" : e.importance===3 ? imgHtml(e) : imgHtml(e, "thumb")}
+        ${kicker(e)}<h3>${esc(e.title)}</h3><p class="sum">${esc(e.summary)}</p>
+      </article>`).join("")}</div>
+    </section>`).join("");
 }
 
-/* ---------- アーカイブ ---------- */
+/* ---------- 索引（アーカイブ） ---------- */
 function renderArchive(){
-  // リッチ記事もアーカイブ一覧に含める（一覧性確保・モーダルで開く）
+  // 特集記事も索引に含める（一覧性確保・記事ページで開く）
   const rows = [
     ...DATA.map(e => ({t:e.title, d:e.date, c:e.category, imp:e.importance, rich:true, id:e.id, hay:e.__hay})),
     ...ARCHIVE.map(a => ({t:a.title||a.t, d:a.date||a.d, c:a.category||a.c, imp:a.importance||0, rich:!!a.content, id:a.id||a.n, hay:a.__hay}))
-  ].filter(r => matches(r.hay, r.c, r.imp || (fStar ? -1 : 0)))
-   .sort((a,b)=> b.d.localeCompare(a.d));
-
+  ].filter(r => matches(r.hay, r.c, r.imp || (fStar ? -1 : 0))).sort((a,b)=> b.d.localeCompare(a.d));
   const byMonth = {};
   rows.forEach(r => { const k = r.d.slice(0,7); (byMonth[k] = byMonth[k] || []).push(r); });
   const months = Object.keys(byMonth).sort().reverse();
-
+  const active = fCat || fStar || fQuery.length;
   document.getElementById("archive-slot").innerHTML = months.length ? months.map((m,i) => {
     const [y,mo] = m.split("-");
-    const list = byMonth[m].map(r => {
-      if(r.rich){
-        return `<a class="arc-row is-rich" href="javascript:openModal('${r.id}')">
-          <span class="d">${+r.d.slice(8,10)}日</span>
-          <span class="tag" style="background:${CAT_COLOR[r.c]||"var(--c-etc)"}">${esc(r.c)}</span>
-          <span class="t">${esc(r.t)}</span>
-          <span class="ext">記事 ↗</span>
-        </a>`;
-      }
-      return `<div class="arc-row is-plain">
+    const list = byMonth[m].map(r => `<${r.rich?`a href="?article=${encodeURIComponent(r.id)}" data-open="${esc(r.id)}"`:"div"} class="arc-row ${r.rich?"is-rich":"is-plain"}">
         <span class="d">${+r.d.slice(8,10)}日</span>
-        <span class="tag" style="background:${CAT_COLOR[r.c]||"var(--c-etc)"}">${esc(r.c)}</span>
+        <span class="cat" style="--cc:${catColor(r.c)}">${esc(r.c)}</span>
         <span class="t">${esc(r.t)}</span>
-        <span class="ext">—</span>
-      </div>`;
-    }).join("");
-    return `<details class="month" ${i===0?"open":""}>
-      <summary>
-        <span class="m-title">${y}年${+mo}月</span>
-        <span class="m-count">${byMonth[m].length}件</span>
-        <span class="tri">▶</span>
-      </summary>
-      <div class="arc-list">${list}</div>
-    </details>`;
+      </${r.rich?"a":"div"}>`).join("");
+    return `<details class="month" ${i===0 || active ? "open" : ""}>
+      <summary><span class="m-title">${y}年${+mo}月</span><span class="m-count">${byMonth[m].length}本</span><span class="tri"></span></summary>
+      <div class="arc-list">${list}</div></details>`;
   }).join("") : '<div class="empty">該当する記事がありません</div>';
 }
 
-function updateCount(richShown){
-  const total = DATA.length + ARCHIVE.length;
-  const active = fCat || fStar || fQuery.length;
-  document.getElementById("count-line").textContent = active
-    ? `絞り込み中 — 条件に一致する記事を表示しています（全${total}件中）`
-    : `全${total}件のニュースを収録（特集 ${DATA.length} 件・アーカイブ ${ARCHIVE.length} 件）`;
-}
+function renderAll(){ renderPaper(); renderArchive(); }
 
-/* ---------- モーダル ---------- */
+/* =====================================================================
+   記事ページ（B-020）: 記事を開くと紙面と入れ替わる。
+   - URL に ?article=<id> が付く（共有できる・ブラウザの「戻る」で紙面に戻る）
+   - 中身 = 写真＋出典 / 要点 / 本文 / 連載の中での位置 / 同じ分野の記事 / 前後の記事（← → キー）
+   ===================================================================== */
+const ALL = [...DATA, ...ARCHIVE].filter(e => e.id);
+const ORDER = DATA.slice().sort((a,b)=> b.date.localeCompare(a.date) || (b.added||"").localeCompare(a.added||""));
+const byId = id => DATA.find(x => x.id === id) || ARCHIVE.find(x => x.id === id);
+let current = null, savedScroll = 0;
+
+function storyBox(e){
+  const tid = (e.threads||[])[0], t = tid && THREADS_BY_ID[tid];
+  if(!t) return "";
+  const list = ALL.filter(x => (x.threads||[]).includes(tid)).sort((a,b)=> (a.date||"").localeCompare(b.date||""));
+  const i = list.findIndex(x => x.id === e.id);
+  const from = Math.max(0, i - 2), to = Math.min(list.length, i + 3);
+  const li = x => `<li class="${x.id===e.id?"now":""}" ${x.id===e.id?"":`data-open="${esc(x.id)}"`}><span class="d">${mdDate(x.date)}</span><span class="t">${esc(x.title)}</span></li>`;
+  return `<div class="art-story" style="--tc:${t.color}">
+    <div class="hd"><b>連載「${esc(t.title)}」</b><span>${list.length}本中 ${i+1}本目</span><a href="threads.html#${tid}">現在地 →</a></div>
+    <ol>${from>0?`<li class="more">… それ以前 ${from}本</li>`:""}${list.slice(from,to).map(li).join("")}${to<list.length?`<li class="more">… このあと ${list.length-to}本</li>`:""}</ol>
+  </div>`;
+}
+function related(e){
+  const tid = (e.threads||[])[0];
+  const inStory = new Set(tid ? ALL.filter(x => (x.threads||[]).includes(tid)).map(x=>x.id) : []);
+  const t0 = new Date(e.date).getTime();
+  // 同じ分野で、連載欄に出ていない記事を、日付が近い順に3本
+  const rel = DATA.filter(x => x.id !== e.id && x.category === e.category && !inStory.has(x.id))
+    .sort((a,b)=> Math.abs(new Date(a.date)-t0) - Math.abs(new Date(b.date)-t0)).slice(0,3);
+  if(!rel.length) return "";
+  return `<div class="art-rel"><h4>同じ分野（${esc(e.category)}）の近い時期の記事</h4>${rel.map(x => `
+    <div class="it" data-open="${esc(x.id)}"><div><div class="t">${esc(x.title)}</div><div class="k">${mdDate(x.date)}・${esc(src(x))}</div></div>${imgHtml(x)}</div>`).join("")}</div>`;
+}
+function prevNext(e){
+  const i = ORDER.findIndex(x => x.id === e.id);
+  if(i < 0) return "";
+  const newer = ORDER[i-1], older = ORDER[i+1];
+  return `<nav class="art-nav">
+    ${newer ? `<a data-open="${esc(newer.id)}"><small><span class="kbd">←</span> 新しい記事</small><span>${esc(newer.title)}</span></a>` : "<a></a>"}
+    ${older ? `<a data-open="${esc(older.id)}"><small>古い記事 <span class="kbd">→</span></small><span>${esc(older.title)}</span></a>` : "<a></a>"}
+  </nav>`;
+}
 function mdToHtml(md){
-  const lines = (md||"").split("\n");
   let html = "", inUl = false;
-  for(const raw of lines){
+  for(const raw of (md||"").split("\n")){
     const line = raw.trim();
     if(!line){ if(inUl){html+="</ul>";inUl=false;} continue; }
     if(line.startsWith("## ")){ if(inUl){html+="</ul>";inUl=false;} html += `<h3>${esc(line.slice(3))}</h3>`; }
-    else if(line.startsWith("- ") || line.startsWith("・")){
-      if(!inUl){html+="<ul>";inUl=true;}
-      html += `<li>${esc(line.replace(/^(-\s|・)/,""))}</li>`;
-    }
+    else if(line.startsWith("- ") || line.startsWith("・")){ if(!inUl){html+="<ul>";inUl=true;} html += `<li>${esc(line.replace(/^(-\s|・)/,""))}</li>`; }
     else { if(inUl){html+="</ul>";inUl=false;} html += `<p>${esc(line)}</p>`; }
   }
-  if(inUl) html += "</ul>";
-  return html;
+  return inUl ? html + "</ul>" : html;
 }
-function openModal(id){
-  const e = DATA.find(x => x.id === id) || ARCHIVE.find(x => x.id === id);
-  if(!e) return;
-  const m = document.getElementById("modal");
-  const bg = document.getElementById("modal-bg");
-  m.innerHTML = `
-    <button class="m-close" onclick="closeModal()" aria-label="閉じる">✕</button>
-    ${e.image ? `<div class="m-img"><img src="${esc(e.image)}" alt="" onerror="this.parentElement.style.display='none'"></div>` : ""}
-    <div class="inner">
-      ${metaHtml(e)}
-      <div class="headline">${esc(e.title)}</div>
-      <div class="lead">${esc(e.summary)}</div>
-      <div class="content">${e.content ? mdToHtml(e.content) : mdToHtml((e.points||[]).map(p=>"- "+p).join("\n"))}</div>
-      <div class="actions">
-        ${e.url ? `<a class="btn primary" href="${esc(e.url)}" target="_blank" rel="noopener">元記事を読む ↗</a>` : ""}
+function articleHtml(e){
+  const body = e.content ? mdToHtml(e.content) : (e.points||[]).length ? mdToHtml(e.points.map(p => "- " + p).join("\n")) : `<p>${esc(e.summary)}</p>`;
+  const photo = e.image ? `<figure class="art-photo"><img src="${esc(e.image)}" alt="" onerror="this.parentElement.remove()"><figcaption>写真: ${esc(imgCredit(e.image))}</figcaption></figure>` : "";
+  const pts = e.content && (e.points||[]).length ? `<div class="art-points"><b class="lbl">この記事の要点</b>${e.points.map((p,i)=>`<p><i>${"一二三四五六"[i]||"・"}</i>${esc(p)}</p>`).join("")}</div>` : "";
+  const day = e.added || e.date;
+  return `<div class="crumb"><a data-close>← 紙面に戻る</a><span>／</span><span>${mdDate(day)}（${wd(day)}）の紙面</span><span>／</span><span class="cat" style="--cc:${catColor(e.category)}">${esc(e.category)}</span></div>
+    <div class="layout">
+      <div class="art">
+        <div class="art-kicker"><span class="cat" style="--cc:${catColor(e.category)}">${esc(e.category)}</span>${e.importance===3?'<span class="imp">重要</span>':""}<span>${jpDate(e.date)}</span><span>${esc(src(e))}</span><span>${readMin(e)}分で読める</span></div>
+        <h2 class="art-h">${esc(e.title)}</h2>
+        <p class="art-lead">${esc(e.summary)}</p>
+        ${photo}${pts}
+        <div class="art-body">${body}</div>
+        <div class="art-actions">${e.url?`<a class="primary" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(src(e))} で元記事を読む ↗</a>`:""}<button data-copy>この記事のリンクをコピー</button></div>
+        ${prevNext(e)}
       </div>
+      <aside class="rail">${storyBox(e)}${related(e)}</aside>
     </div>`;
-  bg.scrollTop = 0;
-  m.scrollTop = 0;
-  bg.classList.add("show");
-  requestAnimationFrame(() => {
-    bg.scrollTop = 0;
-    m.scrollTop = 0;
-  });
-  document.body.style.overflow = "hidden";
 }
-function closeModal(){
-  document.getElementById("modal-bg").classList.remove("show");
-  document.body.style.overflow = "";
-}
-document.getElementById("modal-bg").addEventListener("click", e => { if(e.target.id === "modal-bg") closeModal(); });
-document.addEventListener("keydown", e => { if(e.key === "Escape") closeModal(); });
 
-/* ---------- フィルタ ---------- */
-document.getElementById("chips").addEventListener("click", e => {
-  const chip = e.target.closest(".chip");
-  if(!chip) return;
-  if(chip.id === "star-chip"){
-    fStar = !fStar;
-    chip.classList.toggle("on", fStar);
-  } else {
-    fCat = chip.dataset.cat;
-    document.querySelectorAll(".chip[data-cat]").forEach(c => c.classList.toggle("on", c === chip));
+function setUrl(id, push){
+  const q = new URLSearchParams(location.search);
+  id ? q.set("article", id) : q.delete("article");
+  const url = location.pathname + (q.toString() ? "?" + q : "") + location.hash;
+  if(url === location.pathname + location.search + location.hash) return;
+  push ? history.pushState({article: id || null}, "", url) : history.replaceState({article: id || null}, "", url);
+}
+function openArticle(id, opt = {}){
+  const e = byId(id);
+  if(!e) return;
+  if(!opt.fromPop) setUrl(id, new URLSearchParams(location.search).get("article") !== id);
+  const pv = document.getElementById("page-view"), paper = document.getElementById("paper");
+  if(!current) savedScroll = scrollY;
+  current = e;
+  pv.innerHTML = articleHtml(e);
+  paper.hidden = true; pv.hidden = false;
+  scrollTo(0, pv.getBoundingClientRect().top + scrollY - 50);
+  document.title = `${e.title} — AI CatchUP Daily`;
+}
+function closeArticle(opt = {}){
+  if(!current) return;
+  current = null;
+  document.getElementById("page-view").hidden = true;
+  document.getElementById("paper").hidden = false;
+  document.title = SITE_TITLE;
+  if(!opt.fromPop) setUrl(null, true);
+  if(!opt.keepScroll) scrollTo(0, savedScroll);
+}
+// threads.html など旧リンク互換
+const openModal = openArticle;
+
+document.addEventListener("click", ev => {
+  const o = ev.target.closest("[data-open]");
+  if(o && !ev.ctrlKey && !ev.metaKey && !ev.shiftKey){ ev.preventDefault(); openArticle(o.dataset.open); return; }
+  if(ev.target.closest("[data-close]")){ ev.preventDefault(); closeArticle(); return; }
+  const c = ev.target.closest("[data-copy]");
+  if(c){
+    const url = location.origin + location.pathname + "?article=" + encodeURIComponent(current ? current.id : "");
+    (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject()).then(() => c.textContent = "コピーしました", () => c.textContent = url);
   }
-  render();
+});
+document.addEventListener("keydown", ev => {
+  if(!current || /INPUT|TEXTAREA/.test(document.activeElement.tagName)) return;
+  if(ev.key === "Escape"){ closeArticle(); return; }
+  if(ev.key !== "ArrowLeft" && ev.key !== "ArrowRight") return;
+  const i = ORDER.findIndex(x => x.id === current.id);
+  const nx = i < 0 ? null : ORDER[ev.key === "ArrowLeft" ? i-1 : i+1];
+  if(nx) openArticle(nx.id);
+});
+addEventListener("popstate", () => {
+  const id = new URLSearchParams(location.search).get("article");
+  if(id) openArticle(id, {fromPop:true}); else closeArticle({fromPop:true});
+});
+
+/* ---------- フィルタ・検索（記事ページを開いていたら紙面に戻してから絞る） ---------- */
+document.getElementById("filters").addEventListener("click", e => {
+  const el = e.target.closest("[data-cat],[data-star]");
+  if(!el) return;
+  if(el.hasAttribute("data-star")){ fStar = !fStar; el.classList.toggle("on", fStar); }
+  else { fCat = el.dataset.cat; document.querySelectorAll("#filters [data-cat]").forEach(c => c.classList.toggle("on", c === el)); }
+  if(current) closeArticle({keepScroll:true});
+  renderAll();
 });
 let debounce;
 document.getElementById("search").addEventListener("input", e => {
   clearTimeout(debounce);
-  debounce = setTimeout(()=>{ fQuery = norm(e.target.value).split(/\s+/).filter(Boolean); render(); }, 180);
+  debounce = setTimeout(()=>{
+    fQuery = norm(e.target.value).split(/\s+/).filter(Boolean);
+    if(current) closeArticle({keepScroll:true});
+    renderAll();
+  }, 180);
 });
 
-/* ---------- 業界ストーリー（今週の動き） ---------- */
-(function renderThreadsBox(){
-  const ths = (window.THREADS && window.THREADS.threads) || [];
-  if(!ths.length){ document.getElementById("threads-section").style.display = "none"; return; }
-  document.getElementById("threads-box").innerHTML = ths.map(t => `
-    <a class="trow" href="threads.html#${t.id}">
-      <span class="tdot" style="background:${t.color}"></span>
-      <span class="tname">${esc(t.title)}</span>
-      <span class="tline">${esc(t.week || (t.status && t.status[0]) || "")}</span>
-      <span class="tgo">現在地 →</span>
-    </a>`).join("");
-})();
+renderAll();
 
-render();
-
-/* ---------- ディープリンク（threads.html のタイムラインから記事を開く） ---------- */
+/* ---------- ディープリンク（threads.html のタイムライン・共有リンクから記事を開く） ---------- */
 const __artId = new URLSearchParams(location.search).get("article");
-if(__artId) openModal(__artId);
+if(__artId) openArticle(__artId);
 </script>
 </body>
 </html>

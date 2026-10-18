@@ -6,76 +6,64 @@
 <title>AI業界ストーリー — AI CatchUP Daily</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700;900&family=BIZ+UDPGothic:wght@400;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#fbf8f2;
-  --ink:#1a1712;
-  --ink-soft:#473f35;
-  --ink-faint:#736a5d;
-  --vermilion:#cf3b25;
-  --rule:#d8d0c2;
-  --serif:"Shippori Mincho","Yu Mincho","Hiragino Mincho ProN",serif;
-  --sans:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+  --paper:#f5f2ea;
+  --ink:#141210;
+  --ink-soft:#3e3a33;
+  --ink-faint:#6f695e;
+  --vermilion:#b3321c;
+  --rule:#cfc7b8;
+  --line:#1d1a16;
+  --serif:"Noto Serif JP","Yu Mincho",serif;
+  --sans:"BIZ UDPGothic","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  --title:"Libre Caslon Display","Noto Serif JP",serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 body{
   font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.7;
-  background-image:
-    radial-gradient(circle at 15% 20%, rgba(207,59,37,.018), transparent 42%),
-    repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(29,26,22,.008) 4px);
 }
-header{max-width:1120px;margin:0 auto;padding:22px 24px 12px;border-bottom:2px solid var(--ink);
-  display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-.hanko{
-  width:46px;height:46px;flex:none;background:var(--vermilion);color:#fff;
-  font-family:var(--serif);font-weight:800;font-size:16px;line-height:1.15;
-  display:flex;align-items:center;justify-content:center;text-align:center;
-  border-radius:6px;box-shadow:2px 3px 0 rgba(29,26,22,.18);
-}
-header h1{font-family:var(--serif);font-weight:800;font-size:clamp(20px,3.4vw,27px);letter-spacing:.04em}
-header h1 small{display:block;font-size:10.5px;font-weight:600;color:var(--ink-soft);letter-spacing:.3em;margin-top:2px}
-.back{
-  margin-left:auto;font-size:13px;font-weight:700;color:var(--vermilion);
-  text-decoration:none;border:1px solid var(--rule);background:#fffdf9;
-  border-radius:999px;padding:6px 16px;white-space:nowrap;
-}
-.back:hover{border-color:var(--vermilion)}
+a{color:inherit}
+header{max-width:1120px;margin:0 auto;padding:18px 24px 10px;border-bottom:3px double var(--line);
+  display:flex;align-items:baseline;gap:6px 18px;flex-wrap:wrap}
+.np-title{font-family:var(--title);font-size:clamp(26px,3.6vw,34px);line-height:1;text-decoration:none;color:var(--ink)}
+header h1{font-family:var(--serif);font-weight:900;font-size:clamp(17px,2.4vw,21px);padding-left:18px;border-left:1px solid var(--rule)}
+header h1 small{font-size:12px;font-weight:400;color:var(--ink-faint);margin-left:10px}
+.back{margin-left:auto;font-size:13px;font-weight:700;color:var(--vermilion);text-decoration:none;white-space:nowrap}
+.back:hover{text-decoration:underline}
 .intro{max-width:1120px;margin:0 auto;padding:12px 24px 0;font-size:12.5px;color:var(--ink-faint);line-height:1.7}
 /* タブ */
-.tabs{max-width:1120px;margin:0 auto;padding:14px 24px 0;display:flex;gap:8px;flex-wrap:wrap}
+.tabs{max-width:1120px;margin:0 auto;padding:10px 24px 0;display:flex;gap:0;flex-wrap:wrap;border-bottom:1px solid var(--line)}
 .tab{
-  font-family:var(--sans);font-size:14px;font-weight:700;cursor:pointer;user-select:none;
-  padding:9px 18px;border:1px solid var(--rule);border-bottom:none;background:#f3efe6;color:var(--ink-faint);
-  border-radius:10px 10px 0 0;transition:all .15s ease;
+  font-family:var(--serif);font-size:13px;font-weight:700;cursor:pointer;user-select:none;
+  padding:9px 8px 8px;white-space:nowrap;color:var(--ink-faint);border-bottom:3px solid transparent;margin-bottom:-1px;
   display:flex;align-items:center;gap:7px;
 }
-.tab .dot{width:9px;height:9px;border-radius:50%;flex:none;opacity:.55}
-.tab.on{background:#fffdf9;color:var(--ink);border-color:var(--ink)}
+.tab .dot{width:8px;height:8px;border-radius:50%;flex:none;opacity:.55}
+.tab.on{color:var(--ink);border-bottom-color:var(--ink)}
 .tab.on .dot{opacity:1}
 .tab:hover:not(.on){color:var(--ink-soft)}
 main{max-width:1120px;margin:0 auto;padding:0 24px 60px}
-.view{display:none;border:1px solid var(--rule);border-radius:0 10px 10px 10px;background:#fffdf9;
-  padding:20px 20px 26px;position:relative}
+.view{display:none;padding:22px 0 26px;position:relative}
 .view.on{display:block}
 /* 現在地 */
-.now{border-left:4px solid;border-radius:0 10px 10px 0;background:#faf7f0;padding:16px 20px 14px;margin-bottom:20px}
-.now .q{font-size:12px;font-weight:700;letter-spacing:.12em;margin-bottom:8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.now .q .upd{font-weight:500;color:var(--ink-faint);letter-spacing:.04em;margin-left:auto}
-.now h2{font-family:var(--serif);font-size:19px;font-weight:800;margin-bottom:10px}
-.now p{font-size:13.5px;color:var(--ink-soft);line-height:1.85;margin-bottom:8px;padding-left:1.1em;text-indent:-1.1em}
-.now p::before{content:"◆";font-size:10px;margin-right:.45em;opacity:.7}
+.now{border-top:3px solid;padding:12px 0 6px;margin-bottom:20px}
+.now .q{font-size:12px;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.now .q .upd{font-weight:400;color:var(--ink-faint);margin-left:auto}
+.now h2{font-family:var(--serif);font-size:22px;font-weight:900;line-height:1.45;margin-bottom:12px}
+.now p{font-size:14.5px;color:var(--ink-soft);line-height:1.95;margin-bottom:10px;max-width:780px}
 /* セクション見出し */
 .sec{display:flex;align-items:baseline;gap:12px;margin:26px 0 12px}
-.sec h3{font-family:var(--serif);font-size:16px;font-weight:700;letter-spacing:.1em}
-.sec .bar{height:1px;background:var(--rule);flex:1}
+.sec h3{font-family:var(--serif);font-size:17px;font-weight:900}
+.sec .bar{height:1px;background:var(--line);flex:1}
 .sec .cnt{font-size:11.5px;color:var(--ink-faint);white-space:nowrap}
 /* 図 */
 .caption{font-size:12.5px;color:var(--ink-faint);margin:0 4px 10px;display:flex;gap:14px;flex-wrap:wrap}
 .caption b{color:var(--ink-soft)}
 .svgwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .svgwrap svg{display:block;min-width:820px;width:100%;height:auto}
-svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
+svg text{font-family:"BIZ UDPGothic","Yu Gothic",Meiryo,sans-serif}
 .nbox{cursor:pointer}
 .pedge{cursor:pointer;transition:all .12s ease}
 .pedge:hover{stroke-opacity:.95;stroke-width:4}
@@ -88,10 +76,10 @@ svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
 .svgwrap svg.flow{margin:0 auto}
 /* 図の下に出る関係一覧（何をクリックすべきか分からない問題への対処） */
 .rlist{margin:12px 4px 0;border-top:1px solid var(--rule);padding-top:10px}
-.rlist h4{font-size:12px;letter-spacing:.1em;color:var(--ink-faint);margin-bottom:6px;font-weight:700}
+.rlist h4{font-family:var(--serif);font-size:13px;color:var(--ink);margin-bottom:6px;font-weight:700}
 .ritem{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:6px;font-size:13px;
   text-decoration:none;color:inherit}
-.ritem:hover{background:#f3efe6}
+.ritem:hover{background:#ece7dc}
 .ritem .rchip{font-size:10px;font-weight:700;color:#fff;border-radius:999px;padding:1px 8px;white-space:nowrap;flex:none}
 .ritem .who{font-weight:700;white-space:nowrap}
 .ritem .amt{font-weight:700;color:var(--vermilion);white-space:nowrap}
@@ -100,8 +88,8 @@ svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
 .ritem .src{color:var(--vermilion);font-size:11px;white-space:nowrap;opacity:.75}
 /* 人材スレッド専用: 移籍リスト（B-018 2A） */
 .moves{margin:2px 0 4px}
-.mgroup{border:1px solid var(--rule);border-radius:10px;background:#fff;margin-bottom:10px;overflow:hidden}
-.mghead{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:9px 14px;background:#faf7f0;
+.mgroup{border:1px solid var(--rule);border-radius:3px;background:#fff;margin-bottom:10px;overflow:hidden}
+.mghead{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:9px 14px;background:#efeae0;
   border-bottom:1px solid var(--rule);font-size:13px;color:var(--ink-soft)}
 .mghead b{font-size:14px;color:var(--ink)}
 .corp{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:700;color:#fff;
@@ -119,10 +107,10 @@ svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
 .tl{border-left:2px solid var(--rule);margin:4px 0 0 7px;padding-left:0}
 .tl a{display:flex;gap:12px;align-items:baseline;padding:8px 6px 8px 18px;text-decoration:none;color:inherit;position:relative;
   border-radius:0 8px 8px 0;transition:background .12s}
-.tl a:hover{background:#f3efe6}
+.tl a:hover{background:#ece7dc}
 .tl a::before{content:"";position:absolute;left:-6px;top:15px;width:10px;height:10px;border-radius:50%;
   background:var(--paper);border:2.5px solid var(--tlc,#8a8377)}
-.tl .d{font-family:var(--serif);font-size:12px;color:var(--ink-soft);flex:none;width:82px;letter-spacing:.02em}
+.tl .d{font-family:var(--serif);font-size:12px;color:var(--ink-soft);flex:none;width:82px}
 .tl .stars{color:var(--vermilion);font-size:11px;letter-spacing:.1em;flex:none;width:38px}
 .tl .t{font-size:13.5px;line-height:1.65}
 .tl a.imp3 .t{font-weight:700}
@@ -132,13 +120,13 @@ svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
 #panel{
   position:fixed;top:84px;right:18px;z-index:30;width:350px;max-width:calc(100vw - 32px);
   max-height:calc(100vh - 110px);overflow-y:auto;
-  background:#fffdf9;border:1px solid var(--rule);border-radius:10px;
+  background:#fbf9f4;border:1px solid var(--rule);border-radius:3px;
   box-shadow:0 18px 40px -18px rgba(29,26,22,.4);
   padding:18px 20px;display:none;
 }
 #panel.show{display:block}
 #panel h2{font-family:var(--serif);font-size:17.5px;font-weight:800;margin-bottom:2px;padding-right:26px}
-#panel .gname{font-size:11.5px;color:var(--ink-faint);letter-spacing:.1em;margin-bottom:8px}
+#panel .gname{font-size:11.5px;color:var(--ink-faint);margin-bottom:8px}
 #panel .close{position:absolute;top:10px;right:12px;border:none;background:none;cursor:pointer;
   font-size:18px;color:var(--ink-faint);line-height:1;padding:4px}
 .rel{border-top:1px solid var(--rule);padding:10px 0}
@@ -148,12 +136,12 @@ svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
 .rel .dt{font-size:11px;color:var(--ink-faint);margin-left:auto;white-space:nowrap}
 .rel .desc{font-size:12.5px;line-height:1.65;color:var(--ink-soft)}
 .rel a{font-size:11.5px;color:var(--vermilion);text-decoration:none;border-bottom:1px dotted var(--vermilion)}
-.status{display:inline-flex;align-items:center;border:1px solid var(--rule);border-radius:999px;padding:1px 7px;font-size:10px;font-weight:700;color:var(--ink-soft);background:#faf7f0}
+.status{display:inline-flex;align-items:center;border:1px solid var(--rule);border-radius:999px;padding:1px 7px;font-size:10px;font-weight:700;color:var(--ink-soft);background:#efeae0}
 .hino{display:inline-block;width:13px;height:13px;border-radius:50%;background:#fff;position:relative;flex:none;border:1px solid rgba(0,0,0,.12)}
 .hino::after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--vermilion)}
 /* 半導体シェア（⑤に統合） */
-.sstage{margin:4px 0 20px;border:1px solid var(--rule);border-radius:12px;background:#fff;overflow:hidden}
-.sstage > h3{padding:9px 16px;color:#fff;font-family:var(--serif);font-size:15px;font-weight:700;letter-spacing:2.5px;background:#3d7a80}
+.sstage{margin:4px 0 20px;border:1px solid var(--rule);border-radius:3px;background:#fff;overflow:hidden}
+.sstage > h3{padding:9px 16px;color:#fff;font-family:var(--serif);font-size:15px;font-weight:700;background:#336c72}
 .sseg{padding:13px 18px 15px;border-top:1px solid var(--rule)}
 .sseg:first-of-type{border-top:none}
 .sseg .shead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
@@ -166,14 +154,14 @@ svg text{font-family:"Zen Kaku Gothic New","Yu Gothic",Meiryo,sans-serif}
 .slegend .li{display:inline-flex;align-items:center;gap:5px}
 .slegend i{width:10px;height:10px;border-radius:3px;display:inline-block;flex:none}
 .snote{font-size:11.5px;color:var(--ink-faint);line-height:1.65;margin-top:7px}
-.sstagenote{padding:10px 18px;font-size:11.5px;color:var(--ink-faint);line-height:1.6;border-top:1px solid var(--rule);background:#faf7f0}
+.sstagenote{padding:10px 18px;font-size:11.5px;color:var(--ink-faint);line-height:1.6;border-top:1px solid var(--rule);background:#efeae0}
 footer{max-width:1120px;margin:0 auto;padding:12px 24px 40px;
   font-size:11.5px;color:var(--ink-faint);display:flex;gap:14px;flex-wrap:wrap}
 @media (max-width:720px){
   header{padding:14px 14px 10px}
   .tabs,main,.intro{padding-left:12px;padding-right:12px}
   .tab{padding:8px 11px;font-size:12.5px}
-  #panel{top:auto;bottom:0;left:0;right:0;width:100%;max-width:100%;max-height:46vh;border-radius:14px 14px 0 0}
+  #panel{top:auto;bottom:0;left:0;right:0;width:100%;max-width:100%;max-height:46vh;border-radius:3px}
   .tl .d{width:68px}
   .tl .stars{display:none}
 }
@@ -182,9 +170,9 @@ footer{max-width:1120px;margin:0 auto;padding:12px 24px 40px;
 <body>
 
 <header>
-  <div class="hanko">物<br>語</div>
-  <h1>AI業界ストーリー<small>6本の物語で業界を追う</small></h1>
-  <a class="back" href="index.html">⇠ ニュースへ戻る</a>
+  <a class="np-title" href="index.html">AI CatchUP Daily</a>
+  <h1>連載　業界ストーリー<small>6本の物語で業界を追う</small></h1>
+  <a class="back" href="index.html">← 紙面へ戻る</a>
 </header>
 
 <div class="intro">業界のすべては追いません。いまAI業界を動かしている6本のストーリーを選び、その「現在地」を毎週更新します。各図はそのストーリーに関わる企業だけを描いたものです。</div>
