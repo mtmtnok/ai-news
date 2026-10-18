@@ -7,7 +7,8 @@
 // - content はテンプレートリテラル（バッククォート）で記述。本文に ` と ${ を含めないこと
 // - importance: 3=★★★ / 2=★★ / 1=★
 // - image: OGP画像URL（ai_news_ogimage.ps1 で取得、無ければ null）
-// - id は任意の一意な文字列（モーダル開閉のキーに使用）
+// - id は任意の一意な文字列（記事ページ index.html?article=<id> のキーに使用）
+// - 作業ブランチ claude/focused-fermi-* に push された場合も、GitHub Actions（merge-routine-branch.yml）が main に取り込む
 // =====================================================================
 window.NEWS_DATA = [
 // ⬇ NEW_ENTRIES_HERE ⬇（この行の直後に新しいエントリを追加）
