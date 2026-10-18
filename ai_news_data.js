@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "2026年度末(2027年3月末)までの契約締結、2028年の一部稼働を目標。初期は自家発電や燃料電池で電力を補う見通し"
   ],
   url: "https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 NTTデータが、米AnthropicのAIを動かす日本初の専用データセンターを大阪に建設する方向で最終調整に入ったと、日本経済新聞が2026年10月12日に報じた。受電容量は最大500MW、建設費は最大で約1兆円(約63億ドル)に達する見通しで、実現すれば電力規模で国内最大級のデータセンターになる。ロイターも10月13日、複数の関係者の話としてこの協議を伝えた。
 
@@ -106,7 +106,7 @@ Anthropicによると、METRの職員6人に会社支給のハードウェアと
     "桃園の労組は10月7日にスト権を確保。営業利益の15%配分を要求し、22日に調停再開"
   ],
   url: "https://www.taipeitimes.com/News/biz/archives/2026/10/16/2003866029",
-  image: null,
+  image: "https://img.taipeitimes.com/images/2026/10/16/P09-261016-314.jpg",
   content: `## 概要
 米メモリー大手Micron Technologyは2026年10月15日、台湾・台中にHBMのパッケージング(組立)とテストを担う2つ目の先端工場「AATT2」を開所した。開所式で同社幹部は、この工場の2027年分の生産能力がすでに顧客に完売していると明らかにした。式典には頼清徳総統も出席し、労使紛争を抱える同社と従業員に誠実な交渉を求めた。
 
@@ -146,7 +146,7 @@ HBMは2027年分まで売り切れの状態が続き、AIチップの供給を�
     "SK hynixは「米政府と緊密に協議し許可の範囲内」「増産は求めていない」と報道を否定"
   ],
   url: "https://techcrunch.com/2026/10/15/sk-hynix-bargains-for-chip-equipment-exports-to-its-china-facility-in-return-for-building-a-factory-in-us/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2021/12/gettyimages-1157261963-594x594-1.jpg?w=594",
   content: `## 概要
 韓国SK hynixが、米国での新たなNAND型フラッシュメモリー工場の建設を、中国・大連の工場への米国製製造装置の輸出許可と結び付けて米政府と交渉していると、ロイターが2026年10月14日に複数の関係者の話として報じた。SK hynixはこれを否定し、米政府の許可の範囲内で進めており、生産能力の拡大は求めていないと説明している。
 
@@ -185,7 +185,7 @@ AI需要でNANDを含むメモリー全体が逼迫する中、大連工場は�
     "Argonは社内のAI研究タスク試験で約半数しか解けず、AI主導のML研究開発によるリスクは「現時点で低い」と評価"
   ],
   url: "https://decrypt.co/381061/google-deepmind-ai-isnt-building-itself-writes-most-code",
-  image: null,
+  image: "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png",
   content: `## 概要
 Google DeepMindは2026年10月中旬、最新モデル「Gemini 4 Argon」の安全性・セキュリティ報告書の中で、AIが自らの研究開発(機械学習のR&D)を加速させているかを検証した初の包括的な社内評価を公表した。結論は「AIによるものも含め、機械学習の研究開発にエンドツーエンドでの有意な加速は見られない」というもので、AIの自己改善が加速しているとする業界の一部の警告とは異なる見方を示した。
 
@@ -222,7 +222,7 @@ AIが自らの開発を加速させる「再帰的自己改善」は、Anthropic
     "Proユーザー向けに段階的に提供。速度の数値やエージェント数の上限、利用枠の計算方法は未公表"
   ],
   url: "https://www.tokenpost.com/news/technology/33923",
-  image: null,
+  image: "https://mzwrodgsdjfdyvnraeya.supabase.co/storage/v1/object/public/article-media/articles/5c53a86410f87937336592d474afa50c7d12e0df6717da10854a1400c96a254d.webp",
   content: `## 概要
 OpenAIは2026年10月16日、ChatGPTの最上位モード「GPT-6 Pro」をアップデートし、1つのタスクを複数のエージェントが同時に分担して進める「並列エージェント」機能を追加した。あわせて応答の高速化と、プラグインやツールの使い方の改善も行った。ChatGPTのProユーザー向けに段階的に提供している。
 
@@ -259,7 +259,7 @@ OpenAIの公式アカウントによると、今回の更新は「応答の高�
     "Android・iOSで段階提供(最大15日)、当面は米国の英語ユーザーのみ。個人向けのGoogle AI Plus/Pro/Ultraも対象"
   ],
   url: "https://workspaceupdates.googleblog.com/2026/10/gmail-live-is-rolling-out-to-paid-Workspace-users.html",
-  image: null,
+  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_G6AIC-ZnJHAuF6IDKS_l-AQvFsad89BTrVRCeN_2Vuu6nx7wjzloFn2yiLe17WKDionJGPUuslu_f8hX1xIksr5nSQvKqz1wv37SqduvtnRektyT0huNfImSvZkECi20Mzc6rppRvaTx80CRCqqUY3ULOaifvF7zb6YO9w5RZ1b0cQfsqP6lWCjV23I/w1200-h630-p-k-no-nu/Gmail%20Live%20is%20rolling%20out%20to%20paid%20Workspace%20users%20-%207032.png",
   content: `## 概要
 Googleは2026年10月15日、Gmailのモバイルアプリで受信箱の内容について声で質問できる新機能「Gmail Live」を、有料のGoogle Workspace利用者向けに提供し始めた。最新のGeminiモデルを使った低遅延の音声検索で、回答には根拠となったメールへのリンクが付く。展開は段階的で、すべての対象ドメインで表示されるまで最大15日かかる。
 
@@ -2724,7 +2724,7 @@ AppleのAI関連の取引としては今年少なくとも4件目となる。取
     "1-9月累計は3.90兆台湾ドルで前年比41.1%増。米アナリストは2027年の設備投資予想を850億ドルに引き上げ"
   ],
   url: "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108373707-1791333068896-gettyimages-2296986094-logos.jpeg?v=1791333111&w=1920&h=1080",
   content: `## 概要
 台湾TSMCは2026年10月8日、9月の連結売上高が5118.6億台湾ドル(約160億ドル)だったと発表した。前年同月比で54.6%増と大幅な伸びを維持し、7-9月期の売上高は約1.49兆台湾ドルと四半期として過去最高を更新した。AIチップ向けの先端プロセス需要が成長をけん引している。
 
@@ -2764,7 +2764,7 @@ TSMCは翌週に7-9月期の決算発表を予定しており、10-12月期の�
     "5年物CDSは最大16.7bp上昇し約197.6bpと同社として過去最高。年初には250億ドルの初の投資適格債も発行済み"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 イーロン・マスク氏率いるSpaceXが、NVIDIA製のAIチップを購入するために約400億ドルの資金調達を模索していると、英フィナンシャル・タイムズ(FT)とBloombergが2026年10月6〜7日に報じた。資金は株式ではなく負債(借入)で賄う計画で、AI計算資源の確保競争が債券市場を巻き込む規模に達していることを示している。
 
@@ -2804,7 +2804,7 @@ OpenAI・Anthropic・Metaに続き、SpaceXAIも計算資源の確保を負債�
     "Metaの約20億ドル買収は中国当局の介入で破談、5月に分離完了。香港IPOも視野と報道"
   ],
   url: "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2278374931.jpg?w=1024",
   content: `## 概要
 自律型AIエージェント「Manus」を開発するButterfly Effectは2026年10月8日、5億ドルを超える資金調達を完了したと発表した。Metaによる約20億ドルの買収計画が中国政府の介入で取り消されて以来、初めての資金調達となる。9月に「評価額40億ドルで5億ドル調達へ」と報じられていた交渉が正式にまとまった形だ。
 
@@ -2841,7 +2841,7 @@ Manusの一件は、中国当局が自国のAI企業・人材の国外流出に�
     "OSWorld 2.1で72.4%(GPT-6 Lunaは48.9%)、Terminal-Bench 4.0で39.2%(同16.4%)と同社は発表"
   ],
   url: "https://siliconangle.com/2026/10/07/anthropic-releases-claude-haiku-5-5-small-model-and-halves-sonnet-5-5-cache-read-prices/",
-  image: null,
+  image: "https://images.siliconangle.com/blogs.dir/1/files/2026/10/haiku55.png",
   content: `## 概要
 Anthropicは2026年10月7日、小型モデル「Claude Haiku 5.5」を発表した。同社がこれまでに出した中で最も安く、最も速く、最も高性能な小型モデルと位置づけ、大量処理やエージェントの下請け役を主な用途に据える。あわせて中型モデル「Sonnet 5.5」のキャッシュ読み出し料金も半額に引き下げ、価格競争を一段と強めた。
 
@@ -2881,7 +2881,7 @@ WSJが「AIの価格戦争が過熱し、OpenAIがAnthropicとの差を詰めて
     "日販は「AI学習目的の購入とは認識していなかった」と説明。出版関係者からは「許せない」と批判の声"
   ],
   url: "https://www.nikkei.com/article/DGXZQOUC06BCW0W6A001C2000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3691901006102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=82d0a18e9718945c584976942564ebae",
   content: `## 概要
 出版取次大手の日販グループホールディングス(HD)の子会社が、米AI企業Anthropicに日本の書籍を大量に販売していたことが明らかになった。日本書籍出版協会(書協)の照会に対し、日販側が10月5日付で販売の事実を認める回答をした。書籍は裁断・スキャンされ、AIの学習に使われた可能性が指摘されており、出版界から強い反発が出ている。
 
@@ -2921,7 +2921,7 @@ WSJが「AIの価格戦争が過熱し、OpenAIがAnthropicとの差を詰めて
     "OpenAIは社内メモで提言に「強く同意する」としつつ、解雇は意見表明とは無関係と説明"
   ],
   url: "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
   content: `## 概要
 OpenAIを解雇された安全研究者3人が、同社の取締役会に宛てて書簡を送り、AIモデルが問題を解く過程を記録した「思考の連鎖(Chain of Thought、CoT)」を監視する能力を維持するよう求めたと、米ウォール・ストリート・ジャーナル(WSJ)が2026年10月7日に報じた。3人は独立した外部の安全監査人との協力も要請している。
 
@@ -2960,7 +2960,7 @@ CoTの監視可能性は、OpenAI・Anthropic・Google DeepMindの研究者が�
     "数学推論12ベンチマークで最高の平均性能。10ラウンドの自己進化で安定して向上し、最終ラウンドでR-Zeroを17.32ポイント上回る"
   ],
   url: "https://arxiv.org/abs/2610.04299",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 Hugging Face Papersで今週注目を集めた論文「Questioning the Questions: Sustaining Self-Evolution in Reasoning Models」(Jinyuan Li、Chengsong Huangら7人、2026年10月3日投稿)を紹介する。AIが自分で問題を作り、自分で解いて賢くなる「自己進化」型の学習は、人手のデータなしで推論力を伸ばせる手法として期待されているが、ラウンドを重ねると性能が頭打ち・劣化しやすいという弱点があった。本論文はその原因を突き止め、学習を長く持続させる手法「R-Quest」を提案した。
 
