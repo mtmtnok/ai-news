@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "Samsungは標準HBMや他社向けカスタム品では自社一貫生産を維持し、需要がTSMCの能力を超える場合は自社ファウンドリでの製造も検討"
   ],
   url: "https://www.business-standard.com/technology/tech-news/samsung-to-tap-tsmc-technology-for-nvidia-s-custom-memory-chips-report-126101800775_1.html",
-  image: null,
+  image: "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/18/thumb/fitandfill/1200X628/1792342379-0679.jpg",
   content: `## 概要
 韓国のソウル経済新聞は2026年10月18日、Samsung電子がNVIDIAの次世代カスタムHBM「NVHBM」に使うベースダイ(ロジックダイ)を、台湾TSMCの3nmプロセスで製造すると報じた。ロイターによれば、SamsungがHBMの製造段階でTSMCと協業するのはこれが初めてとなる。報道は業界関係者の話に基づくもので、各社は正式には認めていない。
 
@@ -64,7 +64,7 @@ HBMのベースダイがロジック化し、NVIDIAが仕様を握る流れが�
     "Nscaleは拠点開発を継続し代替電源を検討すると表明。他のMicrosoft契約には影響しないとし、NYSE上場準備は続ける"
   ],
   url: "https://ca.finance.yahoo.com/news/microsoft-pulls-uk-data-centre-095611920.html",
-  image: null,
+  image: "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
   content: `## 概要
 英テレグラフ紙は2026年10月18日、Microsoftが英国のAIクラウド企業Nscaleのエセックス州ロートンにあるAIデータセンターについて、アンカーテナント(主要入居者)としての契約を解消したと報じた。ロイターなども相次いで伝えた。同拠点は送電網への接続が2030年代までずれ込む可能性があると伝えられており、電力の確保がAIインフラ計画のボトルネックになっていることを示す事例となった。
 
@@ -100,7 +100,7 @@ AIデータセンターの制約はGPUの調達から「電力と系統接続」
     "1回の編集でWorkBuddy-Benchが11.5ポイント、HarveyのLABで11.8ポイント向上。論文はarXiv 2610.14224、コードはgithub.com/google-research/harness2"
   ],
   url: "https://arxiv.org/html/2610.14224v1",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Google Cloud AI Researchは、AIエージェントが自分を取り囲む「ハーネス」を再帰的に書き換えて改善していく枠組み「Harness²(Recursive Agent Harnessing for an Open World)」をオープンソースで公開した。モデルの重みには一切手を加えず、プロンプトやツール、記憶といった周辺設定だけを編集することで、未知のタスクへの適応力を高めるという。論文はarXiv(2610.14224)で公開され、10月中旬に各メディアが報じた。
 
@@ -138,7 +138,7 @@ Harness²はハーネスを8つの要素(システムプロンプト、ガード
     "自社のコーディング・エージェント評価ではClaude Opus 5やGPT 5.6-Solを上回ると主張(独立検証はまだ)。開発者向けにSearch・Fetch APIも開放"
   ],
   url: "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
-  image: null,
+  image: "https://the-decoder.com/wp-content/uploads/2026/06/deepseek_red_whale.png",
   content: `## 概要
 中国のAI企業DeepSeekは2026年10月17日、主力モデル「V4.1-Flash」の改良版「DeepSeek-V4.1-Flash-1017」を公開した。同社は「小規模な更新」と位置づけつつ、より速く、出力が短く、ベンチマーク性能も向上した「性能とコストのパレート改善」だと説明している。ブルームバーグが「OpenAIとAnthropicに挑む更新版」として報じた。
 
@@ -174,7 +174,7 @@ DeepSeekは大型の新世代モデルではなく、短い間隔の「中間更
     "被害者からは残高が急速に減り数百ドルの請求が発生したとの報告。各プロバイダーの管理画面でキーの再発行・無効化が推奨される"
   ],
   url: "https://the420.in/opencode-security-breach-api-keys-console-users/",
-  image: null,
+  image: "https://the420.in/wp-content/uploads/2026/10/opencode.jpg",
   content: `## 概要
 オープンソースのAIコーディングエージェント「OpenCode」は2026年10月17日、同社のConsoleを利用する顧客の1.4%について、保存されていた外部AIプロバイダーのAPIキーが不正に取得されたと公表した。X上の投稿と顧客向けメールで明らかにしたもので、同社はこれを「大規模な蒸留攻撃(distillation attack)」と説明している。
 
@@ -212,7 +212,7 @@ AIコーディングツールは複数のプロバイダーのAPIキーを預か
     "インタレーターCEOは「市場は非合理的」と反論し、受注残で債務を十分賄えると社内メモで説明"
   ],
   url: "https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4953576",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 GPUクラウド大手CoreWeaveの社債が10月第3週に急落し、AIインフラの建設を巨額の借入で賄うビジネスモデルに対する市場の不安が表面化した。ロイターは、この急落が「AIインフラの大規模な建設に投資家が資金を出し続ける意思があるかの試金石」になっていると報じた。
 
@@ -248,7 +248,7 @@ GPUクラウド大手CoreWeaveの社債が10月第3週に急落し、AIインフ
     "EverWindは系統関連費用を自ら負担すると約束。州野党NDPは住民協議がないまま州政府が支持したと批判"
   ],
   url: "https://money.usnews.com/investing/news/articles/2026-10-16/anthropic-signs-lease-for-first-canadian-data-center",
-  image: null,
+  image: "https://images.pexels.com/photos/8566470/pexels-photo-8566470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Anthropicは2026年10月16日、カナダ東部ノバスコシア州ポイントタッパーでEverWindが開発するデータセンターについて長期リース契約を結んだ。ロイターによると、Anthropicにとってカナダで初めてのデータセンター契約となる。同社のAI「Claude」を動かす計算基盤として使われる。
 
@@ -285,7 +285,7 @@ Anthropicは米国内の大型計算契約に加え、日本(NTTデータとの�
     "M5 Ultra搭載Mac Studio 2台で動作。アレクサンドル・ワン氏は「最強モデルは原則オープンにしない」と説明"
   ],
   url: "https://pytorch.org/blog/muse-spark-open/",
-  image: null,
+  image: "https://pytorch.org/wp-content/uploads/2026/10/muse-spark-open.jpeg",
   content: `## 概要
 Metaは2026年10月15日、推論モデル「Muse Spark」の重みを「Muse Spark Open」として公開した。総パラメータ数8160億、推論時に使うアクティブパラメータ約420億の混合エキスパート(MoE)モデルで、Hugging Faceなどからダウンロードできる。第三者評価機関Artificial Analysisは、米国製のオープンウェイトモデルとして最も高い評価を付けた。
 
