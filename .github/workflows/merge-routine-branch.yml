@@ -1,0 +1,80 @@
+name: Merge routine branch into main
+
+# 毎朝の定期実行（クラウドの routine）は、日によって main ではなく作業ブランチ claude/focused-fermi-* に push する
+# （2026-10-09・10-18 に発生し、その日の記事がサイトに出なかった）。
+# 作業ブランチへの push を拾って main に取り込み、画像の後追い補完も起動する。
+# 安全のため、データファイル（ai_news_data.js / threads_data.js / relations_data.js）以外の変更を含むブランチは取り込まない。
+
+on:
+  push:
+    branches: ['claude/focused-fermi-*']
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: '取り込む作業ブランチ名（例: claude/focused-fermi-abc123）'
+        required: true
+
+permissions:
+  contents: write
+  actions: write   # backfill-images.yml を workflow_dispatch で起動するため
+
+concurrency:
+  group: merge-routine-branch
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    env:
+      BR: ${{ github.event.inputs.branch || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 取り込む差分の確認
+        id: check
+        run: |
+          git fetch origin "$BR"
+          # 作業ブランチが main から分かれた後に変えたファイル
+          CHANGED=$(git diff --name-only "origin/main...origin/$BR")
+          if [ -z "$CHANGED" ]; then
+            echo "main に取り込む差分なし（同じ内容が main にも push 済み）"
+            echo "skip=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "変更ファイル:"; echo "$CHANGED"
+          OTHER=$(echo "$CHANGED" | grep -v -E '^(ai_news_data|threads_data|relations_data)\.js$' || true)
+          if [ -n "$OTHER" ]; then
+            echo "::error::データファイル以外の変更を含むため自動では取り込みません: $OTHER"
+            exit 1
+          fi
+
+      - name: main へ取り込み・検証
+        if: steps.check.outputs.skip != '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git merge --no-edit "origin/$BR" -m "定期実行の作業ブランチ $BR を main に取り込み（GitHub Actions）"
+          node --check ai_news_data.js
+          node --check threads_data.js
+          node --check relations_data.js
+          # 同じ記事が二重に入っていないか（main 側に同じ日の分が別コミットで入っていた場合）
+          DUP=$(grep -o 'id: "[^"]*"' ai_news_data.js | sort | uniq -d)
+          if [ -n "$DUP" ]; then
+            echo "::error::記事IDが重複するため取り込みを中止: $DUP"
+            exit 1
+          fi
+          git push origin main
+
+      - name: 画像の後追い補完を起動
+        if: steps.check.outputs.skip != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # GITHUB_TOKEN での push は他のワークフローを起動しないため、明示的に起動する
+        run: gh workflow run backfill-images.yml --ref main
