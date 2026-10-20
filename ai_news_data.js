@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "Bloombergが最初に報道しCNBC・Reutersが追随。数日内の締結もありうるが条件は変わる可能性、Anthropicはコメントせず"
   ],
   url: "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108365083-1789755531776-gettyimages-2266843677-NVIDIA_GTC.jpeg?v=1789755572&w=1920&h=1080",
   content: `## 概要
 Anthropicが、英国のAIネオクラウドNscaleと2件目となる数百億ドル規模の計算資源リース契約を協議していることが分かった。CNBCが関係者の話として10月20日に報じたもので、規模は約450億ドル。8月に結んだ初回契約と同じ米West Virginia州の拠点に、2棟目の460MW級データセンターを確保する内容とされる。
 
@@ -66,7 +66,7 @@ Nscaleにとっては絶好のタイミングでの朗報となる。同社は�
     "B300は対中輸出禁止、H200は個別審査のため、性能を抑えた規制適合品に需要が集中"
   ],
   url: "https://thenextweb.com/news/nvidia-rtx-pro-5500-china-orders-bytedance-alibaba-tencent",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/geforce-rtx-graphics-card-inside-pc.jpg",
   content: `## 概要
 中国のByteDance・Alibaba・Tencentの3社が、NVIDIAのワークステーション向けGPU「RTX PRO 5500」を合計300万枚以上発注したとロイターが10月20日に報じた。単価は約1万1400ドルで、総額は350億ドルを超える。米国の輸出規制に適合した製品に中国の需要が殺到しているが、NVIDIAは注文に応えきれない可能性があると顧客に伝えている。
 
@@ -106,7 +106,7 @@ IDCの調査ではNVIDIAの中国AIチップシェアは上半期に34%まで低
     "資金はAIチップを多数束ねる「Galaxy」サーバーの量産と海外展開に充てる"
   ],
   url: "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e",
-  image: null,
+  image: "https://cdn.sanity.io/images/jpb4ed5r/production/28e4c07c8accd02347954b425a41f599c7f3a087-2600x1857.jpg",
   content: `## 概要
 RISC-VベースのAIチップを手がける米Tenstorrentは10月19日、シリーズEで15億ドルを調達したと発表した。ポストマネー評価額は62億ドルで、2024年のシリーズD時点(約26億ドル)から倍以上に上がった。QualcommやIntelによる買収への関心が報じられていたが、同社は独立したまま成長する道を選んだ。
 
@@ -144,7 +144,7 @@ AMDによるTaalas買収など、AIチップ新興は大手に取り込まれる
     "共同創業者はAdept共同創業者のAugustus Odena氏と元Palantirの技術者2人。次はロボティクスへ"
   ],
   url: "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/107234139-1683045666002-gettyimages-1393983549-_dsc1598-denoiseai-standard.jpeg?v=1683122081&w=1920&h=1080",
   content: `## 概要
 OpenAIの元最高研究責任者ボブ・マクグルー氏が2025年に創業したAIスタートアップArdaが10月20日、ステルス状態を解いて正式に事業を公表した。評価額15億ドルでシリーズA 1億6000万ドルを調達し、累計調達額は約2.3億ドルに達した。AIで米国の製造業を高速化することを掲げ、防衛テック企業Andurilと1年にわたり共同開発してきた。
 
@@ -183,7 +183,7 @@ OpenAIを去った幹部が次々と新会社を立ち上げ、高い評価額�
     "直近の評価額9650億ドルで換算すると約480億ドル相当。11月にも見込まれる上場を前にした発表"
   ],
   url: "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108353964-1787672944507-gettyimages-2280291162-ANTHROPIC_CIRCUIT.jpeg?v=1787672973&w=1920&h=1080",
   content: `## 概要
 Anthropicは10月18日、自社株式の5%を新たに設ける「公益基金(Public Benefit Fund)」に拠出すると発表した。株主の承認を条件とし、AIによる雇用の混乱への対応などに資金を充てる。11月にも見込まれる大型上場を前に、利益の一部を社会に還元する仕組みを制度として固める狙いがある。
 
@@ -221,7 +221,7 @@ AI企業のトップは雇用への影響を繰り返し警告してきたが、
     "Anthropicの新モデルは推論と直観が強化され、目標が曖昧でも利用者の意図を推測できるという"
   ],
   url: "https://www.androidheadlines.com/2026/10/openai-anthropic-google-new-ai-models.html",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米テックメディアThe Informationは10月19日、Google・OpenAI・Anthropicの3社がそれぞれ新しいAIモデルの投入を準備していると報じた。Googleは開発コード名「Gemini 4 Carbon」、OpenAIは中位ラインの新しい「Terra」モデル、Anthropicは利用者の意図をより深く理解する新モデルを開発しているという。いずれの企業も公式には発表していない。
 
@@ -258,7 +258,7 @@ Anthropicについては11月の上場を控え、新モデルの発表時期が
     "買収額は不明、初期段階で破談の可能性も。両社とも公式発表なし"
   ],
   url: "https://letsdatascience.com/news/openai-explores-trail-of-bits-acquisition-a87e7f9e",
-  image: null,
+  image: "https://letsdatascience.com/lds_news_fallback_image.webp?v=772410e10b1d",
   content: `## 概要
 OpenAIが、米セキュリティ企業Trail of Bitsの買収に向けて初期段階の協議を進めていると、The Informationが10月13〜14日に報じた。Trail of Bitsはオープンソースソフトウェアの脆弱性を見つけて修正する専門企業で、OpenAIとはすでに共同プロジェクトを手がけている。買収額は明らかになっておらず、協議はまだ破談になる可能性がある。
 
@@ -295,7 +295,7 @@ AIモデルの能力向上で、脆弱性の発見は攻撃と防御の両面で
     "ソフトバンクは「AITRAS」として商用化を推進。エリクソンや富士通ともAI-RANの実証を進める"
   ],
   url: "https://ai.watch.impress.co.jp/docs/news/2149653.html",
-  image: null,
+  image: "https://ai.watch.impress.co.jp/img/aiw/list/2149/653/0.jpg",
   content: `## 概要
 ソフトバンクとノキアは10月20日、2027年にソフトバンクの商用ネットワーク環境でAI-RANのフィールドトライアルを実施すると発表した。AI-RANは携帯電話の無線アクセスネットワーク(RAN)とAI処理を同じ計算基盤に載せる技術で、ソフトバンクが国内通信事業者の中でも特に力を入れている分野だ。
 
@@ -331,7 +331,7 @@ AI-RANは、基地局周辺に置いたGPUサーバーで、無線信号の処�
     "CPUで動作し、コードはMITライセンスでGitHubに公開"
   ],
   url: "https://www.unite.ai/microsoft-research-publishes-ai-weather-forecasting-study-in-nature/",
-  image: null,
+  image: "https://www.unite.ai/wp-content/uploads/2026/10/microsoft-research-ai-weather-forecasting-study-nature.jpg",
   content: `## 概要
 Microsoft Researchが主導する研究チームは10月14日、2〜6週間先の天気を予測する「季節内予報」の精度を高める手法「確率的バイアス補正(PBC: Probabilistic Bias Correction)」を科学誌Natureに発表した。既存の予報システムに後から組み合わせて使える手法で、コードはオープンソースとして公開されている。
 
