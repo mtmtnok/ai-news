@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "インフラの将来支払い約束は6000億ドル超と報道(一部見出しは最大7500億ドル)。Anthropicはコメントを控えた"
   ],
   url: "https://dealroom.co/news/164610-anthropics-draft-s-1-reveals-16-3b-revenue-80-7b-loss-and-up-to-750b-com/",
-  image: null,
+  image: "https://sg-imgs.dealroom.co/efb7a873235154760b5a46de0d7a6705.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin",
   content: `## 概要
 上場準備を進めるAnthropicの目論見書(S-1)草案の中身を、米Wall Street Journal(WSJ)が報じた。2026年上期(1〜6月)の売上高は163億ドルと前年同期の約15倍に伸びた一方、純損失は807億ドルに膨らんだ。ただし損失の約9割は資金調達に使った金融商品の評価替えによる会計上の費用で、現金の流出を伴うものではないとされる。
 
@@ -67,7 +67,7 @@ WSJが確認した草案によると、上期の売上高は163億ドルで、�
     "4月にMicrosoftとの独占的な販売契約が終了。AWSに続きGoogleでも販売し、3大クラウドすべてに展開。価格や契約条件は非公表"
   ],
   url: "https://finance.biggo.com/news/568466cd-5535-481a-927e-8f16fad8d4ba",
-  image: null,
+  image: "https://img.biggo.com/RPZFVW-zOQ984U7XhDo9WWt9Zlrn7N2sqoNCIs5OD4o/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTEwLzU2ODQ2NmNkLTU1MzUtNDgxYS05MjdlLThmMTZmYWQ4ZDRiYV8xNzkyNTg2MjkwX2RlZmF1bHQuanBn.jpg",
   content: `## 概要
 OpenAIは10月21日、最新モデル「GPT-6 Astra」やコーディングエージェント「Codex」を、Google Cloudのモデル提供基盤「Model Garden」で利用できるようにすると発表した。提供開始は今後数週間内の予定。Microsoft Azure、AWSに続き、主要3クラウドすべてでOpenAIのモデルが買えるようになる。
 
@@ -107,7 +107,7 @@ Googleにとっては、自社モデルの競合を自らの棚に並べるこ�
     "配当の仕組みや金額、法的な義務化の有無は不明。3月にはMicrosoft・Google・OpenAIなど7社が料金負担者保護の誓約に署名済み"
   ],
   url: "https://windowsreport.com/trump-calls-for-data-centers-to-pay-residents-dividends-and-generate-their-own-power/",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 トランプ米大統領は10月21日、SNSのTruth Socialで、新設される大型のAIデータセンターは自ら電力を生み出し、余った電力を地域社会や送電網に供給または販売すべきだと表明した。あわせて、データセンター事業者が地元の地域社会や住民に「配当」を支払うことも提案した。中間選挙を前に、AIインフラが電気代を押し上げているという有権者の不満に応える狙いとみられる。
 
@@ -147,7 +147,7 @@ Googleにとっては、自社モデルの競合を自らの棚に並べるこ�
     "米国製装置の導入には年次の米ライセンスが必要で、両社とも2026年分は取得済み。中国NAND市場ではYMTCがシェア38.5%で首位"
   ],
   url: "https://www.tweaktown.com/news/114204/samsung-and-sk-hynix-are-upgrading-chinese-nand-plants-as-local-rival-ymtc-closes-in/index.html",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 韓国のSamsung電子とSK hynixが、中国にあるメモリ工場をより先端のNAND型フラッシュメモリの生産に切り替えていることが分かった。ロイターが関係者4人の話として10月20〜21日に報じた。中国の長江存儲科技(YMTC)が国内市場で首位に立つなか、米国の輸出規制の枠内で技術水準を引き上げ、競争力を保つ狙いがある。
 
@@ -187,7 +187,7 @@ AI向けのデータセンターでは推論用のストレージ需要が急増
     "2030年度にかけて量産技術を開発し、年10万台、30年代に年100万台規模を目指すとされる"
   ],
   url: "https://group.ntt/jp/newsrelease/2026/10/20/261020a.html",
-  image: null,
+  image: "https://group.ntt/common/img/ogp.jpg?20250701",
   content: `## 概要
 NTTなど5者は10月20日、AIデータセンターの計算基盤を支える「光電融合デバイス」の量産技術開発を本格化すると発表した。新エネルギー・産業技術総合開発機構(NEDO)の公募事業に採択されたもので、光で信号をやり取りする「光チップレット」を搭載した半導体デバイスを大量に、安定して作れる製造技術の確立を目指す。
 
@@ -226,7 +226,7 @@ AIデータセンターではGPUの計算能力に比べ、チップ間・ラッ
     "細胞や動物での中和効果は未検証。211案の設計と結合データはすべて公開"
   ],
   url: "https://interestingengineering.com/ai-robotics/claude-scorpion-toxin-protein-binders",
-  image: null,
+  image: "https://cms.interestingengineering.com/wp-content/uploads/2026/10/Untitled-Design-1-5.jpg",
   content: `## 概要
 Anthropicは10月20日、同社の研究用Claudeモデルを使い、サソリの神経毒に結合する小型タンパク質を設計した研究成果を公表した。Claudeは複数のタンパク質設計ツールを自ら使いこなして大量の候補を作り出し、外部の実験施設での試験で17種類の結合タンパク質が確認された。同社は「抗毒素を作ったと主張するものではない」と強調している。
 
@@ -266,7 +266,7 @@ AIが研究ツールを自律的に使い、短時間で大量の設計を回し
     "保存容量は約66分の1、Nanoで推論約1.86倍高速と主張(自己申告値)。NanoはApache 2.0で公開"
   ],
   url: "https://huggingface.co/papers/2610.26825",
-  image: null,
+  image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26825/gradient.png",
   content: `## 概要
 中国のAI企業MemTensorは10月20日、記憶をモデルの内部に持たせた基盤モデル「MemT-1.0」の論文とモデルを公開した。長い会話や作業履歴をそのまま保持する代わりに、モデル内部の記憶領域に情報を蓄えることで、長文脈の処理を大幅に効率化できるとしている。論文はHugging Faceの日次論文ランキングで首位を獲得した。
 
@@ -305,7 +305,7 @@ QwenやDeepSeekといった中国製オープンウェイトモデルを土台�
     "EEA・スイス・英国・ナイジェリアは対象外。Google built-in搭載車には今後数カ月で展開"
   ],
   url: "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PersonalIntelligence_auto_hero.width-1300.png",
   content: `## 概要
 Googleは10月20日、AIアシスタントGeminiの個人向け機能「Personal Intelligence」をAndroid Autoで提供開始した。ユーザーのメールや予定、写真などの情報を参照し、運転中の音声での質問に一人ひとりに合わせて答える。Googleのシステムを組み込んだ車(Google built-in)にも今後数カ月で広げる。
 
