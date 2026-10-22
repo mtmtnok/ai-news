@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "米DHSはFASCSA法に基づき、DeepSeek製品と同社モデルを使った第三者製品を連邦の民生機関から排除する命令を公表。CITIC証券を起用し2027年の上海STAR市場上場を目指す"
   ],
   url: "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2025/01/deepseek-2.jpg?resize=1200,800",
   content: `## 概要
 中国のAI企業DeepSeekが約1000億元(約150億ドル)の資金調達をまとめたと、Bloombergを起点に複数のメディアが報じた。調達目標は交渉中に2度引き上げられ、中国のテック企業として史上最大級の資金調達となる。米国土安全保障省(DHS)が連邦政府の民生機関からDeepSeek製品を排除するよう命じたことが公になってから数日後の報道で、米中の「切り離し」と中国国内の資金集中が同時に進んでいる。
 
@@ -66,7 +66,7 @@ DHSの命令がDeepSeekのモデルを組み込んだ第三者製品まで対象
     "証券の売買や口座間の送金はしない。OpenAI「dots」やMeta「Muse」などの常駐型エージェントと競合"
   ],
   url: "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/10/Claude-Duet.jpg?resize=1200,675",
   content: `## 概要
 Anthropicは10月21日(米国時間)、Claudeが「先回りして動くエージェント」として働く新アプリ「Claude Duet」の研究プレビューを公開した。利用者が頼む前に注意が必要な事柄を知らせ、頼まれたタスクをこなし、利用者が離れている間も作業を続け、代わりに何かを実行する前には確認を取る、という設計だ。米国のProとMaxの契約者を対象に、待機リスト制で提供を始めた。
 
@@ -106,7 +106,7 @@ OpenAIの「dots」、Metaの「Muse」に続き、Anthropicも常駐型のエ�
     "「DSX POD」はVera RubinのAI工場一式をコンテナ内で組み立て・試験して出荷する参照設計。設置期間の短縮をうたうが、規模や価格は非公表"
   ],
   url: "https://www.techtimes.com/articles/329359/20261022/nvidia-commits-11-billion-chip-testing-targets-15x-optics-capacity-vera-rubin.htm",
-  image: null,
+  image: "https://d.techtimes.com/en/full/469462/nvidia.png",
   content: `## 概要
 NVIDIAは10月21日、ドイツ・ベルリンで開いた開発者会議「GTC Berlin」で、供給網のパートナーとともに世界の製造能力を広げる計画を発表した。AIチップの出荷の制約になりやすい「テスト」と「基板」に大きく投資する内容で、半導体テスト能力は2026年から2027年にかけて倍増する見通しだという。あわせて、AIデータセンターをコンテナ単位で届ける「DSX POD」も発表した。
 
@@ -184,7 +184,7 @@ MCPが「エージェントと外部ツールをつなぐ規格」だとすれ�
     "数値は著者自身の報告で、独立した再現は未確認。査読中"
   ],
   url: "https://arxiv.org/abs/2610.18784",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 今週の注目論文は、米カリフォルニア大学サンディエゴ校(UCSD)のYuchen Lu氏、Julian McAuley氏、Lei Zhang氏による「Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents」だ。何十、何百ものステップをこなすAIエージェントでは、これまでのやり取りが文脈に積み上がり、コストが膨らむうえに重要な情報が埋もれてしまう。論文はこの問題に対し、文脈を「履歴」ではなく「再利用できるタスクの部品」を中心に組み立てる仕組み「CarryOn」を提案した。Hugging Faceの日次論文ランキングで10月19日に1位となった。
 
@@ -224,7 +224,7 @@ Claude DuetやOpenAIのdotsのように、エージェントが長時間にわ�
     "KDDIは日立市のBRT路線などで自動運転と通信の実証を重ねてきた"
   ],
   url: "https://businessnetwork.jp/article/38027/",
-  image: null,
+  image: "https://businessnetwork.jp/wp-content/uploads/2026/10/1-32.jpg",
   content: `## 概要
 KDDIは10月22日、レベル4の自動運転で、1人の監視者が多数の車両を同時に見守る「1対N」型の遠隔監視を支援するAIエージェントを開発したと発表した。画像と言葉の両方を扱えるAI(VLM、視覚言語モデル)を使い、状況に応じて取るべき対応とその理由を監視画面に示す。運転手のいない自動運転バスなどを、少ない人手で安全に運用することを目指す。
 
