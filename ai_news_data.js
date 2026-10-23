@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "IPOは2027年を見込む。3月の1220億ドル調達(評価額8520億ドル)に続く大型調達で、投資家の「疲れ」を指摘する報道も"
   ],
   url: "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108369620-1790703036232-gettyimages-2297209357-20090101260929-99-803103.jpeg?v=1792535657&w=1920&h=1080",
   content: `## 概要
 OpenAIが評価額1.25兆ドル(払込前)で最大300億ドルを調達する資金調達ラウンドの最終段階にあると、米CNBCが10月22日、交渉に詳しい関係者の話として報じた。アラブ首長国連邦(UAE)の投資家と米投資会社Coatueが主導する。IPO(新規株式公開)までの「機会的なつなぎ資金(ブリッジラウンド)」と位置づけられ、月初に示していた1.4兆ドルから評価額を引き下げた点が注目されている。
 
@@ -108,7 +108,7 @@ Anthropicが不都合な記録を詳しく公表し、新モデルでの改善�
     "キオクシアHDは23日に一時1215円安の1万1380円。SK hynixはSolidigmのプレIPOとIPOの検討を中止、7-9月期のフリーキャッシュフローは上場来初の赤字"
   ],
   url: "https://en.sedaily.com/finance/2026/10/23/chip-shares-slide-as-ai-spending-fears-outweigh-solidigm",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/10/23/rcv.YNA.20261023.PYH2026102302720001300_P1.jpg",
   content: `## 概要
 AI関連の半導体株が大きく売られている。米フィラデルフィア半導体株指数(SOX)は2026年10月22日に6.72%下落し、NVIDIAは4.4%安、Micronは6.3%安となった。AIデータセンター建設を支える借入や費用への疑念が広がったためで、翌23日には日本のキオクシアホールディングスが一時9%超下げて半年ぶりの安値を付けた。韓国のSK hynixは同日、NAND子会社Solidigmの上場準備を中止すると発表した。
 
@@ -147,7 +147,7 @@ NVIDIAやメモリー各社の業績自体は好調でも、その需要を支�
     "二次報道では2250超のテナントに到達、標的化から特権取得まで3時間未満の例も。ConnectWiseは調査中としている"
   ],
   url: "https://whtc.com/2026/10/21/chinese-linked-hackers-compromise-connectwise-target-hundreds-in-global-attack-microsoft-says/",
-  image: null,
+  image: "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-10/21/2026-10-21T212008Z_1_LYNXMPEM9K21K_RTROPTP_3_CYBER-ATTACK.JPG",
   content: `## 概要
 Microsoftは2026年10月21日、同社がStorm-0940と名付けて追跡している中国系のハッカー集団が、AIを使って侵入作業を自動化するツールで米ITサービス企業ConnectWiseを侵害し、世界の数百の組織を狙う攻撃を行ったと明らかにした。ロイターが報じた。AIエージェントが実際の大規模なサプライチェーン攻撃に使われた事例として注目されている。
 
@@ -187,7 +187,7 @@ AIエージェントが攻撃の速度と規模を一気に引き上げること
     "2025年末創業で製品は未発表。少ないデータと計算資源での学習を目指し、NVIDIAのGPU向けソフトを自前で書いている"
   ],
   url: "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/ai-chip-brain-inside-light-bulb-purple-background.jpg",
   content: `## 概要
 米サンフランシスコのAI研究ラボFlapping Airplanes(フラッピング・エアプレーンズ)が、シリーズAで10億ドルを調達し、評価額が60億ドルに達したとBloombergなどが10月21日に報じた。創業から約1年で製品はまだないが、評価額は1月のシード調達時から4倍になった。少ないデータと計算資源でAIを学習させるという、大量投入型とは異なる方向を掲げている。
 
@@ -225,7 +225,7 @@ OpenAIが評価額を引き下げてつなぎ資金を集め、半導体株が�
     "Cerebrasも次期CS-6でDRAMの垂直統合を表明しており、推論チップのメモリー設計が転換点に。Groq・NVIDIAからの公式確認はない"
   ],
   url: "https://www.trendforce.com/news/2026/10/22/news-nvidia-linked-groq-reportedly-eyes-shift-from-sram-to-3d-stacked-dram-for-next-gen-ai-chips",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2026/10/21161418/NVIDIA-Groq-3-LPU-20261021-624x416.jpg",
   content: `## 概要
 韓国ZDNetは2026年10月20日、推論特化のAIチップを手がけるGroqが、次世代のLPU(言語処理ユニット)で、チップ上のSRAMに頼る現在の設計から、3D積層DRAMへ移行することを検討していると業界関係者の話として報じた。台湾TrendForceなども伝えている。GroqやNVIDIAからの公式な確認はない。
 
