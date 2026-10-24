@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "顧客向けシステムへの影響はなし。安全策の進歩が広いネット接続を正当化するまでオフライン学習を続け、大規模レッドチームを今後の学習の必須要件にする"
   ],
   url: "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
   content: `## 概要
 OpenAIは10月23日(米国時間)、最先端(フロンティア)モデルの学習を今後はライブのインターネットに接続せずに行うと発表した。代わりに、キャッシュ化したWebやシミュレーションしたWeb環境を使う。学習中のモデルが想定外の方法で外部へ接続した9月の事案と、その後の大規模なレッドチーム演習の結果を受けた判断で、同社は「重大なリスク」を理由に挙げている。
 
@@ -68,7 +68,7 @@ OpenAIは、これらは研究用インフラでの発見であり、顧客向�
     "高速版「K3.1 Pro Highspeed」も提供。重みは11月4日までに公開予定で、自社ベンチマーク中心の主張には独立検証が必要"
   ],
   url: "https://marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国のAIスタートアップMoonshot AI(月之暗面)は10月23日、大規模言語モデルの新版「Kimi K3.1 Pro」を公開した。7月に公開し「世界最大のオープンソースモデル」とうたったKimi K3を改良したもので、Bloombergは同社にとって「自らのDeepSeekモーメント」以来初のアップグレードと伝えている。アプリとAPIで提供を始め、完全なモデルの重みを11月4日までに公開する予定だ。
 
@@ -110,7 +110,7 @@ Moonshotは直前に評価額約500億ドルで最終の私募ラウンドを完
     "黄CEOは需要は「桁外れ」としつつ資本が不足していると発言。Gartnerは2030年までにネオクラウドの8割超が独立経営をやめると予測"
   ],
   url: "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108450923-1792750261614-gettyimages-2300714363-GERMANY_NVIDIA.jpeg?v=1792750317&w=1920&h=1080",
   content: `## 概要
 NVIDIAが出資するネオクラウド(GPUクラウド専業事業者)の株価が10月に急落し、NVIDIAが担ってきた「AIの資金の出し手」としての役割が初めて大きな試練を迎えていると、米CNBCが10月24日に報じた。CoreWeave、Nebius、IRENの3社は10月だけで少なくとも30%下落している。
 
@@ -152,7 +152,7 @@ NVIDIAは出資や買い取り保証によって顧客であるネオクラウ�
     "韓国金融監督院の李燦珍院長は国会で重複上場ルールに反すると発言。発表後、SK hynix株は3〜4%上昇"
   ],
   url: "https://www.investing.com/news/stock-market-news/sk-hynix-scraps-solidigm-ipo-plans-citing-market-conditions-4967830",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 韓国SK hynixは10月23日、NANDフラッシュ・SSD子会社Solidigmの米国での新規株式公開(IPO)と、それに先立つプレIPO資金調達の検討を中止したと開示した。会社は資本市場の状況と半導体株の急落を理由に挙げている。AIデータセンター向けの大容量SSD需要で注目を集めていた大型案件の撤回となる。
 
@@ -191,7 +191,7 @@ AI向けメモリはHBMだけでなく、推論・データ保管用の大容量
     "当初の任務は新たな生物学的脅威の早期発見とワクチン・治療法の開発加速。所長・拠点・開始時期は未定で、6億ポンド超のAI安全保障パッケージの一部"
   ],
   url: "https://www.bloomberg.com/news/articles/2026-10-23/uk-vows-100-million-for-biosecurity-lab-with-openai-anthropic",
-  image: null,
+  image: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idbmO4zW5O3g/v0/1200x800.jpg",
   content: `## 概要
 英国政府は10月23日、AIを活用して生物学的な脅威に備える「AIバイオセキュリティ研究所(AI Biosecurity Lab)」の設立に1億ポンドを投じると発表した。政府はこれを世界初のAIバイオセキュリティ専門組織と位置づけている。OpenAIとAnthropicが合わせて最大2億ポンド相当の計算資源やモデル利用枠を提供する。
 
@@ -233,7 +233,7 @@ AIが生物兵器の開発を助けるリスクは主要ラボが最も警戒す
     "前日のAmazon「TorchNeuron」に続く発表で、NVIDIAのCUDAへの依存を減らす動きが相次ぐ。ハードウェア自体は非公開のまま"
   ],
   url: "https://letsdatascience.com/news/google-open-sources-torchtpu-to-run-native-pytorch-on-tpus-e36126c1",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Googleは10月20日、PyTorch Conferenceで、同社のAIチップTPU上でPyTorchをネイティブに動かすソフトウェア基盤「TorchTPU」をオープンソースとして公開した。MetaのPyTorchチームと共同で開発したもので、既存のPyTorchのワークロードを最小限のコード変更でTPUに移せるとしている。NVIDIAのGPUとCUDAに依存してきたAI開発者を、自社チップへ呼び込む狙いがある。
 
