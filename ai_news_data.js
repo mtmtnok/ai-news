@@ -26,7 +26,7 @@ window.NEWS_DATA = [
     "AI投資の効果は「売り手(チップ・クラウド)」の利益にだけ表れ、「買い手」の企業にはまだ届いていないという主張。回収が遅れるほど市場の下振れリスクが大きいと警告"
   ],
   url: "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
   content: `## 概要
 米投資会社Apollo Global Managementのチーフエコノミスト、トーステン・スロック氏が、AIはテック業界以外の大企業の収益をまだ改善していないとする分析を示した。TechCrunchが10月25日に報じた。S&P500から巨大テック7社(いわゆるマグニフィセント・セブン)を除いた残り493社では、利益率も従業員1人あたりの売上高もほぼ横ばいだという。見出しは「AIはほとんどの企業に財務的な見返りをゼロしかもたらしていない」と強い表現になっている。
 
@@ -66,7 +66,7 @@ window.NEWS_DATA = [
     "1〜9月の累計は約3020億ドル。チップ1個あたりの平均単価は約0.99ドルで、高性能AIチップより世界的なメモリー価格高騰の影響が大きいとの見方も"
   ],
   url: "https://cybernews.com/ai-news/china-chip-exports-surge-on-ai-frenzy/",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国税関総署が10月中旬に公表した貿易統計で、9月の集積回路(IC)の輸出額が前年同月比136%増の449.5億ドルとなり、過去最高を更新した。ただし輸出数量は約327億個と1%増にとどまっており、金額の急増はAIデータセンター向け需要によるメモリーなどの価格高騰が主な要因とみられる。半導体は中国の輸出全体の1割近くを占めるまでになった。
 
@@ -105,7 +105,7 @@ AI向けの計算インフラ需要が、HBMだけでなく汎用メモリーの
     "VulnCheckの調査では発見される脆弱性の数が前年比でほぼ倍増し、その一因はAIを使った調査。一方で「AIが見つけた欠陥の多くは悪用が難しい」との慎重論も"
   ],
   url: "https://money.usnews.com/investing/news/articles/2026-10-23/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 ロイターは10月23日、AIを使ったソフトウェアの脆弱性発見が急増しており、最近の各国政府サイトの停止のような障害が今後も相次ぐ恐れがあるとする、サイバーセキュリティ専門家7人の見方を報じた。直近の1週間だけでも、PHP、Node.js、Plex、LiteLLM、Railwayなどで重大な欠陥の公表や侵害が続いた。Cloudflareのマシュー・プリンスCEOは「この先数年は、毎週のように空が落ちてくるように感じるだろう」と述べている。
 
@@ -144,7 +144,7 @@ AIは防御側にとって強力な道具だが、欠陥が見つかるペース
     "GrokのAPIには研究者が書いていない約1240トークンの追加入力が毎回付いていたとの報告も。OpenAIは「ChatGPTは政治的な会話でも既定で客観的に設計されている」と説明"
   ],
   url: "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
   content: `## 概要
 コーネル大学のタパン・パリク教授が率いる研究スタジオConvovoは、11月3日に投票が行われる米中間選挙のおよそ500の選挙区について、AIモデルに候補者を1人だけ選ばせる調査の結果を公表した。xAIのGrok 4.7は92%の回答で共和党候補を、OpenAIのGPT-6.1 Solは97%の回答で民主党候補を選び、両モデルの答えが一致したのは1割未満だった。TechCrunchが10月24日に報じた。
 
@@ -186,7 +186,7 @@ OpenAIは、この調査は開発者向けAPIで推薦を明示的に求めた�
     "2027年度の実用化を予定。NECは10月に被災地画像の被害判定を速めるVLM技術も東北大学と発表している"
   ],
   url: "https://businessnetwork.jp/article/38114/",
-  image: null,
+  image: "https://businessnetwork.jp/wp-content/uploads/2026/10/261023_nec_00.jpg",
   content: `## 概要
 NECは10月23日、道路や河川に設置されたライブカメラの映像から災害の予兆を早期に見つけるAI技術を開発したと発表した。画像と言葉を合わせて理解できる視覚言語モデル(VLM)を使い、映像から現場の状況を点数化することで、河川の氾濫や道路の冠水、積雪などの兆候をとらえる。2027年度の実用化をめざしている。
 
@@ -225,7 +225,7 @@ NECは10月中旬にも、東北大学の岡谷研究室と共同で、被災地
     "年換算売上は1〜9月に25倍(月平均50.9%成長)。顧客にAnthropic・OpenAI・NVIDIA・Cursor・Meta・Cohereなどが含まれると報道"
   ],
   url: "https://tech.eu/2026/10/20/daytona-hits-1b-valuation-with-60m-series-b-for-ai-agent-cloud/",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 AIエージェントがコードを実行するための隔離環境(サンドボックス)を提供する米サンフランシスコのスタートアップDaytonaは10月20日、シリーズBとして6000万ドルを調達し、評価額が10億ドルに達したと発表した。投資会社FirstMarkが主導した。年換算の売上高は1月から9月までに25倍になったという。
 
