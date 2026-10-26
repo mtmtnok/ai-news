@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "公益法人(PBC)として上場し、創業者が種類株で議決権の50.1%を保持。Goldman Sachs・Morgan Stanleyなど20行超が引受、売出株数と価格帯は未記載"
   ],
   url: "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/fde93f466db202943f545777a5ec1ed67bda7d54feaf95ae4669b9db85cf490d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F96a940da-e36e-4a58-8689-1eb41156fc2e",
   content: `## 概要
 Anthropicが10月26日(米国時間)、新規株式公開(IPO)に向けた届出書(S-1)を公開した。クラスA普通株をナスダック・グローバル・セレクト市場にティッカー「ANT」で上場する計画で、上場が実現すれば史上最大級のIPOになる可能性がある。WSJが先に報じていた目論見書草案の数字が、正式な開示として確認された形だ。
 
@@ -67,7 +67,7 @@ S-1によると、2026年1〜6月期の売上高は約162.9億ドルで、前年
     "今年の設備投資は最大1450億ドルの見通し。1GW超の「スーパークラスター」を4つ建設中で、数年で「数千億ドル」の調達が必要と投資家に警告していた"
   ],
   url: "https://www.irishtimes.com/business/2026/10/26/meta-plans-95bn-stock-offering-to-bankroll-ai-expansion/",
-  image: null,
+  image: "https://www.irishtimes.com/resizer/v2/7YW2G2R6AZD25XZHT473JIUCC4.jpg?smart=true&auth=cae1e0637b2a63aa2136f17a8e986ddb5cf2179550d3c539419e24d11ca93cf2&width=1200&height=630",
   content: `## 概要
 Metaが10月26日、AIインフラと超知能(スーパーインテリジェンス)研究の資金として、最大約950億ドルを株式で調達する計画を発表した。巨大テック企業が借入ではなく大規模な新株発行でAI投資を賄うのは異例で、AI投資が手元の現金収入だけでは追いつかなくなっていることを示している。
 
@@ -104,7 +104,7 @@ SpaceXの400億ドルのGPUリース、OpenAIの「つなぎ」調達、Anthropi
     "ApolloとGoldman Sachsが主導し、BlackRock・Goldman Sachs Asset Management・KKR系の資金もアンカーとして参加。CFOは「超知能インフラ投資の回収期間は1年未満」と説明"
   ],
   url: "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 SpaceXが10月26日、AIチップを中心とするデータセンター機器を、Apollo Global Managementが運用する事業体からリースする契約について、拘束力のある合意を結んだと開示した。元本支払いの総額は約400億ドルで、同社は「過去最大のGPUファイナンス」と位置づけている。以前は銀行融資と社債による400億ドルの借入を模索していると報じられていたが、リース方式で資金のめどをつけた形だ。
 
@@ -141,7 +141,7 @@ GPUを担保にした資金調達はCoreWeaveなどネオクラウドが先行�
     "あくまで推計で、売上高の逆転であり利益の逆転ではない。SK hynixは28日朝(韓国時間)に決算を発表予定"
   ],
   url: "https://www.investing.com/news/stock-market-news/bernstein-says-samsung-overtook-sk-hynix-in-hbm-revenue-in-3q26-93CH-4965188",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米調査会社Bernsteinが10月22日、2026年7〜9月期のHBM(広帯域メモリー)売上高で、Samsung ElectronicsがSK hynixを上回ったとの推計を公表した。AI向けHBMでは長くSK hynixが首位を走ってきたが、今回のAIブームでSamsungが売上高首位に立つのは初めてとなる。いずれも企業の発表値ではなくアナリストの推計である点には注意が必要だ。
 
@@ -179,7 +179,7 @@ HBMはAIチップの性能を左右する部品で、その供給を握る企業
     "防衛省とは2026年3月に委託研究、7月に情報分析支援AIの実証契約を結んでおり、自衛隊の指揮統制システムへの国産AI導入でも有力候補と報じられている"
   ],
   url: "https://www.nikkei.com/article/DGXZQOUC261H80W6A021C2000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3782734026102026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.8&fp-y=0.71&h=630&w=1200&s=2ec4a8c3fefa182e249082446f1ef17e",
   content: `## 概要
 日本経済新聞が10月26日に報じたところによると、Sakana AIが自社で一から学習させる国産の生成AIモデルの開発に乗り出す。仮称は「Sakana Sawara」で、2027年春に最初のモデルを公開し、防衛やサイバー防御での利用を見込む。米中などの海外製モデルに依存するリスクを抑える狙いがある。
 
@@ -217,7 +217,7 @@ HBMはAIチップの性能を左右する部品で、その供給を握る企業
     "K3.1 Proは総パラメータ約3兆・100万トークン文脈の同社最上位モデル。公開直後のアクセス集中で限流(利用制限)も発生していた"
   ],
   url: "https://original.ifeng.com/c/8xWrSDBLrVJ",
-  image: null,
+  image: "https://x0.ifengimg.com/ucms/2026_44/8652574E5A5706A0B193DD7EE2F2D3012F047B2D_size29_w468_h264.jpg",
   content: `## 概要
 中国のAIスタートアップMoonshot AI(月之暗面)が10月26日未明、10月24日に公開した最上位モデル「Kimi K3.1 Pro」で、有料会員に利用制限がかかったり、利用枠が想定外の速さで減ったりする問題が起きたとして公式に謝罪した。中国のSNSでユーザーの不満が広がっており、同社は補償策と技術的な対策をあわせて発表した。
 
@@ -253,7 +253,7 @@ K3.1 Proは総パラメータ約3兆のMoE(専門家混合)モデルで、100万
     "実験ではヒトTrkAを標的に188案中158案が結合。116ページのプレプリントは査読前で、Hugging FaceやGoogle Cloudなど9社経由で提供"
   ],
   url: "https://www.genengnews.com/topics/artificial-intelligence/nvidia-uw-institute-for-protein-design-unveil-open-source-protein-design-ai-model/",
-  image: null,
+  image: "https://www.genengnews.com/wp-content/uploads/2026/10/GettyImages_1402266486_proteins-1024x538-1.jpg",
   content: `## 概要
 NVIDIAとワシントン大学医学部のタンパク質デザイン研究所(IPD、デイビッド・ベイカー氏が率いる)が10月21日、NVIDIAのGTC Berlinで、オープンなタンパク質設計AIモデル「RFD4-Proteina」を公開した。タンパク質のアミノ酸配列と全原子の立体構造を同時に設計し、有望な候補に計算資源を集中させる探索の仕組みを組み込んだのが特徴だ。
 
@@ -291,7 +291,7 @@ AIによるタンパク質設計は、ノーベル賞を受けたベイカー氏
     "試作機は完成済みで、外部テスト版は3〜6カ月後の予定。ベンチマークは未公表。拠点はロンドン・シンガポール・ロサンゼルス"
   ],
   url: "https://lionherald.com/london-gains-another-ai-lab-as-alphago-veteran-launches-metis-reasoning/",
-  image: null,
+  image: "https://lionherald.com/wp-content/uploads/2026/10/Engaging-Studio-Interview-Portrait.png",
   content: `## 概要
 囲碁AI「AlphaGo」の共同開発者として知られるトーレ・グレーペル氏が、ロンドンで新しいAIラボ「Metis Reasoning」を立ち上げた。同氏は今夏にGoogle DeepMindを退社しており、新会社は大規模言語モデル(LLM)とは異なるアプローチで、計算効率が高く、推論の過程を検証(監査)できるAIをめざす。
 
@@ -329,7 +329,7 @@ AlphaGoが示した探索と推論の組み合わせを、検証可能性とい�
     "国内損保として初の販売。技術の進展にあわせて補償内容を拡充・見直していく方針"
   ],
   url: "https://news.yahoo.co.jp/articles/52c79a0f40ff6d86dc9108fe87e5927c8ed20eda",
-  image: null,
+  image: "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261026-00000047-ann-000-8-thumb.jpg?exp=10800",
   content: `## 概要
 東京海上日動火災保険が10月26日、フィジカルAIを搭載した自律移動型ロボット向けの「AIロボット保険」を2026年11月から提供すると発表した。ロボット本体の損害や事故の賠償責任に加え、ロボットが止まったときに業務を続けるための費用まで補償する。国内の損害保険会社としては初めての商品だ。
 
