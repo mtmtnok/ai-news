@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "一部の貸し手が撤退を検討し、Hock Tan CEOが週末に銀行首脳と直接交渉、金利引き上げと保証強化で合意にこぎ着けたとWSJ"
   ],
   url: "https://finance.yahoo.com/technology/ai/articles/broadcom-secures-63-billion-banks-205926176.html",
-  image: null,
+  image: "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
   content: `## 概要
 米銀大手3行と投資会社Blackstoneが、Broadcom製のAIチップとネットワーク機器をAnthropicに供給するための総額630億ドルの資金調達を確約した。10月26日に明らかになったもので、新設の特別目的会社(SPV)が機器を購入してAnthropicにリースする。Anthropicが前日にIPO届出書(S-1)を公開した直後の発表で、AIインフラの資金繰りが「ラボ・チップメーカー・金融」の三者で組み上げられている実態を象徴する案件となった。
 
@@ -67,7 +67,7 @@ GPU・カスタムチップを「担保資産」としてリースするファ�
     "物理: ゲージ場とフェルミオンを含む4次元の相互作用する量子場理論の存在証明。物理学者グループが論文化のため公開を延期"
   ],
   url: "https://www.aljazeera.com/economy/2026/10/27/ai-makes-discoveries-in-mathematics-computer-science-physics-openai-says",
-  image: null,
+  image: "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26272792510419-1793062165_29dd33-1793062908.jpg?resize=1200%2C630&quality=80",
   content: `## 概要
 OpenAIは10月26日(米国時間)、同社のAIモデルが数学・計算機科学・物理学の3分野で長年の難問を解いたと発表した。数学と計算機科学の成果は証明支援系Leanで検証済みとし、証明データをGitHubで公開した。ただし、いずれも同社の主張であり、学界による独立した検証はこれからとなる。
 
@@ -106,7 +106,7 @@ OpenAIは公開方法を決めるため、3つの専門家グループを「羊�
     "文脈長は約105万トークン、最大出力12.8万トークン。サイバーセキュリティ能力は社内基準で「Critical」に分類"
   ],
   url: "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIは10月26日、低価格帯の新モデル「GPT-6.1 Terra」を公開した。コンピューター操作(computer use)やソフトウェア開発などのエージェント作業を主な用途に位置づけ、API価格を上位モデルGPT-6.1 Solや前世代のGPT-5.6 Terraの半額に設定した。ChatGPT WorkとCodexでは、Plus・Pro・Enterprise・Eduの各プランで利用できる。
 
@@ -146,7 +146,7 @@ OpenAIはさらに、同ベンチマークでGPT-6 Astraに匹敵する性能を
     "エージェントの安全性向けのOpenShell参照アーキテクチャや行動監視技術Sentryでの協業も検討"
   ],
   url: "https://finance.yahoo.com/markets/article/nvidia-to-invest-3-billion-in-meta-expand-partnership-on-muse-125249944.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/e9511ec43d7f8b6d5e2aea84a6a4b80bbc817d59d462fa77107907727e7b5c15/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-05%2Fe2e562d0-9029-4767-bbe5-a1de726cea35",
   content: `## 概要
 NVIDIAは10月27日、Meta Platformsが実施している株式発行に30億ドルを投資すると発表した。同時に、Metaの「Muse」モデル群の学習と推論を巡る技術協業を拡大する。Metaは先週、AI投資の資金確保のため最大950億ドル規模の株式発行計画を公表しており、NVIDIA・AMD・Broadcomが計50億ドル程度の購入に関心を示していると報じられていた。
 
@@ -185,7 +185,7 @@ NVIDIAはOpenAI・xAI・CoreWeave・Nebiusなど顧客への出資を重ねて�
     "条件は通常の退職金と同等。前回の早期退職制度は米国従業員の約7%が対象で、その3割超が応募"
   ],
   url: "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108464648-1793029800901-gettyimages-2225682496-MICROSOFT_HACK.jpeg?v=1793029842&w=1920&h=1080",
   content: `## 概要
 Microsoftは10月26日(米国時間)、約6万人の従業員に希望退職(ボランタリー・バイアウト)を提示したと明らかにした。全従業員約22万3000人の約27%に相当する大規模なもので、AIインフラへの支出拡大とコスト管理の両立を図る狙いがある。対象者は12月初めまでに応募するかを決め、応募者は12月31日付で退社する。
 
@@ -223,7 +223,7 @@ AIが雇用に与える影響を巡っては、AI導入の財務的な見返り�
     "値上げによるAIアクセラレーターの部材コスト上昇は約2〜4.5%との試算も(一部報道)"
   ],
   url: "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/F7GwETgbWz3VqDaj8UmXcJ-2000-80.jpg",
   content: `## 概要
 TSMCが、AIチップの製造に欠かせない先端パッケージング技術「CoWoS(Chip on Wafer on Substrate)」の価格を最大20%引き上げることを検討していると、台湾の工商時報(Commercial Times)やTrendForce、Tom's Hardwareが10月27日に報じた。NVIDIAのBlackwellと次世代のRubinに向けた需要が逼迫し、パッケージ能力の不足が続いていることが背景にある。TSMCの公式発表ではなく、サプライチェーン関係者の情報に基づく。
 
@@ -263,7 +263,7 @@ NVIDIAにとってコスト増は数%程度にとどまるが、利幅の薄い�
     "PLaMo ChatとAPIで提供し無料プランも用意。11月30日までPLaMo ChatでDeep Researchを1日2回無料で利用可能"
   ],
   url: "https://www.watch.impress.co.jp/docs/news/2151518.html",
-  image: null,
+  image: "https://www.watch.impress.co.jp/img/ipw/list/2151/518/0001.jpg",
   content: `## 概要
 Preferred Networks(PFN)は10月27日、国産の大規模言語モデル(LLM)の最新版「PLaMo 3.1 Prime」の提供を開始した。新たにWeb検索と「Deep Research」機能を搭載し、調査の計画から情報収集、出典付きのレポート作成までを一貫して行える。Deep Researchはオンプレミス環境でも利用でき、防衛・行政・重要インフラなど、データを外部に出せない組織での調査業務を想定する。
 
@@ -302,7 +302,7 @@ Deep Researchは海外大手が先行して提供してきた機能だが、オ�
     "アシスタントはSpringer Natureの非公開のGemini Enterprise環境内で動作し、未発表原稿の情報を外部に出さない"
   ],
   url: "https://www.infodocket.com/2026/10/26/company-news-springer-nature-and-google-deepmind-announcing-a-research-partnership-to-co-design-an-ai-peer-review-assistant/",
-  image: null,
+  image: "https://www.infodocket.com/wp-content/uploads/2026/10/2026-10-26_08-16-21.png",
   content: `## 概要
 学術出版大手のSpringer NatureとGoogle DeepMindは10月26日、論文の査読(ピアレビュー)を支援するAIアシスタントを共同で設計する研究パートナーシップを発表した。Springer Natureが持つ査読プロセスの専門知識と、Google DeepMindのGeminiモデルを組み合わせ、査読者にとってより有意義な体験をつくることを目標に掲げる。
 
