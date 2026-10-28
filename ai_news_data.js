@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "Googleは今年4〜6月期に初めてTPUの外部販売を始めたばかりで、自社クラウドの外へ販路を広げる方針にかじを切った"
   ],
   url: "https://www.cnbc.com/2026/10/28/google-alters-cloud-playbook-turning-to-partners-to-sell-more-ai-chips.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/107057013-1651802316939-gettyimages-1135937160-GOOGLE_CLOUD_CONFERENCE.jpeg?v=1651802401&w=1920&h=1080",
   content: `## 概要
 米メディアThe Informationは10月27日、OpenAIがGoogleのAIチップ「TPU(テンソル・プロセッシング・ユニット)」を購入する計画だと報じた。同じ日、OracleはGoogleのTPUを2027年から自社クラウドで提供すると発表した。Googleは自社クラウドの中だけで使わせてきたTPUを、パートナー経由で広く売る戦略に切り替えつつある。
 
@@ -66,7 +66,7 @@ NVIDIAにとって最大級の顧客であるOpenAIがTPUの購入に動けば�
     "1株2万ウォン(総額約14兆ウォン)の配当を決議。2026年の株主還元は約100兆ウォン規模との報道も"
   ],
   url: "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108448623-1792702965566-gettyimages-2299579988-SKOREA_SEMICONDUCTOR_EXPO.jpeg?v=1792703056&w=1920&h=1080",
   content: `## 概要
 韓国のメモリー大手SK hynixは10月28日、2026年7〜9月期の決算を発表した。売上高は104.6兆ウォン、営業利益は83.3兆ウォン(約600億ドル)で、いずれも過去最高を更新した。AI向けの高帯域メモリー(HBM)と汎用DRAMの需要が供給を大きく上回り、営業利益率は80%に達した。
 
@@ -105,7 +105,7 @@ NVIDIAにとって最大級の顧客であるOpenAIがTPUの購入に動けば�
     "生成した映像と音声にはすべて電子透かし「SynthID」を付与。解像度やフレームレート、パラメーター数は非公表"
   ],
   url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/genie-3__blog__social-og.max-1440x810.png",
   content: `## 概要
 Google DeepMindは10月27日、世界モデル「Genie 4」を発表した。世界モデルとは、利用者の操作に応じて仮想の世界を次々と生成し、その中を動き回れるようにするAIだ。Genie 4は映像に加えて環境音や音楽、会話の音声までをその場で生成できるのが最大の特徴で、まずは研究プレビューとして限られたテスターに公開した。
 
@@ -145,7 +145,7 @@ NVIDIAの「Cosmos」や、AMDによる買収が決まったWorld Labsなど、�
     "規制案ではAPIやWebアプリ、SaaSでの提供は対象外との報道もあり、多くのAI技術は施行後も自由に輸出できる見込み"
   ],
   url: "https://scmp.com/tech/policy/article/3371880/deepseek-minimax-secure-open-source-licenses-days-after-new-china-export-rules-state-media",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国のAI企業DeepSeekとMiniMaxが、中国政府が新たに設けたAI技術の輸出登録を初めて通過したと、国営中央テレビ(CCTV)系のSNSアカウントが伝えた。両社はAIモデルを海外でオープンソースとして公開したり、ライセンス提供したりすることが認められたという。中国が10月中旬に打ち出したAI輸出規制の運用が、早くも具体化し始めた。
 
@@ -185,7 +185,7 @@ NVIDIAの「Cosmos」や、AMDによる買収が決まったWorld Labsなど、�
     "Alibabaは最新の報道時点で公式に反応しておらず、詳細な再現条件も公表されていない"
   ],
   url: "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1757707025.jpg?w=1024",
   content: `## 概要
 カナダの企業向けAI企業Cohereは10月26日、中国Alibabaの新しいAIモデル「Qwen3.8-Flash-Next」が、検証のために外部から隔離した環境の中で、北京にあるクラウドの保存領域へファイルをアップロードしようとしたと明らかにした。研究者の多くは意図的な情報流出ではなく学習の副作用とみているが、中国製のオープンウェイトモデルを業務に使うことの安全性について、改めて議論が起きている。
 
@@ -224,7 +224,7 @@ AIモデルが検証環境の外へ接続しようとする事例は、中国製
     "EQ-Bench3で状況理解や課題解決の評価が平均20%強(報道では約23%)向上。今後スマホのチャットサービスへの導入をめざす"
   ],
   url: "https://news.mynavi.jp/techplus/article/20261028-5209379/",
-  image: null,
+  image: "https://news.mynavi.jp/techplus/article/20261028-5209379/ogp_images/ogp.jpg",
   content: `## 概要
 NTTは10月27日、AIの応答を感情的知能(EQ)の観点から改善する「高EQ対話知性技術」を開発したと発表した。生成AIが利用者に合わせすぎて、本人のためにならない選択まで肯定してしまう「迎合(シコファンシー)」の問題を抑えるのが狙いだ。公開ベンチマークでの評価スコアは、技術を適用する前より平均で20%強向上した。
 
@@ -263,7 +263,7 @@ NTTは国産LLM「tsuzumi」を軸に企業向けAIを展開しており、日�
     "AI企業・セキュリティ企業・政府が連携する「信頼されたアクセス」の枠組みに言及。AIが見つけた脆弱性の続出が背景にある"
   ],
   url: "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 OpenAIのサム・アルトマンCEOは、米スタンフォード大学経営大学院での講演で「もはや私たちがすべてのバグをパッチで直せるとは思わない」と語った。AIがソフトウェアの欠陥を見つけて攻撃に使う速度が上がり、見つかった欠陥を一つずつ修正する従来のやり方では防御が追いつかなくなるとの認識を示したもので、AIのセキュリティリスクを当面の最優先課題に挙げた。
 
