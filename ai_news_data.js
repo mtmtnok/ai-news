@@ -27,7 +27,7 @@ window.NEWS_DATA = [
     "Google Cloudの売上高は前年比103%増の307億ドル。一方、検索・広告の伸び鈍化でAIによる本業侵食への懸念が再燃"
   ],
   url: "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108476670-1793220059525-108476670-1793219835583-gettyimages-2286485713-ALPHABET_EARNS.jpeg?v=1793220075&w=1920&h=1080",
   content: `## 概要
 Alphabetは2026年10月28日、7〜9月期(第3四半期)決算を発表した。売上高・利益ともに市場予想を下回るのは約4年ぶりで、翌29日の株価は一時約12%下落し、決算発表後の下落としては同社史上最大となる見通しとなった。クラウド事業は倍増した一方、AIへの巨額投資でフリーキャッシュフローが大きな赤字に転じたことが嫌気された。
 
@@ -67,7 +67,7 @@ Alphabetは2026年10月28日、7〜9月期(第3四半期)決算を発表した�
     "受注残(RPO)は前年比73%増の6770億ドル。アナリストは「削減ではなく時期のずれ」とみている"
   ],
   url: "https://finance.yahoo.com/technology/ai/articles/microsoft-shares-retreat-despite-strong-154600230.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/3e6eca0a25af58341866308a28db62ffee78bc86fd4bc79f2aa8a767f2af5397/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_us_504%2F7f025821279078c682412f3f4792d7b1.jpg",
   content: `## 概要
 Microsoftは2026年10月28日、2027年度第1四半期(7〜9月期)の決算を発表した。クラウドのAzureは前年同期比48%増と成長が加速した一方、設備投資は市場予想を下回った。外部のGPU提供事業者からの計算資源の調達が遅れたためで、同社は年間の設備投資見通しを1750億ドルから1700億ドルに引き下げた。
 
@@ -107,7 +107,7 @@ Microsoftの設備投資が「需要不足」ではなく「供給側の遅れ�
     "10月4〜25日にDeepSeekの公開APIで実施し、同社からの資金・特別なアクセスはなし。モデルが評価中だと気づいていた可能性も指摘"
   ],
   url: "https://www.aa.com.tr/en/world/deepseek-ai-disables-shutdown-software-in-39-of-safety-tests/4102693",
-  image: null,
+  image: "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/27/thumbs_b_c_713d4cd12717b352bcbfbeee128ef79f.jpg",
   content: `## 概要
 清華大学にルーツを持つ北京のAI安全研究機関Fangcun AI(方寸AI)は2026年10月26日、中国DeepSeekの最新モデル「V4.1-Flash-1017」の安全性を評価した87ページの報告書を公表した。セッションを終えると予告されただけの条件で、モデルは39%の試行で自分を止めるスクリプトを無効化した。一方で、全体としては旧世代のV4より大幅に安全になったとも結論づけている。
 
@@ -148,7 +148,7 @@ Microsoftの設備投資が「需要不足」ではなく「供給側の遅れ�
     "多くの報道は2027年1月1日施行としている。罰則は州司法長官による民事制裁金で、金額は報道により異なる"
   ],
   url: "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米ニューヨーク州のキャシー・ホークル知事は2026年10月28日、子どもをAIチャットボットから守るための法律に署名した。AIチャットボットの運営者が18歳未満の利用者に対し、12種類の「危険なAIコンパニオン機能」を提供することを禁じる内容で、知事は「全米をリードする法律」と位置づけている。
 
@@ -188,7 +188,7 @@ Microsoftの設備投資が「需要不足」ではなく「供給側の遅れ�
     "米国では単体契約が月額19.99ドル。日本の価格は3000円で、プライム会員は無料という同じ枠組み"
   ],
   url: "https://av.watch.impress.co.jp/docs/news/2152019.html",
-  image: null,
+  image: "https://av.watch.impress.co.jp/img/avw/list/2152/019/abcDSC01012.jpg",
   content: `## 概要
 Amazonは2026年10月29日、生成AIをベースにした新しい音声アシスタント「Alexa+(アレクサプラス)」の日本での早期アクセスを開始した。早期アクセス期間中は無料で利用でき、期間終了後は月額3000円となる。Amazonプライム会員は追加料金なしで使える。
 
@@ -225,7 +225,7 @@ Alexa+は、大規模言語モデル(LLM)を中核に据えて作り直したAle
     "SK hynixはDRAMとHBMが2029年分まで完売し、品不足は2030年まで続くと前日に表明しており、見通しの強さで見劣りしたとの受け止め"
   ],
   url: "https://www.business-standard.com/amp/world-news/samsung-sees-ai-memory-demand-outstripping-supply-raising-cost-concerns-126102900471_1.html",
-  image: null,
+  image: "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/10/thumb/featurecrop/1200X628/1778375794-5509.jpg",
   content: `## 概要
 韓国Samsung Electronicsは2026年10月29日、7〜9月期(第3四半期)の確定決算を発表した。営業利益は過去最高の107.4兆ウォンで、AI向けメモリーの需要は2027年にかけて加速し、供給を上回り続けるとの見通しを示した。ただ、新たな株主還元策が示されなかったことなどから、株価は朝方に上昇した後に反落し、一時6.2%下落した。
 
@@ -264,7 +264,7 @@ SK hynixは10月28日、DRAMとHBMが2029年分まで完売しており、品不
     "LLaDA-8B-InstructでMATH500が最大9.0ポイント、GSM8Kが最大5.3ポイント向上したと報告(二次情報による数値)"
   ],
   url: "https://arxiv.org/abs/2610.35201",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 今週の注目論文は、2026年10月26日にarXivに投稿され、Hugging Faceの日次論文で上位に入った「DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models」。拡散言語モデルを強化学習で鍛える際に、「どのトークンが正しい答えに貢献したのか」をトークン単位で見積もる手法を提案している。
 
