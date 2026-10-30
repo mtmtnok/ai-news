@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Amazonの7〜9月期決算は、AWSの売上高が前年同期比39.3%増の460億ドルと6四半期連続で成長が加速した一方、全社売上高2019億ドル・1株利益1.89ドルはいずれも市場予想を下回った。AI関連の設備購入が膨らみ、フリーキャッシュフローは424億ドルの流出に転落、株価は時間外取引で約6%下落した。",
   points: ["AWS売上高は39.3%増の460億ドル、営業利益178億ドル(利益率38.7%)、受注残は5780億ドルに拡大", "全社売上高は12%増の2019億ドルで予想(2023億ドル)に届かず、1株利益1.89ドルも予想1.96ドルを下回る", "2026年の設備投資は約2200億ドルの見通しを維持、ジャシーCEOはAWSの売上高成長率が2027・2028年とも40%超になると予測"],
   url: "https://www.forbes.com/sites/fionariley/2026/10/29/amazon-falls-short-of-overall-revenue-prediction-despite-aws-revenue-growth-nearing-40/",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 Amazonが10月29日に発表した2026年7〜9月期決算は、クラウド事業AWSの急加速と、AI投資によるキャッシュの急減という二つの顔を見せた。AWSの売上高は前年同期比39.3%増の460億ドルで6四半期連続の成長加速となった一方、全社の売上高と1株利益は市場予想に届かず、フリーキャッシュフローは424億ドルの流出に転じた。株価は時間外取引で約6%下落した。
@@ -63,7 +63,7 @@ Alphabet・Microsoftに続き、Amazonも「AI需要は強いが、投資負担�
   summary: "キオクシアの7〜9月期決算は、売上高が前四半期比40%増の約2.48兆円、営業利益が57%増の約1.995兆円と急拡大し、1株90円の初配当を決めた。ただし10〜12月期の営業利益見通しは2兆円と市場予想の2.35兆円を下回り、AI特需によるフラッシュメモリー価格の上昇が一服しつつあるとの見方が広がった。",
   points: ["売上高は約2.48兆円(前四半期比40.3%増)、営業利益は約1.995兆円(同57.1%増)で市場予想を上回る", "生成AI向けデータセンター顧客の平均販売価格の上昇とビット出荷増が寄与、上場後初の配当1株90円", "10〜12月期の営業利益見通しは2兆円で横ばい、市場予想2.35兆円に届かず"],
   url: "https://www.bloomberg.com/news/articles/2026-10-30/kioxia-s-profit-jumps-due-to-ballooning-ai-data-storage-needs",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 キオクシアホールディングスは10月30日、2026年7〜9月期の決算を発表した。生成AI向けデータセンターの需要でフラッシュメモリーの価格が上がり、売上高は約2.48兆円、営業利益は約1.995兆円と過去最高を更新した。上場後初めてとなる1株90円の配当も決めたが、10〜12月期の利益見通しは市場予想に届かなかった。
@@ -103,7 +103,7 @@ SK hynix・Samsungが「メモリー需要は2027年まで供給を上回る」�
   summary: "NVIDIAが、英ネオクラウドのNscaleがWest Virginiaに建設する「Monarch」キャンパス第2期(460MW)の借入に対し、数十億ドル規模の信用保証を与える方向で協議していると米The Informationが報じた。同キャンパスはAnthropicの計算資源の拠点で、保証が実現すればAnthropic向けの容量は倍増する。契約はまだ締結されていない。",
   points: ["保証対象はNscaleがMonarch第2期460MWの電力設備・建設のために調達する借入で、規模は数十億ドル", "第1期460MWは2027年後半に稼働予定で、Anthropicの6年約450億ドルの計算資源契約の基盤", "NVIDIAはNscaleの出資者でもあり、保証は金利低下と融資拡大をもたらす一方、自社のリスクも膨らむ"],
   url: "https://www.marketscreener.com/news/nvidia-may-guarantee-multibillion-dollar-loans-to-nscale-for-anthropic-project-the-information-ce785fdad081f32d",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 NVIDIAが、英国のAIネオクラウドNscaleに対し、Anthropic向けデータセンターの建設資金について数十億ドル規模の債務保証を与える方向で協議していると、米The Informationが10月29日に報じた。対象はWest Virginia州の「Monarch」キャンパスの第2期460MWで、保証契約はまだ締結されておらず条件も変わりうる。
@@ -143,7 +143,7 @@ Anthropicにとっては、IPOを控えて計算資源の調達を多様化・�
   summary: "米司法省が、NVIDIAによるHugging Faceの129.3億ドルでの買収について、NVIDIAに「AIの基盤的な流通拠点」を握らせることにならないかを調べているとロイターが報じた。調査は数年来続くNVIDIAの事業慣行に関する反トラスト調査の一部で、チップの優先割り当てを自社ネットワーク機器やGroq製品の購入と結び付けていないかも対象になっている。",
   points: ["焦点はオープンモデルの最大の配布拠点であるHugging Faceを、GPUの支配的企業が持つことの是非", "Run:ai・SchedMDの買収や、2025年のGroqとのライセンス・人材取引も質問の対象に", "NVIDIAはプラットフォームのオープン性維持を約束、買収完了は2027年上期の見込み"],
   url: "https://www.investing.com/news/stock-market-news/nvidia-faces-doj-antitrust-scrutiny-over-129b-hugging-face-deal-reuters-says-4980539",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 米司法省が、NVIDIAによるHugging Faceの買収(約129.3億ドル)を精査していると、ロイターが10月29日に関係者の話として報じた。司法省は、この買収によってNVIDIAがAIの「基盤的な流通拠点」を手に入れることにならないかを問題視しているという。正式な提訴や買収差し止めの判断は出ていない。
@@ -183,7 +183,7 @@ Hugging Faceの中立性はオープンウェイト・エコシステムの前�
   summary: "中国のDeepSeekとMoonshot AIが、最新モデルの学習にOpenAIの最上位モデル「GPT-6 Astra」の出力を使っていたと米The Informationが報じ、ロイターが伝えた。対象はDeepSeek「V4.1-Flash-1017」とMoonshot「Kimi K3.1 Pro」で、大きなモデルの出力で別のモデルを学習させる「蒸留」にあたる。OpenAI・DeepSeek・Moonshotはいずれもコメントしていない。",
   points: ["名指しされたのは10月17日公開のDeepSeek V4.1-Flash-1017と10月23日公開のKimi K3.1 Pro", "Moonshotは性能向上を「事後学習の計算量増加と大規模な強化学習」によるものと説明していた", "米当局は中国AI6社の「組織的蒸留」を共同勧告済みで、規制強化の口実になる可能性"],
   url: "https://www.globalbankingandfinance.com/deepseek-moonshot-used-openais-gpt-6-astra-train-latest/",
-  image: null,
+  image: "https://www.globalbankingandfinance.com/i/cloud-f751c016-2b53-412d-a80a-992104457f73/width=1200,height=630,quality=80,format=auto,fit=cover/",
   content: `## 概要
 
 中国のAI企業DeepSeekとMoonshot AIが、最新モデルの学習にOpenAIの最上位モデル「GPT-6 Astra」の出力を利用していたと、米The Informationが報じた。ロイターも報道を伝えたが、OpenAI・DeepSeek・Moonshotの3社はいずれもコメントの求めに応じておらず、報道は匿名の関係者に基づく未確認の情報にとどまる。
@@ -223,7 +223,7 @@ Moonshotは公開時の説明で、Kimi K3.1 Proの性能向上は事後学習�
   summary: "SNSで話題: 第三者評価機関Artificial Analysisが、DeepSeekの「V4.1-Flash-1017」を自社の「Cyber Index」で一般公開モデルの首位と発表し、X上でトレンド入りした。スコアは旧版の41%から57%に上昇。米国が連邦政府機関にDeepSeek技術の排除を命じた直後のタイミングで、拒否動作を取り除いた第三者の「Cyber」版も米国の推論事業者から提供され始めた。",
   points: ["Artificial Analysis Cyber IndexでV4.1-Flash-1017は57%、オープンに入手できるモデルで1位(旧版は41%)", "より高性能な非公開モデルはあるがアクセス制限付き、と同社は注記", "拒否動作を除いた第三者版「Cyber」をInference.netがKYC付きで米国内提供、DeepSeek公式の製品ではない"],
   url: "https://x.com/ArtificialAnlys/status/2113682654709313811",
-  image: null,
+  image: "https://pbs.twimg.com/media/HVVNRNFb0AAU3E-?format=webp&name=large",
   content: `## 概要
 
 AIモデルの第三者評価機関Artificial Analysisが、中国DeepSeekの「V4.1-Flash-1017」を自社のサイバー能力評価「Cyber Index」で、オープンに入手できるモデルの中で首位になったと発表した。投稿はX上で「米国の禁止措置のさなかにDeepSeekがサイバー防御ランキング首位」として話題を集めた。
@@ -261,7 +261,7 @@ GoogleやAnthropicがサイバー特化モデルを「検証済みの防御側�
   summary: "パナソニック オペレーショナルエクセレンスは、子会社パナソニック デジタルと進める人事情報システムの導入プロジェクトで、担当メンバーが社内で利用を禁止している外部の生成AIサービスに約33万4000人分の個人情報をアップロードしていたと公表した。外部からの攻撃ではなく社内ルール違反による事案で、9月29日に個人情報保護委員会へ報告している。",
   points: ["対象は従業員約7万5000人、元従業員約17万8000人、従業員の家族約5万5000人、元従業員の家族約2万6000人", "従業員・元従業員分は社員番号・住所・電話番号・メールアドレスで氏名は含まないとされる", "利用されたサービス名と発覚日は非公表、学習利用は無効化されていたと説明"],
   url: "https://innovatopia.jp/cyber-security/cyber-security-news/119409/",
-  image: null,
+  image: "https://innovatopia.jp/inv-content/uploads/2026/10/image-1792887317089.jpg",
   content: `## 概要
 
 パナソニック オペレーショナルエクセレンス(PEX)は10月23日、子会社のパナソニック デジタルと進める人事情報システムの導入プロジェクトで、担当メンバーが社内で利用を禁止している外部の生成AIサービスに、約33万4000人分の個人情報をアップロードしていたと公表した。外部からのサイバー攻撃ではなく、社内ルールに違反した利用による事案だ。
@@ -298,7 +298,7 @@ GoogleやAnthropicがサイバー特化モデルを「検証済みの防御側�
   summary: "音楽生成AIのSunoが、Model Context Protocol(MCP)に対応した公式サーバーをベータ公開した。承認を受けた利用者は、ChatGPT・Claude・Gemini・Cursor・Claude CodeなどのMCP対応アプリから直接、曲の生成や編集ができる。認証はSunoアカウントのサインインで行い、生成にはSunoのプランのクレジットを使う。",
   points: ["対応先はClaude・ChatGPT・Gemini・Cursor・Claude Codeなど、api.suno.com/mcp をカスタムコネクタとして追加", "文章からの作曲、ループやボイスメモの拡張、ライブラリ曲のリミックス・カバー、保存した「Suno Voice」の適用に対応", "早期アクセス制で申請が必要、APIキーやローカルサーバーは不要"],
   url: "https://www.musicbusinessworldwide.com/sunos-new-mcp-tool-lets-users-make-songs-inside-chatgpt-claude-and-gemini-as-its-developer-api-gets-a-sign-in-portal-but-remains-in-beta/",
-  image: null,
+  image: "https://www.musicbusinessworldwide.com/files/2025/01/Suno.png",
   content: `## 概要
 
 音楽生成AIのSunoが、AIアシスタントと外部ツールをつなぐ標準規格Model Context Protocol(MCP)に対応した公式サーバーをベータ版として公開した。承認を受けた利用者は、ChatGPTやClaude、GeminiなどのAIアシスタントの画面から離れずに、曲を作ったり編集したりできる。
