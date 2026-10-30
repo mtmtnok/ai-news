@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-10-24",
+  updated: "2026-10-31",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -28,6 +28,7 @@ window.RELATIONS = {
     { id: "ami",          label: "AMI Labs",     sector: "lab" },
     { id: "sakana",       label: "Sakana AI",    sector: "lab", jp: true },
     { id: "reflectionai", label: "Reflection AI", sector: "lab" },
+    { id: "metis",        label: "Metis Reasoning", sector: "lab" },
     { id: "moonshot",     label: "Moonshot AI",  sector: "lab" },
     { id: "ssi",          label: "Safe Superintelligence", sector: "lab" },
     { id: "discoveryloop", label: "Discovery Loop", sector: "lab" },
@@ -146,6 +147,7 @@ window.RELATIONS = {
     { id: "cadence",      label: "Cadence",          sector: "semi", sub: "design" },
     { id: "synopsys",     label: "Synopsys",         sector: "semi", sub: "design" },
     { id: "blackstone",   label: "Blackstone",       sector: "invest" },
+    { id: "apollo",       label: "Apollo",           sector: "invest" },
     { id: "coatue",       label: "Coatue",           sector: "invest" },
     { id: "winverse",     label: "Winverse AI",  sector: "app" },
     { id: "adaniconnex",  label: "AdaniConneX",  sector: "cloud" },
@@ -610,8 +612,8 @@ window.RELATIONS = {
       label: "80〜100億ドルでの買収交渉が26/6に報じられたが、Tenstorrentは買収関心を退け15億ドルのシリーズE（評価額62億ドル）で独立路線へ", date: "2026-10",
       source: "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e" },
     { from: "nvidia", to: "huggingface", type: "ma", threads: ["labs", "talent"],
-      label: "オープンソースAIハブを129億3000万ドルで買収。うち最大10億ドルは従業員向け引き留め株式。2027年上期クロージング予定", date: "2026-09",
-      source: "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/" },
+      label: "オープンソースAIハブを129億3000万ドルで買収（26/9合意、2027年上期完了予定）。26/10に米司法省が「AIの基盤的な流通拠点」の掌握を懸念して精査とロイター報道", date: "2026-10",
+      source: "https://www.investing.com/news/stock-market-news/nvidia-faces-doj-antitrust-scrutiny-over-129b-hugging-face-deal-reuters-says-4980539" },
     { from: "alephalpha", to: "cohere", type: "ma", threads: ["labs"], status: "reported",
       label: "正式な合併契約を締結。評価額200億ドル規模、「大西洋横断の主権AI」を掲げベルリン・トロント両本社体制へ。規制当局の最終承認待ちで2026年内完了を見込む", date: "2026-09",
       source: "https://betakit.com/cohere-reaches-terms-with-german-peer-aleph-alpha-to-take-on-ai-giants/" },
@@ -730,6 +732,27 @@ window.RELATIONS = {
       source: "https://letsdatascience.com/news/openai-explores-trail-of-bits-acquisition-a87e7f9e" },
     { from: "openai", to: "arda", type: "talent", threads: ["talent"], person: "Bob McGrew",
       label: "元OpenAI研究責任者がAIで米製造業の設計変更を効率化するArdaを創業、評価額15億ドルで正式始動", date: "2026-10",
-      source: "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html" }
+      source: "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html" },
+    { from: "google", to: "openai", type: "partner", threads: ["compute", "semi"], flow: "計算資源", status: "reported",
+      label: "OpenAIがGoogleのTPUをレンタルから購入に転換へとThe Information報道。NVIDIA依存の低減", date: "2026-10",
+      source: "https://www.cnbc.com/2026/10/28/google-alters-cloud-playbook-turning-to-partners-to-sell-more-ai-chips.html" },
+    { from: "google", to: "oracle", type: "partner", threads: ["compute", "semi"], flow: "販売",
+      label: "Googleの第8世代TPUを2027年からOracle Cloud（OCI）で提供。GoogleはパートナーによるTPU外販へ転換", date: "2026-10",
+      source: "https://www.cnbc.com/2026/10/28/google-alters-cloud-playbook-turning-to-partners-to-sell-more-ai-chips.html" },
+    { from: "nvidia", to: "meta", type: "invest", threads: ["compute", "labs"], amount: 30,
+      label: "Metaの最大950億ドルの株式発行で30億ドル分を引き受け。Museモデルの学習・推論で協業拡大、MetaはVera Rubinを導入", date: "2026-10",
+      source: "https://finance.yahoo.com/markets/article/nvidia-to-invest-3-billion-in-meta-expand-partnership-on-muse-125249944.html" },
+    { from: "blackstone", to: "anthropic", type: "partner", threads: ["compute", "labs"], flow: "資金",
+      label: "BofA・Citi・Morgan Stanleyと630億ドルを確約。SPVがBroadcom製AIチップ・ネットワーク機器を買い取りAnthropicにリース（2027年納入開始、Broadcomが残存価値を保証）", date: "2026-10",
+      source: "https://finance.yahoo.com/technology/ai/articles/broadcom-secures-63-billion-banks-205926176.html" },
+    { from: "apollo", to: "spacex", type: "partner", threads: ["compute"], flow: "資金",
+      label: "NVIDIA「Vera Rubin」を含むデータセンター機器の約400億ドルのリース契約で拘束力ある合意。「過去最大のGPUファイナンス」", date: "2026-10",
+      source: "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx" },
+    { from: "nvidia", to: "nscale", type: "partner", threads: ["compute", "labs"], flow: "資金", status: "negotiating",
+      label: "Anthropic向けWest Virginia「Monarch」第2期460MWの建設借入に数十億ドルの債務保証を協議とThe Information報道。未締結", date: "2026-10",
+      source: "https://www.marketscreener.com/news/nvidia-may-guarantee-multibillion-dollar-loans-to-nscale-for-anthropic-project-the-information-ce785fdad081f32d" },
+    { from: "google", to: "metis", type: "talent", threads: ["talent"], person: "Thore Graepel",
+      label: "AlphaGo共同開発者。今夏DeepMindを退社し、監査可能で計算効率の高い推論AIを狙う新ラボMetis Reasoningをロンドンで共同創業", date: "2026-10",
+      source: "https://lionherald.com/london-gains-another-ai-lab-as-alphago-veteran-launches-metis-reasoning/" }
   ]
 };
