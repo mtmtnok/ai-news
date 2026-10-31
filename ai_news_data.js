@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "英フィナンシャル・タイムズ(FT)によると、OpenAIは進行中の資金調達の目標額を300億ドルから約200億ドルに減らし、評価額の目標も1.4兆ドルから1.25兆ドルに引き下げた。拘束力のある出資表明の締め切りは10月30日で、最初の締め(ファーストクローズ)は新目標にも届かない可能性があるという。AI関連株の急落が続くなか、フロンティアラボの資金集めにも陰りが出ている。",
   points: ["調達目標は300億ドル→約200億ドル、評価額目標は1.4兆ドル→1.25兆ドルに引き下げ(FT報道)", "ソフトバンクの出資枠は300億ドルから200億ドルに縮小、WSJは確約額を約110億ドルと報道", "同じ評価額で富裕層向けの追加募集を行い目標達成をめざす案も、OpenAIはコメントせず"],
   url: "https://fortune.com/2026/10/31/ai-boom-bust-openai-fundraising-target-meta-credit-warning-cash-flow-capex/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297228232-e1793459799235.jpg?resize=1200,600",
   content: `## 概要
 
 OpenAIが進めている大型の資金調達で、目標額が300億ドルから約200億ドルへと3分の1ほど縮小されたと、英フィナンシャル・タイムズ(FT)が10月30日に報じた。評価額の目標も1.4兆ドルから1.25兆ドルに引き下げられた。ハイテク株の急落で投資家の慎重姿勢が強まり、AIブームの資金の流れに変調が出ていることを示すニュースとして受け止められている。
@@ -64,7 +64,7 @@ OpenAIが進めている大型の資金調達で、目標額が300億ドルか�
   summary: "Googleは10月28日、自社で最も高性能なAIモデル「Gemini 4 Carbon」を発表した。サイバーセキュリティと長時間かかる作業に強く、脆弱性の発見・悪用・修正の各ベンチマークで高いスコアを示した。悪用の懸念から、まずは少数のサイバー防御担当者に限って提供し、信頼できるパートナーを段階的に広げる。",
   points: ["脆弱性発見のSEC-bench Proで88.2%、悪用のExploitGymで54.8%、修正のCWE-benchで71.0%(Google発表)", "まず少数のサイバー防御担当者に限定提供し、「Fairwind Program」で信頼できるパートナーを段階的に追加", "2週間前に一般提供した「Gemini 4 Argon」の上位版、API導入価格は入力2ドル・出力10ドル(100万トークンあたり)"],
   url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
   content: `## 概要
 
 Googleは10月28日、同社で最も高性能なAIモデル「Gemini 4 Carbon」を発表した。サイバーセキュリティと、長時間にわたって自律的に進める作業に強みを持つ。攻撃にも使えるほど能力が高いことから、最初は少数のサイバー防御担当者に限って提供し、利用者を段階的に広げる方針をとる。開発者や企業、一般消費者への提供時期は明らかにしていない。
@@ -104,7 +104,7 @@ Googleにとっては、決算でAI投資の重さが嫌気され株価が急落
   summary: "Intelの7〜9月期決算は売上高165億ドル・1株利益0.52ドルと市場予想を上回ったが、10〜12月期の売上高見通しを150億〜160億ドルと予想(約170億ドル)を大きく下回る水準に置いた。株価は時間外取引で21%下落し、翌10月30日には半導体株全体が売られた。ファウンドリー事業は外部顧客からの売上高が4.1億ドルにとどまり、赤字が続く。",
   points: ["7〜9月期は売上高165億ドル・調整後1株利益0.52ドルで予想超え、データセンター部門は過去最高の伸び", "10〜12月期は売上高150億〜160億ドル・1株利益0.25ドルの見通しで予想を大きく下回り、粗利益率も44.1%→38%に低下見込み", "ファウンドリー売上高は67億ドル(前四半期比16%増)だが外部顧客分は4.1億ドルで赤字が継続"],
   url: "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108477591-1793228651801-gettyimages-2278665792-AFP_B4P96JT.jpeg?v=1793228835&w=1920&h=1080",
   content: `## 概要
 
 米Intelが10月29日に発表した2026年7〜9月期決算は、売上高・利益とも市場予想を上回った。しかし10〜12月期の見通しが予想を大きく下回ったことで、株価は時間外取引で約21%下落した。翌30日には半導体株全体に売りが広がり、フィラデルフィア半導体株指数(SOX)は7.2%下げた。
@@ -144,7 +144,7 @@ AI向けで好調なNVIDIAやメモリー各社と違い、Intelはパソコン�
   summary: "格付け会社S&Pグローバルは10月30日、Metaの長期格付け「AAマイナス」を据え置いたうえで、見通しを「安定的」から「ネガティブ」に引き下げた。AI向けの巨額の設備投資でキャッシュフローがマイナスになり、2027年にも負債の比率が格下げの目安を超えうるとした。Metaは「AIの収益化能力についての評価には同意しない」と反論している。",
   points: ["格付けAAマイナスは維持、見通しを「安定的」→「ネガティブ」に引き下げ", "設備投資は2026年1400億ドル、2027年2250億ドル超、2028年2520億ドルとS&Pが予測、レバレッジは早ければ2027年に格下げ目安の1.0倍超", "「AI投資の収益化の力は同業より限定的」とS&P、Metaは評価に反論"],
   url: "https://startupfortune.com/sp-global-cuts-metas-credit-outlook-to-negative-over-ai-spending/",
-  image: null,
+  image: "https://startupfortune.com/wp-content/uploads/2026/10/meta-anthropic-s-p-global.jpg",
   content: `## 概要
 
 格付け会社S&Pグローバルは10月30日、Metaの格付け見通しを「安定的」から「ネガティブ」に引き下げた。長期格付けの「AAマイナス」は維持したが、AI向けの巨額の設備投資でキャッシュフローがマイナスに転じていることや、今後の投資額の不確実さを理由に挙げた。巨大テック企業のAI投資が、信用力の評価にまで影響し始めている。
@@ -183,7 +183,7 @@ Metaは10月下旬、最大950億ドルの株式発行でAI投資の資金を確
   summary: "仏Mistral AIは、10月6日にプレビュー公開した総パラメータ約1兆の大規模モデル「Mistral Large 4」の重みをHugging Faceで公開した。プレビュー後に3週間の追加学習を行い、エージェント操作のベンチマークで成績が大きく伸びたとしている。量子化版はNVIDIAのB200/B300 GPU 4基で動くという。",
   points: ["総パラメータ約1.05兆・稼働パラメータ約520億(資料により490億)のMoE、16億パラメータの画像エンコーダーを搭載", "Terminal-Bench 4.0でプレビュー版28.3%から正式版は約41%に向上とMistralが主張、第三者の検証は未了", "改変MITライセンス「Mistral Ecosystem Open-Weight」で公開、量子化版はB200/B300 4基で稼働"],
   url: "https://mistral.ai/news/mistral-large-4-oss/",
-  image: null,
+  image: "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
   content: `## 概要
 
 仏Mistral AIは、総パラメータ約1兆の大規模言語モデル「Mistral Large 4」の重み(パラメータ)を公開した。10月6日にAPIのプレビューとして発表したモデルに3週間の追加学習を施した正式版で、誰でもダウンロードして自社環境で動かせる。「米国と中国以外で最も賢いモデル」との評価も出ており、欧州のオープンウェイト勢の旗手としての存在感を高めている。
@@ -222,7 +222,7 @@ Mistralは今秋、Samsungが主導する30億ユーロの資金調達を実施�
   summary: "Google・Microsoft・OpenAI・Anthropicの4社は10月30日、ウェブサイトの運営者がAIの学習への利用を1つの指定でまとめて拒否できる共通の仕組みに対応すると発表した。robots.txtに「__usage_ai-training」という指定を書くと、各社のAI学習から除外される。ただし対象は学習への利用で、検索エンジンなどのクロールそのものは止まらない。",
   points: ["robots.txtに「__usage_ai-training」とDisallowを書けば、各社ごとに指定せずAI学習を一括で拒否できる", "Microsoftは2027年2月1日、Googleは2027年初めに対応、OpenAIは数カ月以内に実装予定", "IETFのインターネットドラフトとして提案、クロールの可否ではなく学習への利用の意思表示"],
   url: "https://ppc.land/google-microsoft-openai-and-anthropic-back-one-ai-training-opt-out/",
-  image: null,
+  image: "https://ppc.land/content/images/2026/10/google-microsoft-openai-anthropic-ai-training-opt-out-robots-txt-rubber-stamp.jpg",
   content: `## 概要
 
 Google・Microsoft・OpenAI・Anthropicの4社は10月30日、ウェブサイトの運営者がAIモデルの学習への利用をまとめて拒否できる共通の指定に対応すると発表した。これまでは、AI企業ごとに異なるクローラー名を調べてrobots.txtに1つずつ書く必要があったが、1つの指定で済むようになる。出版社やメディアにとって、AI学習をめぐる意思表示の手間が大きく減る。
@@ -259,7 +259,7 @@ AI企業による無断の学習利用は、ニューヨーク・タイムズと
   summary: "OpenAIは10月29日、自社のAIモデルがどう振る舞うべきかを定めた文書「Model Spec」を改訂し、全体を5つの中心的な価値に沿って組み立て直した。細かな文体の指示の多くを削除し、文脈の読み取りや人による監督についての章を新設した。現行のモデルはまだ指針に完全には沿っていないとして、価値そのものを教える新たな学習手法を試している。",
   points: ["5つの価値は「人の意図への忠実さ」「害の最小化」「誠実さと透明性」「人の主体性」「思いやり」", "細かな文体の指示の多くを削除し、文脈と監督の章を新設、モデルの呼称を「アシスタント」から「GPT」に変更", "現行モデルは指針に完全には沿っておらず、価値と規則の理由を教える新しい学習手法を試験中"],
   url: "https://openai.com/index/updated-model-spec/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/75veJvi069XNefheZKrGT3/524e301a9565289e83b5a666d47b3da5/model-spec-update-more-capable-beneficial-ai-seo.png?w=1600&h=900&fit=fill",
   content: `## 概要
 
 OpenAIは10月29日、同社のAIモデルが目指すべき振る舞いを定めた文書「Model Spec」の改訂版を公開した。これまで項目ごとに積み上げてきた規則を、5つの中心的な価値に沿って組み立て直したのが最大の変更点だ。AIがより大きな判断を任されるようになるなかで、個別の規則よりも「なぜそうするのか」という価値を軸にする考え方に移った。
@@ -297,7 +297,7 @@ OpenAIは、現在のモデルはこの指針に完全には沿っていない�
   summary: "2nm世代の半導体の量産をめざすRapidusは10月26日、インドのIT大手HCLTechと次世代半導体技術での提携を発表した。HCLTechはRapidus向けの開発拠点2カ所をインドに開設し、フォトマスク設計や設計キット(PDK)の開発を支援する。日本でRapidusが必要とする技術者の育成でも協力する。",
   points: ["HCLTechがRapidus向けの開発拠点2カ所をインドに開設(所在地はノイダ本社での式典、ベンガルール・フブリと報道に差)", "フォトマスク設計とPDK(プロセス設計キット)の開発でHCLTechが技術を提供、PDKは2026年度に公開予定", "インドの技術者を日本のRapidusに送り込む人材パイプラインも構築、2nm量産は2027年度に千歳で開始予定"],
   url: "https://www.rapidus.inc/en/news_topics/information/20261026-2/",
-  image: null,
+  image: "https://www.rapidus.inc/wp/wp-content/themes/rapidus2/assets/image/og.png",
   content: `## 概要
 
 最先端の2nm世代の半導体の量産をめざすRapidusは10月26日、インドのIT大手HCLTechと次世代半導体技術で提携すると発表した。HCLTechはRapidusの設計・エンジニアリング業務を支える開発拠点2カ所をインドに開設した。量産開始を2027年度に控え、設計の支援体制と技術者の確保を海外にも広げる。
@@ -336,7 +336,7 @@ Rapidusは10月上旬、ケイデンスやシノプシスなど国内外の設�
   summary: "実験物理の研究でAIエージェントを「共同研究者」として使うための10の要件を示した論文がarXivに投稿された。人間の研究者が方向を決めて結果に責任を持ち、エージェントがその専門性を広げるという枠組みを提案し、6つの事例で検証した。その1つでは、固体中の量子欠陥の光応答を表すモデルを作り、研究グループが以前に発表した成果を上回ったという。",
   points: ["実験物理でAIエージェントを共同研究者として使うための10の要件を提示", "人間が研究の方向を決め結果に責任を持ち、エージェントは専門性を補う役割と位置づけ", "6つの事例研究のうち、固体の量子欠陥の光ダイナミクスのモデルでは過去の自身の発表を上回る結果"],
   url: "https://arxiv.org/abs/2610.17193",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 
 実験物理の研究にAIエージェントを「共同研究者」として組み込むための要件を整理した論文が、10月下旬にarXivに投稿された。著者らは10の要件を示し、6つの事例研究でその考え方を試した。AIが研究そのものを担う「AI科学者」が話題になるなかで、人間の研究者との分担のあり方を具体的に描いた研究として、日次の論文まとめでも取り上げられた。
