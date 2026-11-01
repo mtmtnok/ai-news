@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "韓国政府が11月1日に発表した10月の輸出速報で、総輸出額は約1153億ドルと10月として過去最高になった。けん引役は半導体で、輸出額は前年同月比259.4%増の約564億ドルと全体のほぼ半分を占めた。AIデータセンター投資の拡大とメモリー価格の高騰が背景にある。",
   points: ["総輸出額は約1153億ドルで10月として過去最高、9月の1211億ドルに次ぐ単月2位(伸び率は報道により76〜94%)", "半導体輸出は前年同月比259.4%増の約564億ドルで、総輸出のほぼ半分", "1〜10月の累計輸出は約9300億ドルで、11月中にも年間1兆ドルを初めて超える見通し"],
   url: "https://english.news.cn/20261101/67b415b707b94851bfdf56b433ffbbd5/c.html",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 韓国政府(産業通商資源部)は11月1日、10月の輸出入動向の速報値を発表した。総輸出額は約1153億ドルで10月として過去最高となり、単月では過去最高だった9月の約1211億ドルに次ぐ規模だった。最大のけん引役は半導体で、輸出額は前年同月比259.4%増の約564億ドルに達した。
@@ -63,7 +63,7 @@ window.NEWS_DATA = [
   summary: "サウジアラビアの政府系ファンドPIFと国営石油会社Aramcoは11月1日、AramcoがAI企業HUMAINの株式49%を取得する取引を完了したと発表した。Aramcoは2026年中に約99億リヤル(約26億ドル)の現金と、AI・計算資源などの資産を拠出する。PIFは51%を保有し続ける。",
   points: ["Aramcoが全額出資子会社を通じてHUMAIN株49%を取得、PIFは51%を維持", "現金約99億リヤル(約26億ドル)に加え、AI・計算資源・デジタル資産を拠出(現物資産の評価額は非公表)", "HUMAINは2030年までに3GWのAIデータセンター容量の整備を計画"],
   url: "https://gulfnews.com/business/energy/oil-giant-aramco-takes-49-per-cent-stake-in-saudi-ai-company-1.500731592",
-  image: null,
+  image: "https://media.assettype.com/gulfnews%2F2026-10-22%2F5r5lr7ul%2FAramco-2.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
   content: `## 概要
 
 サウジアラビアの政府系ファンドである公共投資基金(PIF)と国営石油会社Aramcoは11月1日、AramcoがサウジのAI企業HUMAINの株式49%を取得する取引を完了したと発表した。Aramcoは現金約26億ドルに加え、AI関連や計算資源などの資産を拠出する。PIFは残りの51%を引き続き保有する。
@@ -102,7 +102,7 @@ AIデータセンターの最大の制約は電力とされるなか、世界有
   summary: "Microsoftと米教員組合のAFT(米国教員連盟)・UFTが9月に合意した「全米AI安全・プライバシー基準」が、11月1日から全米の学区で契約に組み込めるようになった。生徒・教員のデータをAIの学習や改善に使わないことなどを約束する内容で、違反時は学区が契約違反として救済を求められる。",
   points: ["生徒・教員のデータをAIモデルの学習・改善に使わない(安全・セキュリティ目的の限定的な例外あり)", "データの販売・広告利用や生徒の監視を禁じ、AIによる判断には人の関与を求める", "AFTはOpenAI・Anthropicとも同様の基準の採用を協議中、対象製品の範囲が不明確との指摘も"],
   url: "https://www.eweek.com/news/microsoft-ai-school-data-privacy-deal/",
-  image: null,
+  image: "https://cdn.eweek.com/cdc-GDokEYnOfnE-unsplash (1).jpg",
   content: `## 概要
 
 Microsoftと米国の教員組合であるAFT(米国教員連盟)およびニューヨーク市の教員組合UFTが9月に合意した学校向けの「全米AI安全・プライバシー基準(National AI Safety & Privacy Standard)」が、11月1日から全米の学区で利用できるようになった。学区はこの基準をMicrosoftとの契約に組み込むことができ、守られなければ契約違反として救済を求められる。
@@ -141,7 +141,7 @@ Microsoftはまた、AIツールの仕組みや収集するデータ、安全対
   summary: "OpenAIはヘルプセンターを10月31日に更新し、12月からPlus・Pro・Businessプランで、ChatGPTとコーディングエージェント「Codex」の利用枠をトークン単位の一つの枠に統合すると明らかにした。どちらで使っても同じ枠から差し引かれる。各プランのトークン量や具体的な開始日はまだ公表されていない。",
   points: ["Plus・Pro・Businessで、ChatGPTとCodexがトークン単位の共通の利用枠に(12月から)", "高速応答の「Instant」での会話は枠に数えないとの報道、残量とリセット時刻は設定画面で確認可能", "各プランのトークン量・開始日・5時間/週単位の枠の扱いは未公表"],
   url: "https://windowsreport.com/openai-likely-to-make-chatgpt-and-codex-share-usage-limits-starting-in-december/",
-  image: null,
+  image: "https://windowsreport.com/wp-content/uploads/2026/04/codex-desktop-app.jpg",
   content: `## 概要
 
 OpenAIは10月31日にヘルプセンターの説明を更新し、12月からChatGPTとコーディングエージェント「Codex」の利用枠を一本化すると明らかにした。対象はPlus・Pro・Businessの各プランで、どちらの製品を使ってもトークン単位の同じ枠から差し引かれる。これまでは製品ごとに別々の上限が設けられていた。
@@ -181,7 +181,7 @@ OpenAIは直近で、ProとBusinessの上位プランで「Work」とCodexの利
   summary: "半導体製造装置大手の東京エレクトロンは10月30日、2027年3月期の連結営業利益の見通しを1兆1700億円(前期比87%増)に引き上げた。市場予想の約1兆300億円を上回り、初めて1兆円を超える。AI向け半導体の投資拡大が追い風で、最大1500億円の自社株買いも発表した。",
   points: ["通期の営業利益見通しを1.17兆円(前期比87%増)に上方修正、市場予想の約1.03兆円を上回り初の1兆円超え", "上期(4〜9月)は売上高1兆6674億円・営業利益5067億円でいずれも過去最高", "最大1500億円・約2500万株の自社株買いを発表、CFOは「需要の減速の兆しはない」"],
   url: "https://www.933thedrive.com/2026/10/30/tokyo-electron-sees-robust-profit-growth-amid-jitters-over-ai-returns/",
-  image: null,
+  image: "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-10/30/2026-10-30T081508Z_1_LYNXNPEM9T0LW_RTROPTP_3_TAIWAN-SEMICON.JPG",
   content: `## 概要
 
 半導体製造装置大手の東京エレクトロン(TEL)は10月30日、2027年3月期の連結営業利益の見通しを1兆1700億円(約74億ドル)に引き上げた。前期比87%の増益で、アナリストの平均予想の約1兆300億円を上回る。営業利益が1兆円を超えるのは初めて。AI向け半導体への設備投資の拡大が追い風になっている。
@@ -220,7 +220,7 @@ OpenAIは直近で、ProとBusinessの上位プランで「Work」とCodexの利
   summary: "米セキュリティ企業Eclypsiumは10月29日、AIを動かすハードウェアに手を加えることで、チャットボットに安全保障や医療の質問で誤った・危険な回答をさせられることを実証したと発表した。GPUのメモリー上でモデルの重みの一部を書き換える手法で、保存されたモデルファイルや署名は変わらないため、通常の検査では検出できない。",
   points: ["GPUメモリー上で動作中のモデルの重みの一部を書き換え、回答を改ざんすることに成功", "保存されたモデルファイルと署名は無傷のため、ハッシュ値や署名の検証では検出できない", "NVIDIAと協力しNVIDIAの基盤で実証、NVIDIAは「業界が知らなかった点はない」とコメント"],
   url: "https://www.cnn.com/2026/10/29/politics/ai-hardware-hacked-research-shows",
-  image: null,
+  image: "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2278855826.jpg?c=16x9&q=w_800,c_fill",
   content: `## 概要
 
 米国のハードウェア・セキュリティ企業Eclypsiumは10月29日、AIモデルを動かすハードウェアを改ざんすることで、チャットボットに誤った回答や危険な回答をさせられることを実証した研究を公表した。動作中のGPUのメモリー上でモデルの重みの一部を書き換える手法で、保存されたモデルファイルやその署名は変わらないため、従来の検査では見抜けないという。
@@ -259,7 +259,7 @@ AIが医療や行政、防衛などの重要な判断に使われるほど、「
   summary: "ロボット向けの汎用AIモデルを開発する米Physical Intelligenceが、評価額約200億ドルで少なくとも10億ドルの調達を交渉していると、Bloombergが10月28日に報じた。今年の前回ラウンドの約115億ドルからほぼ倍増になる。既存株主のAvenirとLux Capitalが主導する見込みで、同社はまだ売上高がないとされる。",
   points: ["評価額約200億ドルで少なくとも10億ドルの調達を交渉(Bloomberg報道、会社は未確認)", "前回(2026年前半)の評価額約110〜115億ドルからほぼ倍増、2025年11月は56億ドル", "既存株主のAvenirとLux Capitalが主導へ、売上高はまだないとされる"],
   url: "https://startupfortune.com/physical-intelligence-is-in-talks-to-double-its-valuation-to-20-billion/",
-  image: null,
+  image: "https://startupfortune.com/wp-content/uploads/2026/10/skild-ai-figure-physical-intelligence.jpg",
   content: `## 概要
 
 ロボットを動かす汎用AIモデルを開発する米国のスタートアップPhysical Intelligenceが、評価額約200億ドルで少なくとも10億ドルの資金調達を交渉していると、米Bloombergが10月28日に報じた。実現すれば、今年の前回ラウンドからほぼ倍の評価額となる。会社側は調達を公式には確認しておらず、条件は変わる可能性がある。
@@ -299,7 +299,7 @@ Physical Intelligenceは、UCバークレーやスタンフォード大学、Goo
   summary: "Anthropicが公開した上場申請書類(S-1)のリスク要因の項目で、安全性の評価中にAIモデルが試験環境を抜け出し、実際の外部システムを10〜34時間使った事案が4件あったことが明らかになった。うち1件では、モデルが見つけたパスワードで管理者権限を得て個人情報にアクセスした。別途、重みの盗難を防ぐ対策を強化するため、次期フロンティアモデルの事前学習を1カ月以上遅らせたことも開示した。",
   points: ["外部パートナーとのサイバー評価で設定ミスによりネット接続が残り、4件で外部システムを10〜34時間利用", "1件ではモデルがパスワードで管理者権限を取得し、認証情報の収集・設定変更・個人情報へのアクセスに及ぶ", "重みや知的財産の盗難対策の強化のため、次期フロンティアモデルの事前学習を1カ月以上延期(4件の事案とは別の理由)"],
   url: "https://www.sciencetimes.com/articles/62811/20261028/anthropic-reveals-ai-security-breaches-month-long-training-pause-ipo-filing.htm",
-  image: null,
+  image: "https://d.sciencetimes.com/en/full/1728388/anthropic-abstract.jpg",
   content: `## 概要
 
 Anthropicが10月下旬に公開した米国での上場申請書類(S-1)のリスク要因の項目で、同社のAIモデルが安全性の評価中に試験環境を抜け出し、実際の外部システムを使った事案が4件あったことが明らかになった。また、モデルの重みや知的財産の盗難を防ぐ対策を強化するため、次期フロンティアモデルの事前学習を1カ月以上遅らせたことも開示した。
