@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Anthropicが米ナスダック上場(ティッカー「ANT」)に合わせ、日本国内で最大35億ドル(約5528億円)の株式を募集する届出書を関東財務局に提出した。日本経済新聞によると、海外企業のIPOに伴う国内募集として過去最大で、6月に上場したスペースXの国内調達額を約6割上回る。発行株数・価格は未定で、上場は11月中旬が見込まれている。",
   points: ["国内募集の上限は35億ドル(約5528億円)、海外企業のIPOとして国内過去最大", "販売はみずほ・ゴールドマン・サックス・三菱UFJモルガン・スタンレー・モルガン・スタンレーMUFG・楽天・SBIの6社", "資金は計算資源・インフラ投資、運転資金、人材採用に充当", "発行株数・価格・評価額は未定、ナスダックの上場承認もまだ"],
   url: "https://nikkei.com/article/DGXZQOUB020LO0S6A101C2000000",
-  image: null,
+  image: "https://www.nikkei.com/.resources/k-components/rectangle.rev-d54ea30.png",
   content: `## 概要
 
 Anthropicは11月2日、米ナスダックへの新規株式公開(IPO)にあわせて、日本国内で最大35億ドル(約5528億円)の株式を募集する有価証券届出書を関東財務局に提出した。日本経済新聞によると、海外企業のIPOに伴う国内募集としては過去最大の規模で、日本の個人・機関投資家がフロンティアAIラボの株式を上場時に直接買える初めての大型案件になる。
@@ -63,7 +63,7 @@ Anthropicは11月2日、米ナスダックへの新規株式公開(IPO)にあわ
   summary: "OpenAIは11月2日、アブダビで開かれたエネルギー見本市ADIPECで、アブダビの政府・企業と4件の契約を結んだ。国営石油ADNOCはG42とともに企業向け基盤「OpenAI Frontier」を全社に導入するほか、政府系ファンドのムバダラとは投資分析へのAI活用で合意した。中東の投資家から資金を集める動きとも重なる。",
   points: ["ADNOC・G42と複数年契約、ADNOCはOpenAI Frontierを導入する初のエネルギー企業", "ムバダラ・Inception42とは投資分析にAIを使う契約", "アブダビ政府と規制をAIが解釈できる「機械可読な政府」を始動、Inception42とは5年契約も", "約200億ドルの資金調達で中東の投資家に頼る動きと連動"],
   url: "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108469839-1793120706479-Screenshot_2026-10-27_at_125651_PM.png?v=1793120747&w=1920&h=1080",
   content: `## 概要
 
 OpenAIは11月2日、アラブ首長国連邦(UAE)のアブダビで開かれた世界最大級のエネルギー見本市ADIPECの場で、アブダビの政府・企業と計4件の契約を結んだ。署名にはアブダビのハリド皇太子とサム・アルトマンCEOが立ち会った。エネルギー、投資、行政の3分野にまたがり、OpenAIのアブダビでの足場がさらに広がった。
@@ -103,7 +103,7 @@ CNBCなどは、OpenAIが中東の投資家の協力を得て約200億ドルの�
   summary: "中国のDRAM大手CXMT(長鑫存儲)が、AIチップ向けの広帯域メモリーHBM3Eを今後2カ月ほどで限定生産する計画だとロイターが関係者の話として報じた。使える製品の割合を示す歩留まりは20〜30%とSK hynixの約70%に遠く及ばず、性能も一世代前のHBM3並みとされる。それでも、米国の輸出規制で先端メモリーを入手しにくい中国のAIチップ各社の需要に応える。",
   points: ["CXMTは国内AIチップ各社にHBM3Eの試作品を出荷、約2カ月以内に限定生産へ", "歩留まりは20〜30%でSK hynixの約70%を大きく下回る", "性能はSK hynixのHBM3Eより一世代前のHBM3に近いとの評価", "アリババ系T-HeadやCambriconが検証中、搭載製品は早ければ2027年"],
   url: "https://www.thestandard.com.hk/china/article/346737/Chinas-CXMT-to-start-advanced-AI-memory-production-despite-poor-yields-sources-say",
-  image: null,
+  image: "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/0700d1a96e323e30667cc11c67d3555d/2026-10/x_12.jpg",
   content: `## 概要
 
 中国のDRAM大手、長鑫存儲技術(CXMT)が、AIチップ向けの広帯域メモリー「HBM3E」の限定生産を今後2カ月ほどで始める計画だと、ロイターが10月28日に関係者2人の話として報じた。歩留まりは20〜30%と低く、性能も韓国勢の一世代前の水準にとどまるが、先端メモリーの不足に悩む中国のAIチップ各社の需要を優先して生産に踏み切るという。
@@ -143,7 +143,7 @@ HBMはAIチップの性能を左右する部品で、現在はSK hynix、Samsung
   summary: "清華大学の姚期智氏と袁洋氏のチームが、AIエージェントが未知の環境の規則を代数的な構造として捉え、数学的に証明しながら攻略する「代数世界モデル(AWM)」を提案した。汎用知能の新しい指標ARC-AGI-3の全183レベルをAnthropicのClaude Opus 5で突破し、スコア99.9%、平均手数は人間の基準の43%だったという。「このレベルはクリアできない」と証明できるのも特徴だ。",
   points: ["エージェントがゲームの規則をPythonの仮説として書き、Lean 4で勝てるか・最少手数を証明", "Claude Opus 5でARC-AGI-3の全183レベルを突破しスコア99.9%と報告", "平均手数は人間の基準の43%、解けない面は2回の試行で「不可能」を証明", "論文「Algebraic World Model: From Exploration to Proofs」をarXivで公開"],
   url: "https://www.qbitai.com/2026/11/507031.html",
-  image: null,
+  image: "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png",
   content: `## 概要
 
 清華大学の姚期智氏(チューリング賞受賞者)と袁洋氏が率いるチームが、AIエージェントのための新しい手法「代数世界モデル(Algebraic World Model, AWM)」を発表した。未知のゲーム環境の規則を代数的な構造として捉え、仮説を数学的に証明しながら攻略する。中国のAIメディア量子位などによると、汎用知能を測る新しい指標「ARC-AGI-3」の全183レベルを突破し、スコア99.9%を記録したという。
@@ -220,7 +220,7 @@ OpenAIの利用枠一本化と合わせ、フロンティアラボの個人向�
   summary: "Googleは、GitHubのリポジトリで自律的に作業するAIコーディングエージェント「Jules」を終了すると発表した。11月11日から読み取り専用になり、12月31日にサービスを停止する。Julesの知見はエージェント中心の開発環境「Antigravity」に生かすとしているが、自動移行や完全な後継機能の時期は示していない。",
   points: ["11月11日から読み取り専用、12月31日にサービス終了", "コード・ブランチ・プルリクエストはGitHubに残るが、設定や予約タスク、履歴は手動で書き出しが必要", "クラウドでのバックグラウンド実行はAntigravityにまだなく、提供時期は未定", "同日にAntigravityのプラグインマーケットプレイスを開設"],
   url: "https://www.timesofai.com/news/google-jules-antigravity/",
-  image: null,
+  image: "https://www.timesofai.com/wp-content/uploads/2026/10/Google-Is-Shutting-Down-AI-Coding-Agent-Jules-As-It-Moves-Its-Work-To-Antigravity.webp",
   content: `## 概要
 
 Googleは10月下旬、AIコーディングエージェント「Jules」を終了すると発表した。Julesは11月11日から読み取り専用となり、12月31日にサービスを停止する。Googleは、Julesで得た経験をエージェント中心の開発環境「Antigravity」に生かすとしており、コーディング支援の製品をAntigravityに集約する。
@@ -258,7 +258,7 @@ AIコーディングの分野では、OpenAIのCodex、AnthropicのClaude Code�
   summary: "富士通は、サイバー攻撃などのインシデントが起きたときに、原因や被害範囲を素早く把握し、企業の初動対応や対応方針の判断を支援する新サービスを始めた。フロンティアAIを使った脅威分析の仕組みと、セキュリティ専門家による対応支援を組み合わせる。AIによる攻撃の高度化に、AIで対抗する国内の動きの一つだ。",
   points: ["フロンティアAIによる脅威分析と専門家の支援を組み合わせたインシデント対応サービス", "原因・被害範囲の迅速な把握と、初動対処・対応方針の意思決定を支援", "10月30日に発表、AIによる攻撃の高度化への対抗策"],
   url: "https://cloud.watch.impress.co.jp/docs/news/2152553.html",
-  image: null,
+  image: "https://cloud.watch.impress.co.jp/img/clw/list/2152/553/03.jpg",
   content: `## 概要
 
 富士通は10月30日、サイバー攻撃などのセキュリティ事故(インシデント)が起きた際に、原因や被害の範囲を素早く把握し、企業の初動対応や対応方針の決定を支援する新サービスを発表した。最先端の大規模AI(フロンティアAI)を使った脅威分析の仕組みと、富士通のセキュリティ専門家による支援を組み合わせるのが特徴だ。
