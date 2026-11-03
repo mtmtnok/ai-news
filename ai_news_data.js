@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Anthropicが11月2日に米SECへ提出した修正版の上場申請書類(S-1)で、7〜9月期の売上高が約169.6億ドル(前年同期比約1127%増)だったと開示した。前四半期比の伸びは4〜6月期の約144%から約47%に鈍化し、計算資源の短期的なコストなどで5.67億ドルの営業赤字に転じた。計算資源・インフラを中心とする将来の支払い契約は8954億ドルにのぼる。",
   points: ["7〜9月期売上高は約169.6億ドル、前年同期比約1127%増", "前四半期比の伸びは約144%→約47%に鈍化、営業損益は9.74億ドルの黒字→5.67億ドルの赤字", "計算資源・インフラ中心の契約済み支出は8954億ドル、上場は11月16日の週が有力"],
   url: "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297777280_ee4bc0-e1793633324778.jpg?resize=1200,600",
   content: `## 概要
 
 Anthropicは11月2日、米証券取引委員会(SEC)に上場申請書類(S-1)の修正版を提出し、当初の目論見書になかった7〜9月期の業績を開示した。売上高は約170億ドルと前年同期の11倍超に拡大した一方、前四半期比の伸びは大きく鈍化し、営業損益は赤字に転じた。米Fortuneなどが報じた。
@@ -63,7 +63,7 @@ Anthropicはナスダックへの上場(ティッカー「ANT」)を11月16日�
   summary: "米The Informationは、SamsungとSK hynixのHBM(広帯域メモリー)が、低価格のサーバー用プロセッサーと同じ基板に載せた「一体製品」として香港経由で中国に持ち込まれ、現地で取り外されていると報じた。ロジック製品に組み込まれたHBMを規制の対象外とした2024年12月の米輸出規則の抜け穴を突く手口とされる。Huaweiは次期AIチップ「Ascend 960DT」向けに、顧客自身にHBMの調達を求めているという。",
   points: ["HBMを低価格CPUと同じ基板に実装し一体製品として輸出、香港経由で中国へ", "2024年12月の米規則が「ロジック製品に組み込まれたHBM」を対象外とした点を悪用", "HBM3Eの闇価格は1個約4000ドルに、SK hynixは「2020年以降Huaweiに供給していない」"],
   url: "https://www.trendforce.com/news/2026/11/03/news-china-reportedly-obtains-smuggled-hbm-via-server-packages-huawei-960dt-faces-domestic-hbm-shortage/",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2025/10/08102125/China-chipmaking-FREEPIK-20250108-624x350.jpg",
   content: `## 概要
 
 米The Informationは11月2〜3日、韓国のSamsung電子とSK hynixが製造したHBM(広帯域メモリー)が、米国の輸出規制をすり抜けて中国に流れ込んでいると報じた。HBMを低価格のサーバー用プロセッサーと一体の製品に仕立てて輸出し、中国側で取り外す手口だという。台湾TrendForceや韓国のソウル経済新聞なども相次いで伝えた。
@@ -103,7 +103,7 @@ SK hynixは、米韓の輸出関連法を順守しており2020年以降Huawei�
   summary: "キオクシアホールディングスの河村芳彦副社長は決算説明会で、2027年のNAND型フラッシュメモリーの生産能力は顧客への割り当てがほぼ終わり「完売している」と説明した。翌年分が事前に売り切れるのは同社として初めてで、2028年分も50%超が確約済み。生成AIの学習・推論向けのデータ保存需要が拡大しており、2026年度の設備投資を前倒しで引き上げる。",
   points: ["2027年の生産能力はほぼ全量を顧客に割り当て済みで「ソールドアウト」、同社史上初", "2028年分も50%超が確約済み、2029〜2030年の商談も開始", "2026年度の設備投資は前倒しで5000億円強〜6000億円弱に、3年間の総額は大きく変えず"],
   url: "https://www.itmedia.co.jp/business/articles/2611/02/news031.html",
-  image: null,
+  image: "https://image.itmedia.co.jp/business/articles/2611/02/cover_news031.jpg",
   content: `## 概要
 
 キオクシアホールディングスの河村芳彦副社長執行役員は、10月30日の2027年3月期第2四半期決算の説明会で、2027年の生産能力が「アロケーション(顧客への割り当て)がほぼ終わり、ソールドアウト(完売)している」と明らかにした。ITmediaビジネスオンラインが11月2日に詳しく報じた。翌年分の生産能力がすべて割り当て済みになるのは同社として初めてだという。
@@ -140,7 +140,7 @@ DRAMやHBMでSK hynixが「3年分完売」を掲げるのに続き、NANDでも
   summary: "Yann LeCun氏とRandall Balestriero氏が論文「Proving and Improving the Platonic Representation Hypothesis with JEPAs」を公開した。画像と文章など別々のモダリティで学習したJEPAが、同じ場面の「良い視点」を正例に使えば回転を除いて同じ表現に行き着くことを定理として示した。1.09億パラメータの文章JEPAが、画像モデルとの表現の整合で720億パラメータの言語モデルを上回ったと報告している。",
   points: ["別々に学習したJEPAの表現が回転を除いて一致することを定理として証明", "次トークン予測は「悪い視点」(同じ文書の断片)で学習するJEPAと再解釈し、言語と視覚の整合差を説明", "整合スコア0.109に2160万サンプル(次トークン予測は9億で0.111)、1.09億パラメータの文章JEPAがQwen2.5-72Bを上回る"],
   url: "https://www.alphaxiv.org/abs/2610.39302",
-  image: null,
+  image: "https://api.alphaxiv.org/open-graph/v1/paper/2610.39302.png?v=2",
   content: `## 概要
 
 米Metaの元チーフAIサイエンティストで新会社を率いるYann LeCun氏と、米ブラウン大のRandall Balestriero氏は10月29日、論文「Proving and Improving the Platonic Representation Hypothesis with JEPAs」(arXiv 2610.39302)を公開した。異なるデータで学習したAIモデルが似た内部表現に行き着くという「プラトン的表現仮説」を、自己教師あり学習の手法JEPAの枠組みで定理として証明し、より少ないデータでその状態に近づく方法も示した。X上でも研究者の間で話題になっている。
@@ -179,7 +179,7 @@ LeCun氏は長年、次トークン予測だけでは世界を理解するAIに�
   summary: "OpenAIは11月2日、自社システムの弱点を洗い出す次回の「セキュリティ・スプリント」に、サイバーセキュリティ企業Cathedral Systemsの研究者を加えると発表した。研究者はOpenAIのモデルを使って同社の防御を探る。あわせてバグ報奨金も引き上げ、特に重大な発見にはボーナスを含め最大17万2000ドルを支払う。",
   points: ["Cathedral Systemsの研究者がOpenAIのチームと協力し、OpenAIのモデルで自社の防御を検証", "前回のスプリントでは製品エンジニアの25%を弱点の発見・修正に充てた", "中核製品の重大な脆弱性の報奨金は最大3万ドル、特に優れた発見はボーナス込みで最大17万2000ドル"],
   url: "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/3I6XNOAyDMl6T0tummrXmo/b10602bfeb5ca42409706b86011ceacb/preparing-our-next-security-sprint-to-harden-openai-social.png?w=1600&h=900&fit=fill",
   content: `## 概要
 
 OpenAIは11月2日、自社システムの弱点を集中的に洗い出す次回の社内「セキュリティ・スプリント」に、米サイバーセキュリティ企業Cathedral Systemsの研究者を招くと発表した。研究者はOpenAIのチームと並んで作業し、OpenAI自身のAIモデルを使って同社の防御の弱点を探る。同時にバグ報奨金制度の支払額も引き上げた。
@@ -216,7 +216,7 @@ GoogleがGemini 4 Carbonをまず防御担当者に限定提供し、Anthropic�
   summary: "SNSで話題: xAIのAIエージェント「Grok Bot」の利用上限が厳しくなり、有料会員が週の上限に数日早く達する事態が相次いだ。イーロン・マスク氏は11月1日、X上で提供コストが収入に比べて高くなりすぎたと説明したが、新しい上限の数値は示していない。xAIは利用状況の表示の不具合も原因の一部としている。",
   points: ["マスク氏がX上で「Grok Botの提供コストが高すぎる」と説明、新たな上限は非公表", "24分で利用率表示が44%から87%に跳ね上がったという利用者の報告も", "Grok Botは月30ドル・100ドル・200ドルのプランに含まれ、GrokやCursorと週単位の枠を共有"],
   url: "https://mlq.ai/news/xai-cuts-grok-bot-quotas-after-musk-says-serving-costs-outran-revenue/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 xAIのAIエージェント「Grok Bot」で利用枠が急に減り、有料会員が週の上限に数日早く到達する事態が相次ぎ、X上で不満の声が広がった。イーロン・マスク氏は11月1日、利用者への返信の形で、エージェントの提供コストが得られる収入に比べて高くなりすぎたと説明した。ただし、新しい上限の具体的な数値は示していない。
@@ -253,7 +253,7 @@ OpenAIがChatGPTとCodexの利用枠を一本化し、AnthropicやMoonshot AIも
   summary: "GoogleはGeminiアプリで、チャットの中でファイルを作成・プレビューし、そのまま編集できる機能を提供し始めた。PDF、Googleドキュメント・スプレッドシート、スライド、Markdown、テキスト、LaTeX、コードに対応する。範囲を選んで質問や修正を頼むこともでき、Gemini の全ユーザーに順次展開している。",
   points: ["チャット内でPDF・ドキュメント・スプレッドシート・スライド・LaTeX・コードなどを生成・プレビュー・編集", "選択した範囲について質問や修正を依頼でき、表をグラフに変えるといった操作も可能", "PDFはWeb・モバイル、ほかの形式はWebのみ、有料プランは複数手順の「タスク」とも連携"],
   url: "https://9to5google.com/2026/10/29/gemini-design-file-generation/",
-  image: null,
+  image: "https://9to5google.com/wp-content/uploads/sites/4/2026/08/Pixel-11-Pro-Gemini-Overlay.jpg?quality=82&strip=all&resize=1200,628",
   content: `## 概要
 
 GoogleはGeminiアプリで、チャットの中でファイルを作成・プレビューし、そのまま編集できる機能の提供を始めた。米9to5Googleなどが10月29日に報じた。会話で作らせた文書やスライド、表計算ファイルを、別のアプリに移さずにGeminiの画面上で仕上げられるようになる。
@@ -291,7 +291,7 @@ GoogleにとってはWorkspaceという自社の土台があることが強み�
   summary: "デル・テクノロジーズの調査で、生成AI活用の初期・中期段階を脱した日本企業が2026年に58%となり、2025年の35%から大きく増えた。一方、72%は実証済みのビジネス成果と明確なリスク管理計画がなければ新たなAI施策を進めないと答えた。日本法人のジョン・ロボトム新社長は「次の競争力を決めるのはAIではなく実行力だ」と述べた。",
   points: ["生成AI活用の初期・中期段階を脱した日本企業は58%、2025年の35%から増加", "72%が「実証された成果と明確なリスク管理計画」を新たなAI施策の条件に", "調査は2026年6月に35カ国2950人(日本150人)を対象、日本の水準はアジア太平洋・日本全体の61%に近い"],
   url: "https://businessnetwork.jp/?p=38227",
-  image: null,
+  image: "https://businessnetwork.jp/wp-content/uploads/2026/10/202610280101.jpg",
   content: `## 概要
 
 デル・テクノロジーズは、日本企業の生成AI活用が「試す段階」から「成果を出す段階」へ移りつつあるとする調査結果を公表した。生成AI活用の初期・中期段階を脱した日本企業は2026年に58%となり、2025年の35%から大きく増えた。日本法人のジョン・ロボトム新社長が就任会見で明らかにし、キーマンズネットなどが11月2日に報じた。
