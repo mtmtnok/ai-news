@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "OpenAIは11月4日、Gitを土台にした分散型のコード保管サービス「Code Storage」を開発する米Pierre Computer Companyを買収することで合意したと発表した。買収完了後にCode Storageを開発エージェント「Codex」に組み込み、AIが書くソフトウェアの管理基盤を強化する。買収額は非公表。",
   points: ["Pierreの「Code Storage」は「機械向けのAPI設計」を掲げるGitベースの分散型保管システム", "同社のオープンソース「Trees」「Diffs」はすでにCodexアプリ内で使われており、今後もオープンソースを維持", "11月2日に公表した自社製Gitバックエンド「Pando」に続く動きで、GitHubへの対抗とみる報道も"],
   url: "https://devops.com/openai-acquires-pierre-computer-to-expand-codex-challenge-github",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 OpenAIは11月4日、Gitを土台にしたコード保管サービス「Code Storage」を開発する米Pierre Computer Companyを買収することで合意したと発表した。買収完了後、Code StorageをAI開発エージェント「Codex」に統合し、AIエージェントが大量に書くコードを保管・管理する基盤を自前で持つ。買収額は明らかにしていない。
@@ -63,7 +63,7 @@ AIエージェントがコードを書く量が人間を上回り始めると、
   summary: "韓国の毎日経済新聞は11月3日、Samsungが米テキサス州テイラーに建設する第2工場で、AMDとNVIDIA向けのHBM(広帯域メモリー)の土台となるベースダイを製造すると報じた。計画している生産量はすでに全量が予約済みで、大半はAMD向けという。Samsungは顧客についてコメントを控えている。",
   points: ["テイラー第2工場は2nmプロセスで、延べ床面積は約25万平方メートル規模(第1工場の約1.5倍)と報道", "計画生産量はすでに全量予約済み、大半はAMD向け。11月に着工し2030年までの稼働をめざす", "NVIDIAは自社仕様HBM「NVHBM」のベースダイをTSMCの3nmで作るよう求めているとの報道もあり、NVIDIA分は不透明"],
   url: "https://thenextweb.com/news/samsung-second-texas-fab-amd-nvidia-hbm",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/samsung-illuminated-logo-store-facade.jpg",
   content: `## 概要
 
 韓国の毎日経済新聞は11月3日、Samsung Electronicsが米テキサス州テイラーに建設する第2工場で、AMDとNVIDIA向けのHBM(広帯域メモリー)のベースダイを製造すると報じた。計画生産量はすでに全量が予約済みで、その大半がAMD向けだという。Samsungは特定の顧客についてのコメントを控えており、公式には確認されていない。
@@ -102,7 +102,7 @@ HBMのベースダイが先端ロジック工程に移ることで、メモリ�
   summary: "EU司法裁判所(CJEU)のシュプナル法務官は11月3日、ハンガリーの報道機関Like CompanyがGoogleを訴えた事件(C-250/25)で、チャットボットが報道サイトの記事を取得して回答に再利用する場合、報道出版者の権利を侵害しうるとの意見を示した。生成AIを巡ってCJEUが扱う初の事案で、意見に拘束力はないが判決に影響することが多い。",
   points: ["記事を取得し、回答の生成に使い、利用者に示す一連の流れが報道出版者の権利の侵害にあたりうると判断", "事実そのものは保護されないが、表現を再現すると侵害の可能性が高まる。有料の壁を回避する場合も侵害となりうる", "LLMの学習に関する2つの質問は「不受理」とするよう勧告。Googleは「Geminiは言語のパターンを学び独自の回答を生成する」と主張"],
   url: "https://www.business-standard.com/world-news/google-gemini-may-infringe-publishers-rights-eu-court-adviser-says-126110400457_1.html",
-  image: null,
+  image: "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/28/thumb/fitandfill/1200X628/1785228209-4434.JPG",
   content: `## 概要
 
 EU司法裁判所(CJEU)のマチェイ・シュプナル法務官は11月3日、ハンガリーの報道機関Like CompanyがGoogleを相手取った事件(C-250/25)について、チャットボットが報道機関のサイトから記事を取得し、それを使って回答を生成して利用者に示す場合、報道出版者の権利を侵害しうるとの意見を示した。生成AIを巡ってCJEUが扱う初めての事案となる。法務官の意見に拘束力はないが、裁判所の判決はこれに沿うことが多い。
@@ -142,7 +142,7 @@ AIによる検索や回答では、ウェブ上の記事をその場で取って
   summary: "OpenAIは11月2日、電力網に負荷がかかったときにデータセンターの電力使用を減らす「Grid Protectors Program」を発表した。最初の対象は、ジョージア州エフィンガム郡に計画する3.2GWの「Project Camellia」で、緊急時に最大1000MW(約70万世帯分)の需要を調整できる見込み。法的な拘束力はない枠組みで、データセンター建設への地域の反発に応える狙いがある。",
   points: ["電力会社・規制当局と、各拠点が「どれだけ・どれほど速く・どれくらいの時間」電力を減らせるかを決める", "最初の拠点はGeorgia Powerと25年契約を結ぶ3.2GWの「Project Camellia」、最大1000MWを調整可能", "蓄電池や自家発電を組み込み、関連する送電・電力インフラの費用はOpenAIが全額負担"],
   url: "https://www.datacenterdynamics.com/en/news/openai-launches-grid-protectors-program-to-reduce-data-center-electricity-demand-when-the-us-grid-is-under-strain-openai-has-launched-a-plan-to-reduce-the-impact-of-its-data-centers-on-the-us-grid-the-non-binding-grid-protectors-program-aims-to-re/",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 OpenAIは11月2日、米国の電力網に負荷がかかったときに自社のデータセンターの電力使用を減らす「Grid Protectors Program」を発表した。最初の対象はジョージア州エフィンガム郡に計画する3.2GW(ギガワット)のデータセンター拠点「Project Camellia」で、電力網の緊急時に最大1000MWの需要を調整できる見込みだという。法的な拘束力はない枠組みで、データセンター建設に対する地域住民の反発に応える狙いもある。
@@ -181,7 +181,7 @@ OpenAIによると、今後は電力会社や州の規制当局と協力し、�
   summary: "SNSで話題: Anthropicが11月3日から、Claude Mythos 5・Opus 4.7・Sonnet 4.6など旧世代のモデルが生成する文章にも目に見えない統計的な電子透かしを入れ始めた。顧客へのメールを紹介した投稿は63万回以上閲覧された。EUのAI法への対応で、11月16日にはOpus 4.5・Sonnet 4.5・Haiku 4.5なども対象になる。",
   points: ["11月3日からMythos 5・Opus 4.7・Sonnet 4.6などに適用、11月16日にOpus 4.6・Opus 4.5・Sonnet 4.5・Haiku 4.5へ拡大", "単語の選び方をわずかに偏らせる統計的な方式で、8月2日以降に出たモデルには最初から搭載", "旧モデルではtemperatureなどが既定値のときだけ有効で、APIで設定を変えると外れるとThe Decoderが指摘"],
   url: "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/",
-  image: null,
+  image: "https://the-decoder.com/wp-content/uploads/2026/08/Claude-Watermark.png",
   content: `## 概要
 
 Anthropicは11月3日から、Claudeの旧世代モデルが生成する文章にも、目に見えない電子透かしを入れ始めた。「11月3日からClaudeの文章に見えない透かしが入る」という顧客向けメールを紹介したX上の投稿は63万回以上閲覧され、話題になった。EUのAI法が求めるAI生成コンテンツの表示義務への対応で、8月2日以降に公開したモデルにはすでに最初から透かしが入っている。
@@ -221,7 +221,7 @@ AIが書いた文章に透かしを入れる取り組みは、EUのAI法の施�
   summary: "日本のAI企業Third Intelligenceは、日本語に特化した音声認識(文字起こし)モデル「Haas-ja-v1.0」をオープンウェイトで公開した。NVIDIAのParakeet-TDTを土台にした約6.16億パラメータのモデルで、文字誤り率は6.12%と、同社が評価したオープンモデルの中で最も高い精度だという。Apache 2.0ライセンスでHugging Faceに公開し、X上で「速すぎる」と話題になっている。",
   points: ["NVIDIAのParakeet-TDTの構造を土台に予測部分を改良、約6.16億パラメータ", "文字誤り率6.12%で評価したオープンモデル中トップと主張、4分超の音声を0.32秒で処理するデモも", "Apache 2.0でHugging Faceに重みを公開、推論コード・評価ライブラリー「jacer」も公開"],
   url: "https://third-intelligence.com/ja/posts/haas-ja-v1-release",
-  image: null,
+  image: "https://storage.googleapis.com/studio-design-asset-files/projects/ogO0mQD7q2/s-2400x1260_v-frms_webp_5c890692-6c46-4f96-8c8a-8c272d9583d6.png",
   content: `## 概要
 
 日本のAI企業Third Intelligenceは、日本語に特化した音声認識(文字起こし)モデル「Haas-ja-v1.0」をオープンウェイトで公開した。約6.16億パラメータと比較的小さなモデルながら、文字誤り率(CER)は6.12%で、同社が評価したオープンモデルの中で最も高い精度を記録したという。重みはApache 2.0ライセンスでHugging Faceに公開されている。
@@ -260,7 +260,7 @@ X上では「ほぼリアルタイムで文字起こしできる」「長時間�
   summary: "SNSで話題: Googleの個人向けGeminiでは、有料の「Google AI」プランの会員であっても、会話は既定でAIの学習に使われると指摘するHacker Newsの投稿が議論を呼んだ。学習への利用を止めるには「Keep Activity(アクティビティを保持)」をオフにする必要があり、その場合は会話の履歴も保存されなくなる。企業向けのWorkspaceや有料APIは学習に使われない。",
   points: ["個人向けプランは有料でも既定で学習に利用、止めるには「Keep Activity」をオフにして履歴保存も手放す必要", "オフにしても会話は72時間保持され、人間の担当者が確認した会話は最長3年残る", "Workspace(企業・教育)・有料のGemini API・Google Cloudは学習に使われない一方、無料のAPIは学習対象"],
   url: "https://www.developersdigest.tech/blog/gemini-keep-activity-training-human-review-paid-subscribers-2026",
-  image: null,
+  image: "https://www.developersdigest.tech/og/blog/gemini-keep-activity-training-human-review-paid-subscribers-2026?title=Gemini+Trains+on+Your+Chats+Unless+Keep+Activity+Is+Off&subtitle=Gemini",
   content: `## 概要
 
 Googleの個人向けAIアシスタント「Gemini」で、有料プランの会員であっても会話が既定でAIの学習に使われていると指摘するHacker Newsの投稿が議論を呼んでいる。学習への利用を止める方法は「Keep Activity(アクティビティを保持)」の設定をオフにすることだが、その場合は会話の履歴も保存されなくなる。履歴を残しながら学習だけを拒否する選択肢がない点に批判が集まった。
