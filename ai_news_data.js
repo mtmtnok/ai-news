@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "米データセンター事業者TeraWulfは11月4日、Googleがケンタッキー州ホーズビルの「Justified Data Campus」でAnthropicが負う賃料の支払い義務を信用保証する契約を結んだと発表した。約190億ドル(約2.9兆円)に上る20年・401MWの賃貸契約を担保にした借り入れを有利な条件で進める狙いで、建設を担うFluorとの正式な設計・調達・建設(EPC)契約も締結した。",
   points: ["GoogleがAnthropicの20年・401MWの賃貸契約を3件の信用補完契約で保証、契約総額は約190億ドル", "Anthropicが支払い不能になった場合、Googleが賃貸を引き継いで賃料を払うか解約金を払う仕組み", "最初の6年間はGoogleが解約を選べない条項があり、設置したTPUが電力の半分未満しか使えない場合などに限られると報道"],
   url: "https://investors.terawulf.com/news-events/press-releases/detail/148/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement",
-  image: null,
+  image: "https://d1io3yog0oux5.cloudfront.net/_80e6509705a390fa982afc3b8c5e7985/terawulf/db/2408/21974/social_image_resized.jpg",
   content: `## 概要
 
 米データセンター事業者のTeraWulfは11月4日、Googleがケンタッキー州ホーズビルに建設中の「Justified Data Campus」で、入居するAnthropicの賃料支払い義務の一部を信用保証(バックストップ)することで合意したと発表した。対象は約190億ドルに上る20年間・401MWの賃貸契約で、TeraWulfはこの契約を裏付けにした借り入れ(プロジェクトファイナンス)を進める。
@@ -63,7 +63,7 @@ AIデータセンターの建設資金は、入居するAIラボの「将来の�
   summary: "OpenAIは11月5日、データセンターを建てる地域との約束をまとめた「National Community Compact」を発表した。自社で保有・運営する拠点では電力と必要な送電設備の費用を全額負担し、計画の遅れや中止で他の電力利用者に負担が回らないよう保証する。自治体の担当者に秘密保持契約(NDA)への署名を求める慣行もやめる。",
   points: ["自社保有・運営のデータセンターでは電気代と送電などのインフラ費用を全額負担し、計画が遅れたり中止されたりしても他の利用者に費用を回さない", "交渉の条件として公務員にNDAを求めない。セキュリティ情報や企業秘密など限られた情報だけは保護", "対象は今後の自社保有拠点のみ。同様のルールを全事業者に義務づけるよう議員に働きかける政策案も公表"],
   url: "https://www.androidheadlines.com/2026/11/openai-data-center-policy-community-compact.html",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 OpenAIは11月5日、データセンターを建設する地域への約束をまとめた「National Community Compact」を発表した。自社で保有・運営する拠点では電気代と必要な送電設備の費用を全額負担し、計画が遅れたり縮小・中止されたりした場合にも、地域のほかの電力利用者に費用が回らないよう資金面の保証を出す。あわせて、自治体の担当者に秘密保持契約(NDA)への署名を求めるのをやめる。
@@ -103,7 +103,7 @@ OpenAIは11月5日、データセンターを建設する地域への約束を�
   summary: "11月4日に決算を発表したQualcommは端末向け半導体の売上高が26%減り、10〜12月期の利益見通しも市場予想に届かず、5日の株価は約9%下落した。Armもロイヤルティー収入が予想を下回り、AMDは約13〜15%安と大きく売られた。選挙後に広がったデータセンター投資の減速やAI規制への懸念も重なり、韓国・日本の半導体株にも下落が広がった。",
   points: ["Qualcommは利益が予想を上回ったものの端末向けが26%減、次の四半期の1株利益見通しは2.15〜2.35ドルで市場予想2.27ドルを下回る水準も", "Armはロイヤルティー収入が予想に届かず慎重な見通し。AMDはAI向けが好調だった直近決算にもかかわらず約13〜15%下落", "選挙後のデータセンター投資の減速懸念とメモリー価格の上昇が重荷。日韓の半導体株も下落する一方、中国株は当局の支援策で上昇"],
   url: "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108447197-1792682617949-gettyimages-2301325199-3h4a6821_7uqxvgux.jpeg?v=1792682661&w=1920&h=1080",
   content: `## 概要
 
 米Qualcommと英Armの決算をきっかけに、11月5日の米株式市場で半導体株が大きく下落した。Qualcommは約9%安、AMDは約13〜15%安となり、Micron、Intelなども値を下げた。スマートフォン向けの不振に加え、選挙後に広がった「AIデータセンター投資が減速するのではないか」という懸念が売りを広げた。
@@ -143,7 +143,7 @@ AI向けの需要が強い一方で、スマホやパソコンなど従来の半
   summary: "中国のMoonshot AIは、10月23日に発表した最上位モデル「Kimi K3.1 Pro」の重みをHugging Faceで公開した。総パラメータ2.8兆・1トークンあたり1040億が動く混合エキスパート(MoE)型で、100万トークンの文脈を扱える。公開にあたり、サイバー攻撃能力に関わる学習データを中盤の学習と強化学習の一部から除いたと説明している。",
   points: ["総パラメータ2.8兆・稼働1040億のMoE型、100万トークンの文脈と画像などのマルチモーダルに対応", "登録なしで取得できるリポジトリで公開。ライセンスは標準的なオープンソースではなく独自の「Kimi」ライセンス", "公開前にサイバー攻撃能力に関わる学習データを一部除去。動かすには複数GPUのサーバーが必要"],
   url: "https://dev.to/ahtisham_lala_a1af953f29b/moonshot-just-put-a-28-trillion-parameter-model-on-hugging-face-kimi-k31-pros-open-weights-are-466n",
-  image: null,
+  image: "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy5kowqu33g7v0ovrj0qs.png",
   content: `## 概要
 
 中国のMoonshot AIは、10月23日に発表した最上位モデル「Kimi K3.1 Pro」の重み(学習済みのパラメータ)をHugging Faceで公開した。総パラメータ数は2.8兆で、1トークンの処理ごとに約1040億パラメータが動く混合エキスパート(MoE)型のモデルだ。報道によって公開日は11月4日とも5日ともされている。
@@ -182,7 +182,7 @@ Moonshotは、重みの公開に先立ち、サイバー攻撃能力に関わる
   summary: "Anthropicは11月5日、Claudeに銀行やクレジットカードの口座をつなぎ、実際の残高や取引履歴をもとにお金の質問に答える「Personal Finance」を米国の有料会員向けにベータ提供し始めた。接続は金融データ連携のPlaidを通じた読み取り専用で、Claudeが送金や投資をすることはできない。この機能内の会話はモデルの学習に使わない。",
   points: ["米国のPro・Max・Ultra会員が対象。Plaid経由で銀行・カード口座をつなぎ、Claudeは銀行のパスワードを見ない", "読み取り専用で、送金・資産管理・投資はできず、投資助言を目的としない。広告や自社ブランドの金融商品もない", "OpenAIは5月にPlaidを使った同様の家計機能をChatGPTで提供済みで、Anthropicは追う立場"],
   url: "https://www.unite.ai/anthropic-introduces-read-only-personal-finance-beta-in-claude/",
-  image: null,
+  image: "https://www.unite.ai/wp-content/uploads/2026/11/anthropic-introduces-read-only-personal-finance-beta-in-claude.jpg",
   content: `## 概要
 
 Anthropicは11月5日、Claudeに銀行やクレジットカードの口座をつなぎ、実際の残高や取引をもとにお金に関する質問に答える新機能「Personal Finance」のベータ版を提供し始めた。対象は米国のPro・Max・Ultra会員で、今週中に順次使えるようになる。口座の接続は読み取り専用で、Claudeが送金したり投資したりすることはできない。
@@ -221,7 +221,7 @@ AIアシスタントが利用者の実データに直接つながる流れが、
   summary: "オープンソースの仮想化ソフト「Xen」の開発元は11月3日、セキュリティ勧告「XSA-523」を出し、2件の重大な脆弱性(CVE-2026-102703、CVE-2026-102704)を修正した。発見者としてAnthropicのClaudeを挙げている。悪用されると、1台の仮想マシンから同じホスト上のほかの仮想マシンや管理用の領域のメモリーを読み書きでき、ホスト全体を乗っ取られるおそれがある。",
   points: ["XSA-523でメモリーの「グラントコピー」処理の欠陥2件を修正。発見者としてAnthropicとClaudeを明記", "Xen 4.6以降の全バージョンが影響を受け、回避策はなくパッチの適用が必要", "外部の専門家が検証し、別の研究チームも同じ欠陥を独立に報告。Claudeの使い方の詳細は未公表"],
   url: "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-  image: null,
+  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg",
   content: `## 概要
 
 オープンソースの仮想化ソフト(ハイパーバイザー)「Xen」の開発プロジェクトは11月3日、セキュリティ勧告「XSA-523」を公表し、2件の重大な脆弱性を修正した。勧告は発見者として、AIモデルのClaudeを使ったAnthropicを挙げている。悪用されれば、1台の悪意ある仮想マシンが、同じ物理サーバー上のほかの仮想マシンや管理用の領域(Dom0)のメモリーを読み書きできる。
@@ -258,7 +258,7 @@ AIモデルが、長年多くの専門家が調べてきた基幹ソフトの深
   summary: "Hugging Faceの注目論文で今週上位に入った「Democratizing Robot-Use Agents」は、言語モデルにロボットを操作させるAIエージェントを、公開されている重みのモデルで動かすための共通の仕組み「uni-robot-agent」を提案した。カメラの較正情報やロボットの説明といった情報を整理して渡し、ツールが分かりやすい結果を返せば、公開モデルでも効果的にロボットを使えると報告している。",
   points: ["ロボット操作のエージェントは非公開の最先端モデルに頼っており、追加の学習ができないことが課題", "異なるエージェント・ロボット環境・機体を共通のツールでつなぐ「uni-robot-agent」を公開", "カメラの較正情報やロボットの説明、分かりやすい応答を返すツールがあれば効果的に動くと報告。Pieter Abbeel氏らが参加"],
   url: "https://arxiv.org/abs/2611.01560",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 
 Hugging Faceの注目論文ランキングで今週上位に入った「Democratizing Robot-Use Agents: A Unified Harness with Open Models」は、大規模言語モデルにロボットを操作させるAIエージェントを、誰でも入手できる公開モデルで動かすための共通の仕組み「uni-robot-agent」を提案した。11月1日にarXivで公開され、カリフォルニア大学バークレー校のPieter Abbeel氏や清華大学のNing Ding氏ら28人が著者に名を連ねる。
