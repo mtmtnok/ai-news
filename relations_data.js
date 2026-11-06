@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-10-31",
+  updated: "2026-11-07",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -160,6 +160,11 @@ window.RELATIONS = {
     { id: "flappingairplanes", label: "Flapping Airplanes", sector: "lab" },
     { id: "indexventures", label: "Index Ventures", sector: "invest" },
     { id: "luxcapital",   label: "Lux Capital",  sector: "invest" },
+    { id: "pierre",       label: "Pierre Computer", sector: "app" },
+    { id: "aramco",       label: "サウジAramco",  sector: "invest" },
+    { id: "humain",       label: "HUMAIN",       sector: "cloud" },
+    { id: "adnoc",        label: "ADNOC",        sector: "app" },
+    { id: "hcltech",      label: "HCLTech",      sector: "app" },
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -528,8 +533,8 @@ window.RELATIONS = {
       label: "Intel FoundryにTPU 300万個超を発注（2028年納入目標・報道）", date: "2026-06",
       source: "https://www.techtimes.com/articles/318143/20260610/chip-supply-shifts-tsmc-googles-reported-intel-tpu-order-lifts-foundry-doubts-remain.htm" },
     { from: "nvidia", to: "tsmc", type: "partner", threads: ["semi"], flow: "技術",
-      label: "AI GPUの主要製造委託（TSMCはアリゾナ追加1,000億ドル投資でAI需要に対応）", date: "2026-07",
-      source: "https://finance.yahoo.com/markets/stocks/articles/tsmc-q2-2026-earnings-record-112109987.html" },
+      label: "AI GPUの主要製造委託。11月にはNVIDIAの要請でTSMCが次世代メモリー「3D DRAM」の生産計画を作成中とThe Information報道（新工場か既存工場の買収・転用を検討）", date: "2026-11",
+      source: "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia" },
     { from: "asml", to: "intel", type: "partner", threads: ["semi"], flow: "技術",
       label: "High-NA EUV（NA0.55）で業界初の商用ロジック量産出荷（Intel 18A・歩留まり約85%）", date: "2026-07",
       source: "https://www.globenewswire.com/news-release/2026/07/15/3327453/0/en/High-NA-EUV-reaches-new-readiness-milestone-with-first-high-volume-Logic-product.html" },
@@ -753,6 +758,24 @@ window.RELATIONS = {
       source: "https://www.marketscreener.com/news/nvidia-may-guarantee-multibillion-dollar-loans-to-nscale-for-anthropic-project-the-information-ce785fdad081f32d" },
     { from: "google", to: "metis", type: "talent", threads: ["talent"], person: "Thore Graepel",
       label: "AlphaGo共同開発者。今夏DeepMindを退社し、監査可能で計算効率の高い推論AIを狙う新ラボMetis Reasoningをロンドンで共同創業", date: "2026-10",
-      source: "https://lionherald.com/london-gains-another-ai-lab-as-alphago-veteran-launches-metis-reasoning/" }
+      source: "https://lionherald.com/london-gains-another-ai-lab-as-alphago-veteran-launches-metis-reasoning/" },
+    { from: "google", to: "terawulf", type: "partner", threads: ["compute", "labs"], flow: "資金",
+      label: "ケンタッキー州401MWの拠点でAnthropicが負う約190億ドル・20年の賃料を3件の信用補完契約で保証。TeraWulfの事業資金調達を支える", date: "2026-11",
+      source: "https://investors.terawulf.com/news-events/press-releases/detail/148/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement" },
+    { from: "openai", to: "pierre", type: "ma", threads: ["talent"],
+      label: "Git基盤のコード保管サービス「Code Storage」の新興を買収へ。Codexに統合しGitHubに対抗", date: "2026-11",
+      source: "https://devops.com/openai-acquires-pierre-computer-to-expand-codex-challenge-github" },
+    { from: "aramco", to: "humain", type: "invest", threads: ["compute"], amount: 26,
+      label: "国策AI企業HUMAINの株式49%の取得を完了。約26億ドルの現金に加え計算資源・デジタル資産を拠出、HUMAINは2030年までに3GWのDCを計画", date: "2026-11",
+      source: "https://gulfnews.com/business/energy/oil-giant-aramco-takes-49-per-cent-stake-in-saudi-ai-company-1.500731592" },
+    { from: "openai", to: "adnoc", type: "partner", threads: ["labs"], flow: "モデル",
+      label: "アブダビ政府系との4件の契約の一つ。国営石油ADNOCがエネルギー企業として初めて「OpenAI Frontier」を導入", date: "2026-11",
+      source: "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html" },
+    { from: "samsung", to: "amd", type: "partner", threads: ["semi"], flow: "販売", status: "reported",
+      label: "米テイラー第2工場でAMD・NVIDIA向けHBMのベースダイを2nmで製造へと韓国紙報道。計画生産量は完売、大半はAMD向け", date: "2026-11",
+      source: "https://thenextweb.com/news/samsung-second-texas-fab-amd-nvidia-hbm" },
+    { from: "rapidus", to: "hcltech", type: "partner", threads: ["japan", "semi"], flow: "技術",
+      label: "次世代半導体で提携。インドに専用開発拠点2カ所を開設しフォトマスク設計とPDK開発を支援、インド人技術者の育成も", date: "2026-10",
+      source: "https://www.rapidus.inc/en/news_topics/information/20261026-2/" }
   ]
 };
