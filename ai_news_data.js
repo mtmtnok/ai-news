@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Bloombergは11月6日、Anthropicの新規株式公開(IPO)に参加を検討する投資家の間で、想定評価額が約1.2兆〜1.3兆ドルに下がっていると報じた。直前まで議論されていた1.4兆〜1.5兆ドル、10月初めの最大2兆ドルから大きく後退した。前日のナスダック100指数の6.4%急落が響いた。",
   points: ["投資家の議論は1.2兆〜1.3兆ドル、一部は1.1兆ドルまで検討。WSJは1兆ドルに近づく可能性も報道", "来週から正式な売り込み(ロードショー)を始め、感謝祭前の上場もありうる", "Rampの企業支出データでは、Anthropicが企業のAIトークン支出の60.5%を占める一方、市場全体の支出の伸びは鈍化"],
   url: "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 Bloombergは11月6日、Anthropicの新規株式公開(IPO)を巡り、株式の購入を検討する投資家の間で想定評価額が約1.2兆〜1.3兆ドル(約180兆〜195兆円)に下がっていると報じた。直前まで議論されていた1.4兆〜1.5兆ドル、10月初めに語られていた最大2兆ドルから大きく後退した形だ。前日に起きたAI関連株の急落が直接の引き金とみられる。
@@ -63,7 +63,7 @@ Anthropicは修正版の上場申請書類(S-1)で、7〜9月期の売上高が�
   summary: "米The Informationは11月6日、TSMCが最大顧客NVIDIAの要請を受け、積層型の次世代メモリー「3D DRAM」の生産計画を作り始めたと報じた。先端パッケージ担当の副社長が主導し、新工場の建設や既存工場の買収・転用も検討しているという。報道を受けTSMCの米国上場株は5%超上昇し、MicronやSK hynixの株は下げた。",
   points: ["NVIDIAの要請で3D DRAMの生産計画を作成中、まだ評価段階で量産時期は未定", "先端パッケージ担当でMicron出身の副社長が主導、新工場建設か既存工場の買収・転用を検討", "ロジック専業のTSMCがメモリーに参入すれば、SK hynix・Samsung・Micronの3社体制に影響"],
   url: "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia",
-  image: null,
+  image: "https://media.thenextweb.com/2026/11/tsmc-logo-taichung-fab-building-sky.jpg",
   content: `## 概要
 
 米IT専門メディアのThe Informationは11月6日、台湾TSMCが最大の顧客であるNVIDIAの要請を受け、記憶素子を縦に積み重ねる次世代メモリー「3D DRAM」の生産計画を作り始めたと報じた。計画に詳しい2人の関係者の話としている。ロジック半導体の受託生産に特化してきたTSMCがメモリー製造に踏み出せば、AI向けメモリーの供給構造が変わる可能性がある。
@@ -103,7 +103,7 @@ AI半導体の性能はメモリーの容量と帯域に左右されるように
   summary: "11月6日の東京株式市場で日経平均株価は前日比3643円13銭安(5.96%安)の5万7434円77銭と、歴代3位の下げ幅を記録した。6月25日の最高値から2割超下がり、弱気相場の水準に入った。AI関連の主力株が軒並み急落し、ソフトバンクグループとアドバンテストの2銘柄だけで日経平均を約665円押し下げた。",
   points: ["日経平均は5.96%安の5万7434円、6月25日の最高値7万2366円から2割超の下落", "ソフトバンクGは10.83%安、アドバンテスト・キオクシア・東京エレクトロンも8〜12%前後下落", "米中間選挙での民主党大勝によるデータセンター規制への警戒と、前日の米ハイテク株急落が波及"],
   url: "https://www.nikkei.com/article/DGXZQOFL060M00W6A101C2000000/",
-  image: null,
+  image: "https://www.nikkei.com/.resources/k-components/rectangle.rev-d54ea30.png",
   content: `## 概要
 
 11月6日の東京株式市場で、日経平均株価は前日比3643円13銭安の5万7434円77銭で取引を終えた。下落率は5.96%で、1日の下げ幅としては歴代3位。6月25日につけた最高値(7万2366円)から2割あまり下がり、一般に「弱気相場」とされる水準に入った。AI・半導体関連の主力株が軒並み売られ、5日続落となった。
@@ -140,7 +140,7 @@ AI半導体の性能はメモリーの容量と帯域に左右されるように
   summary: "米司法省は11月5日、AIが関わる刑事・民事の執行を調整する「超知能タスクフォース(DOJ-SITF)」を立ち上げた。外国政府や犯罪組織、詐欺グループによる先端AIの悪用を対象とし、AI企業に対してもモデルが意図どおりに動くよう社内の管理を強めるよう促す。新たな犯罪類型を設けるものではない。",
   points: ["ウッドワード司法次官補らが共同議長、ブランシュ司法長官に直属", "省内や各地の連邦検事局の捜査の重複を調整し、執行の優先順位や訴追の指針を作る", "ホワイトハウスの「超知能部隊」との主な窓口役も担う"],
   url: "https://www.govexec.com/technology/2026/11/department-justice-forms-ai-task-force/417075/",
-  image: null,
+  image: "https://cdn.govexec.com/media/img/cd/2026/11/05/110526JusticeNG-1/open-graph.jpg",
   content: `## 概要
 
 米司法省は11月5日、AIが関わる刑事・民事の法執行を調整する新組織「超知能タスクフォース(Super Intelligence Task Force、DOJ-SITF)」を立ち上げた。外国政府や犯罪組織、詐欺グループによる先端AIの悪用に対応するのが目的で、AI企業に対してもモデルが「意図どおりに振る舞う」よう社内の管理を強めるよう求める。
@@ -180,7 +180,7 @@ AI半導体の性能はメモリーの容量と帯域に左右されるように
   summary: "中国Tencentは11月4日、大規模言語モデル「Hy4(混元)」の正式版を発表した。同社のモデルとして初めて画像の理解とコンピューター操作に対応し、約100万トークンの文脈を扱える。重みは近日中にオープンに公開するとしており、オープンモデルの最上位級に入ったと主張している。",
   points: ["専門家混合(MoE)型で、パラメータ数は約7700億と報じられる。文脈長は約105万トークン", "社内の検索評価で幻覚(事実と異なる回答)の率がプレビュー版の15.76%から5.45%に低下", "Tencent CloudやOpenRouter経由で利用可能、廉価版「Hy4 Flash」も用意"],
   url: "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-  image: null,
+  image: "https://www.tencent.com/wp-content/uploads/2026/11/H4_thumbnail_4x3-1.png",
   content: `## 概要
 
 中国のTencent(騰訊)は11月4日、大規模言語モデル「Hy4(混元)」の正式版を発表した。同社のモデルとして初めて画像を理解する機能と、コンピューターを操作する機能を備え、約100万トークン(1,048,576トークン)の文脈を扱える。重みは近日中に公開する予定で、Tencentは「世界のオープンソースモデルの最上位層に加わった」と位置づけている。
@@ -217,7 +217,7 @@ TencentはWeChatなど巨大な利用者基盤を持ち、エージェント機�
   summary: "米Perplexityは11月5日、常に動き続ける業務用AIエージェント「Teammates」を発表した。同社のエージェント基盤「Perplexity Computer」の上で動き、プロジェクトやスキル、記憶を引き継ぎながら、複数のエージェントが役割を分担して働く。最上位の「Max」プラン(月200ドル)向けに提供する。",
   points: ["複数のエージェントが同じ作業空間で役割を分担、進捗はアプリ内の個別スレッドで確認できる", "Slack経由でもやり取りが可能", "Maxプラン限定で、提供開始時の期間は追加料金なし、その後は月間クレジットを消費"],
   url: "https://itdaily.com/news/software/perplexity-teammates-ai-colleagues/",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 AI検索の米Perplexityは11月5日、常時稼働する業務用のAIエージェント「Teammates(チームメイト)」の提供を始めた。同社のエージェント基盤「Perplexity Computer」の上で動き、プロジェクトの情報やスキル、記憶を引き継ぎながら継続的に仕事をこなす。人間の同僚のように役割を割り振って使うことを想定している。
@@ -255,7 +255,7 @@ Teammatesでは、1つの作業空間の中で複数のエージェントがそ�
   summary: "NECは11月5日、社内のAI利用を中継するソフトウェア「cotomi Gateway」を発表し、11月から提供を始めた。機密情報を自動で検出・マスキングしたうえで外部のAIモデルに送り、隠すと処理できない業務は社内のオンプレミス環境のモデルで処理する。モデルの自動選択とプロンプト圧縮でトークン費用も抑える。",
   points: ["機密情報を自動検出してマスキングし、外部AIを秘匿した状態で利用できる", "機密性・難易度・品質・コストに応じてモデルを自動選択し、プロンプト圧縮でトークン消費を削減", "ソフトウェア版は月額100万円(税別)から、SaaS版も順次展開"],
   url: "https://jpn.nec.com/press/202611/20261105_01.html",
-  image: null,
+  image: "https://jpn.nec.com/press/202611/images/0501_ogp.jpg",
   content: `## 概要
 
 NECは11月5日、企業内のAI利用を一元的に中継するソフトウェア「cotomi Gateway」を発表し、11月から提供を始めた。社員がAIに送る文章から機密情報を自動で見つけて伏せたうえで外部のAIモデルに渡し、伏せると処理が難しい業務は社内のオンプレミス環境で動くモデルに回す。機密保護とAIの利用料(トークン費用)の削減を両立させる狙いだ。
@@ -292,7 +292,7 @@ cotomi Gatewayは、利用者とさまざまなAIモデルの間に入る「ゲ�
   summary: "中国の西湖大学の袁発傑(Fajie Yuan)氏らは、作りたいタンパク質の機能を自然な文章で説明するだけで候補の配列を設計するAIモデル「Pinal」を英科学誌Natureに発表した。160億パラメータのモデルで、蛍光タンパク質やプラスチック分解酵素など4種類で、実験により機能するタンパク質が得られた。",
   points: ["約1億3500万のタンパク質配列から約17億組の「タンパク質と説明文」のペアを作って学習", "文章をまず構造の設計図に変換し、次に配列の候補を評価して選ぶ2段階の仕組み", "蛍光タンパク質では5万配列から絞った29候補のうち1つが発光、輸送タンパク質は20候補中5つが機能"],
   url: "https://phys.org/news/2026-11-ai-protein.html",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 中国の西湖大学(Westlake University)の袁発傑(Fajie Yuan)氏らの研究チームは、作りたいタンパク質の働きを自然な文章で説明するだけで、それを実現しうるアミノ酸配列の候補を設計するAIモデル「Pinal」を開発し、英科学誌Natureに論文「Programmable design of functional proteins from natural language」を発表した。利用者は構造や配列を用意する必要がない。
