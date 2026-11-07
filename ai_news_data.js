@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Bloombergは11月6日、OpenAIが新たな資金調達の第1弾として約110億ドルの払い込みを受けたと報じた。評価額は1.25兆ドルで、当初めざした「300億ドル超・評価額1.4兆ドル」からは縮小した。調達額は今後数週間で総額200億ドル程度まで広がる可能性がある。",
   points: ["約110億ドルが11月6日(金)にOpenAIの口座に入金。評価額1.25兆ドルは調達前の値(プレマネー)とサラ・フライアーCFOが説明", "当初目標は300億ドル超・1.4兆ドル(一時は1.5兆ドルも検討)。AI株の急落とデータセンター建設への逆風で縮小", "3月の1220億ドル調達時の評価額8520億ドルからは約47%高い水準を維持"],
   url: "https://www.investing.com/news/stock-market-news/openai-closes-11-billion-funding-at-125-trillion-valuation--report-5009147",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 Bloombergは11月6日、OpenAIが新たな資金調達ラウンドの第1弾として約110億ドル(約1.7兆円)の払い込みを受けたと報じた。ラウンド全体の評価額は1.25兆ドル。当初は300億ドル超を評価額1.4兆ドルで集める計画だったが、AI関連株の急落を受けて規模と評価額の両方を引き下げた形だ。ラウンドは今後数週間で総額200億ドル程度まで広がる可能性がある。
@@ -63,7 +63,7 @@ OpenAIは当初、評価額1.4兆ドルで300億ドル以上を調達する計�
   summary: "米下院の中国特別委員会などの共和党の委員長3人が、NVIDIAのジェンスン・フアンCEOに非公開の合同説明会への出席を求めた。シンガポールのデータセンター企業Megaspeedの幹部で、米情報機関が中国国家安全省に勧誘されたとみる女性との関係を巡る報道を受けたもの。NVIDIAは機密情報は渡していないと反論している。",
   points: ["要請したのはムーレナー、マスト、クロフォードの3委員長。説明会は11月18日開催の見込み", "Megaspeedは米国の輸出規制を逃れてNVIDIAの先端チップを中国に密輸した疑いで米当局の調査を受けてきた", "NVIDIAは「地域のクラウド顧客には通常の業務情報しか渡しておらず、国家安全保障に関わる情報は一切ない」と説明"],
   url: "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/umLVLKxLCxcj2CWHug2Wb8-2048-80.jpg",
   content: `## 概要
 
 米下院の共和党の委員長3人は11月5日、NVIDIAのジェンスン・フアン最高経営責任者(CEO)に対し、非公開の合同説明会に出席するよう求めた。シンガポールのデータセンター企業Megaspeedの幹部アリス・フアン氏が中国の情報機関に勧誘されていたと米情報機関がみている、との報道を受けたもの。説明会は11月18日に開かれる見込みだ。
@@ -101,7 +101,7 @@ NVIDIAは中国向け販売の再開や輸出規制の緩和を求めて米政�
   summary: "英フィナンシャル・タイムズは、Oracleが中国Tencentに東南アジアのデータセンターで先端AIチップを最大10万枚貸し出す5年契約(約70億ドル)を破棄したと報じた。米当局者がOracleに対し、輸出規制の抜け道になりうると懸念を伝えたという。両社は確認していない。",
   points: ["5年間で最大10万枚の先端AIチップを貸し出す契約で、規模は約70億ドル", "中国企業は先端チップを買えないが、国外のデータセンターで借りることは現行ルールでは禁止されていない", "中国需要を見込んで設備を整えた東南アジアの事業者に影響。北京は自国企業に国産チップへの切り替えを促す"],
   url: "https://www.digitimes.com/news/a20261105VL209/ai-chip-data-center-usa-beijing-nvidia-tencent.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20261105vl209_files/2_b.jpg",
   content: `## 概要
 
 英フィナンシャル・タイムズ(FT)は、米Oracleが中国Tencentとの間で結んでいた、東南アジアのデータセンターで先端AIチップを最大10万枚貸し出す5年契約を破棄したと報じた。契約規模は約70億ドル(約1兆円)とされる。米当局者がOracleに懸念を伝えたことが契約破棄につながったという。Oracle、Tencentとも確認していない。
@@ -140,7 +140,7 @@ FTの関係者によると、米当局者はOracleに直接接触し、東南ア
   summary: "OpenAIは11月5日、脆弱性を実際に悪用できるかを検証するサイバーセキュリティ特化モデル「GPT-6 Cyber」を発表した。攻撃の実証を許可された「Daybreak Red」の一部顧客に限って提供する。自社の準備態勢の枠組みでは、サイバー能力を初めて最上位の「Critical」と評価した。",
   points: ["ExploitGymで48.5%(GPT-5.6 Cyberは32.1%)。許可範囲外のサービスを攻撃しなかった割合は99.93%", "Firefoxの重大な脆弱性81件を発見し、Linuxカーネルでは948件の権限昇格の脆弱性について攻撃コードを作成・修正", "提供はDaybreak Redの承認済み顧客のみ。順次、Daybreak Redの全顧客に広げる"],
   url: "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-  image: null,
+  image: "https://www.securityweek.com/wp-content/uploads/2026/11/OpenAI-GPT.jpeg",
   content: `## 概要
 
 OpenAIは11月5日、サイバーセキュリティに特化した新モデル「GPT-6 Cyber」を発表した。見つかった脆弱性を実際に悪用できるかどうかを検証し、防御側が先に修正できるようにすることを狙う。提供は、許可を得たうえで攻撃の実証を行うプログラム「Daybreak Red」の一部の承認済み顧客に限る。
@@ -180,7 +180,7 @@ AIによる脆弱性の発見と悪用の自動化は、Anthropic、Google DeepM
   summary: "AIのリスクを評価する非営利団体METRは11月5日、Anthropicの社内でAIによる研究開発の加速がどこまで進んでいるかを独自に評価した報告を公表した。Anthropicのモデルの能力指標の伸びは2025年10月以降に約1.9倍に速まり、その約8割はAIを自社の研究に使った効果だと推定した。",
   points: ["能力指標(AECI)の伸びが1.9倍に加速(95%信頼区間1.5〜2.8倍)", "加速の約80%はAIを研究に大量に使った効果とMETRは推定。社員の自己申告では生産性は約12倍", "METRが最も重要とみた根拠の多くをAnthropicが黒塗りにし、外部からの検証は限定的"],
   url: "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
-  image: null,
+  image: "https://metr.org/assets/images/ai-rd-acceleration-assessment/home-card.png",
   content: `## 概要
 
 AIのリスク評価を手がける米非営利団体METRは11月5日、Anthropicの社内でAIによる研究開発の加速がどの程度起きているかを独自に評価した報告書を公表した。Anthropicのモデルの能力の伸びは2025年10月以降、それ以前の約1.9倍の速さになったと推定し、その大部分はAnthropicが自社の研究にAIを大量に使っている効果だとみている。
@@ -219,7 +219,7 @@ Anthropicにとっては、上場を控えて技術的な優位を示す材料�
   summary: "Googleは11月5日、音声付きの動画を生成するモデル「Gemini Omni 1.2 Flash」の一般提供を始めた。1本の長さは3〜15秒で、前版の1.5倍に伸びた。720pの価格は1秒0.07ドルで、前版のOmni 1.1から30%下げた。",
   points: ["1本3〜15秒(1秒単位、既定は10秒)、延長機能で合計30秒まで。音声も同時に生成", "Gemini API・AI Studio・Vertex AIで提供。Geminiアプリでの15秒生成はAI Ultra会員向けに順次", "12月3日からOmni 1.1 Flashへのリクエストは自動的に1.2に切り替わる"],
   url: "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
   content: `## 概要
 
 Googleは11月5日、音声付きの動画を生成するモデル「Gemini Omni 1.2 Flash」の一般提供を開始した。1本の動画の長さを最大15秒まで伸ばし、価格は前版から30%引き下げた。会話形式で生成した動画を修正できる編集機能も改善した。
@@ -256,7 +256,7 @@ Googleは11月5日、音声付きの動画を生成するモデル「Gemini Omni
   summary: "セキュリティ企業Apiiroは、Claude Codeでコマンドの実行許可に「はい、今後は確認しない」を選ぶと、そのコマンドに含まれるパスワードやキーがそのまま設定ファイルに保存され、公開リポジトリに流出していると報告した。公開された設定ファイルのうち1122件に秘密情報が含まれていた。",
   points: ["許可したコマンドが「.claude/settings.local.json」に保存され、コマンド内の秘密情報もそのまま残る", "公開ファイル約10万4000件のうち約1.1%の1122件に秘密情報。git履歴なども含めると1994リポジトリで2539件", "一般的な秘密情報の検出ツールは1122件中215件を見逃した。ファイルを消しても履歴やフォークには残る"],
   url: "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-  image: null,
+  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1600/claude-code.jpg",
   content: `## 概要
 
 米セキュリティ企業Apiiroは、AnthropicのAIコーディングツール「Claude Code」の設定ファイルを通じて、パスワードやAPIキーが公開のGitHubリポジトリに大量に流出していると報告した。コマンドの実行許可で「はい、今後は確認しない」を選ぶと、そのコマンドが秘密情報ごとプロジェクト内のファイルに保存され、それが誤ってコミットされていた。
