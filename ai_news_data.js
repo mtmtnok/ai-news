@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "米Business Insiderは、元OpenAI最高技術責任者(CTO)のミラ・ムラティ氏が率いるThinking Machines Labが、調達前の評価額400億ドルで50億ドルを調達する交渉の最終段階にあると報じた。Accelが主導し、早ければ今週にも完了する可能性がある。同社はコメントを控えており、公式発表は出ていない。",
   points: ["調達前評価額400億ドルで50億ドル、調達後は約450億ドル。主導はAccel", "10月時点の報道(10億ドル規模)から調達額が5倍に拡大。以前の評価額500億ドルでの交渉は打ち切り", "11月5日には594B規模の新モデル「Inkling 2 Small」を公開したばかり"],
   url: "https://techfundingnews.com/accel-thinking-machines-lab-5b-round-40b-valuation/",
-  image: null,
+  image: "https://techfundingnews.com/wp-content/uploads/2025/04/Mira-Murati.jpg",
   content: `## 概要
 
 米Business Insiderは複数の関係者の話として、Mira Murati(ミラ・ムラティ)氏が率いるAIスタートアップThinking Machines Labが、調達前の評価額400億ドルで50億ドルを集める資金調達の最終段階にあると報じた。ベンチャーキャピタルのAccelが主導し、早ければ今週中にも完了する可能性があるという。会社側はコメントを控えた。
@@ -63,7 +63,7 @@ OpenAIの調達が当初計画から縮小し、Anthropicの上場時の想定�
   summary: "Thinking Machines Labは11月5日、総パラメータ数5940億のMoE(専門家混合)モデル「Inkling 2 Small」を公開した。自社の学習基盤Tinkerで推論とファインチューニングに使え、重みは外部の安全性検証を経て来週Apache 2.0で公開される予定と報じられている。",
   points: ["総5940億パラメータ、1トークンあたりの使用は約170億。文字と画像を入力でき、文脈は最大100万トークン", "Tinker上の料金は入力100万トークンあたり0.30ドル、出力1.00ドル", "Artificial Analysisの知能指数は31。重みは来週Apache 2.0で公開予定との報道"],
   url: "https://dataconomy.com/2026/11/06/thinking-machines-unveils-594b-parameter-inkling-2-small/",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 Mira Murati氏が率いるThinking Machines Labは11月5日、新しい大規模言語モデル「Inkling 2 Small」を公開した。総パラメータ数は5940億で、入力ごとに一部の専門家だけを動かすMoE(専門家混合)構成をとる。第2世代「Inkling 2」シリーズの最初のモデルとなる。
@@ -103,7 +103,7 @@ Inkling 2 Smallは、1トークンを処理するたびに実際に使うパラ�
   summary: "OpenAIのサラ・フライアー最高財務責任者(CFO)は11月6日、米CNBCのインタビューで、中間選挙の結果は計算資源の拡張計画を大きく変えないと述べ、米国でのデータセンター建設を続ける考えを示した。中間選挙では、10州で行われたデータセンター関連の住民投票41件のうち40件で、建設を制限するか優遇策を否決する結果が出ていた。",
   points: ["中間選挙の結果は計算資源の計画を大きく変えないとし、需要に応えるため投資を続けると説明", "10州・41件のデータセンター関連の住民投票のうち40件で建設に不利な結果", "2027年の上場の検討も継続。公務員との秘密保持契約の取りやめや拠点ごとの水・電力使用量の公表も約束"],
   url: "https://qz.com/openai-friar-data-centers-midterms-investing-110626",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 OpenAIのSarah Friar(サラ・フライアー)最高財務責任者(CFO)は11月6日、Citiが開いたテクノロジー業界向けの会合の場で米CNBCの取材に応じ、中間選挙の結果は同社の計算資源の拡張計画を大きく変えるものではないと述べた。顧客の需要に応えるため、米国でのデータセンターへの投資を続けるという。
@@ -143,7 +143,7 @@ OpenAIのSarah Friar(サラ・フライアー)最高財務責任者(CFO)は11月
   summary: "TSMCは、NVIDIAの要請で積層型の次世代メモリー「3D DRAM」の生産を検討しているとの米The Informationの報道について、市場の噂にはコメントしないとしたうえで、ロジック半導体専業のファウンドリであり続けると表明した。計画の有無には直接触れておらず、米Tom's Hardwareなどは事実上の否定と受け止めている。",
   points: ["TSMCは「市場の噂にはコメントしない」「ロジック専業のファウンドリ」と表明、計画の有無には直接触れず", "TSMCは通常のDRAMの製造プロセスを持たず、3D DRAMの実用化も数年先との見方", "報道後にMicronとSK hynixの株価が下落、ただし同時期のハイテク株急落の影響と切り分けは難しい"],
   url: "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
-  image: null,
+  image: "https://cdn.mos.cms.futurecdn.net/inWCPzXNVFbyYDRmxtthn3-970-80.jpg",
   content: `## 概要
 
 台湾TSMCは、最大顧客のNVIDIAの要請を受けて次世代メモリー「3D DRAM」の生産計画を作り始めたとする米The Informationの報道について、市場の噂にはコメントしないとしたうえで、ロジック半導体専業のファウンドリ(受託製造)であり続けると改めて表明した。米Tom's Hardwareなどはこれを報道の事実上の否定と伝えている。
@@ -183,7 +183,7 @@ TSMCがメモリーそのものに参入しなくても、HBMのベースダイ�
   summary: "Bloombergは11月5日、米Micronが台湾・桃園で建設中の新工場「Fab 11E」の工事をほぼ止めたと報じた。投資額は30億〜45億ドル、2028年の稼働を予定していた。桃園の労働組合は営業利益の15%を全世界の従業員に現金で配分するよう求めており、賃金を巡る対立が続いている。",
   points: ["投資額30億〜45億ドル、2028年稼働予定の桃園の新工場の工事がほぼ停止(Micronは停止を正式に認めず)", "桃園の労組は営業利益の15%を全額現金で配分するよう要求。台中の労組とは10月に合意済み", "報道を受けMicron株は取引開始前に約5%下落、ASMLの最先端装置の導入も計画に含まれていた"],
   url: "https://finance.yahoo.com/technology/articles/micron-freezes-taiwan-plant-workers-023700724.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/b9f89206c2d82e6c19db508892d28ea22189b29e4dd997188c245d9a3e2113de/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2Fa2d37f5695d6bdda46d28bcd5c07f304.jpg",
   content: `## 概要
 
 米Bloombergは11月5日、関係者の話として、米メモリー大手Micronが台湾北部の桃園で建設中の新工場「Fab 11E」の工事をほぼ停止したと報じた。投資額は30億〜45億ドルで、2028年の稼働を予定していた。背景には、台湾の従業員との賃金を巡る長引く対立がある。
@@ -222,7 +222,7 @@ AIブームでメモリー各社の利益が急増する中、従業員が利益
   summary: "OpenAIは11月4日、ChatGPT、Codex、APIで画像生成の新版「Images 2.6」を公開した。指示文や画像からGIFを作れるようになり、自分やペット、キャラクターの参照画像を保存して繰り返し使える。APIには速さ重視の「Flare」と品質重視の「Sunburst」の2モデルを追加し、生成速度は従来より50%速いという。",
   points: ["ChatGPTの全プランでGIF作成と参照画像の保存・再利用に対応", "APIに速度重視の「GPT-Image-2.6 Flare」と品質重視の「Sunburst」を追加、生成は50%高速化", "同社の製品全体で週に約40億枚の画像が作られている"],
   url: "https://openai.com/index/introducing-images-2-6/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
   content: `## 概要
 
 OpenAIは11月4日、画像生成機能の新版「Images 2.6」を、ChatGPT、コーディング支援のCodex、開発者向けAPIで公開した。指示文や画像から短い動く画像(GIF)を作れるようになったほか、自分やペット、キャラクターの写真を「参照画像」として保存し、繰り返し使えるようになった。
@@ -261,7 +261,7 @@ OpenAIによると、同社の製品全体で作られる画像は週に約40億
   summary: "OpenAIは11月6日、生物学の実験室で日常的に行うデータ解析をAIエージェントがどこまでこなせるかを測るベンチマーク「BioBasicsBench」を公開した。酵素設計の新興Ligoと共同で、実際の実験から100問を作った。生のデータの読み取りや誤りの発見、証拠が結論を支えていないことに気づけるかを問う。",
   points: ["タンパク質、画像・細胞解析、定量・アッセイ、核酸、分子クローニングの5分野・100問", "各問は作成者以外のLigoの科学者、外部の博士級の研究者、社内の担当者の3段階で確認", "コロニーの数え間違いで約12%多く数えるなどの失敗も。OpenAIは「高得点でも実験の判断を任せられる段階ではない」"],
   url: "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/3lNbSQIg31Dg9aBrUjuQMI/131fea8d534499ca30f7a9f880269d74/biobasicsbench-social.png?w=1600&h=900&fit=fill",
   content: `## 概要
 
 OpenAIは11月6日、生物学の実験室(ウェットラボ)で日常的に行われるデータ解析を、AIエージェントがどこまで正しくこなせるかを測る新しいベンチマーク「BioBasicsBench」を公開した。酵素の設計に取り組むバイオ企業Ligoと共同で開発し、実際の実験から集めた100問で構成されている。
@@ -301,7 +301,7 @@ AIを科学研究に使う「AI for Science」では、論文の要約や仮説�
   summary: "フジテレビは11月5日、ドラマ制作で生成AIを試す実験場「AI Sandbox」を湾岸スタジオに設け、9月から運用していると発表した。『救命病棟24時』第1話の爆発事故の空撮映像を生成AIで作り、一部の映像制作工程では作業量を最大70〜80%減らせたという。2027年10月をめどに、全ドラマでAIを使える体制を整える。",
   points: ["湾岸スタジオに「AI Sandbox」を設置、ANDENTのAI開発ユニット「stu」と共同で9月から運用", "『救命病棟24時』の事故現場の空撮は生成AIで作った架空の風景に煙を合成", "2026年10月期から毎クール1本以上を「AI強化枠」に、2027年10月めどに全ドラマでAI活用体制"],
   url: "https://news.mynavi.jp/article/20261105-5259718/",
-  image: null,
+  image: "https://news.mynavi.jp/article/20261105-5259718/ogp_images/ogp.jpg",
   content: `## 概要
 
 フジテレビは11月5日、ドラマ制作に生成AIを取り入れるための実験場「AI Sandbox」を東京・お台場の湾岸スタジオに設け、9月から運用していると発表した。放送中の『救命病棟24時』でも成果を使っており、生成AIを活用した一部の映像制作工程では、従来に比べて作業量を最大70〜80%減らせたという。
@@ -341,7 +341,7 @@ AI Sandboxは、同社のAIセンターのもとで、ドラマ・映画制作�
   summary: "SNSで話題: Alibabaの大規模言語モデル「Qwen」の公式アカウントが11月6日、暗い海の上を鳥が飛ぶ予告画像を投稿し、次世代の「Qwen 4」の発表が近いとの見方がSNSで広がった。ただし画像にはモデル名も日付も書かれておらず、Qwen 4の公開は公式発表は未確認。",
   points: ["予告画像には荘子の冒頭「北冥有魚 其名為_」が書かれ、最後の語が空欄に", "「Qwen 4」の予告との解釈はSNS利用者の推測で、Alibabaは意味を説明していない", "11月7〜8日時点でHugging FaceやAlibaba Cloudに新モデルの公開は確認されていない"],
   url: "https://artificialwatch.com/wire/qwen-4-teaser-the-becoming-begins-what-alibaba-confirmed",
-  image: null,
+  image: "https://artificialwatch.com/aw-wire/qwen-4-teaser-the-becoming-begins-what-alibaba-confirmed.jpg",
   content: `## 概要
 
 SNSで話題: Alibabaの大規模言語モデル「Qwen」の公式アカウントが11月6日、新しい予告画像を投稿した。暗い海の上を鳥の群れが飛ぶ絵に、中国の古典『荘子』の冒頭の一節が書かれたもので、次世代の「Qwen 4」の発表が近いのではないかとの見方がSNSで一気に広がった。ただし、モデル名も日付も示されておらず、公式発表は未確認だ。
