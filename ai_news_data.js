@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Anthropicは11月9日、最上位モデルの新版「Claude Fable 5.2」と、審査済みの組織だけに提供する「Claude Mythos 5.2」を発表した。Fable 5.2は一般提供で、料金を入力100万トークン8ドル・出力40ドルへ約2割下げた。上場に向けたロードショー開始と同じ週の投入となる。",
   points: ["Fable 5.2はコーディング評価FrontierCode 2.0で49.1%(5.1は32.4%)と同社が公表。出力は最大30%高速化", "料金は入力8ドル/出力40ドル(100万トークンあたり、従来10ドル/50ドル)。高速モードも用意", "Mythos 5.2はライフサイエンス・サイバー分野の審査プログラム参加組織に限定提供"],
   url: "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108342843-1785448090042-gettyimages-2280291466-ANTHROPIC_CIRCUIT.jpeg?v=1785448353&w=1920&h=1080",
   content: `## 概要
 
 Anthropicは11月9日、同社の最上位モデルの新版「Claude Fable 5.2」と「Claude Mythos 5.2」を発表した。Fable 5.2は誰でも使える一般提供で、料金は従来から約2割下がった。Mythos 5.2は、生命科学とサイバーセキュリティの分野で審査を通った組織だけに提供される。
@@ -65,7 +65,7 @@ IPOのロードショー(投資家向け説明会)が始まった週に、性能
   summary: "NVIDIAの取締役会は、ジェンスン・フアンCEOが中国のスパイとされる女性と関係を持ち、外国の諜報活動の標的になっていたとの報道を受け、独立取締役による調査を始めた。11月9日の米市場で同社株は一時8.8%下落した。フアン氏は調査に協力し、CEOにとどまる意向だ。",
   points: ["独立取締役で構成する委員会が外部の弁護士と調査。会社は機密流出の証拠はないとしている", "フアン氏は社員向けメモで不倫を認めて謝罪。調査中もCEOを続ける", "株価は一時8.8%安。後継者が決まっていないことが投資家の不安材料に"],
   url: "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108447194-1792682505441-108447194-1792682412759-gettyimages-2301328017-2s4a6117_3tcndrih.jpg?v=1792682514&w=1920&h=1080",
   content: `## 概要
 
 NVIDIAの取締役会は、創業者でCEOのジェンスン・フアン氏が外国の諜報活動の標的になっていたとの報道を受け、独立した調査を始めると発表した。フアン氏は、米当局が中国のスパイと疑う女性実業家と関係を持っていたことを認めている。週明け11月9日の米市場でNVIDIA株は大きく下げた。
@@ -105,7 +105,7 @@ NVIDIAは世界のAIチップ供給の中心にあり、創業者のフアン氏
   summary: "CNBCなどによると、Anthropicは11月9日の週に新規株式公開(IPO)に向けた投資家向け説明会(ロードショー)を始めた。ナスダックにティッカー「ANT」で上場する計画で、感謝祭前の週の値決めを目指すと報じられている。11月上旬のハイテク株安を受け、投資家が話す評価額は1.1兆〜1.3兆ドル程度まで下がっている。",
   points: ["10月26日のS-1公開から15日の規定期間を経て、最も早い時期にロードショー開始", "調達額は800億〜1000億ドル規模との報道。正式な調達額や価格帯は未公表", "11月5日にナスダック100が6.4%下落し、想定評価額は当初の約2兆ドルから下振れ"],
   url: "https://unusualwhales.com/news/anthropic-ipo-roadshow-week-november-9-cnbc",
-  image: null,
+  image: "https://unusualwhales.com/og-image-r2026.png",
   content: `## 概要
 
 Anthropicは11月9日の週、IPOに向けて機関投資家に事業を説明する「ロードショー」を始めた。CNBCやブルームバーグが伝えた。同社はナスダックにティッカー「ANT」でクラスA株を上場する計画だ。
@@ -144,7 +144,7 @@ OpenAIが評価額1.25兆ドルで調達を終えたばかりで、両社の評�
   summary: "英フィナンシャル・タイムズは、Anthropicが9月下旬、ガス火力の大型発電機1.7GW分を約34億ドルで購入することで合意したと報じた。米OnePWR Solutionsが約2年前にCaterpillarへ発注していた設備を引き継いだもので、AIラボによる発電設備の購入として過去最大とされる。",
   points: ["OnePWRが約2年前に発注した設備を引き継ぎ。同社の買収や人員移籍はない", "設置場所・納期・内訳は非公表。Anthropicは取材に回答せず", "上場申請書では、一部データセンターが敷地内のガス発電に頼ると記載"],
   url: "https://www.datacenterdynamics.com/en/news/anthropic-signs-34bn-gas-generator-deal-to-support-17gw-of-data-center-power/",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 英フィナンシャル・タイムズ(FT)は11月8日、Anthropicがガス火力の大型発電機1.7GW分を約34億ドルで購入することで、9月下旬に合意していたと報じた。米テキサス州の電源会社OnePWR Solutionsが約2年前にCaterpillarへ発注していた設備を引き継ぐ形で、AIラボによる発電設備の購入としては過去最大とされる。
@@ -183,7 +183,7 @@ Anthropicが提出した上場申請書の修正版(S-1/A)には、計画中の�
   summary: "米ニューヨーク・タイムズの調査報道によると、米商務省は、登記上の事務所に実体がない中国企業や、軍とのつながりが疑われる企業に、NVIDIAのAIチップ「H200」を扱うことを承認していた。承認を受けた中国企業は約20社にのぼるという。",
   points: ["New Matrix(北京)とMaginfraがH200をAIサーバーに組み立てる許可を取得", "New Matrixの登記住所は配線がむき出しの空室で、管理会社にも記録なし", "商務省の産業安全保障局は「すべての申請を安全保障の観点で審査している」と説明"],
   url: "https://wccftech.com/us-approved-nvidia-h200-sales-chinese-firms-empty-offices-military-ties/",
-  image: null,
+  image: "https://cdn.wccftech.com/wp-content/uploads/2026/11/NVIDIA-H200-2.jpg",
   content: `## 概要
 
 米ニューヨーク・タイムズは11月7日、米商務省が、事務所に実体のない中国企業や軍との関係が疑われる企業に、NVIDIAのAIチップ「H200」を扱う許可を出していたと報じた。中国企業への輸出審査が十分に機能していないとの批判が強まっている。
@@ -221,7 +221,7 @@ NVIDIAのフアンCEOをめぐる諜報疑惑と同じ時期の報道で、米�
   summary: "MetaのSuperintelligence Labは11月9日、Museシリーズで最も小さく安い軽量モデル「Muse Ember」を公開した。AIエージェントが繰り返す道具の呼び出しやコードの修正などを低コストでこなす用途を想定し、上位モデル「Muse Wonder」と組み合わせて使う設計だ。",
   points: ["料金は100万トークンあたり入力0.10ドル・出力0.50ドル。コンテキストは100万トークン", "文章・画像・音声・動画を入力可能。Meta Model APIとMuse Codeで提供", "同社はClaude Haiku 5.5と同等の性能を約3分の1のコストで出すと主張"],
   url: "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/11/Blog-Header-Visual.png?resize=1200,675",
   content: `## 概要
 
 MetaのSuperintelligence Labは11月9日、軽量モデル「Muse Ember」を公開した。Museシリーズで最も小さく、最も安いモデルで、AIエージェントが一日中繰り返す細かな作業を安くこなす「実行役」として位置づけている。Spark、Glimmer、Wonderに続く、シリーズ4本目のモデルとなる。
@@ -261,7 +261,7 @@ Metaは、外部の指標Artificial Analysis Intelligence IndexでAnthropicのCl
   summary: "東京のAIスタートアップSakana AIは11月9日、同社として初めてのモバイルアプリ「Sakana AI App(仮)」を開発していると発表し、テスターの募集を始めた。iOSとAndroidの利用者が対象で、応募は11月15日まで。機能や公開時期は明らかにしていない。",
   points: ["iOS・Androidの利用者が対象。応募締め切りは11月15日23時59分", "デビッド・ハCEOは「Sakana AIにとって新たな方向性」と説明", "機能・リリース時期は非公表。2月に募集した一般向けサービスとは別の案件"],
   url: "https://www.itmedia.co.jp/aiplus/article/2611/09/2000003008/",
-  image: null,
+  image: "https://www.itmedia.co.jp/aiplus/article/ogp/2611/09/2000003008/10011594/2048",
   content: `## 概要
 
 Sakana AIは11月9日、同社として初めてのモバイルアプリ「Sakana AI App(仮)」を開発中だと発表し、試験利用に協力するテスターの募集を始めた。iOSとAndroidの両方の利用者が対象で、応募は11月15日23時59分まで受け付ける。
@@ -297,7 +297,7 @@ Sakana AIはこれまで、企業向けのAI開発や研究に力を入れてき
   summary: "SNSで話題: 米スタートアップPhysical Superintelligence(PSI)は、Anthropicの未公開モデルを動かした研究システムが、2008年に提起された量子計算の未解決問題「Aaronson-Ambainis予想」の証明を3日目に完成させたと発表した。証明は機械検証ツールLeanで確認されたが、専門家による査読は済んでいない。",
   points: ["PSIの研究システムが実行開始から3日目に完全な証明を出し、Leanが受理", "ランダムな入力に対する量子計算の速さの優位には限界がある、という結論につながる", "論文とLeanの形式化はGitHubで公開。査読前で、Anthropicは使ったモデルを含めコメントせず"],
   url: "https://letsdatascience.com/news/psi-says-research-system-with-anthropic-model-proved-aaronso-19fd7044",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 
 米国の物理系AIスタートアップPhysical Superintelligence(PSI)は11月6日、自社の研究システムが、量子計算の分野で2008年から未解決だった「Aaronson-Ambainis予想」の証明を完成させたと発表した。システムにはAnthropicの一般公開されていないモデルが使われたという。X(旧Twitter)では「社内モデルは一般向けよりはるかに先を行っている」といった投稿が拡散し、大きな話題になった。
