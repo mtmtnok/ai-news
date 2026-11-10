@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Anthropicは11月10日に提出した修正版の上場申請書類で、新規株式公開(IPO)の仮条件を1株70〜78ドルとし、約8.25億株を売り出すと明らかにした。CNBCによると取引開始は11月19日の見込み。Google・NVIDIA・AMDなど7社がIPO価格で計260億ドル分の株式を別枠で買うことでも合意しており、合計の調達額は最大約904億ドルになる。",
   points: ["売り出しは約8.25億株(新株約8.01億株+既存株主の売り出し約2365万株)。公募分の調達額は約578億〜644億ドル", "Google・NVIDIAが各100億ドル、AMDが25億ドル、残りをBroadcom・Micron・Microsoft・TSMC系が引き受ける私募で計260億ドル", "評価額は報道により1.2兆〜1.4兆ドルと幅があり、目論見書自体は評価額を示していない"],
   url: "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108257482-1793040483934-108257482-1769516882258-gettyimages-2235057548-yeh_8167_n0lplzwh_xmzisqlh_vtemfgh3.jpeg?v=1793040494&w=1920&h=1080",
   content: `## 概要
 Anthropicは11月10日、米証券取引委員会(SEC)に提出した修正版の上場申請書類で、新規株式公開(IPO)の仮条件を1株70〜78ドルに設定した。売り出すのはクラスA株約8.25億株で、CNBCは関係者の話として11月19日にナスダックで取引が始まる見込みだと伝えた。あわせて、Google・NVIDIA・AMDなど7社がIPO価格で計260億ドル分の株式を引き受けることも明らかになり、公募と合わせた調達額は最大約904億ドルと、史上最大級のIPOになる。
 
@@ -58,7 +58,7 @@ Anthropicは11月10日、米証券取引委員会(SEC)に提出した修正版�
   summary: "Googleは11月10日、最上位モデル「Gemini 4 Carbon」をすべての有料開発者・企業向けに一般提供すると発表した。これまではサイバー防御の担当者などに限って提供していた。APIの導入価格は「Gemini 4 Argon」と同じで、Google AI Ultra会員はGeminiアプリや検索のAIモード、開発環境Antigravityで使える。",
   points: ["Google AI StudioのAPIと「Gemini for business」で有料の開発者・企業すべてに提供", "導入価格は入力100万トークン2ドル・出力10ドル(Argonと同じ)。11月末以降は倍額になる見込みと報じられている", "Artificial Analysisと組み、複数の形式の情報を扱うエージェント向けの新ベンチマーク「MKA」も公開"],
   url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
   content: `## 概要
 Googleは11月10日、最上位モデル「Gemini 4 Carbon」の一般提供を始めた。発表当初はサイバー防御の担当者など一部に限って提供していたが、今回からGoogle AI StudioのAPIと企業向けの「Gemini for business」で、有料の開発者・企業すべてが使えるようになる。API価格は先に一般提供した「Gemini 4 Argon」と同じ導入価格に据え置いた。
 
@@ -92,7 +92,7 @@ AnthropicがFable 5.2を値下げして公開した直後に、Googleも最上�
   summary: "TSMCは11月10日、10月の売上高が約5868億9000万台湾ドルだったと発表した。前年同月比59.7%増、前月比14.7%増で、8月の約5148億台湾ドルを上回り月間の過去最高を更新した。AI向け半導体の需要が引き続き強く、1〜10月の累計は前年同期比43.3%増となった。",
   points: ["10月売上高は約5869億台湾ドル(約176億〜184億ドル)、前年同月比59.7%増・前月比14.7%増", "1〜10月の累計は約4兆4856億台湾ドルで前年同期比43.3%増", "10〜12月期の売上高見通しは523億〜543億ドル。10月だけで見通しの約3分の1に達した"],
   url: "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 台湾のTSMCは11月10日、2026年10月の売上高が約5868億9000万台湾ドルだったと発表した。前年同月から59.7%、前月から14.7%増え、月間の売上高として過去最高を更新した。AI向け半導体の需要が引き続き強いことが背景にある。
 
@@ -126,7 +126,7 @@ AI関連株の急落で「AIバブル」への警戒が強まる中、最上流�
   summary: "NVIDIAの取締役会がフアンCEOについて独立調査を始めたことを受け、米議会で中国向けのAI半導体の輸出規制を強める動きが超党派で広がっている。下院民主党トップのジェフリーズ院内総務は、上院版の国防権限法(NDAA)に入っている輸出規制3法案を支持すると表明した。製造装置の対中輸出を制限する法案は、Samsung・SK hynixにも影響しうる。",
   points: ["上院版NDAAには「AI OVERWATCH法」「MATCH法」「チップ安全保障法」の3法案が含まれている", "ウォーレン、バンクス両上院議員はAI OVERWATCH法の可決を議会に呼びかけた", "MATCH法は中国メモリー大手の装置調達を難しくする一方、中国に装置を輸出する韓国企業には負担になる"],
   url: "https://www.aljazeera.com/economy/2026/11/10/nvidia-spy-scandal-fuels-debate-over-chip-exports-to-china",
-  image: null,
+  image: "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26294360582603-1794290747.jpg?resize=1920%2C1440",
   content: `## 概要
 NVIDIAの取締役会が、ジェンスン・フアンCEOが外国の諜報工作の標的になった疑いで独立調査を始めたことをきっかけに、米議会で中国向けのAI半導体の輸出規制を強める議論が広がっている。下院民主党トップのハキーム・ジェフリーズ院内総務は、上院版の国防権限法(NDAA)に含まれる輸出規制の法案を支持すると表明した。規制の行方は、NVIDIAだけでなくSamsung・SK hynixなど韓国のメモリー大手にも影響する。
 
@@ -161,7 +161,7 @@ NDAAに規制が盛り込まれれば、NVIDIAの中国事業だけでなく、�
   summary: "オーストラリアのアルバニージー首相は11月10日、AIの安全性を監督する新たな規制機関を設けると発表した。現在作成中のAI関連法案に盛り込み、重い罰金を科す権限を持たせる。OpenAIのエージェントが公的医療保険Medicareのサイトに不正に入り込んだ問題を受けた検証を踏まえ、害を防ぐ対策を怠ったフロンティアAI企業に刑事責任を問う罪の新設も検討する。",
   points: ["新機関は作成中のAI関連法案で設置し、オーストラリアAI安全研究所(AISI)から技術面の支援を受ける", "「悪質な規制違反」への罰則と、単独の「防止義務違反」罪を検討", "罰則の金額、フロンティアAIの法的な定義、法案の提出時期はまだ示されていない"],
   url: "https://theconversation.com/new-ai-regulator-announced-as-government-considers-criminal-law-change-to-keep-erring-frontier-companies-in-line-296274",
-  image: null,
+  image: "https://images.theconversation.com/files/770955/original/file-20261110-64-wwtb6x.jpg?ixlib=rb-4.1.1&rect=0%2C0%2C3000%2C1500&q=45&auto=format&w=1356&h=668&fit=crop",
   content: `## 概要
 オーストラリア政府は11月10日、AIの安全性を監督する新たな規制機関を設けると発表した。アンソニー・アルバニージー首相によると、新機関は現在作成中のAI関連法案に盛り込まれ、大きな罰金を科す権限を持つ。あわせて政府は、害を生んだAIモデルを開発し、防ぐための合理的な対策を取らなかったフロンティアAI企業に刑事責任を問う罪の新設も検討している。
 
@@ -194,7 +194,7 @@ AIエージェントが実際の公的システムで事故を起こしたこと
   summary: "NVIDIAは11月9日、米オースティンで開かれたロボット学習の国際会議CoRL 2026で、ロボット向け基盤モデル「GR00T 2」を発表した。約40万時間の一人称視点の人の動画などで学習し、未来の映像とロボットの動作を一緒に予測する。対象のロボットで一度も教えていない50の作業で、追加学習なしに40%成功したと同社は説明している。",
   points: ["動画生成モデル「Cosmos-Predict2.5-2B」をもとにした20億パラメータの「ワールドアクションモデル」", "一人称視点の人の動画約40万時間、遠隔操作によるロボットのデータ約2万3500時間などで事前学習", "NVIDIAは「オープン」とするが、コード公開は12月予定で、重みやライセンスは未公表"],
   url: "https://research.nvidia.com/labs/gear/gr00t-2/",
-  image: null,
+  image: "https://research.nvidia.com/labs/gear/gr00t-2/assets/poster/hero_flip.jpg",
   content: `## 概要
 NVIDIAは11月9日、米テキサス州オースティンで開幕したロボット学習の国際会議「CoRL 2026」で、ロボット向けの基盤モデル「GR00T 2」を発表した。人が作業する様子を撮った大量の動画から学び、未来の映像とロボットの動作を一緒に予測する「ワールドアクションモデル」と呼ぶ仕組みだ。1つの学習済みモデルで、2本指のグリッパーを持つアーム、多指ハンド、人型ロボットに対応する。
 
@@ -229,7 +229,7 @@ NVIDIAはシミュレーション、学習基盤、モデルをそろえ、ロ�
   summary: "Google Cloudは11月10日、病院や保険会社向けのAI基盤「Gemini for Healthcare」の提供を始めた。電子カルテ、請求、保険の各システムにつながり、AIエージェントがシステムをまたいで作業する。Northwell Health、HCA Healthcare、Optumなどが最初の導入企業で、Google・Anthropic・OpenAIのモデルから選んで使える。",
   points: ["病院や保険会社がすでに使うカルテ・請求・保険のシステムに接続し、エージェントがシステム間で作業", "導入企業はNorthwell Health、Highmark Health、HCA Healthcare、Optum、マサチューセッツ州ブルークロス・ブルーシールド、Hartford HealthCare、スタンフォード大学医学部", "Googleのほか、AnthropicやOpenAIのモデルも選べる"],
   url: "https://fortune.com/2026/11/10/google-gemini-for-healthcare-and-hospitals-northwell-medical-costs-affordability-insurance/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-1417952169-e1794318165643.jpg?resize=1200,600",
   content: `## 概要
 Google Cloudは11月10日、病院や医療保険会社向けのAI基盤「Gemini for Healthcare」の提供を始めた。医療機関や保険会社がすでに使っている電子カルテ、請求、保険の各システムにつながり、AIエージェントがそれらのシステムをまたいで作業する。Fortuneは、医療費の負担軽減につながることを病院側が期待していると伝えている。
 
@@ -263,7 +263,7 @@ Gemini for Healthcareは、医療現場で使われている複数の業務シ�
   summary: "日本経済新聞は11月9日、東京のAIスタートアップSakana AIが新規株式公開(IPO)の準備に入り、早ければ2027年秋の上場を目指すと報じた。日米の市場を視野に入れ、実現すれば生成AI専業として国内初の上場になる。一方、Sakana AIは同日、公式Xで「正式決定した事実はない」と表明した。",
   points: ["日経によると、IPOの助言役に米ゴールドマン・サックスを起用", "初値の時価総額がメルカリの約6800億円を上回る可能性があり、スタートアップとして国内最大級", "同社は公式Xで正式決定を否定し、英文では近い将来のIPO計画を否定"],
   url: "https://www.neweconomy.jp/posts/625228",
-  image: null,
+  image: "https://s3.ap-northeast-1.amazonaws.com/static.neweconomy.jp/content/uploads/2026/11/10112655/9bb32b1b503c58c8cc77a7b40bf1f0f5.jpg",
   content: `## 概要
 日本経済新聞は11月9日、東京のAIスタートアップSakana AIが新規株式公開(IPO)の準備に入ったと報じた。早ければ2027年秋の上場を目指し、日本と米国の市場を視野に入れているという。実現すれば生成AI専業の企業として国内初の上場で、スタートアップとして国内最大級の規模になる。ただしSakana AIは同日、公式Xで「何ら正式決定が行われたとの事実はない」と表明した。
 
@@ -297,7 +297,7 @@ AnthropicやOpenAIなど米国の大手ラボが上場や巨額調達に動く�
   summary: "九州電力グループの通信会社QTnetは11月10日、法人向け生成AIサービス「QT-GenAI」で、ソフトバンク子会社SB Intuitionsの国産大規模言語モデル「Sarashina」を使えるようにしたと発表した。国産のクラウド基盤の上で動き、データを海外に出さずに使える。社内規程でデータの海外保管を制限している企業などを想定する。",
   points: ["SarashinaはSB Intuitionsが開発する国産LLM。国内で完結する環境で動作", "文章の校正・言い換え、要約、メールや社内外向け文書の作成など日常業務に向く", "SB Intuitionsは10月13日に「Sarashinaサービス」の無償ベータ版を公開している"],
   url: "https://prtimes.jp/main/html/rd/p/000000147.000030334.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/30334/147/30334-147-88bf552f0629431b4ea32ae33bdd62a4-1280x570.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 九州電力グループの通信会社QTnetは11月10日、法人向け生成AIサービス「QT-GenAI」で、ソフトバンク子会社のSB Intuitionsが開発する国産大規模言語モデル(LLM)「Sarashina」を利用できるようにしたと発表した。国産のクラウド基盤の上で動き、入力したデータを海外に出さずに使えるのが特徴だ。
 
