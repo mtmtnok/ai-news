@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "TSMCは11月10日の取締役会で、AnthropicとOpenAIにそれぞれ最大5億ドル、合わせて最大10億ドルを出資することを承認した。Anthropicへの出資はIPO価格での普通株取得で、上場の実現などが条件となる。半導体のエコシステムに投資する新会社の設立に最大5億ドルを充てることも承認したと報じられている。",
   points: ["Anthropicには最大5億ドル、IPO価格で普通株を取得。上場などの条件付き", "OpenAIには最大5億ドル、優先株を取得。価格・評価額・時期は非開示", "半導体エコシステム向けの投資会社設立にも最大5億ドルを承認と報道"],
   url: "https://www.investing.com/news/stock-market-news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai-5015908",
-  image: null,
+  image: "https://images.pexels.com/photos/8919508/pexels-photo-8919508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 台湾のTSMCは11月10日の取締役会で、米AnthropicとOpenAIに合わせて最大10億ドルを出資することを承認した。ロイターが報じ、TSMCも米証券取引委員会(SEC)への提出書類(Form 6-K)で明らかにした。世界最大のファウンドリが、主要顧客であるAIラボの株主にも加わる形になる。
 
@@ -59,7 +59,7 @@ NVIDIA・Google・Microsoftなどに続き、製造を担うTSMCまでがフロ�
   summary: "米ウォール・ストリート・ジャーナルが入手した内部資料によると、OpenAIの7〜9月期の売上高は約100億ドルで、四半期として初めて100億ドルに達した。4〜6月期の約67億ドルから約5割増えた一方、株式報酬を除く調整後の営業赤字は約109億ドルと、前四半期の約101億ドルから広がった。",
   points: ["7〜9月期の売上高は約100億ドル、4〜6月期の約67億ドルから約50%増", "調整後の営業赤字は約109億ドル(前四半期は約101億ドル)、株式報酬26億ドルは含まず", "法人向けが初めて最大の収入源に。コーディング支援の需要が押し上げ"],
   url: "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/11/openai-revenue-hits-10-billion-as-losses-reach-109-billion/",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米ウォール・ストリート・ジャーナル(WSJ)が入手した内部資料によると、OpenAIの7〜9月期の売上高は約100億ドルとなり、四半期として初めて100億ドルの大台に乗った。売上高は前四半期から約5割伸びた一方、営業赤字も広がっており、成長と損失がともに膨らむ状況が続いている。
 
@@ -95,7 +95,7 @@ NVIDIA・Google・Microsoftなどに続き、製造を担うTSMCまでがフロ�
   summary: "ソフトバンクグループは11月10日、7〜9月期の最終損益が1兆1200億円(約71億ドル)の赤字だったと発表した。前年同期は2.5兆円の黒字で、市場予想の平均1290億円の黒字を大きく下回った。米国のAIデータセンター向け発電設備の調達計画を変えたことによる約5972億円の損失が重荷になった。",
   points: ["7〜9月期の最終損益は1兆1200億円の赤字、前年同期は2.5兆円の黒字", "米AIデータセンター向け発電設備の調達計画変更で約5972億円の損失", "OpenAIへの累計出資は約646億ドル(約13%)、借入依存と信用保証料の上昇に懸念"],
   url: "https://www.freemalaysiatoday.com/category/business/2026/11/10/tech-investor-softbank-group-logs-us-7bil-quarterly-net-loss",
-  image: null,
+  image: "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/45b9a4bf-masayoshi-son-softbank.jpg",
   content: `## 概要
 ソフトバンクグループ(SBG)は11月10日、2026年7〜9月期の連結決算を発表し、最終損益が1兆1200億円(約71億ドル)の赤字だったと明らかにした。前年同期は世界的な株高を背景に2.5兆円の黒字だった。会社がまとめた市場予想の平均は1290億円の黒字で、予想を大きく下回った。
 
@@ -131,7 +131,7 @@ OpenAIの調達額の縮小や評価額の伸び悩みが続けば、SBGの業�
   summary: "ロイターは、2001年から米国の禁輸対象リスト(エンティティ・リスト)に載る中国の西北工業大学が、NVIDIAのAI半導体「H200」2枚を地元の業者を通じて購入していたと報じた。10月21日付の調達記録によると価格は87万4700元(約12万3000ドル)。同大学はNVIDIA製GPUを使うサーバーの賃借契約も結んでいた。",
   points: ["西北工業大学は2001年から米国のエンティティ・リストに掲載、軍との関係が指摘される", "陝西省の業者を通じてH200を2枚、87万4700元(約12万3000ドル)で購入", "NVIDIAが直接販売した証拠や、米国の法律違反を示すものではないとロイター"],
   url: "https://bnnbloomberg.ca/business/artificial-intelligence/2026/11/11/military-linked-chinese-university-bought-nvidia-chips-despite-us-blacklist-reuters-exclusive",
-  image: null,
+  image: "https://www.bnnbloomberg.ca/resizer/v2/N6C23VWHN4VSE2IEN4NDHZI4GU.jpg?smart=true&auth=0879c7f6567eae45da7aafff1a23ecc5c4f093e9dda0a6e43f87de0e7f34f0ec&width=1200&height=630",
   content: `## 概要
 ロイターは11月11日、米国の禁輸対象リスト(エンティティ・リスト)に載っている中国の西北工業大学が、NVIDIAのAI半導体「H200」を入手していたと独自に報じた。NVIDIAから直接ではなく、中国国内の業者を通じて購入していた。米国の輸出規制をめぐる議論が強まる中で、規制の抜け道があらためて示された形だ。
 
@@ -167,7 +167,7 @@ H200は米政府が条件付きで中国への輸出を認めたチップだ。�
   summary: "NVIDIA、韓国SKテレコム、韓国のAI半導体新興企業Rebellionsは11月9日、ソウルで開かれた「NVIDIA AI Day Seoul」で、GPUとNPUを組み合わせたAI計算システムを共同で構築する覚書を結んだ。NVIDIAの接続技術「NVLink Fusion」を使い、Rebellionsが開発中の「R200」をNVIDIAのGPUとつなぐ。",
   points: ["NVIDIAのGPUとRebellionsのNPUを組み合わせ、SKテレコムのAIデータセンターで性能を検証", "NVIDIAの高速接続技術NVLink Fusionで他社チップをつなぐ", "韓国の主権AIインフラづくりの一環、Rebellionsは推論市場で海外展開を狙う"],
   url: "https://www.koreatimes.co.kr/business/companies/20261109/nvidia-skt-rebellions-to-jointly-establish-heterogeneous-computing-system-for-ai-1",
-  image: null,
+  image: "https://newsimg.koreatimes.co.kr/2026/11/09/5b8ccf46-15d0-4adf-972a-4d7769b89dd8.jpg",
   content: `## 概要
 NVIDIA、韓国の通信大手SKテレコム、韓国のAI半導体新興企業Rebellionsの3社は11月9日、ソウルのCOEXで開かれた「NVIDIA AI Day Seoul」で、種類の異なるチップを組み合わせたAI計算システムを共同で構築する覚書を結んだ。NVIDIAのGPUと、Rebellionsが開発するAI推論用のNPUを1つのシステムで動かす。
 
@@ -203,7 +203,7 @@ NVIDIAは、他社のチップを自社の接続技術に取り込むことで�
   summary: "中国Alibabaは、次世代モデル群「Qwen 4」の最上位モデル「Qwen4-Max」のプレビュー版の提供を始めた。100万トークンの文脈に対応し、コーディングとエージェント機能の強化をうたう。利用は同社の定額プラン「Token Plan」などに限られ、提供は11月25日まで。重みは公開されず、ベンチマークや料金も示されていない。",
   points: ["Qwen 4の最上位「Qwen4-Max」をプレビュー提供。100万トークンの文脈に対応", "利用はToken Planの契約者とQwenアプリ・QwenStudioなどに限定、提供は11月25日(中国時間)まで", "重みは非公開、ベンチマーク・料金・モデルカードも未公表"],
   url: "https://alphasignal.ai/news/alibaba-launches-qwen4-max-with-agent-first-coding-and-1m-token-support",
-  image: null,
+  image: "https://api.alphasignal.ai/api/news/preview/alibaba-launches-qwen4-max-with-agent-first-coding-and-1m-token-support/v2/card.jpg",
   content: `## 概要
 中国のAlibabaは、次世代のモデル群「Qwen 4」の最上位モデル「Qwen4-Max」のプレビュー版の提供を始めた。公式アカウントは「Qwen4 is coming」と予告し、知識の深さや世界の理解、コーディングとエージェントとしての能力を高めたと説明した。先週、Qwenの公式アカウントが謎の予告画像を投稿し、発表が近いとの見方が広がっていた。
 
@@ -238,7 +238,7 @@ Qwenは中国のオープンウェイトモデルの代表格だが、最上位�
   summary: "Google DeepMindは11月10日、複数のAIエージェントが連携する「AlphaProof Code」で、暗号通信アプリSignalの参照実装「libsignal」の主要な安全性を機械語のレベルで形式検証したと発表した。Geminiを使うエージェントが証明支援系Leanで600万行超の証明を4週間で生成し、人が確認すべき箇所として示したのはコードの約1%だった。",
   points: ["前方秘匿性・認証・侵害後の安全性・ハンドシェイクの秘匿性を機械語レベルで証明", "Geminiのエージェントが証明支援系Leanで600万行超の証明を4週間で生成、人の確認は約1%", "広く使われるプロトコルの実装が形式検証されたのは初めてとDeepMind。証明は公開"],
   url: "https://www.etvbharat.com/en/technology/alphaproof-code-inside-the-ai-breakthrough-that-proved-signal-and-whatsapps-encryption-works-enn26111104475",
-  image: null,
+  image: "https://imgs.etvbharat.com/etvbharat/prod-images/11-11-2026/1200-675-28086090-thumbnail-16x9-signal-protocol.jpg",
   content: `## 概要
 Google DeepMindは11月10日、AIエージェントを使って、暗号通信アプリ「Signal」のプロトコルを実装したコードが、重要な安全性の性質を満たしていることを数学的に証明したと発表した。使ったのは、複数のエージェントが連携して証明を作る枠組み「AlphaProof Code」だ。従来は専門家が何年もかけていた作業を、4週間で終えたという。
 
@@ -272,7 +272,7 @@ AIによるサイバー攻撃能力が高まる中で、守る側がAIで「穴�
   summary: "NTTは11月11日、ロボットが物を置く前に荷崩れや落下を予測し、成功しそうな動作を選ぶフィジカルAI技術を開発したと発表した。物の重さや向き、速さなどの物理量を明示的に扱い、運動方程式に基づいて先の状態を予測する「世界モデル」を使う。公開ベンチマークの棚積みで成功率を73.1%から92.3%に高めた。",
   points: ["動く前に複数の動作候補の荷崩れ・落下を予測し、成功する動作を選ぶ", "重さ・向き・速さなどの物理量を扱い、運動方程式で状態の変化を予測する世界モデル", "棚積みの成功率は73.1%→92.3%、空港の手荷物積み込みなどへの応用を想定"],
   url: "https://monoist.itmedia.co.jp/mn/articles/2611/11/news061.html",
-  image: null,
+  image: "https://image.itmedia.co.jp/mn/articles/2611/11/l_mn1111_ntt_003.jpg",
   content: `## 概要
 NTTは11月11日、ロボットが動く前に荷崩れや落下が起きるかを予測し、失敗を避ける動作を選べるフィジカルAI技術を開発したと発表した。物理法則に基づいて先の状態を予測する「世界モデル」を使うのが特徴だ。形や重さがばらばらの荷物を扱う物流などの現場での活用を見込む。
 
