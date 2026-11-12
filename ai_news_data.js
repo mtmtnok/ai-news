@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "NVIDIAの取締役会は11月12日、創業者のジェンスン・フアン氏が社長兼CEOと取締役を即日辞任したと発表した。CFOのコレット・クレス氏が暫定CEOを兼ね、社内外から後任を探す。米情報機関が中国のスパイとみる女性との不倫など一連の問題が引き金となり、株価は寄り付きで一時14%下げた。",
   points: ["フアン氏は社長・CEO・取締役をすべて即日退任。33年にわたり同社を率いた", "CFOのクレス氏が暫定CEOを兼務し、取締役会が社内外から正式な後任を選ぶ", "株価は一時14%安の後に下げ幅を縮小。AMDとBroadcomは約6%上昇"],
   url: "https://thehill.com/business/6215959-jensen-huang-resigns-nvidia-stock-drops/",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米NVIDIAの取締役会は11月12日、共同創業者のジェンスン・フアン氏が社長兼CEO、取締役のすべてを即日辞任したと発表した。CFO(最高財務責任者)のコレット・クレス氏が暫定CEOを兼ね、取締役会が社内外の候補から正式な後任を探す。AI半導体の時代を切り開いた経営者が、私生活をめぐる問題で突然退くことになった。
 
@@ -60,7 +60,7 @@ AI新興企業への出資や大口顧客との長期契約は、フアン氏個
   summary: "米国の非営利団体の連合が11月12日、OpenAI、Anthropic、Google、Meta、SpaceXのAI部門を相手取り、最先端のAIモデルの開発を止めるよう求める訴えをサンフランシスコで起こした。カリフォルニア州の不正競争防止法に基づき、AI開発が社会全体に害を及ぼす「公的不法妨害」に当たると主張している。",
   points: ["Public Citizen、Heat Initiativeなどの非営利団体が原告。カリフォルニア州の不正競争防止法に基づく", "次世代モデルの開発を止める緊急の差し止め命令と、政府の検査・停止権限を求める", "モデルがテスト環境から抜け出した事例や経営者の発言を根拠に挙げる"],
   url: "https://www.yahoo.com/news/politics/articles/openai-google-anthropic-hit-lawsuit-182328643.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/2d4cbb367d8014dfd7ab0b741b166b8d65d6ede1ca68ac471d5d9134aec476c0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F31ac8b7abc1f38e88e437361a459e6eb.jpg",
   content: `## 概要
 米国の非営利団体の連合が11月12日、OpenAI、Anthropic、Google、Meta、SpaceXのAI部門の5社を相手取り、最先端のAIモデルの開発を止めるよう求める訴えをサンフランシスコで起こした。ロイターなどが報じた。生物兵器やサイバー攻撃に悪用されかねない高度なAIの開発そのものを、裁判所の命令で止めようとする異例の訴訟だ。
 
@@ -95,7 +95,7 @@ Anthropicは11月19日の上場を控えており、こうした訴訟は目論�
   summary: "英国のAI推論チップ新興Fractileが、約5億4000万ポンド(約7億2000万ドル)のシリーズCを調達したと欧州のテック媒体Siftedが報じた。2億2000万ドルを集めてからわずか5カ月後の大型調達で、Anthropicに約2億5000万ドル分のチップを売る契約が背景にある。",
   points: ["シリーズCは約5.4億ポンド。英国の登記資料では約5.77億ポンド分の株式発行が確認されている", "評価額は調達前で約65億ドルとの報道。英政府系のソブリンAIファンドも参加と伝えられる", "メモリーと演算を交互に配置する推論特化チップ。2027年にデータセンターへの導入を見込む"],
   url: "https://sifted.eu/articles/exclusive-fractile-series-c/",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 英国ロンドンのAI推論チップ新興Fractileが、約5億4000万ポンド(約7億2000万ドル)のシリーズCを調達したと、欧州のテック媒体Siftedが報じた。2026年5月に2億2000万ドルを集めてから5カ月での大型調達になる。Anthropicに推論用チップを売る契約を結んだことで、投資家の評価が一気に高まった。
 
@@ -131,7 +131,7 @@ NVIDIAのフアンCEOが辞任した同じ週に、推論チップの新興企�
   summary: "ドイツ・ミュンヘンのAIロボット企業Agile Robotsが、ソフトバンクが主導するシリーズFで5億ドルを調達した。評価額は85億ドルで、NVIDIAや日立なども参加した。資金は米国などへの展開と生産能力の拡大に使い、将来の上場も視野に入れる。",
   points: ["シリーズFで5億ドル、評価額85億ドル。ソフトバンクが主導しNVIDIA・日立・T Capitalが参加", "累計調達額は約20億ドル。拠点では脚型・車輪型の人型ロボットを年最大1万台つくれる", "年初に報じられた約8億ドルの構想より小さい規模にとどまった"],
   url: "https://siliconangle.com/2026/11/12/agile-robots-raises-500m-funding-led-by-softbank-at-8-5b-valuation/",
-  image: null,
+  image: "https://images.siliconangle.com/blogs.dir/1/files/2026/11/csm_AgileRobots-AgileONE-Content-01-486_Web_cfca3a56ac.png",
   content: `## 概要
 ドイツ・ミュンヘンのAIロボット企業Agile Robotsは11月12日、ソフトバンクが主導するシリーズFで5億ドルを調達したと発表した。調達後の評価額は85億ドル。NVIDIAや日立、T Capitalも出資に加わった。ソフトバンクが進める「フィジカルAI」への投資の一環とみられる。
 
@@ -163,7 +163,7 @@ Agile Robotsはミュンヘンに本社を置き、中国にも大きな事業�
   summary: "Googleは11月11日、文章を生成する代わりに「はい/いいえ」や選択肢、採点の判定だけを返す「Gemini Decisions API」を公開した。新モデル「Gemini Decision 1」が、文章・画像・音声・動画・PDFを入力に最大1000問を一度に判定し、確率と信頼度を返す。",
   points: ["1回の呼び出しで最大1000問の判定。文章・画像・音声・動画・PDFに対応", "料金は入力100万トークンあたり0.1ドルで出力は課金なし。遅延は150〜250ミリ秒", "OpenAI(10月6日)、Microsoft(10月9日)に続く「判定モデル」の投入"],
   url: "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-  image: null,
+  image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
   content: `## 概要
 Googleは11月11日、AIアプリやエージェントの中で使う「判定」に特化した「Gemini Decisions API」を公開した。中身は新しいモデル「Gemini Decision 1」で、文章を1トークンずつ生成する代わりに、入力が質問の条件に合うかどうかを確率付きで返す。スンダー・ピチャイCEOもXで発表した。
 
@@ -197,7 +197,7 @@ OpenAI、Microsoft、Googleが1カ月あまりの間に相次いで判定モデ�
   summary: "OpenAIは、企業がChatGPT上の自社の情報を管理し、自社専用のAIエージェントを置ける「Businesses in ChatGPT」をベータ版で公開した。ChatGPTの回答に企業が登場したとき、利用者はその企業の「Business Agent」と直接やり取りできる。",
   points: ["企業は「Business Hub」で自社プロフィールを申請・修正し、ChatGPTでの言及回数のデータも見られる", "Business Agentは当初、米国のEC・オンラインサービス企業に限定。会話は通常のチャットと分けて表示", "利用者の会話内容は企業に共有しないとOpenAIは説明。広告の「Sponsored Agents」とも連動との報道"],
   url: "https://openai.com/index/introducing-businesses-chatgpt/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/7Eicp7g84HA3PCzyVJTfbT/d423890d5a1a863bf69a57bcbbbf6e99/business-agents-blog-social.png?w=1600&h=900&fit=fill",
   content: `## 概要
 OpenAIは11月10日、企業がChatGPTの中に自社の公式プロフィールとAIエージェントを置ける「Businesses in ChatGPT」をベータ版で公開した。ChatGPTが商品やサービスを探す入り口になりつつある中で、企業が自社について正しい情報を示し、利用者と直接やり取りできる場をつくる。
 
@@ -233,7 +233,7 @@ OpenAIは、利用者のChatGPTでの会話や、Business Agentとの会話の�
   summary: "中国アント・グループのロボット部門Robbyantが、仕組みの違う3種類の触覚センサーの信号を共通の表現に変える基盤モデル「LingBot-Touch」を発表した。約4983時間の触覚データで学習し、既存のロボット制御モデルに組み込むと、26の実機作業で成功率が平均14〜25ポイント上がったと報告している。",
   points: ["磁気式・圧抵抗式・視覚式の3種類の触覚センサーを一つのモデルで扱う", "自己教師あり学習「Tactile-JEPA」で、約4983時間の触覚データを学習。3分の2は人がセンサー付き手袋で集めた", "重みはApache 2.0で公開。π0.5などの既存モデルに触覚の情報を足せる"],
   url: "https://arxiv.org/abs/2611.12806",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 中国アント・グループでロボットを手がけるRobbyantが、触覚の基盤モデル「LingBot-Touch」の論文「Learning Heterogeneous Tactile Representation for General Dexterous Manipulation」を公開した。仕組みの違う触覚センサーの信号を一つの共通の表現に変え、ロボットが「触った感覚」を使って細かな作業をこなせるようにする。Hugging Faceの論文ランキングで11月10日の1位になり、今週の注目論文として取り上げる。
 
@@ -271,7 +271,7 @@ LingBot-Touchは、この3方式の信号を「Haptic Transformer」と呼ぶ共
   summary: "法人向け生成AIサービス「ChatSense」を手がけるナレッジセンスは11月12日、Excelのアドインを提供する予定だと発表した。Excelを開いたまま表の内容についてAIに質問したり、セルの値や書式の変更を頼んだりできる。",
   points: ["Excelの画面の中でAIに表の内容を質問できる", "セルの値や書式の変更を、言葉で指示してAIに任せられる", "同社は国産コーディングAI「CodeSense」のβ版も募集中"],
   url: "https://prtimes.jp/main/html/rd/p/000000442.000073671.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/73671/442/73671-442-efa5ff73dac74787224bd01cb5d11d1d-1672x941.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 法人向け生成AIサービス「ChatSense」を提供するナレッジセンスは11月12日、Microsoft Excel用のアドインを提供する予定だと発表した。Excelを開いたまま、表についてAIに質問したり、セルの値や書式の変更を頼んだりできるようにする。
 
