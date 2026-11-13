@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "米CNBCは11月12日、OpenAIが評価額1.25兆ドル(調達前)で約150億ドルを調達したと報じた。当初目指した300億ドルの約半分で、評価額も投資家に示した1.4兆ドルを下回った。11月6日に報じられた第1弾の110億ドルを含むかどうかは明らかになっていない。",
   points: ["調達額は約150億ドル、評価額は調達前で1.25兆ドル。当初目標は300億ドル・1.4兆ドル", "OpenAIは金額や出資者、主導役を公式には確認していない", "Anthropicの上場直前のタイミングで、OpenAIは2027年のIPOを視野に入れる"],
   url: "https://247wallst.com/investing/2026/11/13/openai-raised-only-15-billion-half-what-it-wanted/",
-  image: null,
+  image: "https://247wallst.com/wp-content/uploads/2026/11/openai-raised-only-15-billion-half-what-it-wanted-featured-1794547224456-scaled.webp",
   content: `## 概要
 米CNBCは11月12日、関係者の話として、OpenAIが評価額1.25兆ドルで約150億ドルを調達したと報じた。当初は300億ドル規模を目指しており、その約半分にとどまった。評価額も、投資家に提示していた1.4兆ドルを下回った。
 
@@ -58,7 +58,7 @@ NVIDIAの経営混乱やデータセンター規制への懸念でAI株が揺れ
   summary: "ジェンスン・フアン氏の辞任を受け、NVIDIAは元Synopsys CEOのハーベイ・ジョーンズ氏を初の独立した取締役会議長に据えた。米Bernsteinは投資判断を引き下げ、目標株価を400ドルから200ドルに半減した。株価は13日も一時2%超下げ、コレット・クレス暫定CEOのもとで迎える11月17日の決算に注目が集まる。",
   points: ["元Synopsys CEOのハーベイ・ジョーンズ氏が初の独立した取締役会議長に就任", "Bernsteinは判断を「市場並み」に下げ、目標株価を400ドル→200ドルに", "11月17日の第3四半期決算は予定どおり。正式な後任CEOは社内外から選ぶ"],
   url: "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-  image: null,
+  image: "https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg",
   content: `## 概要
 NVIDIAは、創業者ジェンスン・フアン氏のCEO辞任に合わせ、元Synopsys CEOのハーベイ・ジョーンズ氏を初の独立した取締役会議長に据えた。コレット・クレスCFOは暫定CEOとCFOを兼ねる。米証券会社Bernsteinは目標株価を半分に引き下げ、市場は新体制での初めての決算を待つ。
 
@@ -92,7 +92,7 @@ Bernsteinは投資判断を「アウトパフォーム」から「市場並み(�
   summary: "Googleは11月12日、Gemini 4ファミリーの高速・低価格モデル「Gemini 4 Hydrogen」を発表し、Gemini APIで一般提供を始めた。作業によってはGemini 3.8 Flashの2.5倍の速さで、料金は入力100万トークンあたり1.5ドル、出力7.5ドル。Geminiアプリや検索にも順次搭載する。",
   points: ["Gemini 4ファミリーで最も速く安いモデル。上位のArgon・Carbonを補う", "料金は入力100万トークン1.5ドル・出力7.5ドル。バッチ処理は半額", "Terminal-Benchでは3.8 Flashを大きく上回るが、Claude Sonnet 5.5には届かない"],
   url: "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
-  image: null,
+  image: "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-1-1-scaled.png",
   content: `## 概要
 Googleは11月12日、Gemini 4ファミリーの新モデル「Gemini 4 Hydrogen」を発表した。上位のArgonとCarbonに比べて速く安く使えるモデルで、コーディングやAIエージェントの用途を想定している。Gemini APIで無料枠・有料枠ともに一般提供を始め、GeminiアプリやGoogle検索にも搭載する。
 
@@ -127,7 +127,7 @@ Hydrogenで、GoogleはGemini 4の上位から軽量まで3段のモデルをそ
   summary: "Anthropicは11月10日、Claudeの中で使う表計算「Claude Sheets」とホワイトボード「Claude Whiteboards」をベータ公開し、ダッシュボード機能「Claude Data」を一般提供した。Google Meetの会議にClaudeを参加者として招ける「Claude Meetings」も発表した。出資元のMicrosoftとGoogleの事務ソフトと正面から競合する動きで、Microsoftの株価も下げた。",
   points: ["表計算のSheetsとホワイトボードはベータ、ダッシュボードのClaude Dataは一般提供", "Claude MeetingsはGoogle Meetの会議にClaudeが参加者として加わる", "Adobe・Atlassian・HubSpotなどのアプリをClaudeの中に組み込める仕組みも用意"],
   url: "https://thenextweb.com/news/anthropic-claude-sheets-office-tools-microsoft-google",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/anthropic-sign-office-building-entrance.jpg",
   content: `## 概要
 Anthropicは11月10日、AIのClaudeの中で使える事務ソフト群を発表した。表計算の「Claude Sheets」とホワイトボードの「Claude Whiteboards」をベータ版として公開し、ダッシュボードを作る「Claude Data」を一般提供した。会議にClaudeを招く「Claude Meetings」も発表した。出資元でもあるMicrosoftとGoogleの事務ソフトに近づく動きで、11月19日の上場を控えたタイミングでの発表となった。
 
@@ -161,7 +161,7 @@ Bloombergは、今回の製品でAnthropicが出資元のMicrosoftとGoogleと�
   summary: "Notionは、AIの推論基盤を委託していた米Fireworks AIへの不正侵入で、Notion AIの会話記録の一部が流出したと公表した。影響はワークスペースの1%未満で、Fireworksへの通信を止めて同社上のデータを消した。Fireworksは別の侵入で顧客の支払い情報なども盗まれたとしており、CursorやHarveyも被害企業に含まれる。",
   points: ["流出したのはNotion AIの「Insights」機能に関わる会話記録。ワークスペースの1%未満が対象", "NotionはFireworksとの通信を止め、データを削除。会話に貼った認証情報の変更を呼びかけ", "Fireworksは2度目の侵入。顧客の支払い情報やデータセットも盗まれ、CursorやHarveyも影響"],
   url: "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-  image: null,
+  image: "https://www.bleepstatic.com/content/hl-images/2026/11/11/Notion.jpg",
   content: `## 概要
 文書共有サービスのNotionは、AI機能の推論を委託していた米Fireworks AIが不正侵入を受け、Notion AIの会話記録の一部が流出したと公表した。影響を受けたのはワークスペース全体の1%未満とする。AIの会社が使う外部の推論基盤が攻撃されると、利用企業の顧客データまで漏れるという、AIの供給網に特有の危険が表に出た。
 
@@ -195,7 +195,7 @@ Fireworksは「データを保存しない」設定を初期値にしていた�
   summary: "Google DeepMindは11月11日、DNAの変異が遺伝子の働きをどう変えるかを、細胞の種類や状態ごとに予測するモデル「AlphaGenome 2」を発表した。68の組織にわたる1億700万件超の細胞データで学習し、免疫細胞28種のデータでは病気の原因となる変異の発見率が初代のほぼ2倍になった。非商用の研究向けにAPIで提供する。",
   points: ["組織全体の平均ではなく、細胞の種類・状態を指定して変異の影響を予測", "68組織・1億700万件超の細胞データで学習。数十個の細胞の測定値があれば再学習なしで使える", "原因変異の発見率は約30%(精度90%時)で、初代の16%からほぼ倍増。APIは非商用研究向け"],
   url: "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
-  image: null,
+  image: "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-10001-30-scaled.png",
   content: `## 概要
 Google DeepMindは11月11日、DNAの変異が遺伝子の働きにどう影響するかを予測するモデル「AlphaGenome 2」を発表した。初代は組織全体の平均的な影響を予測していたが、新版は細胞の種類や状態ごとに予測できる。病気の原因になる変異を見つける力が、初代のほぼ2倍に高まったとしている。
 
@@ -230,7 +230,7 @@ AlphaFoldから続くDeepMindの生命科学のモデルは、研究者向けの
   summary: "NTTは11月12日、企業の業務マニュアルのような少量の文書から、その業務の知識を大規模言語モデル(LLM)に覚えさせるチューニング技術を確立したと発表した。LLM自身が文書からFAQ・表・対話などさまざまな形式の教材を作り、それを使って学ぶ。自社のLLM「tsuzumi」以外にも使え、企業ごとの専用tsuzumiを提供しやすくする。",
   points: ["LLM自身が業務マニュアルからFAQ・表・対話形式などの多様な教材を自動で作って学ぶ", "検証はtsuzumi 2とLlama 3(3B)。報道では正答率83.1%で従来手法を約10ポイント上回る", "NTTグループ各社に導入予定。11月18〜25日のNTT R&D FORUM 2026で展示"],
   url: "https://group.ntt/jp/newsrelease/2026/11/12/261112a.html",
-  image: null,
+  image: "https://group.ntt/common/img/ogp.jpg?20250701",
   content: `## 概要
 NTTは11月12日、少ない量の業務文書から、特定の業務の専門知識を大規模言語モデル(LLM)に定着させるチューニング技術を確立したと発表した。LLM自身が文書をもとにさまざまな形式の教材を作り、それで学ぶのが特徴だ。企業ごとの知識を持った「個社オリジナルのtsuzumi」を、これまでより簡単に提供できるようにする。
 
@@ -265,7 +265,7 @@ NTTはこの技術をNTTグループ各社に導入する予定だ。成果は11
   summary: "東京株式市場で日経平均株価は11月13日も上昇し、週間の上昇率が7%を超えて5カ月ぶりの大きさとなる見通しになった。ロイターによると、アドバンテストが5.9%、東京エレクトロンが3%、キオクシアが2.9%上がり、半導体・AI関連株が相場を押し上げた。前週の急落からの戻りで、NVIDIAの経営混乱による輸出規制への懸念も上値を抑えきれなかった。",
   points: ["日経平均は週間で7%超上昇し、5カ月ぶりの大きな週間上昇となる見通し", "アドバンテスト5.9%高、東京エレクトロン3%高、キオクシア2.9%高(ロイター)", "前週は弱気相場入り。NVIDIAの混乱で輸出規制強化の懸念は残る"],
   url: "https://www.brecorder.com/news/40448739/japans-nikkei-on-track-for-best-week-in-5-months-despite-nvidia-turmoil",
-  image: null,
+  image: "https://i.brecorder.com/large/2026/05/19104147b3e6ce8.webp",
   content: `## 概要
 日経平均株価は11月13日も上昇し、週間の上昇率が7%を超えて、5カ月ぶりの大幅な週間上昇となる見通しになった。相場をけん引したのは、アドバンテストや東京エレクトロン、キオクシアといった半導体・AI関連株だ。NVIDIAの経営トップの辞任という混乱があっても、AI需要への期待が勝った形となった。
 
