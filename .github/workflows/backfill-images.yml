@@ -1,8 +1,11 @@
-name: Backfill real images
+name: Backfill real images and FX rates
 
 # クラウドの定期ルーティンが ai_news_data.js を push（image=loremflickr）した後、
-# ネットワークの使える GitHub Actions 上で記事固有の og:image / Pexels 画像に差し替える。
+# ネットワークの使える GitHub Actions 上で次の2つを行う。
+#   1) 記事固有の og:image / Pexels 画像に差し替える
+#   2) 記事のドル金額を円に換算するための USD/JPY レート（fx_usdjpy.js）を最新にする（B-021）
 # Action からの push は GITHUB_TOKEN なので、このワークフローを再帰起動しない（無限ループ防止）。
+# merge-routine-branch.yml がファイル名（backfill-images.yml）で起動するので、ファイル名は変えないこと。
 
 on:
   push:
@@ -36,14 +39,25 @@ jobs:
       - name: 構文チェック
         run: node --check ai_news_data.js
 
+      # 為替の取得に失敗しても、画像補完のコミットは止めない。
+      # 書いたファイルが壊れていたら元に戻す（前日までのレートのまま表示される）。
+      - name: 為替レートを更新（B-021）
+        continue-on-error: true
+        run: node tools/update-fx.mjs && node --check fx_usdjpy.js || git checkout -- fx_usdjpy.js
+
       - name: 変更があればコミット＆push
         run: |
-          if [ -n "$(git status --porcelain ai_news_data.js)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add ai_news_data.js
-            git commit -m "実画像を後追い補完（GitHub Actions）"
-            git push
-          else
+          IMG="$(git status --porcelain ai_news_data.js)"
+          FX="$(git status --porcelain fx_usdjpy.js)"
+          if [ -z "$IMG" ] && [ -z "$FX" ]; then
             echo "差し替えなし（変更なし）"
+            exit 0
           fi
+          MSG=""
+          if [ -n "$IMG" ]; then MSG="実画像を後追い補完"; fi
+          if [ -n "$FX" ]; then MSG="${MSG:+$MSG・}為替レートを更新"; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ai_news_data.js fx_usdjpy.js
+          git commit -m "${MSG}（GitHub Actions）"
+          git push
