@@ -1,7 +1,7 @@
 /* =====================================================================
-   ドル金額の円換算吹き出し（B-021 で採用：「吹き出し＋計算式」）
+   ドル金額の円換算吹き出し（B-021 で採用：A「吹き出し」＝円換算とレートだけ）
    記事ページの本文から米ドルの金額を見つけて点線の下線を付け、触れる（スマホはタップ）と
-   記事の日付（e.date）時点の USD/JPY で、円換算・計算式・レートを吹き出しで出す。
+   記事の日付（e.date）時点の USD/JPY で、円換算とレートを吹き出しで出す。
    - レート: fx_usdjpy.js（GitHub Actions が自動更新）。記事の日付以前で最も近い営業日の値
    - 対象外: 豪ドル・台湾ドル・香港ドル・カナダドル・NT$ など米ドル以外
    - 対象外: すでに円換算が隣にある箇所（「150億ドル(約2.3兆円)」「1兆円(約63億ドル)」）
@@ -100,23 +100,6 @@ function yenRange(a){
   const unitOf = s => s.match(/[兆億万]?円$/)[0];
   return (unitOf(x) === unitOf(y) ? x.slice(0, -unitOf(x).length) : x) + "〜" + y;
 }
-/* 計算式: 「数字 × レート」で見せ、答えは 1万億→1兆 の繰り上がりを含めて書く */
-function exactYen(v){                       // 2兆6,541億円 / 7,425億円 / 3,160万円 / 314円
-  if(v >= 1e12){ let t = Math.floor(v / 1e12), o = Math.round((v - t * 1e12) / 1e8); if(o >= 10000){ t++; o -= 10000; }
-    return `${num(t, 0)}兆${o ? num(o, 0) + "億" : ""}円`; }
-  if(v >= 1e8) return num(Math.round(v / 1e8), 0) + "億円";
-  if(v >= 1e4) return num(Math.round(v / 1e4), 0) + "万円";
-  return num(v, v < 100 ? 1 : 0) + "円";
-}
-function calcText(a){
-  const U = a.unit ? UNIT[a.unit] : 1;
-  const r = num(a.rate, 2);
-  const x = v => num(v / U, 2);
-  const pre = a.vague ? `（${num(a.lo / U, 0)}〜${num(a.hi / U, 0)}${a.unit}ドルとして）` : "";
-  return a.hi != null
-    ? `${pre}${x(a.lo)}〜${x(a.hi)}${a.unit} × ${r} ＝ ${exactYen(a.lo * a.rate)}〜${exactYen(a.hi * a.rate)}`
-    : `${x(a.lo)}${a.unit} × ${r} ＝ ${exactYen(a.lo * a.rate)}`;
-}
 const jpDate = iso => { const [y, m, d] = iso.split("-"); return `${y}年${+m}月${+d}日`; };
 const wd = iso => "日月火水木金土"[new Date(iso + "T00:00:00").getDay()];
 const rateNote = (fx, articleDate) =>
@@ -143,7 +126,6 @@ function wrapIn(root, fx, note){
       s.textContent = text.slice(h.start, h.end);
       s.tabIndex = 0;
       s.dataset.yen = yenRange(h);
-      s.dataset.calc = calcText(h);
       s.dataset.note = note;
       frag.append(s);
       pos = h.end; count++;
@@ -167,8 +149,7 @@ function hideTip(){ pinned = null; if(tip) tip.hidden = true; }
 function showTip(el){
   if(!el.isConnected || !el.offsetParent){ hideTip(); return; }   // 記事を閉じた・切り替えた後
   const t = ensureTip();
-  t.innerHTML = `<b>≈ ${el.dataset.yen}</b><span class="calc">${el.dataset.calc}</span><small>${el.dataset.note}</small>` +
-    `<small class="tip2">目安：数字を約${Math.round(+el.dataset.rate / 10) * 10}倍すると、単位はそのまま円になる</small>`;
+  t.innerHTML = `<b>≈ ${el.dataset.yen}</b><small>${el.dataset.note}</small>`;
   t.hidden = false;
   const r = el.getBoundingClientRect(), w = t.offsetWidth, h = t.offsetHeight;
   let x = r.left + r.width / 2 - w / 2;
@@ -186,7 +167,6 @@ function apply(pv, e){
   const note = rateNote(fx, e.date);
   let count = 0;
   pv.querySelectorAll(TARGETS).forEach(root => { count += wrapIn(root, fx, note); });
-  pv.querySelectorAll(".usd").forEach(s => { s.dataset.rate = fx.rate; });
   return count;
 }
 
@@ -218,9 +198,7 @@ const css = `
 .usd-tip::after{content:"";position:absolute;left:var(--ax,50%);bottom:-6px;margin-left:-6px;border:6px solid transparent;border-bottom:0;border-top-color:var(--ink,#141210)}
 .usd-tip.below::after{bottom:auto;top:-6px;border-top:0;border-bottom:6px solid var(--ink,#141210)}
 .usd-tip b{display:block;font-family:var(--serif,serif);font-size:17px;font-weight:700;letter-spacing:.01em}
-.usd-tip .calc{display:block;font-size:12.5px;margin-top:3px;color:#fff}
 .usd-tip small{display:block;font-size:11px;opacity:.72;margin-top:2px}
-.usd-tip small.tip2{opacity:.6;border-top:1px solid rgba(255,255,255,.18);padding-top:4px;margin-top:5px}
 `;
 const st = document.createElement("style"); st.textContent = css; document.head.append(st);
 
