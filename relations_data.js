@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-11-07",
+  updated: "2026-11-14",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -165,6 +165,11 @@ window.RELATIONS = {
     { id: "humain",       label: "HUMAIN",       sector: "cloud" },
     { id: "adnoc",        label: "ADNOC",        sector: "app" },
     { id: "hcltech",      label: "HCLTech",      sector: "app" },
+    { id: "fractile",     label: "Fractile",     sector: "semi", sub: "design" },
+    { id: "rebellions",   label: "Rebellions",   sector: "semi", sub: "design" },
+    { id: "agilerobots",  label: "Agile Robots", sector: "app" },
+    { id: "thinkingmachines", label: "Thinking Machines Lab", sector: "lab" },
+    { id: "accel",        label: "Accel",        sector: "invest" },
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -185,15 +190,15 @@ window.RELATIONS = {
       label: "1,220億ドル調達ラウンドに参加（金額非公表）・Stargate共同出資者", date: "2026-07",
       source: "https://www.cnbc.com/2026/07/01/mgx-ai-fund-uae-49-billion.html" },
     // Anthropic
-    { from: "google", to: "anthropic", type: "invest", threads: ["labs"], amount: 400,
-      label: "最大400億ドル出資（即時100億＋業績連動300億）", date: "2026-04",
-      source: "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/" },
+    { from: "google", to: "anthropic", type: "invest", threads: ["labs"], amount: 500,
+      label: "最大400億ドル出資（即時100億＋業績連動300億）に加え、IPO価格で100億ドル分の株式を私募で引き受け（26/11）", date: "2026-11",
+      source: "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html" },
     { from: "microsoft", to: "anthropic", type: "invest", threads: ["labs"], amount: 50,
       label: "50億ドル出資（評価額約3,500億ドル）", date: "2025-11",
       source: "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/" },
-    { from: "nvidia", to: "anthropic", type: "invest", threads: ["labs"], amount: 100,
-      label: "最大100億ドル出資", date: "2025-11",
-      source: "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/" },
+    { from: "nvidia", to: "anthropic", type: "invest", threads: ["labs"], amount: 200,
+      label: "25年11月の最大100億ドル出資に加え、IPO価格で100億ドル分の株式を私募で引き受け（26/11）", date: "2026-11",
+      source: "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html" },
     { from: "amazon", to: "anthropic", type: "invest", threads: ["labs"], amount: 330,
       label: "累計80億ドル出資（24/11）＋最大250億ドルの追加投資（26/4）", date: "2026-04",
       source: "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html" },
@@ -242,8 +247,8 @@ window.RELATIONS = {
       label: "出資比率を9.3%（約2,230万株）に拡大、評価額約50億ドル相当。ワラント行使分を追加取得", date: "2026-07",
       source: "https://www.gurufocus.com/news/8969570/nvidia-increases-stake-in-nebius-nbis-to-93-valued-at-nearly-5-billion" },
     { from: "amd", to: "anthropic", type: "invest", threads: ["compute", "labs"], amount: 50,
-      label: "導入マイルストーン達成に応じて最大50億ドルを段階投資するAIチップ調達契約", date: "2026-07",
-      source: "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html" },
+      label: "導入マイルストーン達成に応じて最大50億ドルを段階投資するAIチップ調達契約。26年11月にはIPO価格で25億ドル分の株式の私募引き受けにも合意", date: "2026-11",
+      source: "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html" },
     { from: "skhynix", to: "etched", type: "invest", threads: ["semi"], amount: null,
       label: "Sequoia主導のシリーズC（3億ドル・評価額103億ドル）に参加（金額非公表）", date: "2026-07",
       source: "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/" },
@@ -776,6 +781,27 @@ window.RELATIONS = {
       source: "https://thenextweb.com/news/samsung-second-texas-fab-amd-nvidia-hbm" },
     { from: "rapidus", to: "hcltech", type: "partner", threads: ["japan", "semi"], flow: "技術",
       label: "次世代半導体で提携。インドに専用開発拠点2カ所を開設しフォトマスク設計とPDK開発を支援、インド人技術者の育成も", date: "2026-10",
-      source: "https://www.rapidus.inc/en/news_topics/information/20261026-2/" }
+      source: "https://www.rapidus.inc/en/news_topics/information/20261026-2/" },
+    { from: "tsmc", to: "anthropic", type: "invest", threads: ["labs", "semi"], amount: 5,
+      label: "取締役会が最大5億ドルの出資を承認。IPO価格で普通株を取得（上場などが条件）", date: "2026-11",
+      source: "https://www.investing.com/news/stock-market-news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai-5015908" },
+    { from: "tsmc", to: "openai", type: "invest", threads: ["labs", "semi"], amount: 5,
+      label: "取締役会が最大5億ドルの出資を承認。優先株を取得（価格・時期は非開示）", date: "2026-11",
+      source: "https://www.investing.com/news/stock-market-news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai-5015908" },
+    { from: "fractile", to: "anthropic", type: "partner", threads: ["semi"], flow: "販売", status: "reported",
+      label: "推論特化チップ約2.5億ドル分をAnthropicに販売する契約。これを追い風にシリーズCで約5.4億ポンドを調達とSifted報道", date: "2026-11",
+      source: "https://sifted.eu/articles/exclusive-fractile-series-c/" },
+    { from: "nvidia", to: "rebellions", type: "partner", threads: ["semi"], flow: "技術",
+      label: "SKテレコムと3社でGPUとNPUを組み合わせたAI計算システムを共同構築する覚書。NVLink FusionでRebellionsの次世代チップR200をつなぐ", date: "2026-11",
+      source: "https://www.koreatimes.co.kr/business/companies/20261109/nvidia-skt-rebellions-to-jointly-establish-heterogeneous-computing-system-for-ai-1" },
+    { from: "softbank", to: "agilerobots", type: "invest", threads: ["japan"], amount: 5,
+      label: "シリーズF（5億ドル、評価額85億ドル）を主導。NVIDIA・日立も参加、人型ロボットの米国展開へ", date: "2026-11",
+      source: "https://siliconangle.com/2026/11/12/agile-robots-raises-500m-funding-led-by-softbank-at-8-5b-valuation/" },
+    { from: "accel", to: "thinkingmachines", type: "invest", threads: ["labs"], amount: 50, status: "negotiating",
+      label: "Mira Murati氏のラボに調達前評価額400億ドルで50億ドルのラウンドを主導する交渉が最終段階とBusiness Insider報道", date: "2026-11",
+      source: "https://techfundingnews.com/accel-thinking-machines-lab-5b-round-40b-valuation/" },
+    { from: "oracle", to: "tencent", type: "partner", threads: ["compute", "semi", "china"], flow: "計算資源", status: "ended",
+      label: "東南アジアのDCで先端AIチップ最大10万枚を5年貸す約70億ドルの契約を破棄とFT報道。米当局が輸出規制の抜け道と懸念", date: "2026-11",
+      source: "https://www.digitimes.com/news/a20261105VL209/ai-chip-data-center-usa-beijing-nvidia-tencent.html" }
   ]
 };
