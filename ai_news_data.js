@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "TechCrunchは11月13日、DeepSeekの「V4」系やMoonshot AIの「Kimi K3」系など中国の主力オープンウェイトモデルに、対中輸出が禁止されているNVIDIA「Blackwell」で学習した痕跡があるとの独立研究を報じた。モデルの重みに残るチップ固有の特徴から学習に使ったGPUを推定する手法で、オフショアのデータセンターを使った可能性もあり、輸出規制違反の証明にはならないとの指摘もある。",
   points: ["DeepSeek V4、Kimi K3.1、MiniMax-M3などの重みにBlackwell由来の「指紋」があると独立研究者が主張", "国外のデータセンターでの学習なら規制違反とは限らず、学習の全部が禁輸チップとも断定できない", "NVIDIAは「輸出法を順守している」との立場。米議会の対中規制強化論を後押しする材料に"],
   url: "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795",
   content: `## 概要
 米TechCrunchは11月13日、中国の主力オープンウェイトモデルの学習に、米国が対中輸出を禁じているNVIDIAの最新GPU「Blackwell」が使われた痕跡があるとする独立研究を報じた。対象にはDeepSeekの「V4」系やMoonshot AIの「Kimi K3」系が含まれる。NVIDIAの前CEOをめぐる騒動で米議会が輸出規制の強化に動くなか、議論に新たな材料が加わった。
 
@@ -59,7 +59,7 @@ window.NEWS_DATA = [
   summary: "中国外務省は11月13日、NVIDIAの前CEOをめぐる騒動を受けて米国で強まる半導体輸出規制の強化論に対し、「輸出規制の乱用に反対する」と警告した。米国ではジョンソン下院議長が対中規制で議会の合意が広がっていると述べ、国防権限法に新たな規制を盛り込む動きが進んでいる。",
   points: ["中国外務省が「輸出規制の乱用」に反対し、米国の新たな規制強化をけん制", "ジョンソン下院議長は対中チップ輸出の制限で議会の合意が広がっていると発言", "ベッセント財務長官はMegaspeedがエンティティリストに入っていないことで商務省を批判"],
   url: "https://cbsnews.com/news/china-us-export-controls-chips-nvidia-huang-scandal",
-  image: null,
+  image: "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国政府は11月13日、NVIDIAの前CEOをめぐる騒動をきっかけに米国で広がる半導体輸出規制の強化論に警告を発した。中国外務省は「輸出規制の乱用に反対する」と述べた。米国では議会が国防権限法(NDAA)に新たな規制を盛り込む方向で動いており、米中の対立が再び強まりつつある。
 
@@ -95,7 +95,7 @@ NVIDIAの経営トップ交代という異例の事態が、対中規制の流�
   summary: "米Fortuneは11月13日、OpenAIが独立したロボティクスチームを解散し、所属の研究員を社内の別部門に移したと報じた。汎用モデル「GPT-6 Astra」がロボットを直接制御できるようになり、専門チームを置く必要が薄れたためとされる。OpenAIは「撤退ではなく加速だ」と説明している。",
   points: ["研究担当はマーク・チェン最高研究責任者の下へ、応用・ハードウェア担当はブロックマン社長が率いる応用部門へ移管", "汎用モデルGPT-6 Astraがロボットを直接動かせることが解散の理由とされる", "OpenAIは「ロボティクスは長期ビジョンの中核」と強調し、撤退を否定"],
   url: "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
-  image: null,
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?resize=1200,600",
   content: `## 概要
 米Fortuneは11月13日、OpenAIが独立したロボティクスチームを解散し、所属していた研究員を社内のほかの部門に移したと独自に報じた。汎用モデルの「GPT-6 Astra」がロボットを直接動かせるようになり、ロボット専門のチームを別に置く必要が薄れたためとされる。OpenAIは、ロボティクスから手を引くのではなく「加速させるための再編」だと説明している。
 
@@ -130,7 +130,7 @@ OpenAIは2021年にもロボティクスチームを解散した経緯がある�
   summary: "OpenAIは11月13日、AIエージェントがユーザーに代わって商品の購入まで行える決済機能「ChatGPT Wallet」を米国で提供開始した。まず18歳以上の米国のPro会員が対象で、American Express・Mastercard・Visaと組んで開発した。購入のたびにFace IDなどの生体認証で本人の承認が必要になる。",
   points: ["米国のPro会員(18歳以上)・米国発行の対象カードから段階的に提供", "販売店にはカード番号ではなく「トークン」を渡し、購入ごとに生体認証で承認", "エージェント「dots」から使える。上限内の事前承認機能も今後追加予定"],
   url: "https://openai.com/index/introducing-chatgpt-wallet/",
-  image: null,
+  image: "https://images.ctfassets.net/kftzwdyauwt9/2xTvIZkcQhKk3VNFioQ4CR/4efb84a6adbddb41311f6b18158fad8b/introducing-chatgpt-wallet-social.png?w=1600&h=900&fit=fill",
   content: `## 概要
 OpenAIは11月13日、AIエージェントがユーザーに代わって商品の購入まで済ませられる決済機能「ChatGPT Wallet」を米国で提供開始した。まず18歳以上の米国のChatGPT Pro会員を対象に、段階的に広げる。購入のたびに本人の承認が必要な設計で、カード大手3社と共同で開発した。
 
@@ -166,7 +166,7 @@ AIエージェントが「調べる」から「買う」まで担う、いわゆ
   summary: "Bloombergによると、中国DeepSeekはオープンソースのAIエージェントアプリ「DeepSeek Harness」の1日当たり利用者数が11月4日時点で154万人に達したとX上で明らかにした。8月13日の公開から3カ月弱で、9月末の約27万人から急増した。1日に約92兆トークンを処理しているという。",
   points: ["1日の利用者数は11月4日時点で154万人。9月末の約27万人から急増", "1日に約92兆トークンを処理、利用者1人当たり約6000万トークン", "プラグインは約3万5000個。数字はDeepSeekの自己申告で独立した検証はない"],
   url: "https://www.thestar.com.my/business/business-news/2026/11/10/deepseeks-ai-agent-platform-hits-154-million-users-a-day",
-  image: null,
+  image: "https://apicms.thestar.com.my/uploads/images/2026/11/10/4204106.JPG",
   content: `## 概要
 中国のDeepSeekは、オープンソースのAIエージェントアプリ「DeepSeek Harness」の1日当たりの利用者数が、11月4日時点で154万人に達したとX上で明らかにした。Bloombergが報じた。8月13日の公開から3カ月足らずで、利用は急拡大している。
 
@@ -202,7 +202,7 @@ DeepSeekはこれまで低コストの高性能モデルで知られてきたが
   summary: "東京科学大学の研究チームは、複数のAIエージェントが連携して研究の全工程を自律的に進めるシステムを構築し、ダイヤモンド中の量子スピンの応答を予測する新しい法則を導いて実機で検証した。人間が担ったのは測定装置の組み立てと安全な動作範囲の設定だけだった。論文は10月29日に公開された。",
   points: ["複数のAIエージェントが仮説から実験、検証まで研究の全工程を自律的に実行", "必要な校正の数を91種から10種に減らす法則を導き、予測値39.7と実測値40.0が一致", "実証は固定条件の3パルスに限られ、外部の追試はまだ"],
   url: "https://www.sbbit.jp/article/cont1/188221",
-  image: null,
+  image: "https://images.pexels.com/photos/8533136/pexels-photo-8533136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 東京科学大学の研究チームは、AIエージェントだけで構成した「研究チーム」に量子物理の実験をさせ、ダイヤモンド中の量子スピンの応答を予測する新しい法則を導き出して、実機で正しさを確かめた。人間が担ったのは装置の組み立てと安全な動作範囲の設定だけで、それ以外の工程はAIが自律的に行った。論文は2026年10月29日に公開された。
 
@@ -238,7 +238,7 @@ AIが論文を読んだり計算をしたりするだけでなく、実際の装
   summary: "企業や自治体のAI活用を表彰する初の「日本AI大賞2026」の受賞16組が発表された。組織の部の大賞は博報堂DYコーポレートイニシアティブで、本社13部門の社員が同僚のためのAIアプリを開発した取り組みが評価された。個人の部の大賞はダイハツ工業の太古無限氏が受賞した。",
   points: ["応募126件からファイナリスト16組(組織8・個人8)を選出", "組織の部は博報堂DYコーポレートイニシアティブ、個人の部はダイハツ工業の太古無限氏が大賞", "優秀賞には横須賀市や遠藤ファームなどが選ばれた"],
   url: "https://prtimes.jp/main/html/rd/p/000000196.000115435.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/115435/196/115435-196-531750679a1a5268700d92094cda0e20-3000x2000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 企業や自治体、個人のAI活用を表彰する初めての「日本AI大賞2026」の受賞16組が発表された。組織の部の大賞は博報堂DYコーポレートイニシアティブ、個人の部の大賞はダイハツ工業の太古無限氏だった。表彰は11月12日、東京・五反田で開かれた「AI & Security Summit 2026」で行われた。
 
