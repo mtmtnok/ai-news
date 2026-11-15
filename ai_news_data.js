@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Bloombergは、Rapidusが2nm半導体に欠かせない記憶回路「SRAM」をまだ正常に動かせておらず、計画より少なくとも数カ月遅れていると報じた。時事通信も、量産開始を2027年度後半から2028年度へ1年遅らせる案を検討していると伝えた。Rapidusは「2027年度後半の量産開始に向けて全力を尽くす」と、計画は変えていないとしている。",
   points: ["2026年夏に達成するはずだった「動くSRAMセル」の試作がまだできていないとBloomberg報道", "時事通信は量産を2027年度後半から2028年度へ約1年遅らせる案の検討を報道。Rapidusは計画維持と反論", "政府は2027年度までに3兆円超の補助金と出資を投じる計画で、遅れが続けば支援のあり方も問われる"],
   url: "https://en.sedaily.com/world/2026/11/11/japans-rapidus-weighs-one-year-delay-in-2-nanometer-chip",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/11/11/rcv.YNA.20261007.PRU20261007120601009_P1.jpg",
   content: `## 概要
 国策の半導体会社Rapidusの2nm半導体の開発が、計画より遅れていると報じられた。Bloombergは11月10日、2nmチップに欠かせない記憶回路「SRAM」をまだ正常に動かせていないと伝え、時事通信は量産開始を約1年遅らせる案を社内で検討していると報じた。Rapidusは計画を変えていないとしている。
 
@@ -61,7 +61,7 @@ Rapidusは「日本の国産AI」と「半導体サプライチェーン再編�
   summary: "Bloombergは、AnthropicのIPOに売り出し株数の数倍の注文が集まっていると報じた。仮条件は1株70〜78ドルで8.25億株を売り出し、価格は米東部時間11月18日に決まり、19日にナスダックで取引が始まる予定だ。仮条件を上回る価格で決まる可能性も取りざたされている。",
   points: ["大口の機関投資家の注文がけん引し、応募が売り出し株数の数倍に達したとBloomberg報道", "仮条件1株70〜78ドル・8.25億株。追加で1.2375億株を売り出せる枠もある", "価格決定は11月18日、取引開始は19日の予定。仮条件超えでの決定も取りざたされる"],
   url: "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/",
-  image: null,
+  image: "https://api.stockanalysis.com/api/assets/cms/2e8ce88a-f5d9-4a43-b6c9-b4e2290af9bb.jpg",
   content: `## 概要
 Bloombergは、Anthropicの新規株式公開(IPO)に、売り出す株数の数倍にあたる注文が集まっていると報じた。価格は米東部時間11月18日に決まり、19日にナスダックで取引が始まる予定だ。投資家の需要の強さから、仮条件を上回る価格で決まる可能性も出ている。
 
@@ -97,7 +97,7 @@ AnthropicのIPOは、フロンティアラボが株式市場でどう評価さ�
   summary: "NVIDIAは米東部時間11月17日の午後4時20分ごろ、2027年度第3四半期(8〜10月)の決算を発表する。会社予想の売上高は1080億ドル(±2%)で、中国向けのデータセンター売上は含まない。フアン氏の辞任直後の決算で、オプション市場は株価が上下10.6%程度動くことを織り込んでいる。",
   points: ["会社予想は売上高1080億ドル(±2%)、粗利益率約74%。中国向けデータセンター売上は見込みに含まない", "市場予想は売上高・1株利益ともに前年比約9割増。オプション市場は±10.6%の株価変動を織り込む", "フアン氏の辞任と取締役会の調査を受け、成長の数字に加えて経営体制への説明が焦点"],
   url: "https://www.ig.com/uk/news-and-trade-ideas/_nvidia-q3-earnings-preview--can-ai-growth-outweigh-the-jensen-h-261110",
-  image: null,
+  image: "https://www.ig.com/content/dam/publicsites/igcom/uk/images/news-article-image-folder/BB_nvidia_260821.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
   content: `## 概要
 NVIDIAは米東部時間11月17日の午後4時20分ごろ、2027年度第3四半期(2026年8〜10月)の決算を発表し、午後5時から説明会を開く。ジェンスン・フアン氏が11月12日にCEOを辞任し、CFOのコレット・クレス氏がCEO代行になってから初めての決算となる。
 
@@ -132,7 +132,7 @@ NVIDIAの決算は、AIデータセンターへの投資がどれだけ続くか
   summary: "調査会社SemiAnalysisが公開した、実務のタスクをAIエージェントにこなさせる新ベンチマーク「GDPx」で、GoogleのGemini 4 CarbonがClaude Opus 5.5に僅差の2位になった。1タスクあたりの費用はCarbonが約16.29ドル、Opus 5.5が約51.41ドルで、Carbonが大幅に安い。ただし評価項目の選び方で順位が入れ替わるとの指摘もある。",
   points: ["GDPxで1位Claude Opus 5.5、2位Gemini 4 Carbon、3位GPT-6 Astra", "1タスクの費用はCarbon約16.29ドル、Opus 5.5約51.41ドル、GPT-6 Astra約54ドル", "サイバー・生物・アラインメントの項目を除くと順位が変わり、安全対策の違いが結果に影響"],
   url: "https://www.androidheadlines.com/2026/11/gemini-4-carbon-ai-benchmark-cost-claude.html",
-  image: null,
+  image: "https://www.androidheadlines.com/wp-content/uploads/2026/10/Google-Gemini-4-Carbon-featured.webp",
   content: `## 概要
 半導体・AIの調査会社SemiAnalysisは、実際の仕事に近いタスクをAIエージェントにこなさせる新しいベンチマーク「GDPx」の結果を公開した。GoogleのGemini 4 Carbonは、AnthropicのClaude Opus 5.5に僅差で続く2位となり、費用はOpus 5.5の3分の1以下だった。
 
@@ -167,7 +167,7 @@ GDPxでは、Claude Opus 5.5が1位、Gemini 4 Carbonが2位、OpenAIのGPT-6 As
   summary: "ソフトバンクは、北海道の北洋銀行に企業向けの導入支援サービス「生成AIパッケージ」を提供し、合計約2500IDを全行に導入したと発表した。北洋銀行は2025年9月からこのサービスを本格的に使っている。地方銀行で生成AIを全行規模で使う例の一つとなる。",
   points: ["ソフトバンクの「生成AIパッケージ」で、北洋銀行の全行に約2500IDを導入", "北洋銀行は2025年9月から本格利用を開始", "地方銀行で生成AIを全行員規模に広げる事例"],
   url: "https://www.softbank.jp/business/news/2026/1110-01",
-  image: null,
+  image: "https://www.softbank.jp/business/news/2026/media_10b4edb7be379cedf27431a8bb3a6272c93352b47.png?width=1200&#x26;format=pjpg&#x26;optimize=medium",
   content: `## 概要
 ソフトバンクは11月10日、北洋銀行(本店・札幌市)の生成AI活用を、企業向けの導入支援サービス「生成AIパッケージ」で支援し、合計約2500IDを全行に導入したと発表した。北洋銀行は2025年9月からこのサービスを本格的に使っている。
 
