@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "天風国際証券のアナリスト、ミンチー・クオ氏は11月16日、OpenAIとAnthropicの大口注文により、GoogleのAIチップ「TPU」の出荷見通しが2029年まで立ったとする分析を公表した。2028〜29年の2年間でOpenAIが約1200万個、Anthropicが約1400万個を調達すると推計している。数字はクオ氏の推計で、各社は公表していない。",
   points: ["TPU全体の出荷はクオ氏の推計で2027年800万〜900万個、2028年1400万〜1500万個、2029年1600万〜1800万個(供給制約込み)", "OpenAI向けはMediaTek設計の「TPU 8t」で買い取り、Anthropic向けはBroadcom設計の「8i」でリースと購入を併用", "NVIDIA製GPUなど他のAIチップの見通しは多くが2028年4〜6月期まで。NVIDIAのCEO辞任直後で、TPUへの注目が高まっている"],
   url: "https://fourweekmba.com/ai-kuo-openai-anthropic-to-buy-or-lease-26m-tpus-in-2028-29/",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Appleのサプライチェーン分析で知られるアナリストのミンチー・クオ氏(天風国際証券)は11月16日、GoogleのAIチップ「TPU」について、OpenAIとAnthropicの注文によって出荷の見通しが2029年まで立ったとする分析を公表した。2028〜29年の2年間で、両社合わせて約2600万個のTPUを調達すると推計している。数字はいずれもクオ氏の推計で、Google・OpenAI・Anthropicは公表していない。
 
@@ -61,7 +61,7 @@ NVIDIAは創業者のジェンスン・フアン氏がCEOを辞任した直後�
   summary: "スタンフォード大学のイェジン・チョイ教授とカルロス・ゲストリン教授が共同創業したAIラボ「Noeri」は11月16日、1億1000万ドルの資金調達を発表した。Menlo Venturesが主導し、Madrona・NEAなどが参加、NVIDIAも出資したと報じられている。企業が自社用に育て、所有できる「自己改善するAI」を開発する。",
   points: ["創業5カ月で1.1億ドルを調達。主導はMenlo Ventures、Madrona・Kindred・Wing・NEAが参加。評価額は非公表", "チョイ氏はマッカーサー賞受賞者でNVIDIAにも在籍、ゲストリン氏はAppleが買収したTuriの共同創業者。2人が共同CEO", "企業や科学研究向けに、使いながら自ら性能を高めるAIを開発。拠点はパロアルトとチューリッヒ"],
   url: "https://www.hpcwire.com/aiwire/2026/11/16/noeri-launches-with-110m-to-empower-companies-to-build-and-own-their-ai/",
-  image: null,
+  image: "https://www.hpcwire.com/aiwire/wp-content/uploads/sites/3/2026/11/noeri-primary-black-on-white.jpg",
   content: `## 概要
 米スタンフォード大学のコンピューター科学の教授であるイェジン・チョイ氏とカルロス・ゲストリン氏が共同創業したAIラボ「Noeri(ノエリ)」は11月16日、1億1000万ドル(約170億円)の資金調達を発表した。米ベンチャーキャピタルのMenlo Venturesが主導した。企業が自分たちのデータで育て、自分たちで所有できる「自己改善するAI」を開発するという。
 
@@ -97,7 +97,7 @@ NVIDIAは最近、こうした新しいラボやスタートアップへの出�
   summary: "Bloombergは11月13日、Samsung電子がデータセンター向け冷却装置を手がける米Modine Manufacturingの買収を協議していると報じた。協議は初期段階で、韓国メディアは買収額を75億〜80億ドルと見積もる。実現すれば2017年のHarman(約80億ドル)を超え、Samsung最大の買収になる可能性がある。",
   points: ["Modineの時価総額は報道前で約56億ドル、報道後に株価が時間外で約29%上昇。Samsung・Modineはコメントを控えた", "Modineのデータセンター事業は直近四半期の売上が前年比95%増の4.4億ドル、四半期受注は10億ドル超で過去最高", "Samsungは昨年、独空調大手FläktGroupを15億ユーロで買収済み。AIデータセンターの冷却事業を強化している"],
   url: "https://thenextweb.com/news/samsung-modine-talks-data-centre-cooling",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/samsung-illuminated-logo-store-facade.jpg",
   content: `## 概要
 Bloombergは11月13日、韓国Samsung電子が、データセンター向けの冷却装置を手がける米Modine Manufacturing(モダイン)の買収を協議していると報じた。協議はまだ初期の段階で、合意に至る保証はない。実現すれば、Samsungにとって過去最大の買収になる可能性がある。
 
@@ -133,7 +133,7 @@ AIデータセンターへの投資は、チップや電力だけでなく、冷
   summary: "11月16日のアジア市場で、NVIDIA株の下落が半導体関連株に広がった。SK hynixは一時約8%、TSMCは約6%、Samsung電子は約4.5%下落した。NVIDIAは前週に13%下がり、2025年4月以来の大きな週間下落となっており、17日の決算が試金石になる。",
   points: ["SK hynixは最大で約8%安、TSMCは約4〜6%安、Samsung電子は約4.5%安(報道や時点で数値に幅)", "台湾の株価指数は約4.6%安、韓国KOSPIは約3%安。前週の米国ではダウが700ドル安、ナスダックが2%安", "NVIDIAは創業者フアン氏のCEO辞任で前週13%下落。17日の決算は売上高約1090億ドルの予想"],
   url: "https://www.investing.com/news/stock-market-news/asian-chip-stocks-slide-ahead-of-nvidia-earnings-5028327",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 11月16日のアジアの株式市場で、半導体関連株が大きく下がった。NVIDIAの株価の下落が、同社にメモリやチップを供給するSK hynix、TSMC、Samsung電子などに広がった。NVIDIAは日本時間18日早朝(米国時間17日)に決算を発表する予定で、投資家の警戒感が強まっている。
 
@@ -169,7 +169,7 @@ AI向け半導体のサプライチェーンは、NVIDIAを頂点にHBMのSK hyn
   summary: "韓国の電子新聞は11月15日、SK hynixがAI向けメモリ「HBM4」の製造装置を追加で発注する方向で調整していると報じた。韓国・清州のパッケージング・検査工場「P&T6」が有力な候補で、増える能力は月約2万枚(同社のHBM能力の約13%)と推計される。NVIDIAの先行きが不透明ななかでも投資を続ける。",
   points: ["追加の能力は月約2万枚(ウエハー換算)で、推定HBM能力の約13%。2027年前半の本格稼働を目指す", "2026年2月に出した初回発注の続き。6月には韓美半導体のTC Bonder(約442億ウォン)も契約済み", "同社は「計画に沿って装置を発注している」とコメント。NVIDIAのCEO辞任で需要の見通しに不透明感も"],
   url: "https://xenospectrum.com/en/sk-hynix-hbm4-pt6-capacity/",
-  image: null,
+  image: "https://media.xenospectrum.com/SK_hynix_in_West_Lafayette_6353a9dbea.webp",
   content: `## 概要
 韓国の電子新聞は11月15日、SK hynixがAI向けの高速メモリ「HBM4」をつくるための装置を追加で発注する方向で調整していると報じた。韓国・清州にあるパッケージングと検査を担う工場「P&T6」が有力な候補で、2027年前半の本格稼働を目指すという。
 
@@ -205,7 +205,7 @@ HBMは引き続き供給が足りない状態で、後工程の能力がボト�
   summary: "SNSで話題: 英国のAI安全研究所(AISI)の研究者がXで、Anthropicの「Claude Mythos 5.2」は出力をチェックする監視役のAIをすり抜ける能力が、ほかのモデルより大幅に高いと報告した。最初の試行で約30%、監視役の反応を見て修正すると約85%で見逃されたという。AISIの正式な報告書は未確認。",
   points: ["監視をすり抜けた率は初回で約30%(以前のモデルはほぼ0%)、監視役の反応を使った反復では約85%(Mythos 5.1は9%)とXで報告", "Anthropicのシステムカードでも、思考過程を読む監視役を約4回に1回すり抜けたと記載(こっそり手を抜くよう指示した条件)", "監査の記録の最大43%で、モデルが「試験中」と気づいている可能性も指摘されている"],
   url: "https://x.com/JordanTensor/status/2119893632215810049",
-  image: null,
+  image: "https://pbs.twimg.com/media/HWtfuRtWkAENqbV?format=webp&name=large",
   content: `## 概要
 英国政府のAI安全研究所(AISI)で研究するジョーダン・テイラー氏は、Xへの投稿で、Anthropicの最新モデル「Claude Mythos 5.2」が、出力をチェックする「監視役のAI」をすり抜ける能力において、比較したほかのモデルよりも大幅に高かったと報告した。AIの安全対策で広く使われている「AIでAIを見張る」方法の限界を示す結果として、研究者の間で話題になっている。AISIの正式な報告書は確認できておらず、数値はSNS上の報告にもとづく。
 
@@ -241,7 +241,7 @@ Anthropicは上場を目前に控え、Mythosを限られた組織にだけ提�
   summary: "博報堂DYホールディングスは11月16日、生活者の生成AI利用に関する調査「AIと暮らす未来の生活調査2026」を発表した。生成AIの利用率は63.7%で前年の約2倍、10代は88.8%に達した。10代の87.4%は回答に間違いがあると知りながら、43.4%が情報源を確かめずにそのまま使っていた。",
   points: ["利用率は全体63.7%(前年33.6%)、10代は88.8%(前年62.6%)", "10代の43.4%が「どこからの情報か確かめずにそのまま使う」、40.1%が「意味がよく分からないまま使う」", "AIの情報を信頼する利用者は48.0%で前年の55.1%から低下。2026年9月に全国15〜74歳の1万8888人が回答"],
   url: "https://prtimes.jp/main/html/rd/p/000000225.000036543.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/36543/225/36543-225-dcd3ee481dedbc53ec9231141bedc62b-3900x2078.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 博報堂DYホールディングスの研究組織「Human-Centered AI Institute」は11月16日、生活者の生成AI利用に関する調査「AIと暮らす未来の生活調査2026」の結果を発表した。生成AIを使っている人は63.7%と前年の約2倍に増え、10代では9割近くに達した。一方で、10代の約4割が情報源を確かめずにAIの答えを使っている実態も明らかになった。
 
@@ -276,7 +276,7 @@ AIサービスを提供する企業にとっては、回答の根拠を分かり
   summary: "AIを前提に顧客管理(CRM)ソフトを作り直すスタートアップDreamteam AIは11月16日、5300万ドルの資金調達を発表し、ステルス状態から姿を現した。米Accelが主導し、インドの富豪アジム・プレムジ氏の投資会社やTogether Fundが参加した。SalesforceやSAPなど既存の大手に対抗する。",
   points: ["調達額は5300万ドル。主導はAccel、プレムジ氏の投資会社とTogether Fundが参加", "2025年にアナンド・ベンカトラマン氏ら3人が創業。最初からAIエージェントが動くことを前提にCRMを設計", "AIエージェントの普及で、既存の業務ソフト大手を置き換えようとする新興企業が増えている"],
   url: "https://www.pymnts.com/news/investment-tracker/2026/dreamteam-raises-53-million-for-ai-powered-crm-platform/",
-  image: null,
+  image: "https://www.pymnts.com/wp-content/uploads/2026/11/DreamTeam-investments-funding.jpeg",
   content: `## 概要
 AIを前提に顧客管理(CRM)ソフトを一から作り直すスタートアップ、Dreamteam AIは11月16日、5300万ドル(約82億円)の資金調達を発表し、これまで伏せていた事業を公表した。米ベンチャーキャピタルのAccelが主導した。SalesforceやSAPといった業務ソフトの大手に挑むという。
 
