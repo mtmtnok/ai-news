@@ -22,7 +22,7 @@ window.NEWS_DATA = [
   summary: "OpenAIは11月17日、複雑な仕事向けの「GPT-6.2 Astra」と日常業務向けの「GPT-6.2 Sol」を公開した。ChatGPT WorkとCodexでPlus・Pro・Enterprise・Edu会員が使え、APIでも提供する。AnthropicのClaude 5.2やGoogleのGemini 4シリーズの公開から約1週間での投入で、性能首位の奪還を狙う。",
   points: ["API価格は100万トークンあたりAstraが入力8ドル・出力40ドル(GPT-6 Astraより20%安い)、Solは入力2ドル・出力10ドルに据え置き", "コーディングのベンチマーク「FrontierCode 2.0」でSolはAstraとの差0.5ポイント以内、1タスクのコストは約5分の1", "サイバー攻撃に関わる能力が上がったため、危険度の高いサイバー分野の手助けには従来より厳しい安全対策をかけて公開"],
   url: "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models/",
-  image: null,
+  image: "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/chatgpt-codex-gpt-6-astra-1.webp?resize=1200,628",
   content: `## 概要
 OpenAIは11月17日、新しいモデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開した。Astraは複雑な仕事向けの上位モデル、Solは日常業務向けのモデルという位置づけで、ChatGPT WorkとCodexのPlus・Pro・Enterprise・Edu会員が当日から使える。APIでも「gpt-6.2-astra」「gpt-6.2-sol」の名前で提供を始めた。
 
@@ -60,7 +60,7 @@ AnthropicのIPO(19日に上場予定)の直前というタイミングでもあ�
   summary: "米商務省の産業安全保障局(BIS)は11月16日、中国企業が海外のデータセンターを通じて先端AIチップを遠隔で使うことを防ぐ暫定最終規則を出した。中国などに本社を置く企業に一定以上の計算能力を提供できるデータセンターへのチップ輸出を許可制にし、シンガポール・マレーシア・タイ・インドネシア・ブラジル向けの出荷にも許可を求める。バイデン政権の「AI拡散規則」は正式に廃止した。",
   points: ["中国・マカオなど「D:5」グループの国に本社を置く企業へ、合計1200万TPPを超える計算能力を提供できるデータセンターは、世界のどこでも輸出に許可が必要", "すでにそうした顧客を持つデータセンターには、規則の発効から90日の猶予を与える", "シンガポール・マレーシア・タイ・インドネシア・ブラジルへのチップ出荷も許可制に、バイデン政権のAI拡散規則は正式に廃止"],
   url: "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/11/us-commerce.jpg?w=564",
   content: `## 概要
 米商務省の産業安全保障局(BIS)は11月16日、中国企業が海外のデータセンターを通じて先端AIチップを遠隔で使うことを防ぐための暫定最終規則を公表した。中国系企業に大規模な計算資源を提供できるデータセンターへのチップ輸出を、世界のどこにあっても許可制にする。あわせて、東南アジアなど5カ国向けのチップ出荷にも許可を求める。
 
@@ -98,7 +98,7 @@ NVIDIAにとっては、決算発表の前日に新たな規制が出た形に�
   summary: "Microsoftは11月17日、サンフランシスコで開いた開発者イベント「Ignite」で、コーディング・サイバーセキュリティ・画像生成・音声向けの自社開発AIモデル6種を発表した。コーディング用の「MAI Code 2」はOpenAIやAnthropicの主力モデルに近い性能をずっと安い価格で出せるとしている。汎用の最先端モデルも開発中で、出資先のOpenAIへの依存を減らす動きが一段と進む。",
   points: ["MAI Code 2はGPT-6.1 Solの約98%の性能を40%のコストで、Claude Opus 5.5の約96%の性能を5%のコストで出せるとMicrosoftは主張(いずれも半額の販促価格での比較)", "小型・高速の「MAI Code 2 Flash」も公開、両モデルはGitHub Copilotで利用可能に", "汎用の最先端モデルも開発中、一方でOpenAIのGPT-6.2もAI開発基盤「Foundry」に載せる"],
   url: "https://fourweekmba.com/ai-microsofts-mai-code-2-costs-40-of-sol-at-its-promo-price/",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Microsoftは11月17日、サンフランシスコで開いた開発者イベント「Ignite」で、自社のAI部門Microsoft AIが開発した「MAI」シリーズの新モデル6種を発表した。対象はコーディング・サイバーセキュリティ・画像生成・音声で、OpenAIやAnthropicの主力モデルに近い性能をずっと安い価格で出せるとうたっている。
 
@@ -134,7 +134,7 @@ Microsoftは、最先端の汎用モデルで正面から争うよりも、コ�
   summary: "Google DeepMindから生まれたAI創薬企業のIsomorphic Labsは11月17日、シリーズCで50億ドルを調達したと発表した。SequoiaとGreenoaksが共同で主導し、a16zなどが新たに加わり、Alphabetも引き続き大きく出資した。2025年3月以降の調達額は計77億ドルになるが、自社の薬の候補はまだ人での試験に入っていない。",
   points: ["シリーズCはGreenoaksとSequoiaが共同主導、a16zが新たに参加、Alphabet・Thrive・MGX・GV・Temasek・英政府系のSovereign AI Fundも出資", "評価額は非公表、事前の報道では最大500億ドル(前回は約175億ドル)を目指すとされていた", "資金は創薬エンジン「IsoDDE」の開発と、最初の薬の候補を臨床試験へ進めるために使う"],
   url: "https://www.fiercebiotech.com/biotech/isomorphic-labs-raises-5b-series-c-months-after-21b-round",
-  image: null,
+  image: "https://qtxasset.com/quartz/qcloud5/media/image/gettyimages-2206645001_1.jpg?VersionId=toD5DMHG5W1dd8ouuHMN0fFG2QRW..nw",
   content: `## 概要
 Google DeepMindから生まれたAI創薬企業のIsomorphic Labs(英ロンドン)は11月17日、シリーズCで50億ドルを調達したと発表した。5月に21億ドルのシリーズBを発表してから半年での大型調達で、バイオテック分野のベンチャー投資として過去最大級の規模になる。
 
@@ -169,7 +169,7 @@ Google DeepMindから生まれたAI創薬企業のIsomorphic Labs(英ロンド�
   summary: "仏パリと米シリコンバレーに拠点を置くロボット新興のGenesis AIは11月17日、シリーズAで5億ドルを調達し、評価額が35億ドルになったと発表した。Khosla Ventures、Premji Invest、Eclipseが共同で主導し、NVIDIAの投資部門NVenturesやAMD Venturesも加わった。人の作業を手袋型の装置で記録したデータで学ぶロボット「Eno」の量産と、工場・倉庫への導入を進める。",
   points: ["シリーズAは5億ドル、調達後の評価額は35億ドル、2025年7月には1.05億ドルのシードを調達していた", "Khosla・Premji Invest・Eclipseが共同主導、NVentures・AMD Ventures・仏公的投資銀行Bpifranceなども参加", "Enoは頭も脚もない車輪型・双腕のロボットで、汎用のロボット基盤モデル「GENE」で動く、すでに30〜40台を製造"],
   url: "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/11/IMG_1826.jpg?resize=862,1200",
   content: `## 概要
 仏パリと米サンフランシスコ・ベイエリアに拠点を置くロボット新興のGenesis AIは11月17日、シリーズAで5億ドルを調達したと発表した。調達後の評価額は35億ドル。人型にこだわらない車輪型ロボット「Eno」を量産し、まず工場や倉庫に導入する。
 
@@ -205,7 +205,7 @@ NVIDIAやAMDが出資に名を連ねることは、チップ企業がロボッ�
   summary: "中国の半導体受託製造最大手SMICの共同CEO、趙海軍氏は7〜9月期の決算説明会で、AI関連の半導体の供給は2027年いっぱい逼迫が続くとの見通しを示した。製造装置の一部は注文から納入まで24カ月を超えるようになっているという。AI向けメモリーの需給が釣り合うのは2028年半ばごろとみている。",
   points: ["AI関連の半導体の供給逼迫は2027年いっぱい続くと趙海軍共同CEOが説明", "製造装置の一部は納期が24カ月超、装置メーカーは新規注文に16〜24カ月を提示、2026年の設備増強は計画どおり", "需要はデータセンターとプライベートクラウドがけん引、駆け込みの発注が装置の納期をさらに延ばしている"],
   url: "https://www.trendforce.com/news/?p=66599",
-  image: null,
+  image: "https://img.trendforce.com/blog/wp-content/uploads/2026/09/16170949/SMIC-Headquarter-624x414.png",
   content: `## 概要
 中国の半導体受託製造(ファウンドリ)最大手のSMIC(中芯国際集成電路製造)の共同CEO、趙海軍氏は11月13日の7〜9月期決算説明会で、AI関連の半導体の供給は2027年いっぱい逼迫が続くとの見通しを示した。製造装置の納期も長くなっており、一部は注文から納入まで24カ月を超えるという。
 
@@ -241,7 +241,7 @@ SK hynixやキオクシアなどのメモリー各社も2027〜28年分の生産
   summary: "理化学研究所は11月16日、スーパーコンピューター「富岳」と「理究」の運用系システムが不正アクセスを受けたと発表した。富岳は14日未明から運用を止めており、再開の時期は未定。最大4597人の利用者の個人情報に加え、利用者が保存していたSSH秘密鍵などの認証情報が流出した恐れがある。",
   points: ["12日に不審な通信を検知し、13日に不正アクセスを確認、14日午前4時30分に富岳の運用を停止して外部からの接続を遮断", "侵入者は富岳の稼働状況を表示するダッシュボードを足がかりに内部へ入り、盗んだ認証情報で他のシステムへの接続も試みた", "研究成果の流出は「具体的な事実は確認されていない」、全利用者のログイン用公開鍵を無効化し鍵の再発行を求める"],
   url: "https://www.itmedia.co.jp/news/article/2611/17/2000003253/",
-  image: null,
+  image: "https://www.itmedia.co.jp/news/article/ogp/2611/17/2000003253/10012297/2048",
   content: `## 概要
 理化学研究所は11月16日、スーパーコンピューター「富岳」と「理究(りきゅう)」の運用系システムが不正アクセスを受けたと発表した。富岳は11月14日未明から運用を停止しており、再開の時期は決まっていない。両システムの登録利用者、最大4597人の個人情報と、利用者が保存していた認証情報が流出した恐れがある。
 
