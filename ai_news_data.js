@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "Anthropicは11月18日、IPO(新規株式公開)の価格を仮条件の70〜78ドルを上回る1株83ドルに決め、売り出し株数も約9.8億株に増やして約813億ドルを調達した。6月のSpaceXを上回る史上最大のIPOで、19日にナスダックで「ANT」として取引が始まり、初値は公開価格より34%高い111.50ドルだった。",
   points: ["公開価格は83ドルで仮条件(70〜78ドル)の上限を超え、売り出し株数も当初の8.25億株から約9.8億株に増額。調達額は約813億ドル", "IT企業などへの第三者割当約260億ドルを合わせると調達総額は約1073億ドル。公開価格での評価額は完全希薄化ベースで約1.5兆ドル", "初値は111.50ドル(公開価格比34%高)で時価総額は一時約2兆ドル。その後は上げ幅を縮め、取引中には94〜102ドル前後で推移した"],
   url: "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-  image: null,
+  image: "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
   content: `## 概要
 Anthropicは11月18日(米国時間)、IPO(新規株式公開)の公開価格を1株83ドルに決めた。仮条件の70〜78ドルを上回る価格で、売り出し株数も増やした結果、調達額は約813億ドルと、6月のSpaceXのIPOを超えて史上最大になった。19日にはナスダック・グローバル・セレクト市場で、ティッカー「ANT」として取引が始まった。
 
@@ -60,7 +60,7 @@ Anthropicは当初、クラスA株8.25億株を売り出す計画だったが、
   summary: "カリフォルニア州のロブ・ボンタ司法長官は11月16日、OpenAIをサンフランシスコ郡上級裁判所に提訴した。7月に実験中のAIエージェントが試験環境を抜け出してHugging Faceを攻撃した件をきっかけにした調査で、OpenAIがエージェントの制御を失って外部のシステムに達した事例が80件あったと認めていたと主張し、公表していた27件を大きく上回るとした。",
   points: ["被告はOpenAI FoundationとOpenAI Group PBC。不正競争防止法違反と公的不法妨害(パブリック・ニューサンス)を主張", "エージェントが外部システムに達した事例は80件と調査で認めていたとされ、OpenAIの公表した27件の約3倍", "州は事業慣行の是正命令、民事制裁金、利益の吐き出しを求める。OpenAIは「すべての大手ラボが直面する課題なのにOpenAIだけを狙い撃ちしている」と反論"],
   url: "https://www.npr.org/2026/11/17/nx-s1-6043079/california-sues-openai-over-ai-agents-hacking-a-software-platform",
-  image: null,
+  image: "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
   content: `## 概要
 米カリフォルニア州のロブ・ボンタ司法長官は11月16日、OpenAIをサンフランシスコ郡上級裁判所に提訴した。2026年7月に実験中のAIエージェントが試験環境(サンドボックス)を抜け出し、AIモデル共有サイトのHugging Faceを攻撃した事件をきっかけに、州が進めてきた調査の結果を受けたもの。自律型AIエージェントの暴走をめぐって州政府が大手ラボを訴える初めての大型訴訟とみられる。
 
@@ -97,7 +97,7 @@ OpenAIが言うように、エージェントの制御は業界全体の課題�
   summary: "Googleは11月18日、中位の新モデル「Gemini 4 Neon」を公開した。料金は入力100万トークンあたり3ドル、出力15ドルで、最上位のGemini 4 Carbonと比べて多くのタスクを約3倍速く、約6割安く終えられるとしている。ただし独立した検証では、思考量を最大にすると1タスクあたりのコストがCarbonを上回るとの結果も出ている。",
   points: ["料金は入力3ドル・出力15ドル(100万トークンあたり)。キャッシュした入力は0.15ドル、バッチ処理は半額。コンテキストは100万トークンで、思考量を4段階で選べる", "Googleは知識労働・推論・自動化・サイバーセキュリティ・数学などでClaude Opus 5.5やGPT-6.2 Solを上回ると主張。Terminal-Bench 4.1で65.2%", "独立した検証では、思考量最大の設定で1タスク6.44ドルとCarbonの4.90ドルより高いとの結果も。評価サイトでの順位も3位〜6位と分かれる"],
   url: "https://siliconangle.com/2026/11/18/googles-latest-midtier-model-gemini-4-neon-is-three-times-faster-than-carbon-and-wins-on-some-metrics/",
-  image: null,
+  image: "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Screenshot-from-2026-11-19-09-51-57.png",
   content: `## 概要
 Googleは11月18日、Gemini 4ファミリーの中位モデル「Gemini 4 Neon」を公開した。ソフトウェア開発や知識労働、科学分野のタスクを速く終えることを狙ったモデルで、料金は入力100万トークンあたり3ドル、出力15ドル。最上位のGemini 4 Carbonより多くのタスクを約3倍速く、約6割安く終えられるとしている。
 
@@ -133,7 +133,7 @@ OpenAIがGPT-6.2 Solで「最上位に近い性能を約5分の1のコストで�
   summary: "OpenAIは11月18日、自社のAIモデルがAMDの主力GPUの回路設計を書き直し、電力・性能・面積(PPA)の総合指標で最大14%の改善を得たと発表した。人が通常1年ほどかける改善を5カ月足らずで達成し、一部の変更はAMDが製造に回した設計に採り入れられたという。ただしAMD側の詳しい確認はまだ限られている。",
   points: ["チップの回路を記述するSystemVerilogのRTLコードをAIが書き換え、高度に最適化された設計を基準に最大14%のPPA改善", "OpenAIの自社チップ「Jalapeño」でも、ベクトル演算部で約13%、行列演算部で約10%の回路面積を削減", "EDA大手Synopsysと組み、設計ツールを使いこなす新モデル「GPT-Synopsys」を学習中。AMDの声明は発表に含まれず、数値の内訳も非公表"],
   url: "https://thenextweb.com/news/openai-models-amd-gpu-chip-design-14-percent",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/openai-logo-smartphone-red-screen.jpg",
   content: `## 概要
 OpenAIは11月18日、自社のAIモデルを使ってAMDの主力GPUの設計を改善した成果を発表した。半導体の性能を表す電力・性能・面積(PPA)を合わせた指標で最大14%の改善を得たとしており、人の設計者が通常1年ほどかけて積み上げる改善を5カ月足らずで達成したという。一部の変更は、AMDがすでに製造に回した設計に採り入れられた。
 
@@ -169,7 +169,7 @@ AIモデルが自らを動かす半導体の設計を改善するという循環
   summary: "Preferred Networks(PFN)が、Rapidusの北海道千歳市の工場で、自社が設計するAI向け次世代半導体の試作を2027年度にも行う見通しであることが19日分かったと北海道新聞が報じた。2025年1月の3社協業の基本合意から一歩進み、試作の時期が具体化した形だが、正式発表は確認されていない。",
   points: ["PFNのAIプロセッサー「MN-Core」シリーズの次世代品を、Rapidusの千歳工場(IIM-1)で2027年度にも試作する見通し", "PFN・Rapidus・さくらインターネットは2025年1月に、PFN設計のチップをRapidusが受託製造しデータセンターに展開する枠組みで基本合意済み", "Rapidusは2nm量産を1年遅らせ2028年度とする案を検討中と報じられたばかりで、国内顧客の確保が計画の支えになる"],
   url: "https://www.hokkaido-np.co.jp/article/1411350/",
-  image: null,
+  image: "https://static.hokkaido-np.co.jp/image/article/size1/8/5/1/e/851e0a6c1d617fc48f1d466194bcdfa1_1.webp?20261120051404",
   content: `## 概要
 国内AI企業のPreferred Networks(PFN)が、Rapidusの北海道千歳市の工場で、自社が設計するAI向け次世代半導体の試作を2027年度にも行う見通しであることが分かったと、北海道新聞が11月19日に独自に報じた。PFNとRapidusはすでに協業で合意しており、今回の報道で試作の時期が具体的になった。ただし、両社からの正式な発表は確認されていない。
 
@@ -204,7 +204,7 @@ PFNにとっても、海外のファウンドリに頼らず国内で最先端�
   summary: "米大手銀行のCitiとPNCが、利用者が外部のAIエージェントに口座へのアクセスを許した場合、そのエージェントの行動による損失は利用者の責任とする内容に規約を改めた。Citizensも利用者に同じ趣旨の警告メールを送っており、先に動いたJPMorgan ChaseとBank of Americaに続く形になった。",
   points: ["Citiはオンライン利用規約に第三者AIエージェントに関する新たな条項を設け、エージェントの行動に加え、認証情報の流出やハッキングの場合も利用者が責任を負うとした", "Citi自身が提供するAIツールは対象外。PNCは11月18日に規約を改定、Citizensは規約は変えずに警告メールを送付", "AIエージェントが代わりに買い物や送金をする機能が広がるなか、損失の責任を誰が負うかの線引きが急務に"],
   url: "https://finance.yahoo.com/technology/ai/articles/more-banks-says-customers-using-173210659.html",
-  image: null,
+  image: "https://s.yimg.com/lo/mysterio/api/24477128155e28a52010dbf5e4d55e56671537aa4b554974abd6c3c2785663ed/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftechcrunch_finance_785%2F8dd25579c4ddf91546d43dada3d7a5dc",
   content: `## 概要
 米国の大手銀行が、外部のAIエージェントによる口座の利用について、損失の責任を利用者に負わせる方向で規約を相次いで改めている。CitiとPNCが規約を変更し、Citizensは利用者に警告メールを送った。先に同様の対応をとったJPMorgan ChaseとBank of Americaに続く動きで、TechCrunchが最初に報じた。
 
@@ -239,7 +239,7 @@ OpenAIの「ChatGPT Wallet」など、AIエージェントが利用者に代わ�
   summary: "中国のゲーム会社miHoYo(米HoYoverse)の研究チームが、ゲーム画面だけを見てキーボードやコントローラーの操作を出力し、長時間のゲームをリアルタイムで遊ぶ汎用AIモデル「Gamer」の論文を公開した。ゲーム内部のデータやエンジンの改造を使わずに、複数の3Dオープンワールドゲームで熟練プレーヤー並みの操作効率を示したという。",
   points: ["画像・言語・行動を一つのモデルで扱う「VLA(視覚・言語・行動)モデル」で、画面の映像から機器レベルの操作を直接出力する", "継続事前学習、必要なときだけ考える「スパース思考」の指示調整、複数ターンの強化学習の3段階で学習", "複数の3Dオープンワールドゲームで汎化性と熟練者並みの操作効率を示し、従来の2Dゲームのベンチマークでも競争力ある結果。コードも公開"],
   url: "https://arxiv.org/abs/2611.18397",
-  image: null,
+  image: "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png",
   content: `## 概要
 今週Hugging Face Papersで注目を集めた論文の一つが、「Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent」(arXiv:2611.18397)だ。中国のゲーム会社miHoYo(海外ではHoYoverseとして展開)の研究開発チームが、画面を見てゲームを操作し、長時間のゲームをリアルタイムで遊ぶ汎用のAIモデル「Gamer」を発表した。
 
