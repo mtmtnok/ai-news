@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "米下院外交委員会は11月19日、商務省の輸出許可の記録を公表し、トランプ政権が2025年12月〜26年5月にNVIDIA「H200」とAMD「MI325X」計87万9868個の中国向け輸出を承認していたことを明らかにした。許可先にはTencent・Alibaba・Baiduなどのほか、国防総省が軍事関連企業に指定した企業も含まれる。",
   points: ["21件の申請で計約344万個の輸出許可が求められ、5月11日時点で87万9868個が承認された", "Tencentとその子会社に15万個、Alibabaに7.5万個、Baiduに4.3万個、BYDに4000個。一部報道では3割超が国防総省の軍事関連企業リストに載る企業向け", "実際に何個が出荷されたかは記録からは分からない。NVIDIAはすでにH200の中国向け出荷を止めたとしている"],
   url: "https://www.ibtimes.com/us-approved-nvidia-amd-ai-chip-exports-china-3809991",
-  image: null,
+  image: "https://d.ibtimes.com/en/full/4654671/nvidia-signage-displayed-china.jpg",
   content: `## 概要
 米下院外交委員会は11月19日(米国時間)、商務省産業安全保障局(BIS)の輸出許可の記録を公表した。トランプ政権が2025年12月から2026年5月にかけて、NVIDIAの「H200」とAMDの「MI325X」を合わせて約88万個、中国企業向けに輸出することを承認していたことが分かった。許可先には、米国防総省が中国の軍事関連企業に指定した企業も含まれている。
 
@@ -59,7 +59,7 @@ window.NEWS_DATA = [
   summary: "英フィナンシャル・タイムズは11月19日、TSMCとSamsungが中国の顧客向けの一部チップ出荷を止め、米国の輸出許可の取得を待っていると報じた。同日施行の米商務省の新規則で、16/14nm以下で作るロジックチップの「AI向けではない」との確認手続きが中国顧客には使えなくなり、スマホ向けチップにも影響が及んでいる。",
   points: ["Samsungの影響先にはBaiduのAIチップ部門Kunlun、ByteDanceが含まれると報道。XiaomiやOppo、Vivoのスマホ向けチップの出荷も止まった", "16/14nm以下のロジックチップは原則「規制対象のデータセンター向けAIチップ」とみなされ、AI向けでないことの確認手続きも中国顧客には使えなくなった", "木曜(19日)時点で輸送中だった分は12月21日まで旧ルールで出荷可能。TSMC・Samsungはコメントしていない"],
   url: "https://en.sedaily.com/world/2026/11/20/tsmc-samsung-halt-some-chip-shipments-to-china-as-us-rules",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/11/20/rcv.YNA.20261113.PRU20261113181801009_P1.jpg",
   content: `## 概要
 英フィナンシャル・タイムズ(FT)は11月19日、台湾のTSMCと韓国のSamsung電子が、中国の顧客向けの一部チップの出荷を停止したと報じた。同日に施行された米商務省の新規則を受け、両社は米国の輸出許可を申請して結果を待っているという。AIチップだけでなく、スマートフォン向けのチップにも影響が広がっている。
 
@@ -95,7 +95,7 @@ window.NEWS_DATA = [
   summary: "11月20日の東京株式市場で日経平均株価は前日比3007円56銭安の5万6436円65銭と大幅に下落し、下げ幅は歴代5位となった。前日の米国市場でAMDの急落などAI・半導体株が売られた流れを引き継ぎ、アドバンテストとソフトバンクグループの2銘柄だけで指数を約1016円押し下げた。",
   points: ["終値は5万6436円65銭で、4月以来約7カ月ぶりの安値水準。東証プライムの約93%の銘柄が値下がり", "アドバンテストは2790円安の2万4255円、ソフトバンクGは512円安(約14.5%安)の3025円", "背景にはAnthropic上場に伴う資金確保の売り、AMDの急落、米国の追加利上げへの警戒、中東情勢による原油高などが挙がる。韓国・台湾の株価指数も5〜6%下落"],
   url: "https://www.oanda.jp/lab-education/market_news/20261120_nikkei_3000_drop/",
-  image: null,
+  image: "https://storage.googleapis.com/oanda-prod-asne1-oj-jp-wordpress/2026/11/20261120_nikkei_3000_drop-20261120193635.png",
   content: `## 概要
 11月20日の東京株式市場で、日経平均株価は3営業日ぶりに大幅反落し、前日比3007円56銭安の5万6436円65銭で取引を終えた。下げ幅は歴代5位で、終値は4月以来約7カ月ぶりの安値水準となった。AI・半導体関連の銘柄を中心に売りが広がり、Anthropicの上場の祝賀ムードとは対照的な一日となった。
 
@@ -131,7 +131,7 @@ NVIDIAの好決算やAnthropicの記録的な上場にもかかわらず、市�
   summary: "AMDの株価は11月19日、前日比7.72%安の489.19ドルで取引を終え、時価総額は約670億ドル減った。空売り業者のHunterbrook Capitalが、米国の輸出規制にもかかわらずAMDのチップが中国に流れており、米国の禁輸リストに載る中国のサーバー大手Inspurにファームウェアの更新が届き続けていると指摘したことがきっかけになった。",
   points: ["終値は489.19ドル(前日530.14ドル)。取引時間中は朝の高値から一時15%超下げる場面もあった", "Hunterbrookは、Entity List(禁輸リスト)に載るInspurへのファームウェア提供や、280億ドルの信用補完、488億ドルの供給契約の負担、大口顧客へのストックオプション付与もリスクとして挙げた", "AMDはリポートについて「当社の事業慣行と取引関係を誤って伝えている」と否定した"],
   url: "https://www.fool.com/investing/2026/11/19/why-amd-stock-was-plunging-on-thursday/",
-  image: null,
+  image: "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fa42cd5a5e57c2817c10cae8f16fd659ea7c64327-2000x1200.jpg&w=1200&op=resize",
   content: `## 概要
 米AMDの株価が11月19日に急落し、前日比7.72%安の489.19ドルで取引を終えた。時価総額は約670億ドル減り、時間外取引でも下げ続けた。空売り業者のHunterbrook Capitalが、米国の輸出規制にもかかわらずAMDの製品が中国に流れていると指摘するリポートを公表したことがきっかけだった。
 
@@ -167,7 +167,7 @@ AMDはOpenAIとの大型契約などでAI向けGPUの存在感を高めてきた
   summary: "AlibabaのAIモデル「Qwen」の開発を率いた林俊旸(リン・ジュンヤン)氏が上海で創業したAIラボ「Pragmatik Labs」が、評価額50億ドルで新たな資金を調達したとBloombergが11月20日に報じた。8月の調達時の評価額20億ドルから2.5倍になった。",
   points: ["今回の調達額は数千万ドル規模。新たな出資者にHyT Capital、CDH Investments(鼎暉投資)、自動車大手Geely(吉利)の親会社が加わった", "8月の前回ラウンドでは評価額20億ドルで数億ドルを調達していた", "林氏は2026年3月にAlibabaを正式に退社。同社は「デジタルと物理の両方の世界で動く次世代エージェントの研究」に取り組むとしている"],
   url: "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/",
-  image: null,
+  image: "https://i0.wp.com/technode.com/wp-content/uploads/2026/11/pragmatik-cover.png?fit=2350%2C1000&ssl=1",
   content: `## 概要
 AlibabaのオープンウェイトAIモデル「Qwen」の開発を率いた林俊旸(リン・ジュンヤン)氏が上海で創業したAIラボ「Pragmatik Labs」が、評価額50億ドルで新たな資金調達を終えたと、米Bloombergが関係者の話として11月20日に報じた。8月の調達時の評価額20億ドルから、わずか3カ月ほどで2.5倍になった。
 
@@ -199,7 +199,7 @@ Pragmatik Labsは8月の前回ラウンドで、評価額20億ドルで数億ド
   summary: "OpenAIは11月18日、ChatGPTの音声入力(ディクテーション)を改良し、話している途中から文字が表示される「ライブディクテーション」に対応させた。これまで10分で止まっていた録音の上限もなくし、長い文章やプロンプトを口述で入力できるようにした。",
   points: ["話しているそばから文字に変換され、入力内容を確かめながら話せるようになった", "従来は録音が10分で止まっていたが、この上限を撤廃した", "iOS・Android・Web・デスクトップアプリで、すべてのプランに順次提供。アカウントによっては反映まで時間がかかる"],
   url: "https://www.ithinkdiff.com/?p=356942",
-  image: null,
+  image: "https://cdn.ithinkdiff.com/wp-content/uploads/2026/11/Live-Dictation-in-ChatGPT.jpeg",
   content: `## 概要
 OpenAIは11月18日、ChatGPTの音声入力(ディクテーション)機能を改良したとリリースノートで公表した。話している途中から文字が画面に表示される「ライブディクテーション」に対応し、これまでの10分の録音上限もなくした。iOS、Android、Web、デスクトップの各アプリで、すべてのプランに順次提供する。
 
@@ -232,7 +232,7 @@ ChatGPTのディクテーションは、マイクに向かって話した内容�
   summary: "企業・政府向けAIを手がけるカナダのCohereは11月13日、日本法人を設立する計画と、日本の規制・言語・産業の要件に合わせた「ソブリンAI」への投資拡大を発表した。日本国内の計算資源を使い、利用者の入力とモデルの応答を国外に出さずに推論できる基盤「Model Vault」を日本で提供する。",
   points: ["日本法人を設立し、カントリーマネージャーの趙顕周氏のもとで国内のチーム体制を拡充する", "「Model Vault」は国内の計算クラスターで推論を行い、プロンプトと応答を日本国内にとどめる。機密データを扱う企業や官公庁を想定", "富士通と共同開発した日本市場向けLLM「Takane」はデジタル庁の政府AI環境「GENAI」の評価対象にも選ばれている"],
   url: "https://prtimes.jp/main/html/rd/p/000000001.000194140.html",
-  image: null,
+  image: "https://prcdn.freetls.fastly.net/release_image/194140/1/194140-1-c769b2bacbfebb0cae29550b3e565c0b-3900x651.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
   content: `## 概要
 企業や政府機関向けのAIを手がけるカナダのCohere(本社トロント)は11月13日、日本法人を設立する計画を発表した。日本の規制や言語、産業の要件に対応した「ソブリンAI」(データや運用を自国の管理下に置くAI)への投資を広げ、日本市場での事業拡大を加速させる。あわせて、利用者の入力もモデルの応答も日本国内で処理する推論基盤「Model Vault」を日本で提供する方針も示した。
 
