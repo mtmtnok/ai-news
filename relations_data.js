@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-11-14",
+  updated: "2026-11-21",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -170,6 +170,10 @@ window.RELATIONS = {
     { id: "agilerobots",  label: "Agile Robots", sector: "app" },
     { id: "thinkingmachines", label: "Thinking Machines Lab", sector: "lab" },
     { id: "accel",        label: "Accel",        sector: "invest" },
+    { id: "noeri",        label: "Noeri",        sector: "lab" },
+    { id: "modine",       label: "Modine",       sector: "app" },
+    { id: "pragmatik",    label: "Pragmatik Labs", sector: "lab" },
+    { id: "geely",        label: "Geely",        sector: "invest" },
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -802,6 +806,21 @@ window.RELATIONS = {
       source: "https://techfundingnews.com/accel-thinking-machines-lab-5b-round-40b-valuation/" },
     { from: "oracle", to: "tencent", type: "partner", threads: ["compute", "semi", "china"], flow: "計算資源", status: "ended",
       label: "東南アジアのDCで先端AIチップ最大10万枚を5年貸す約70億ドルの契約を破棄とFT報道。米当局が輸出規制の抜け道と懸念", date: "2026-11",
-      source: "https://www.digitimes.com/news/a20261105VL209/ai-chip-data-center-usa-beijing-nvidia-tencent.html" }
+      source: "https://www.digitimes.com/news/a20261105VL209/ai-chip-data-center-usa-beijing-nvidia-tencent.html" },
+    { from: "rapidus", to: "pfn", type: "partner", threads: ["japan", "semi"], flow: "販売", status: "reported",
+      label: "PFNが自社AI半導体をRapidusの千歳工場で2027年度にも試作と北海道新聞報道。Rapidusは量産の1年延期を検討中", date: "2026-11",
+      source: "https://www.hokkaido-np.co.jp/article/1411350/" },
+    { from: "nvidia", to: "noeri", type: "invest", threads: ["talent", "labs"], amount: null,
+      label: "スタンフォード大のイェジン・チョイ教授らが創業し企業が自前で「自己改善するAI」を持てるようにする新ラボの1.1億ドル調達(Menlo Ventures主導)に参加", date: "2026-11",
+      source: "https://www.hpcwire.com/aiwire/2026/11/16/noeri-launches-with-110m-to-empower-companies-to-build-and-own-their-ai/" },
+    { from: "samsung", to: "modine", type: "ma", threads: ["compute"], status: "negotiating",
+      label: "データセンター冷却装置の米Modineの買収を協議とBloomberg報道。実現すれば同社最大の買収", date: "2026-11",
+      source: "https://thenextweb.com/news/samsung-modine-talks-data-centre-cooling" },
+    { from: "alibaba", to: "pragmatik", type: "talent", threads: ["talent", "china"], person: "林俊旸(Lin Junyang)",
+      label: "Qwen開発を率いた元責任者が26年3月にAlibabaを退社し、上海でデジタルと物理の両世界で動くエージェントを研究するPragmatik Labsを創業", date: "2026-11",
+      source: "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/" },
+    { from: "geely", to: "pragmatik", type: "invest", threads: ["china", "labs"], amount: null, status: "reported",
+      label: "評価額50億ドル(8月の20億ドルから2.5倍)の数千万ドル規模のラウンドに親会社が参加とBloomberg報道。HyT Capital・CDHも出資", date: "2026-11",
+      source: "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/" }
   ]
 };
