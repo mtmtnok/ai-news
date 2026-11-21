@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "NVIDIAの株価は11月20日、前日比14.01%安の125.53ドルで取引を終え、52週の安値を更新した。ロイターが同日、米証券取引委員会(SEC)の執行部門がNVIDIAの会計処理の問題を調べていると関係者2人の話として報じたことが下げを広げた。株価は7週連続の下落となり、2008年の金融危機以来の長い連続安になった。",
   points: ["NVIDIA株は14.01%安の125.53ドルで終え52週安値、7週連続の下落は2008年の金融危機以来", "ロイターによるとSECの執行部門が会計処理の問題を調査、SECはコメントを控え、NVIDIAもすぐには回答せず", "WSJは、対中迂回の疑いがもたれるシンガポールの顧客Megaspeedに関する開示が投資家を誤解させたかどうかも調査対象と報道"],
   url: "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 NVIDIAの株価は11月20日(米国時間)、前日比14.01%安の125.53ドルで取引を終え、52週の安値を更新した。ロイターが同日、米証券取引委員会(SEC)の執行部門がNVIDIAの会計処理の問題を調べていると報じたことが売りに拍車をかけた。株価は7週連続の下落となり、米CNBCによると2008年の金融危機以来もっとも長い連続安になった。
 
@@ -58,7 +58,7 @@ AI半導体の需要そのものは決算の数字で示されているが、市
   summary: "11月20日の米株式市場でAI関連株が売られ、ナスダック総合指数は約5.3%下げて2026年の上昇分をすべて失った。前日にナスダックへ上場したAnthropicは、初めての丸1日の取引で8.5%安となり、公開価格83ドルに近い水準まで下げる場面もあった。S&P500とダウ平均も高値から10%超下げ、調整局面に入った。",
   points: ["ナスダック総合指数は約5.1〜5.3%安で2026年の上昇分を帳消し、S&P500は3.70%安", "Anthropic株は8.5%安、日中は13.5%安の84ドル台と公開価格83ドルに迫る場面も", "AI投資の持続性への疑問、NVIDIAのCEO辞任と会計調査の報道、対中輸出規制への超党派の追及が重なった"],
   url: "https://www.axios.com/2026/11/20/anthropic-stock-fall-ipo-ai",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 11月20日(米国時間)の米株式市場で、AI関連株を中心に大きな売りが出た。ハイテク株の多いナスダック総合指数は約5.3%下げ、2026年に入ってからの上昇分をすべて失った。前日にナスダックへ上場したAnthropicは、初めての丸1日の取引で8.5%安となった。S&P500とダウ平均も直近の高値から10%超下げ、「調整局面」と呼ばれる水準に入った。
 
@@ -93,7 +93,7 @@ Anthropicは11月19日、公開価格1株83ドルで上場し、初値は111.50�
   summary: "NAND型フラッシュメモリー大手のキオクシアホールディングスの株価が11月20日、前日比13%安の7186円まで下げ、約7カ月半ぶりの安値を付けたと日本経済新聞が報じた。予想PER(株価収益率)は一時2.0倍まで下がった。AI向けの需要で利益が急増しているものの、その持続性に対する警戒が強まっている。",
   points: ["11月20日に一時13%安の7186円と7カ月半ぶりの安値、終値は11%台の下げとの報道も", "予想PERは一時2.0倍と1倍台が目前、利益の急増に株価が追いつかない状態", "NVIDIAのCEO辞任、米国の輸出規制強化、Anthropic上場後の失速などAI関連の不安材料が重なった"],
   url: "https://www.nikkei.com/article/DGXZQOUB184O30Y6A111C2000000/",
-  image: null,
+  image: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3901980018112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=e1c84d8e62070c008c5657b2f0035bbd",
   content: `## 概要
 NAND型フラッシュメモリー大手のキオクシアホールディングスの株価が11月20日の東京株式市場で大きく下げた。日本経済新聞によると、一時前日比13%安の7186円まで下げ、約7カ月半ぶりの安値を付けた。予想PER(株価収益率)は一時2.0倍まで下がり、1倍台が目前となった。AIの成長が利益を押し上げる一方で、その需要が続くかどうかへの警戒が株価を押し下げている。
 
@@ -128,7 +128,7 @@ NAND型フラッシュメモリー大手のキオクシアホールディング�
   summary: "AMDは、スタンフォード大教授のフェイフェイ・リー氏が創業した空間知能のスタートアップWorld Labsの買収を完了したと発表した。約82億ドルの全額株式による取引で、11月13日に完了し、旧World Labs株主に約1498万株を発行した。リー氏はAMDの上級副社長兼チーフサイエンティストとして、リサ・スーCEOの直属になる。",
   points: ["約82億ドルの全額株式取引、11月13日に完了し旧株主に14,978,322株を発行", "フェイフェイ・リー氏は上級副社長兼チーフサイエンティストとしてリサ・スーCEOに直属", "World Labsのチームは基盤モデルの研究を続けつつ、AMDの技術者と将来のAIインフラで協力"],
   url: "https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/",
-  image: null,
+  image: "https://newsroom.amd.com/images/2026/09/063180c6-5b1a-4200-b238-99d7083699ae.jpg",
   content: `## 概要
 AMDは、3次元の仮想世界を生成する「空間知能(Spatial Intelligence)」のスタートアップWorld Labsの買収を完了したと発表した。World Labsは「AIのゴッドマザー」とも呼ばれるスタンフォード大教授のフェイフェイ・リー氏が創業した会社で、取引額は約82億ドル、すべてAMDの株式で支払う。リー氏はAMDの上級副社長兼チーフサイエンティストに就任し、リサ・スーCEOの直属になる。
 
@@ -163,7 +163,7 @@ AIの著名研究者が率いるラボを、半導体メーカーが丸ごと取
   summary: "Mira Murati氏のThinking Machines Labは11月20日、オープンウェイトの小型モデル「Inkling 2 Mini」を公開した。中間の層を1トークンごとに3回繰り返して内部でより多く考える「ループ型」のMoEで、総パラメータは約260億。画像と文章を入力でき、100万トークンの文脈を扱え、Apache 2.0ライセンスで重みを公開した。",
   points: ["総パラメータ約260億のループ型MoE、中間層を1トークンあたり3回通して内部で推論", "画像と文章の入力に対応し100万トークンの文脈、Apache 2.0で重みを公開し重みは約20GB", "同社発表ではSWE-Bench Pro v2(Hard)で77.9%、Terminal Bench v2.1で71.6%、Artificial Analysisの総合指標は20"],
   url: "https://huggingface.co/blog/inkling2mini",
-  image: null,
+  image: "https://huggingface.co/blog/assets/inkling2mini/thumbnail.png",
   content: `## 概要
 元OpenAI CTOのMira Murati氏が率いるThinking Machines Labは11月20日、オープンウェイトの小型モデル「Inkling 2 Mini」を公開した。ノートPCでも動かせる大きさで、中間の層を1トークンごとに3回繰り返して通す「ループ型トランスフォーマー」という珍しい構造をとる。重みはApache 2.0ライセンスでHugging Faceに公開した。
 
@@ -197,7 +197,7 @@ Inkling 2 Miniは第2世代「Inkling 2」で最小のモデルで、11月上旬
   summary: "Googleは11月19日、Mac向けGeminiアプリで、AIがデスクトップアプリやWebサイトを代わりに操作する「コンピューター操作」機能の提供を始めた。作業は別の裏のウィンドウで行われ、ユーザーは自分の画面とカーソルを使い続けられる。まずは米国の英語利用者で、Google AI Plus・Pro・Ultraの会員が対象。",
   points: ["Geminiが分離された裏のウィンドウでアプリを操作し、チャット内のプレビューで作業の様子を確認できる", "操作を許すアプリを選べ、いつでも一時停止でき、重要な操作の前に確認を求める", "対象は米国英語のAI Plus(月4.99ドル)・Pro・Ultra会員、Apple Silicon搭載でmacOS Sequoia 15以降のMac"],
   url: "https://www.androidauthority.com/gemini-mac-computer-use-3737396/",
-  image: null,
+  image: "https://www.androidauthority.com/wp-content/uploads/2026/03/Apple-MacBook-Neo-next-to-14-inch-Apple-MacBook-Pro-M3-Pro.jpg",
   content: `## 概要
 Googleは11月19日、Mac向けのGeminiアプリに「コンピューター操作(Computer Use)」機能を追加し、提供を始めた。ユーザーが頼みたい作業を伝えると、Geminiがローカルのファイル、デスクトップアプリ、Webサイトをまたいで代わりに操作する。作業は分離された裏のウィンドウで進むため、ユーザーはその間も自分の画面とカーソルを使い続けられる。
 
