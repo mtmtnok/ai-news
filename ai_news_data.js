@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "英フィナンシャル・タイムズ(FT)は11月21日、Amazonが米サンフランシスコのAIスタートアップDecartを約75億ドルで買収する方向で最終調整に入ったと報じた。早ければ来週にも発表される可能性があるが、交渉が破談になる可能性も残る。Decartはこれまでに、Anthropicとの買収交渉が流れ、NVIDIAも買収を見送っていた。",
   points: ["FTによると買収額は約75億ドル、5月の評価額約40億ドルのほぼ2倍。AmazonもDecartもコメントしていない", "創業者3人は5年間Amazonに残り、支払いの大部分はそれまで繰り延べる条件とされる", "DecartのソフトはAIモデルを少ない計算資源で速く動かし、Amazonの自社チップ「Trainium3」にも対応"],
   url: "https://www.tipranks.com/news/amazon-amzn-eyes-7-5-billion-ai-startup-deal-as-nvidia-rivalry-heats-up",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 英フィナンシャル・タイムズ(FT)は11月21日(土)、Amazonが米サンフランシスコを拠点とするAIスタートアップDecartの買収に向けて最終段階の交渉に入っていると報じた。企業価値は約75億ドルとされ、早ければ来週にも発表される可能性がある。ただし交渉はまだ破談になる可能性があり、AmazonとDecartはいずれもコメントしていない。
 
@@ -59,7 +59,7 @@ Anthropicが見送った案件をAmazonが拾う形になれば、Anthropicの�
   summary: "米下院の国土安全保障委員会と中国特別委員会は11月20日、米企業による中国製AIモデルの利用に関する調査報告書を公表した。AIコーディングツールのCursor(SpaceX傘下)は、地政学的なリスクを理由に中国製オープンウェイトモデルの段階的な廃止を検討すると委員会に伝えた。報告書は、米国には価格と性能で対抗できるオープンウェイトモデルがないと結論づけた。",
   points: ["Cursorの「Composer 2」はMoonshot AIの「Kimi K2.5」を土台に開発。廃止の時期や代わりのモデルは示されていない", "報告書は中国製モデルが低コスト・改変のしやすさ・最先端に近い性能で普及したと分析", "連邦政府のシステムと契約で中国製モデルを禁止すること、米国版オープンウェイトの国家的な取り組みなどを提言"],
   url: "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108295661-1776885403878-gettyimages-2271955278-boivin-notitle260422_npyod.jpeg?v=1776885479&w=1920&h=1080",
   content: `## 概要
 米下院の国土安全保障委員会と中国特別委員会は11月20日、米国企業による中国製AIモデルの利用についての調査報告書を公表した。AIコーディングツール「Cursor」を手がけるAnysphere(8月にSpaceXが買収)は、地政学的なリスクを理由に、中国製のオープンウェイトモデルを段階的に使わなくする方向を検討すると委員会に伝えたという。
 
@@ -97,7 +97,7 @@ Cursorが実際に乗り換えるなら、性能とコストの両方で同等�
   summary: "Anthropicのダリオ・アモデイCEOは米CNBCで、将来は投資適格の格付けを得て、借入による資金調達も使いたいとの考えを示した。上場書類によると、同社は2045年までに約9009億ドルの長期の計算資源の契約を抱えるが、アモデイ氏は「現金と売上を考えればそれほど大きくない」と述べた。",
   points: ["「いずれは投資適格になりたい」と発言、借入は将来使いうる手段とした。時期は示さず", "上場書類では長期の計算資源の契約が約9009億ドル、うち約4516億ドルが2030年より前", "現在の格付けはKBRAのBB+(投機的等級)。計算資源を「会社が抱える最も深い経営上のジレンマ」と表現"],
   url: "https://stocktwits.com/news-articles/markets/equity/dario-amodei-says-anthropic-hopes-to-achieve-investment-grade-rating-use-debt-financing-in-future/cNbihacR901",
-  image: null,
+  image: "https://news.stocktwits-cdn.com/large_Getty_Images_2235057703_bae034bb09.jpg",
   content: `## 概要
 Anthropicのダリオ・アモデイCEOは、ナスダック上場に合わせた米CNBCのインタビューで、「将来のどこかの時点で、投資適格になりたい」と述べ、借入による資金調達もいずれ使いうる手段だとの考えを示した。同社は巨額の計算資源の契約を抱えており、株式だけに頼らない資金の手当てが課題になっている。
 
@@ -132,7 +132,7 @@ Anthropicは11月20日に1株83ドルで上場を完了したが、同日の米�
   summary: "韓国紙ソウル経済新聞は11月21日、韓国総合株価指数(KOSPI)が6月の高値から45%、10月初めから30%下落したと報じた。サムスン電子とSK hynixの株価は10月初めからそれぞれ32.82%、39.33%下がった。SK hynixはDRAMとHBMが2029年まで実質的に売り切れと説明しているが、株式市場ではAI需要の先行きへの不安が強まっている。",
   points: ["KOSPIは6月の高値から45%、10月初めから30%の下落", "10月初めからの下落率はサムスン電子32.82%、SK hynix39.33%", "SK hynixはDRAM・HBMが2029年まで実質売り切れ、HBM4の歩留まりは70%超との報道もあり業績と株価が乖離"],
   url: "https://en.sedaily.com/finance/2026/11/21/samsung-sk-hynix-dive-over-30-percent-as-kospi-rally-ends",
-  image: null,
+  image: "https://wimg.sedaily.com/news/cms/2026/11/21/news-p.v1.20260805.900fd9d01b9e4e3c8a388e8b63839ce0_P1.jpg",
   content: `## 概要
 韓国のソウル経済新聞は11月21日、韓国の株式市場を代表する指数KOSPIが6月の高値から45%、10月初めから30%下落したと報じた。指数を引っ張ってきた半導体大手のサムスン電子とSK hynixの株価は、10月初めからそれぞれ32.82%と39.33%下がり、AIメモリーの好況を背景にした上昇相場は終わったとの見方が出ている。
 
@@ -165,7 +165,7 @@ KOSPIはAI向けメモリーの需要拡大を追い風に上昇してきたが�
   summary: "ジュネーブで開かれた特定通常兵器使用禁止制限条約(CCW)の第7回再検討会議は11月21日、AIなどで人の判断なしに攻撃する自律型致死兵器システム(LAWS)について、2027〜2028年の2年間で国際的な文書を詰めることで合意して閉幕した。約100カ国が法的拘束力のある規則を求めたが、米国やロシアなどの反対で条約交渉の開始は見送られた。",
   points: ["条約に加わる128カ国が、政府専門家会合で2027〜28年に国際的な文書を詰める2年間の任務に合意", "約100カ国が法的拘束力を求めたが、全会一致の原則のもと米国・ロシアなどが反対", "NGO連合「ストップ・キラーロボット」は「骨抜き」と批判、議長国スイスは「具体的な成果」と評価"],
   url: "https://www.jurist.org/news/2026/11/un-arms-conference-falls-short-of-treaty-mandate-on-autonomous-weapons-due-to-us-and-russia-opposition/",
-  image: null,
+  image: "https://www.jurist.org/news/wp-content/uploads/sites/4/2026/11/United_Nations_Office_at_Geneva_Flags-scaled.jpg",
   content: `## 概要
 スイス・ジュネーブで開かれていた特定通常兵器使用禁止制限条約(CCW)の第7回再検討会議が11月21日に閉幕した。AIなどを使い、人間の判断を介さずに標的を選んで攻撃する自律型致死兵器システム(LAWS、いわゆる「キラーロボット」)について、2027〜2028年の2年間で国際的な文書(インストゥルメント)を詰める任務を政府専門家会合に与えることで合意した。ただし、法的拘束力のある条約の交渉開始は見送られた。
 
@@ -197,7 +197,7 @@ NGO連合「ストップ・キラーロボット」はこの任務を「骨抜�
   summary: "AIコーディングエージェント「Devin」を開発する米Cognitionが、評価額700億〜800億ドルでの新たな資金調達を検討していると米Business Insiderが報じた。同社はその水準での出資の申し出を受けており、年内の調達を真剣に検討しているという。9月には評価額480億ドルで20億ドル超を調達したばかりだ。",
   points: ["評価額700億〜800億ドルの申し出を受け、年内の調達を検討。交渉は初期段階で、調達額や主導する投資家は不明", "9月に評価額480億ドルで20億ドル超を調達。5月の260億ドルからさらに上昇", "SpaceXがAIコーディングのCursorを600億ドルで買収したことが比較対象に"],
   url: "https://thenextweb.com/news/cognition-funding-talks-80bn-valuation-business-insider",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/cognition-logo-code-illustration.jpg",
   content: `## 概要
 AIコーディングエージェント「Devin」を開発する米Cognitionが、評価額700億〜800億ドルでの新たな資金調達を検討していると、米Business Insiderが報じた。同社はすでにその水準での出資の申し出を受けており、年内の調達を真剣に検討しているという。実現すれば今年3回目の資金調達になる。
 
@@ -232,7 +232,7 @@ AIコーディングは、企業が最もお金を払っているAIの用途の�
   summary: "米シカゴで11月15〜20日に開かれたスーパーコンピューターの国際会議「SC26」で、NVIDIAは科学技術計算向けのGPU「Rubin HPC」を発表し、AMDは「Instinct MI430X」を前面に出した。AMDは自社の技術が世界のスパコン上位500(TOP500)のうち202システムに使われ、40%超を占めると主張したが、GPUの数ではNVIDIA搭載が252、AMD搭載が34との独自集計もある。",
   points: ["NVIDIAはVera Rubin世代の科学計算向けGPU「Rubin HPC」を発表、AMDのMI430Xに対抗", "AMDは「TOP500の202システムに自社技術」と主張(CPUを含む自社集計)", "GPU加速の数では NVIDIA 252対AMD 34との分析。NVIDIAはCUDA20周年、量子プロセッサーにも対応したジョブ管理も発表"],
   url: "https://www.networkworld.com/article/4250303/nvidia-expands-ai-infrastructure-push-into-high-performance-computing.html",
-  image: null,
+  image: "https://www.networkworld.com/wp-content/uploads/2026/01/4112913-0-06084700-1767647301-shutterstock_2421353003.jpg?quality=50&strip=all&w=1024",
   content: `## 概要
 米シカゴで11月15〜20日に開かれたスーパーコンピューターの国際会議「SC26」で、NVIDIAとAMDがそれぞれ科学技術計算(HPC)向けの新しい製品や実績を打ち出した。NVIDIAは新GPU「Rubin HPC」を発表し、AMDは「Instinct MI430X」と、スパコンでの存在感の大きさをアピールした。
 
