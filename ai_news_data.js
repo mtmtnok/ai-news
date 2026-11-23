@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "NVIDIAの取締役会は11月23日、11月12日に辞任したジェンスン・フアン氏を社長兼CEO・取締役に即日復帰させると発表した。米政府側の国家安全保障上の審査を経たうえでの全会一致の決定で、同社は「復帰に国家安全保障上のリスクはない」としている。あわせて独立取締役だけで構成する「国家安全保障・輸出管理委員会」を新設した。",
   points: ["フアン氏は社長・CEO・取締役に即日復帰。辞任から2週間足らずでの全会一致の決定", "暫定CEOを務めたコレット・クレス氏はCFOに専念。フアン氏をめぐる社内調査は継続中", "独立取締役のみの「国家安全保障・輸出管理委員会」を新設し、貿易コンプライアンスと安全保障リスクを監督"],
   url: "https://www.streetinsider.com/Management+Changes/Nvidia+reinstates+Jensen+Huang+as+CEO+after+national+security+review/27385139.html",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 NVIDIAの取締役会は11月23日、ジェンスン・フアン氏を社長兼CEO、取締役に即日復帰させると発表した。フアン氏は外国の諜報工作の標的になった疑いをめぐる調査を受けて11月12日に辞任しており、2週間足らずでの異例の復帰となる。同社は米政府側による国家安全保障上の審査を経たとし、「復帰に国家安全保障上のリスクはないと確信している」と説明した。
 
@@ -59,7 +59,7 @@ NVIDIAの取締役会は11月23日、ジェンスン・フアン氏を社長兼C
   summary: "Amazonは11月23日、AIスタートアップDecartの中核技術「Decart Optimization Stack」と、共同創業者3人を含む研究者・技術者チームを取得することで合意したと正式に発表した。Decartの動画生成などのAIモデルは取得対象に含まれない。金額は非公表だが、複数の報道は約75億ドルとしている。",
   points: ["取得するのはAIモデルを異なるチップで効率よく動かす「Decart Optimization Stack」と共同創業者3人を含むチーム。AIモデルは対象外", "チップ開発部門Annapurnaを通じて取得し、自社チップTrainium・Inferentiaの性能向上に使う", "金額は非公表、報道では約75億ドル。規制当局の承認が条件"],
   url: "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html",
-  image: null,
+  image: "https://image.cnbcfm.com/api/v1/image/108217403-1769610896097-108217403-1761591014974-gettyimages-2233522650-298621final.jpg?v=1773149071&w=1920&h=1080",
   content: `## 概要
 Amazonは11月23日(月)、AIスタートアップDecartの中核技術と人材を取得することで合意したと公式ブログで発表した。対象はAIモデルを少ない計算資源で速く動かすソフトウェア群「Decart Optimization Stack」と、共同創業者3人を含む研究者・技術者のチームで、Decartが開発してきたAIモデル自体は含まれない。金額は公表していないが、Bloombergなど複数の報道は約75億ドルとしている。
 
@@ -95,7 +95,7 @@ NVIDIAの強みの一つは開発環境CUDAによる囲い込みにある。Amaz
   summary: "英フィナンシャル・タイムズ(FT)によると、Dell、HPE、Lenovo、Supermicroの大手サーバー各社が、顧客と契約を結んだ後にAIサーバーの価格を引き上げている。値上げ幅は製品により25〜45%とされ、背景にはDRAMなどメモリー価格の急騰がある。英トレーディング会社XTX MarketsはDellを相手に訴訟を起こした。",
   points: ["契約後の値上げ幅は製品により25〜45%。メモリーを多く使うCPUサーバーは3倍超になった例も", "JPMorganはDRAM価格が2024年初めから2026年末までに累計400%超上がると予測。HPEのCEOは「メモリーがサーバー部材費の半分超」と説明", "XTX MarketsはDellと5億4900万ドルの固定価格で合意したのに、後から6200万〜7000万ドルの追加を求められたとして提訴"],
   url: "https://www.digitimes.com/news/a20261123VL206/ai-server-dell-price-hpe-lenovo.html",
-  image: null,
+  image: "https://img.digitimes.com/newsshow/20261123vl206_files/2_b.jpg",
   content: `## 概要
 英フィナンシャル・タイムズ(FT)は、Dell、HPE、Lenovo、Supermicroの大手サーバーメーカーが、顧客と契約を結んだ後になってAIサーバーの価格引き上げを求めていると報じた。値上げ幅は最大45%で、メモリー価格の急騰が理由とされる。買い手側は納入を待つ立場にあり、供給側の言い値をのまざるを得ない状況が生まれている。
 
@@ -131,7 +131,7 @@ AIデータセンター投資では、GPUの次にメモリーが大きなコス
   summary: "台湾の工商時報によると、TSMCはAI半導体の顧客ごとに、財務内容や過去の損失率、競争力、見通しをもとに与信枠を設けている。枠を超える注文は現金での支払いが必要で、一部の顧客は生産能力を押さえるために前払いを求められている。TSMCは報道を確認していない。",
   points: ["顧客ごとの財務内容・過去の損失率・競争力・見通しから与信枠を設定と報道", "枠を超える注文は現金払い、一部は前払いで生産能力を確保。主な対象はカスタムAIチップ(ASIC)の設計会社", "AI業界の「循環取引」への懸念が背景との見方。TSMCは未確認"],
   url: "https://247wallst.com/investing/2026/11/18/tsmc-is-reportedly-setting-credit-limits-for-ai-customers/",
-  image: null,
+  image: "https://247wallst.com/wp-content/uploads/2026/11/tsmc-is-reportedly-setting-credit-limits-for-ai-cu-featured-1794984571170.webp",
   content: `## 概要
 台湾の工商時報は業界関係者の話として、TSMCがAI半導体の顧客ごとに与信枠(取引できる信用の上限)を設けていると報じた。上限を超える注文は現金で支払う必要があり、一部の顧客は生産能力を確保するために前払いを求められているという。TSMCはこの報道を確認していない。
 
@@ -166,7 +166,7 @@ AI企業同士が出資と発注を回し合う「循環取引」への懸念が
   summary: "OpenAIのチーフサイエンティスト、ヤクブ・パホツキ氏は11月22日、最先端のAI開発企業が共通の指標で開発の上限を決め、安全性の研究が追いつくまでそれを超えないという枠組みを提案する論考を公表した。指標には言語モデルの予測精度を表す「パープレキシティ」を使うとし、第一歩としてGPT-3.5以降の自社の事前学習のデータを公開した。",
   points: ["共通の指標で最初の上限を決め、AIの振る舞いを理解・監視できる具体的な段階に達するまで超えない、という仕組みを提案", "指標は「パープレキシティ」(交差エントロピー損失)。OpenAIはGPT-3.5以降の自社の事前学習のパープレキシティを公開", "アルトマンCEOは「ここしばらくでOpenAIが出した最も重要なもの」と評価。各社で学習データが違うため比較できないとの批判も"],
   url: "https://www.unite.ai/openai-proposes-shared-ai-development-limits-tied-to-safety-milestones/",
-  image: null,
+  image: "https://www.unite.ai/wp-content/uploads/2026/11/openai-proposes-shared-ai-development-limits-tied-to-safety-milestones.jpg",
   content: `## 概要
 OpenAIのチーフサイエンティスト、ヤクブ・パホツキ氏は11月22日、「Perplexity and Intelligence」と題した論考を公表し、最先端のAI開発企業が共通の指標にもとづく開発の上限を設け、安全性の研究が追いつくまでそれを超えないようにする枠組みを提案した。OpenAIは第一歩として、自社の事前学習のデータを公開した。
 
@@ -202,7 +202,7 @@ OpenAIが懸念するのは、早ければ2027年にも事前学習が大きく�
   summary: "米ウォール・ストリート・ジャーナル(WSJ)は、トランプ政権がNVIDIA、Amazon、Microsoft、OpenAI、Anthropicなど20社を超える米国のAI企業を「ナショナルチャンピオン」に指定する計画だと報じた。米国のチップ、AIモデル、技術をまとめて海外の政府や企業に売り込み、Huaweiなど中国勢に対抗する狙い。ラトニック商務長官が発表する見通し。",
   points: ["候補にはNVIDIA、Amazon、Microsoft、OpenAI、Anthropicなど20社超が含まれると報道", "米国製のチップ・モデル・技術をパッケージにして海外の政府・企業に売り込み、Huaweiなど中国勢に対抗", "指定企業は輸出許可の審査で優先される可能性。2025年7月の大統領令による「米国AI輸出プログラム」の延長線上"],
   url: "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump",
-  image: null,
+  image: "https://media.thenextweb.com/2026/10/jensen-huang-donald-trump-pointing-medal-us-flags.jpg",
   content: `## 概要
 米ウォール・ストリート・ジャーナル(WSJ)は関係者の話として、トランプ政権が20社を超える米国のAI企業を「ナショナルチャンピオン」に指定する計画だと報じた。候補にはNVIDIA、Amazon、Microsoft、OpenAI、Anthropicが含まれる。米国の企業が海外で中国勢との受注競争に勝てるよう、政府が後押しする狙いがある。正式な一覧はまだ発表されていない。
 
@@ -237,7 +237,7 @@ NVIDIAが候補に含まれることについては、同社のフアン氏が�
   summary: "Visaの暗号資産部門Visa Crypto Labsは11月23日、AIエージェントの身元を確認し、有料のタスクをこなしてステーブルコイン「OUSD」で報酬を得られる「エージェントウォレット」の試験版を米国で公開した。対象は承認を受けた、条件を満たすVisaカードの米国の利用者。",
   points: ["Visa Crypto Labsが試験版を公開。対象は条件を満たすVisaカードを持つ承認済みの米国利用者", "利用者は自分のAIエージェントを本人確認し、有料タスクの報酬をOUSDで受け取れる", "これまでEC・企業間決済向けだった「Trusted Agent Protocol」と「Agent Directory」の用途を広げる"],
   url: "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903",
-  image: null,
+  image: "https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 Visaの暗号資産部門Visa Crypto Labsは11月23日、AIエージェント向けの「エージェントウォレット」の試験版を米国で公開した。利用者は自分のAIエージェントの身元を確認したうえで、エージェントに有料のタスクをこなさせ、報酬をステーブルコイン「OUSD」で受け取ることができる。
 
