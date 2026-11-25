@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "11月25日の東京市場でAI・半導体株が再び急落した。アドバンテストは一時14.3%安、東京エレクトロンは13.1%安、ソフトバンクグループも一時16%近く下げ、日経平均は2.78%安の5万7011円62銭で取引を終えた。NVIDIAのジェンスン・フアン氏のCEO復帰を受けた反発は1日で失速した。",
   points: ["アドバンテスト一時14.3%安、東京エレクトロン13.1%安、ソフトバンクG一時約16%安、キオクシアも約13%安", "前日の米国市場でナスダックが1.48%安、NVIDIAが5.86%安となった流れを引き継いだ", "TOPIXの下げは約1%にとどまり、売りはAI関連銘柄に集中。医薬品などディフェンシブ株に資金が移った"],
   url: "https://www.brecorder.com/news/40450679/japans-nikkei-falls-more-than-3-dragged-down-by-plunges-for-ai-stocks",
-  image: null,
+  image: "https://i.brecorder.com/large/2026/05/19104147b3e6ce8.webp",
   content: `## 概要
 11月25日の東京株式市場で、AI・半導体関連株が再び大きく売られた。アドバンテストや東京エレクトロン、ソフトバンクグループが2ケタの下落となり、日経平均株価は前日比2.78%安の5万7011円62銭で取引を終えた。NVIDIAのジェンスン・フアン氏のCEO復帰を受けて週明けに広がった半導体株の反発は、わずか1日で失速した形だ。
 
@@ -59,7 +59,7 @@ NVIDIAの経営体制が元に戻っても、SECの調査や輸出規制、AI投
   summary: "AMDは11月23日、最大約3億3693万株の再販を可能にする登録書類を米SECに提出した。大半はOpenAIとMetaにそれぞれ付与した1億6000万株分の新株予約権で、World Labs買収の対価として発行した約1498万株も含まれる。既存株式の約2割にあたる規模で希薄化が警戒され、24日の株価は8.86%安の413.27ドルで引けた。",
   points: ["再販登録は最大3億3693万4324株で既存株式の約20%。AMD自身は売らず代金も受け取らない", "OpenAIとMetaの新株予約権が各1億6000万株(行使価格0.01ドル)。現時点ではまだ行使できない", "World Labs買収(約82億ドル、全額株式)の株式約1498万株も含まれ、売り手にはa16zやNVIDIAなども名を連ねる"],
   url: "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-amd-plunges-9-as-337-million-share-resale-filing-adds-to-ai-sell-off/",
-  image: null,
+  image: "https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Ff0ed8ff776e62075a799a4776f3be439149c9bb9-2000x1334.jpg&w=1200&op=resize",
   content: `## 概要
 AMDは11月23日、最大で約3億3700万株の再販を可能にする登録書類(S-3ASR)を米証券取引委員会(SEC)に提出した。大半は計算資源の大型契約に合わせてOpenAIとMetaに付与した新株予約権の分で、11月に完了したWorld Labs買収の対価株式も含まれる。将来の大量売却と希薄化への警戒から、24日の株価は8.86%安の413.27ドルで取引を終えた。
 
@@ -93,7 +93,7 @@ AI相場が逆風のなかで、こうした「顧客への株式付与」や「
   summary: "米データセンター開発のApplied Digitalは、名前を明かさない投資適格の大手クラウド企業(ハイパースケーラー)と、150MW分を18年間貸す契約を結んだ。基本期間の賃料は約54億ドル、更新をすべて行使すれば33年で約127億ドルになる。AI株が売られるなかでも、データセンターの長期契約は積み上がっている。",
   points: ["150MW・18年で基本賃料約54億ドル。更新を含めると33年で約127億ドル", "契約済みの基本賃料総額は410億ドル超、更新込みでは約1000億ドルに", "建設資金はMacquarieとの50億ドルの株式パートナーシップとプロジェクト融資で賄う"],
   url: "https://www.sec.gov/Archives/edgar/data/0001144879/000149315226054002/ex99-1.htm",
-  image: null,
+  image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米国のAIデータセンター開発会社Applied Digitalは、名前を明かさない「投資適格の大手ハイパースケーラー」と、150MWの計算用電力容量を18年間貸し出す契約を結んだと発表した。基本期間の賃料収入は約54億ドルで、更新の権利をすべて使えば33年間で約127億ドルになる。
 
@@ -128,7 +128,7 @@ AI関連株が大きく売られている週にも、大手クラウド企業に
   summary: "OpenAIは11月24日、正方行列の掛け算にかかる計算量の指数ωが、どの数の体系でも「ちょうど9/4(2.25)」だとする論文を公開した。10月に示した上限に、同じ値の下限を加えたと主張する。査読前で、Leanによる機械検証も主張の一部にとどまる。",
   points: ["論文名は「The matrix multiplication exponent is nine fourths」。著者名は個人ではなく「OpenAI」", "10月2日の論文は複素数での上限のみ。今回はすべての体に広げ、割り算を含む回路の下限も示したと主張", "Leanで検証済みなのは割り算を使わない回路の範囲。結果は漸近的で実用的な高速化にはすぐ結びつかない"],
   url: "https://cryptobriefing.com/openai-matrix-multiplication-exponent-9-4/",
-  image: null,
+  image: "https://static.cryptobriefing.com/wp-content/uploads/2026/11/24213550/library-openai-preprint-claims-the-matrix-multiplication-exponen-800x450.jpg",
   content: `## 概要
 OpenAIは11月24日、行列の掛け算に必要な計算量の指数ω(オメガ)が、どの数の体系(体)でも「ちょうど9/4(2.25)」だとする論文を公開した。これまで知られていた最良の上限は約2.371で、答えの値そのものを確定させたと主張する点で、計算理論の長年の未解決問題に決着をつける内容だ。ただし査読は経ておらず、検証はこれからとなる。
 
@@ -164,7 +164,7 @@ OpenAIは10月2日、複素数の範囲で指数の上限が9/4になること�
   summary: "SNSで話題: 中国DeepSeekの次期モデル「V4.1 Pro」が学習を終え、HuaweiのAIチップ「Ascend」だけで学習したとの投稿がXなどで広がっている。12月の公開も取り沙汰されているが、公式発表は未確認で、懐疑的な声も多い。",
   points: ["X上の投稿をきっかけに「V4.1 ProがAscendだけで学習を完了、12月に公開」との噂が拡散", "中国のSNS「脈脈」では、学習中にAscendが頻繁に接続を失うとの未確認の書き込みも", "DeepSeekもHuaweiも公式にはコメントしておらず、公式発表は未確認"],
   url: "https://agihunt.info/en/p/1a210b96f03f47cb4520779a3f6",
-  image: null,
+  image: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 中国のAI企業DeepSeekの次期モデル「V4.1 Pro」が学習を終え、しかもHuaweiのAIチップ「Ascend(昇騰)」だけで学習されたとする噂が、11月25日ごろからX(旧Twitter)や中国のAIコミュニティで話題になっている。12月に公開されるとの見方も出ているが、公式発表は未確認だ。
 
@@ -198,7 +198,7 @@ DeepSeekは9月に「V4.1 Flash」、10月17日にその改良版「V4.1-Flash-1
   summary: "OpenAIは11月23日、地域のAI専門家に月最大8000ドルを支払い、中小企業のAI導入を手伝ってもらう試験事業「OpenWorks」を始めた。シカゴやニューヨーク、オースティンなど米国20都市が対象で、企業側の費用は無料、ChatGPT Businessも3カ月無料で使える。",
   points: ["専門家は毎月4日間、無料で地域の企業に出向いて支援し、地域向けの勉強会も1回開く", "対象は独立系の中小企業。ベンチャーキャピタルやPEが出資する企業、ソフトウェア企業は除外", "8000ドルは月の上限で、支払いの計算方法や期間、受け入れ人数は明らかにしていない"],
   url: "https://techstartups.com/2026/11/23/openai-to-pay-ai-experts-up-to-8000-a-month-to-help-small-businesses-adopt-ai/",
-  image: null,
+  image: "https://techstartups.com/wp-content/uploads/2025/09/OPenAI.jpg",
   content: `## 概要
 OpenAIは11月23日、地域のAI専門家にお金を払って中小企業のAI導入を手伝ってもらう試験事業「OpenWorks」を始めた。専門家には月最大8000ドルを支給し、支援を受ける企業は費用がかからない。米国の20都市で実施する。
 
@@ -234,7 +234,7 @@ OpenAIは11月23日、地域のAI専門家にお金を払って中小企業のAI
   summary: "パナソニック コネクトは11月24日、インターネットにつながずに使える議事録作成AIアプリ「Panasonic PC Edge AI Note Taker」の提供を始めた。対象のレッツノートでは無償で、録音・文字起こし・要約・担当者ごとのタスク抽出までをPCのNPUで処理する。",
   points: ["対象は国内向けレッツノートのSC6/FC6/SC7/FC7/NC7シリーズで、追加ライセンスやクラウド契約は不要", "Windows 11、メモリ16GB以上(32GB以上推奨)、Intel NPUドライバーが必要。日本語と英語に対応", "機密情報を扱う会議や、ネット接続が制限される研究開発・製造・公共分野での利用を想定"],
   url: "https://news.panasonic.com/jp/press/jn261124-2",
-  image: null,
+  image: "https://news.panasonic.com/uploads/tmg_block_page/ogp_image/19180/l-jn261124-2-1.jpg",
   content: `## 概要
 パナソニック コネクトは11月24日、ローカル環境で動く議事録作成AIアプリ「Panasonic PC Edge AI Note Taker」の提供を始めた。会議の録音から文字起こし、要約、決定事項や担当者ごとのアクションアイテムの抽出までを、クラウドを使わずPCの中だけで処理する。対象のレッツノートでは無償で使える。
 
