@@ -23,7 +23,7 @@ window.NEWS_DATA = [
   summary: "米商務省が11月19日に施行した新しい輸出規制を受け、東南アジアのデータセンター向け融資が止まり始めたとBloombergが11月26日に報じた。中国企業に計算資源を提供する事業者への融資は法的リスクが高まったとして、複数の銀行が案件を延期したり参加を見送ったりしている。",
   points: ["米商務省の新規則で、シンガポール・マレーシア・タイ・インドネシア・ブラジル向けの先端AIチップは輸出許可が必要に", "Bain Capital傘下Bridge Data Centresの最大66億ドルの融資で、検討中の5行が撤退を協議。ByteDance向け施設の4.8億ドルの融資は凍結", "アジア太平洋のデータセンター向け融資は2023年のほぼゼロから490億ドル超に膨らんでいた"],
   url: "https://www.investing.com/news/stock-market-news/us-ai-chip-curbs-stall-billions-in-asia-data-center-deals-bloomberg-reports-5052819",
-  image: null,
+  image: "https://images.pexels.com/photos/37052613/pexels-photo-37052613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   content: `## 概要
 米国が11月に強化したAIチップの輸出規制が、チップの出荷だけでなく東南アジアのデータセンターへの融資にも響き始めた。Bloombergは11月26日、中国企業に計算資源を提供するデータセンター事業者への融資で、銀行が延期や撤退に動いていると報じた。規制に違反するリスクを、融資する側も負いたくないためだ。
 
@@ -58,7 +58,7 @@ Bloombergの集計では、アジア太平洋のデータセンター企業向�
   summary: "OpenAIは12月から、ChatGPTとコーディング用AIエージェント「Codex」の利用枠を一つにまとめると明らかにした。対象はPlus・Pro・Businessプランで、使用量はトークン単位で計測され、選んだモデルや作業の重さによって枠の減り方が変わる。",
   points: ["12月からPlus・Pro・BusinessでChatGPTとCodexが同じ利用枠を共有", "使用量はトークンで計測。応答の速い「Instant」の会話は共通枠を消費しない", "枠の大きさは非公表。Free・Go・Enterprise・Eduは今回の変更の対象として発表されていない"],
   url: "https://www.techrepublic.com/article/news-chatgpt-codex-shared-usage-limits/",
-  image: null,
+  image: "https://assets.techrepublic.com/uploads/2026/11/codex-wordpress-fixed-1600.png?f=jpeg",
   content: `## 概要
 OpenAIは12月から、対話AI「ChatGPT」とコーディング用AIエージェント「Codex」の利用枠を共通にする。対象はPlus、Pro、Businessの各プランだ。これまで別々だった上限を一つの「財布」にまとめ、使用量はトークン単位で計測する。
 
@@ -93,7 +93,7 @@ ChatGPTとCodexを同じ枠にすることで、コーディングを多く使�
   summary: "米MITのフェドレンコ氏の研究室は、多言語のAI言語モデルを使って21言語の話者の脳活動を予測する研究を発表した。ある言語群で学ばせた予測モデルが、学習に使っていない別の言語、さらに別の言語族の話者の脳活動まで予測でき、脳には言語を超えて共通する「意味」の表し方があると結論づけた。",
   points: ["4つの言語族にまたがる21言語の話者の脳活動(fMRI)を多言語の言語モデルで予測", "学習に使っていない言語や別の言語族の話者にも、予測モデルがそのまま当てはまった", "言語の違いを超えて共有される「意味の空間」が脳にあることを示すとする。1言語あたりの被験者が少ないなどの限界も指摘されている"],
   url: "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
-  image: null,
+  image: "https://news.mit.edu/sites/default/files/images/202611/mit-mcgovern-languages.jpg",
   content: `## 概要
 米マサチューセッツ工科大学(MIT)マクガバン脳研究所のエヴェリナ・フェドレンコ氏の研究室は、多言語のAI言語モデルを使って21言語の話者の脳の反応を予測した研究を発表した。AIモデルの内部表現は、どの言語でも脳の反応をよく予測した。さらに、一部の言語で学ばせた予測モデルが、学習に使っていない別の言語の話者にもそのまま通用した。研究チームは、脳が言語の違いを超えて「意味」を共通の形で表している証拠だとみている。
 
@@ -129,7 +129,7 @@ AI開発の側から見ると、言語の違いを超えた共通の意味表現
   summary: "デロイト トーマツ グループが国内企業を対象に生成AIの活用状況を調べた結果を、ITmediaが11月27日に報じた。生成AIの登場後に人員の配置転換をしているとの回答は全体の46.7%で、生成AIを全社で導入しているとの回答は62.1%に増えた。",
   points: ["生成AIの登場後に「人員の配置転換を行っている」との回答は46.7%", "生成AIを「全社的に導入している」との回答は62.1%に増加", "生成AIの登場で人員が増えた部門と減った部門も調べている"],
   url: "https://www.itmedia.co.jp/aiplus/article/2611/27/2000003505/",
-  image: null,
+  image: "https://www.itmedia.co.jp/aiplus/article/ogp/2611/27/2000003505/10013096/2048",
   content: `## 概要
 デロイト トーマツ グループが国内企業を対象に行った生成AIの活用調査の結果を、ITmedia AI+が11月27日に報じた。生成AIの登場後に人員の配置転換をしているとの回答は46.7%と半数近くに達し、生成AIを全社で導入しているとの回答は62.1%に増えた。導入が広がるにつれ、AIが職場の人員配置を変え始めている様子が浮かんだ。
 
