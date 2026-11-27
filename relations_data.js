@@ -17,7 +17,7 @@
 //   person:  type="talent" のみ。移籍した人物名（人材は人物単位で1エッジ。同じ企業ペアの複数エッジ可）
 //   source:  出典URL（全エッジ必須）。古い関係も履歴として残す（削除しない）。
 window.RELATIONS = {
-  updated: "2026-11-21",
+  updated: "2026-11-28",
   nodes: [
     // AIラボ
     { id: "openai",       label: "OpenAI",       sector: "lab" },
@@ -174,6 +174,8 @@ window.RELATIONS = {
     { id: "modine",       label: "Modine",       sector: "app" },
     { id: "pragmatik",    label: "Pragmatik Labs", sector: "lab" },
     { id: "geely",        label: "Geely",        sector: "invest" },
+    { id: "decart",       label: "Decart",       sector: "app" },
+    { id: "worldlabs",    label: "World Labs",   sector: "lab" },
   ],
   edges: [
     // ── 出資・資金調達 (invest) ──
@@ -821,6 +823,12 @@ window.RELATIONS = {
       source: "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/" },
     { from: "geely", to: "pragmatik", type: "invest", threads: ["china", "labs"], amount: null, status: "reported",
       label: "評価額50億ドル(8月の20億ドルから2.5倍)の数千万ドル規模のラウンドに親会社が参加とBloomberg報道。HyT Capital・CDHも出資", date: "2026-11",
-      source: "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/" }
+      source: "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/" },
+    { from: "amazon", to: "decart", type: "ma", threads: ["talent", "semi"],
+      label: "AIモデルを少ない計算資源で速く動かす最適化技術と創業者チームを取得(AIモデル本体は対象外)。自社チップ部門Annapurna経由でTrainium・Inferentiaの性能向上に生かす", date: "2026-11",
+      source: "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html" },
+    { from: "amd", to: "worldlabs", type: "ma", threads: ["talent", "semi"],
+      label: "フェイフェイ・リー氏のWorld Labsを約82億ドルの全額株式取引で買収完了。リー氏はAMDのチーフサイエンティストとしてリサ・スーCEO直属に", date: "2026-11",
+      source: "https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/" }
   ]
 };
